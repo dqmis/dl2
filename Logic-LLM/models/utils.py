@@ -4,11 +4,11 @@ import os
 import asyncio
 from typing import Any
 
-@backoff.on_exception(backoff.expo, openai.error.RateLimitError)
+# @backoff.on_exception(backoff.expo, openai.error.RateLimitError)
 def completions_with_backoff(**kwargs):
     return openai.Completion.create(**kwargs)
 
-@backoff.on_exception(backoff.expo, openai.error.RateLimitError)
+# @backoff.on_exception(backoff.expo, openai.error.RateLimitError)
 def chat_completions_with_backoff(**kwargs):
     return openai.ChatCompletion.create(**kwargs)
 
@@ -155,3 +155,72 @@ class OpenAIModel:
         )
         generated_text = response['choices'][0]['text'].strip()
         return generated_text
+
+
+import model_globals
+
+from vertexai.generative_models import GenerativeModel, GenerationConfig
+
+class GenimiModel:
+    def __init__(self, model_name, stop_words, max_new_tokens) -> None:
+        self.model_name = model_name
+        # max len of stop_sequences is 5 for genimi
+        self.stop_sequences = stop_words[:5]
+        generation_config = GenerationConfig(
+                # same as the params for the openai models as used in the code by Liangming Pan
+                temperature= 0.0,
+                top_p = 1.0,
+                max_output_tokens = max_new_tokens,
+                stop_sequences = self.stop_sequences,
+            )
+        self.LLM = GenerativeModel(model_name=self.model_name, generation_config=generation_config)
+
+    # used for genimi models
+    def genimi_generate(self, input_string):
+        response = self.LLM.generate_content(
+            [
+                input_string
+            ]
+        )
+        generated_text = response.text
+        return generated_text
+    
+
+    def generate(self, input_string):
+        if self.model_name in model_globals.GENIMI_MODEL_NAMES:
+            return self.genimi_generate(input_string)
+        else:
+            raise Exception("Model name not recognized")
+    
+    # async def dispatch_genimi_requests(self,
+    #     input_strings: list[list[dict[str,Any]]],
+    # ) -> list[str]:
+    #     async_responses = [self.LLM.generate_content_async(input_string)
+    #         for input_string in input_strings
+    #     ]
+    #     return await asyncio.gather(*async_responses)
+    
+
+    # def batch_genimi_generate(self, input_strings):
+    #     predictions = asyncio.run(
+    #         self.dispatch_genimi_requests(
+    #                 input_strings,
+    #         )
+    #     )
+    #     return [x.text for x in predictions]
+
+    async def dispatch_genimi_requests(self, input_string) -> str:
+        r = await self.LLM.generate_content_async([input_string])
+        return r.text
+
+    async def batch_genimi_generate(self, input_strings):
+        jobs = asyncio.gather(*[self.dispatch_genimi_requests(input_string) for input_string in input_strings])
+        results = await jobs
+        return results
+    
+    def batch_generate(self, input_strings):
+        if self.model_name in model_globals.GENIMI_MODEL_NAMES:
+            return self.batch_genimi_generate(input_strings)
+        else:
+            raise Exception("Model name not recognized")
+        
