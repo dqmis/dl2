@@ -5,8 +5,11 @@ import os
 from tqdm import tqdm
 from collections import OrderedDict
 from typing import Dict, List, Tuple
-from utils import OpenAIModel
+from utils import OpenAIModel, GenimiModel
 import argparse
+
+import model_globals
+
 
 class LogicProgramGenerator:
     def __init__(self, args):
@@ -17,7 +20,12 @@ class LogicProgramGenerator:
         self.model_name = args.model_name
         self.save_path = args.save_path
 
-        self.openai_api = OpenAIModel(args.api_key, args.model_name, args.stop_words, args.max_new_tokens)
+        if self.model_name in model_globals.GENIMI_MODEL_NAMES:
+            self.LLM = GenimiModel(args.model_name, args.stop_words, args.max_new_tokens)
+        else:
+            self.LLM = OpenAIModel(args.api_key, args.model_name, args.stop_words, args.max_new_tokens)
+
+
         self.prompt_creator = {'FOLIO': self.prompt_folio,
                                'ProntoQA': self.prompt_prontoqa,
                                'ProofWriter': self.prompt_proofwriter,
@@ -81,7 +89,7 @@ class LogicProgramGenerator:
             # create prompt
             try:
                 full_prompt = self.prompt_creator[self.dataset_name](example)
-                output = self.openai_api.generate(full_prompt)
+                output = self.LLM.generate(full_prompt)
                 # print(full_prompt)
                 programs = [output]
 
@@ -115,7 +123,8 @@ class LogicProgramGenerator:
             # create prompt
             full_prompts = [self.prompt_creator[self.dataset_name](example) for example in chunk]
             try:
-                batch_outputs = self.openai_api.batch_generate(full_prompts)
+                raise Exception("")
+                batch_outputs = self.LLM.batch_generate(full_prompts)
                 # create output
                 for sample, output in zip(chunk, batch_outputs):
                     programs = [output]
@@ -130,7 +139,7 @@ class LogicProgramGenerator:
                 # generate one by one if batch generation fails
                 for sample, full_prompt in zip(chunk, full_prompts):
                     try:
-                        output = self.openai_api.generate(full_prompt)
+                        output = self.LLM.generate(full_prompt)
                         programs = [output]
                         output = {'id': sample['id'], 
                                 'context': sample['context'],
