@@ -16,7 +16,7 @@ class MathVision(DatasetWrapper):
         self.output_dir = "outputs"
         self.data_dir = data_dir
 
-    def evaluate(self, model):
+    def evaluate(self):
         data = load_jsonl(
             f"{self.root_folder}/{self.root_data_dir}{self.data_dir}.json")
 
@@ -26,11 +26,16 @@ class MathVision(DatasetWrapper):
             for i in range(10):
                 question = question.replace(f'<image{i}>', '').strip()
 
-            response = model(question)
-            response['input'] = question
-            response['extra'] = point
-            path_out = f"{self.root_folder}/{self.output_dir}/"\
-                "{self.data_dir}.jsonl"
+            # TODO: check if the text prompt 'question' is enough, or if it should
+            # set the image_str or image_url variables
+            yield question, None, None
 
-            with open(path_out, 'a') as f:
-                f.write(json.dumps(response, ensure_ascii=False)+'\n')
+            # TODO: Post evaluate, use if needed, some new function to call, needed for each iteration
+            # response = model(question)
+            # response['input'] = question
+            # response['extra'] = point
+            # path_out = f"{self.root_folder}/{self.output_dir}/"\
+            #     "{self.data_dir}.jsonl"
+
+            # with open(path_out, 'a') as f:
+            #     f.write(json.dumps(response, ensure_ascii=False)+'\n')

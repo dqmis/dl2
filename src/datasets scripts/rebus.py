@@ -30,7 +30,10 @@ class Rebus(DatasetWrapper):
 
         return rows
 
-    def evaluate(self, model):
+    def evaluate(self):
+        def prompt_func(category):
+            return f"This rebus puzzle is a play on words based on images, and may contain text, logical operators, addition/subtraction of letters, and other forms of creative thinking to solve. Can you figure out what it is? The category for this puzzle is {category}; that is, your answer should match the category in order to be correct.\n\nTake a deep breath, and let's begin. You can think for as long as you want, until you get a correct answer in the category {category}. When you're done reasoning and thinking, output your final answer in three braces, like {{{{{{this}}}}}}.\n"
+
         for i in range(len(self.data)):
             current_row = self.data[i]
             filename = current_row[0]
@@ -38,36 +41,23 @@ class Rebus(DatasetWrapper):
             also_correct_answer = current_row[2]
             category = current_row[3]
 
-            prompt = f"This rebus puzzle is a play on words based on images, and may contain text, logical operators, addition/subtraction of letters, and other forms of creative thinking to solve. Can you figure out what it is? The category for this puzzle is {category}; that is, your answer should match the category in order to be correct.\n\nTake a deep breath, and let's begin. You can think for as long as you want, until you get a correct answer in the category {category}. When you're done reasoning and thinking, output your final answer in three braces, like {{{{{{this}}}}}}.\n"
+            prompt = prompt_func(category)
             url = f"https://cavendishlabs.org/rebus/images/{filename}"
+            yield prompt, None, url
 
-            try:
-                response = client.chat.completions.create(
-                    model="gpt-4-vision-preview",
-                    messages=[
-                        {
-                            "role": "user",
-                            "content": [
-                                {"type": "text", "text": prompt},
-                                {
-                                    "type": "image_url",
-                                    "image_url": {
-                                        "url": url,
-                                    },
-                                },
-                            ],
-                        }
-                    ],
-                    max_tokens=2000,
-                )
+            # messages = [
+            #     {
+            #         "role": "user",
+            #         "content": [
+            #             {"type": "text", "text": prompt},
+            #             {
+            #                 "type": "image_url",
+            #                 "image_url": {
+            #                     "url": url,
+            #                 },
+            #             },
+            #         ],
+            #     }
+            # ]
 
-                print(url)
-                print(response.choices[0].message.content)
-
-                # Write the output to a file
-                with open("gpt4v_output.txt", "a") as f:
-                    f.write(url + "\n")
-                    f.write(response.choices[0].message.content + "\n")
-                    f.write("\n\n")
-            except:
-                print("Error")
+            # yield messages
