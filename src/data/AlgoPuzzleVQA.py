@@ -9,6 +9,8 @@ from typing import Optional, List
 
 from dataset_wrapper import DatasetWrapper
 
+from utils import resize_image
+
 from LLM_PuzzleTest.AlgoPuzzleVQA.data_loading import (
     Data, Sample, convert_text_to_image, convert_image_to_text)
 from LLM_PuzzleTest.AlgoPuzzleVQA.modeling import select_model, EvalModel
@@ -93,15 +95,12 @@ class AlgoPuzzleVQA(DatasetWrapper):
             # Initial zero-shot prompting
             sample.prompt = self.prompter.base_prompter.run(sample)
             image = convert_text_to_image(sample.image_string)
-            self.resizer = EvalModel()
-            image_data = convert_image_to_text(
-                self.resizer.resize_image(image))
+            image_data = convert_image_to_text(resize_image(image))
             image_url = self.image_to_image_url(image)
             yield sample.prompt, image_data, image_url
 
     def image_to_image_url(self, image: Image):
-        image_text = convert_image_to_text(
-            self.resizer.resize_image(image))
+        image_text = convert_image_to_text(resize_image(image))
         url = f"data:image/jpeg;base64,{image_text}"
         return url
 
