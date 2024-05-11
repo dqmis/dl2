@@ -9,11 +9,11 @@ from typing import Optional, List
 
 from dataset_wrapper import DatasetWrapper
 
-from utils import resize_image
+# from utils import resize_image  #TODO: either use utils.py, or remove it
 
 from LLM_PuzzleTest.AlgoPuzzleVQA.data_loading import (
     Data, Sample, convert_text_to_image, convert_image_to_text)
-from LLM_PuzzleTest.AlgoPuzzleVQA.modeling import select_model, EvalModel
+from LLM_PuzzleTest.AlgoPuzzleVQA.modeling import EvalModel
 from LLM_PuzzleTest.AlgoPuzzleVQA.prompting import select_prompter
 
 
@@ -59,6 +59,8 @@ class AlgoPuzzleVQA(DatasetWrapper):
         self.data = Data.load_with_image_dir(self.type_data, img_dir)
         # model_name = kwargs.get("model_name")
 
+        self.resizer = EvalModel()
+
         self.progress = tqdm(self.data.samples, desc=self.path_out)
         self.prompter = select_prompter(prompt_name)
         # self.model = select_model(**kwargs)  # TODO: replace by Logic-LM
@@ -95,14 +97,10 @@ class AlgoPuzzleVQA(DatasetWrapper):
             # Initial zero-shot prompting
             sample.prompt = self.prompter.base_prompter.run(sample)
             image = convert_text_to_image(sample.image_string)
-            image_data = convert_image_to_text(resize_image(image))
-            image_url = self.image_to_image_url(image)
+            image_data = convert_image_to_text(
+                self.resizer.resize_image(image))
+            image_url = convert_image_to_text(image)
             yield sample.prompt, image_data, image_url
-
-    def image_to_image_url(self, image: Image):
-        image_text = convert_image_to_text(resize_image(image))
-        url = f"data:image/jpeg;base64,{image_text}"
-        return url
 
         # TODO: check if still needed
         # sample.raw_output = model.run(sample.prompt, image)
