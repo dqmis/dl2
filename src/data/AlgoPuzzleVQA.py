@@ -9,10 +9,10 @@ from typing import Optional, List
 
 from dataset_wrapper import DatasetWrapper
 
-from data.LLM_PuzzleTest.AlgoPuzzleVQA.data_loading import (
+from LLM_PuzzleTest.AlgoPuzzleVQA.data_loading import (
     Data, Sample, convert_text_to_image, convert_image_to_text)
-from data.LLM_PuzzleTest.AlgoPuzzleVQA.modeling import select_model, EvalModel
-from data.LLM_PuzzleTest.AlgoPuzzleVQA.prompting import select_prompter
+from LLM_PuzzleTest.AlgoPuzzleVQA.modeling import select_model, EvalModel
+from LLM_PuzzleTest.AlgoPuzzleVQA.prompting import select_prompter
 
 
 class Scorer(BaseModel):

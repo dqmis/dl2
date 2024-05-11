@@ -6,7 +6,7 @@ import json
 
 from dataset_wrapper import DatasetWrapper
 
-from data.MathVision.models.GPT4 import geninput, load_jsonl
+from MathVision.models.GPT4 import geninput, load_jsonl
 
 
 class MathVision(DatasetWrapper):
