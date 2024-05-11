@@ -159,6 +159,7 @@ class OpenAIModel:
 
 import model_globals
 
+import vertexai
 from vertexai.generative_models import GenerativeModel, GenerationConfig
 
 class GenimiModel:
@@ -166,6 +167,9 @@ class GenimiModel:
         self.model_name = model_name
         # max len of stop_sequences is 5 for genimi
         self.stop_sequences = stop_words[:5]
+        # init model
+        vertexai.init(project=model_globals.GENIMI_PROJECT_ID, location=model_globals.GENIMI_LOCATION, service_account=model_globals.GENIMI_SERVICE_ACCOUNT)
+
         generation_config = GenerationConfig(
                 # same as the params for the openai models as used in the code by Liangming Pan
                 temperature= 0.0,

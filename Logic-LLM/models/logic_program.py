@@ -123,7 +123,9 @@ class LogicProgramGenerator:
             # create prompt
             full_prompts = [self.prompt_creator[self.dataset_name](example) for example in chunk]
             try:
-                raise Exception("")
+                if self.LLM.model_name in model_globals.GENIMI_MODEL_NAMES:
+                    # our code for batching with genimi doesn't work yet 
+                    raise Exception("")
                 batch_outputs = self.LLM.batch_generate(full_prompts)
                 # create output
                 for sample, output in zip(chunk, batch_outputs):
