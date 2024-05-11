@@ -11,7 +11,7 @@ from dataset_wrapper import DatasetWrapper
 
 from data.LLM_PuzzleTest.AlgoPuzzleVQA.data_loading import (
     Data, Sample, convert_text_to_image, convert_image_to_text)
-from data.LLM_PuzzleTest.AlgoPuzzleVQA.modeling import select_model
+from data.LLM_PuzzleTest.AlgoPuzzleVQA.modeling import select_model, EvalModel
 from data.LLM_PuzzleTest.AlgoPuzzleVQA.prompting import select_prompter
 
 
@@ -59,9 +59,9 @@ class AlgoPuzzleVQA(DatasetWrapper):
 
         self.progress = tqdm(self.data.samples, desc=self.path_out)
         self.prompter = select_prompter(prompt_name)
-        self.model = select_model(**kwargs)  # TODO: replace by Logic-LM
-        self.set_model(prevent_direct_answer,
-                       use_describe_image_prompt)
+        # self.model = select_model(**kwargs)  # TODO: replace by Logic-LM
+        # self.set_model(prevent_direct_answer,
+        #                use_describe_image_prompt)
 
         # Information updated per iteration
 
@@ -93,24 +93,34 @@ class AlgoPuzzleVQA(DatasetWrapper):
             # Initial zero-shot prompting
             sample.prompt = self.prompter.base_prompter.run(sample)
             image = convert_text_to_image(sample.image_string)
-            yield sample.prompt, image, None
+            self.resizer = EvalModel()
+            image_data = convert_image_to_text(
+                self.resizer.resize_image(image))
+            image_url = self.image_to_image_url(image)
+            yield sample.prompt, image_data, image_url
 
-            # TODO: check if still needed
-            # sample.raw_output = model.run(sample.prompt, image)
-            # sample.pred = self.prompter.get_answer(
-            #     sample.raw_output, sample.options)
+    def image_to_image_url(self, image: Image):
+        image_text = convert_image_to_text(
+            self.resizer.resize_image(image))
+        url = f"data:image/jpeg;base64,{image_text}"
+        return url
 
-            # # Model-based extraction if prediction not valid
-            # if sample.pred not in sample.options:
-            #     sample.prompt = self.prompter.run(sample)
-            #     sample.raw_output = model.run(sample.prompt, image)
-            #     sample.pred = self.prompter.get_answer(
-            #         sample.raw_output, sample.options)
+        # TODO: check if still needed
+        # sample.raw_output = model.run(sample.prompt, image)
+        # sample.pred = self.prompter.get_answer(
+        #     sample.raw_output, sample.options)
 
-            # # Scoring
-            # self.is_correct.append(self.scorer.run(sample))
-            # score = sum(self.is_correct) / len(self.is_correct)
-            # self.progress.set_postfix(score=score)
-            # print(sample.json(indent=2, exclude={"image_string"}))
-            # print(dict(is_correct=self.is_correct[-1]))
-            # self.data.save(self.path_out)
+        # # Model-based extraction if prediction not valid
+        # if sample.pred not in sample.options:
+        #     sample.prompt = self.prompter.run(sample)
+        #     sample.raw_output = model.run(sample.prompt, image)
+        #     sample.pred = self.prompter.get_answer(
+        #         sample.raw_output, sample.options)
+
+        # # Scoring
+        # self.is_correct.append(self.scorer.run(sample))
+        # score = sum(self.is_correct) / len(self.is_correct)
+        # self.progress.set_postfix(score=score)
+        # print(sample.json(indent=2, exclude={"image_string"}))
+        # print(dict(is_correct=self.is_correct[-1]))
+        # self.data.save(self.path_out)

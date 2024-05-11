@@ -12,17 +12,18 @@ class DatasetWrapper:
 
     def evaluate(self):
         """
-        For-loop over examples in data. Yields the 'messages' list, which
-        includes the prompt, to give to an LLM.
+        For-loop over examples in data.
+
+        Per data point, yields the prompt, image_data and image_url.
         """
 
         # Template
         for i in range(len(self.data)):
             prompt = ""
 
-            # When using an image, either give the encoding or give the url.
-            # Set the other value to None.
-            image_string = None  # for AlgoPuzzleVQA dataset
+            # When using an image, set these values, which one is used depends
+            # on LLM
+            image_data = None  # for AlgoPuzzleVQA dataset
             image_url = None  # for Rebus dataset
 
             # TODO: maybe improve, it needs some generic return values,
@@ -31,4 +32,8 @@ class DatasetWrapper:
             # 'convert_image_to_text' or 'make_messages' are LLM-dependent and
             # can be handled through the LLM class instead of these
             # dataset classes
-            yield prompt, image_string, image_url
+            yield prompt, image_data, image_url
+
+        # inputs.append({"type": "image_url", "image_url": {"url": url}})
+
+        # return [{"role": "user", "content": inputs}]

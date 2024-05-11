@@ -27,7 +27,7 @@ class MathVision(DatasetWrapper):
                 question = question.replace(f'<image{i}>', '').strip()
 
             # TODO: check if the text prompt 'question' is enough, or if it should
-            # set the image_str or image_url variables
+            # set the image_data and image_url variables
             yield question, None, None
 
             # TODO: Post evaluate, use if needed, some new function to call, needed for each iteration
