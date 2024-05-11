@@ -158,7 +158,6 @@ class OpenAIModel:
 
 
 import model_globals
-
 import vertexai
 from vertexai.generative_models import GenerativeModel, GenerationConfig
 
