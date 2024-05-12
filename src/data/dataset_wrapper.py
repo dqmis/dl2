@@ -10,6 +10,12 @@ class DatasetWrapper:
         self.root_folder = None
         self.data = []
 
+    def set_model(self, model_name):
+        """
+        Set additional settings once the model is known.
+        """
+        pass
+
     def evaluate(self):
         """
         For-loop over examples in data.
