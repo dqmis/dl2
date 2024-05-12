@@ -29,7 +29,7 @@ def create_message_gemini_vision(prompt, image_data, image_url):
         return
 
     if image_data is not None:
-        return [prompt]
+        return [prompt, image_data]
 
     return prompt
 
