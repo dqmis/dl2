@@ -164,10 +164,10 @@ from vertexai.generative_models import GenerativeModel, GenerationConfig
 class GenimiModel:
     def __init__(self, model_name, stop_words, max_new_tokens) -> None:
         self.model_name = model_name
-        # max len of stop_sequences is 5 for genimi
+        # max len of stop_sequences is 5 for gemini
         self.stop_sequences = stop_words[:5]
         # init model
-        vertexai.init(project=model_globals.GENIMI_PROJECT_ID, location=model_globals.GENIMI_LOCATION, service_account=model_globals.GENIMI_SERVICE_ACCOUNT)
+        vertexai.init(project=model_globals.GEMINI_PROJECT_ID, location=model_globals.GEMINI_LOCATION, service_account=model_globals.GEMINI_SERVICE_ACCOUNT)
 
         generation_config = GenerationConfig(
                 # same as the params for the openai models as used in the code by Liangming Pan
@@ -178,8 +178,8 @@ class GenimiModel:
             )
         self.LLM = GenerativeModel(model_name=self.model_name, generation_config=generation_config)
 
-    # used for genimi models
-    def genimi_generate(self, input_string):
+    # used for gemini models
+    def gemini_generate(self, input_string):
         response = self.LLM.generate_content(
             [
                 input_string
@@ -190,12 +190,12 @@ class GenimiModel:
     
 
     def generate(self, input_string):
-        if self.model_name in model_globals.GENIMI_MODEL_NAMES:
-            return self.genimi_generate(input_string)
+        if self.model_name in model_globals.GEMINI_MODEL_NAMES:
+            return self.gemini_generate(input_string)
         else:
             raise Exception("Model name not recognized")
     
-    # async def dispatch_genimi_requests(self,
+    # async def dispatch_gemini_requests(self,
     #     input_strings: list[list[dict[str,Any]]],
     # ) -> list[str]:
     #     async_responses = [self.LLM.generate_content_async(input_string)
@@ -204,26 +204,26 @@ class GenimiModel:
     #     return await asyncio.gather(*async_responses)
     
 
-    # def batch_genimi_generate(self, input_strings):
+    # def batch_gemini_generate(self, input_strings):
     #     predictions = asyncio.run(
-    #         self.dispatch_genimi_requests(
+    #         self.dispatch_gemini_requests(
     #                 input_strings,
     #         )
     #     )
     #     return [x.text for x in predictions]
 
-    async def dispatch_genimi_requests(self, input_string) -> str:
+    async def dispatch_gemini_requests(self, input_string) -> str:
         r = await self.LLM.generate_content_async([input_string])
         return r.text
 
-    async def batch_genimi_generate(self, input_strings):
-        jobs = asyncio.gather(*[self.dispatch_genimi_requests(input_string) for input_string in input_strings])
+    async def batch_gemini_generate(self, input_strings):
+        jobs = asyncio.gather(*[self.dispatch_gemini_requests(input_string) for input_string in input_strings])
         results = await jobs
         return results
     
     def batch_generate(self, input_strings):
-        if self.model_name in model_globals.GENIMI_MODEL_NAMES:
-            return self.batch_genimi_generate(input_strings)
+        if self.model_name in model_globals.GEMINI_MODEL_NAMES:
+            return self.batch_gemini_generate(input_strings)
         else:
             raise Exception("Model name not recognized")
         

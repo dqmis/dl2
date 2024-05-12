@@ -20,7 +20,7 @@ class LogicProgramGenerator:
         self.model_name = args.model_name
         self.save_path = args.save_path
 
-        if self.model_name in model_globals.GENIMI_MODEL_NAMES:
+        if self.model_name in model_globals.GEMINI_MODEL_NAMES:
             self.LLM = GenimiModel(args.model_name, args.stop_words, args.max_new_tokens)
         else:
             self.LLM = OpenAIModel(args.api_key, args.model_name, args.stop_words, args.max_new_tokens)
@@ -123,8 +123,8 @@ class LogicProgramGenerator:
             # create prompt
             full_prompts = [self.prompt_creator[self.dataset_name](example) for example in chunk]
             try:
-                if self.LLM.model_name in model_globals.GENIMI_MODEL_NAMES:
-                    # our code for batching with genimi doesn't work yet 
+                if self.LLM.model_name in model_globals.GEMINI_MODEL_NAMES:
+                    # our code for batching with gemini doesn't work yet 
                     raise Exception("")
                 batch_outputs = self.LLM.batch_generate(full_prompts)
                 # create output
