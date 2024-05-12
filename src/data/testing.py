@@ -73,12 +73,12 @@ a = AlgoPuzzleVQA()
 b = MathVision()
 c = Rebus()
 
+for dataset_wrapper in [a, b, c]:
+    for model_name in ["gpt-4-vision-preview", "gemini-vision"]:
+        dataset_wrapper.set_model(model_name)
 
-for prompt, image_data, image_url in a.evaluate():
-    msg = send_message("gpt-4-vision-preview", prompt, image_data, image_url)
-    print(msg)
+        for prompt, image_data, image_url in a.evaluate():
+            msg = send_message(model_name, prompt, image_data, image_url)
+            print(msg)
 
-    print()
-
-    msg = send_message("gemini-vision", prompt, image_data, image_url)
-    print(msg)
+        print()

@@ -75,16 +75,14 @@ class AlgoPuzzleVQA(DatasetWrapper):
         """
         # GPT-4V sometimes becomes very lazy when prompted not to directly
         # give the final answer
-        if (
-            "openai" in model_name
-            or "llava" in model_name
-            or "claude" in model_name
-            or not self.prevent_direct_answer
-        ):
-            self.prompter.base_prompter.prevent_direct_answer = False
+        prevent_direct_answer = self.prevent_direct_answer and \
+            "openai" not in model_name and \
+            "llava"  not in model_name and \
+            "claude" not in model_name
 
-        if not self.use_describe_image_prompt:
-            self.prompter.base_prompter.use_describe_image_prompt = False
+        self.prompter.base.prompter.prevent_direct_answer = prevent_direct_answer
+
+        self.prompter.base_prompter.use_describe_image_prompt = self.use_describe_image_prompt
 
     def evaluate(self):
         for sample in self.progress:
