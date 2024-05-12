@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ar_lsat_200006_1-G_2_12",
+    "context": "A music store carries exactly ten types of CDs—both new and used of each of jazz, opera, pop, rap, and soul. The store is having a sale on some of these types of CDs. The following conditions must apply: Used pop is on sale; new opera is not. If both types of pop are on sale, then all soul is. If both types of jazz are on sale, then no rap is. If neither type of jazz is on sale, then new pop is. If either type of rap is on sale, then no soul is.",
+    "question": "If new soul is the only type of new CD on sale, then which one of the following CANNOT be true?",
+    "answer": "A",
+    "options": [
+      "A) Used jazz is not on sale.",
+      "B) Used opera is not on sale.",
+      "C) Used rap is not on sale.",
+      "D) Used soul is on sale.",
+      "E) Used soul is not on sale."
+    ],
+    "raw_logic_programs": [
+      "```python\n# Declarations\ncd_types = EnumSort([new_jazz, used_jazz, new_opera, used_opera, new_pop, used_pop, new_rap, used_rap, new_soul, used_soul])\non_sale = Function([cd_types] "
+    ]
+  },
+  {
+    "id": "ar_lsat_200006_1-G_2_13",
+    "context": "A music store carries exactly ten types of CDs—both new and used of each of jazz, opera, pop, rap, and soul. The store is having a sale on some of these types of CDs. The following conditions must apply: Used pop is on sale; new opera is not. If both types of pop are on sale, then all soul is. If both types of jazz are on sale, then no rap is. If neither type of jazz is on sale, then new pop is. If either type of rap is on sale, then no soul is.",
+    "question": "If exactly four of the five types of used CDs are the only CDs on sale, then which one of the following could be true?",
+    "answer": "C",
+    "options": [
+      "A) Used jazz is not on sale.",
+      "B) Used opera is not on sale.",
+      "C) Used rap is not on sale.",
+      "D) Neither type of jazz is on sale.",
+      "E) Neither type of rap and neither type of soul is on sale."
+    ],
+    "raw_logic_programs": [
+      "```\n# Declarations\ncd_types = EnumSort([jazz, opera, pop, rap, soul])\nsale_status = EnumSort([new, used])\non_sale = Function([cd_types, sale_status] "
+    ]
+  },
+  {
+    "id": "ar_lsat_200006_1-G_3_14",
+    "context": "During a single week, from Monday through Friday, tours will be conducted of a company's three divisions—Operations, Production, and Sales. Exactly five tours will be conducted that week, one each day. The schedule of tours for the week must conform to the following restrictions: Each division is toured at least once. The Operations division is not toured on Monday. The Production division is not toured on Wednesday. The Sales division is toured on two consecutive days, and on no other days. If the Operations division is toured on Thursday, then the Production division is toured on Friday.",
+    "question": "Which one of the following CANNOT be true of the week's tour schedule?",
+    "answer": "C",
+    "options": [
+      "A) The division that is toured on Monday is also toured on Tuesday.",
+      "B) The division that is toured on Monday is also toured on Friday.",
+      "C) The division that is toured on Tuesday is also toured on Thursday.",
+      "D) The division that is toured on Wednesday is also toured on Friday.",
+      "E) The division that is toured on Thursday is also toured on Friday."
+    ],
+    "raw_logic_programs": [
+      "```python\n# Declarations\ndays = EnumSort([Monday, Tuesday, Wednesday, Thursday, Friday])\ndivisions = EnumSort([Operations, Production, Sales])\ntours = Function([days] "
+    ]
+  }
+]

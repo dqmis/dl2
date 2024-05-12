@@ -1,0 +1,198 @@
+[
+  {
+    "id": "FOLIO_dev_0",
+    "context": "If people perform in school talent shows often, then they attend and are very engaged with school events. People either perform in school talent shows often or are inactive and disinterested members of their community. If people chaperone high school dances, then they are not students who attend the school. All people who are inactive and disinterested members of their community chaperone high school dances. All young children and teenagers who wish to further their academic careers and educational opportunities are students who attend the school. Bonnie either both attends and is very engaged with school events and is a student who attends the school, or she neither attends and is very engaged with school events nor is a student who attends the school.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Bonnie performs in school talent shows often.",
+    "answer": "C",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nPerform(x) ::: x performs in school talent shows often.\nAttend(x) ::: x attends and is very engaged with school events.\nInactive(x) ::: x is an inactive and disinterested member of their community.\nChaperone(x) ::: x chaperones high school dances.\nStudent(x) ::: x is a student who attends the school.\nYoung(x) ::: x is a young child or teenager.\nWish(x) ::: x wishes to further their academic careers and educational opportunities.\nPremises:\n∀x (Perform(x) → Attend(x)) ::: If people perform in school talent shows often, then they attend and are very engaged with school events.\n∀x (Perform(x) ⊕ Inactive(x)) ::: People either perform in school talent shows often or are inactive and disinterested members of their community.\n∀x (Chaperone(x) → ¬Student(x)) ::: If people chaperone high school dances, then they are not students who attend the school.\n∀x (Inactive(x) → Chaperone(x)) ::: All people who are inactive and disinterested members of their community chaperone high school dances.\n∀x ((Young(x) ∧ Wish(x)) → Student(x)) ::: All young children and teenagers who wish to further their academic careers and educational opportunities are students who attend the school.\n(Attend(bonnie) ∧ Student(bonnie)) ⊕ ¬(Attend(bonnie) ∨ Student(bonnie)) ::: Bonnie either both attends and is very engaged with school events and is a student who attends the school, or she neither attends and is very engaged with school events nor is a student who attends the school.\nConclusion:\nPerform(bonnie) ::: Bonnie performs in school talent shows often. \n"
+    ]
+  },
+  {
+    "id": "FOLIO_dev_1",
+    "context": "If people perform in school talent shows often, then they attend and are very engaged with school events. People either perform in school talent shows often or are inactive and disinterested members of their community. If people chaperone high school dances, then they are not students who attend the school. All people who are inactive and disinterested members of their community chaperone high school dances. All young children and teenagers who wish to further their academic careers and educational opportunities are students who attend the school. Bonnie either both attends and is very engaged with school events and is a student who attends the school, or she neither attends and is very engaged with school events nor is a student who attends the school.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If Bonnie is either both a young child or teenager who wishes to further her academic career and educational opportunities and chaperones high school dances or neither is a young child nor teenager who wishes to further her academic career and educational opportunities, then Bonnie is either a student who attends the school or is an inactive and disinterested member of the community.",
+    "answer": "A",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nPerform(x) ::: x performs in school talent shows often.\nAttend(x) ::: x attends and is very engaged with school events.\nInactive(x) ::: x is an inactive and disinterested member of their community.\nChaperone(x) ::: x chaperones high school dances.\nStudent(x) ::: x is a student who attends the school.\nYoung(x) ::: x is a young child or teenager who wishes to further their academic career and educational opportunities.\nPremises:\n∀x (Perform(x) → Attend(x)) ::: If people perform in school talent shows often, then they attend and are very engaged with school events.\n∀x (Perform(x) ⊕ Inactive(x)) ::: People either perform in school talent shows often or are inactive and disinterested members of their community.\n∀x (Chaperone(x) → ¬Student(x)) ::: If people chaperone high school dances, then they are not students who attend the school.\n∀x (Inactive(x) → Chaperone(x)) ::: All people who are inactive and disinterested members of their community chaperone high school dances.\n∀x (Young(x) → Student(x)) ::: All young children and teenagers who wish to further their academic careers and educational opportunities are students who attend the school.\n(Attend(bonnie) ∧ Student(bonnie)) ⊕ ¬(Attend(bonnie) ∨ Student(bonnie)) ::: Bonnie either both attends and is very engaged with school events and is a student who attends the school, or she neither attends and is very engaged with school events nor is a student who attends the school.\nConclusion:\n((Young(bonnie) ∧ Chaperone(bonnie)) ⊕ ¬Young(bonnie)) → (Student(bonnie) ⊕ Inactive(bonnie)) ::: If Bonnie is either both a young child or teenager who wishes to further her academic career and educational opportunities and chaperones high school dances or neither is a young child nor teenager who wishes to further her academic career and educational opportunities, then Bonnie is either a student who attends the school or is an inactive and disinterested member of the community. \n"
+    ]
+  },
+  {
+    "id": "FOLIO_dev_2",
+    "context": "If people perform in school talent shows often, then they attend and are very engaged with school events. People either perform in school talent shows often or are inactive and disinterested members of their community. If people chaperone high school dances, then they are not students who attend the school. All people who are inactive and disinterested members of their community chaperone high school dances. All young children and teenagers who wish to further their academic careers and educational opportunities are students who attend the school. Bonnie either both attends and is very engaged with school events and is a student who attends the school, or she neither attends and is very engaged with school events nor is a student who attends the school.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If Bonnie either chaperones high school dances or, if she does not, she performs in school talent shows often, then Bonnie is both a young child or teenager who wishes to further her academic career and educational opportunities and an inactive and disinterested member of the community.",
+    "answer": "B",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nPerform(x) ::: x performs in school talent shows often.\nAttend(x) ::: x attends and is very engaged with school events.\nInactive(x) ::: x is an inactive and disinterested member of their community.\nChaperone(x) ::: x chaperones high school dances.\nStudent(x) ::: x is a student who attends the school.\nYoung(x) ::: x is a young child or teenager who wishes to further their academic career and educational opportunities.\nPremises:\n∀x (Perform(x) → Attend(x)) ::: If people perform in school talent shows often, then they attend and are very engaged with school events.\n∀x (Perform(x) ⊕ Inactive(x)) ::: People either perform in school talent shows often or are inactive and disinterested members of their community.\n∀x (Chaperone(x) → ¬Student(x)) ::: If people chaperone high school dances, then they are not students who attend the school.\n∀x (Inactive(x) → Chaperone(x)) ::: All people who are inactive and disinterested members of their community chaperone high school dances.\n∀x (Young(x) → Student(x)) ::: All young children and teenagers who wish to further their academic careers and educational opportunities are students who attend the school.\n(Attend(bonnie) ∧ Student(bonnie)) ⊕ ¬(Attend(bonnie) ∨ Student(bonnie)) ::: Bonnie either both attends and is very engaged with school events and is a student who attends the school, or she neither attends and is very engaged with school events nor is a student who attends the school.\nConclusion:\n(Chaperone(bonnie) ⊕ (¬Chaperone(bonnie) → Perform(bonnie))) → (Young(bonnie) ∧ Inactive(bonnie)) ::: If Bonnie either chaperones high school dances or, if she does not, she performs in school talent shows often, then Bonnie is both a young child or teenager who wishes to further her academic career and educational opportunities and an inactive and disinterested member of the community. \n"
+    ]
+  },
+  {
+    "id": "FOLIO_dev_3",
+    "context": "All employees who schedule a meeting with their customers will appear in the company today. Everyone who has lunch in the company schedules meetings with their customers. Employees will either have lunch in the company or have lunch at home. If an employee has lunch at home, then he/she is working remotely from home. All employees who are in other countries work remotely from home. No managers work remotely from home. James is either a manager and appears in the company today or neither a manager nor appears in the company today.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? James has lunch in the company.",
+    "answer": "C",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nSchedule(x) ::: x is an employee who schedules a meeting with their customers.\nAppear(x) ::: x is an employee who appears in the company today.\nLunchInCompany(x) ::: x is an employee who has lunch in the company.\nLunchAtHome(x) ::: x is an employee who has lunch at home.\nWorkRemotely(x) ::: x is an employee who works remotely from home.\nOtherCountry(x) ::: x is an employee who is in other countries.\nManager(x) ::: x is a manager.\nPremises:\n∀x (Schedule(x) → Appear(x)) ::: All employees who schedule a meeting with their customers will appear in the company today.\n∀x (LunchInCompany(x) → Schedule(x)) ::: Everyone who has lunch in the company schedules meetings with their customers.\n∀x (LunchInCompany(x) ⊕ LunchAtHome(x)) ::: Employees will either have lunch in the company or have lunch at home.\n∀x (LunchAtHome(x) → WorkRemotely(x)) ::: If an employee has lunch at home, then he/she is working remotely from home.\n∀x (OtherCountry(x) → WorkRemotely(x)) ::: All employees who are in other countries work remotely from home.\n∀x (Manager(x) → ¬WorkRemotely(x)) ::: No managers work remotely from home.\n(Manager(james) ∧ Appear(james)) ⊕ ¬(Manager(james) ∨ Appear(james)) ::: James is either a manager and appears in the company today or neither a manager nor appears in the company today.\nConclusion:\nLunchInCompany(james) ::: James has lunch in the company. \n"
+    ]
+  },
+  {
+    "id": "FOLIO_dev_4",
+    "context": "All employees who schedule a meeting with their customers will appear in the company today. Everyone who has lunch in the company schedules meetings with their customers. Employees will either have lunch in the company or have lunch at home. If an employee has lunch at home, then he/she is working remotely from home. All employees who are in other countries work remotely from home. No managers work remotely from home. James is either a manager and appears in the company today or neither a manager nor appears in the company today.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? James does not have lunch in the company.",
+    "answer": "C",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nSchedule(x) ::: x is an employee who schedules a meeting with their customers.\nAppear(x) ::: x is an employee who appears in the company today.\nLunchInCompany(x) ::: x is an employee who has lunch in the company.\nLunchAtHome(x) ::: x is an employee who has lunch at home.\nWorkRemotely(x) ::: x is an employee who works remotely from home.\nOtherCountry(x) ::: x is an employee who is in other countries.\nManager(x) ::: x is a manager.\nPremises:\n∀x (Schedule(x) → Appear(x)) ::: All employees who schedule a meeting with their customers will appear in the company today.\n∀x (LunchInCompany(x) → Schedule(x)) ::: Everyone who has lunch in the company schedules meetings with their customers.\n∀x (LunchInCompany(x) ⊕ LunchAtHome(x)) ::: Employees will either have lunch in the company or have lunch at home.\n∀x (LunchAtHome(x) → WorkRemotely(x)) ::: If an employee has lunch at home, then he/she is working remotely from home.\n∀x (OtherCountry(x) → WorkRemotely(x)) ::: All employees who are in other countries work remotely from home.\n∀x (Manager(x) → ¬WorkRemotely(x)) ::: No managers work remotely from home.\n(Manager(james) ∧ Appear(james)) ⊕ ¬(Manager(james) ∨ Appear(james)) ::: James is either a manager and appears in the company today or neither a manager nor appears in the company today.\nConclusion:\n¬LunchInCompany(james) ::: James does not have lunch in the company. \n"
+    ]
+  },
+  {
+    "id": "FOLIO_dev_5",
+    "context": "All employees who schedule a meeting with their customers will appear in the company today. Everyone who has lunch in the company schedules meetings with their customers. Employees will either have lunch in the company or have lunch at home. If an employee has lunch at home, then he/she is working remotely from home. All employees who are in other countries work remotely from home. No managers work remotely from home. James is either a manager and appears in the company today or neither a manager nor appears in the company today.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If James is either a manager or in other countries,  then James either has lunch at home and works remotely from home, or neither has lunch at home nor works remotely from home.",
+    "answer": "A",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nSchedule(x) ::: x is an employee who schedules a meeting with their customers.\nAppear(x) ::: x is an employee who appears in the company today.\nLunchInCompany(x) ::: x is an employee who has lunch in the company.\nLunchAtHome(x) ::: x is an employee who has lunch at home.\nWorkRemotely(x) ::: x is an employee who works remotely from home.\nOtherCountries(x) ::: x is an employee who is in other countries.\nManager(x) ::: x is a manager.\nPremises:\n∀x (Schedule(x) → Appear(x)) ::: All employees who schedule a meeting with their customers will appear in the company today.\n∀x (LunchInCompany(x) → Schedule(x)) ::: Everyone who has lunch in the company schedules meetings with their customers.\n∀x (LunchInCompany(x) ⊕ LunchAtHome(x)) ::: Employees will either have lunch in the company or have lunch at home.\n∀x (LunchAtHome(x) → WorkRemotely(x)) ::: If an employee has lunch at home, then he/she is working remotely from home.\n∀x (OtherCountries(x) → WorkRemotely(x)) ::: All employees who are in other countries work remotely from home.\n∀x (Manager(x) → ¬WorkRemotely(x)) ::: No managers work remotely from home.\n(Manager(james) ∧ Appear(james)) ⊕ ¬(Manager(james) ∨ Appear(james)) ::: James is either a manager and appears in the company today or neither a manager nor appears in the company today.\nConclusion:\n(Manager(james) ∨ OtherCountries(james)) → ((LunchAtHome(james) ∧ WorkRemotely(james)) ⊕ ¬(LunchAtHome(james) ∨ WorkRemotely(james))) ::: If James is either a manager or in other countries,  then James either has lunch at home and works remotely from home, or neither has lunch at home nor works remotely from home. \n"
+    ]
+  },
+  {
+    "id": "FOLIO_dev_13",
+    "context": "A Japanese game company created the game the Legend of Zelda. All games in the Top 10 list are made by Japanese game companies. [BG] If a game sells more than one million copies, then it will be selected into the Top 10 list. The Legend of Zelda sold more than one million copies.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? FIFA 22 is made by a Japanese video game company.",
+    "answer": "C",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nJapaneseCompany(x) ::: x is a Japanese game company.\nGame(x) ::: x is a game.\nTop10(x) ::: x is in the Top 10 list.\nCreate(x, y) ::: x creates y.\nSell(x, y) ::: x sells more than y copies.\nPremises:\n∃x (JapaneseCompany(x) ∧ Create(x, legendOfZelda)) ::: A Japanese game company created the game the Legend of Zelda.\n∀x (Top10(x) → ∃y (JapaneseCompany(y) ∧ Create(y, x))) ::: All games in the Top 10 list are made by Japanese game companies.\n∀x (Sell(x, 1000000) → Top10(x)) ::: If a game sells more than one million copies, then it will be selected into the Top 10 list.\nSell(legendOfZelda, 1000000) ::: The Legend of Zelda sold more than one million copies.\nConclusion:\n∃x (JapaneseCompany(x) ∧ Create(x, fifa22)) ::: FIFA 22 is made by a Japanese video game company. \n"
+    ]
+  },
+  {
+    "id": "FOLIO_dev_14",
+    "context": "A Japanese game company created the game the Legend of Zelda. All games in the Top 10 list are made by Japanese game companies. [BG] If a game sells more than one million copies, then it will be selected into the Top 10 list. The Legend of Zelda sold more than one million copies.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? The Legend of Zelda is not in the Top 10 list.",
+    "answer": "B",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nJapaneseCompany(x) ::: x is a Japanese game company.\nGame(x) ::: x is a game.\nCreate(x, y) ::: x creates y.\nTop10(x) ::: x is in the Top 10 list.\nSell(x, y) ::: x sells more than y copies.\nPremises:\n∃x (JapaneseCompany(x) ∧ Create(x, legendOfZelda)) ::: A Japanese game company created the game the Legend of Zelda.\n∀x (Top10(x) → ∃y (JapaneseCompany(y) ∧ Create(y, x))) ::: All games in the Top 10 list are made by Japanese game companies.\n∀x (Sell(x, million) → Top10(x)) ::: If a game sells more than one million copies, then it will be selected into the Top 10 list.\nSell(legendOfZelda, million) ::: The Legend of Zelda sold more than one million copies.\nConclusion:\n¬Top10(legendOfZelda) ::: The Legend of Zelda is not in the Top 10 list. \n"
+    ]
+  },
+  {
+    "id": "FOLIO_dev_15",
+    "context": "All squares have four sides. All four-sided things are shapes.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? All squares are shapes.",
+    "answer": "A",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nSquare(x) ::: x is a square.\nFourSides(x) ::: x has four sides.\nShape(x) ::: x is a shape.\nPremises:\n∀x (Square(x) → FourSides(x)) ::: All squares have four sides.\n∀x (FourSides(x) → Shape(x)) ::: All four"
+    ]
+  },
+  {
+    "id": "FOLIO_dev_24",
+    "context": "Beijing is the capital of the People's Republic of China. Beijing is the world's most populous national capital city. Beijing is located in Northern China. Beijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games. Beijing has hosted both the Summer and Winter Olympics, along with the Summer and Winter Paralympics Many of Beijing's 91 universities consistently rank among the best in the Asia-Pacific and the world.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Beijing has hosted both the 2008 Summer Olympics and a winter olympics.",
+    "answer": "A",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nCapital(x, y) ::: x is the capital of y.\nPopulous(x) ::: x is the world's most populous national capital city.\nLocated(x, y) ::: x is located in y.\nHost(x, y) ::: x hosted y.\nUniversity(x) ::: x is a university.\nRank(x, y) ::: x ranks among the best in y.\nPremises:\nCapital(beijing, china) ∧ Populous(beijing) ∧ Located(beijing, northernChina) ∧ Host(beijing, summerOlympics2008) ∧ Host(beijing, summerParalympics2008) ::: Beijing is the capital of the People's Republic of China. Beijing is the world's most populous national capital city. Beijing is located in Northern China. Beijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games.\n∃x (Host(beijing, summerOlympics) ∧ Host(beijing, winterOlympics) ∧ Host(beijing, summerParalympics) ∧ Host(beijing, winterParalympics)) ::: Beijing has hosted both the Summer and Winter Olympics, along with the Summer and Winter Paralympics\n∃x (University(x) ∧ Located(x, beijing) ∧ Rank(x, asiaPacific) ∧ Rank(x, world)) ::: Many of Beijing's 91 universities consistently rank among the best in the Asia"
+    ]
+  },
+  {
+    "id": "FOLIO_dev_25",
+    "context": "Beijing is the capital of the People's Republic of China. Beijing is the world's most populous national capital city. Beijing is located in Northern China. Beijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games. Beijing has hosted both the Summer and Winter Olympics, along with the Summer and Winter Paralympics Many of Beijing's 91 universities consistently rank among the best in the Asia-Pacific and the world.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Beijing is located in southern China.",
+    "answer": "C",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nCapital(x, y) ::: x is the capital of y.\nPopulous(x) ::: x is the world's most populous national capital city.\nLocated(x, y) ::: x is located in y.\nHost(x, y) ::: x hosts y.\nUniversity(x) ::: x is a university.\nRank(x, y) ::: x ranks among the best in y.\nPremises:\nCapital(beijing, china) ∧ Populous(beijing) ∧ Located(beijing, northernChina) ∧ Host(beijing, summerOlympics2008) ∧ Host(beijing, summerParalympics2008) ::: Beijing is the capital of the People's Republic of China. Beijing is the world's most populous national capital city. Beijing is located in Northern China. Beijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games. \n∃x (University(x) ∧ Located(x, beijing) ∧ Rank(x, asiaPacific) ∧ Rank(x, world)) ::: Many of Beijing's 91 universities consistently rank among the best in the Asia"
+    ]
+  },
+  {
+    "id": "FOLIO_dev_26",
+    "context": "Beijing is the capital of the People's Republic of China. Beijing is the world's most populous national capital city. Beijing is located in Northern China. Beijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games. Beijing has hosted both the Summer and Winter Olympics, along with the Summer and Winter Paralympics Many of Beijing's 91 universities consistently rank among the best in the Asia-Pacific and the world.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Beijing is the second largest Chinese city by urban population.",
+    "answer": "C",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nCapital(x, y) ::: x is the capital of y.\nPopulous(x) ::: x is the world's most populous national capital city.\nLocate(x, y) ::: x is located in y.\nHost(x, y) ::: x hosts y.\nUniversity(x) ::: x is a university.\nRank(x, y) ::: x ranks among the best in y.\nPremises:\nCapital(beijing, china) ∧ Populous(beijing) ∧ Locate(beijing, northernChina) ∧ Host(beijing, summerOlympics2008) ∧ Host(beijing, summerParalympics2008) ::: Beijing is the capital of the People's Republic of China. Beijing is the world's most populous national capital city. Beijing is located in Northern China. Beijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games.\n∃x (University(x) ∧ Locate(x, beijing) ∧ Rank(x, asiaPacific) ∧ Rank(x, world)) ::: Many of Beijing's 91 universities consistently rank among the best in the Asia"
+    ]
+  },
+  {
+    "id": "FOLIO_dev_27",
+    "context": "All aliens are extraterrestrial. If someone is from Mars, then they are aliens. No extraterrestrial is human. Everyone from Earth is a human. Marvin cannot be from Earth and from Mars. If Marvin is not from Earth, then Marvin is an extraterrestrial.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Marvin is an alien.",
+    "answer": "B",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nAlien(x) ::: x is an alien.\nExtraterrestrial(x) ::: x is an extraterrestrial.\nFromMars(x) ::: x is from Mars.\nHuman(x) ::: x is a human.\nFromEarth(x) ::: x is from Earth.\nPremises:\n∀x (Alien(x) → Extraterrestrial(x)) ::: All aliens are extraterrestrial.\n∀x (FromMars(x) → Alien(x)) ::: If someone is from Mars, then they are aliens.\n∀x (Extraterrestrial(x) → ¬Human(x)) ::: No extraterrestrial is human.\n∀x (FromEarth(x) → Human(x)) ::: Everyone from Earth is a human.\n¬(FromEarth(marvin) ∧ FromMars(marvin)) ::: Marvin cannot be from Earth and from Mars.\n¬FromEarth(marvin) → Extraterrestrial(marvin) ::: If Marvin is not from Earth, then Marvin is an extraterrestrial.\nConclusion:\nAlien(marvin) ::: Marvin is an alien. \n"
+    ]
+  },
+  {
+    "id": "FOLIO_dev_28",
+    "context": "All aliens are extraterrestrial. If someone is from Mars, then they are aliens. No extraterrestrial is human. Everyone from Earth is a human. Marvin cannot be from Earth and from Mars. If Marvin is not from Earth, then Marvin is an extraterrestrial.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Marvin is neither a human nor from Mars.",
+    "answer": "A",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nAlien(x) ::: x is an alien.\nExtraterrestrial(x) ::: x is an extraterrestrial.\nFromMars(x) ::: x is from Mars.\nHuman(x) ::: x is a human.\nFromEarth(x) ::: x is from Earth.\nPremises:\n∀x (Alien(x) → Extraterrestrial(x)) ::: All aliens are extraterrestrial.\n∀x (FromMars(x) → Alien(x)) ::: If someone is from Mars, then they are aliens.\n∀x (Extraterrestrial(x) → ¬Human(x)) ::: No extraterrestrial is human.\n∀x (FromEarth(x) → Human(x)) ::: Everyone from Earth is a human.\n¬(FromEarth(marvin) ∧ FromMars(marvin)) ::: Marvin cannot be from Earth and from Mars.\n¬FromEarth(marvin) → Extraterrestrial(marvin) ::: If Marvin is not from Earth, then Marvin is an extraterrestrial.\nConclusion:\n¬Human(marvin) ∧ ¬FromMars(marvin) ::: Marvin is neither a human nor from Mars. \n"
+    ]
+  }
+]
