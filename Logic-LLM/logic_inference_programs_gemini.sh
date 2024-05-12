@@ -2,16 +2,18 @@
 
 eval "$(conda shell.bash hook)"
 conda deactivate
-conda activate DL2
+conda activate solver
 
 tasks=("ProntoQA" "ProofWriter" "FOLIO" "LogicalDeduction" "AR-LSAT")
+
+gemini_model="gemini-1.5-pro-preview-0409"
 
 for task in "${tasks[@]}"
     do
         echo "Running program with task: $task"
-        python3 ./models/logic_program.py \
+        python3 ./models/logic_inference.py \
+            --model_name "$gemini_model" \
             --dataset_name "$task" \
             --split dev \
-            --model_name gemini-1.5-pro-preview-0409 \
-            --max_new_tokens 1024
+            --backup_strategy random
     done
