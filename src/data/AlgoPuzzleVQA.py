@@ -2,7 +2,6 @@
 Dataset wrapper for AlgoPuzzleVQA, adapted from its main.py file.
 """
 
-from pydantic import BaseModel
 from tqdm import tqdm
 from PIL import Image
 from typing import Optional, List
@@ -16,17 +15,6 @@ from LLM_PuzzleTest.AlgoPuzzleVQA.data_loading import (
 from LLM_PuzzleTest.AlgoPuzzleVQA.modeling import EvalModel
 from LLM_PuzzleTest.AlgoPuzzleVQA.prompting import select_prompter
 
-
-class Scorer(BaseModel):
-    def run(self, sample: Sample) -> float:
-        raise NotImplementedError
-
-
-class ExactScorer(Scorer):
-    def run(self, sample: Sample) -> float:
-        if sample.pred == sample.answer:
-            return 1.0
-        return 0.0
 
 
 class AlgoPuzzleVQA(DatasetWrapper):
@@ -49,8 +37,6 @@ class AlgoPuzzleVQA(DatasetWrapper):
         # to be used
         self.data_dir = data_dir
 
-        # Type of scorer
-        self.scorer = ExactScorer()
 
         # Output file
         self.path_out = f"{self.root_folder}/{self.root_data}/{self.data_dir}"\
@@ -101,23 +87,3 @@ class AlgoPuzzleVQA(DatasetWrapper):
                 self.resizer.resize_image(image))
             image_url = convert_image_to_text(image)
             yield sample.prompt, image_data, image_url
-
-        # TODO: check if still needed
-        # sample.raw_output = model.run(sample.prompt, image)
-        # sample.pred = self.prompter.get_answer(
-        #     sample.raw_output, sample.options)
-
-        # # Model-based extraction if prediction not valid
-        # if sample.pred not in sample.options:
-        #     sample.prompt = self.prompter.run(sample)
-        #     sample.raw_output = model.run(sample.prompt, image)
-        #     sample.pred = self.prompter.get_answer(
-        #         sample.raw_output, sample.options)
-
-        # # Scoring
-        # self.is_correct.append(self.scorer.run(sample))
-        # score = sum(self.is_correct) / len(self.is_correct)
-        # self.progress.set_postfix(score=score)
-        # print(sample.json(indent=2, exclude={"image_string"}))
-        # print(dict(is_correct=self.is_correct[-1]))
-        # self.data.save(self.path_out)

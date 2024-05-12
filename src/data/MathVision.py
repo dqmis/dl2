@@ -29,13 +29,3 @@ class MathVision(DatasetWrapper):
             # TODO: check if the text prompt 'question' is enough, or if it should
             # set the image_data and image_url variables
             yield question, None, None
-
-            # TODO: Post evaluate, use if needed, some new function to call, needed for each iteration
-            # response = model(question)
-            # response['input'] = question
-            # response['extra'] = point
-            # path_out = f"{self.root_folder}/{self.output_dir}/"\
-            #     "{self.data_dir}.jsonl"
-
-            # with open(path_out, 'a') as f:
-            #     f.write(json.dumps(response, ensure_ascii=False)+'\n')
