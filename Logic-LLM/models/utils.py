@@ -160,6 +160,8 @@ class OpenAIModel:
 import model_globals
 import vertexai
 from vertexai.generative_models import GenerativeModel, GenerationConfig
+import time
+from google.api_core.exceptions import ResourceExhausted
 
 class GenimiModel:
     def __init__(self, model_name, stop_words, max_new_tokens) -> None:
@@ -178,15 +180,33 @@ class GenimiModel:
             )
         self.LLM = GenerativeModel(model_name=self.model_name, generation_config=generation_config)
 
-    # used for gemini models
-    def gemini_generate(self, input_string):
-        response = self.LLM.generate_content(
-            [
-                input_string
-            ]
-        )
-        generated_text = response.text
-        return generated_text
+    # # used for gemini models
+    # def gemini_generate(self, input_string):
+    #     response = self.LLM.generate_content(
+    #         [
+    #             input_string
+    #         ]
+    #     )
+    #     generated_text = response.text
+    #     return generated_text
+    
+    def gemini_generate(self, input_string, max_retries=10, max_wait_time=120):
+        start_time = time.time()
+        retry_count = 0
+        backoff_factor = 1
+
+        while retry_count < max_retries and (time.time() - start_time) < max_wait_time:
+            try:
+                response = self.LLM.generate_content([input_string])
+                generated_text = response.text
+                return generated_text
+            except ResourceExhausted as e:
+                print(f"Rate limited, retrying in {backoff_factor} seconds...")
+                time.sleep(backoff_factor)
+                backoff_factor *= 2  # Exponential backoff
+                retry_count += 1
+
+        raise Exception("Failed after multiple retries or maximum wait time exceeded")
     
 
     def generate(self, input_string):
