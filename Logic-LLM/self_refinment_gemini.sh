@@ -16,6 +16,6 @@ for task in "${tasks[@]}"
             --model_name "$gemini_model" \
             --dataset_name "$task" \
             --split dev \
-            --backup_strategy random
+            --backup_strategy random \
             --maximum_rounds 3
     done
