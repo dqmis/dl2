@@ -7,6 +7,7 @@ conda activate solver
 tasks=("ProntoQA" "ProofWriter" "FOLIO" "LogicalDeduction" "AR-LSAT")
 
 gemini_model="gemini-1.5-pro-preview-0409"
+# gemini_model="gemini-1.0-pro-vision-001"
 
 for task in "${tasks[@]}"
     do
