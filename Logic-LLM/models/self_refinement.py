@@ -9,7 +9,8 @@ from symbolic_solvers.fol_solver.prover9_solver import FOL_Prover9_Program
 import argparse
 import random
 from backup_answer_generation import Backup_Answer_Generator
-from utils import OpenAIModel
+from utils import OpenAIModel, GenimiModel
+import model_globals
 
 class SelfRefinementEngine:
     def __init__(self, args, current_round):
@@ -18,7 +19,10 @@ class SelfRefinementEngine:
         self.model_name = args.model_name
         self.dataset_name = args.dataset_name
         self.backup_strategy = args.backup_strategy
-        self.openai_api = OpenAIModel(args.api_key, 'gpt-4', args.stop_words, args.max_new_tokens)
+        if self.model_name in model_globals.GEMINI_MODEL_NAMES:
+            self.LLM = GenimiModel(args.model_name, args.stop_words, args.max_new_tokens)
+        else:
+            self.LLM = OpenAIModel(args.api_key, 'gpt-4', args.stop_words, args.max_new_tokens)
         self.current_round = current_round
 
         self.logic_programs = self.load_logic_programs()
@@ -84,7 +88,7 @@ class SelfRefinementEngine:
                 if not error_message == 'No Output': # this is not execution error, but parsing error
                     # perform self-correction based on the error message
                     full_prompt = self.load_prompt(logic_program, error_message)
-                    revised_program = self.openai_api.generate(full_prompt).strip()
+                    revised_program = self.LLM.generate(full_prompt).strip()
                     programs = [revised_program]
                     output = {'id': example['id'], 
                             'context': example['context'],
@@ -98,7 +102,7 @@ class SelfRefinementEngine:
             elif status == 'parsing error':
                 # perform self-correction based on the error message
                 full_prompt = self.load_prompt(logic_program, 'Parsing Error')
-                revised_program = self.openai_api.generate(full_prompt).strip()
+                revised_program = self.LLM.generate(full_prompt).strip()
                 programs = [revised_program]
                 output = {'id': example['id'], 
                         'context': example['context'],
