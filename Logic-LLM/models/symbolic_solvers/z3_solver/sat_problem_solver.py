@@ -174,6 +174,7 @@ class LSAT_Z3_Program:
             output = check_output(["python3", filename], stderr=subprocess.STDOUT, timeout=1.0)
         except subprocess.CalledProcessError as e:
             outputs = e.output.decode("utf-8").strip().splitlines()[-1]
+            print(outputs)
             return None, outputs
         except subprocess.TimeoutExpired:
             return None, 'TimeoutError'
@@ -187,6 +188,7 @@ class LSAT_Z3_Program:
     def answer_mapping(self, answer):
         mapping = {'(A)': 'A', '(B)': 'B', '(C)': 'C', '(D)': 'D', '(E)': 'E',
                    'A': 'A', 'B': 'B', 'C': 'C', 'D': 'D', 'E': 'E'}
+        # Job: why [0]? Doesn't make sense to me
         return mapping[answer[0].strip()]
 
 if __name__=="__main__":

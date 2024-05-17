@@ -168,6 +168,7 @@ class GenimiModel:
         self.model_name = model_name
         # max len of stop_sequences is 5 for gemini
         self.stop_sequences = stop_words[:5]
+    
         # init model
         vertexai.init(project=model_globals.GEMINI_PROJECT_ID, location=model_globals.GEMINI_LOCATION, service_account=model_globals.GEMINI_SERVICE_ACCOUNT)
 
@@ -176,19 +177,10 @@ class GenimiModel:
                 temperature= 0.0,
                 top_p = 1.0,
                 max_output_tokens = max_new_tokens,
-                stop_sequences = self.stop_sequences,
+                # THEIR STOP WORDS DON'T WORK WELL WITH GEMINI. NOT FULLY UNDERSTOOD, BUT JUST SKIP THEM HERE
+                # stop_sequences = self.stop_sequences,
             )
         self.LLM = GenerativeModel(model_name=self.model_name, generation_config=generation_config)
-
-    # # used for gemini models
-    # def gemini_generate(self, input_string):
-    #     response = self.LLM.generate_content(
-    #         [
-    #             input_string
-    #         ]
-    #     )
-    #     generated_text = response.text
-    #     return generated_text
     
     def gemini_generate(self, input_string, max_retries=10, max_wait_time=120):
         start_time = time.time()
@@ -208,42 +200,36 @@ class GenimiModel:
 
         raise Exception("Failed after multiple retries or maximum wait time exceeded")
     
-
-    def generate(self, input_string):
+    def generate(self, input_string, clean_response=True):
         if self.model_name in model_globals.GEMINI_MODEL_NAMES:
-            return self.gemini_generate(input_string)
+            response_text = self.gemini_generate(input_string)
+            if clean_response:
+                response_text = self.clean_gemini_response(response_text)
+            return response_text
         else:
             raise Exception("Model name not recognized")
-    
-    # async def dispatch_gemini_requests(self,
-    #     input_strings: list[list[dict[str,Any]]],
-    # ) -> list[str]:
-    #     async_responses = [self.LLM.generate_content_async(input_string)
-    #         for input_string in input_strings
-    #     ]
-    #     return await asyncio.gather(*async_responses)
-    
+        
+    def clean_gemini_response(self, response_text):
+        """Sometimes Gemini gives wrongly formatted output. Could alternatively be solved by adding this to the prompt"""
+        # This is not handled with stop_sequences because that leads to stopping too early
+        response_text_cleaned = response_text.replace('------','')
+        # Remove text signaling that the code is python 
+        response_text_cleaned = response_text_cleaned.replace('```python','').replace('```','')
+        return response_text_cleaned
 
-    # def batch_gemini_generate(self, input_strings):
-    #     predictions = asyncio.run(
-    #         self.dispatch_gemini_requests(
-    #                 input_strings,
-    #         )
-    #     )
-    #     return [x.text for x in predictions]
+    # DOES NOT WORK
+    # async def dispatch_gemini_requests(self, input_string) -> str:
+    #     r = await self.LLM.generate_content_async([input_string])
+    #     return r.text
 
-    async def dispatch_gemini_requests(self, input_string) -> str:
-        r = await self.LLM.generate_content_async([input_string])
-        return r.text
-
-    async def batch_gemini_generate(self, input_strings):
-        jobs = asyncio.gather(*[self.dispatch_gemini_requests(input_string) for input_string in input_strings])
-        results = await jobs
-        return results
+    # async def batch_gemini_generate(self, input_strings):
+    #     jobs = asyncio.gather(*[self.dispatch_gemini_requests(input_string) for input_string in input_strings])
+    #     results = await jobs
+    #     return results
     
-    def batch_generate(self, input_strings):
-        if self.model_name in model_globals.GEMINI_MODEL_NAMES:
-            return self.batch_gemini_generate(input_strings)
-        else:
-            raise Exception("Model name not recognized")
+    # def batch_generate(self, input_strings):
+    #     if self.model_name in model_globals.GEMINI_MODEL_NAMES:
+    #         return self.batch_gemini_generate(input_strings)
+    #     else:
+    #         raise Exception("Model name not recognized")
         
