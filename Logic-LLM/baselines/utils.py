@@ -4,11 +4,11 @@ import os
 import asyncio
 from typing import Any
 
-@backoff.on_exception(backoff.expo, openai.error.RateLimitError)
+# @backoff.on_exception(backoff.expo, openai.error.RateLimitError)
 def completions_with_backoff(**kwargs):
     return openai.Completion.create(**kwargs)
 
-@backoff.on_exception(backoff.expo, openai.error.RateLimitError)
+# @backoff.on_exception(backoff.expo, openai.error.RateLimitError)
 def chat_completions_with_backoff(**kwargs):
     return openai.ChatCompletion.create(**kwargs)
 
@@ -155,3 +155,81 @@ class OpenAIModel:
         )
         generated_text = response['choices'][0]['text'].strip()
         return generated_text
+
+
+import model_globals
+import vertexai
+from vertexai.generative_models import GenerativeModel, GenerationConfig
+import time
+from google.api_core.exceptions import ResourceExhausted
+
+class GenimiModel:
+    def __init__(self, model_name, stop_words, max_new_tokens) -> None:
+        self.model_name = model_name
+        # max len of stop_sequences is 5 for gemini
+        self.stop_sequences = stop_words[:5]
+    
+        # init model
+        vertexai.init(project=model_globals.GEMINI_PROJECT_ID, location=model_globals.GEMINI_LOCATION, service_account=model_globals.GEMINI_SERVICE_ACCOUNT)
+
+        generation_config = GenerationConfig(
+                # same as the params for the openai models as used in the code by Liangming Pan
+                temperature= 0.0,
+                top_p = 1.0,
+                max_output_tokens = max_new_tokens,
+                # THEIR STOP WORDS DON'T WORK WELL WITH GEMINI. NOT FULLY UNDERSTOOD, BUT JUST SKIP THEM HERE
+                # stop_sequences = self.stop_sequences,
+            )
+        self.LLM = GenerativeModel(model_name=self.model_name, generation_config=generation_config)
+    
+    def gemini_generate(self, input_string, max_retries=10, max_wait_time=120):
+        start_time = time.time()
+        retry_count = 0
+        backoff_factor = 1
+
+        while retry_count < max_retries and (time.time() - start_time) < max_wait_time:
+            try:
+                response = self.LLM.generate_content([input_string])
+                generated_text = response.text
+                return generated_text
+            except ResourceExhausted as e:
+                print(f"Rate limited, retrying in {backoff_factor} seconds...")
+                time.sleep(backoff_factor)
+                backoff_factor *= 2  # Exponential backoff
+                retry_count += 1
+
+        raise Exception("Failed after multiple retries or maximum wait time exceeded")
+    
+    def generate(self, input_string, clean_response=True):
+        if self.model_name in model_globals.GEMINI_MODEL_NAMES:
+            response_text = self.gemini_generate(input_string)
+            if clean_response:
+                response_text = self.clean_gemini_response(response_text)
+            return response_text
+        else:
+            raise Exception("Model name not recognized")
+        
+    def clean_gemini_response(self, response_text):
+        """Sometimes Gemini gives wrongly formatted output. Could alternatively be solved by adding this to the prompt"""
+        # This is not handled with stop_sequences because that leads to stopping too early
+        response_text_cleaned = response_text.replace('------','')
+        # Remove text signaling that the code is python 
+        response_text_cleaned = response_text_cleaned.replace('```python','').replace('```','')
+        return response_text_cleaned
+
+    # DOES NOT WORK
+    # async def dispatch_gemini_requests(self, input_string) -> str:
+    #     r = await self.LLM.generate_content_async([input_string])
+    #     return r.text
+
+    # async def batch_gemini_generate(self, input_strings):
+    #     jobs = asyncio.gather(*[self.dispatch_gemini_requests(input_string) for input_string in input_strings])
+    #     results = await jobs
+    #     return results
+    
+    # def batch_generate(self, input_strings):
+    #     if self.model_name in model_globals.GEMINI_MODEL_NAMES:
+    #         return self.batch_gemini_generate(input_strings)
+    #     else:
+    #         raise Exception("Model name not recognized")
+        
