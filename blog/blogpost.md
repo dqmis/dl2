@@ -4,6 +4,8 @@
 ### Chimène Blokesch, Dominykas Šeputis, Idries Nasim, Job Gräber, Soham Chatterjee
 
 ---
+
+## Introduction
  The article introduces LOGIC-LM, an innovative framework created to augment Large Language Models (LLMs) with symbolic solvers to improve logical reasoning. This approach integrates natural language comprehension of LLMs with deterministic symbolic solvers to address logical problems. The framework consists of three main stages: Problem Formulation, Symbolic Reasoning, and Result Interpretation, with a self-refinement module for continuously enhancing symbolic formulations based on feedback from the solver's error messages. This integration has resulted in a notable performance improvement across different logical reasoning datasets, highlighting the capability of LOGIC-LM in tackling intricate logical reasoning challenges.
 
 While current LLMs can exhibit human-like reasoning, they may still lack fidelity and completeness. In response, Logic-LM (Pan, 2023) leverages symbolic languages to address logical problems, offering a more reliable and interpretable alternative to LLMs. However, the in-context learning proposed by Pan (2023) does not consistently yield executable or accurate programs. Our objective is to replicate, enhance, and expand upon these findings. This will involve conducting ablation studies with varying numbers of in-context examples, different LLMs, and different solvers, as well as incorporating negative examples. Additionally, we will explore fine-tuning using differentiable neuro-symbolic solvers, enabling backpropagation from the reasoning task. Furthermore, we will investigate whether the fundamental concept of Logic-LM applies to multi-modal input.
@@ -20,18 +22,17 @@ The ability to reason is crucial for maximizing the utility of knowledge, partic
 
 ---
 
-## Weaknesses
+## Analysis of Weaknesses/Strengths/Potential
 
 It's important to note that LLMs struggle with solving complex logical problems, often leading to unfaithful reasoning and unreliable conclusions. Additionally, their probabilistic nature lacks a mechanism to ensure the faithfulness of reasoning, making it challenging to trust their outputs for critical applications.
 
-## strengths
 LLMs have demonstrated a remarkable capacity to reason like humans when given step-by-step explanations or prompts. Additionally, they show exceptional proficiency in converting natural language problems into symbolic formulations, indicating their potential to complement symbolic solvers.
 
 The ability to reason is crucial for effectively utilizing knowledge, particularly in problem-solving, decision-making, and critical thinking. The capacity to reason abstractly enables a model to effectively tackle unfamiliar problems. As Language Models (LLMs) continue to be applied in various contexts, their success is heavily reliant on this factor. However, it is uncertain whether transformer-based LLMs possess this generalized ability, thus creating a clear incentive to explore alternative methods for enhancing it. Symbolic solvers, designed to be sound and efficiently solvable, offer a promising avenue for promoting generalized reasoning. Nonetheless, symbolic solvers require specific formal input. Logic-LM combines the flexibility of LLMs with the soundness and efficiency of symbolic solvers, representing a promising approach that warrants further development and refinement.
 
 The concept involves enhancing the reasoning capabilities of LLMs by integrating external modules, specifically symbolic solvers. LLMs are responsible for translating natural language problems into a set of rules, facts, variables, and constraints that conform to the symbolic solver's grammar. The logical reasoning process, leading to a conclusion, is managed by the solver. Subsequently, the solver's output is reconverted into natural language. This enhancement will render LLMs valuable in addressing critical problem-solving scenarios.
 
-## our novel approach
+## Novel Contribution
 
 Our objective is to investigate the in-context learning capabilities of Logic-LM and pinpoint potential scenarios where the model may fall short. We will conduct ablation studies on diverse datasets featuring varying levels of complexity to comprehensively grasp the model's strengths and weaknesses. Additionally, we aim to determine the efficacy of employing symbolic solvers in a multi-modal setting. Lastly, we will explore the potential of integrating differentiable neuro-symbolic solvers to enable fine-tuning for training models to generate accurate logic programs.
 Our project bridges two research domains: it builds upon the research of (Pan, 2023) by delving into the potential of in-context learning for logical problem-solving, and it applies model adaptation techniques such as Low-Rank Adaptation (LoRA) (Hu, 2021) to tailor LLMs to this domain. Although our main emphasis is on the former, the latter presents an opportunity for extending our work.
@@ -66,7 +67,7 @@ TODO
 ## Concluding Remarks
 TODO
 
-## Authors' Contributions
+## Student Contributions
 Dominykas Šeputis and Chimène Blokesch focused primarily on multi-modal foundation models to assess their ability to address logical issues using both textual and visual inputs. Soham Chatterjee delved into ablation studies and investigated the effectiveness of the negative Answers in context Learning strategy. Job Gräber led the adaptation of LLMs for logic problem-solving through fine-tuning methods. Idries Nasim primarily oversaw the coordination of experiments and the drafting of the research report, also providing assistance with ablation studies as needed. All team members made active contributions by presenting the results of their experiments.
 
 ## Bibliography
