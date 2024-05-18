@@ -32,15 +32,15 @@ card(C) :- number(Number), color(Color), shading(Shading), shape(Shape), C = (Nu
 
     #show valid_set_in_play/3.
     
-card_in_play((three, red, striped, squiggle)).
-card_in_play((one, green, striped, diamond)).
-card_in_play((two, red, solid, diamond)).
-card_in_play((one, green, solid, squiggle)).
-card_in_play((two, green, striped, squiggle)).
-card_in_play((three, red, solid, diamond)).
-card_in_play((two, red, striped, oval)).
-card_in_play((one, green, solid, diamond)).
-card_in_play((three, purple, solid, oval)).
-card_in_play((three, red, empty, oval)).
-card_in_play((three, purple, empty, oval)).
-card_in_play((two, green, empty, squiggle)).
+card_in_play((three, purple, empty, squiggle)).
+card_in_play((two, green, striped, diamond)).
+card_in_play((one, red, solid, diamond)).
+card_in_play((one, purple, striped, squiggle)).
+card_in_play((two, green, solid, squiggle)).
+card_in_play((two, green, striped, oval)).
+card_in_play((two, purple, empty, squiggle)).
+card_in_play((one, green, striped, oval)).
+card_in_play((one, red, solid, oval)).
+card_in_play((two, purple, striped, oval)).
+card_in_play((two, purple, empty, oval)).
+card_in_play((one, purple, striped, oval)).

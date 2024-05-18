@@ -2,9 +2,13 @@
 
 This folder contains the data for the [SET card game](https://en.wikipedia.org/wiki/Set_(card_game)).
 
-The `asp` folder contains a script version of the card game, written in ASP these can be executed using a ASP solver, such as `clingo`.
+The `asp` folder contains a script version of the card game, written in Answer Set Programming (ASP) these can be executed using a ASP solver, such as `clingo`.
 
-The `images` folder contains images of 12 cards. These are generated using code from the `abstractor` repository, which is included as a submodule. To use this repository to generate the images, a small change needs to be made within `experiments\set\setGame.py`, by replacing the first lines with:
+The `images` folder contains images of the drawn cards.
+
+## Game generation
+
+The cards are generated using code from the `abstractor` repository, which is included as a submodule. To use this repository to generate the images, a small change needs to be made within `experiments\set\setGame.py`, by replacing the first lines with:
 
 ```
 import os
@@ -19,3 +23,5 @@ class SetGame():
 ```
 
 
+## ASP generation
+The asp files are obtained by plugging the textual card attributes to a template. The file `cards2asp.py` contains the template and produces the output asp files.
