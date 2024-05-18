@@ -9,12 +9,13 @@ args = parser.parse_args()
 with open(args.filepath, 'r') as file:
     text = file.read()
 
-pattern = r'(A\)|B\)|C\)|D\)|E\))'
-matches = re.findall(pattern, text)
-correct_answers_matches = re.findall(r'The correct answer is (A\)|B\)|C\)|D\)|E\))', text)
+blocks = re.findall(r'LLama3 Response begins:(.*?)Response ends:', text, re.DOTALL)
 
-for correct_answer in correct_answers_matches:
-    if correct_answer in matches:
-        correct_answers.append(correct_answer.replace(")", ""))
+for block in blocks:
+    match = re.search(r'correct answer.*?(A\)|B\)|C\)|D\))', block)
+    if match:
+        correct_answers.append(match.group(1).replace(")", ""))
+    else:
+        correct_answers.append("none")
 
 print(correct_answers)
