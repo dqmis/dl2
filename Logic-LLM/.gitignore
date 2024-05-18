@@ -14,7 +14,7 @@ models/symbolic_solvers/swipl
 models/__pycache__/
 # Job: I commented this so we can share bash scripts
 # *.sh
-baselines/results/
+# baselines/results/
 models/symbolic_solvers/pyke_solver/.cache_program
 models/symbolic_solvers/z3_solver/.cache_program
 
