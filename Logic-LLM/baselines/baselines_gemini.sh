@@ -2,7 +2,7 @@
 
 eval "$(conda shell.bash hook)"
 conda deactivate
-conda activate solver2
+conda activate DL2
 
 tasks=("ProntoQA" "ProofWriter" "FOLIO" "LogicalDeduction" "AR-LSAT")
 
