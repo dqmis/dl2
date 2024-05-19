@@ -31,7 +31,7 @@ def full_evaluation_save():
             else:
                 print(f"No results available for {model_name} on {dataset_name}")
     
-    outputs_path = f'./outputs'
+    outputs_path = f'./models/outputs'
     eval_path = os.path.join(outputs_path, "evaluation", 'evaluation_logic_programs.json')
     with open(eval_path, 'w') as file:
         json.dump(results_json, file, indent=4)

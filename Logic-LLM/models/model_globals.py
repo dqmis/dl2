@@ -9,3 +9,4 @@ MODEL_LARGE_CONTEXT = GEMINI_MODEL_NAMES + ["gpt-4"]
 # for the experiments
 DATASET_NAMES = ("ProntoQA", "ProofWriter", "FOLIO", "LogicalDeduction", "AR-LSAT")
 SPLIT_USED_IN_PAPER = "dev"
+MODES = ["Direct", "CoT"]
