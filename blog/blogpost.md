@@ -146,12 +146,14 @@ For the ASP prompting, the primary mistakes made by the model were related to ge
 
 ## Prompting - Ablation Experiments - In Context Learning ##
 
-We evaluated the LLama family of models,ie- `meta-llama/Llama-2-7b-chat-hf` and `meta-llama/Meta-Llama-3-8B-Instruct`. In general, LLama3 performs way better than LLama2. The results table below are conducted wrt Llama3. We found that for logical tasks, where we have to predict one option out of 5 available options, the model is somewhat biased towards predicting the first choice. Additionally, if we allow to generate more tokens by increaisng the max_new_tokens hyper-parmater,ie- increasing  the maximum number of tokens to generate, the quality of the logic programs gets better.
+We evaluated the LLama family of models,ie- `meta-llama/Llama-2-7b-chat-hf` and `meta-llama/Meta-Llama-3-8B-Instruct`. In general, LLama3 performs way better than LLama2. The results table below are conducted wrt Llama3. We found that for logical tasks, where we have to predict one option out of 5 available options, the model is somewhat biased towards predicting the first choice. Additionally, if we allow to generate more tokens by increaisng the max_new_tokens hyper-parmater,ie- increasing  the maximum number of tokens to generate, the quality of the logic programs gets better. Additionally, we also performed an experiment when we prompted the model to predict all the incorrect options. We get higher accuracy in this case since we have 4 incorrect choices and 1 correct choice per sample. So, predicing a wrong answer is easier compared to the correct one.
 
 |     Dataset     | Prompting | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct ) |
 | :-------------: | :-------: | :------: |
 | AR-LSAT Baseline  |  Direct   |   19.56   |
 | AR-LSAT Swap the correct answer always to first choice |  Direct   |  25   |
+| AR-LSAT Predict wrong answer choices  |  Direct   |   26   |
+
 
 Additionally, below table demonstrates the Direct, CoT and Logic-LM results on all datasets with Llama3(meta-llama/Meta-Llama-3-8B-Instruct):
 
