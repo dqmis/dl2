@@ -148,7 +148,7 @@ For the ASP prompting, the primary mistakes made by the model were related to ge
 
 We evaluated the LLama family of models,ie- `meta-llama/Llama-2-7b-chat-hf` and `meta-llama/Meta-Llama-3-8B-Instruct`. In general, LLama3 performs way better than LLama2. The results table below are conducted wrt Llama3. We found that for logical tasks, where we have to predict one option out of 5 available options, the model is somewhat biased towards predicting the first choice. Additionally, if we allow to generate more tokens by increaisng the max_new_tokens hyper-parmater,ie- increasing  the maximum number of tokens to generate, the quality of the logic programs gets better.
 
-|     Dataset     | Prompting | Accuracy |
+|     Dataset     | Prompting | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct ) |
 | :-------------: | :-------: | :------: |
 | AR-LSAT Baseline  |  Direct   |   19.56   |
 | AR-LSAT Swap the correct answer always to first choice |  Direct   |  25   |
