@@ -4,3 +4,6 @@
 [submodule "src/data/LLM-PuzzleTest"]
 	path = src/data/LLM-PuzzleTest
 	url = https://github.com/declare-lab/LLM-PuzzleTest
+[submodule "src/data/MathVision"]
+	path = src/data/MathVision
+	url = https://github.com/mathvision-cuhk/MathVision.git
