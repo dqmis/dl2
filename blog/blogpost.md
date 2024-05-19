@@ -158,19 +158,19 @@ Additionally, below table demonstrates the Direct, CoT and Logic-LM results on a
 |     Dataset     | Prompting | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct ) |
 | :-------------: | :-------: | :------: |
 | ProntoQA   |  Direct ( 16 max_new_tokens )   |  43    |
-| ProntoQA  |  CoT ( 1024 max_new_tokens )   |    |
+| ProntoQA  |  CoT ( 1024 max_new_tokens )   | 76.6   |
 | ProntoQA  |  Logic-LM   |     |
 | ProofWriter   |  Direct ( 16 max_new_tokens )  |  33    |
-| ProofWriter  |  CoT ( 1024 max_new_tokens )   |     |
+| ProofWriter  |  CoT ( 1024 max_new_tokens )   | 28.54    |
 | ProofWriter  |  Logic-LM   |     |
 | FOLIO   |  Direct ( 16 max_new_tokens )  | 46.5     |
-| FOLIO  |  CoT ( 1024 max_new_tokens )    |     |
+| FOLIO  |  CoT ( 1024 max_new_tokens )    |   36  |
 | FOLIO  |  Logic-LM    |     |
 | LogicalDeduction   |  Direct ( 16 max_new_tokens )  |   32.33   |
-| LogicalDeduction  |  CoT ( 1024 max_new_tokens )    |     |
+| LogicalDeduction  |  CoT ( 1024 max_new_tokens )    |  22   |
 | LogicalDeduction  |  Logic-LM   |     |
 | AR-LSAT   |  Direct ( 16 max_new_tokens )  | 7.36     |
-| AR-LSAT  |  CoT ( 1024 max_new_tokens )    |     |
+| AR-LSAT  |  CoT ( 1024 max_new_tokens )    |  8.225   |
 | AR-LSAT  |  Logic-LM   |     |
 
 ## Gemini results
