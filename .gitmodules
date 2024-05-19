@@ -1,12 +1,12 @@
-[submodule "src/SET/abstractor"]
-	path = src/SET/abstractor
-	url = https://github.com/Awni00/abstractor.git
 [submodule "src/data/LLM-PuzzleTest"]
-	path = src/data/LLM-PuzzleTest
-	url = https://github.com/declare-lab/LLM-PuzzleTest
+    path = src/data/LLM-PuzzleTest
+    url = https://github.com/declare-lab/LLM-PuzzleTest
 [submodule "src/data/MathVision"]
-	path = src/data/MathVision
-	url = https://github.com/mathvision-cuhk/MathVision.git
+    path = src/data/MathVision
+    url = https://github.com/mathvision-cuhk/MathVision.git
 [submodule "src/data/rebus"]
-	path = src/data/rebus
-	url = https://github.com/cvndsh/rebus.git
+    path = src/data/rebus
+    url = https://github.com/cvndsh/rebus.git
+[submodule "src/data/SET/abstractor"]
+	path = src/data/SET/abstractor
+	url = https://github.com/Awni00/abstractor.git
