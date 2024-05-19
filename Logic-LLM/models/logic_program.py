@@ -47,14 +47,23 @@ class LogicProgramGenerator:
             self.prompt_template = f.read()
 
     def prompt_folio(self, test_data):
+        message = []
+        
+    
+        d = {}
+        d["role"] = "user"
+
         problem = test_data['context']
         question = test_data['question'].strip()
         full_prompt = self.prompt_template.replace('[[PROBLEM]]', problem).replace('[[QUESTION]]', question)
-        return full_prompt
+
+        d["content"]  = full_prompt
+        message.append(d)
+        return message
 
     def prompt_arlsat(self, test_data):
         message = []
-        #message.append({"role": "system", "content": "You are a "})
+        
     
         d = {}
         d["role"] = "user"
@@ -72,24 +81,46 @@ class LogicProgramGenerator:
         return message
     
     def prompt_prontoqa(self, test_data):
+        message = []
+        d = {}
+        d["role"] = "user"
         problem = test_data['context']
         question = test_data['question'].strip()
         full_prompt = self.prompt_template.replace('[[PROBLEM]]', problem).replace('[[QUESTION]]', question)
-        return full_prompt
+        d["content"]  = full_prompt
+        message.append(d)
+        return message
     
     def prompt_proofwriter(self, test_data):
+        message = []
+        
+    
+        d = {}
+        d["role"] = "user"
         problem = test_data['context']
         question = test_data['question'].strip()
         full_prompt = self.prompt_template.replace('[[PROBLEM]]', problem).replace('[[QUESTION]]', question)
-        return full_prompt
+
+        d["content"]  = full_prompt
+        message.append(d)
+        return message
     
     def prompt_logicaldeduction(self, test_data):
+        message = []
+        
+    
+        d = {}
+        d["role"] = "user"
+
         problem = test_data['context']
         question = test_data['question'].strip()
         choices_str = '\n'.join([f'({choice.strip()}' for choice in test_data['options']]).strip()
         full_prompt = self.prompt_template.replace('[[PROBLEM]]', problem).replace('[[QUESTION]]', question)
         full_prompt = full_prompt.replace('[[CHOICES]]', choices_str)
-        return full_prompt
+
+        d["content"]  = full_prompt
+        message.append(d)
+        return message
 
     def load_raw_dataset(self, split):
         with open(os.path.join(self.data_path, self.dataset_name, f'{split}.json')) as f:
@@ -129,6 +160,8 @@ class LogicProgramGenerator:
                     'options': example['options'],
                     'raw_logic_programs': programs}
             outputs.append(output)
+            with open(os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.model_name}.json'), 'w') as f:
+                json.dump(outputs, f, indent=2, ensure_ascii=False)
             
 
         # save outputs
