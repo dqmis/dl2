@@ -3,15 +3,11 @@ Dataset wrapper for AlgoPuzzleVQA, adapted from its main.py file.
 """
 
 from tqdm import tqdm
-from PIL import Image
-from typing import Optional, List
 
 from dataset_wrapper import DatasetWrapper
 
-# from utils import resize_image  #TODO: either use utils.py, or remove it
-
 from LLM_PuzzleTest.AlgoPuzzleVQA.data_loading import (
-    Data, Sample, convert_text_to_image, convert_image_to_text)
+    Data, convert_text_to_image, convert_image_to_text)
 from LLM_PuzzleTest.AlgoPuzzleVQA.modeling import EvalModel
 from LLM_PuzzleTest.AlgoPuzzleVQA.prompting import select_prompter
 
@@ -21,8 +17,7 @@ class AlgoPuzzleVQA(DatasetWrapper):
     def __init__(self, data_dir: str, img_dir: str = "data",
                  prompt_name: str = "cot_multi_extract",
                  prevent_direct_answer: bool = True,
-                 use_describe_image_prompt: bool = True,
-                 **kwargs):
+                 use_describe_image_prompt: bool = True):
         # Static information
 
         # The root folder of the dataset
@@ -54,8 +49,6 @@ class AlgoPuzzleVQA(DatasetWrapper):
         self.prevent_direct_answer = prevent_direct_answer
         self.use_describe_image_prompt = use_describe_image_prompt
 
-
-        # self.model = select_model(**kwargs)  # TODO: replace by Logic-LM
 
         # Contains all the data
         self.progress = None

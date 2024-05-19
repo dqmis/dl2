@@ -32,14 +32,4 @@ class DatasetWrapper:
             image_data = None  # for AlgoPuzzleVQA dataset
             image_url = None  # for Rebus dataset
 
-            # TODO: maybe improve, it needs some generic return values,
-            # so it can be used for 'every' LLM (GPT, Gemini, Llama, etc).
-            # Certain functions from the dataset scripts, such as
-            # 'convert_image_to_text' or 'make_messages' are LLM-dependent and
-            # can be handled through the LLM class instead of these
-            # dataset classes
             yield prompt, image_data, image_url
-
-        # inputs.append({"type": "image_url", "image_url": {"url": url}})
-
-        # return [{"role": "user", "content": inputs}]

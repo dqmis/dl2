@@ -7,7 +7,6 @@ from LLM_PuzzleTest.AlgoPuzzleVQA.data_loading import convert_image_to_text
 
 class GameSET(DatasetWrapper):
     def __init__(self):
-        # TODO: move the SET folder to this directory
         self.root_folder = "SET"
         self.root_data_dir = "data"
         self.output_dir = "outputs"
