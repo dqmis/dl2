@@ -7,3 +7,6 @@
 [submodule "src/data/MathVision"]
 	path = src/data/MathVision
 	url = https://github.com/mathvision-cuhk/MathVision.git
+[submodule "src/data/rebus"]
+	path = src/data/rebus
+	url = https://github.com/cvndsh/rebus.git
