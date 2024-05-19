@@ -174,7 +174,7 @@ class LSAT_Z3_Program:
             output = check_output(["python3", filename], stderr=subprocess.STDOUT, timeout=1.0)
         except subprocess.CalledProcessError as e:
             outputs = e.output.decode("utf-8").strip().splitlines()[-1]
-            print(outputs)
+            # print(outputs)
             return None, outputs
         except subprocess.TimeoutExpired:
             return None, 'TimeoutError'
