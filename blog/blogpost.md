@@ -153,9 +153,9 @@ We evaluated the LLama family of models,ie- `meta-llama/Llama-2-7b-chat-hf` and 
 | AR-LSAT Baseline  |  Direct   |   19.56   |
 | AR-LSAT Swap the correct answer always to first choice |  Direct   |  25   |
 
-Additionally, below table demonstrates the Direct, CoT and Logic-LM results on all datasets with Llama3:
+Additionally, below table demonstrates the Direct, CoT and Logic-LM results on all datasets with Llama3(meta-llama/Meta-Llama-3-8B-Instruct):
 
-|     Dataset     | Prompting | Accuracy |
+|     Dataset     | Prompting | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct) |
 | :-------------: | :-------: | :------: |
 | ProntoQA   |  Direct   |      |
 | ProntoQA  |  CoT   |     |
