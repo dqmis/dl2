@@ -1,0 +1,3502 @@
+[
+  {
+    "id": "ProntoQA_1",
+    "question": "Is the following statement true or false? Max is sour.",
+    "answer": "B",
+    "predicted_reasoning": "We've seen this context before!\n\nFrom the context, we know:\n\n* N",
+    "predicted_answer": "We've seen this context before!\n\nFrom the context, we know:\n\n* N"
+  },
+  {
+    "id": "ProntoQA_2",
+    "question": "Is the following statement true or false? Stella is bright.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce that:\n\n* Yumpuses are",
+    "predicted_answer": "Based on the context, we can deduce that:\n\n* Yumpuses are"
+  },
+  {
+    "id": "ProntoQA_3",
+    "question": "Is the following statement true or false? Wren is not metallic.",
+    "answer": "A",
+    "predicted_reasoning": "A delightful set of logical reasoning questions!\n\nLet's analyze the context:\n\n1.",
+    "predicted_answer": "A delightful set of logical reasoning questions!\n\nLet's analyze the context:\n\n1."
+  },
+  {
+    "id": "ProntoQA_4",
+    "question": "Is the following statement true or false? Alex is not small.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Rompuses are spicy.\n* Every rom",
+    "predicted_answer": "Let's analyze the context:\n\n* Rompuses are spicy.\n* Every rom"
+  },
+  {
+    "id": "ProntoQA_5",
+    "question": "Is the following statement true or false? Alex is not dull.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context:\n\nRompuses are mean. Rompuses are",
+    "predicted_answer": "Based on the given context:\n\nRompuses are mean. Rompuses are"
+  },
+  {
+    "id": "ProntoQA_6",
+    "question": "Is the following statement true or false? Wren is dull.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context:\n\n* Tumpuses are wumpuses.\n* W",
+    "predicted_answer": "Based on the context:\n\n* Tumpuses are wumpuses.\n* W"
+  },
+  {
+    "id": "ProntoQA_7",
+    "question": "Is the following statement true or false? Stella is happy.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Wumpuses are Stella (",
+    "predicted_answer": "Based on the context, we know that:\n\n* Wumpuses are Stella ("
+  },
+  {
+    "id": "ProntoQA_8",
+    "question": "Is the following statement true or false? Alex is hot.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n* Every jomp",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n* Every jomp"
+  },
+  {
+    "id": "ProntoQA_9",
+    "question": "Is the following statement true or false? Wren is wooden.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Every nump",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Every nump"
+  },
+  {
+    "id": "ProntoQA_10",
+    "question": "Is the following statement true or false? Fae is sweet.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Wumpuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Wumpuses"
+  },
+  {
+    "id": "ProntoQA_11",
+    "question": "Is the following statement true or false? Sam is not fruity.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context:\n\nWumpuses are red.\nZumpuses are fruity",
+    "predicted_answer": "Based on the context:\n\nWumpuses are red.\nZumpuses are fruity"
+  },
+  {
+    "id": "ProntoQA_12",
+    "question": "Is the following statement true or false? Fae is not floral.",
+    "answer": "A",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n1. Imp",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n1. Imp"
+  },
+  {
+    "id": "ProntoQA_13",
+    "question": "Is the following statement true or false? Max is dull.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Max is a zumpus",
+    "predicted_answer": "Based on the context, we know that:\n\n* Max is a zumpus"
+  },
+  {
+    "id": "ProntoQA_14",
+    "question": "Is the following statement true or false? Fae is opaque.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce that:\n\n* Each zumpus",
+    "predicted_answer": "Based on the context, we can deduce that:\n\n* Each zumpus"
+  },
+  {
+    "id": "ProntoQA_15",
+    "question": "Is the following statement true or false? Sam is not dull.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements to arrive at the correct answer",
+    "predicted_answer": "Based on the context, we can analyze the statements to arrive at the correct answer"
+  },
+  {
+    "id": "ProntoQA_16",
+    "question": "Is the following statement true or false? Sally is small.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements to find the correct answer",
+    "predicted_answer": "Based on the given context, we can analyze the statements to find the correct answer"
+  },
+  {
+    "id": "ProntoQA_17",
+    "question": "Is the following statement true or false? Fae is not opaque.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements to arrive at the correct answer",
+    "predicted_answer": "Based on the context, we can analyze the statements to arrive at the correct answer"
+  },
+  {
+    "id": "ProntoQA_18",
+    "question": "Is the following statement true or false? Sam is fruity.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can deduce the following information:\n\n* Every",
+    "predicted_answer": "Based on the given context, we can deduce the following information:\n\n* Every"
+  },
+  {
+    "id": "ProntoQA_19",
+    "question": "Is the following statement true or false? Sam is not dull.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n* Sam is a dump",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n* Sam is a dump"
+  },
+  {
+    "id": "ProntoQA_20",
+    "question": "Is the following statement true or false? Stella is sour.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n1. Each y",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n1. Each y"
+  },
+  {
+    "id": "ProntoQA_21",
+    "question": "Is the following statement true or false? Max is orange.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Yumpuses are orange",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Yumpuses are orange"
+  },
+  {
+    "id": "ProntoQA_22",
+    "question": "Is the following statement true or false? Wren is not feisty.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements to determine the truth or falsehood",
+    "predicted_answer": "Based on the context, we can analyze the statements to determine the truth or falsehood"
+  },
+  {
+    "id": "ProntoQA_23",
+    "question": "Is the following statement true or false? Sally is bitter.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and arrive at the conclusion.",
+    "predicted_answer": "Based on the context, we can analyze the statements and arrive at the conclusion."
+  },
+  {
+    "id": "ProntoQA_24",
+    "question": "Is the following statement true or false? Alex is amenable.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nHere's the explanation:\n\nFrom the context, we know that",
+    "predicted_answer": "B) False\n\nHere's the explanation:\n\nFrom the context, we know that"
+  },
+  {
+    "id": "ProntoQA_25",
+    "question": "Is the following statement true or false? Sam is not dull.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Zumpuses are dull.\n* Vump",
+    "predicted_answer": "Let's analyze the context:\n\n* Zumpuses are dull.\n* Vump"
+  },
+  {
+    "id": "ProntoQA_26",
+    "question": "Is the following statement true or false? Rex is large.",
+    "answer": "A",
+    "predicted_reasoning": "A classic logical reasoning puzzle!\n\nLet's break it down:\n\n1. Each j",
+    "predicted_answer": "A classic logical reasoning puzzle!\n\nLet's break it down:\n\n1. Each j"
+  },
+  {
+    "id": "ProntoQA_27",
+    "question": "Is the following statement true or false? Fae is not aggressive.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context:\n\nWumpuses are not sour.\nEach wumpus",
+    "predicted_answer": "Based on the context:\n\nWumpuses are not sour.\nEach wumpus"
+  },
+  {
+    "id": "ProntoQA_28",
+    "question": "Is the following statement true or false? Alex is small.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nFrom the context, we know that Rompuses are not",
+    "predicted_answer": "B) False\n\nFrom the context, we know that Rompuses are not"
+  },
+  {
+    "id": "ProntoQA_29",
+    "question": "Is the following statement true or false? Max is bright.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context:\n\nEvery jompus is liquid.\nJompuses are",
+    "predicted_answer": "Based on the context:\n\nEvery jompus is liquid.\nJompuses are"
+  },
+  {
+    "id": "ProntoQA_30",
+    "question": "Is the following statement true or false? Fae is temperate.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can infer that:\n\n* Wumpuses are",
+    "predicted_answer": "Based on the given context, we can infer that:\n\n* Wumpuses are"
+  },
+  {
+    "id": "ProntoQA_31",
+    "question": "Is the following statement true or false? Wren is not angry.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce that:\n\n* Each wumpus",
+    "predicted_answer": "Based on the context, we can deduce that:\n\n* Each wumpus"
+  },
+  {
+    "id": "ProntoQA_32",
+    "question": "Is the following statement true or false? Sally is not wooden.",
+    "answer": "A",
+    "predicted_reasoning": "A delightful exercise in logical reasoning!\n\nFrom the context, we know:\n\n* Rom",
+    "predicted_answer": "A delightful exercise in logical reasoning!\n\nFrom the context, we know:\n\n* Rom"
+  },
+  {
+    "id": "ProntoQA_33",
+    "question": "Is the following statement true or false? Stella is not bright.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that Yumpuses are Rompuses,",
+    "predicted_answer": "Based on the context, we know that Yumpuses are Rompuses,"
+  },
+  {
+    "id": "ProntoQA_34",
+    "question": "Is the following statement true or false? Sam is shy.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that Yumpuses are not shy, and",
+    "predicted_answer": "Based on the context, we know that Yumpuses are not shy, and"
+  },
+  {
+    "id": "ProntoQA_35",
+    "question": "Is the following statement true or false? Fae is orange.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n* Dumpuses are orange",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n* Dumpuses are orange"
+  },
+  {
+    "id": "ProntoQA_36",
+    "question": "Is the following statement true or false? Sally is shy.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can conclude that Sally is a jompus,",
+    "predicted_answer": "Based on the context, we can conclude that Sally is a jompus,"
+  },
+  {
+    "id": "ProntoQA_37",
+    "question": "Is the following statement true or false? Wren is sweet.",
+    "answer": "A",
+    "predicted_reasoning": "A delightful set of logical reasoning questions!\n\nBased on the context, I'll analyze",
+    "predicted_answer": "A delightful set of logical reasoning questions!\n\nBased on the context, I'll analyze"
+  },
+  {
+    "id": "ProntoQA_38",
+    "question": "Is the following statement true or false? Polly is not happy.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every rompus is happy.\n* Dumpuses",
+    "predicted_answer": "Let's analyze the context:\n\n* Every rompus is happy.\n* Dumpuses"
+  },
+  {
+    "id": "ProntoQA_39",
+    "question": "Is the following statement true or false? Stella is not hot.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we know that:\n\n* Jompuses are hot",
+    "predicted_answer": "Based on the given context, we know that:\n\n* Jompuses are hot"
+  },
+  {
+    "id": "ProntoQA_40",
+    "question": "Is the following statement true or false? Sally is amenable.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context:\n\nEvery jompus is amenable.\nEvery j",
+    "predicted_answer": "Based on the given context:\n\nEvery jompus is amenable.\nEvery j"
+  },
+  {
+    "id": "ProntoQA_41",
+    "question": "Is the following statement true or false? Max is not hot.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we know that Max is a wumpus, and",
+    "predicted_answer": "Based on the context, we know that Max is a wumpus, and"
+  },
+  {
+    "id": "ProntoQA_42",
+    "question": "Is the following statement true or false? Wren is not orange.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context:\n\nTumpuses are dull.\nTumpuses are j",
+    "predicted_answer": "Based on the context:\n\nTumpuses are dull.\nTumpuses are j"
+  },
+  {
+    "id": "ProntoQA_43",
+    "question": "Is the following statement true or false? Polly is angry.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements and conclude that:\n\n*",
+    "predicted_answer": "Based on the given context, we can analyze the statements and conclude that:\n\n*"
+  },
+  {
+    "id": "ProntoQA_44",
+    "question": "Is the following statement true or false? Rex is not spicy.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce that:\n\n* Tumpuses are",
+    "predicted_answer": "Based on the context, we can deduce that:\n\n* Tumpuses are"
+  },
+  {
+    "id": "ProntoQA_45",
+    "question": "Is the following statement true or false? Fae is wooden.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nExplanation:\n\nFrom the context, we know that Dumpuses are",
+    "predicted_answer": "B) False\n\nExplanation:\n\nFrom the context, we know that Dumpuses are"
+  },
+  {
+    "id": "ProntoQA_46",
+    "question": "Is the following statement true or false? Sally is not metallic.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n1. Dumpuses are metallic.\n2. Imp",
+    "predicted_answer": "Let's analyze the context:\n\n1. Dumpuses are metallic.\n2. Imp"
+  },
+  {
+    "id": "ProntoQA_47",
+    "question": "Is the following statement true or false? Max is not cold.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Max is an impus (",
+    "predicted_answer": "Based on the context, we know that:\n\n* Max is an impus ("
+  },
+  {
+    "id": "ProntoQA_48",
+    "question": "Is the following statement true or false? Sam is not fruity.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and conclude:\n\n* Sam is",
+    "predicted_answer": "Based on the context, we can analyze the statements and conclude:\n\n* Sam is"
+  },
+  {
+    "id": "ProntoQA_49",
+    "question": "Is the following statement true or false? Wren is liquid.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nExplanation:\n\nFrom the context, we know that Wumpuses",
+    "predicted_answer": "B) False\n\nExplanation:\n\nFrom the context, we know that Wumpuses"
+  },
+  {
+    "id": "ProntoQA_50",
+    "question": "Is the following statement true or false? Fae is not blue.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every tumpus is blue.\n* Every",
+    "predicted_answer": "Let's analyze the context:\n\n* Every tumpus is blue.\n* Every"
+  },
+  {
+    "id": "ProntoQA_51",
+    "question": "Is the following statement true or false? Max is not cold.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that Max is a vumpus, and",
+    "predicted_answer": "Based on the context, we know that Max is a vumpus, and"
+  },
+  {
+    "id": "ProntoQA_52",
+    "question": "Is the following statement true or false? Polly is blue.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can deduce the following information:\n\n* Every",
+    "predicted_answer": "Based on the given context, we can deduce the following information:\n\n* Every"
+  },
+  {
+    "id": "ProntoQA_53",
+    "question": "Is the following statement true or false? Fae is dull.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Fae is",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Fae is"
+  },
+  {
+    "id": "ProntoQA_54",
+    "question": "Is the following statement true or false? Stella is not red.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nAccording to the context, Yumpuses are red, and",
+    "predicted_answer": "B) False\n\nAccording to the context, Yumpuses are red, and"
+  },
+  {
+    "id": "ProntoQA_55",
+    "question": "Is the following statement true or false? Rex is mean.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Dumpuses are",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Dumpuses are"
+  },
+  {
+    "id": "ProntoQA_56",
+    "question": "Is the following statement true or false? Sam is not liquid.",
+    "answer": "A",
+    "predicted_reasoning": "Let's break down the context:\n\n1. Zumpuses are bright.\n2",
+    "predicted_answer": "Let's break down the context:\n\n1. Zumpuses are bright.\n2"
+  },
+  {
+    "id": "ProntoQA_57",
+    "question": "Is the following statement true or false? Alex is not feisty.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Rompuses are luminous.\n* Rom",
+    "predicted_answer": "Let's analyze the context:\n\n* Rompuses are luminous.\n* Rom"
+  },
+  {
+    "id": "ProntoQA_58",
+    "question": "Is the following statement true or false? Fae is not fruity.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Vumpuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Vumpuses"
+  },
+  {
+    "id": "ProntoQA_59",
+    "question": "Is the following statement true or false? Max is not nervous.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can deduce the following:\n\n* Dumpuses",
+    "predicted_answer": "Based on the given context, we can deduce the following:\n\n* Dumpuses"
+  },
+  {
+    "id": "ProntoQA_60",
+    "question": "Is the following statement true or false? Sam is mean.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Wumpuses are large, and Sam is",
+    "predicted_answer": "Let's analyze the context:\n\n* Wumpuses are large, and Sam is"
+  },
+  {
+    "id": "ProntoQA_61",
+    "question": "Is the following statement true or false? Max is not nervous.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Rompuses are numpuses, and",
+    "predicted_answer": "Let's analyze the context:\n\n* Rompuses are numpuses, and"
+  },
+  {
+    "id": "ProntoQA_62",
+    "question": "Is the following statement true or false? Wren is not transparent.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n1. Every zumpus is nervous.\n2",
+    "predicted_answer": "Let's analyze the context:\n\n1. Every zumpus is nervous.\n2"
+  },
+  {
+    "id": "ProntoQA_63",
+    "question": "Is the following statement true or false? Rex is brown.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Impuses are jompuses",
+    "predicted_answer": "Based on the context, we know that:\n\n* Impuses are jompuses"
+  },
+  {
+    "id": "ProntoQA_64",
+    "question": "Is the following statement true or false? Sam is not temperate.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context:\n\nEvery numpus is temperate.\n\nSince Sam",
+    "predicted_answer": "Based on the given context:\n\nEvery numpus is temperate.\n\nSince Sam"
+  },
+  {
+    "id": "ProntoQA_65",
+    "question": "Is the following statement true or false? Max is angry.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements to determine the answer.\n\nFrom",
+    "predicted_answer": "Based on the context, we can analyze the statements to determine the answer.\n\nFrom"
+  },
+  {
+    "id": "ProntoQA_66",
+    "question": "Is the following statement true or false? Sam is not sweet.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can conclude that:\n\nSam is a wump",
+    "predicted_answer": "Based on the given context, we can conclude that:\n\nSam is a wump"
+  },
+  {
+    "id": "ProntoQA_67",
+    "question": "Is the following statement true or false? Sam is orange.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Dumpuses are orange (",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Dumpuses are orange ("
+  },
+  {
+    "id": "ProntoQA_68",
+    "question": "Is the following statement true or false? Wren is spicy.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and draw conclusions.\n\nFrom the",
+    "predicted_answer": "Based on the context, we can analyze the statements and draw conclusions.\n\nFrom the"
+  },
+  {
+    "id": "ProntoQA_69",
+    "question": "Is the following statement true or false? Wren is not cold.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n* Each jompus",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n* Each jompus"
+  },
+  {
+    "id": "ProntoQA_70",
+    "question": "Is the following statement true or false? Rex is not transparent.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and conclude that:\n\n* T",
+    "predicted_answer": "Based on the context, we can analyze the statements and conclude that:\n\n* T"
+  },
+  {
+    "id": "ProntoQA_71",
+    "question": "Is the following statement true or false? Sally is not dull.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n1. Every rom",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n1. Every rom"
+  },
+  {
+    "id": "ProntoQA_72",
+    "question": "Is the following statement true or false? Sam is fruity.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements to determine the correct answer.",
+    "predicted_answer": "Based on the context, we can analyze the statements to determine the correct answer."
+  },
+  {
+    "id": "ProntoQA_73",
+    "question": "Is the following statement true or false? Wren is not earthy.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\nRompuses are bitter. Rompuses are",
+    "predicted_answer": "Let's analyze the context:\n\nRompuses are bitter. Rompuses are"
+  },
+  {
+    "id": "ProntoQA_74",
+    "question": "Is the following statement true or false? Sam is not fruity.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Vumpuses are sour.\n* Each v",
+    "predicted_answer": "Let's analyze the context:\n\n* Vumpuses are sour.\n* Each v"
+  },
+  {
+    "id": "ProntoQA_75",
+    "question": "Is the following statement true or false? Polly is fruity.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nHere's the explanation:\n\n* Rompuses are vump",
+    "predicted_answer": "B) False\n\nHere's the explanation:\n\n* Rompuses are vump"
+  },
+  {
+    "id": "ProntoQA_76",
+    "question": "Is the following statement true or false? Sally is spicy.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Yumpuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Yumpuses"
+  },
+  {
+    "id": "ProntoQA_77",
+    "question": "Is the following statement true or false? Sam is not opaque.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Dumpuses are kind\n*",
+    "predicted_answer": "Based on the context, we know that:\n\n* Dumpuses are kind\n*"
+  },
+  {
+    "id": "ProntoQA_78",
+    "question": "Is the following statement true or false? Fae is small.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Vumpuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Vumpuses"
+  },
+  {
+    "id": "ProntoQA_79",
+    "question": "Is the following statement true or false? Stella is blue.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can conclude that:\n\n* Each numpus",
+    "predicted_answer": "Based on the given context, we can conclude that:\n\n* Each numpus"
+  },
+  {
+    "id": "ProntoQA_80",
+    "question": "Is the following statement true or false? Sally is blue.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nExplanation:\n\nFrom the context, we know that each nump",
+    "predicted_answer": "B) False\n\nExplanation:\n\nFrom the context, we know that each nump"
+  },
+  {
+    "id": "ProntoQA_81",
+    "question": "Is the following statement true or false? Sam is dull.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n* Dumpuses are",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n* Dumpuses are"
+  },
+  {
+    "id": "ProntoQA_82",
+    "question": "Is the following statement true or false? Rex is not happy.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Yumpuses are happy (",
+    "predicted_answer": "Based on the context, we know that:\n\n* Yumpuses are happy ("
+  },
+  {
+    "id": "ProntoQA_83",
+    "question": "Is the following statement true or false? Wren is transparent.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Impuses are",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Impuses are"
+  },
+  {
+    "id": "ProntoQA_84",
+    "question": "Is the following statement true or false? Rex is not opaque.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n* Rex is a z",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n* Rex is a z"
+  },
+  {
+    "id": "ProntoQA_85",
+    "question": "Is the following statement true or false? Sam is not transparent.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Wumpuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Wumpuses"
+  },
+  {
+    "id": "ProntoQA_86",
+    "question": "Is the following statement true or false? Stella is not shy.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Dumpuses are shy.\n* Dumpuses are",
+    "predicted_answer": "Let's analyze the context:\n\n* Dumpuses are shy.\n* Dumpuses are"
+  },
+  {
+    "id": "ProntoQA_87",
+    "question": "Is the following statement true or false? Alex is not sour.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Numpuses are not fruity, but dump",
+    "predicted_answer": "Let's analyze the context:\n\n* Numpuses are not fruity, but dump"
+  },
+  {
+    "id": "ProntoQA_88",
+    "question": "Is the following statement true or false? Wren is liquid.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Vumpuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Vumpuses"
+  },
+  {
+    "id": "ProntoQA_89",
+    "question": "Is the following statement true or false? Max is not brown.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context:\n\nMax is a tumpus.\nTumpuses are",
+    "predicted_answer": "Based on the context:\n\nMax is a tumpus.\nTumpuses are"
+  },
+  {
+    "id": "ProntoQA_90",
+    "question": "Is the following statement true or false? Max is metallic.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that every impus is metallic, but Max",
+    "predicted_answer": "Based on the context, we know that every impus is metallic, but Max"
+  },
+  {
+    "id": "ProntoQA_91",
+    "question": "Is the following statement true or false? Wren is not small.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Zumpuses are small.\n* Zump",
+    "predicted_answer": "Let's analyze the context:\n\n* Zumpuses are small.\n* Zump"
+  },
+  {
+    "id": "ProntoQA_92",
+    "question": "Is the following statement true or false? Sally is metallic.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nReasoning:\n\n* Sally is a wumpus (given",
+    "predicted_answer": "B) False\n\nReasoning:\n\n* Sally is a wumpus (given"
+  },
+  {
+    "id": "ProntoQA_93",
+    "question": "Is the following statement true or false? Polly is not luminous.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and identify the relationships between the",
+    "predicted_answer": "Based on the context, we can analyze the statements and identify the relationships between the"
+  },
+  {
+    "id": "ProntoQA_94",
+    "question": "Is the following statement true or false? Max is angry.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Dumpuses are",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Dumpuses are"
+  },
+  {
+    "id": "ProntoQA_95",
+    "question": "Is the following statement true or false? Stella is feisty.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n* Numpuses are",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n* Numpuses are"
+  },
+  {
+    "id": "ProntoQA_96",
+    "question": "Is the following statement true or false? Fae is bright.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\nEach impus is sour.\nEach impus is",
+    "predicted_answer": "Let's analyze the context:\n\nEach impus is sour.\nEach impus is"
+  },
+  {
+    "id": "ProntoQA_97",
+    "question": "Is the following statement true or false? Polly is not dull.",
+    "answer": "B",
+    "predicted_reasoning": "A delightful set of logical reasoning questions!\n\nFrom the context, we can deduce",
+    "predicted_answer": "A delightful set of logical reasoning questions!\n\nFrom the context, we can deduce"
+  },
+  {
+    "id": "ProntoQA_98",
+    "question": "Is the following statement true or false? Rex is not angry.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context:\n\nVumpuses are liquid.\nVumpuses are",
+    "predicted_answer": "Based on the given context:\n\nVumpuses are liquid.\nVumpuses are"
+  },
+  {
+    "id": "ProntoQA_99",
+    "question": "Is the following statement true or false? Sam is not earthy.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Dumpuses are cold.\n* Dumpuses are",
+    "predicted_answer": "Let's analyze the context:\n\n* Dumpuses are cold.\n* Dumpuses are"
+  },
+  {
+    "id": "ProntoQA_100",
+    "question": "Is the following statement true or false? Alex is blue.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce that:\n\n* Numpuses are",
+    "predicted_answer": "Based on the context, we can deduce that:\n\n* Numpuses are"
+  },
+  {
+    "id": "ProntoQA_101",
+    "question": "Is the following statement true or false? Sam is not shy.",
+    "answer": "B",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Each z",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Each z"
+  },
+  {
+    "id": "ProntoQA_102",
+    "question": "Is the following statement true or false? Rex is not spicy.",
+    "answer": "B",
+    "predicted_reasoning": "A classic logical reasoning puzzle!\n\nFrom the context, we know:\n\n* Wump",
+    "predicted_answer": "A classic logical reasoning puzzle!\n\nFrom the context, we know:\n\n* Wump"
+  },
+  {
+    "id": "ProntoQA_103",
+    "question": "Is the following statement true or false? Sally is small.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nFrom the context, we know that rompuses are t",
+    "predicted_answer": "B) False\n\nFrom the context, we know that rompuses are t"
+  },
+  {
+    "id": "ProntoQA_104",
+    "question": "Is the following statement true or false? Stella is red.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and conclude that:\n\n* Every",
+    "predicted_answer": "Based on the context, we can analyze the statements and conclude that:\n\n* Every"
+  },
+  {
+    "id": "ProntoQA_105",
+    "question": "Is the following statement true or false? Alex is not brown.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n* Numpuses are",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n* Numpuses are"
+  },
+  {
+    "id": "ProntoQA_106",
+    "question": "Is the following statement true or false? Max is angry.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements to find the answer.\n\nFrom",
+    "predicted_answer": "Based on the context, we can analyze the statements to find the answer.\n\nFrom"
+  },
+  {
+    "id": "ProntoQA_107",
+    "question": "Is the following statement true or false? Sally is not bitter.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every yumpus is not opaque.\n*",
+    "predicted_answer": "Let's analyze the context:\n\n* Every yumpus is not opaque.\n*"
+  },
+  {
+    "id": "ProntoQA_108",
+    "question": "Is the following statement true or false? Wren is not hot.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every impus is hot.\n* Every imp",
+    "predicted_answer": "Let's analyze the context:\n\n* Every impus is hot.\n* Every imp"
+  },
+  {
+    "id": "ProntoQA_109",
+    "question": "Is the following statement true or false? Sally is large.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and find the correct answer.",
+    "predicted_answer": "Based on the context, we can analyze the statements and find the correct answer."
+  },
+  {
+    "id": "ProntoQA_110",
+    "question": "Is the following statement true or false? Sally is not opaque.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context:\n\nEach wumpus is opaque.\nSally is a",
+    "predicted_answer": "Based on the context:\n\nEach wumpus is opaque.\nSally is a"
+  },
+  {
+    "id": "ProntoQA_111",
+    "question": "Is the following statement true or false? Sally is amenable.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nAccording to the context, every tumpus is not am",
+    "predicted_answer": "B) False\n\nAccording to the context, every tumpus is not am"
+  },
+  {
+    "id": "ProntoQA_112",
+    "question": "Is the following statement true or false? Max is not brown.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the statements:\n\n1. Each zumpus is brown.\n2",
+    "predicted_answer": "Let's analyze the statements:\n\n1. Each zumpus is brown.\n2"
+  },
+  {
+    "id": "ProntoQA_113",
+    "question": "Is the following statement true or false? Rex is not wooden.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can infer that:\n\n* Every rompus is wooden",
+    "predicted_answer": "Based on the context, we can infer that:\n\n* Every rompus is wooden"
+  },
+  {
+    "id": "ProntoQA_114",
+    "question": "Is the following statement true or false? Polly is sweet.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nHere's the explanation:\n\n* Polly is a tumpus",
+    "predicted_answer": "B) False\n\nHere's the explanation:\n\n* Polly is a tumpus"
+  },
+  {
+    "id": "ProntoQA_115",
+    "question": "Is the following statement true or false? Alex is wooden.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nAccording to the context, \"Impuses are wooden.\" But",
+    "predicted_answer": "B) False\n\nAccording to the context, \"Impuses are wooden.\" But"
+  },
+  {
+    "id": "ProntoQA_116",
+    "question": "Is the following statement true or false? Sally is not hot.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Dumpuses are hot.\n*",
+    "predicted_answer": "Based on the context, we know that:\n\n* Dumpuses are hot.\n*"
+  },
+  {
+    "id": "ProntoQA_117",
+    "question": "Is the following statement true or false? Alex is angry.",
+    "answer": "A",
+    "predicted_reasoning": "A delightful set of logical reasoning questions!\n\nLet's break down the context and answer",
+    "predicted_answer": "A delightful set of logical reasoning questions!\n\nLet's break down the context and answer"
+  },
+  {
+    "id": "ProntoQA_118",
+    "question": "Is the following statement true or false? Sam is not sweet.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Each vumpus is hot.\n* Each",
+    "predicted_answer": "Let's analyze the context:\n\n* Each vumpus is hot.\n* Each"
+  },
+  {
+    "id": "ProntoQA_119",
+    "question": "Is the following statement true or false? Max is shy.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and identify the relationships between the",
+    "predicted_answer": "Based on the context, we can analyze the statements and identify the relationships between the"
+  },
+  {
+    "id": "ProntoQA_120",
+    "question": "Is the following statement true or false? Stella is not fruity.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and conclude that:\n\n* Dump",
+    "predicted_answer": "Based on the context, we can analyze the statements and conclude that:\n\n* Dump"
+  },
+  {
+    "id": "ProntoQA_121",
+    "question": "Is the following statement true or false? Max is not mean.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the statements:\n\n1. Every dumpus is not cold.\n2",
+    "predicted_answer": "Let's analyze the statements:\n\n1. Every dumpus is not cold.\n2"
+  },
+  {
+    "id": "ProntoQA_122",
+    "question": "Is the following statement true or false? Fae is transparent.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements to determine the correct answer",
+    "predicted_answer": "Based on the given context, we can analyze the statements to determine the correct answer"
+  },
+  {
+    "id": "ProntoQA_123",
+    "question": "Is the following statement true or false? Polly is aggressive.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can infer the following:\n\n* Numpuses",
+    "predicted_answer": "Based on the given context, we can infer the following:\n\n* Numpuses"
+  },
+  {
+    "id": "ProntoQA_124",
+    "question": "Is the following statement true or false? Sam is not cold.",
+    "answer": "B",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Vump",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Vump"
+  },
+  {
+    "id": "ProntoQA_125",
+    "question": "Is the following statement true or false? Sally is not feisty.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every zumpus is bright.\n* Each",
+    "predicted_answer": "Let's analyze the context:\n\n* Every zumpus is bright.\n* Each"
+  },
+  {
+    "id": "ProntoQA_126",
+    "question": "Is the following statement true or false? Stella is not floral.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Stella is a zumpus.\n* Z",
+    "predicted_answer": "Let's analyze the context:\n\n* Stella is a zumpus.\n* Z"
+  },
+  {
+    "id": "ProntoQA_127",
+    "question": "Is the following statement true or false? Max is nervous.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Rompuses are nervous.\n* Dumpuses",
+    "predicted_answer": "Let's analyze the context:\n\n* Rompuses are nervous.\n* Dumpuses"
+  },
+  {
+    "id": "ProntoQA_128",
+    "question": "Is the following statement true or false? Sam is temperate.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nExplanation:\n\nFrom the context, we know that Tumpuses",
+    "predicted_answer": "B) False\n\nExplanation:\n\nFrom the context, we know that Tumpuses"
+  },
+  {
+    "id": "ProntoQA_129",
+    "question": "Is the following statement true or false? Wren is not sweet.",
+    "answer": "A",
+    "predicted_reasoning": "A nice set of logical reasoning questions!\n\nLet's analyze the context:\n\n* Every",
+    "predicted_answer": "A nice set of logical reasoning questions!\n\nLet's analyze the context:\n\n* Every"
+  },
+  {
+    "id": "ProntoQA_130",
+    "question": "Is the following statement true or false? Polly is not opaque.",
+    "answer": "A",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nLet's analyze the statements:\n\n1. Dumpuses",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nLet's analyze the statements:\n\n1. Dumpuses"
+  },
+  {
+    "id": "ProntoQA_131",
+    "question": "Is the following statement true or false? Polly is dull.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context:\n\nEvery dumpus is dull.\nEvery dumpus is a",
+    "predicted_answer": "Based on the context:\n\nEvery dumpus is dull.\nEvery dumpus is a"
+  },
+  {
+    "id": "ProntoQA_132",
+    "question": "Is the following statement true or false? Polly is not blue.",
+    "answer": "A",
+    "predicted_reasoning": "A nice set of logical reasoning questions!\n\nLet's analyze the context:\n\n* We",
+    "predicted_answer": "A nice set of logical reasoning questions!\n\nLet's analyze the context:\n\n* We"
+  },
+  {
+    "id": "ProntoQA_133",
+    "question": "Is the following statement true or false? Wren is not bitter.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n1. Each y",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n1. Each y"
+  },
+  {
+    "id": "ProntoQA_134",
+    "question": "Is the following statement true or false? Stella is temperate.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context:\n\nEach numpus is temperate.\nEach n",
+    "predicted_answer": "Based on the given context:\n\nEach numpus is temperate.\nEach n"
+  },
+  {
+    "id": "ProntoQA_135",
+    "question": "Is the following statement true or false? Alex is not blue.",
+    "answer": "A",
+    "predicted_reasoning": "Let's break down the statements:\n\n1. Wumpuses are not kind.",
+    "predicted_answer": "Let's break down the statements:\n\n1. Wumpuses are not kind."
+  },
+  {
+    "id": "ProntoQA_136",
+    "question": "Is the following statement true or false? Sally is not sour.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Sally is a",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Sally is a"
+  },
+  {
+    "id": "ProntoQA_137",
+    "question": "Is the following statement true or false? Rex is not liquid.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and draw conclusions.\n\nFrom the",
+    "predicted_answer": "Based on the context, we can analyze the statements and draw conclusions.\n\nFrom the"
+  },
+  {
+    "id": "ProntoQA_138",
+    "question": "Is the following statement true or false? Sally is red.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and conclude:\n\nEach impus",
+    "predicted_answer": "Based on the context, we can analyze the statements and conclude:\n\nEach impus"
+  },
+  {
+    "id": "ProntoQA_139",
+    "question": "Is the following statement true or false? Sam is not small.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Rompuses are small.\n* Jomp",
+    "predicted_answer": "Let's analyze the context:\n\n* Rompuses are small.\n* Jomp"
+  },
+  {
+    "id": "ProntoQA_140",
+    "question": "Is the following statement true or false? Stella is sour.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context:\n\n* Stella is a dumpus.\n* Each dumpus",
+    "predicted_answer": "Based on the context:\n\n* Stella is a dumpus.\n* Each dumpus"
+  },
+  {
+    "id": "ProntoQA_141",
+    "question": "Is the following statement true or false? Alex is bright.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Every jomp",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Every jomp"
+  },
+  {
+    "id": "ProntoQA_142",
+    "question": "Is the following statement true or false? Stella is opaque.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n* Stella is a n",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n* Stella is a n"
+  },
+  {
+    "id": "ProntoQA_143",
+    "question": "Is the following statement true or false? Max is transparent.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and relationships between the terms.",
+    "predicted_answer": "Based on the context, we can analyze the statements and relationships between the terms."
+  },
+  {
+    "id": "ProntoQA_144",
+    "question": "Is the following statement true or false? Wren is not large.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context:\n\nEach impus is not large. Jompuses",
+    "predicted_answer": "Based on the given context:\n\nEach impus is not large. Jompuses"
+  },
+  {
+    "id": "ProntoQA_145",
+    "question": "Is the following statement true or false? Stella is luminous.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nReasoning:\n\n* Stella is a dumpus (given)",
+    "predicted_answer": "B) False\n\nReasoning:\n\n* Stella is a dumpus (given)"
+  },
+  {
+    "id": "ProntoQA_146",
+    "question": "Is the following statement true or false? Fae is not bright.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\nEach dumpus is bright.\nEach dumpus is",
+    "predicted_answer": "Let's analyze the context:\n\nEach dumpus is bright.\nEach dumpus is"
+  },
+  {
+    "id": "ProntoQA_147",
+    "question": "Is the following statement true or false? Polly is not kind.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context:\n\nEvery rompus is opaque. Each rompus is",
+    "predicted_answer": "Based on the given context:\n\nEvery rompus is opaque. Each rompus is"
+  },
+  {
+    "id": "ProntoQA_148",
+    "question": "Is the following statement true or false? Fae is not dull.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Every yumpus is",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Every yumpus is"
+  },
+  {
+    "id": "ProntoQA_149",
+    "question": "Is the following statement true or false? Stella is transparent.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n1. Tumpuses are shy.\n2.",
+    "predicted_answer": "Let's analyze the context:\n\n1. Tumpuses are shy.\n2."
+  },
+  {
+    "id": "ProntoQA_150",
+    "question": "Is the following statement true or false? Alex is small.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n* Each jompus",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n* Each jompus"
+  },
+  {
+    "id": "ProntoQA_151",
+    "question": "Is the following statement true or false? Sally is shy.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nExplanation:\n\nFrom the given context, we know that each z",
+    "predicted_answer": "B) False\n\nExplanation:\n\nFrom the given context, we know that each z"
+  },
+  {
+    "id": "ProntoQA_152",
+    "question": "Is the following statement true or false? Wren is transparent.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context:\n\nEvery yumpus is a numpus. Every",
+    "predicted_answer": "Based on the context:\n\nEvery yumpus is a numpus. Every"
+  },
+  {
+    "id": "ProntoQA_153",
+    "question": "Is the following statement true or false? Sally is not dull.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements and arrive at the conclusion",
+    "predicted_answer": "Based on the given context, we can analyze the statements and arrive at the conclusion"
+  },
+  {
+    "id": "ProntoQA_154",
+    "question": "Is the following statement true or false? Sam is not brown.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Wumpuses are not opaque, but Y",
+    "predicted_answer": "Let's analyze the context:\n\n* Wumpuses are not opaque, but Y"
+  },
+  {
+    "id": "ProntoQA_155",
+    "question": "Is the following statement true or false? Sam is not large.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Rompuses are brown, wumpuses",
+    "predicted_answer": "Let's analyze the context:\n\n* Rompuses are brown, wumpuses"
+  },
+  {
+    "id": "ProntoQA_156",
+    "question": "Is the following statement true or false? Wren is not small.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Each tumpus is small. (This",
+    "predicted_answer": "Let's analyze the context:\n\n* Each tumpus is small. (This"
+  },
+  {
+    "id": "ProntoQA_157",
+    "question": "Is the following statement true or false? Polly is not happy.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context:\n\nEvery tumpus is happy.\nTumpuses",
+    "predicted_answer": "Based on the given context:\n\nEvery tumpus is happy.\nTumpuses"
+  },
+  {
+    "id": "ProntoQA_158",
+    "question": "Is the following statement true or false? Sam is not spicy.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n* Dumpuses are hot",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n* Dumpuses are hot"
+  },
+  {
+    "id": "ProntoQA_159",
+    "question": "Is the following statement true or false? Alex is not earthy.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Dumpuses are rompuses, and Alex",
+    "predicted_answer": "Let's analyze the context:\n\n* Dumpuses are rompuses, and Alex"
+  },
+  {
+    "id": "ProntoQA_160",
+    "question": "Is the following statement true or false? Wren is not nervous.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\nEach rompus is small. Every rompus is",
+    "predicted_answer": "Let's analyze the context:\n\nEach rompus is small. Every rompus is"
+  },
+  {
+    "id": "ProntoQA_161",
+    "question": "Is the following statement true or false? Max is red.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and arrive at the conclusion.",
+    "predicted_answer": "Based on the context, we can analyze the statements and arrive at the conclusion."
+  },
+  {
+    "id": "ProntoQA_162",
+    "question": "Is the following statement true or false? Wren is not mean.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nHere's the explanation:\n\nFrom the context, we know that",
+    "predicted_answer": "B) False\n\nHere's the explanation:\n\nFrom the context, we know that"
+  },
+  {
+    "id": "ProntoQA_163",
+    "question": "Is the following statement true or false? Stella is metallic.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Stella is an",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Stella is an"
+  },
+  {
+    "id": "ProntoQA_164",
+    "question": "Is the following statement true or false? Stella is not sweet.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n* Stella is a rom",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n* Stella is a rom"
+  },
+  {
+    "id": "ProntoQA_165",
+    "question": "Is the following statement true or false? Fae is not feisty.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context:\n\nEach vumpus is an impus.\nImpuses",
+    "predicted_answer": "Based on the context:\n\nEach vumpus is an impus.\nImpuses"
+  },
+  {
+    "id": "ProntoQA_166",
+    "question": "Is the following statement true or false? Polly is not sour.",
+    "answer": "A",
+    "predicted_reasoning": "Another set of logical reasoning questions!\n\nLet's break it down step by step:",
+    "predicted_answer": "Another set of logical reasoning questions!\n\nLet's break it down step by step:"
+  },
+  {
+    "id": "ProntoQA_167",
+    "question": "Is the following statement true or false? Stella is not bright.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n1. Each t",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n1. Each t"
+  },
+  {
+    "id": "ProntoQA_168",
+    "question": "Is the following statement true or false? Wren is floral.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Every jompus is floral",
+    "predicted_answer": "Based on the context, we know that:\n\n* Every jompus is floral"
+  },
+  {
+    "id": "ProntoQA_169",
+    "question": "Is the following statement true or false? Sam is fruity.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nHere's the explanation:\n\nFrom the context, we know that",
+    "predicted_answer": "B) False\n\nHere's the explanation:\n\nFrom the context, we know that"
+  },
+  {
+    "id": "ProntoQA_170",
+    "question": "Is the following statement true or false? Max is not brown.",
+    "answer": "B",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Max is",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Max is"
+  },
+  {
+    "id": "ProntoQA_171",
+    "question": "Is the following statement true or false? Polly is not metallic.",
+    "answer": "A",
+    "predicted_reasoning": "A delightful set of logical reasoning questions!\n\nLet's analyze the context:\n\n* Each",
+    "predicted_answer": "A delightful set of logical reasoning questions!\n\nLet's analyze the context:\n\n* Each"
+  },
+  {
+    "id": "ProntoQA_172",
+    "question": "Is the following statement true or false? Rex is not opaque.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Each zumpus is a vumpus",
+    "predicted_answer": "Let's analyze the context:\n\n* Each zumpus is a vumpus"
+  },
+  {
+    "id": "ProntoQA_173",
+    "question": "Is the following statement true or false? Sally is not cold.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n1. Each dumpus",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n1. Each dumpus"
+  },
+  {
+    "id": "ProntoQA_174",
+    "question": "Is the following statement true or false? Polly is kind.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nHere's the explanation:\n\n* Polly is a dumpus.",
+    "predicted_answer": "B) False\n\nHere's the explanation:\n\n* Polly is a dumpus."
+  },
+  {
+    "id": "ProntoQA_175",
+    "question": "Is the following statement true or false? Stella is nervous.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can conclude that Stella is a zumpus,",
+    "predicted_answer": "Based on the context, we can conclude that Stella is a zumpus,"
+  },
+  {
+    "id": "ProntoQA_176",
+    "question": "Is the following statement true or false? Sally is not spicy.",
+    "answer": "A",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Each dump",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Each dump"
+  },
+  {
+    "id": "ProntoQA_177",
+    "question": "Is the following statement true or false? Rex is bright.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements and reach a conclusion.",
+    "predicted_answer": "Based on the given context, we can analyze the statements and reach a conclusion."
+  },
+  {
+    "id": "ProntoQA_178",
+    "question": "Is the following statement true or false? Polly is metallic.",
+    "answer": "B",
+    "predicted_reasoning": "B) False",
+    "predicted_answer": "B) False"
+  },
+  {
+    "id": "ProntoQA_179",
+    "question": "Is the following statement true or false? Wren is not opaque.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every rompus is sour.\n* Romp",
+    "predicted_answer": "Let's analyze the context:\n\n* Every rompus is sour.\n* Romp"
+  },
+  {
+    "id": "ProntoQA_180",
+    "question": "Is the following statement true or false? Max is not luminous.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\nFrom the context, we know that:\n\n* J",
+    "predicted_answer": "Let's analyze the context:\n\nFrom the context, we know that:\n\n* J"
+  },
+  {
+    "id": "ProntoQA_181",
+    "question": "Is the following statement true or false? Rex is not kind.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n1. Every rom",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n1. Every rom"
+  },
+  {
+    "id": "ProntoQA_182",
+    "question": "Is the following statement true or false? Sam is large.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and draw conclusions:\n\n1.",
+    "predicted_answer": "Based on the context, we can analyze the statements and draw conclusions:\n\n1."
+  },
+  {
+    "id": "ProntoQA_183",
+    "question": "Is the following statement true or false? Fae is opaque.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context:\n\nWumpuses are opaque.\n\nImpuses are y",
+    "predicted_answer": "Based on the given context:\n\nWumpuses are opaque.\n\nImpuses are y"
+  },
+  {
+    "id": "ProntoQA_184",
+    "question": "Is the following statement true or false? Sam is not angry.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Vumpuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Vumpuses"
+  },
+  {
+    "id": "ProntoQA_185",
+    "question": "Is the following statement true or false? Polly is not happy.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Tumpuses are bright.\n* Tump",
+    "predicted_answer": "Let's analyze the context:\n\n* Tumpuses are bright.\n* Tump"
+  },
+  {
+    "id": "ProntoQA_186",
+    "question": "Is the following statement true or false? Sally is fruity.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Wumpuses are spicy",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Wumpuses are spicy"
+  },
+  {
+    "id": "ProntoQA_187",
+    "question": "Is the following statement true or false? Sam is bitter.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements and arrive at the correct",
+    "predicted_answer": "Based on the given context, we can analyze the statements and arrive at the correct"
+  },
+  {
+    "id": "ProntoQA_188",
+    "question": "Is the following statement true or false? Stella is not cold.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n1. Each y",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n1. Each y"
+  },
+  {
+    "id": "ProntoQA_189",
+    "question": "Is the following statement true or false? Wren is dull.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n* Zumpuses are",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n* Zumpuses are"
+  },
+  {
+    "id": "ProntoQA_190",
+    "question": "Is the following statement true or false? Max is nervous.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Every zumpus is nervous",
+    "predicted_answer": "Based on the context, we know that:\n\n* Every zumpus is nervous"
+  },
+  {
+    "id": "ProntoQA_191",
+    "question": "Is the following statement true or false? Fae is happy.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context:\n\nEvery dumpus is spicy. Dumpuses are y",
+    "predicted_answer": "Based on the given context:\n\nEvery dumpus is spicy. Dumpuses are y"
+  },
+  {
+    "id": "ProntoQA_192",
+    "question": "Is the following statement true or false? Sam is not dull.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Numpuses are not wooden.\n* N",
+    "predicted_answer": "Let's analyze the context:\n\n* Numpuses are not wooden.\n* N"
+  },
+  {
+    "id": "ProntoQA_193",
+    "question": "Is the following statement true or false? Wren is not red.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Every yumpus is",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Every yumpus is"
+  },
+  {
+    "id": "ProntoQA_194",
+    "question": "Is the following statement true or false? Max is not earthy.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Max is a rompus.\n* Romp",
+    "predicted_answer": "Let's analyze the context:\n\n* Max is a rompus.\n* Romp"
+  },
+  {
+    "id": "ProntoQA_195",
+    "question": "Is the following statement true or false? Fae is not spicy.",
+    "answer": "B",
+    "predicted_reasoning": "A nice set of logical reasoning questions!\n\nLet's break down the context and identify",
+    "predicted_answer": "A nice set of logical reasoning questions!\n\nLet's break down the context and identify"
+  },
+  {
+    "id": "ProntoQA_196",
+    "question": "Is the following statement true or false? Fae is not feisty.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the statements:\n\n1. Vumpuses are zumpuses.",
+    "predicted_answer": "Let's analyze the statements:\n\n1. Vumpuses are zumpuses."
+  },
+  {
+    "id": "ProntoQA_197",
+    "question": "Is the following statement true or false? Alex is kind.",
+    "answer": "B",
+    "predicted_reasoning": "B) False",
+    "predicted_answer": "B) False"
+  },
+  {
+    "id": "ProntoQA_198",
+    "question": "Is the following statement true or false? Wren is small.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nAccording to the context, \"Each jompus is floral",
+    "predicted_answer": "B) False\n\nAccording to the context, \"Each jompus is floral"
+  },
+  {
+    "id": "ProntoQA_199",
+    "question": "Is the following statement true or false? Alex is opaque.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nExplanation:\n\nFrom the context, we know that Rompuses",
+    "predicted_answer": "B) False\n\nExplanation:\n\nFrom the context, we know that Rompuses"
+  },
+  {
+    "id": "ProntoQA_200",
+    "question": "Is the following statement true or false? Rex is not transparent.",
+    "answer": "A",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Zump",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Zump"
+  },
+  {
+    "id": "ProntoQA_201",
+    "question": "Is the following statement true or false? Sally is not wooden.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every rompus is wooden.\n* Every rom",
+    "predicted_answer": "Let's analyze the context:\n\n* Every rompus is wooden.\n* Every rom"
+  },
+  {
+    "id": "ProntoQA_202",
+    "question": "Is the following statement true or false? Wren is opaque.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nHere's the reasoning:\n\n* Wren is a zump",
+    "predicted_answer": "B) False\n\nHere's the reasoning:\n\n* Wren is a zump"
+  },
+  {
+    "id": "ProntoQA_203",
+    "question": "Is the following statement true or false? Alex is shy.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nExplanation:\n\nFrom the context, we know that \"Each t",
+    "predicted_answer": "B) False\n\nExplanation:\n\nFrom the context, we know that \"Each t"
+  },
+  {
+    "id": "ProntoQA_204",
+    "question": "Is the following statement true or false? Sam is not feisty.",
+    "answer": "B",
+    "predicted_reasoning": "Let's break it down step by step:\n\n1. Sam is a jomp",
+    "predicted_answer": "Let's break it down step by step:\n\n1. Sam is a jomp"
+  },
+  {
+    "id": "ProntoQA_205",
+    "question": "Is the following statement true or false? Stella is fruity.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n* Wumpuses are",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n* Wumpuses are"
+  },
+  {
+    "id": "ProntoQA_206",
+    "question": "Is the following statement true or false? Polly is fruity.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Impuses are",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Impuses are"
+  },
+  {
+    "id": "ProntoQA_207",
+    "question": "Is the following statement true or false? Sally is not floral.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Numpuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Numpuses"
+  },
+  {
+    "id": "ProntoQA_208",
+    "question": "Is the following statement true or false? Max is not orange.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that Jompuses are orange, and Max",
+    "predicted_answer": "Based on the context, we know that Jompuses are orange, and Max"
+  },
+  {
+    "id": "ProntoQA_209",
+    "question": "Is the following statement true or false? Polly is earthy.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Dumpuses are",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Dumpuses are"
+  },
+  {
+    "id": "ProntoQA_210",
+    "question": "Is the following statement true or false? Fae is not hot.",
+    "answer": "B",
+    "predicted_reasoning": "Let's break down the context:\n\n* Zumpuses are wooden.\n* Z",
+    "predicted_answer": "Let's break down the context:\n\n* Zumpuses are wooden.\n* Z"
+  },
+  {
+    "id": "ProntoQA_211",
+    "question": "Is the following statement true or false? Alex is not earthy.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Each zumpus is earthy. (",
+    "predicted_answer": "Let's analyze the context:\n\n* Each zumpus is earthy. ("
+  },
+  {
+    "id": "ProntoQA_212",
+    "question": "Is the following statement true or false? Stella is not temperate.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every tumpus is red.\n* Each",
+    "predicted_answer": "Let's analyze the context:\n\n* Every tumpus is red.\n* Each"
+  },
+  {
+    "id": "ProntoQA_213",
+    "question": "Is the following statement true or false? Rex is not wooden.",
+    "answer": "A",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Every dump",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Every dump"
+  },
+  {
+    "id": "ProntoQA_214",
+    "question": "Is the following statement true or false? Sally is nervous.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n* Every vump",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n* Every vump"
+  },
+  {
+    "id": "ProntoQA_215",
+    "question": "Is the following statement true or false? Max is not earthy.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Max is a wumpus",
+    "predicted_answer": "Based on the context, we know that:\n\n* Max is a wumpus"
+  },
+  {
+    "id": "ProntoQA_216",
+    "question": "Is the following statement true or false? Max is aggressive.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n* Max is a w",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n* Max is a w"
+  },
+  {
+    "id": "ProntoQA_217",
+    "question": "Is the following statement true or false? Sally is not metallic.",
+    "answer": "A",
+    "predicted_reasoning": "A classic logical reasoning question!\n\nLet's break it down:\n\n1. Nump",
+    "predicted_answer": "A classic logical reasoning question!\n\nLet's break it down:\n\n1. Nump"
+  },
+  {
+    "id": "ProntoQA_218",
+    "question": "Is the following statement true or false? Fae is transparent.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n1. Every v",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n1. Every v"
+  },
+  {
+    "id": "ProntoQA_219",
+    "question": "Is the following statement true or false? Wren is transparent.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the statements:\n\n* Every wumpus is transparent.\n* Each",
+    "predicted_answer": "Let's analyze the statements:\n\n* Every wumpus is transparent.\n* Each"
+  },
+  {
+    "id": "ProntoQA_220",
+    "question": "Is the following statement true or false? Stella is not luminous.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nHere's the reasoning:\n\nStella is a tumpus",
+    "predicted_answer": "B) False\n\nHere's the reasoning:\n\nStella is a tumpus"
+  },
+  {
+    "id": "ProntoQA_221",
+    "question": "Is the following statement true or false? Stella is fruity.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nFrom the context, we know that Tumpuses are fruity",
+    "predicted_answer": "B) False\n\nFrom the context, we know that Tumpuses are fruity"
+  },
+  {
+    "id": "ProntoQA_222",
+    "question": "Is the following statement true or false? Stella is not metallic.",
+    "answer": "A",
+    "predicted_reasoning": "A nice set of logical reasoning questions!\n\nLet's analyze the statements:\n\n1.",
+    "predicted_answer": "A nice set of logical reasoning questions!\n\nLet's analyze the statements:\n\n1."
+  },
+  {
+    "id": "ProntoQA_223",
+    "question": "Is the following statement true or false? Polly is not luminous.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Impuses are small.\n*",
+    "predicted_answer": "Based on the context, we know that:\n\n* Impuses are small.\n*"
+  },
+  {
+    "id": "ProntoQA_224",
+    "question": "Is the following statement true or false? Sally is cold.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can conclude that Sally is not cold. Here's",
+    "predicted_answer": "Based on the context, we can conclude that Sally is not cold. Here's"
+  },
+  {
+    "id": "ProntoQA_225",
+    "question": "Is the following statement true or false? Sam is large.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and identify the relationships between the",
+    "predicted_answer": "Based on the context, we can analyze the statements and identify the relationships between the"
+  },
+  {
+    "id": "ProntoQA_226",
+    "question": "Is the following statement true or false? Stella is metallic.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nFrom the context, we know that Stella is an impus",
+    "predicted_answer": "B) False\n\nFrom the context, we know that Stella is an impus"
+  },
+  {
+    "id": "ProntoQA_227",
+    "question": "Is the following statement true or false? Sam is not nervous.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every impus is nervous, but Sam is",
+    "predicted_answer": "Let's analyze the context:\n\n* Every impus is nervous, but Sam is"
+  },
+  {
+    "id": "ProntoQA_228",
+    "question": "Is the following statement true or false? Alex is not transparent.",
+    "answer": "B",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nLet's break it down step by step:\n\n1",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nLet's break it down step by step:\n\n1"
+  },
+  {
+    "id": "ProntoQA_229",
+    "question": "Is the following statement true or false? Alex is not cold.",
+    "answer": "A",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Every w",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Every w"
+  },
+  {
+    "id": "ProntoQA_230",
+    "question": "Is the following statement true or false? Rex is kind.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context:\n\nEvery tumpus is not kind.\nDumpuses are",
+    "predicted_answer": "Based on the context:\n\nEvery tumpus is not kind.\nDumpuses are"
+  },
+  {
+    "id": "ProntoQA_231",
+    "question": "Is the following statement true or false? Sam is not dull.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Dumpuses are not large (so Sam,",
+    "predicted_answer": "Let's analyze the context:\n\n* Dumpuses are not large (so Sam,"
+  },
+  {
+    "id": "ProntoQA_232",
+    "question": "Is the following statement true or false? Max is not opaque.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Each dumpus is not opaque. (This",
+    "predicted_answer": "Let's analyze the context:\n\n* Each dumpus is not opaque. (This"
+  },
+  {
+    "id": "ProntoQA_233",
+    "question": "Is the following statement true or false? Rex is not large.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Dumpuses are large.\n* Rex is a",
+    "predicted_answer": "Let's analyze the context:\n\n* Dumpuses are large.\n* Rex is a"
+  },
+  {
+    "id": "ProntoQA_234",
+    "question": "Is the following statement true or false? Stella is not earthy.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Rompuses are earthy.\n* N",
+    "predicted_answer": "Let's analyze the context:\n\n* Rompuses are earthy.\n* N"
+  },
+  {
+    "id": "ProntoQA_235",
+    "question": "Is the following statement true or false? Stella is not happy.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n1. Each t",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n1. Each t"
+  },
+  {
+    "id": "ProntoQA_236",
+    "question": "Is the following statement true or false? Fae is orange.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce that:\n\n* Vumpuses are",
+    "predicted_answer": "Based on the context, we can deduce that:\n\n* Vumpuses are"
+  },
+  {
+    "id": "ProntoQA_237",
+    "question": "Is the following statement true or false? Sally is cold.",
+    "answer": "B",
+    "predicted_reasoning": "B) False",
+    "predicted_answer": "B) False"
+  },
+  {
+    "id": "ProntoQA_238",
+    "question": "Is the following statement true or false? Polly is small.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Rompuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Rompuses"
+  },
+  {
+    "id": "ProntoQA_239",
+    "question": "Is the following statement true or false? Alex is not spicy.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context:\n\nTumpuses are fruity.\nTumpuses are j",
+    "predicted_answer": "Based on the context:\n\nTumpuses are fruity.\nTumpuses are j"
+  },
+  {
+    "id": "ProntoQA_240",
+    "question": "Is the following statement true or false? Alex is spicy.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n1. Every dumpus",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n1. Every dumpus"
+  },
+  {
+    "id": "ProntoQA_241",
+    "question": "Is the following statement true or false? Sally is not orange.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n1. Each tump",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n1. Each tump"
+  },
+  {
+    "id": "ProntoQA_242",
+    "question": "Is the following statement true or false? Wren is not blue.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Dumpuses are blue.\n* Rompuses",
+    "predicted_answer": "Let's analyze the context:\n\n* Dumpuses are blue.\n* Rompuses"
+  },
+  {
+    "id": "ProntoQA_243",
+    "question": "Is the following statement true or false? Max is feisty.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Dumpuses are feisty.\n* Romp",
+    "predicted_answer": "Let's analyze the context:\n\n* Dumpuses are feisty.\n* Romp"
+  },
+  {
+    "id": "ProntoQA_244",
+    "question": "Is the following statement true or false? Wren is not transparent.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Rompuses are shy.\n* Each rom",
+    "predicted_answer": "Let's analyze the context:\n\n* Rompuses are shy.\n* Each rom"
+  },
+  {
+    "id": "ProntoQA_245",
+    "question": "Is the following statement true or false? Rex is large.",
+    "answer": "A",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nLet's break it down:\n\n* Every tump",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nLet's break it down:\n\n* Every tump"
+  },
+  {
+    "id": "ProntoQA_246",
+    "question": "Is the following statement true or false? Sam is not red.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\nEach numpus is not red.\nSam is",
+    "predicted_answer": "Let's analyze the context:\n\nEach numpus is not red.\nSam is"
+  },
+  {
+    "id": "ProntoQA_247",
+    "question": "Is the following statement true or false? Sam is brown.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Rompuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Rompuses"
+  },
+  {
+    "id": "ProntoQA_248",
+    "question": "Is the following statement true or false? Polly is sour.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context:\n\n* Numpuses are sour.\n* Polly is a",
+    "predicted_answer": "Based on the context:\n\n* Numpuses are sour.\n* Polly is a"
+  },
+  {
+    "id": "ProntoQA_249",
+    "question": "Is the following statement true or false? Stella is small.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can deduce the following:\n\n* Stella is",
+    "predicted_answer": "Based on the given context, we can deduce the following:\n\n* Stella is"
+  },
+  {
+    "id": "ProntoQA_250",
+    "question": "Is the following statement true or false? Stella is wooden.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nFrom the context, we know that each dumpus is wooden",
+    "predicted_answer": "B) False\n\nFrom the context, we know that each dumpus is wooden"
+  },
+  {
+    "id": "ProntoQA_251",
+    "question": "Is the following statement true or false? Sam is kind.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Every impus",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Every impus"
+  },
+  {
+    "id": "ProntoQA_252",
+    "question": "Is the following statement true or false? Alex is blue.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and conclude:\n\n* Romp",
+    "predicted_answer": "Based on the context, we can analyze the statements and conclude:\n\n* Romp"
+  },
+  {
+    "id": "ProntoQA_253",
+    "question": "Is the following statement true or false? Fae is not large.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Vumpuses are red.\n* Vump",
+    "predicted_answer": "Let's analyze the context:\n\n* Vumpuses are red.\n* Vump"
+  },
+  {
+    "id": "ProntoQA_254",
+    "question": "Is the following statement true or false? Max is bright.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Tumpuses are floral.\n* Each n",
+    "predicted_answer": "Let's analyze the context:\n\n* Tumpuses are floral.\n* Each n"
+  },
+  {
+    "id": "ProntoQA_255",
+    "question": "Is the following statement true or false? Max is not bitter.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n* Max is a w",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n* Max is a w"
+  },
+  {
+    "id": "ProntoQA_256",
+    "question": "Is the following statement true or false? Sam is not small.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce that Sam is a zumpus",
+    "predicted_answer": "Based on the context, we can deduce that Sam is a zumpus"
+  },
+  {
+    "id": "ProntoQA_257",
+    "question": "Is the following statement true or false? Max is kind.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and conclude that:\n\n* Max",
+    "predicted_answer": "Based on the context, we can analyze the statements and conclude that:\n\n* Max"
+  },
+  {
+    "id": "ProntoQA_258",
+    "question": "Is the following statement true or false? Wren is not dull.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\nWumpuses are orange.\nWumpuses are",
+    "predicted_answer": "Let's analyze the context:\n\nWumpuses are orange.\nWumpuses are"
+  },
+  {
+    "id": "ProntoQA_259",
+    "question": "Is the following statement true or false? Sally is sweet.",
+    "answer": "B",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Each y",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Each y"
+  },
+  {
+    "id": "ProntoQA_260",
+    "question": "Is the following statement true or false? Max is not wooden.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we know that Max is a vumpus, and",
+    "predicted_answer": "Based on the context, we know that Max is a vumpus, and"
+  },
+  {
+    "id": "ProntoQA_261",
+    "question": "Is the following statement true or false? Alex is not fruity.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Each tumpus is mean.\n* Each",
+    "predicted_answer": "Let's analyze the context:\n\n* Each tumpus is mean.\n* Each"
+  },
+  {
+    "id": "ProntoQA_262",
+    "question": "Is the following statement true or false? Sam is cold.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nExplanation:\n\nFrom the context, we know that Sam is a",
+    "predicted_answer": "B) False\n\nExplanation:\n\nFrom the context, we know that Sam is a"
+  },
+  {
+    "id": "ProntoQA_263",
+    "question": "Is the following statement true or false? Sally is floral.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Dumpuses are",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Dumpuses are"
+  },
+  {
+    "id": "ProntoQA_264",
+    "question": "Is the following statement true or false? Max is not bright.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context:\n\nMax is an impus.\nImpuses are not",
+    "predicted_answer": "Based on the given context:\n\nMax is an impus.\nImpuses are not"
+  },
+  {
+    "id": "ProntoQA_265",
+    "question": "Is the following statement true or false? Sally is not fruity.",
+    "answer": "B",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Sally is",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Sally is"
+  },
+  {
+    "id": "ProntoQA_266",
+    "question": "Is the following statement true or false? Rex is temperate.",
+    "answer": "A",
+    "predicted_reasoning": "Let's break down the context:\n\n* Every yumpus is large, and",
+    "predicted_answer": "Let's break down the context:\n\n* Every yumpus is large, and"
+  },
+  {
+    "id": "ProntoQA_267",
+    "question": "Is the following statement true or false? Polly is not opaque.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context:\n\nVumpuses are wumpuses.\nWump",
+    "predicted_answer": "Based on the given context:\n\nVumpuses are wumpuses.\nWump"
+  },
+  {
+    "id": "ProntoQA_268",
+    "question": "Is the following statement true or false? Alex is not cold.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce that:\n\n* Alex is a dump",
+    "predicted_answer": "Based on the context, we can deduce that:\n\n* Alex is a dump"
+  },
+  {
+    "id": "ProntoQA_269",
+    "question": "Is the following statement true or false? Max is opaque.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can conclude that:\n\n* Impuses are y",
+    "predicted_answer": "Based on the given context, we can conclude that:\n\n* Impuses are y"
+  },
+  {
+    "id": "ProntoQA_270",
+    "question": "Is the following statement true or false? Wren is not bright.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n1. Tumpuses are not wooden.\n2",
+    "predicted_answer": "Let's analyze the context:\n\n1. Tumpuses are not wooden.\n2"
+  },
+  {
+    "id": "ProntoQA_271",
+    "question": "Is the following statement true or false? Sally is not small.",
+    "answer": "A",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Each j",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nFrom the context, we know:\n\n* Each j"
+  },
+  {
+    "id": "ProntoQA_272",
+    "question": "Is the following statement true or false? Alex is cold.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Zumpuses are bitter",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Zumpuses are bitter"
+  },
+  {
+    "id": "ProntoQA_273",
+    "question": "Is the following statement true or false? Alex is luminous.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n1. Dumpuses",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n1. Dumpuses"
+  },
+  {
+    "id": "ProntoQA_274",
+    "question": "Is the following statement true or false? Sam is not metallic.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Rompuses are metallic.\n* Zump",
+    "predicted_answer": "Let's analyze the context:\n\n* Rompuses are metallic.\n* Zump"
+  },
+  {
+    "id": "ProntoQA_275",
+    "question": "Is the following statement true or false? Max is not aggressive.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every dumpus is aggressive.\n* Each t",
+    "predicted_answer": "Let's analyze the context:\n\n* Every dumpus is aggressive.\n* Each t"
+  },
+  {
+    "id": "ProntoQA_276",
+    "question": "Is the following statement true or false? Sally is not nervous.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can conclude that Sally is a dumpus, and",
+    "predicted_answer": "Based on the context, we can conclude that Sally is a dumpus, and"
+  },
+  {
+    "id": "ProntoQA_277",
+    "question": "Is the following statement true or false? Rex is not temperate.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can infer that:\n\n* Impuses are temperate",
+    "predicted_answer": "Based on the context, we can infer that:\n\n* Impuses are temperate"
+  },
+  {
+    "id": "ProntoQA_278",
+    "question": "Is the following statement true or false? Sally is not dull.",
+    "answer": "B",
+    "predicted_reasoning": "A delightful set of logical reasoning questions!\n\nLet's analyze the context:\n\n1.",
+    "predicted_answer": "A delightful set of logical reasoning questions!\n\nLet's analyze the context:\n\n1."
+  },
+  {
+    "id": "ProntoQA_279",
+    "question": "Is the following statement true or false? Wren is not feisty.",
+    "answer": "A",
+    "predicted_reasoning": "A classic logical reasoning question!\n\nLet's analyze the context:\n\n1. Every t",
+    "predicted_answer": "A classic logical reasoning question!\n\nLet's analyze the context:\n\n1. Every t"
+  },
+  {
+    "id": "ProntoQA_280",
+    "question": "Is the following statement true or false? Alex is sweet.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nExplanation:\n\n* Every zumpus is not amenable.",
+    "predicted_answer": "B) False\n\nExplanation:\n\n* Every zumpus is not amenable."
+  },
+  {
+    "id": "ProntoQA_281",
+    "question": "Is the following statement true or false? Stella is luminous.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we know that:\n\n* Stella is a wump",
+    "predicted_answer": "Based on the given context, we know that:\n\n* Stella is a wump"
+  },
+  {
+    "id": "ProntoQA_282",
+    "question": "Is the following statement true or false? Stella is luminous.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and arrive at the conclusion.",
+    "predicted_answer": "Based on the context, we can analyze the statements and arrive at the conclusion."
+  },
+  {
+    "id": "ProntoQA_283",
+    "question": "Is the following statement true or false? Polly is large.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Wumpuses are opaque.",
+    "predicted_answer": "Based on the context, we know that:\n\n* Wumpuses are opaque."
+  },
+  {
+    "id": "ProntoQA_284",
+    "question": "Is the following statement true or false? Rex is happy.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Dumpuses are",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Dumpuses are"
+  },
+  {
+    "id": "ProntoQA_285",
+    "question": "Is the following statement true or false? Stella is cold.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Yumpuses are bright.\n* Romp",
+    "predicted_answer": "Let's analyze the context:\n\n* Yumpuses are bright.\n* Romp"
+  },
+  {
+    "id": "ProntoQA_286",
+    "question": "Is the following statement true or false? Max is floral.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Max is an",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Max is an"
+  },
+  {
+    "id": "ProntoQA_287",
+    "question": "Is the following statement true or false? Rex is bright.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every jompus is not wooden.\n*",
+    "predicted_answer": "Let's analyze the context:\n\n* Every jompus is not wooden.\n*"
+  },
+  {
+    "id": "ProntoQA_288",
+    "question": "Is the following statement true or false? Fae is opaque.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and arrive at the conclusion.",
+    "predicted_answer": "Based on the context, we can analyze the statements and arrive at the conclusion."
+  },
+  {
+    "id": "ProntoQA_289",
+    "question": "Is the following statement true or false? Polly is amenable.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can analyze the information:\n\n* Each yump",
+    "predicted_answer": "Based on the given context, we can analyze the information:\n\n* Each yump"
+  },
+  {
+    "id": "ProntoQA_290",
+    "question": "Is the following statement true or false? Rex is sweet.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Each wumpus is",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Each wumpus is"
+  },
+  {
+    "id": "ProntoQA_291",
+    "question": "Is the following statement true or false? Stella is not luminous.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that Stella is a tumpus, and",
+    "predicted_answer": "Based on the context, we know that Stella is a tumpus, and"
+  },
+  {
+    "id": "ProntoQA_292",
+    "question": "Is the following statement true or false? Fae is transparent.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nHere's the reasoning:\n\n* Zumpuses are not fe",
+    "predicted_answer": "B) False\n\nHere's the reasoning:\n\n* Zumpuses are not fe"
+  },
+  {
+    "id": "ProntoQA_293",
+    "question": "Is the following statement true or false? Sally is not luminous.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Each rompus is brown",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Each rompus is brown"
+  },
+  {
+    "id": "ProntoQA_294",
+    "question": "Is the following statement true or false? Polly is luminous.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Wumpuses are lumin",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Wumpuses are lumin"
+  },
+  {
+    "id": "ProntoQA_295",
+    "question": "Is the following statement true or false? Sally is liquid.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements and reach a conclusion.",
+    "predicted_answer": "Based on the given context, we can analyze the statements and reach a conclusion."
+  },
+  {
+    "id": "ProntoQA_296",
+    "question": "Is the following statement true or false? Wren is small.",
+    "answer": "A",
+    "predicted_reasoning": "A classic logical reasoning question!\n\nFrom the context, we know:\n\n* Each n",
+    "predicted_answer": "A classic logical reasoning question!\n\nFrom the context, we know:\n\n* Each n"
+  },
+  {
+    "id": "ProntoQA_297",
+    "question": "Is the following statement true or false? Sam is sour.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n1. Vumpuses",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n1. Vumpuses"
+  },
+  {
+    "id": "ProntoQA_298",
+    "question": "Is the following statement true or false? Sally is not happy.",
+    "answer": "A",
+    "predicted_reasoning": "A classic logical reasoning puzzle!\n\nFrom the context, we know:\n\n1. Sally",
+    "predicted_answer": "A classic logical reasoning puzzle!\n\nFrom the context, we know:\n\n1. Sally"
+  },
+  {
+    "id": "ProntoQA_299",
+    "question": "Is the following statement true or false? Polly is cold.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nFrom the context, we know that:\n\n* Every dumpus",
+    "predicted_answer": "B) False\n\nFrom the context, we know that:\n\n* Every dumpus"
+  },
+  {
+    "id": "ProntoQA_300",
+    "question": "Is the following statement true or false? Sam is temperate.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nExplanation: According to the context, each wumpus is",
+    "predicted_answer": "B) False\n\nExplanation: According to the context, each wumpus is"
+  },
+  {
+    "id": "ProntoQA_301",
+    "question": "Is the following statement true or false? Max is small.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can deduce the following:\n\n* Max is",
+    "predicted_answer": "Based on the given context, we can deduce the following:\n\n* Max is"
+  },
+  {
+    "id": "ProntoQA_302",
+    "question": "Is the following statement true or false? Alex is not large.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Dumpuses are numpuses, and n",
+    "predicted_answer": "Let's analyze the context:\n\n* Dumpuses are numpuses, and n"
+  },
+  {
+    "id": "ProntoQA_303",
+    "question": "Is the following statement true or false? Alex is cold.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and deduce the following:",
+    "predicted_answer": "Based on the context, we can analyze the statements and deduce the following:"
+  },
+  {
+    "id": "ProntoQA_304",
+    "question": "Is the following statement true or false? Polly is not amenable.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n1. Wumpuses",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n1. Wumpuses"
+  },
+  {
+    "id": "ProntoQA_305",
+    "question": "Is the following statement true or false? Alex is earthy.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Each numpus is",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Each numpus is"
+  },
+  {
+    "id": "ProntoQA_306",
+    "question": "Is the following statement true or false? Max is aggressive.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n1. Impuses are",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n1. Impuses are"
+  },
+  {
+    "id": "ProntoQA_307",
+    "question": "Is the following statement true or false? Stella is not hot.",
+    "answer": "B",
+    "predicted_reasoning": "A logical reasoning question!\n\nFrom the context, we know:\n\n1. Stella is",
+    "predicted_answer": "A logical reasoning question!\n\nFrom the context, we know:\n\n1. Stella is"
+  },
+  {
+    "id": "ProntoQA_308",
+    "question": "Is the following statement true or false? Alex is not orange.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nAccording to the context, each tumpus is orange,",
+    "predicted_answer": "B) False\n\nAccording to the context, each tumpus is orange,"
+  },
+  {
+    "id": "ProntoQA_309",
+    "question": "Is the following statement true or false? Wren is not large.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Rompuses are large",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Rompuses are large"
+  },
+  {
+    "id": "ProntoQA_310",
+    "question": "Is the following statement true or false? Sam is liquid.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nHere's the explanation:\n\n1. Each zumpus is",
+    "predicted_answer": "B) False\n\nHere's the explanation:\n\n1. Each zumpus is"
+  },
+  {
+    "id": "ProntoQA_311",
+    "question": "Is the following statement true or false? Polly is not small.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n* Rompuses",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n* Rompuses"
+  },
+  {
+    "id": "ProntoQA_312",
+    "question": "Is the following statement true or false? Max is not aggressive.",
+    "answer": "A",
+    "predicted_reasoning": "A delightful set of logical reasoning questions!\n\nLet's break down the statements:\n\n1",
+    "predicted_answer": "A delightful set of logical reasoning questions!\n\nLet's break down the statements:\n\n1"
+  },
+  {
+    "id": "ProntoQA_313",
+    "question": "Is the following statement true or false? Stella is temperate.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context:\n\nEach dumpus is a wumpus. Dump",
+    "predicted_answer": "Based on the given context:\n\nEach dumpus is a wumpus. Dump"
+  },
+  {
+    "id": "ProntoQA_314",
+    "question": "Is the following statement true or false? Sally is not opaque.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and arrive at the conclusion.",
+    "predicted_answer": "Based on the context, we can analyze the statements and arrive at the conclusion."
+  },
+  {
+    "id": "ProntoQA_315",
+    "question": "Is the following statement true or false? Fae is not metallic.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context:\n\nEvery impus is cold.\nFae is an imp",
+    "predicted_answer": "Based on the context:\n\nEvery impus is cold.\nFae is an imp"
+  },
+  {
+    "id": "ProntoQA_316",
+    "question": "Is the following statement true or false? Alex is not dull.",
+    "answer": "B",
+    "predicted_reasoning": "Let's break down the statements:\n\n1. Tumpuses are not sweet.",
+    "predicted_answer": "Let's break down the statements:\n\n1. Tumpuses are not sweet."
+  },
+  {
+    "id": "ProntoQA_317",
+    "question": "Is the following statement true or false? Stella is not red.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n1. Each tumpus is red.\n2",
+    "predicted_answer": "Let's analyze the context:\n\n1. Each tumpus is red.\n2"
+  },
+  {
+    "id": "ProntoQA_318",
+    "question": "Is the following statement true or false? Max is spicy.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Each impus is not temperate.\n*",
+    "predicted_answer": "Let's analyze the context:\n\n* Each impus is not temperate.\n*"
+  },
+  {
+    "id": "ProntoQA_319",
+    "question": "Is the following statement true or false? Wren is not temperate.",
+    "answer": "A",
+    "predicted_reasoning": "A delightful set of logical reasoning questions!\n\nBased on the context, I'll analyze",
+    "predicted_answer": "A delightful set of logical reasoning questions!\n\nBased on the context, I'll analyze"
+  },
+  {
+    "id": "ProntoQA_320",
+    "question": "Is the following statement true or false? Sam is not shy.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Impuses are shy.\n* Each impus",
+    "predicted_answer": "Let's analyze the context:\n\n* Impuses are shy.\n* Each impus"
+  },
+  {
+    "id": "ProntoQA_321",
+    "question": "Is the following statement true or false? Sally is not temperate.",
+    "answer": "A",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nLet's break it down step by step:\n\n1",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nLet's break it down step by step:\n\n1"
+  },
+  {
+    "id": "ProntoQA_322",
+    "question": "Is the following statement true or false? Alex is not opaque.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Rompuses are spicy, and Alex is",
+    "predicted_answer": "Let's analyze the context:\n\n* Rompuses are spicy, and Alex is"
+  },
+  {
+    "id": "ProntoQA_323",
+    "question": "Is the following statement true or false? Wren is not amenable.",
+    "answer": "B",
+    "predicted_reasoning": "B) True",
+    "predicted_answer": "B) True"
+  },
+  {
+    "id": "ProntoQA_324",
+    "question": "Is the following statement true or false? Alex is not red.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Jompuses are not red",
+    "predicted_answer": "Based on the context, we know that:\n\n* Jompuses are not red"
+  },
+  {
+    "id": "ProntoQA_325",
+    "question": "Is the following statement true or false? Wren is not wooden.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Impuses are not wooden.\n* Impuses",
+    "predicted_answer": "Let's analyze the context:\n\n* Impuses are not wooden.\n* Impuses"
+  },
+  {
+    "id": "ProntoQA_326",
+    "question": "Is the following statement true or false? Alex is transparent.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Vumpuses are yumpuses, and",
+    "predicted_answer": "Let's analyze the context:\n\n* Vumpuses are yumpuses, and"
+  },
+  {
+    "id": "ProntoQA_327",
+    "question": "Is the following statement true or false? Rex is not happy.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\nEach wumpus is not mean. Impuses",
+    "predicted_answer": "Let's analyze the context:\n\nEach wumpus is not mean. Impuses"
+  },
+  {
+    "id": "ProntoQA_328",
+    "question": "Is the following statement true or false? Wren is transparent.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Wumpuses are large",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Wumpuses are large"
+  },
+  {
+    "id": "ProntoQA_329",
+    "question": "Is the following statement true or false? Polly is not bitter.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Each dumpus is earthy, and Polly",
+    "predicted_answer": "Let's analyze the context:\n\n* Each dumpus is earthy, and Polly"
+  },
+  {
+    "id": "ProntoQA_330",
+    "question": "Is the following statement true or false? Rex is not earthy.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Numpuses are bright.\n* Each n",
+    "predicted_answer": "Let's analyze the context:\n\n* Numpuses are bright.\n* Each n"
+  },
+  {
+    "id": "ProntoQA_331",
+    "question": "Is the following statement true or false? Sam is small.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Sam is a yump",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Sam is a yump"
+  },
+  {
+    "id": "ProntoQA_332",
+    "question": "Is the following statement true or false? Max is not kind.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Each tumpus is luminous, and",
+    "predicted_answer": "Let's analyze the context:\n\n* Each tumpus is luminous, and"
+  },
+  {
+    "id": "ProntoQA_333",
+    "question": "Is the following statement true or false? Stella is not temperate.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we know that Stella is a dumpus, and dump",
+    "predicted_answer": "Based on the context, we know that Stella is a dumpus, and dump"
+  },
+  {
+    "id": "ProntoQA_334",
+    "question": "Is the following statement true or false? Sally is transparent.",
+    "answer": "A",
+    "predicted_reasoning": "A delightful set of logical reasoning questions!\n\nLet's break down the context:\n\n*",
+    "predicted_answer": "A delightful set of logical reasoning questions!\n\nLet's break down the context:\n\n*"
+  },
+  {
+    "id": "ProntoQA_335",
+    "question": "Is the following statement true or false? Polly is not large.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Each rompus",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Each rompus"
+  },
+  {
+    "id": "ProntoQA_336",
+    "question": "Is the following statement true or false? Max is opaque.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nAccording to the context, Max is a zumpus,",
+    "predicted_answer": "B) False\n\nAccording to the context, Max is a zumpus,"
+  },
+  {
+    "id": "ProntoQA_337",
+    "question": "Is the following statement true or false? Polly is spicy.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nAccording to the context, Dumpuses are small, and Polly",
+    "predicted_answer": "B) False\n\nAccording to the context, Dumpuses are small, and Polly"
+  },
+  {
+    "id": "ProntoQA_338",
+    "question": "Is the following statement true or false? Stella is not fruity.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can infer the following:\n\n* Each tump",
+    "predicted_answer": "Based on the given context, we can infer the following:\n\n* Each tump"
+  },
+  {
+    "id": "ProntoQA_339",
+    "question": "Is the following statement true or false? Max is transparent.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nFrom the context, we know that Max is a nump",
+    "predicted_answer": "B) False\n\nFrom the context, we know that Max is a nump"
+  },
+  {
+    "id": "ProntoQA_340",
+    "question": "Is the following statement true or false? Wren is feisty.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nHere's the explanation:\n\nFrom the context, we know that",
+    "predicted_answer": "B) False\n\nHere's the explanation:\n\nFrom the context, we know that"
+  },
+  {
+    "id": "ProntoQA_341",
+    "question": "Is the following statement true or false? Polly is not temperate.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context:\n\nVumpuses are jompuses. Jompuses",
+    "predicted_answer": "Based on the context:\n\nVumpuses are jompuses. Jompuses"
+  },
+  {
+    "id": "ProntoQA_342",
+    "question": "Is the following statement true or false? Polly is temperate.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nExplanation:\n\nPolly is a rompus (given statement).",
+    "predicted_answer": "B) False\n\nExplanation:\n\nPolly is a rompus (given statement)."
+  },
+  {
+    "id": "ProntoQA_343",
+    "question": "Is the following statement true or false? Polly is not sour.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Rompuses are am",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Rompuses are am"
+  },
+  {
+    "id": "ProntoQA_344",
+    "question": "Is the following statement true or false? Stella is temperate.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce that Stella is a vumpus",
+    "predicted_answer": "Based on the context, we can deduce that Stella is a vumpus"
+  },
+  {
+    "id": "ProntoQA_345",
+    "question": "Is the following statement true or false? Rex is not small.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context:\n\n* Each impus is small.\n* Impuses are",
+    "predicted_answer": "Based on the context:\n\n* Each impus is small.\n* Impuses are"
+  },
+  {
+    "id": "ProntoQA_346",
+    "question": "Is the following statement true or false? Sam is not bright.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every wumpus is fruity.\n* W",
+    "predicted_answer": "Let's analyze the context:\n\n* Every wumpus is fruity.\n* W"
+  },
+  {
+    "id": "ProntoQA_347",
+    "question": "Is the following statement true or false? Sally is not earthy.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n1. Every tumpus is bright.\n2",
+    "predicted_answer": "Let's analyze the context:\n\n1. Every tumpus is bright.\n2"
+  },
+  {
+    "id": "ProntoQA_348",
+    "question": "Is the following statement true or false? Fae is luminous.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Yumpuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Yumpuses"
+  },
+  {
+    "id": "ProntoQA_349",
+    "question": "Is the following statement true or false? Alex is not mean.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\nEach vumpus is spicy.\nEvery vump",
+    "predicted_answer": "Let's analyze the context:\n\nEach vumpus is spicy.\nEvery vump"
+  },
+  {
+    "id": "ProntoQA_350",
+    "question": "Is the following statement true or false? Alex is not sour.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can conclude that Alex is a rompus, and",
+    "predicted_answer": "Based on the context, we can conclude that Alex is a rompus, and"
+  },
+  {
+    "id": "ProntoQA_351",
+    "question": "Is the following statement true or false? Stella is not fruity.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Zumpuses are dull.\n* Each z",
+    "predicted_answer": "Let's analyze the context:\n\n* Zumpuses are dull.\n* Each z"
+  },
+  {
+    "id": "ProntoQA_352",
+    "question": "Is the following statement true or false? Wren is not opaque.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Each dumpus is not blue.\n* Dump",
+    "predicted_answer": "Let's analyze the context:\n\n* Each dumpus is not blue.\n* Dump"
+  },
+  {
+    "id": "ProntoQA_353",
+    "question": "Is the following statement true or false? Wren is not hot.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Each impus",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Each impus"
+  },
+  {
+    "id": "ProntoQA_354",
+    "question": "Is the following statement true or false? Fae is not bright.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Vumpuses are jompuses, and",
+    "predicted_answer": "Let's analyze the context:\n\n* Vumpuses are jompuses, and"
+  },
+  {
+    "id": "ProntoQA_355",
+    "question": "Is the following statement true or false? Rex is not brown.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n* Each dumpus",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n* Each dumpus"
+  },
+  {
+    "id": "ProntoQA_356",
+    "question": "Is the following statement true or false? Rex is kind.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nExplanation: According to the context, Dumpuses are jomp",
+    "predicted_answer": "B) False\n\nExplanation: According to the context, Dumpuses are jomp"
+  },
+  {
+    "id": "ProntoQA_357",
+    "question": "Is the following statement true or false? Stella is blue.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n1. Wumpuses",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n1. Wumpuses"
+  },
+  {
+    "id": "ProntoQA_358",
+    "question": "Is the following statement true or false? Max is wooden.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nExplanation:\n\nFrom the context, we know that Max is a",
+    "predicted_answer": "B) False\n\nExplanation:\n\nFrom the context, we know that Max is a"
+  },
+  {
+    "id": "ProntoQA_359",
+    "question": "Is the following statement true or false? Max is wooden.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Each jompus is wooden",
+    "predicted_answer": "Based on the context, we know that:\n\n* Each jompus is wooden"
+  },
+  {
+    "id": "ProntoQA_360",
+    "question": "Is the following statement true or false? Sally is temperate.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nReasoning:\n\n* Sally is a vumpus.\n*",
+    "predicted_answer": "B) False\n\nReasoning:\n\n* Sally is a vumpus.\n*"
+  },
+  {
+    "id": "ProntoQA_361",
+    "question": "Is the following statement true or false? Rex is transparent.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n1. Every impus",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n1. Every impus"
+  },
+  {
+    "id": "ProntoQA_362",
+    "question": "Is the following statement true or false? Sally is not blue.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every wumpus is fruity.\n* Each",
+    "predicted_answer": "Let's analyze the context:\n\n* Every wumpus is fruity.\n* Each"
+  },
+  {
+    "id": "ProntoQA_363",
+    "question": "Is the following statement true or false? Polly is not dull.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Every dumpus",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Every dumpus"
+  },
+  {
+    "id": "ProntoQA_364",
+    "question": "Is the following statement true or false? Stella is not kind.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Stella is a dumpus.\n* Dumpuses",
+    "predicted_answer": "Let's analyze the context:\n\n* Stella is a dumpus.\n* Dumpuses"
+  },
+  {
+    "id": "ProntoQA_365",
+    "question": "Is the following statement true or false? Sally is not transparent.",
+    "answer": "A",
+    "predicted_reasoning": "A delightful exercise in logical reasoning!\n\nFrom the context, we know that Romp",
+    "predicted_answer": "A delightful exercise in logical reasoning!\n\nFrom the context, we know that Romp"
+  },
+  {
+    "id": "ProntoQA_366",
+    "question": "Is the following statement true or false? Polly is floral.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nExplanation:\n\nFrom the context, we know that each impus",
+    "predicted_answer": "B) False\n\nExplanation:\n\nFrom the context, we know that each impus"
+  },
+  {
+    "id": "ProntoQA_367",
+    "question": "Is the following statement true or false? Polly is hot.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Zumpuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Zumpuses"
+  },
+  {
+    "id": "ProntoQA_368",
+    "question": "Is the following statement true or false? Fae is not blue.",
+    "answer": "A",
+    "predicted_reasoning": "A nice set of logical reasoning questions!\n\nLet's break it down:\n\nFrom the",
+    "predicted_answer": "A nice set of logical reasoning questions!\n\nLet's break it down:\n\nFrom the"
+  },
+  {
+    "id": "ProntoQA_369",
+    "question": "Is the following statement true or false? Rex is brown.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can conclude that:\n\n* Each impus is",
+    "predicted_answer": "Based on the given context, we can conclude that:\n\n* Each impus is"
+  },
+  {
+    "id": "ProntoQA_370",
+    "question": "Is the following statement true or false? Max is not earthy.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every numpus is earthy.\n*",
+    "predicted_answer": "Let's analyze the context:\n\n* Every numpus is earthy.\n*"
+  },
+  {
+    "id": "ProntoQA_371",
+    "question": "Is the following statement true or false? Sam is not dull.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n* Each zump",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n* Each zump"
+  },
+  {
+    "id": "ProntoQA_372",
+    "question": "Is the following statement true or false? Rex is kind.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n1. Each w",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n1. Each w"
+  },
+  {
+    "id": "ProntoQA_373",
+    "question": "Is the following statement true or false? Sam is dull.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Every zump",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Every zump"
+  },
+  {
+    "id": "ProntoQA_374",
+    "question": "Is the following statement true or false? Fae is aggressive.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n* Vumpuses are",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n* Vumpuses are"
+  },
+  {
+    "id": "ProntoQA_375",
+    "question": "Is the following statement true or false? Fae is metallic.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Each dumpus is not small.\n* Dump",
+    "predicted_answer": "Let's analyze the context:\n\n* Each dumpus is not small.\n* Dump"
+  },
+  {
+    "id": "ProntoQA_376",
+    "question": "Is the following statement true or false? Wren is transparent.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n1. Every rompus",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n1. Every rompus"
+  },
+  {
+    "id": "ProntoQA_377",
+    "question": "Is the following statement true or false? Sam is not dull.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Dumpuses are dull.\n* Dumpuses are",
+    "predicted_answer": "Let's analyze the context:\n\n* Dumpuses are dull.\n* Dumpuses are"
+  },
+  {
+    "id": "ProntoQA_378",
+    "question": "Is the following statement true or false? Max is transparent.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nAccording to the context, each wumpus is not transparent",
+    "predicted_answer": "B) False\n\nAccording to the context, each wumpus is not transparent"
+  },
+  {
+    "id": "ProntoQA_379",
+    "question": "Is the following statement true or false? Wren is not sour.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every impus is not transparent.\n* Every",
+    "predicted_answer": "Let's analyze the context:\n\n* Every impus is not transparent.\n* Every"
+  },
+  {
+    "id": "ProntoQA_380",
+    "question": "Is the following statement true or false? Polly is not happy.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Yumpuses are not happy.\n* Rom",
+    "predicted_answer": "Let's analyze the context:\n\n* Yumpuses are not happy.\n* Rom"
+  },
+  {
+    "id": "ProntoQA_381",
+    "question": "Is the following statement true or false? Sally is feisty.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context:\n\nEvery zumpus is a numpus.",
+    "predicted_answer": "Based on the given context:\n\nEvery zumpus is a numpus."
+  },
+  {
+    "id": "ProntoQA_382",
+    "question": "Is the following statement true or false? Polly is not temperate.",
+    "answer": "B",
+    "predicted_reasoning": "A delightful set of logical reasoning questions!\n\nLet's break down the context and the",
+    "predicted_answer": "A delightful set of logical reasoning questions!\n\nLet's break down the context and the"
+  },
+  {
+    "id": "ProntoQA_383",
+    "question": "Is the following statement true or false? Sam is brown.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Numpuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Numpuses"
+  },
+  {
+    "id": "ProntoQA_384",
+    "question": "Is the following statement true or false? Fae is not kind.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Dumpuses are",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Dumpuses are"
+  },
+  {
+    "id": "ProntoQA_385",
+    "question": "Is the following statement true or false? Wren is fruity.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Wumpuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Wumpuses"
+  },
+  {
+    "id": "ProntoQA_386",
+    "question": "Is the following statement true or false? Wren is floral.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Rompuses are sour.\n* Romp",
+    "predicted_answer": "Let's analyze the context:\n\n* Rompuses are sour.\n* Romp"
+  },
+  {
+    "id": "ProntoQA_387",
+    "question": "Is the following statement true or false? Polly is red.",
+    "answer": "A",
+    "predicted_reasoning": "A nice logical reasoning puzzle!\n\nFrom the context, we know:\n\n* Nump",
+    "predicted_answer": "A nice logical reasoning puzzle!\n\nFrom the context, we know:\n\n* Nump"
+  },
+  {
+    "id": "ProntoQA_388",
+    "question": "Is the following statement true or false? Rex is not luminous.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Wumpuses are fruity.\n* Wump",
+    "predicted_answer": "Let's analyze the context:\n\n* Wumpuses are fruity.\n* Wump"
+  },
+  {
+    "id": "ProntoQA_389",
+    "question": "Is the following statement true or false? Sally is not cold.",
+    "answer": "A",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nLet's break it down step by step:\n\n1",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nLet's break it down step by step:\n\n1"
+  },
+  {
+    "id": "ProntoQA_390",
+    "question": "Is the following statement true or false? Max is fruity.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Max is a nump",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Max is a nump"
+  },
+  {
+    "id": "ProntoQA_391",
+    "question": "Is the following statement true or false? Stella is brown.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements to determine the truth or falsehood",
+    "predicted_answer": "Based on the context, we can analyze the statements to determine the truth or falsehood"
+  },
+  {
+    "id": "ProntoQA_392",
+    "question": "Is the following statement true or false? Stella is blue.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n* Vumpuses",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n* Vumpuses"
+  },
+  {
+    "id": "ProntoQA_393",
+    "question": "Is the following statement true or false? Fae is not dull.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n1. Every z",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n1. Every z"
+  },
+  {
+    "id": "ProntoQA_394",
+    "question": "Is the following statement true or false? Fae is not dull.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Each dumpus is fruity.\n* Dumpuses",
+    "predicted_answer": "Let's analyze the context:\n\n* Each dumpus is fruity.\n* Dumpuses"
+  },
+  {
+    "id": "ProntoQA_395",
+    "question": "Is the following statement true or false? Wren is brown.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nAccording to the context, each impus is brown, but",
+    "predicted_answer": "B) False\n\nAccording to the context, each impus is brown, but"
+  },
+  {
+    "id": "ProntoQA_396",
+    "question": "Is the following statement true or false? Sally is happy.",
+    "answer": "A",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nAfter analyzing the context, I can conclude that:",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nAfter analyzing the context, I can conclude that:"
+  },
+  {
+    "id": "ProntoQA_397",
+    "question": "Is the following statement true or false? Stella is fruity.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements to find the correct answer",
+    "predicted_answer": "Based on the given context, we can analyze the statements to find the correct answer"
+  },
+  {
+    "id": "ProntoQA_398",
+    "question": "Is the following statement true or false? Wren is opaque.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nReasoning:\n\n* Wren is a vumpus (",
+    "predicted_answer": "B) False\n\nReasoning:\n\n* Wren is a vumpus ("
+  },
+  {
+    "id": "ProntoQA_399",
+    "question": "Is the following statement true or false? Polly is not opaque.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n1. Each wumpus is cold.\n2",
+    "predicted_answer": "Let's analyze the context:\n\n1. Each wumpus is cold.\n2"
+  },
+  {
+    "id": "ProntoQA_400",
+    "question": "Is the following statement true or false? Wren is not happy.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Rompuses are wumpuses, and",
+    "predicted_answer": "Let's analyze the context:\n\n* Rompuses are wumpuses, and"
+  },
+  {
+    "id": "ProntoQA_401",
+    "question": "Is the following statement true or false? Sally is not liquid.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Rompuses are temperate.\n* Each",
+    "predicted_answer": "Let's analyze the context:\n\n* Rompuses are temperate.\n* Each"
+  },
+  {
+    "id": "ProntoQA_402",
+    "question": "Is the following statement true or false? Stella is not angry.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\nEach wumpus is angry. (1)",
+    "predicted_answer": "Let's analyze the context:\n\nEach wumpus is angry. (1)"
+  },
+  {
+    "id": "ProntoQA_403",
+    "question": "Is the following statement true or false? Alex is wooden.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can conclude that:\n\n* Each vumpus",
+    "predicted_answer": "Based on the given context, we can conclude that:\n\n* Each vumpus"
+  },
+  {
+    "id": "ProntoQA_404",
+    "question": "Is the following statement true or false? Fae is not happy.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n* Each zump",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n* Each zump"
+  },
+  {
+    "id": "ProntoQA_405",
+    "question": "Is the following statement true or false? Wren is not dull.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Each wumpus is a",
+    "predicted_answer": "Based on the context, we know that:\n\n* Each wumpus is a"
+  },
+  {
+    "id": "ProntoQA_406",
+    "question": "Is the following statement true or false? Sally is cold.",
+    "answer": "A",
+    "predicted_reasoning": "B) False",
+    "predicted_answer": "B) False"
+  },
+  {
+    "id": "ProntoQA_407",
+    "question": "Is the following statement true or false? Max is not happy.",
+    "answer": "A",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nLet's break it down step by step:\n\n1",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nLet's break it down step by step:\n\n1"
+  },
+  {
+    "id": "ProntoQA_408",
+    "question": "Is the following statement true or false? Sally is mean.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nExplanation:\n\n* Sally is a jompus (given)",
+    "predicted_answer": "B) False\n\nExplanation:\n\n* Sally is a jompus (given)"
+  },
+  {
+    "id": "ProntoQA_409",
+    "question": "Is the following statement true or false? Stella is cold.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can deduce the following information:\n\n* Stella",
+    "predicted_answer": "Based on the given context, we can deduce the following information:\n\n* Stella"
+  },
+  {
+    "id": "ProntoQA_410",
+    "question": "Is the following statement true or false? Sam is not sweet.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can deduce the following:\n\n* Each t",
+    "predicted_answer": "Based on the given context, we can deduce the following:\n\n* Each t"
+  },
+  {
+    "id": "ProntoQA_411",
+    "question": "Is the following statement true or false? Stella is bright.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context:\n\nEach yumpus is a jompus.\nJ",
+    "predicted_answer": "Based on the context:\n\nEach yumpus is a jompus.\nJ"
+  },
+  {
+    "id": "ProntoQA_412",
+    "question": "Is the following statement true or false? Max is happy.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nExplanation:\n\n* Max is a vumpus (given)",
+    "predicted_answer": "B) False\n\nExplanation:\n\n* Max is a vumpus (given)"
+  },
+  {
+    "id": "ProntoQA_413",
+    "question": "Is the following statement true or false? Rex is small.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that Jompuses are small, but Rex",
+    "predicted_answer": "Based on the context, we know that Jompuses are small, but Rex"
+  },
+  {
+    "id": "ProntoQA_414",
+    "question": "Is the following statement true or false? Sally is not dull.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every impus is dull.\n* Sally is",
+    "predicted_answer": "Let's analyze the context:\n\n* Every impus is dull.\n* Sally is"
+  },
+  {
+    "id": "ProntoQA_415",
+    "question": "Is the following statement true or false? Alex is red.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and draw conclusions.\n\nFrom the",
+    "predicted_answer": "Based on the context, we can analyze the statements and draw conclusions.\n\nFrom the"
+  },
+  {
+    "id": "ProntoQA_416",
+    "question": "Is the following statement true or false? Polly is not opaque.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can conclude that:\n\n* Zumpuses are",
+    "predicted_answer": "Based on the given context, we can conclude that:\n\n* Zumpuses are"
+  },
+  {
+    "id": "ProntoQA_417",
+    "question": "Is the following statement true or false? Polly is not metallic.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n1. Every tumpus is orange.\n2",
+    "predicted_answer": "Let's analyze the context:\n\n1. Every tumpus is orange.\n2"
+  },
+  {
+    "id": "ProntoQA_418",
+    "question": "Is the following statement true or false? Alex is not red.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Dumpuses are red.\n* Dumpuses are",
+    "predicted_answer": "Let's analyze the context:\n\n* Dumpuses are red.\n* Dumpuses are"
+  },
+  {
+    "id": "ProntoQA_419",
+    "question": "Is the following statement true or false? Wren is not small.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Each vump",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Each vump"
+  },
+  {
+    "id": "ProntoQA_420",
+    "question": "Is the following statement true or false? Rex is not opaque.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every impus is bright.\n* Every imp",
+    "predicted_answer": "Let's analyze the context:\n\n* Every impus is bright.\n* Every imp"
+  },
+  {
+    "id": "ProntoQA_421",
+    "question": "Is the following statement true or false? Alex is nervous.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nReasoning:\n\n* Alex is a tumpus.\n*",
+    "predicted_answer": "B) False\n\nReasoning:\n\n* Alex is a tumpus.\n*"
+  },
+  {
+    "id": "ProntoQA_422",
+    "question": "Is the following statement true or false? Fae is not happy.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can deduce that:\n\n* Dumpuses are",
+    "predicted_answer": "Based on the given context, we can deduce that:\n\n* Dumpuses are"
+  },
+  {
+    "id": "ProntoQA_423",
+    "question": "Is the following statement true or false? Wren is not transparent.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Rompuses are wumpuses (W",
+    "predicted_answer": "Let's analyze the context:\n\n* Rompuses are wumpuses (W"
+  },
+  {
+    "id": "ProntoQA_424",
+    "question": "Is the following statement true or false? Polly is not mean.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Each rompus is an impus. (",
+    "predicted_answer": "Let's analyze the context:\n\n* Each rompus is an impus. ("
+  },
+  {
+    "id": "ProntoQA_425",
+    "question": "Is the following statement true or false? Wren is not opaque.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context:\n\nEvery numpus is opaque. Every numpus",
+    "predicted_answer": "Based on the context:\n\nEvery numpus is opaque. Every numpus"
+  },
+  {
+    "id": "ProntoQA_426",
+    "question": "Is the following statement true or false? Wren is floral.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context:\n\nNumpuses are floral.\nImpuses are not floral",
+    "predicted_answer": "Based on the context:\n\nNumpuses are floral.\nImpuses are not floral"
+  },
+  {
+    "id": "ProntoQA_427",
+    "question": "Is the following statement true or false? Alex is small.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements to answer the question.\n\nFrom",
+    "predicted_answer": "Based on the context, we can analyze the statements to answer the question.\n\nFrom"
+  },
+  {
+    "id": "ProntoQA_428",
+    "question": "Is the following statement true or false? Rex is not feisty.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can infer that Rex is a yumpus",
+    "predicted_answer": "Based on the given context, we can infer that Rex is a yumpus"
+  },
+  {
+    "id": "ProntoQA_429",
+    "question": "Is the following statement true or false? Wren is not shy.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Wumpuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Wumpuses"
+  },
+  {
+    "id": "ProntoQA_430",
+    "question": "Is the following statement true or false? Wren is not shy.",
+    "answer": "A",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nFrom the context, we know that:\n\n* Rom",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nFrom the context, we know that:\n\n* Rom"
+  },
+  {
+    "id": "ProntoQA_431",
+    "question": "Is the following statement true or false? Rex is large.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Rompuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Rompuses"
+  },
+  {
+    "id": "ProntoQA_432",
+    "question": "Is the following statement true or false? Sally is not red.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Yumpuses are dumpuses",
+    "predicted_answer": "Based on the context, we know that:\n\n* Yumpuses are dumpuses"
+  },
+  {
+    "id": "ProntoQA_433",
+    "question": "Is the following statement true or false? Wren is not hot.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Wumpuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Wumpuses"
+  },
+  {
+    "id": "ProntoQA_434",
+    "question": "Is the following statement true or false? Max is small.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Max is a jompus.\n* J",
+    "predicted_answer": "Let's analyze the context:\n\n* Max is a jompus.\n* J"
+  },
+  {
+    "id": "ProntoQA_435",
+    "question": "Is the following statement true or false? Rex is not opaque.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n1. Every impus is happy.\n2.",
+    "predicted_answer": "Let's analyze the context:\n\n1. Every impus is happy.\n2."
+  },
+  {
+    "id": "ProntoQA_436",
+    "question": "Is the following statement true or false? Max is floral.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the statements:\n\n* Every yumpus is floral.\n* Max",
+    "predicted_answer": "Let's analyze the statements:\n\n* Every yumpus is floral.\n* Max"
+  },
+  {
+    "id": "ProntoQA_437",
+    "question": "Is the following statement true or false? Fae is earthy.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Tumpuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Tumpuses"
+  },
+  {
+    "id": "ProntoQA_438",
+    "question": "Is the following statement true or false? Sam is small.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nFrom the context, we know that Zumpuses are w",
+    "predicted_answer": "B) False\n\nFrom the context, we know that Zumpuses are w"
+  },
+  {
+    "id": "ProntoQA_439",
+    "question": "Is the following statement true or false? Sally is not orange.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Sally is a wump",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Sally is a wump"
+  },
+  {
+    "id": "ProntoQA_440",
+    "question": "Is the following statement true or false? Stella is cold.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce that Stella is a wumpus",
+    "predicted_answer": "Based on the context, we can deduce that Stella is a wumpus"
+  },
+  {
+    "id": "ProntoQA_441",
+    "question": "Is the following statement true or false? Fae is small.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context:\n\nNumpuses are aggressive. Yumpuses are small",
+    "predicted_answer": "Based on the context:\n\nNumpuses are aggressive. Yumpuses are small"
+  },
+  {
+    "id": "ProntoQA_442",
+    "question": "Is the following statement true or false? Alex is not large.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Rompuses are zumpuses, and",
+    "predicted_answer": "Let's analyze the context:\n\n* Rompuses are zumpuses, and"
+  },
+  {
+    "id": "ProntoQA_443",
+    "question": "Is the following statement true or false? Max is not metallic.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n1. Numpuses are not metallic.\n2",
+    "predicted_answer": "Let's analyze the context:\n\n1. Numpuses are not metallic.\n2"
+  },
+  {
+    "id": "ProntoQA_444",
+    "question": "Is the following statement true or false? Alex is not large.",
+    "answer": "A",
+    "predicted_reasoning": "A nice set of logical reasoning questions!\n\nLet's analyze the context:\n\nWe know",
+    "predicted_answer": "A nice set of logical reasoning questions!\n\nLet's analyze the context:\n\nWe know"
+  },
+  {
+    "id": "ProntoQA_445",
+    "question": "Is the following statement true or false? Stella is sour.",
+    "answer": "A",
+    "predicted_reasoning": "A nice logical reasoning puzzle!\n\nFrom the context, we know:\n\n1. Stella",
+    "predicted_answer": "A nice logical reasoning puzzle!\n\nFrom the context, we know:\n\n1. Stella"
+  },
+  {
+    "id": "ProntoQA_446",
+    "question": "Is the following statement true or false? Alex is transparent.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and find the relevant information.",
+    "predicted_answer": "Based on the context, we can analyze the statements and find the relevant information."
+  },
+  {
+    "id": "ProntoQA_447",
+    "question": "Is the following statement true or false? Sally is mean.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context:\n\nEach tumpus is blue.\nEach tumpus",
+    "predicted_answer": "Based on the context:\n\nEach tumpus is blue.\nEach tumpus"
+  },
+  {
+    "id": "ProntoQA_448",
+    "question": "Is the following statement true or false? Wren is not red.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nAccording to the context, Impuses are red. And W",
+    "predicted_answer": "B) False\n\nAccording to the context, Impuses are red. And W"
+  },
+  {
+    "id": "ProntoQA_449",
+    "question": "Is the following statement true or false? Max is metallic.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nExplanation:\n\nFrom the context, we know that Max is a",
+    "predicted_answer": "B) False\n\nExplanation:\n\nFrom the context, we know that Max is a"
+  },
+  {
+    "id": "ProntoQA_450",
+    "question": "Is the following statement true or false? Stella is not transparent.",
+    "answer": "B",
+    "predicted_reasoning": "B) True\n\nExplanation:\n\nFrom the context, we know that Stella is a",
+    "predicted_answer": "B) True\n\nExplanation:\n\nFrom the context, we know that Stella is a"
+  },
+  {
+    "id": "ProntoQA_451",
+    "question": "Is the following statement true or false? Wren is angry.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Vumpuses are angry.\n* Each dump",
+    "predicted_answer": "Let's analyze the context:\n\n* Vumpuses are angry.\n* Each dump"
+  },
+  {
+    "id": "ProntoQA_452",
+    "question": "Is the following statement true or false? Max is red.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Max is a vump",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Max is a vump"
+  },
+  {
+    "id": "ProntoQA_453",
+    "question": "Is the following statement true or false? Wren is not brown.",
+    "answer": "A",
+    "predicted_reasoning": "A delightful set of logical reasoning questions!\n\nLet's analyze the context:\n\n* Rom",
+    "predicted_answer": "A delightful set of logical reasoning questions!\n\nLet's analyze the context:\n\n* Rom"
+  },
+  {
+    "id": "ProntoQA_454",
+    "question": "Is the following statement true or false? Sally is floral.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context:\n\nWumpuses are floral.\nEach jompus is",
+    "predicted_answer": "Based on the context:\n\nWumpuses are floral.\nEach jompus is"
+  },
+  {
+    "id": "ProntoQA_455",
+    "question": "Is the following statement true or false? Polly is feisty.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements to determine the correct answer",
+    "predicted_answer": "Based on the given context, we can analyze the statements to determine the correct answer"
+  },
+  {
+    "id": "ProntoQA_456",
+    "question": "Is the following statement true or false? Fae is not earthy.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the statements:\n\n1. Vumpuses are mean.\n2.",
+    "predicted_answer": "Let's analyze the statements:\n\n1. Vumpuses are mean.\n2."
+  },
+  {
+    "id": "ProntoQA_457",
+    "question": "Is the following statement true or false? Stella is not large.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that Stella is a wumpus, and",
+    "predicted_answer": "Based on the context, we know that Stella is a wumpus, and"
+  },
+  {
+    "id": "ProntoQA_458",
+    "question": "Is the following statement true or false? Rex is not transparent.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Dumpuses are",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Dumpuses are"
+  },
+  {
+    "id": "ProntoQA_459",
+    "question": "Is the following statement true or false? Max is earthy.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce that:\n\n* Every vumpus",
+    "predicted_answer": "Based on the context, we can deduce that:\n\n* Every vumpus"
+  },
+  {
+    "id": "ProntoQA_460",
+    "question": "Is the following statement true or false? Sam is not liquid.",
+    "answer": "A",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nLet's break it down step by step:\n\n1",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nLet's break it down step by step:\n\n1"
+  },
+  {
+    "id": "ProntoQA_461",
+    "question": "Is the following statement true or false? Rex is opaque.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and arrive at the conclusion.",
+    "predicted_answer": "Based on the context, we can analyze the statements and arrive at the conclusion."
+  },
+  {
+    "id": "ProntoQA_462",
+    "question": "Is the following statement true or false? Sally is not opaque.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n1. Rompuses are fruity.\n2.",
+    "predicted_answer": "Let's analyze the context:\n\n1. Rompuses are fruity.\n2."
+  },
+  {
+    "id": "ProntoQA_463",
+    "question": "Is the following statement true or false? Stella is brown.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nExplanation:\n\nFrom the context, we know that Stella is a",
+    "predicted_answer": "B) False\n\nExplanation:\n\nFrom the context, we know that Stella is a"
+  },
+  {
+    "id": "ProntoQA_464",
+    "question": "Is the following statement true or false? Alex is cold.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nAccording to the context, Tumpuses are luminous,",
+    "predicted_answer": "B) False\n\nAccording to the context, Tumpuses are luminous,"
+  },
+  {
+    "id": "ProntoQA_465",
+    "question": "Is the following statement true or false? Rex is not sour.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Wumpuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Wumpuses"
+  },
+  {
+    "id": "ProntoQA_466",
+    "question": "Is the following statement true or false? Max is angry.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Zumpuses are angry (",
+    "predicted_answer": "Based on the context, we know that:\n\n* Zumpuses are angry ("
+  },
+  {
+    "id": "ProntoQA_467",
+    "question": "Is the following statement true or false? Alex is not blue.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Every wumpus is",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Every wumpus is"
+  },
+  {
+    "id": "ProntoQA_468",
+    "question": "Is the following statement true or false? Polly is not kind.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Tumpuses are fruity",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Tumpuses are fruity"
+  },
+  {
+    "id": "ProntoQA_469",
+    "question": "Is the following statement true or false? Polly is not mean.",
+    "answer": "A",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Tumpuses are hot, which means Polly",
+    "predicted_answer": "Let's analyze the context:\n\n* Tumpuses are hot, which means Polly"
+  },
+  {
+    "id": "ProntoQA_470",
+    "question": "Is the following statement true or false? Alex is not small.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Each jomp",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Each jomp"
+  },
+  {
+    "id": "ProntoQA_471",
+    "question": "Is the following statement true or false? Sam is bright.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements and draw conclusions.\n\nFrom",
+    "predicted_answer": "Based on the given context, we can analyze the statements and draw conclusions.\n\nFrom"
+  },
+  {
+    "id": "ProntoQA_472",
+    "question": "Is the following statement true or false? Wren is not sour.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Every impus",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Every impus"
+  },
+  {
+    "id": "ProntoQA_473",
+    "question": "Is the following statement true or false? Max is not liquid.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we know that:\n\n* Each impus is liquid.",
+    "predicted_answer": "Based on the context, we know that:\n\n* Each impus is liquid."
+  },
+  {
+    "id": "ProntoQA_474",
+    "question": "Is the following statement true or false? Sally is mean.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context:\n\nEach zumpus is mean.\nJompuses are",
+    "predicted_answer": "Based on the context:\n\nEach zumpus is mean.\nJompuses are"
+  },
+  {
+    "id": "ProntoQA_475",
+    "question": "Is the following statement true or false? Polly is not bright.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\nEach dumpus is amenable.\nEvery dumpus",
+    "predicted_answer": "Let's analyze the context:\n\nEach dumpus is amenable.\nEvery dumpus"
+  },
+  {
+    "id": "ProntoQA_476",
+    "question": "Is the following statement true or false? Wren is amenable.",
+    "answer": "A",
+    "predicted_reasoning": "A delightful set of logical reasoning questions!\n\nAfter analyzing the context, I'll answer",
+    "predicted_answer": "A delightful set of logical reasoning questions!\n\nAfter analyzing the context, I'll answer"
+  },
+  {
+    "id": "ProntoQA_477",
+    "question": "Is the following statement true or false? Fae is not bright.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements:\n\n1. Zumpuses",
+    "predicted_answer": "Based on the context, we can analyze the statements:\n\n1. Zumpuses"
+  },
+  {
+    "id": "ProntoQA_478",
+    "question": "Is the following statement true or false? Polly is small.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we can deduce the following:\n\n* Wumpuses",
+    "predicted_answer": "Based on the context, we can deduce the following:\n\n* Wumpuses"
+  },
+  {
+    "id": "ProntoQA_479",
+    "question": "Is the following statement true or false? Sally is not bitter.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context:\n\nWumpuses are not bitter.\nZumpuses are",
+    "predicted_answer": "Based on the context:\n\nWumpuses are not bitter.\nZumpuses are"
+  },
+  {
+    "id": "ProntoQA_480",
+    "question": "Is the following statement true or false? Stella is not dull.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we know that Stella is a rompus, and rom",
+    "predicted_answer": "Based on the context, we know that Stella is a rompus, and rom"
+  },
+  {
+    "id": "ProntoQA_481",
+    "question": "Is the following statement true or false? Polly is happy.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context:\n\nEach vumpus is happy.\nEvery vump",
+    "predicted_answer": "Based on the given context:\n\nEach vumpus is happy.\nEvery vump"
+  },
+  {
+    "id": "ProntoQA_482",
+    "question": "Is the following statement true or false? Rex is temperate.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nReasoning: According to the context, \"Every vump",
+    "predicted_answer": "B) False\n\nReasoning: According to the context, \"Every vump"
+  },
+  {
+    "id": "ProntoQA_483",
+    "question": "Is the following statement true or false? Sally is not red.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can deduce the following:\n\n* Tump",
+    "predicted_answer": "Based on the given context, we can deduce the following:\n\n* Tump"
+  },
+  {
+    "id": "ProntoQA_484",
+    "question": "Is the following statement true or false? Fae is not orange.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n1. Every j",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n1. Every j"
+  },
+  {
+    "id": "ProntoQA_485",
+    "question": "Is the following statement true or false? Stella is not luminous.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that Stella is a jompus, and",
+    "predicted_answer": "Based on the context, we know that Stella is a jompus, and"
+  },
+  {
+    "id": "ProntoQA_486",
+    "question": "Is the following statement true or false? Sam is opaque.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context:\n\nImpuses are not blue.\nEvery impus is",
+    "predicted_answer": "Based on the given context:\n\nImpuses are not blue.\nEvery impus is"
+  },
+  {
+    "id": "ProntoQA_487",
+    "question": "Is the following statement true or false? Rex is bright.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context:\n\nWumpuses are aggressive.\nWumpuses are j",
+    "predicted_answer": "Based on the context:\n\nWumpuses are aggressive.\nWumpuses are j"
+  },
+  {
+    "id": "ProntoQA_488",
+    "question": "Is the following statement true or false? Alex is hot.",
+    "answer": "A",
+    "predicted_reasoning": "B) False\n\nReasoning:\n\n* Tumpuses are wooden, and Alex",
+    "predicted_answer": "B) False\n\nReasoning:\n\n* Tumpuses are wooden, and Alex"
+  },
+  {
+    "id": "ProntoQA_489",
+    "question": "Is the following statement true or false? Rex is cold.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nExplanation: According to the context, every dumpus is a",
+    "predicted_answer": "B) False\n\nExplanation: According to the context, every dumpus is a"
+  },
+  {
+    "id": "ProntoQA_490",
+    "question": "Is the following statement true or false? Max is bright.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context:\n\nEach vumpus is bitter.\nMax is a",
+    "predicted_answer": "Based on the given context:\n\nEach vumpus is bitter.\nMax is a"
+  },
+  {
+    "id": "ProntoQA_491",
+    "question": "Is the following statement true or false? Stella is cold.",
+    "answer": "B",
+    "predicted_reasoning": "B) False\n\nFrom the context, we know that Numpuses are cold",
+    "predicted_answer": "B) False\n\nFrom the context, we know that Numpuses are cold"
+  },
+  {
+    "id": "ProntoQA_492",
+    "question": "Is the following statement true or false? Rex is not orange.",
+    "answer": "A",
+    "predicted_reasoning": "A classic lateral thinking puzzle!\n\nLet's break it down:\n\n* Rex is a",
+    "predicted_answer": "A classic lateral thinking puzzle!\n\nLet's break it down:\n\n* Rex is a"
+  },
+  {
+    "id": "ProntoQA_493",
+    "question": "Is the following statement true or false? Alex is not angry.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can conclude that:\n\n* Dumpuses are feisty",
+    "predicted_answer": "Based on the context, we can conclude that:\n\n* Dumpuses are feisty"
+  },
+  {
+    "id": "ProntoQA_494",
+    "question": "Is the following statement true or false? Rex is not fruity.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can conclude that:\n\n* Each wumpus",
+    "predicted_answer": "Based on the given context, we can conclude that:\n\n* Each wumpus"
+  },
+  {
+    "id": "ProntoQA_495",
+    "question": "Is the following statement true or false? Sam is orange.",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can conclude that Sam is a vumpus,",
+    "predicted_answer": "Based on the context, we can conclude that Sam is a vumpus,"
+  },
+  {
+    "id": "ProntoQA_496",
+    "question": "Is the following statement true or false? Alex is not aggressive.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Every numpus is an impus.",
+    "predicted_answer": "Let's analyze the context:\n\n* Every numpus is an impus."
+  },
+  {
+    "id": "ProntoQA_497",
+    "question": "Is the following statement true or false? Stella is not small.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, we know that Jompuses are not small, and",
+    "predicted_answer": "Based on the context, we know that Jompuses are not small, and"
+  },
+  {
+    "id": "ProntoQA_498",
+    "question": "Is the following statement true or false? Rex is not sweet.",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements:\n\n* Every tump",
+    "predicted_answer": "Based on the given context, we can analyze the statements:\n\n* Every tump"
+  },
+  {
+    "id": "ProntoQA_499",
+    "question": "Is the following statement true or false? Fae is not small.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\nEvery dumpus is dull.\nFae is a",
+    "predicted_answer": "Let's analyze the context:\n\nEvery dumpus is dull.\nFae is a"
+  },
+  {
+    "id": "ProntoQA_500",
+    "question": "Is the following statement true or false? Polly is not small.",
+    "answer": "B",
+    "predicted_reasoning": "Let's analyze the context:\n\n* Dumpuses are small (from the first context",
+    "predicted_answer": "Let's analyze the context:\n\n* Dumpuses are small (from the first context"
+  }
+]
