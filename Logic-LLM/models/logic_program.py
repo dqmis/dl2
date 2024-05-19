@@ -5,7 +5,7 @@ import os
 from tqdm import tqdm
 from collections import OrderedDict
 from typing import Dict, List, Tuple
-from utils import OpenAIModel, GenimiModel
+from utils import OpenAIModel, GenimiModel,LamaModel
 import argparse
 
 import model_globals
@@ -22,6 +22,10 @@ class LogicProgramGenerator:
 
         if self.model_name in model_globals.GEMINI_MODEL_NAMES:
             self.LLM = GenimiModel(args.model_name, args.stop_words, args.max_new_tokens)
+        elif self.model_name in model_globals.LAMA_MODEL_NAMES:
+            print("Lama Model")
+            self.LLM = LamaModel(args.model_name, args.max_new_tokens)
+            #print("HERE 13")
         else:
             self.LLM = OpenAIModel(args.api_key, args.model_name, args.stop_words, args.max_new_tokens)
 
@@ -34,6 +38,7 @@ class LogicProgramGenerator:
         self.load_prompt_templates()
     
     def load_prompt_templates(self):
+        #print("HERE 12")
         prompt_file = f'./models/prompts/{self.dataset_name}.txt'
         # if self.dataset_name == 'AR-LSAT' and self.model_name == 'gpt-4':
         if self.dataset_name == 'AR-LSAT' and self.model_name in model_globals.MODEL_LARGE_CONTEXT:
@@ -48,12 +53,23 @@ class LogicProgramGenerator:
         return full_prompt
 
     def prompt_arlsat(self, test_data):
+        message = []
+        #message.append({"role": "system", "content": "You are a "})
+    
+        d = {}
+        d["role"] = "user"
+      
+   
+    
         problem = test_data['context']
         question = test_data['question'].strip()
         choices_str = '\n'.join([f'({choice.strip()}' for choice in test_data['options']]).strip()
         full_prompt = self.prompt_template.replace('[[PROBLEM]]', problem).replace('[[QUESTION]]', question)
         full_prompt = full_prompt.replace('[[CHOICES]]', choices_str)
-        return full_prompt
+        d["content"]  = full_prompt
+        message.append(d)
+    
+        return message
     
     def prompt_prontoqa(self, test_data):
         problem = test_data['context']
@@ -88,23 +104,35 @@ class LogicProgramGenerator:
         outputs = []
         for example in tqdm(raw_dataset):
             # create prompt
-            try:
-                full_prompt = self.prompt_creator[self.dataset_name](example)
-                output = self.LLM.generate(full_prompt)
-                programs = [output]
+            # try:
+            #     full_prompt = self.prompt_creator[self.dataset_name](example)
+            #     output = self.LLM.generate(full_prompt)
+            #     programs = [output]
 
-                # create output
-                output = {'id': example['id'], 
-                        'context': example['context'],
-                        'question': example['question'], 
-                        'answer': example['answer'],
-                        'options': example['options'],
-                        'raw_logic_programs': programs}
-                outputs.append(output)
-            except:
-                print('Error in generating logic programs for example: ', example['id'])
+            #     # create output
+            #     output = {'id': example['id'], 
+            #             'context': example['context'],
+            #             'question': example['question'], 
+            #             'answer': example['answer'],
+            #             'options': example['options'],
+            #             'raw_logic_programs': programs}
+            #     outputs.append(output)
+            full_prompt = self.prompt_creator[self.dataset_name](example)
+            output = self.LLM.generate(full_prompt)
+            programs = [output]
 
-        # save outputs        
+            # create output
+            output = {'id': example['id'], 
+                    'context': example['context'],
+                    'question': example['question'], 
+                    'answer': example['answer'],
+                    'options': example['options'],
+                    'raw_logic_programs': programs}
+            outputs.append(output)
+            
+
+        # save outputs
+        print("Outputs:",outputs)        
         with open(os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.model_name}.json'), 'w') as f:
             json.dump(outputs, f, indent=2, ensure_ascii=False)
 
@@ -112,6 +140,7 @@ class LogicProgramGenerator:
     Updated version of logic_program_generation; speed up the generation process by batching
     '''
     def batch_logic_program_generation(self, batch_size = 10):
+        #print("HERE 11")
         # load raw dataset
         raw_dataset = self.load_raw_dataset(self.split)
         print(f"Loaded {len(raw_dataset)} examples from {self.split} split.")
@@ -122,11 +151,13 @@ class LogicProgramGenerator:
         for chunk in tqdm(dataset_chunks):
             # create prompt
             full_prompts = [self.prompt_creator[self.dataset_name](example) for example in chunk]
+            #print(full_prompts)
             try:
-                if self.LLM.model_name in model_globals.GEMINI_MODEL_NAMES:
-                    # our code for batching with gemini doesn't work yet 
-                    raise Exception("our code for batching with gemini doesn't work yet ")
-                batch_outputs = self.LLM.batch_generate(full_prompts)
+                # if self.model_name in model_globals.LAMA_MODEL_NAMES:
+                #     # our code for batching with gemini doesn't work yet 
+                #     raise Exception("our code for batching with gemini doesn't work yet ")
+                batch_outputs = self.LLM.generate(full_prompts)
+                print(batch_outputs)
                 # create output
                 for sample, output in zip(chunk, batch_outputs):
                     programs = [output]
@@ -155,6 +186,7 @@ class LogicProgramGenerator:
 
         # remove examples with duplicate ids from the result
         outputs = list({output['id']: output for output in outputs}.values())
+        print("Outputs:",outputs)
         print(f"Generated {len(outputs)} examples.")
         
         # save outputs
@@ -171,7 +203,7 @@ def parse_args():
     parser.add_argument('--split', type=str, default='dev')
     parser.add_argument('--save_path', type=str, default='./outputs/logic_programs')
     parser.add_argument('--api_key', type=str)
-    parser.add_argument('--model_name', type=str, default='text-davinci-003')
+    parser.add_argument('--model_name', type=str, default='lama3')
     parser.add_argument('--stop_words', type=str, default='------')
     parser.add_argument('--max_new_tokens', type=int, default=1024)
     args = parser.parse_args()
@@ -180,4 +212,4 @@ def parse_args():
 if __name__ == '__main__':
     args = parse_args()
     logic_program_generator = LogicProgramGenerator(args)
-    logic_program_generator.batch_logic_program_generation()
+    logic_program_generator.logic_program_generation()

@@ -3,6 +3,9 @@ import openai
 import os
 import asyncio
 from typing import Any
+from huggingface_hub import login
+import transformers
+import torch
 
 # @backoff.on_exception(backoff.expo, openai.error.RateLimitError)
 def completions_with_backoff(**kwargs):
@@ -158,10 +161,10 @@ class OpenAIModel:
 
 
 import model_globals
-import vertexai
-from vertexai.generative_models import GenerativeModel, GenerationConfig
+#import vertexai
+# from vertexai.generative_models import GenerativeModel, GenerationConfig
 import time
-from google.api_core.exceptions import ResourceExhausted
+# from google.api_core.exceptions import ResourceExhausted
 
 class GenimiModel:
     def __init__(self, model_name, stop_words, max_new_tokens) -> None:
@@ -232,4 +235,49 @@ class GenimiModel:
     #         return self.batch_gemini_generate(input_strings)
     #     else:
     #         raise Exception("Model name not recognized")
-        
+
+class LamaModel:
+    def __init__(self, model_name, max_new_tokens=1024) -> None:
+
+        self.model_name = model_name
+       
+       
+        model_id = 'meta-llama/Meta-Llama-3-8B-Instruct'
+        login("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",add_to_git_credential=True)
+        #print("Reached before pipeline")
+        self.pipeline = transformers.pipeline(
+        "text-generation",
+        model=model_id,
+        model_kwargs={"torch_dtype": torch.bfloat16},
+        device_map="cuda"
+    )
+        #print("Reached after pipeline")
+    
+    def generate(self, input_string, clean_response=True):
+        if self.model_name in model_globals.LAMA_MODEL_NAMES:
+            prompt = self.pipeline.tokenizer.apply_chat_template(
+            input_string, 
+            tokenize=False, 
+            add_generation_prompt=True
+    )
+
+            terminators = [
+                self.pipeline.tokenizer.eos_token_id,
+                self.pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
+            ]
+
+            outputs = self.pipeline(
+                prompt,
+                max_new_tokens=1024,
+                eos_token_id=terminators,
+                do_sample=True,
+                temperature=0.6,
+                top_p=0.9,
+            )
+            
+            #print(outputs[0]["generated_text"][len(prompt):])         
+            return outputs[0]["generated_text"][len(prompt):]
+        else:
+            raise Exception("Model name not recognized")
+
+
