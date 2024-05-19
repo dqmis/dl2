@@ -173,9 +173,39 @@ Additionally, below table demonstrates the Direct, CoT and Logic-LM results on a
 | AR-LSAT  |  CoT   |     |
 | AR-LSAT  |  Logic-LM   |     |
 
+## Gemini results
 
+evaluation logic programs:
 
+| model | dataset | Overall_Accuracy | Executable_Rate | Executable_Accuracy |
+| --- | --- | --- | --- | --- |
+| gemini-1.0-pro-vision-001 | ProntoQA | 0.774 | 1.0 | 0.774 |
+| gemini-1.0-pro-vision-001 | ProofWriter | 0.6126878130217028 | 0.6444073455759599 | 0.7616580310880829 |
+| gemini-1.0-pro-vision-001 | AR-LSAT | 0.2217391304347826 | 0.0 | 0 |
+| gemini-1.5-pro-preview-0409 | ProntoQA | 0.956 | 0.964 | 0.9730290456431535 |
+| gemini-1.5-pro-preview-0409 | ProofWriter | 0.7466216216216216 | 0.893581081081081 | 0.8052930056710775 |
+| gemini-1.5-pro-preview-0409 | AR-LSAT | 0.19047619047619047 | 0.0 | 0 |
+| gemini-1.5-pro-preview-0514 | ProntoQA | 0.464 | 0.0 | 0 |
+| gemini-1.5-pro-preview-0514 | ProofWriter | 0.345 | 0.0 | 0 |
+| gemini-1.5-pro-preview-0514 | AR-LSAT | 0.31601731601731603 | 0.26406926406926406 | 0.6065573770491803 |
+| gemini-1.5-flash-preview-0514 | ProntoQA | 0.46938775510204084 | 0.0 | 0 |
+| gemini-1.5-flash-preview-0514 | ProofWriter | 0.32166666666666666 | 0.04666666666666667 | 0.5357142857142857 |
+| gemini-1.5-flash-preview-0514 | AR-LSAT | 0.3246753246753247 | 0.33766233766233766 | 0.6025641025641025 |
 
+evaluation baselines:
+
+| model | dataset | mode | Average_EM_score |
+| --- | --- | --- | --- |
+| gemini-1.5-flash-preview-0514 | ProntoQA | Direct | 0.638 |
+| gemini-1.5-flash-preview-0514 | ProntoQA | CoT | 0.9234042553191489 |
+| gemini-1.5-flash-preview-0514 | ProofWriter | Direct | 0.5383333333333333 |
+| gemini-1.5-flash-preview-0514 | ProofWriter | CoT | 0.6515151515151515 |
+| gemini-1.5-flash-preview-0514 | FOLIO | Direct | 0.6666666666666666 |
+| gemini-1.5-flash-preview-0514 | FOLIO | CoT | 0.49246231155778897 |
+| gemini-1.5-flash-preview-0514 | LogicalDeduction | Direct | 0.5466666666666666 |
+| gemini-1.5-flash-preview-0514 | LogicalDeduction | CoT | 0.3 |
+| gemini-1.5-flash-preview-0514 | AR-LSAT | Direct | 0.2794759825327511 |
+| gemini-1.5-flash-preview-0514 | AR-LSAT | CoT | 0.20346320346320346 |
 
 
 ## Concluding Remarks
