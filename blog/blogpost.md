@@ -144,6 +144,27 @@ While analyzing the mistakes made by the model using direct prompting, we observ
 
 For the ASP prompting, the primary mistakes made by the model were related to generating the problem representation as a valid ASP program. As the provided ASP programs required precise encoding of either Sudoku boards or graph coloring problems, the model often failed to generate correct ASP programs. This was especially evident in the Graph Fill-in problem, where the model struggled to correctly encode the graph coloring problem.
 
+## Prompting - Ablation Experiments - In Context Learning ##
+
+We evaluated the LLama family of models,ie- `meta-llama/Llama-2-7b-chat-hf` and `meta-llama/Meta-Llama-3-8B-Instruct`. In general, LLama3 performs way better than LLama2. The results table below are conducted wrt Llama3. We found that for logical tasks, where we have to predict one option out of 5 available options, the model is somewhat biased towards predicting the first choice. Additionally, if we allow to generate more tokens by increaisng the max_new_tokens hyper-parmater,ie- increasing  the maximum number of tokens to generate, the quality of the logic programs gets better.
+
+|     Dataset     | Prompting | Accuracy |
+| :-------------: | :-------: | :------: |
+| AR-LSAT Baseline  |  Direct   |   19.56   |
+| AR-LSAT Swap the correct answer always to first choice |  Direct   |  25   |
+
+Additionally, below table demonstrates the Direct, CoT and Logic-LM results on all datasets with Llama3:
+
+|     Dataset     | Prompting | Accuracy |
+| :-------------: | :-------: | :------: |
+| AR-LSAT Baseline  |  Direct   |      |
+| AR-LSAT  |  CoT   |     |
+
+
+
+
+
+
 ## Concluding Remarks
 
 TODO
