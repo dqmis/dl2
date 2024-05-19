@@ -3,7 +3,7 @@ import os
 from tqdm import tqdm
 from collections import OrderedDict
 from typing import Dict, List, Tuple
-from utils import OpenAIModel
+from utils import OpenAIModel,LamaModel
 import argparse
 
 class GPT3_Reasoning_Graph_Baseline:
@@ -17,11 +17,15 @@ class GPT3_Reasoning_Graph_Baseline:
         self.demonstration_path = args.demonstration_path
         self.mode = args.mode
 
-        self.openai_api = OpenAIModel(args.api_key, args.model_name, args.stop_words, args.max_new_tokens)
+        self.openai_api = LamaModel(args.model_name, args.max_new_tokens)
         self.prompt_creator = self.prompt_LSAT
         self.label_phrase = 'The correct option is:'
     
     def prompt_LSAT(self, in_context_example, test_example):
+        message = []
+        d = {}
+        d["role"] = "user"
+      
         full_prompt = in_context_example
         context = test_example['context'].strip()
         question = test_example['question'].strip()
@@ -29,7 +33,10 @@ class GPT3_Reasoning_Graph_Baseline:
         full_prompt = full_prompt.replace('[[CONTEXT]]', context)
         full_prompt = full_prompt.replace('[[QUESTION]]', question)
         full_prompt = full_prompt.replace('[[OPTIONS]]', options)
-        return full_prompt
+
+        d["content"]  = full_prompt
+        message.append(d)
+        return message
 
     def load_in_context_examples(self):
         with open(os.path.join(self.demonstration_path, f'{self.dataset_name}_{self.mode}.txt')) as f:
@@ -69,6 +76,8 @@ class GPT3_Reasoning_Graph_Baseline:
                       'predicted_reasoning': generated_reasoning,
                       'predicted_answer': generated_answer}
             outputs.append(output)
+            with open(os.path.join(self.save_path, f'{self.mode}_{self.dataset_name}_{self.split}_{self.model_name}.json'), 'w') as f:
+                json.dump(outputs, f, indent=2, ensure_ascii=False)
 
         # save outputs        
         with open(os.path.join(self.save_path, f'{self.mode}_{self.dataset_name}_{self.split}_{self.model_name}.json'), 'w') as f:
@@ -123,11 +132,11 @@ class GPT3_Reasoning_Graph_Baseline:
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_path', type=str, default='../data')
+    parser.add_argument('--data_path', type=str, default='/home/scur0401/DL2/dl2/Logic-LLM/data')
     parser.add_argument('--dataset_name', type=str)
     parser.add_argument('--split', type=str)
-    parser.add_argument('--save_path', type=str, default='./results')
-    parser.add_argument('--demonstration_path', type=str, default='./icl_examples')
+    parser.add_argument('--save_path', type=str, default='/home/scur0401/DL2/dl2/Logic-LLM/baselines/results')
+    parser.add_argument('--demonstration_path', type=str, default='/home/scur0401/DL2/dl2/Logic-LLM/baselines/icl_examples')
     parser.add_argument('--api_key', type=str)
     parser.add_argument('--model_name', type=str)
     parser.add_argument('--stop_words', type=str, default='------')
@@ -139,4 +148,4 @@ def parse_args():
 if __name__ == '__main__':
     args = parse_args()
     gpt3_problem_reduction = GPT3_Reasoning_Graph_Baseline(args)
-    gpt3_problem_reduction.batch_reasoning_graph_generation(batch_size=10)
+    gpt3_problem_reduction.reasoning_graph_generation()
