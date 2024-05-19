@@ -155,7 +155,7 @@ We evaluated the LLama family of models,ie- `meta-llama/Llama-2-7b-chat-hf` and 
 
 Additionally, below table demonstrates the Direct, CoT and Logic-LM results on all datasets with Llama3(meta-llama/Meta-Llama-3-8B-Instruct):
 
-|     Dataset     | Prompting | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct) |
+|     Dataset     | Prompting | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct ) |
 | :-------------: | :-------: | :------: |
 | ProntoQA   |  Direct   |      |
 | ProntoQA  |  CoT   |     |
