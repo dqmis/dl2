@@ -157,8 +157,21 @@ Additionally, below table demonstrates the Direct, CoT and Logic-LM results on a
 
 |     Dataset     | Prompting | Accuracy |
 | :-------------: | :-------: | :------: |
+| ProntoQA Baseline  |  Direct   |      |
+| ProntoQA  |  CoT   |     |
+| ProntoQA  |  Logic-LM   |     |
+| ProofWriter Baseline  |  Direct   |      |
+| ProofWriter  |  CoT   |     |
+| ProofWriter  |  Logic-LM   |     |
+| FOLIO Baseline  |  Direct   |      |
+| FOLIO  |  CoT   |     |
+| FOLIO  |  Logic-LM    |     |
+| LogicalDeduction Baseline  |  Direct   |      |
+| LogicalDeduction  |  CoT   |     |
+| LogicalDeduction  |  Logic-LM   |     |
 | AR-LSAT Baseline  |  Direct   |      |
 | AR-LSAT  |  CoT   |     |
+| AR-LSAT  |  Logic-LM   |     |
 
 
 
