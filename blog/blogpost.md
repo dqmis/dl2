@@ -160,18 +160,23 @@ Additionally, below table demonstrates the Direct, CoT and Logic-LM results on a
 | ProntoQA   |  Direct ( 16 max_new_tokens )   |  43    |
 | ProntoQA  |  CoT ( 1024 max_new_tokens )   | 76.6   |
 | ProntoQA  |  Logic-LM (random backup strategy )   | 55    |
+| ProntoQA  |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )   | 8    |
 | ProofWriter   |  Direct ( 16 max_new_tokens )  |  33    |
 | ProofWriter  |  CoT ( 1024 max_new_tokens )   | 28.54    |
 | ProofWriter  |  Logic-LM (random backup strategy )  |  28.7   |
+| ProofWriter  |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )  |  28.695   |
 | FOLIO   |  Direct ( 16 max_new_tokens )  | 46.5     |
 | FOLIO  |  CoT ( 1024 max_new_tokens )    |   36  |
 | FOLIO  |  Logic-LM (random backup strategy )   |   43  |
+| FOLIO  |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )   |   44.285  |
 | LogicalDeduction   |  Direct ( 16 max_new_tokens )  |   32.33   |
 | LogicalDeduction  |  CoT ( 1024 max_new_tokens )    |  22   |
 | LogicalDeduction  |  Logic-LM (random backup strategy )  |  24.27   |
+| LogicalDeduction  |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )  |  20.38   |
 | AR-LSAT   |  Direct ( 16 max_new_tokens )  | 7.36     |
 | AR-LSAT  |  CoT ( 1024 max_new_tokens )    |  8.225   |
 | AR-LSAT  |  Logic-LM  (random backup strategy ) |  22   |
+| AR-LSAT  |  Logic-LM  (CoT-Logic collabration mode (LLM) backup strategy ) |  6   |
 
 ## Gemini results
 
