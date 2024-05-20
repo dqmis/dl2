@@ -72,7 +72,7 @@ The multimodal logic reasoning experiments were conducted by building synthetic 
 - **Sudoku Fill-in**: The model is tasked with filling in the missing numbers in a Sudoku puzzle.
 - **Sudoku Validity**: The model is tasked with determining whether a given Sudoku puzzle is valid.
 
-Validity datasets contained 400 samples, with 200 valid and 200 invalid examples each. For fill-in problems, 200 samples were created. Validity problems had two possible answers (Yes, No) and Fill-in problems had four different options (for Sudoku, possible missing numbers; for graph, missing colors).
+Validity datasets contained 400 samples, with 200 valid and 200 invalid examples each. For fill-in problems, 200 samples were created. Validity problems had two possible answers (Yes, No) and Fill-in problems had four different options (for Sudoku, possible missing numbers; for graph, missing colors). For multiple choice problems, we employed ASP programs to ensure that there is only one correct answer by validating models count.
 
 |  Sudoku Fill-in Problem Sample  |  Sudoku Validity Problem Sample  |
 | :-----------------------------: | :------------------------------: |
@@ -129,14 +129,14 @@ We evaluated the multimodal LLM from the Gemini family `gemini-1.5-pro-preview-0
 
 |     Dataset     | Prompting | Accuracy |
 | :-------------: | :-------: | :------: |
-| Sudoku Fill-in  |  Direct   |   0.75   |
-| Sudoku Validity |  Direct   |   0.75   |
-|  Graph Fill-in  |  Direct   |   0.75   |
-| Graph Validity  |  Direct   |   0.75   |
-| Sudoku Validity |    ASP    |   0.75   |
+| Sudoku Fill-in  |  Direct   |  0.285   |
+| Sudoku Validity |  Direct   |  0.480   |
+|  Graph Fill-in  |  Direct   |  0.425   |
+| Graph Validity  |  Direct   |  0.535   |
+| Sudoku Validity |    ASP    |  0.730   |
 | Sudoku Fill-in  |    ASP    |  0.530   |
-|  Graph Fill-in  |    ASP    |  0.538   |
-| Graph Validity  |    ASP    |   0.75   |
+|  Graph Fill-in  |    ASP    |  0.620   |
+| Graph Validity  |    ASP    |  0.750   |
 
 As we can see from the results, the model achieves much higher accuracy when prompted with ASP programs compared to direct prompting. This indicates that the model is able to better understand the logical problems when provided with the ASP programs, which are more structured and explicit compared to direct prompts.
 
