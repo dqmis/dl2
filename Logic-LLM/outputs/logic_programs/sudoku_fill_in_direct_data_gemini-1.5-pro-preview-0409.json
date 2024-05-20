@@ -1,0 +1,2802 @@
+[
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 7",
+      "C) 1",
+      "D) 2"
+    ],
+    "answer": "B",
+    "id": "problem_0",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 9",
+      "C) 7",
+      "D) 3"
+    ],
+    "answer": "A",
+    "id": "problem_1",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 1** \n\nThe missing number is 1, as it's the only number not present in the row, column, or 3x3 square containing the red cell. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 5",
+      "B) 3",
+      "C) 7",
+      "D) 2"
+    ],
+    "answer": "B",
+    "id": "problem_2",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 5",
+      "C) 4",
+      "D) 9"
+    ],
+    "answer": "B",
+    "id": "problem_3",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 2",
+      "C) 4",
+      "D) 9"
+    ],
+    "answer": "B",
+    "id": "problem_4",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 9",
+      "C) 3",
+      "D) 1"
+    ],
+    "answer": "C",
+    "id": "problem_5",
+    "raw_logic_programs": [
+      "Correct answer: \n**B** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 4",
+      "C) 1",
+      "D) 7"
+    ],
+    "answer": "C",
+    "id": "problem_6",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 2",
+      "C) 9",
+      "D) 8"
+    ],
+    "answer": "B",
+    "id": "problem_7",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 6",
+      "C) 1",
+      "D) 5"
+    ],
+    "answer": "D",
+    "id": "problem_8",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 5",
+      "B) 7",
+      "C) 4",
+      "D) 2"
+    ],
+    "answer": "D",
+    "id": "problem_9",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 6",
+      "C) 9",
+      "D) 2"
+    ],
+    "answer": "A",
+    "id": "problem_10",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 5",
+      "C) 1",
+      "D) 4"
+    ],
+    "answer": "C",
+    "id": "problem_11",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 9. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 8",
+      "C) 5",
+      "D) 2"
+    ],
+    "answer": "B",
+    "id": "problem_12",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 8",
+      "C) 9",
+      "D) 1"
+    ],
+    "answer": "A",
+    "id": "problem_13",
+    "raw_logic_programs": [
+      "Correct answer: **C** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 4",
+      "C) 5",
+      "D) 7"
+    ],
+    "answer": "D",
+    "id": "problem_14",
+    "raw_logic_programs": [
+      "Correct answer: **C** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 4",
+      "C) 5",
+      "D) 2"
+    ],
+    "answer": "D",
+    "id": "problem_15",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 6",
+      "C) 9",
+      "D) 4"
+    ],
+    "answer": "D",
+    "id": "problem_16",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 2",
+      "C) 1",
+      "D) 7"
+    ],
+    "answer": "C",
+    "id": "problem_17",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 7",
+      "C) 3",
+      "D) 6"
+    ],
+    "answer": "C",
+    "id": "problem_18",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 1** \n\nThe missing number is 1, as it is the only number not present in the row, column, or 3x3 square containing the red cell. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 3",
+      "C) 1",
+      "D) 7"
+    ],
+    "answer": "B",
+    "id": "problem_19",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 7",
+      "C) 9",
+      "D) 2"
+    ],
+    "answer": "B",
+    "id": "problem_20",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 5",
+      "C) 2",
+      "D) 7"
+    ],
+    "answer": "D",
+    "id": "problem_21",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 1** \n\nThe missing number is 1, as it's the only number not present in the row, column, or 3x3 square containing the red cell. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 5",
+      "C) 4",
+      "D) 7"
+    ],
+    "answer": "B",
+    "id": "problem_22",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 7",
+      "C) 5",
+      "D) 1"
+    ],
+    "answer": "C",
+    "id": "problem_23",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 4",
+      "C) 2",
+      "D) 7"
+    ],
+    "answer": "D",
+    "id": "problem_24",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 4",
+      "C) 1",
+      "D) 3"
+    ],
+    "answer": "C",
+    "id": "problem_25",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 1",
+      "C) 5",
+      "D) 7"
+    ],
+    "answer": "A",
+    "id": "problem_26",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 3. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 1",
+      "C) 8",
+      "D) 5"
+    ],
+    "answer": "D",
+    "id": "problem_27",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 7"
+    ],
+    "answer": "B",
+    "id": "problem_28",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 5",
+      "B) 2",
+      "C) 8",
+      "D) 4"
+    ],
+    "answer": "C",
+    "id": "problem_29",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 5. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 8",
+      "C) 3",
+      "D) 1"
+    ],
+    "answer": "A",
+    "id": "problem_30",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 9",
+      "C) 6",
+      "D) 3"
+    ],
+    "answer": "C",
+    "id": "problem_31",
+    "raw_logic_programs": [
+      "Correct answer: **B** \n\nThe missing number is 9. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 3",
+      "C) 7",
+      "D) 8"
+    ],
+    "answer": "B",
+    "id": "problem_32",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 4",
+      "C) 2",
+      "D) 5"
+    ],
+    "answer": "C",
+    "id": "problem_33",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 7",
+      "C) 1",
+      "D) 6"
+    ],
+    "answer": "A",
+    "id": "problem_34",
+    "raw_logic_programs": [
+      "Correct answer: \n**A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 3"
+    ],
+    "answer": "C",
+    "id": "problem_35",
+    "raw_logic_programs": [
+      "Correct answer: \n**C** \n\nThe missing number is 6. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 4",
+      "C) 3",
+      "D) 7"
+    ],
+    "answer": "D",
+    "id": "problem_36",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 6",
+      "C) 5",
+      "D) 9"
+    ],
+    "answer": "A",
+    "id": "problem_37",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 6",
+      "C) 8",
+      "D) 1"
+    ],
+    "answer": "B",
+    "id": "problem_38",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 2. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 8",
+      "C) 5",
+      "D) 7"
+    ],
+    "answer": "A",
+    "id": "problem_39",
+    "raw_logic_programs": [
+      "Correct answer: \n**A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 6",
+      "C) 4",
+      "D) 9"
+    ],
+    "answer": "B",
+    "id": "problem_40",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 2",
+      "C) 7",
+      "D) 6"
+    ],
+    "answer": "B",
+    "id": "problem_41",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 7",
+      "C) 9",
+      "D) 8"
+    ],
+    "answer": "C",
+    "id": "problem_42",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 1",
+      "C) 9",
+      "D) 6"
+    ],
+    "answer": "C",
+    "id": "problem_43",
+    "raw_logic_programs": [
+      "Correct answer: **C** \n\nThe missing number is 9. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 9",
+      "C) 8",
+      "D) 5"
+    ],
+    "answer": "B",
+    "id": "problem_44",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 4",
+      "C) 3",
+      "D) 2"
+    ],
+    "answer": "B",
+    "id": "problem_45",
+    "raw_logic_programs": [
+      "Correct answer: \n**A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 6",
+      "C) 4",
+      "D) 3"
+    ],
+    "answer": "B",
+    "id": "problem_46",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 9",
+      "C) 5",
+      "D) 3"
+    ],
+    "answer": "D",
+    "id": "problem_47",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 5",
+      "B) 9",
+      "C) 7",
+      "D) 6"
+    ],
+    "answer": "B",
+    "id": "problem_48",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 5** \n\nThe missing number is 5, as it is the only number not present in the row, column, or 3x3 square that the red cell belongs to. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 6",
+      "C) 4",
+      "D) 2"
+    ],
+    "answer": "B",
+    "id": "problem_49",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 8",
+      "C) 2",
+      "D) 3"
+    ],
+    "answer": "A",
+    "id": "problem_50",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 4",
+      "C) 7",
+      "D) 3"
+    ],
+    "answer": "A",
+    "id": "problem_51",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 4",
+      "C) 5",
+      "D) 2"
+    ],
+    "answer": "D",
+    "id": "problem_52",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 6** \n\nThe missing number is 6, as it is the only number not present in the row, column, or 3x3 square containing the red cell. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 7",
+      "C) 6",
+      "D) 8"
+    ],
+    "answer": "D",
+    "id": "problem_53",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 5",
+      "C) 4",
+      "D) 1"
+    ],
+    "answer": "D",
+    "id": "problem_54",
+    "raw_logic_programs": [
+      "Correct answer: \n**B) 5** \n\nThe missing number is 5, as it is the only number not present in the row, column, or 3x3 square containing the red cell. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 3",
+      "C) 4",
+      "D) 2"
+    ],
+    "answer": "A",
+    "id": "problem_55",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 4",
+      "C) 1",
+      "D) 3"
+    ],
+    "answer": "B",
+    "id": "problem_56",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 5",
+      "B) 1",
+      "C) 8",
+      "D) 9"
+    ],
+    "answer": "A",
+    "id": "problem_57",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 5** \n\nThe missing number is 5, as it is the only number not present in the row, column, or 3x3 square that the red cell belongs to. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 7",
+      "C) 4",
+      "D) 3"
+    ],
+    "answer": "A",
+    "id": "problem_58",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 9** \n\nThe missing number is 9, as it's the only number not present in the row, column, or 3x3 square containing the red box. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 6",
+      "C) 1",
+      "D) 4"
+    ],
+    "answer": "D",
+    "id": "problem_59",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 3** \n\nThe missing number is 3, as it is the only number not present in the row, column, or 3x3 square containing the red cell. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 6",
+      "C) 8",
+      "D) 1"
+    ],
+    "answer": "D",
+    "id": "problem_60",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 2",
+      "C) 9",
+      "D) 1"
+    ],
+    "answer": "A",
+    "id": "problem_61",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 8. It is the only number not present in the row, column, or 3x3 square that the red cell belongs to. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 1",
+      "C) 3",
+      "D) 2"
+    ],
+    "answer": "A",
+    "id": "problem_62",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 9** \n\nThe missing number is 9, as it is the only number not present in the row, column, or 3x3 square that the red cell belongs to. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 9",
+      "C) 5",
+      "D) 3"
+    ],
+    "answer": "B",
+    "id": "problem_63",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 6",
+      "C) 8",
+      "D) 7"
+    ],
+    "answer": "D",
+    "id": "problem_64",
+    "raw_logic_programs": [
+      "Correct answer: **C** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 4",
+      "C) 2",
+      "D) 9"
+    ],
+    "answer": "C",
+    "id": "problem_65",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 9",
+      "C) 4",
+      "D) 1"
+    ],
+    "answer": "A",
+    "id": "problem_66",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 7",
+      "C) 9",
+      "D) 1"
+    ],
+    "answer": "B",
+    "id": "problem_67",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 2** \n\nThe missing number is 2, as it is the only number not present in the row, column, or 3x3 square that the red cell belongs to. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 6",
+      "C) 2",
+      "D) 5"
+    ],
+    "answer": "D",
+    "id": "problem_68",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 5",
+      "C) 4",
+      "D) 2"
+    ],
+    "answer": "A",
+    "id": "problem_69",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 2",
+      "C) 1",
+      "D) 5"
+    ],
+    "answer": "A",
+    "id": "problem_70",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 1",
+      "C) 5",
+      "D) 7"
+    ],
+    "answer": "A",
+    "id": "problem_71",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 4",
+      "C) 6",
+      "D) 9"
+    ],
+    "answer": "A",
+    "id": "problem_72",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 6",
+      "D) 4"
+    ],
+    "answer": "D",
+    "id": "problem_73",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 3",
+      "C) 1",
+      "D) 6"
+    ],
+    "answer": "A",
+    "id": "problem_74",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 9"
+    ],
+    "answer": "C",
+    "id": "problem_75",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 8",
+      "C) 4",
+      "D) 2"
+    ],
+    "answer": "D",
+    "id": "problem_76",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 4",
+      "C) 5",
+      "D) 9"
+    ],
+    "answer": "D",
+    "id": "problem_77",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 8",
+      "C) 1",
+      "D) 5"
+    ],
+    "answer": "C",
+    "id": "problem_78",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 9** \n\nThe missing number is 9, as it is the only number not present in the row, column, or 3x3 square containing the red cell. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 7",
+      "C) 3",
+      "D) 8"
+    ],
+    "answer": "A",
+    "id": "problem_79",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 1",
+      "C) 7",
+      "D) 2"
+    ],
+    "answer": "D",
+    "id": "problem_80",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 3** \n\nThe missing number is 3, as it is the only number not present in the row, column, or 3x3 square containing the red cell. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 5",
+      "B) 9",
+      "C) 6",
+      "D) 1"
+    ],
+    "answer": "C",
+    "id": "problem_81",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 5** \n\nThe missing number is 5, as it is the only number not present in the row, column, or 3x3 block containing the red square. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 5",
+      "C) 3",
+      "D) 2"
+    ],
+    "answer": "C",
+    "id": "problem_82",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 5",
+      "C) 2",
+      "D) 3"
+    ],
+    "answer": "D",
+    "id": "problem_83",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 9",
+      "C) 4",
+      "D) 3"
+    ],
+    "answer": "C",
+    "id": "problem_84",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 8",
+      "C) 5",
+      "D) 7"
+    ],
+    "answer": "D",
+    "id": "problem_85",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 3. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 7",
+      "D) 8"
+    ],
+    "answer": "D",
+    "id": "problem_86",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 1",
+      "C) 4",
+      "D) 9"
+    ],
+    "answer": "C",
+    "id": "problem_87",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 4",
+      "C) 6",
+      "D) 7"
+    ],
+    "answer": "D",
+    "id": "problem_88",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 4",
+      "C) 6",
+      "D) 3"
+    ],
+    "answer": "B",
+    "id": "problem_89",
+    "raw_logic_programs": [
+      "Correct answer: \n**C** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 6",
+      "C) 3",
+      "D) 9"
+    ],
+    "answer": "A",
+    "id": "problem_90",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 6",
+      "C) 9",
+      "D) 1"
+    ],
+    "answer": "B",
+    "id": "problem_91",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 7",
+      "C) 1",
+      "D) 3"
+    ],
+    "answer": "D",
+    "id": "problem_92",
+    "raw_logic_programs": [
+      "Correct answer: **D** \n\nThe missing number is 3. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 2",
+      "C) 9",
+      "D) 4"
+    ],
+    "answer": "D",
+    "id": "problem_93",
+    "raw_logic_programs": [
+      "Correct answer: \n**C** \n \nThe missing number is 9. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 5",
+      "C) 6",
+      "D) 2"
+    ],
+    "answer": "A",
+    "id": "problem_94",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 7. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 2",
+      "C) 9",
+      "D) 1"
+    ],
+    "answer": "C",
+    "id": "problem_95",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 1",
+      "C) 8",
+      "D) 3"
+    ],
+    "answer": "C",
+    "id": "problem_96",
+    "raw_logic_programs": [
+      "Correct answer: **B** \n\nThe missing number is 1. It's the only number not present in the row, column, or 3x3 square that the red cell belongs to. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 7",
+      "C) 6",
+      "D) 4"
+    ],
+    "answer": "B",
+    "id": "problem_97",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 6",
+      "C) 2",
+      "D) 4"
+    ],
+    "answer": "A",
+    "id": "problem_98",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 1. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 8",
+      "C) 3",
+      "D) 2"
+    ],
+    "answer": "B",
+    "id": "problem_99",
+    "raw_logic_programs": [
+      "**Correct answer: A** \n\nThe missing number is 9. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 5",
+      "C) 1",
+      "D) 2"
+    ],
+    "answer": "B",
+    "id": "problem_100",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 8",
+      "C) 6",
+      "D) 9"
+    ],
+    "answer": "B",
+    "id": "problem_101",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 5",
+      "C) 3",
+      "D) 1"
+    ],
+    "answer": "C",
+    "id": "problem_102",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 4",
+      "C) 1",
+      "D) 2"
+    ],
+    "answer": "D",
+    "id": "problem_103",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 8",
+      "C) 5",
+      "D) 4"
+    ],
+    "answer": "B",
+    "id": "problem_104",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 4",
+      "C) 3",
+      "D) 7"
+    ],
+    "answer": "B",
+    "id": "problem_105",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 4",
+      "C) 8",
+      "D) 5"
+    ],
+    "answer": "C",
+    "id": "problem_106",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 5",
+      "C) 8",
+      "D) 7"
+    ],
+    "answer": "A",
+    "id": "problem_107",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 6",
+      "C) 9",
+      "D) 8"
+    ],
+    "answer": "A",
+    "id": "problem_108",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 9",
+      "C) 4",
+      "D) 3"
+    ],
+    "answer": "A",
+    "id": "problem_109",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 7",
+      "C) 9",
+      "D) 5"
+    ],
+    "answer": "D",
+    "id": "problem_110",
+    "raw_logic_programs": [
+      "Correct answer: **C** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 1",
+      "C) 8",
+      "D) 5"
+    ],
+    "answer": "C",
+    "id": "problem_111",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 9",
+      "C) 2",
+      "D) 8"
+    ],
+    "answer": "D",
+    "id": "problem_112",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 1",
+      "C) 4",
+      "D) 2"
+    ],
+    "answer": "B",
+    "id": "problem_113",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 3** \n\nThe missing number is 3, as it is the only number not present in the row, column, or 3x3 square containing the red cell. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 8",
+      "C) 2",
+      "D) 5"
+    ],
+    "answer": "B",
+    "id": "problem_114",
+    "raw_logic_programs": [
+      "**Correct answer: B** \n\nThe missing number is 8.  Here's why:\n\n* **Row:** The row already contains the numbers 1, 2, 3, 4, 5, 6, 7, and 9.\n* **Column:** The column already contains the numbers 1, 2, 3, 4, 5, 6, 7, and 9.\n* **3x3 Square:** The 3x3 square where the red box is located already contains the numbers 1, 2, 3, 4, 5, 6, 7, and 9. \n \nTherefore, the only missing number is 8. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 5",
+      "B) 7",
+      "C) 4",
+      "D) 8"
+    ],
+    "answer": "A",
+    "id": "problem_115",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 5",
+      "C) 6",
+      "D) 8"
+    ],
+    "answer": "C",
+    "id": "problem_116",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 8",
+      "C) 3",
+      "D) 5"
+    ],
+    "answer": "D",
+    "id": "problem_117",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 4. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 6",
+      "C) 1",
+      "D) 3"
+    ],
+    "answer": "C",
+    "id": "problem_118",
+    "raw_logic_programs": [
+      "**Correct answer: C**\n\n**Explanation:**\n\nThe missing number is in the second row and third column.  \n\n* **Row:** The second row already contains the numbers 4, 5, 7, 6, 2, 8, 9, and 3. \n* **Column:** The third column already contains the numbers 7, 7, 1, 5, 2, 8, 6, 4, and 3.\n\nThe only number missing from both the row and column is **1**. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 6",
+      "C) 3",
+      "D) 1"
+    ],
+    "answer": "D",
+    "id": "problem_119",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 7",
+      "C) 8",
+      "D) 5"
+    ],
+    "answer": "B",
+    "id": "problem_120",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 6",
+      "C) 4",
+      "D) 3"
+    ],
+    "answer": "A",
+    "id": "problem_121",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 6",
+      "C) 1",
+      "D) 7"
+    ],
+    "answer": "A",
+    "id": "problem_122",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 4",
+      "C) 3",
+      "D) 6"
+    ],
+    "answer": "C",
+    "id": "problem_123",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "answer": "D",
+    "id": "problem_124",
+    "raw_logic_programs": [
+      "Correct answer: \n**C** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 5",
+      "C) 7",
+      "D) 6"
+    ],
+    "answer": "C",
+    "id": "problem_125",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 2",
+      "C) 1",
+      "D) 8"
+    ],
+    "answer": "D",
+    "id": "problem_126",
+    "raw_logic_programs": [
+      "Correct answer: **B** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 8",
+      "C) 2",
+      "D) 5"
+    ],
+    "answer": "B",
+    "id": "problem_127",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 3",
+      "C) 4",
+      "D) 8"
+    ],
+    "answer": "C",
+    "id": "problem_128",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 9. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 6",
+      "C) 1",
+      "D) 4"
+    ],
+    "answer": "B",
+    "id": "problem_129",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 5",
+      "B) 6",
+      "C) 9",
+      "D) 8"
+    ],
+    "answer": "A",
+    "id": "problem_130",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 9",
+      "C) 1",
+      "D) 2"
+    ],
+    "answer": "C",
+    "id": "problem_131",
+    "raw_logic_programs": [
+      "Correct answer: **C** \n\nThe missing number is 1. It is the only number not present in the row, column, or 3x3 square that the red cell is located in. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 6",
+      "C) 9",
+      "D) 8"
+    ],
+    "answer": "A",
+    "id": "problem_132",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 8",
+      "C) 3",
+      "D) 1"
+    ],
+    "answer": "C",
+    "id": "problem_133",
+    "raw_logic_programs": [
+      "Correct answer: \n**C** \n\nThe missing number is 3. It's the only number not present in the row, column, or 3x3 square that the red cell belongs to. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 1",
+      "C) 9",
+      "D) 2"
+    ],
+    "answer": "C",
+    "id": "problem_134",
+    "raw_logic_programs": [
+      "Correct answer: **B** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 2",
+      "C) 1",
+      "D) 9"
+    ],
+    "answer": "A",
+    "id": "problem_135",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 7",
+      "C) 6",
+      "D) 3"
+    ],
+    "answer": "B",
+    "id": "problem_136",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 1",
+      "C) 8",
+      "D) 6"
+    ],
+    "answer": "D",
+    "id": "problem_137",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 8",
+      "C) 4",
+      "D) 9"
+    ],
+    "answer": "C",
+    "id": "problem_138",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 1",
+      "C) 7",
+      "D) 9"
+    ],
+    "answer": "C",
+    "id": "problem_139",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 6** \n\nThe missing number is 6, as it is the only number not present in the row, column, or 3x3 square containing the red cell. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 6",
+      "C) 8",
+      "D) 1"
+    ],
+    "answer": "C",
+    "id": "problem_140",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 9",
+      "C) 1",
+      "D) 2"
+    ],
+    "answer": "B",
+    "id": "problem_141",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 8",
+      "C) 9",
+      "D) 7"
+    ],
+    "answer": "B",
+    "id": "problem_142",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 3** \n\nThe missing number is 3, as it is the only number not present in the row, column, or 3x3 square that the red cell belongs to. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 7",
+      "C) 3",
+      "D) 8"
+    ],
+    "answer": "A",
+    "id": "problem_143",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 4",
+      "C) 8",
+      "D) 2"
+    ],
+    "answer": "A",
+    "id": "problem_144",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 5",
+      "B) 7",
+      "C) 6",
+      "D) 2"
+    ],
+    "answer": "C",
+    "id": "problem_145",
+    "raw_logic_programs": [
+      "Correct answer: \nC \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 9",
+      "C) 8",
+      "D) 4"
+    ],
+    "answer": "A",
+    "id": "problem_146",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 2",
+      "C) 4",
+      "D) 5"
+    ],
+    "answer": "A",
+    "id": "problem_147",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 3",
+      "C) 7",
+      "D) 1"
+    ],
+    "answer": "C",
+    "id": "problem_148",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 1",
+      "C) 9",
+      "D) 2"
+    ],
+    "answer": "A",
+    "id": "problem_149",
+    "raw_logic_programs": [
+      "Correct answer: **B** \n\nThe missing number is 7. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 9",
+      "C) 1",
+      "D) 2"
+    ],
+    "answer": "B",
+    "id": "problem_150",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 3. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 7",
+      "C) 8",
+      "D) 3"
+    ],
+    "answer": "D",
+    "id": "problem_151",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 9. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 5",
+      "C) 3",
+      "D) 4"
+    ],
+    "answer": "A",
+    "id": "problem_152",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 1",
+      "C) 8",
+      "D) 4"
+    ],
+    "answer": "D",
+    "id": "problem_153",
+    "raw_logic_programs": [
+      "Correct answer: **B** \n\nThe missing number is 1. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 7",
+      "C) 1",
+      "D) 4"
+    ],
+    "answer": "A",
+    "id": "problem_154",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 8** \n\nThe missing number is 8, as it's the only number not present in the row, column, or 3x3 square containing the red cell. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 2",
+      "C) 4",
+      "D) 3"
+    ],
+    "answer": "C",
+    "id": "problem_155",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 7. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 1",
+      "C) 4",
+      "D) 8"
+    ],
+    "answer": "D",
+    "id": "problem_156",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 2. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 5",
+      "B) 8",
+      "C) 2",
+      "D) 3"
+    ],
+    "answer": "B",
+    "id": "problem_157",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 5** \n\nThe missing number is 5, as it is the only number not present in the row, column, or 3x3 square that the red cell belongs to. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 9",
+      "C) 6",
+      "D) 1"
+    ],
+    "answer": "D",
+    "id": "problem_158",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 2** \n\nThe missing number is 2 because it is the only number not present in the row, column, or 3x3 square that the red cell belongs to. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 3",
+      "C) 4",
+      "D) 7"
+    ],
+    "answer": "A",
+    "id": "problem_159",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 5",
+      "B) 6",
+      "C) 4",
+      "D) 1"
+    ],
+    "answer": "B",
+    "id": "problem_160",
+    "raw_logic_programs": [
+      "Correct answer: \n**A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 9",
+      "C) 1",
+      "D) 6"
+    ],
+    "answer": "C",
+    "id": "problem_161",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 3. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 7",
+      "C) 8",
+      "D) 4"
+    ],
+    "answer": "D",
+    "id": "problem_162",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 5",
+      "B) 4",
+      "C) 8",
+      "D) 6"
+    ],
+    "answer": "D",
+    "id": "problem_163",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 3",
+      "C) 8",
+      "D) 5"
+    ],
+    "answer": "B",
+    "id": "problem_164",
+    "raw_logic_programs": [
+      "Correct answer: **C** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 1",
+      "C) 8",
+      "D) 7"
+    ],
+    "answer": "D",
+    "id": "problem_165",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 6",
+      "C) 2",
+      "D) 4"
+    ],
+    "answer": "B",
+    "id": "problem_166",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 7",
+      "C) 2",
+      "D) 1"
+    ],
+    "answer": "A",
+    "id": "problem_167",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 5",
+      "C) 4",
+      "D) 7"
+    ],
+    "answer": "C",
+    "id": "problem_168",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 1. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 7",
+      "C) 9",
+      "D) 3"
+    ],
+    "answer": "B",
+    "id": "problem_169",
+    "raw_logic_programs": [
+      "Correct answer: \n**A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 5",
+      "B) 9",
+      "C) 4",
+      "D) 8"
+    ],
+    "answer": "A",
+    "id": "problem_170",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 1",
+      "C) 8",
+      "D) 6"
+    ],
+    "answer": "D",
+    "id": "problem_171",
+    "raw_logic_programs": [
+      "Correct answer: **C** \n\nThe missing number is 8. It is the only number not present in the row, column, or 3x3 square that the red square is located in. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 6",
+      "C) 9",
+      "D) 8"
+    ],
+    "answer": "D",
+    "id": "problem_172",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 3",
+      "C) 2",
+      "D) 9"
+    ],
+    "answer": "C",
+    "id": "problem_173",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 2",
+      "C) 5",
+      "D) 9"
+    ],
+    "answer": "B",
+    "id": "problem_174",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 7. It's the only number not present in the row, column, or 3x3 square that the red cell belongs to. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 1",
+      "C) 2",
+      "D) 4"
+    ],
+    "answer": "B",
+    "id": "problem_175",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 8",
+      "C) 2",
+      "D) 1"
+    ],
+    "answer": "A",
+    "id": "problem_176",
+    "raw_logic_programs": [
+      "Correct answer: **C** \n\nThe missing number is 7. It's the only number not present in the row, column, or 3x3 square that the red cell belongs to. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 6",
+      "C) 3",
+      "D) 1"
+    ],
+    "answer": "D",
+    "id": "problem_177",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 6",
+      "C) 2",
+      "D) 8"
+    ],
+    "answer": "A",
+    "id": "problem_178",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 8",
+      "C) 6",
+      "D) 4"
+    ],
+    "answer": "D",
+    "id": "problem_179",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 6",
+      "C) 9",
+      "D) 5"
+    ],
+    "answer": "D",
+    "id": "problem_180",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 5",
+      "B) 1",
+      "C) 8",
+      "D) 7"
+    ],
+    "answer": "D",
+    "id": "problem_181",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 7"
+    ],
+    "answer": "B",
+    "id": "problem_182",
+    "raw_logic_programs": [
+      "Correct answer: **C** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 1",
+      "C) 6",
+      "D) 4"
+    ],
+    "answer": "D",
+    "id": "problem_183",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 1",
+      "C) 7",
+      "D) 8"
+    ],
+    "answer": "A",
+    "id": "problem_184",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 7",
+      "C) 8",
+      "D) 4"
+    ],
+    "answer": "D",
+    "id": "problem_185",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 2",
+      "C) 5",
+      "D) 3"
+    ],
+    "answer": "A",
+    "id": "problem_186",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 4** \n\nThe missing number is 4, as it is the only number not present in the row, column, or 3x3 square containing the red cell. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 8",
+      "C) 2",
+      "D) 1"
+    ],
+    "answer": "A",
+    "id": "problem_187",
+    "raw_logic_programs": [
+      "Correct answer: \n**A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 1",
+      "C) 5",
+      "D) 9"
+    ],
+    "answer": "D",
+    "id": "problem_188",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 6. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 1",
+      "B) 4",
+      "C) 7",
+      "D) 2"
+    ],
+    "answer": "C",
+    "id": "problem_189",
+    "raw_logic_programs": [
+      "Correct answer: \n**A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 8",
+      "C) 5",
+      "D) 2"
+    ],
+    "answer": "B",
+    "id": "problem_190",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 8",
+      "B) 4",
+      "C) 6",
+      "D) 1"
+    ],
+    "answer": "A",
+    "id": "problem_191",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 2",
+      "C) 9",
+      "D) 5"
+    ],
+    "answer": "D",
+    "id": "problem_192",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 3. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 1",
+      "C) 9",
+      "D) 7"
+    ],
+    "answer": "B",
+    "id": "problem_193",
+    "raw_logic_programs": [
+      "C \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 8",
+      "C) 4",
+      "D) 3"
+    ],
+    "answer": "C",
+    "id": "problem_194",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 9",
+      "B) 6",
+      "C) 3",
+      "D) 2"
+    ],
+    "answer": "B",
+    "id": "problem_195",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 6",
+      "B) 4",
+      "C) 8",
+      "D) 5"
+    ],
+    "answer": "A",
+    "id": "problem_196",
+    "raw_logic_programs": [
+      "Correct answer: **A** \n\nThe missing number is 6. It is the only number not present in the row, column, or 3x3 square that the red cell is part of. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 3",
+      "B) 2",
+      "C) 7",
+      "D) 8"
+    ],
+    "answer": "A",
+    "id": "problem_197",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 7",
+      "B) 4",
+      "C) 1",
+      "D) 6"
+    ],
+    "answer": "A",
+    "id": "problem_198",
+    "raw_logic_programs": [
+      "Correct answer: **C** \n\nThe missing number is 1. It is the only number not present in the row, column, or 3x3 square that the red cell occupies. \n"
+    ]
+  },
+  {
+    "question": "Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing? Give me a letter of a valid answer.",
+    "options": [
+      "A) 4",
+      "B) 9",
+      "C) 5",
+      "D) 8"
+    ],
+    "answer": "C",
+    "id": "problem_199",
+    "raw_logic_programs": [
+      "Correct answer: \n**A) 4** \n\nThe missing number is 4, as it is the only number not present in the row, column, or 3x3 square containing the red cell. \n"
+    ]
+  }
+]
