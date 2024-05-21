@@ -122,16 +122,15 @@ answer(Color) :- coloring(5,Color).
 
 We evaluated the multi-modal LLM from the Gemini family `gemini-1.5-pro-preview-0409` using both ASP and direct prompting strategies. To validate the ASP-generated code, we employed the Clingo solver. The results are summarized below:
 
-|     Dataset     | Prompting | Accuracy |
-| :-------------: | :-------: | :------: |
-| Sudoku Fill-in  |  Direct   |  0.285   |
-| Sudoku Validity |  Direct   |  0.480   |
-|  Graph Fill-in  |  Direct   |  0.425   |
-| Graph Validity  |  Direct   |  0.535   |
-| Sudoku Validity |    ASP    |  0.730   |
-| Sudoku Fill-in  |    ASP    |  0.530   |
-|  Graph Fill-in  |    ASP    |  0.620   |
-| Graph Validity  |    ASP    |  0.750   |
+
+|     Dataset     | Direct prompting Accuracy | ASP Accuracy |
+| :-------------: | :------: | :------: |
+| Sudoku Fill-in  | 0.285   | 0.530   |
+| Sudoku Validity | 0.480   | 0.730   |
+| Graph Fill-in   | 0.425   | 0.620   |
+| Graph Validity  | 0.535   | 0.750   |
+
+
 
 As we can see from the results, the model achieves much higher accuracy when prompted with ASP programs compared to direct prompting. This indicates that the model is able to better understand the logical problems when provided with the ASP programs, which are more structured and explicit compared to direct prompts.
 
