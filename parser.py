@@ -12,10 +12,15 @@ with open(args.filepath, 'r') as file:
 blocks = re.findall(r'LLama3 Response begins:(.*?)Response ends:', text, re.DOTALL)
 
 for block in blocks:
-    match = re.search(r'correct answer.*?(A\)|B\)|C\)|D\))', block)
+    match = re.search(r'correct answer.*?(A\)|B\)|C\)|D\)|E\))', block)
     if match:
         correct_answers.append(match.group(1).replace(")", ""))
     else:
-        correct_answers.append("none")
+        # Check for single occurrence of A), B), C), D), or E)
+        single_match = re.search(r'(A\)|B\)|C\)|D\)|E\))', block)
+        if single_match:
+            correct_answers.append(single_match.group(1).replace(")", ""))
+        else:
+            correct_answers.append("none")
 
 print(correct_answers)
