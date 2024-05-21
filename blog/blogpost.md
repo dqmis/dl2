@@ -205,7 +205,7 @@ Additionally, below table demonstrates the Direct, CoT and Logic-LM results on a
 
 ## Gemini results
 
-evaluation logic programs per task with backoff option 'random':
+evaluation logic programs per task with backup option 'random':
 
 |ProntoQA|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
  |---|---|---|---|---| 
@@ -237,20 +237,25 @@ evaluation logic programs per task with backoff option 'random':
 |Executable_Rate|0.00|0.00|0.26|0.34|
 |Executable_Accuracy|0.00|0.00|0.61|0.60|
 
-evaluation baselines:
+Evaluation baselines with Gemini. All baselines results (Direct and CoT) are done with gemini-1.5-flash-preview-0514. Best accuracy score of the Logic-LM approach with the random backup strategy is presented for comparison.:
 
-| model | dataset | mode | Average_EM_score |
+| dataset | mode | accuracy | best model
 | --- | --- | --- | --- |
-| gemini-1.5-flash-preview-0514 | ProntoQA | Direct | 0.638 |
-| gemini-1.5-flash-preview-0514 | ProntoQA | CoT | 0.9234042553191489 |
-| gemini-1.5-flash-preview-0514 | ProofWriter | Direct | 0.5383333333333333 |
-| gemini-1.5-flash-preview-0514 | ProofWriter | CoT | 0.6515151515151515 |
-| gemini-1.5-flash-preview-0514 | FOLIO | Direct | 0.6666666666666666 |
-| gemini-1.5-flash-preview-0514 | FOLIO | CoT | 0.49246231155778897 |
-| gemini-1.5-flash-preview-0514 | LogicalDeduction | Direct | 0.5466666666666666 |
-| gemini-1.5-flash-preview-0514 | LogicalDeduction | CoT | 0.3 |
-| gemini-1.5-flash-preview-0514 | AR-LSAT | Direct | 0.2794759825327511 |
-| gemini-1.5-flash-preview-0514 | AR-LSAT | CoT | 0.20346320346320346 |
+| ProntoQA | Direct | 0.64 | - |
+| - | CoT | 0.92 | - |
+| - | Logic-LM | 0.96 | gemini-1.5-pro-preview-0409 |
+| ProofWriter | Direct | 0.54 | - |
+| - | CoT | 0.65 | - |
+| - | Logic-LM | 0.75 | gemini-1.5-pro-preview-0409 |
+| FOLIO | Direct | 0.67 | - |
+| - | CoT | 0.49 | - |
+| - | Logic-LM | 0.71 | gemini-1.5-pro-preview-0514 |
+| LogicalDeduction | Direct | 0.55 | - |
+| - | CoT | 0.3 | - |
+| - | Logic-LM | 0.85 | gemini-1.5-pro-preview-0514 |
+| AR-LSAT | Direct | 0.28 | - |
+| - | CoT | 0.2 | - |
+| - | Logic-LM | 0.32 | gemini-1.5-flash-preview-0514 |
 
 
 ## Concluding Remarks
