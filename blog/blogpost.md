@@ -63,9 +63,9 @@ We will incorporate logical reasoning datasets including ProofWriter (arXiv:2012
 
 ## Reproduction of the Experiments
 
-## Multimodal Logic Reasoning
+## Multi-modal Logic Reasoning
 
-The multimodal logic reasoning experiments were conducted by building synthetic datasets for Sudoku and Graph Coloring problems. Four different datasets were created in total: Graph Fill-in, Graph Validity, Sudoku Fill-in, and Sudoku Validity. These datasets are as follows:
+The multi-modal logic reasoning experiments were conducted by building synthetic datasets for Sudoku and Graph Coloring problems. Four different datasets were created in total: Graph Fill-in, Graph Validity, Sudoku Fill-in, and Sudoku Validity. These datasets are as follows:
 
 - **Graph Fill-in**: The model is tasked with filling in the missing color in a graph so that no two adjacent nodes have the same color.
 - **Graph Validity**: The model is tasked with determining whether it is possible to color a graph with a given set of colors such that no two adjacent nodes have the same color.
@@ -125,7 +125,7 @@ answer(Color) :- coloring(5,Color).
 
 ### Results
 
-We evaluated the multimodal LLM from the Gemini family `gemini-1.5-pro-preview-0409` using both ASP and direct prompting strategies. To validate the ASP-generated code, we employed the Clingo solver. The results are summarized below:
+We evaluated the multi-modal LLM from the Gemini family `gemini-1.5-pro-preview-0409` using both ASP and direct prompting strategies. To validate the ASP-generated code, we employed the Clingo solver. The results are summarized below:
 
 |     Dataset     | Prompting | Accuracy |
 | :-------------: | :-------: | :------: |
