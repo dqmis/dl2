@@ -73,7 +73,7 @@ The multi-modal logic reasoning experiments were conducted by building synthetic
 | **Graph Validity** | Determining whether it is possible to color a graph with a given set of colors such that no two adjacent nodes have the same color. | ASP & Clingo | <img src="./media/graph_validity.png" width="300"> |
 | **Sudoku Fill-in** | Filling in the missing numbers in a Sudoku puzzle. | ASP & Clingo | <img src="./media/sudoku_fill_in.png" width="300">   |
 | **Sudoku Validity** | Determining whether a given Sudoku puzzle is valid. | ASP & Clingo | <img src="./media/sudoku_validity.png" width="300"> |
-| **SET** | Following the card game rules, find the sets given the cards shown in the image. The same cards can appear and are counted as a set. | ASP & Clingo | <img src="./media/SET_full.png" width="300"> |
+| **SET** | Following the card game rules, find the sets given the cards shown in the image. The same cards can appear and are counted as a set. | ASP & Clingo | <img src="./media/SET.png" width="300"> |
 
 Validity datasets contained 400 samples, with 200 valid and 200 invalid examples each. For fill-in problems, 200 samples were created. Validity problems had two possible answers (Yes, No) and Fill-in problems had four different options (for Sudoku, possible missing numbers; for graph, missing colors). For multiple choice problems, we employed ASP programs to ensure that there is only one correct answer by validating models count.
 
