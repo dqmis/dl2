@@ -67,7 +67,7 @@ In a multi-modal setting, not only textual data is given to the LLM, but also ot
 ## Datasets Multi-modal
 The multi-modal logic reasoning experiments were conducted by building synthetic datasets for Sudoku and Graph Coloring problems. Different datasets were created based on graphs, sudoku's and the SET card games. A textual prompt is also given to specify the task and the desired output format.
 
-| <div style="width:200px">Dataset name</div> | Model's task | Logic representation & solver | Example input image |
+| Dataset name | Model's task | Logic representation & solver | Example input image |
 | :-----------------------------: | :------------------------------: | :------------------------------: |:------------------------------: |
 | **Graph Fill-in** | Filling in the missing color in a graph so that no two adjacent nodes have the same color. | ASP & Clingo | <img src="./media/graph_fill_in.png" width="300"> |
 | **Graph Validity** | Determining whether it is possible to color a graph with a given set of colors such that no two adjacent nodes have the same color. | ASP & Clingo | <img src="./media/graph_validity.png" width="300"> |
