@@ -205,22 +205,37 @@ Additionally, below table demonstrates the Direct, CoT and Logic-LM results on a
 
 ## Gemini results
 
-evaluation logic programs:
+evaluation logic programs per task with backoff option 'random':
 
-| model | dataset | Overall_Accuracy | Executable_Rate | Executable_Accuracy |
-| --- | --- | --- | --- | --- |
-| gemini-1.0-pro-vision-001 | ProntoQA | 0.774 | 1.0 | 0.774 |
-| gemini-1.0-pro-vision-001 | ProofWriter | 0.6126878130217028 | 0.6444073455759599 | 0.7616580310880829 |
-| gemini-1.0-pro-vision-001 | AR-LSAT | 0.2217391304347826 | 0.0 | 0 |
-| gemini-1.5-pro-preview-0409 | ProntoQA | 0.956 | 0.964 | 0.9730290456431535 |
-| gemini-1.5-pro-preview-0409 | ProofWriter | 0.7466216216216216 | 0.893581081081081 | 0.8052930056710775 |
-| gemini-1.5-pro-preview-0409 | AR-LSAT | 0.19047619047619047 | 0.0 | 0 |
-| gemini-1.5-pro-preview-0514 | ProntoQA | 0.464 | 0.0 | 0 |
-| gemini-1.5-pro-preview-0514 | ProofWriter | 0.345 | 0.0 | 0 |
-| gemini-1.5-pro-preview-0514 | AR-LSAT | 0.31601731601731603 | 0.26406926406926406 | 0.6065573770491803 |
-| gemini-1.5-flash-preview-0514 | ProntoQA | 0.46938775510204084 | 0.0 | 0 |
-| gemini-1.5-flash-preview-0514 | ProofWriter | 0.32166666666666666 | 0.04666666666666667 | 0.5357142857142857 |
-| gemini-1.5-flash-preview-0514 | AR-LSAT | 0.3246753246753247 | 0.33766233766233766 | 0.6025641025641025 |
+|ProntoQA|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
+ |---|---|---|---|---| 
+|Overall_Accuracy|0.77|0.96|0.46|0.47|
+|Executable_Rate|1.00|0.96|0.00|0.00|
+|Executable_Accuracy|0.77|0.97|0.00|0.00|
+
+|ProofWriter|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
+ |---|---|---|---|---| 
+|Overall_Accuracy|0.61|0.75|0.34|0.32|
+|Executable_Rate|0.64|0.89|0.00|0.05|
+|Executable_Accuracy|0.76|0.81|0.00|0.54|
+
+|FOLIO|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
+ |---|---|---|---|---| 
+|Overall_Accuracy|0.53|0.62|0.71|0.36|
+|Executable_Rate|0.48|0.59|0.77|0.04|
+|Executable_Accuracy|0.68|0.82|0.85|1.00|
+
+|LogicalDeduction|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
+ |---|---|---|---|---| 
+|Overall_Accuracy|0.61|0.60|0.85|0.56|
+|Executable_Rate|0.60|0.60|1.00|0.72|
+|Executable_Accuracy|0.89|0.87|0.85|0.70|
+
+|AR-LSAT|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
+ |---|---|---|---|---| 
+|Overall_Accuracy|0.22|0.19|0.32|0.32|
+|Executable_Rate|0.00|0.00|0.26|0.34|
+|Executable_Accuracy|0.00|0.00|0.61|0.60|
 
 evaluation baselines:
 
