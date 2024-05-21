@@ -10,19 +10,11 @@ conda activate DL2
 # gemini_model="gemini-1.5-pro-preview-0514"
 gemini_model="gemini-1.5-flash-preview-0514"
 
-python3 gemini_baseline.py \
-            --model_name gemini-1.5-flash-preview-0514 \
-            --dataset_name AR-LSAT \
-            --split test_choices_INCORRECT \
-            --mode Direct \
-            --max_new_tokens 1024
-
-
-orders = ("test_first_choice_correct" "test_second_choice_correct" "test_third_choice_correct" "test_fourth_choice_correct" "test_fifth_choice_correct" )
+orders = ("test_first_choice_correct" "test_second_choice_correct" "test_third_choice_correct" "test_fourth_choice_correct" "test_fifth_choice_correct")
 
 for split in "${orders[@]}"
     do
-        echo "Running program in direct mode with task: $task"
+        echo "Running program in direct mode with split: $split"
         python3 gemini_baseline.py \
             --model_name "$gemini_model" \
             --dataset_name AR-LSAT \
@@ -33,7 +25,7 @@ for split in "${orders[@]}"
 
 for split in "${orders[@]}"
     do
-        echo "Running program in direct mode with task: $task"
+        echo "Running program in direct mode with split: $split"
         python3 gemini_baseline.py \
             --model_name "$gemini_model" \
             --dataset_name AR-LSAT \
