@@ -1,5 +1,6 @@
 import re
 import argparse
+import csv
 
 correct_answers = []
 parser = argparse.ArgumentParser(description="Parse a text file for correct answers.")
@@ -24,3 +25,8 @@ for block in blocks:
             correct_answers.append("none")
 
 print(correct_answers)
+
+with open('parser_parsed_results.tsv', 'w', newline='') as f:
+    writer = csv.writer(f, delimiter='\t')
+    for answer in correct_answers:
+        writer.writerow([answer])
