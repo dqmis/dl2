@@ -10,6 +10,16 @@
             "Executable_Rate": 0.6444073455759599,
             "Executable_Accuracy": 0.7616580310880829
         },
+        "FOLIO": {
+            "Overall_Accuracy": 0.53,
+            "Executable_Rate": 0.485,
+            "Executable_Accuracy": 0.6804123711340206
+        },
+        "LogicalDeduction": {
+            "Overall_Accuracy": 0.6133333333333333,
+            "Executable_Rate": 0.6,
+            "Executable_Accuracy": 0.8944444444444445
+        },
         "AR-LSAT": {
             "Overall_Accuracy": 0.2217391304347826,
             "Executable_Rate": 0.0,

@@ -73,7 +73,7 @@ The multi-modal logic reasoning experiments were conducted by building synthetic
 | **Graph Validity** | Determining whether it is possible to color a graph with a given set of colors such that no two adjacent nodes have the same color. | ASP & Clingo | <img src="./media/graph_validity.png" width="300"> |
 | **Sudoku Fill-in** | Filling in the missing numbers in a Sudoku puzzle. | ASP & Clingo | <img src="./media/sudoku_fill_in.png" width="300">   |
 | **Sudoku Validity** | Determining whether a given Sudoku puzzle is valid. | ASP & Clingo | <img src="./media/sudoku_validity.png" width="300"> |
-| **SET** | Following the card game rules, find the sets given the cards shown in the image. The same cards can appear and are counted as a set. | ASP & Clingo | <img src="./media/SET_full.png" width="300"> |
+| **SET** | Following the card game rules, find the sets given the cards shown in the image. The same cards can appear and are counted as a set. | ASP & Clingo | <img src="./media/SET.png" width="300"> |
 
 Validity datasets contained 400 samples, with 200 valid and 200 invalid examples each. For fill-in problems, 200 samples were created. Validity problems had two possible answers (Yes, No) and Fill-in problems had four different options (for Sudoku, possible missing numbers; for graph, missing colors). For multiple choice problems, we employed ASP programs to ensure that there is only one correct answer by validating models count.
 
@@ -205,22 +205,37 @@ Additionally, below table demonstrates the Direct, CoT and Logic-LM results on a
 
 ## Gemini results
 
-evaluation logic programs:
+evaluation logic programs per task with backoff option 'random':
 
-| model | dataset | Overall_Accuracy | Executable_Rate | Executable_Accuracy |
-| --- | --- | --- | --- | --- |
-| gemini-1.0-pro-vision-001 | ProntoQA | 0.774 | 1.0 | 0.774 |
-| gemini-1.0-pro-vision-001 | ProofWriter | 0.6126878130217028 | 0.6444073455759599 | 0.7616580310880829 |
-| gemini-1.0-pro-vision-001 | AR-LSAT | 0.2217391304347826 | 0.0 | 0 |
-| gemini-1.5-pro-preview-0409 | ProntoQA | 0.956 | 0.964 | 0.9730290456431535 |
-| gemini-1.5-pro-preview-0409 | ProofWriter | 0.7466216216216216 | 0.893581081081081 | 0.8052930056710775 |
-| gemini-1.5-pro-preview-0409 | AR-LSAT | 0.19047619047619047 | 0.0 | 0 |
-| gemini-1.5-pro-preview-0514 | ProntoQA | 0.464 | 0.0 | 0 |
-| gemini-1.5-pro-preview-0514 | ProofWriter | 0.345 | 0.0 | 0 |
-| gemini-1.5-pro-preview-0514 | AR-LSAT | 0.31601731601731603 | 0.26406926406926406 | 0.6065573770491803 |
-| gemini-1.5-flash-preview-0514 | ProntoQA | 0.46938775510204084 | 0.0 | 0 |
-| gemini-1.5-flash-preview-0514 | ProofWriter | 0.32166666666666666 | 0.04666666666666667 | 0.5357142857142857 |
-| gemini-1.5-flash-preview-0514 | AR-LSAT | 0.3246753246753247 | 0.33766233766233766 | 0.6025641025641025 |
+|ProntoQA|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
+ |---|---|---|---|---| 
+|Overall_Accuracy|0.77|0.96|0.46|0.47|
+|Executable_Rate|1.00|0.96|0.00|0.00|
+|Executable_Accuracy|0.77|0.97|0.00|0.00|
+
+|ProofWriter|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
+ |---|---|---|---|---| 
+|Overall_Accuracy|0.61|0.75|0.34|0.32|
+|Executable_Rate|0.64|0.89|0.00|0.05|
+|Executable_Accuracy|0.76|0.81|0.00|0.54|
+
+|FOLIO|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
+ |---|---|---|---|---| 
+|Overall_Accuracy|0.53|0.62|0.71|0.36|
+|Executable_Rate|0.48|0.59|0.77|0.04|
+|Executable_Accuracy|0.68|0.82|0.85|1.00|
+
+|LogicalDeduction|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
+ |---|---|---|---|---| 
+|Overall_Accuracy|0.61|0.60|0.85|0.56|
+|Executable_Rate|0.60|0.60|1.00|0.72|
+|Executable_Accuracy|0.89|0.87|0.85|0.70|
+
+|AR-LSAT|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
+ |---|---|---|---|---| 
+|Overall_Accuracy|0.22|0.19|0.32|0.32|
+|Executable_Rate|0.00|0.00|0.26|0.34|
+|Executable_Accuracy|0.00|0.00|0.61|0.60|
 
 evaluation baselines:
 

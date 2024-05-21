@@ -4,6 +4,10 @@ from tqdm import tqdm
 import argparse
 from utils import GenimiModel
 
+INCORRECT = "test_choices_INCORRECT"
+
+
+
 class Gemini_Reasoning_Graph_Baseline:
     def __init__(self, args):
         self.args = args
@@ -46,7 +50,7 @@ class Gemini_Reasoning_Graph_Baseline:
 
         # load in-context examples
         in_context_examples = self.load_in_context_examples()
-        
+
         outputs = []
         for example in tqdm(raw_dataset):
             question = example['question']
@@ -76,26 +80,38 @@ class Gemini_Reasoning_Graph_Baseline:
         # load raw dataset
         raw_dataset = self.load_raw_dataset(self.split)
         print(f"Loaded {len(raw_dataset)} examples from {self.split} split.")
-
         # load in-context examples
-        in_context_examples = self.load_in_context_examples()
+        if self.split != INCORRECT:
+            in_context_examples = self.load_in_context_examples()
 
         outputs = []
         # split dataset into chunks
+        index_example = 0
         dataset_chunks = [raw_dataset[i:i + batch_size] for i in range(0, len(raw_dataset), batch_size)]
         for chunk in tqdm(dataset_chunks):
             # create prompt
-            full_prompts = [self.prompt_creator(in_context_examples, example) for example in chunk]
-
+            if self.split != INCORRECT:
+                full_prompts = [self.prompt_creator(in_context_examples, example) for example in chunk]
+            else:
+                full_prompts = [example[0]['content'] + ' ' + example[1]['content'] for example in chunk]
             # generate one by one if batch generation fails
             for sample, full_prompt in zip(chunk, full_prompts):
                 try:
                     output = self.LLM.generate(full_prompt)
                     # get the answer
-                    dict_output = self.update_answer(sample, output)
+                    if self.split != INCORRECT:
+                        dict_output = self.update_answer(sample, output)
+                    else:
+                        dict_output = {'id': index_example, 
+                        'question': full_prompt, 
+                        'answer': output, }
                     outputs.append(dict_output)
                 except:
-                    print('Error in generating example: ', sample['id'])
+                    if self.split != INCORRECT:
+                        print('Error in generating example: ', sample['id'])
+                    else:
+                        print(f'Error in generating example: {index_example}')
+                index_example += 1
 
         # save outputs        
         with open(os.path.join(self.save_path, f'{self.mode}_{self.dataset_name}_{self.split}_{self.model_name}.json'), 'w') as f:
