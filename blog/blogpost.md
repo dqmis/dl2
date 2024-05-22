@@ -171,6 +171,11 @@ We evaluated the multi-modal LLM from the Gemini family `gemini-1.5-pro-preview-
     <td>0.535</td>
     <td>0.750</td>
   </tr>
+  <tr>
+    <td>SET Validity</td>
+    <td>0.580</td>
+    <td>0.670</td>
+  </tr>
 </table>
 
 
