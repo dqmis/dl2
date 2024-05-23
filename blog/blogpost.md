@@ -165,21 +165,21 @@ We evaluated the multi-modal LLM from the Gemini family `gemini-1.5-pro-preview-
   </tr>
   <tr>
     <td class="tg-0pky">Sudoku Validity</td>
-    <td class="tg-0pky">48.00</td>
+    <td class="tg-0pky">47.25</td>
     <td class="tg-0pky">48.03</td>
     <td class="tg-0pky">92.08</td>
     <td class="tg-0pky">0.930</td>
   </tr>
   <tr>
     <td class="tg-0pky">Graph Fill-in</td>
-    <td class="tg-0pky">42.52</td>
+    <td class="tg-0pky">36.65</td>
     <td class="tg-0pky">29.50</td>
     <td class="tg-0pky">65.01</td>
     <td class="tg-0pky">38.21</td>
   </tr>
   <tr>
     <td class="tg-0pky">Graph Validity</td>
-    <td class="tg-0pky">53.51</td>
+    <td class="tg-0pky">54.75</td>
     <td class="tg-0pky">54.00</td>
     <td class="tg-0pky">94.50</td>
     <td class="tg-0pky">90.50</td>
