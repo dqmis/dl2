@@ -146,7 +146,7 @@ We evaluated the multi-modal LLM from the Gemini family `gemini-1.5-pro-preview-
 <table class="tg"><thead>
   <tr>
     <th class="tg-0pky"></th>
-    <th class="tg-c3ow" colspan="4">Accuracy for prompting type</th>
+    <th class="tg-c3ow" colspan="4">Accuracy % for prompting type</th>
   </tr></thead>
 <tbody>
   <tr>
@@ -158,38 +158,38 @@ We evaluated the multi-modal LLM from the Gemini family `gemini-1.5-pro-preview-
   </tr>
   <tr>
     <td class="tg-0pky">Sudoku Fill-in</td>
-    <td class="tg-0pky">0.285</td>
-    <td class="tg-0pky">0.255</td>
-    <td class="tg-0pky">0.530</td>
-    <td class="tg-0pky">0.220</td>
+    <td class="tg-0pky">28.50</td>
+    <td class="tg-0pky">25.51</td>
+    <td class="tg-0pky">67.50</td>
+    <td class="tg-0pky">22.00</td>
   </tr>
   <tr>
     <td class="tg-0pky">Sudoku Validity</td>
-    <td class="tg-0pky">0.480</td>
-    <td class="tg-0pky">0.480</td>
-    <td class="tg-0pky">0.730</td>
+    <td class="tg-0pky">48.00</td>
+    <td class="tg-0pky">48.03</td>
+    <td class="tg-0pky">92.08</td>
     <td class="tg-0pky">0.930</td>
   </tr>
   <tr>
     <td class="tg-0pky">Graph Fill-in</td>
-    <td class="tg-0pky">0.425</td>
-    <td class="tg-0pky">0.295</td>
-    <td class="tg-0pky">0.620</td>
-    <td class="tg-0pky">0.382</td>
+    <td class="tg-0pky"42.52</td>
+    <td class="tg-0pky">29.50</td>
+    <td class="tg-0pky">65.01</td>
+    <td class="tg-0pky">38.21</td>
   </tr>
   <tr>
     <td class="tg-0pky">Graph Validity</td>
-    <td class="tg-0pky">0.535</td>
-    <td class="tg-0pky">0.540</td>
-    <td class="tg-0pky">0.750</td>
-    <td class="tg-0pky">0.905</td>
+    <td class="tg-0pky">53.51</td>
+    <td class="tg-0pky">54.00</td>
+    <td class="tg-0pky">94.50</td>
+    <td class="tg-0pky">90.50</td>
   </tr>
   <tr>
     <td class="tg-0pky">SET Validity</td>
-    <td class="tg-0pky">0.580</td>
-    <td class="tg-0pky">0.555</td>
-    <td class="tg-0pky">0.670</td>
-    <td class="tg-0pky">0.485</td>
+    <td class="tg-0pky">58.00</td>
+    <td class="tg-0pky">55.51</td>
+    <td class="tg-0pky">67.00</td>
+    <td class="tg-0pky">48.51</td>
   </tr>
 </tbody></table>
 
