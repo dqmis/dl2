@@ -172,7 +172,7 @@ We evaluated the multi-modal LLM from the Gemini family `gemini-1.5-pro-preview-
   </tr>
   <tr>
     <td class="tg-0pky">Graph Fill-in</td>
-    <td class="tg-0pky"42.52</td>
+    <td class="tg-0pky">42.52</td>
     <td class="tg-0pky">29.50</td>
     <td class="tg-0pky">65.01</td>
     <td class="tg-0pky">38.21</td>
