@@ -99,6 +99,9 @@ The datasets were created by combining textual and visual inputs. The textual in
 
 For direct prompting, models were given a sample question, an accompanying picture, and the correct answer. For ASP prompting, models were given a sample question, an accompanying picture, an ASP program that represents the problem, and the correct answer.
 
+## ASP as symbolic language
+We utilized an additional symbolic language to represent the multi-modal logic problems, namely Answer Set Programming (ASP). This language is more restricted than First-Order Logic (FOL), but is simpler to program. Its programs can be solved using `Clingo`.  Below, an example program is given, which is used for the Graph Fill-in dataset.
+
 ```
 % Example for Graph Coloring Fill-in problem
 
@@ -158,7 +161,7 @@ We evaluated the multi-modal LLM from the Gemini family `gemini-1.5-pro-preview-
     <td class="tg-0pky">0.285</td>
     <td class="tg-0pky">0.255</td>
     <td class="tg-0pky">0.530</td>
-    <td class="tg-0pky">0.22</td>
+    <td class="tg-0pky">0.220</td>
   </tr>
   <tr>
     <td class="tg-0pky">Sudoku Validity</td>
@@ -243,31 +246,31 @@ Additionally, below table demonstrates the Direct, CoT and Logic-LM results on a
 evaluation logic programs per task with backup option 'random':
 
 |ProntoQA|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---| 
+ |---|---|---|---|---|
 |Overall_Accuracy|77.40|95.60|46.40|46.94|
 |Executable_Rate|100.00|96.40|0.00|0.00|
 |Executable_Accuracy|77.40|97.30|0.00|0.00|
 
 |ProofWriter|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---| 
+ |---|---|---|---|---|
 |Overall_Accuracy|61.27|74.66|34.50|32.17|
 |Executable_Rate|64.44|89.36|0.00|4.67|
 |Executable_Accuracy|76.17|80.53|0.00|53.57|
 
 |FOLIO|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---| 
+ |---|---|---|---|---|
 |Overall_Accuracy|53.00|62.38|71.14|36.27|
 |Executable_Rate|48.50|59.41|77.11|4.41|
 |Executable_Accuracy|68.04|82.50|85.16|100.00|
 
 |LogicalDeduction|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---| 
+ |---|---|---|---|---|
 |Overall_Accuracy|61.33|60.33|84.67|56.33|
 |Executable_Rate|60.00|60.00|100.00|71.67|
 |Executable_Accuracy|89.44|87.22|84.67|69.77|
 
 |AR-LSAT|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---| 
+ |---|---|---|---|---|
 |Overall_Accuracy|22.17|19.05|31.60|32.47|
 |Executable_Rate|0.00|0.00|26.41|33.77|
 |Executable_Accuracy|0.00|0.00|60.66|60.26|
@@ -296,7 +299,7 @@ Evaluation baselines with Gemini. All baselines results (Direct and CoT) are don
 
 ## Concluding Remarks
 
-TODO 
+TODO
 
 ## Student Contributions
 
