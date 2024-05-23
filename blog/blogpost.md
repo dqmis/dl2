@@ -100,7 +100,7 @@ The datasets were created by combining textual and visual inputs. The textual in
 For direct prompting, models were given a sample question, an accompanying picture, and the correct answer. For ASP prompting, models were given a sample question, an accompanying picture, an ASP program that represents the problem, and the correct answer.
 
 ## ASP as symbolic language
-We utilized an additional symbolic language to represent the multi-modal logic problems, namely Answer Set Programming (ASP). This language is more restricted than First-Order Logic (FOL), but is simpler to program. Its programs can be solved using `Clingo`.  Below, an example program is given, which is used for the Graph Fill-in dataset.
+We utilized an additional symbolic language to represent the multi-modal logic problems, namely Answer Set Programming (ASP). This language is more restricted than First-Order Logic (FOL), but is simpler to program. Its programs can be solved using Clingo.  Below, an example program is given, which is used for the Graph Fill-in dataset.
 
 ```
 % Example for Graph Coloring Fill-in problem
