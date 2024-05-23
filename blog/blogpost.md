@@ -141,42 +141,64 @@ answer(Color) :- coloring(5,Color).
 We evaluated the multi-modal LLM from the Gemini family `gemini-1.5-pro-preview-0409` using both ASP and direct prompting strategies. To validate the ASP-generated code, we employed the Clingo solver. The results are summarized below:
 
 
-<table>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
   <tr>
-    <th></th>
-    <th colspan="2">Accuracy for prompting type</th>
+    <th class="tg-0pky"></th>
+    <th class="tg-c3ow" colspan="4">Accuracy for prompting type</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Dataset<br></td>
+    <td class="tg-c3ow">Direct <br><span style="font-weight:bold">Gemini Pro</span></td>
+    <td class="tg-c3ow">Direct<br><span style="font-weight:bold">Gemini Flash</span></td>
+    <td class="tg-c3ow">ASP<br><span style="font-weight:bold">Gemini Pro</span></td>
+    <td class="tg-c3ow">ASP<br><span style="font-weight:bold">Gemini Flash</span></td>
   </tr>
   <tr>
-    <th>Dataset</th>
-    <th>Direct</th>
-    <th>ASP</th>
+    <td class="tg-0pky">Sudoku Fill-in</td>
+    <td class="tg-0pky">0.285</td>
+    <td class="tg-0pky">0.255</td>
+    <td class="tg-0pky">0.530</td>
+    <td class="tg-0pky">0.22</td>
   </tr>
   <tr>
-    <td>Sudoku Fill-in</td>
-    <td>0.285</td>
-    <td>0.530</td>
+    <td class="tg-0pky">Sudoku Validity</td>
+    <td class="tg-0pky">0.480</td>
+    <td class="tg-0pky">0.480</td>
+    <td class="tg-0pky">0.730</td>
+    <td class="tg-0pky">0.930</td>
   </tr>
   <tr>
-    <td>Sudoku Validity</td>
-    <td>0.480</td>
-    <td>0.730</td>
+    <td class="tg-0pky">Graph Fill-in</td>
+    <td class="tg-0pky">0.425</td>
+    <td class="tg-0pky">0.295</td>
+    <td class="tg-0pky">0.620</td>
+    <td class="tg-0pky">0.382</td>
   </tr>
   <tr>
-    <td>Graph Fill-in</td>
-    <td>0.425</td>
-    <td>0.620</td>
+    <td class="tg-0pky">Graph Validity</td>
+    <td class="tg-0pky">0.535</td>
+    <td class="tg-0pky">0.540</td>
+    <td class="tg-0pky">0.750</td>
+    <td class="tg-0pky">0.905</td>
   </tr>
   <tr>
-    <td>Graph Validity</td>
-    <td>0.535</td>
-    <td>0.750</td>
+    <td class="tg-0pky">SET Validity</td>
+    <td class="tg-0pky">0.580</td>
+    <td class="tg-0pky">0.555</td>
+    <td class="tg-0pky">0.670</td>
+    <td class="tg-0pky">0.485</td>
   </tr>
-  <tr>
-    <td>SET Validity</td>
-    <td>0.580</td>
-    <td>0.670</td>
-  </tr>
-</table>
+</tbody></table>
 
 
 As we can see from the results, the model achieves much higher accuracy when prompted with ASP programs compared to direct prompting. This indicates that the model is able to better understand the logical problems when provided with the ASP programs, which are more structured and explicit compared to direct prompts.
