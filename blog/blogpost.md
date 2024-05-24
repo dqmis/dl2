@@ -260,7 +260,7 @@ Evaluation logic programs per task with backup option 'CoT':
 |FOLIO|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
  |---|---|---|---|---| 
 |Overall_Accuracy|63.50|75.25|**80.60**|59.80|
-|Executable_Rate|48.50|58.42|**78.11*8|4.41|
+|Executable_Rate|48.50|58.42|**78.11**|4.41|
 |Executable_Accuracy|68.04|83.05|85.35|**100.00**|
 
 |LogicalDeduction|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
