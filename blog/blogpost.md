@@ -243,58 +243,58 @@ Additionally, below table demonstrates the Direct, CoT and Logic-LM results on a
 
 ## Gemini results
 
-evaluation logic programs per task with backup option 'random':
+evaluation logic programs per task with backup option 'CoT':
 
 |ProntoQA|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---|
-|Overall_Accuracy|77.40|95.60|46.40|46.94|
-|Executable_Rate|100.00|96.40|0.00|0.00|
-|Executable_Accuracy|77.40|97.30|0.00|0.00|
+ |---|---|---|---|---| 
+|Overall_Accuracy|92.60|97.40|93.00|92.60|
+|Executable_Rate|0.00|96.40|0.00|0.00|
+|Executable_Accuracy|0.00|97.30|0.00|0.00|
 
 |ProofWriter|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---|
-|Overall_Accuracy|61.27|74.66|34.50|32.17|
+ |---|---|---|---|---| 
+|Overall_Accuracy|74.12|78.04|66.17|66.17|
 |Executable_Rate|64.44|89.36|0.00|4.67|
 |Executable_Accuracy|76.17|80.53|0.00|53.57|
 
 |FOLIO|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---|
-|Overall_Accuracy|53.00|62.38|71.14|36.27|
-|Executable_Rate|48.50|59.41|77.11|4.41|
-|Executable_Accuracy|68.04|82.50|85.16|100.00|
+ |---|---|---|---|---| 
+|Overall_Accuracy|63.50|75.25|80.60|59.80|
+|Executable_Rate|48.50|58.42|78.11|4.41|
+|Executable_Accuracy|68.04|83.05|85.35|100.00|
 
 |LogicalDeduction|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---|
-|Overall_Accuracy|61.33|60.33|84.67|56.33|
+ |---|---|---|---|---| 
+|Overall_Accuracy|64.67|64.67|84.67|57.67|
 |Executable_Rate|60.00|60.00|100.00|71.67|
 |Executable_Accuracy|89.44|87.22|84.67|69.77|
 
 |AR-LSAT|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---|
-|Overall_Accuracy|22.17|19.05|31.60|32.47|
+ |---|---|---|---|---| 
+|Overall_Accuracy|24.35|23.81|34.20|35.50|
 |Executable_Rate|0.00|0.00|26.41|33.77|
 |Executable_Accuracy|0.00|0.00|60.66|60.26|
 
 
-Evaluation baselines with Gemini. All baselines results (Direct and CoT) are done with gemini-1.5-flash-preview-0514. Best accuracy score of the Logic-LM approach with the random backup strategy is presented for comparison.:
+Evaluation baselines with Gemini. All baselines results (Direct and CoT) are done with gemini-1.5-flash-preview-0514. Best accuracy score of the Logic-LM approach with the CoT backup strategy is presented for comparison.:
 
 | dataset | mode | accuracy | best model
 | --- | --- | --- | --- |
 | ProntoQA | Direct | 63.80 | - |
 | - | CoT | 92.34  | - |
-| - | Logic-LM | 95.60 | gemini-1.5-pro-preview-0409 |
+| - | Logic-LM | 97.40 | gemini-1.5-pro-preview-0409 |
 | ProofWriter | Direct | 53.83 | - |
 | - | CoT | 65.15 | - |
-| - | Logic-LM | 74.66 | gemini-1.5-pro-preview-0409 |
+| - | Logic-LM | 78.04 | gemini-1.5-pro-preview-0409 |
 | FOLIO | Direct | 66.67 | - |
 | - | CoT | 49.25 | - |
-| - | Logic-LM | 71.14 | gemini-1.5-pro-preview-0514 |
+| - | Logic-LM | 80.60 | gemini-1.5-pro-preview-0514 |
 | LogicalDeduction | Direct | 54.67 | - |
 | - | CoT | 30.00 | - |
 | - | Logic-LM | 84.67 | gemini-1.5-pro-preview-0514 |
 | AR-LSAT | Direct | 27.95 | - |
 | - | CoT | 20.35 | - |
-| - | Logic-LM | 32.47 | gemini-1.5-flash-preview-0514 |
+| - | Logic-LM | 35.50 | gemini-1.5-flash-preview-0514 |
 
 
 ## Concluding Remarks
