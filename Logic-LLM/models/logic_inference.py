@@ -82,7 +82,7 @@ class LogicInferenceEngine:
     def cleanup(self):
         complied_krb_dir = './models/compiled_krb'
         if os.path.exists(complied_krb_dir):
-            print('removing compiled_krb')
+            # print('removing compiled_krb')
             os.system(f'rm -rf {complied_krb_dir}')
 
 def parse_args():

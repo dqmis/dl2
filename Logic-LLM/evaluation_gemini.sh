@@ -20,5 +20,5 @@ for task in "${tasks[@]}"
             --model_name "$gemini_model" \
             --dataset_name "$task" \
             --split dev \
-            --backup random    
+            --backup LLM    
     done

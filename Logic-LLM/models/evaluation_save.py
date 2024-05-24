@@ -6,7 +6,7 @@ import model_globals
 def full_evaluation_save():
     results_json = {}
 
-    backup = "random"
+    backup = "LLM"
     split = model_globals.SPLIT_USED_IN_PAPER
     # now only saving Gemini results
     for model_name in model_globals.GEMINI_MODEL_NAMES:
@@ -32,7 +32,7 @@ def full_evaluation_save():
                 print(f"No results available for {model_name} on {dataset_name}")
     
     outputs_path = f'outputs'
-    eval_path = os.path.join(outputs_path, "evaluation", 'evaluation_logic_programs.json')
+    eval_path = os.path.join(outputs_path, "evaluation", f'evaluation_logic_programs_{backup}.json')
     with open(eval_path, 'w') as file:
         json.dump(results_json, file, indent=4)
 
