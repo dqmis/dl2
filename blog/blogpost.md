@@ -10,15 +10,19 @@ Large Language Models (LLMs) have brought about a new era in natural language un
 
 One significant limitation is the lack of implicit reasoning in LLMs. While they are adept at capturing surface-level semantics and context, they do not possess the explicit reasoning mechanisms used by humans to construct formal proofs or derive conclusions from premises [(Liu et al., 2023b)](link). Representing complex logical structures, such as quantifiers, predicates, and entailments, poses a significant challenge. Furthermore, the faithfulness of LLMs, including their consistency, coherence, and adherence to logical rules, is often compromised. As a result, they may produce responses that sound plausible but lack true logical validity. This deficiency is particularly evident in tasks that require precise logical inference. Additionally, the inherent ambiguity of natural language presents further challenges. LLMs often rely on statistical probabilities to resolve ambiguities, which can lead to occasional errors or misinterpretations. In logical reasoning, where precise disambiguation is crucial, this dependence can be detrimental.
 
+<br/>
 <p align="center">
     <img src="https://preview.redd.it/comics-drawing-of-the-week-raising-ai-v0-f221aklb9z7c1.jpg?width=1690&format=pjpg&auto=webp&s=a042adea690d3de93d732ff730edf713cc075767" width=300px>
 </p>
+<br/>
 
-In response to these constraints, the [LOGIC-LM](https://arxiv.org/pdf/2305.12295) framework has been introduced. This novel approach integrates the capabilities of Language Model Models (LLMs) with the accuracy of symbolic solvers using Logic Programming (LP) prompting. LOGIC-LM commences by converting natural language problem descriptions into symbolic representations, effectively bridging the divergence between human-readable text and the rigorous language of logic. Once a symbolic formulation is established, a deterministic symbolic solver assumes control. In contrast to LLMs, which depend on statistical heuristics, these solvers strictly adhere to formal rules, manipulating logical expressions, conducting deductive reasoning, and validating hypotheses with precision.
+In response to these constraints, the [LOGIC-LM](https://arxiv.org/pdf/2305.12295) framework has been introduced. This novel approach integrates the capabilities of Language Model Models (LLMs) with the accuracy of symbolic solvers using **Logic Programming (LP) prompting**. LOGIC-LM commences by converting natural language problem descriptions into symbolic representations, effectively bridging the divergence between human-readable text and the rigorous language of logic. Once a symbolic formulation is established, a deterministic symbolic solver assumes control. In contrast to LLMs, which depend on statistical heuristics, these solvers strictly adhere to formal rules, manipulating logical expressions, conducting deductive reasoning, and validating hypotheses with precision.
 
+<br/>
 <p align="center">
   <img src="./media/workflow.png" width=600px>
 </p>
+<br/>
 
 In this blog we we replicate and expand on the results from ["LOGIC-LM: Empowering Large Language Models with
 Symbolic Solvers for Faithful Logical Reasoning"](https://arxiv.org/pdf/2305.12295). The objectives of this blog are as follows:
