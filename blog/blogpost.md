@@ -3,19 +3,29 @@
 ### Chimène Blokesch, Dominykas Šeputis, Idries Nasim, Job Gräber, Soham Chatterjee
 
 ---
+
 ## Introduction
 
 Large Language Models (LLMs) have brought about a new era in natural language understanding, showcasing remarkable capabilities across a wide range of tasks. However, while their success is mainly based on identifying statistical patterns and contextual associations, they are limited in their ability to perform complex logical reasoning.
 
-One significant limitation is the lack of implicit reasoning in LLMs. While they are adept at capturing surface-level semantics and context, they do not possess the explicit reasoning mechanisms used by humans to construct formal proofs or derive conclusions from premises (Liu et al., 2023b). Representing complex logical structures, such as quantifiers, predicates, and entailments, poses a significant challenge. Furthermore, the faithfulness of LLMs, including their consistency, coherence, and adherence to logical rules, is often compromised. As a result, they may produce responses that sound plausible but lack true logical validity. This deficiency is particularly evident in tasks that require precise logical inference. Additionally, the inherent ambiguity of natural language presents further challenges. LLMs often rely on statistical probabilities to resolve ambiguities, which can lead to occasional errors or misinterpretations. In logical reasoning, where precise disambiguation is crucial, this dependence can be detrimental.
+One significant limitation is the lack of implicit reasoning in LLMs. While they are adept at capturing surface-level semantics and context, they do not possess the explicit reasoning mechanisms used by humans to construct formal proofs or derive conclusions from premises [(Liu et al., 2023b)](link). Representing complex logical structures, such as quantifiers, predicates, and entailments, poses a significant challenge. Furthermore, the faithfulness of LLMs, including their consistency, coherence, and adherence to logical rules, is often compromised. As a result, they may produce responses that sound plausible but lack true logical validity. This deficiency is particularly evident in tasks that require precise logical inference. Additionally, the inherent ambiguity of natural language presents further challenges. LLMs often rely on statistical probabilities to resolve ambiguities, which can lead to occasional errors or misinterpretations. In logical reasoning, where precise disambiguation is crucial, this dependence can be detrimental.
 
-In response to these constraints, the LOGIC-LM framework has been introduced. This novel approach integrates the capabilities of Language Model Models (LLMs) with the accuracy of symbolic solvers. LOGIC-LM commences by converting natural language problem descriptions into symbolic representations, effectively bridging the divergence between human-readable text and the rigorous language of logic. Once a symbolic formulation is established, a deterministic symbolic solver assumes control. In contrast to LLMs, which depend on statistical heuristics, these solvers strictly adhere to formal rules, manipulating logical expressions, conducting deductive reasoning, and validating hypotheses with precision.
+<p align="center">
+    <img src="https://preview.redd.it/comics-drawing-of-the-week-raising-ai-v0-f221aklb9z7c1.jpg?width=1690&format=pjpg&auto=webp&s=a042adea690d3de93d732ff730edf713cc075767" width=300px>
+</p>
+
+In response to these constraints, the [LOGIC-LM](https://arxiv.org/pdf/2305.12295) framework has been introduced. This novel approach integrates the capabilities of Language Model Models (LLMs) with the accuracy of symbolic solvers using Logic Programming (LP) prompting. LOGIC-LM commences by converting natural language problem descriptions into symbolic representations, effectively bridging the divergence between human-readable text and the rigorous language of logic. Once a symbolic formulation is established, a deterministic symbolic solver assumes control. In contrast to LLMs, which depend on statistical heuristics, these solvers strictly adhere to formal rules, manipulating logical expressions, conducting deductive reasoning, and validating hypotheses with precision.
+
+<p align="center">
+  <img src="./media/workflow.png" width=600px>
+</p>
 
 In this blog we we replicate and expand on the results from ["LOGIC-LM: Empowering Large Language Models with
- Symbolic Solvers for Faithful Logical Reasoning"](https://arxiv.org/pdf/2305.12295). The objectives of this blog are as follows:
- 1. clarify Logic-LM's framework and methodology.
- 2. Replicate the authors results from the paper
- 3. expand upon the paper's result and explore further implications.
+Symbolic Solvers for Faithful Logical Reasoning"](https://arxiv.org/pdf/2305.12295). The objectives of this blog are as follows:
+
+1.  Clarify Logic-LM's framework and methodology.
+2.  Replicate the authors results from the paper
+3.  Expand upon the paper's result and explore further implications.
 
 ---
 
@@ -34,7 +44,7 @@ Furthermore, LOGIC-LM incorporates an iterative refinement process. During infer
 
 The incorporation of symbolic solvers into the LOGIC-LM framework illustrates a hybrid approach that leverages the natural language understanding capabilities of LLMs while embracing the rigor and precision of symbolic reasoning. This integration not only overcomes the inherent limitations of LLMs in logical reasoning but also paves the way for more robust and interpretable language models that can effectively tackle complex reasoning tasks with greater accuracy. The integration of symbolic solvers into the LOGIC-LM framework exemplifies a hybrid approach that combines the strengths of LLMs in natural language understanding with the rigor and precision of symbolic reasoning. By doing so, LOGIC-LM not only addresses the inherent limitations of LLMs in logical reasoning but also sets the stage for more robust and interpretable language models capable of tackling complex reasoning tasks with higher fidelity.
 
-## result interpreter
+## Result interpreter
 
 Once the symbolic solver has completed the necessary inferences and generated a solution, the resulting solution is typically presented in a formal, symbolic format. While this format is precise and suitable for logical validation, it may not be easily accessible or interpretable for users who are more familiar with natural language. The Result Interpreter addresses this issue by converting the symbolic answers into natural language responses.
 
@@ -76,25 +86,25 @@ Our upcoming focus is on refining LLMs to improve their capacity for solving log
 
 1. Direct training on informal problem texts along with logical programs, which may present a challenge due to the limited availability of high-quality, complex problem data.
 
-2. Fine-tuning through supervised reasoning tasks. Traditional symbolic solvers lack differentiability, which hinders backpropagation-based parameter adjustment. We intend to leverage neuro-symbolic models like Diff-SAT, which are both symbolic and differentiable, enabling direct training on reasoning tasks.
-
 For our project, we intend to leverage advanced models such as OpenAI's ChatGPT for natural language processing (NLP) tasks, Google's Gemini for comparisons and analysis, and open-source language models (LLMs) like LLAMA, accessing them through their respective application programming interfaces (APIs). Both the ChatGPT and Gemini APIs are subscription-based, with estimated costs in the tens of euros, subject to change based on request volumes and additional services.
 
 We will incorporate logical reasoning datasets including ProofWriter (arXiv:2012.13048), PrOntoQA (arXiv:2210.01240), FOLIO (Han, 2022), AR-LSAT (arXiv:2209.00840), and LogicalDeduction from BigBench (arXiv:2206.04615), supplemented by multi-modal data from the SET (Webb, 2023). Additionally, we aim to enhance our models' reasoning capabilities with a differentiable solver, such as Diff-SAT.
 
 # Multi-modal Logic Reasoning
+
 In a multi-modal setting, not only textual data is given to the LLM, but also other structures of data, such as images, can be utilized as input. The LLM needs to extract the important information from the input data to be able to reason about it.
 
 ## Datasets Multi-modal
+
 The multi-modal logic reasoning experiments were conducted by building synthetic datasets for Sudoku and Graph Coloring problems. Different datasets were created based on graphs, sudoku's and the SET card games. A textual prompt is also given to specify the task and the desired output format.
 
-| Dataset name | Model's task | Logic representation & solver | Example input image |
-| :-----------------------------: | :------------------------------: | :------------------------------: |:------------------------------: |
-| **Graph Fill-in** | Filling in the missing color in a graph so that no two adjacent nodes have the same color. | ASP & Clingo | <img src="./media/graph_fill_in.png" width="300"> |
-| **Graph Validity** | Determining whether it is possible to color a graph with a given set of colors such that no two adjacent nodes have the same color. | ASP & Clingo | <img src="./media/graph_validity.png" width="300"> |
-| **Sudoku Fill-in** | Filling in the missing numbers in a Sudoku puzzle. | ASP & Clingo | <img src="./media/sudoku_fill_in.png" width="300">   |
-| **Sudoku Validity** | Determining whether a given Sudoku puzzle is valid. | ASP & Clingo | <img src="./media/sudoku_validity.png" width="300"> |
-| **SET** | Following the card game rules, find the sets given the cards shown in the image. The same cards can appear and are counted as a set. | ASP & Clingo | <img src="./media/SET.png" width="300"> |
+|    Dataset name     |                                                             Model's task                                                             | Logic representation & solver |                 Example input image                 |
+| :-----------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :---------------------------: | :-------------------------------------------------: |
+|  **Graph Fill-in**  |                      Filling in the missing color in a graph so that no two adjacent nodes have the same color.                      |         ASP & Clingo          |  <img src="./media/graph_fill_in.png" width="300">  |
+| **Graph Validity**  | Determining whether it is possible to color a graph with a given set of colors such that no two adjacent nodes have the same color.  |         ASP & Clingo          | <img src="./media/graph_validity.png" width="300">  |
+| **Sudoku Fill-in**  |                                          Filling in the missing numbers in a Sudoku puzzle.                                          |         ASP & Clingo          | <img src="./media/sudoku_fill_in.png" width="300">  |
+| **Sudoku Validity** |                                         Determining whether a given Sudoku puzzle is valid.                                          |         ASP & Clingo          | <img src="./media/sudoku_validity.png" width="300"> |
+|       **SET**       | Following the card game rules, find the sets given the cards shown in the image. The same cards can appear and are counted as a set. |         ASP & Clingo          |       <img src="./media/SET.png" width="300">       |
 
 Validity datasets contained 400 samples, with 200 valid and 200 invalid examples each. For fill-in problems, 200 samples were created. Validity problems had two possible answers (Yes, No) and Fill-in problems had four different options (for Sudoku, possible missing numbers; for graph, missing colors). For multiple choice problems, we employed ASP programs to ensure that there is only one correct answer by validating models count.
 
@@ -103,7 +113,8 @@ The datasets were created by combining textual and visual inputs. The textual in
 For direct prompting, models were given a sample question, an accompanying picture, and the correct answer. For ASP prompting, models were given a sample question, an accompanying picture, an ASP program that represents the problem, and the correct answer.
 
 ## ASP as symbolic language
-We utilized an additional symbolic language to represent the multi-modal logic problems, namely Answer Set Programming (ASP). This language is more restricted than First-Order Logic (FOL), but is simpler to program. Its programs can be solved using Clingo.  Below, an example program is given, which is used for the Graph Fill-in dataset.
+
+We utilized an additional symbolic language to represent the multi-modal logic problems, namely Answer Set Programming (ASP). This language is more restricted than First-Order Logic (FOL), but is simpler to program. Its programs can be solved using Clingo. Below, an example program is given, which is used for the Graph Fill-in dataset.
 
 ```
 % Example for Graph Coloring Fill-in problem
@@ -196,113 +207,109 @@ We evaluated the multi-modal LLM from the Gemini family `gemini-1.5-pro-preview-
   </tr>
 </tbody></table>
 
-
 As we can see from the results, the model achieves much higher accuracy when prompted with ASP programs compared to direct prompting. This indicates that the model is able to better understand the logical problems when provided with the ASP programs, which are more structured and explicit compared to direct prompts.
 
 While analyzing the mistakes made by the model using direct prompting, we observed that the model often struggled to correctly understand the logical problems, leading to incorrect answers and increased hallucinations.
 
 For the ASP prompting, the primary mistakes made by the model were related to generating the problem representation as a valid ASP program. As the provided ASP programs required precise encoding of either Sudoku boards or graph coloring problems, the model often failed to generate correct ASP programs. This was especially evident in the Graph Fill-in problem, where the model struggled to correctly encode the graph coloring problem.
 
-## Prompting - Ablation Experiments - In Context Learning ##
+## Prompting - Ablation Experiments - In Context Learning
 
-We evaluated the LLama family of models,ie- `meta-llama/Llama-2-7b-chat-hf` and `meta-llama/Meta-Llama-3-8B-Instruct`. In general, LLama3 performs way better than LLama2. The results table below are conducted wrt Llama3. We found that for logical tasks, where we have to predict one option out of 5 available options, the model is somewhat biased towards predicting the first choice. Additionally, if we allow to generate more tokens by increaisng the max_new_tokens hyper-parmater,ie- increasing  the maximum number of tokens to generate, the quality of the logic programs gets better. Additionally, we also performed an experiment when we prompted the model to predict all the incorrect options. We get higher accuracy in this case since we have 4 incorrect choices and 1 correct choice per sample. So, predicing a wrong answer is easier compared to the correct one.
+We evaluated the LLama family of models,ie- `meta-llama/Llama-2-7b-chat-hf` and `meta-llama/Meta-Llama-3-8B-Instruct`. In general, LLama3 performs way better than LLama2. The results table below are conducted wrt Llama3. We found that for logical tasks, where we have to predict one option out of 5 available options, the model is somewhat biased towards predicting the first choice. Additionally, if we allow to generate more tokens by increaisng the max_new_tokens hyper-parmater,ie- increasing the maximum number of tokens to generate, the quality of the logic programs gets better. Additionally, we also performed an experiment when we prompted the model to predict all the incorrect options. We get higher accuracy in this case since we have 4 incorrect choices and 1 correct choice per sample. So, predicing a wrong answer is easier compared to the correct one.
 
-|     Dataset     | Prompting | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct ) |
-| :-------------: | :-------: | :------: |
-| AR-LSAT Baseline  |  Direct   |   19.56   |
-| AR-LSAT Swap the correct answer always to first choice |  Direct   |  25   |
-| AR-LSAT Predict wrong answer choices  |  Direct   |   26   |
-
+|                        Dataset                         | Prompting | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct ) |
+| :----------------------------------------------------: | :-------: | :----------------------------------------------------: |
+|                    AR-LSAT Baseline                    |  Direct   |                         19.56                          |
+| AR-LSAT Swap the correct answer always to first choice |  Direct   |                           25                           |
+|          AR-LSAT Predict wrong answer choices          |  Direct   |                           26                           |
 
 Additionally, below table demonstrates the Direct, CoT and Logic-LM results on all datasets with Llama3(meta-llama/Meta-Llama-3-8B-Instruct):
 
-|     Dataset     | Prompting | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct ) |
-| :-------------: | :-------: | :------: |
-| ProntoQA   |  Direct ( 16 max_new_tokens )   |  43    |
-| ProntoQA  |  CoT ( 1024 max_new_tokens )   | 76.6   |
-| ProntoQA  |  Logic-LM (random backup strategy )   | 55    |
-| ProntoQA  |  Logic-LM (Direct-Logic collabration mode (LLM) backup strategy )   | 42.46 |
-| ProntoQA  |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )   | 8    |
-| ProofWriter   |  Direct ( 16 max_new_tokens )  |  33    |
-| ProofWriter  |  CoT ( 1024 max_new_tokens )   | 28.54    |
-| ProofWriter  |  Logic-LM (random backup strategy )  |  28.7   |
-| ProofWriter  |  Logic-LM (Direct-Logic collabration mode (LLM) backup strategy )  |  28.69   |
-| ProofWriter  |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )  |  28.695   |
-| FOLIO   |  Direct ( 16 max_new_tokens )  | 46.5     |
-| FOLIO  |  CoT ( 1024 max_new_tokens )    |   36  |
-| FOLIO  |  Logic-LM (random backup strategy )   |   43  |
-| FOLIO  |  Logic-LM (Direct-Logic collabration mode (LLM) backup strategy )   |   53  |
-| FOLIO  |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )   |   44.285  |
-| LogicalDeduction   |  Direct ( 16 max_new_tokens )  |   32.33   |
-| LogicalDeduction  |  CoT ( 1024 max_new_tokens )    |  22   |
-| LogicalDeduction  |  Logic-LM (random backup strategy )  |  24.27   |
-| LogicalDeduction  |  Logic-LM (Direct-Logic collabration mode (LLM) backup strategy )  |  31   |
-| LogicalDeduction  |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )  |  20.38   |
-| AR-LSAT   |  Direct ( 16 max_new_tokens )  | 7.36     |
-| AR-LSAT  |  CoT ( 1024 max_new_tokens )    |  8.225   |
-| AR-LSAT  |  Logic-LM  (random backup strategy ) |  22   |
-| AR-LSAT  |  Logic-LM  (Direct-Logic collabration mode (LLM) backup strategy ) |  12   |
-| AR-LSAT  |  Logic-LM  (CoT-Logic collabration mode (LLM) backup strategy ) |  6   |
+|     Dataset      |                            Prompting                             | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct ) |
+| :--------------: | :--------------------------------------------------------------: | :----------------------------------------------------: |
+|     ProntoQA     |                   Direct ( 16 max_new_tokens )                   |                           43                           |
+|     ProntoQA     |                   CoT ( 1024 max_new_tokens )                    |                          76.6                          |
+|     ProntoQA     |                Logic-LM (random backup strategy )                |                           55                           |
+|     ProntoQA     | Logic-LM (Direct-Logic collabration mode (LLM) backup strategy ) |                         42.46                          |
+|     ProntoQA     |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )   |                           8                            |
+|   ProofWriter    |                   Direct ( 16 max_new_tokens )                   |                           33                           |
+|   ProofWriter    |                   CoT ( 1024 max_new_tokens )                    |                         28.54                          |
+|   ProofWriter    |                Logic-LM (random backup strategy )                |                          28.7                          |
+|   ProofWriter    | Logic-LM (Direct-Logic collabration mode (LLM) backup strategy ) |                         28.69                          |
+|   ProofWriter    |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )   |                         28.695                         |
+|      FOLIO       |                   Direct ( 16 max_new_tokens )                   |                          46.5                          |
+|      FOLIO       |                   CoT ( 1024 max_new_tokens )                    |                           36                           |
+|      FOLIO       |                Logic-LM (random backup strategy )                |                           43                           |
+|      FOLIO       | Logic-LM (Direct-Logic collabration mode (LLM) backup strategy ) |                           53                           |
+|      FOLIO       |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )   |                         44.285                         |
+| LogicalDeduction |                   Direct ( 16 max_new_tokens )                   |                         32.33                          |
+| LogicalDeduction |                   CoT ( 1024 max_new_tokens )                    |                           22                           |
+| LogicalDeduction |                Logic-LM (random backup strategy )                |                         24.27                          |
+| LogicalDeduction | Logic-LM (Direct-Logic collabration mode (LLM) backup strategy ) |                           31                           |
+| LogicalDeduction |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )   |                         20.38                          |
+|     AR-LSAT      |                   Direct ( 16 max_new_tokens )                   |                          7.36                          |
+|     AR-LSAT      |                   CoT ( 1024 max_new_tokens )                    |                         8.225                          |
+|     AR-LSAT      |                Logic-LM (random backup strategy )                |                           22                           |
+|     AR-LSAT      | Logic-LM (Direct-Logic collabration mode (LLM) backup strategy ) |                           12                           |
+|     AR-LSAT      |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )   |                           6                            |
 
 ## Gemini results
 
-Evaluation logic programs per task with backup option 'CoT'. Best results per row in bold. 
+Evaluation logic programs per task with backup option 'CoT'. Best results per row in bold.
 
-|ProntoQA|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---| 
-|Overall_Accuracy|92.60|**97.40**|93.00|92.60|
-|Executable_Rate|0.00|**96.40**|0.00|0.00|
-|Executable_Accuracy|0.00|**97.30**|0.00|0.00|
+| ProntoQA            | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
+| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
+| Overall_Accuracy    | 92.60                     | **97.40**                   | 93.00                       | 92.60                         |
+| Executable_Rate     | 0.00                      | **96.40**                   | 0.00                        | 0.00                          |
+| Executable_Accuracy | 0.00                      | **97.30**                   | 0.00                        | 0.00                          |
 
-|ProofWriter|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---| 
-|Overall_Accuracy|74.12|**78.04**|66.17|66.17|
-|Executable_Rate|64.44|**89.36**|0.00|4.67|
-|Executable_Accuracy|76.17|**80.53**|0.00|53.57|
+| ProofWriter         | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
+| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
+| Overall_Accuracy    | 74.12                     | **78.04**                   | 66.17                       | 66.17                         |
+| Executable_Rate     | 64.44                     | **89.36**                   | 0.00                        | 4.67                          |
+| Executable_Accuracy | 76.17                     | **80.53**                   | 0.00                        | 53.57                         |
 
-|FOLIO|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---| 
-|Overall_Accuracy|63.50|75.25|**80.60**|59.80|
-|Executable_Rate|48.50|58.42|**78.11**|4.41|
-|Executable_Accuracy|68.04|83.05|85.35|**100.00**|
+| FOLIO               | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
+| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
+| Overall_Accuracy    | 63.50                     | 75.25                       | **80.60**                   | 59.80                         |
+| Executable_Rate     | 48.50                     | 58.42                       | **78.11**                   | 4.41                          |
+| Executable_Accuracy | 68.04                     | 83.05                       | 85.35                       | **100.00**                    |
 
-|LogicalDeduction|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---| 
-|Overall_Accuracy|64.67|64.67|**84.67**|57.67|
-|Executable_Rate|60.00|60.00|**100.00**|71.67|
-|Executable_Accuracy|**89.44**|87.22|84.67|69.77|
+| LogicalDeduction    | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
+| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
+| Overall_Accuracy    | 64.67                     | 64.67                       | **84.67**                   | 57.67                         |
+| Executable_Rate     | 60.00                     | 60.00                       | **100.00**                  | 71.67                         |
+| Executable_Accuracy | **89.44**                 | 87.22                       | 84.67                       | 69.77                         |
 
-|AR-LSAT|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---| 
-|Overall_Accuracy|24.35|23.81|34.20|**35.50**|
-|Executable_Rate|0.00|0.00|26.41|**33.77**|
-|Executable_Accuracy|0.00|0.00|**60.66**|60.26|
+| AR-LSAT             | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
+| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
+| Overall_Accuracy    | 24.35                     | 23.81                       | 34.20                       | **35.50**                     |
+| Executable_Rate     | 0.00                      | 0.00                        | 26.41                       | **33.77**                     |
+| Executable_Accuracy | 0.00                      | 0.00                        | **60.66**                   | 60.26                         |
 
-From these tables it is clear that there is not one dominant model since between the five tasks there are three different models performing best. Furthermore, models that perform best on a certain task, may completely fail to generate executable logic programs on another task. On inspection such total failure is due to the model being unable to follow the instructions concerning the formatting of the logic program. So it will for example add explanations for what it is doing in natural language in places where it will break the logic program. There does not seem to be a clear pattern in when a model fails in this way. Even models that are presumably similar like gemini-1.5-pro-preview-0409 and gemini-1.5-pro-preview-0514 give unpredicatbly different results in this regard. Recall here that we sample with 0 temperature. This points to an important fragility in the Logic-LM approach. Besides random total failures, there is the case of AR-LSAT where no model performs well. Analysis of the mistakes suggests that the model does not understand parts of the syntax of the z3 solver. It will try to use functionalities from the z3 solver in an incorrect way. This is probably due to there not being enought z3 code in the pre-training data and the few shot examples not covering certain aspects of the language. Exploratory experimention with ~750k prompts simply also containing all documentation for z3 did not solve the problems. 
-
-
+From these tables it is clear that there is not one dominant model since between the five tasks there are three different models performing best. Furthermore, models that perform best on a certain task, may completely fail to generate executable logic programs on another task. On inspection such total failure is due to the model being unable to follow the instructions concerning the formatting of the logic program. So it will for example add explanations for what it is doing in natural language in places where it will break the logic program. There does not seem to be a clear pattern in when a model fails in this way. Even models that are presumably similar like gemini-1.5-pro-preview-0409 and gemini-1.5-pro-preview-0514 give unpredicatbly different results in this regard. Recall here that we sample with 0 temperature. This points to an important fragility in the Logic-LM approach. Besides random total failures, there is the case of AR-LSAT where no model performs well. Analysis of the mistakes suggests that the model does not understand parts of the syntax of the z3 solver. It will try to use functionalities from the z3 solver in an incorrect way. This is probably due to there not being enought z3 code in the pre-training data and the few shot examples not covering certain aspects of the language. Exploratory experimention with ~750k prompts simply also containing all documentation for z3 did not solve the problems.
 
 Evaluation of the baselines with Gemini. All baselines results (Direct and CoT) are done with gemini-1.5-flash-preview-0514. Best accuracy score of the Logic-LM approach with the CoT backup strategy is presented for comparison.
 
-| dataset | mode | accuracy | best model
-| --- | --- | --- | --- |
-| ProntoQA | Direct | 63.80 | - |
-| - | CoT | 92.34  | - |
-| - | Logic-LM | **97.40** | gemini-1.5-pro-preview-0409 |
-| ProofWriter | Direct | 53.83 | - |
-| - | CoT | 65.15 | - |
-| - | Logic-LM | **78.04** | gemini-1.5-pro-preview-0409 |
-| FOLIO | Direct | 66.67 | - |
-| - | CoT | 49.25 | - |
-| - | Logic-LM | **80.60** | gemini-1.5-pro-preview-0514 |
-| LogicalDeduction | Direct | 54.67 | - |
-| - | CoT | 30.00 | - |
-| - | Logic-LM | **84.67** | gemini-1.5-pro-preview-0514 |
-| AR-LSAT | Direct | 27.95 | - |
-| - | CoT | 20.35 | - |
-| - | Logic-LM | **35.50** | gemini-1.5-flash-preview-0514 |
+| dataset          | mode     | accuracy  | best model                    |
+| ---------------- | -------- | --------- | ----------------------------- |
+| ProntoQA         | Direct   | 63.80     | -                             |
+| -                | CoT      | 92.34     | -                             |
+| -                | Logic-LM | **97.40** | gemini-1.5-pro-preview-0409   |
+| ProofWriter      | Direct   | 53.83     | -                             |
+| -                | CoT      | 65.15     | -                             |
+| -                | Logic-LM | **78.04** | gemini-1.5-pro-preview-0409   |
+| FOLIO            | Direct   | 66.67     | -                             |
+| -                | CoT      | 49.25     | -                             |
+| -                | Logic-LM | **80.60** | gemini-1.5-pro-preview-0514   |
+| LogicalDeduction | Direct   | 54.67     | -                             |
+| -                | CoT      | 30.00     | -                             |
+| -                | Logic-LM | **84.67** | gemini-1.5-pro-preview-0514   |
+| AR-LSAT          | Direct   | 27.95     | -                             |
+| -                | CoT      | 20.35     | -                             |
+| -                | Logic-LM | **35.50** | gemini-1.5-flash-preview-0514 |
 
-Here we see that the results of the Logic-LM approach with the best model significantly outperforms both direct and CoT prompting. Note however that the fragility noted above means that it is not necessarily clear a priori which model would be the best for the Logic-LM approach. 
+Here we see that the results of the Logic-LM approach with the best model significantly outperforms both direct and CoT prompting. Note however that the fragility noted above means that it is not necessarily clear a priori which model would be the best for the Logic-LM approach.
 
 ## Concluding Remarks
 
@@ -315,6 +322,6 @@ Dominykas Šeputis and Chimène Blokesch focused primarily on multi-modal founda
 ## Bibliography
 
 HanmengLiu, Ruoxi Ning, Zhiyang Teng, Jian Liu, Qiji
- Zhou, and Yue Zhang. 2023b. Evaluating the logi
+Zhou, and Yue Zhang. 2023b. Evaluating the logi
 cal reasoning ability of chatgpt and GPT-4. CoRR,
- abs/2304.03439
+abs/2304.03439
