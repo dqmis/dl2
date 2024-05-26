@@ -207,12 +207,12 @@ We evaluated the multi-modal LLM from the Gemini family `gemini-1.5-pro-preview-
 <tbody>
   <tr>
     <td class="tg-0lax">Dataset<br></td>
-    <td class="tg-baqh">Direct <br><span style="font-weight:bold">Gemini Pro</span></td>
-    <td class="tg-baqh">Direct<br><span style="font-weight:bold">Gemini Flash</span></td>
-    <td class="tg-baqh">Direct<br><span style="font-weight:bold">GPT-4</span></td>
-    <td class="tg-baqh">ASP<br><span style="font-weight:bold">Gemini Pro</span></td>
-    <td class="tg-baqh">ASP<br><span style="font-weight:bold">Gemini Flash</span></td>
-    <td class="tg-baqh">ASP<br><span style="font-weight:bold">GPT-4</span></td>
+    <td class="tg-baqh">Direct <br><span style="font-weight:bold"><b>Gemini Pro</b></span></td>
+    <td class="tg-baqh">Direct<br><span style="font-weight:bold"><b>Gemini Flash</b></span></td>
+    <td class="tg-baqh">Direct<br><span style="font-weight:bold"><b>GPT-4</b></span></td>
+    <td class="tg-baqh">ASP<br><span style="font-weight:bold"><b>Gemini Pro</b></span></td>
+    <td class="tg-baqh">ASP<br><span style="font-weight:bold"><b>Gemini Flash</b></span></td>
+    <td class="tg-baqh">ASP<br><span style="font-weight:bold"><b>GPT-4</b></span></td>
   </tr>
   <tr>
     <td class="tg-0lax">Sudoku Fill-in</td>
