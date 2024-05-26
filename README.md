@@ -1,5 +1,5 @@
 # Installing
-Install the Python packages using the [requirements file](Logic-LLM/requirements.txt), adapted from the original Logic-LM repository.
+Install the Python packages using the [requirements file](Logic-LLM/requirements.txt), adapted from the original [Logic-LM repository](https://github.com/teacherpeterpan/Logic-LLM).
 
 NOTE: Logic-LLM/evaluation_gemini.sh and logic_inference_gemini.sh use environment solver2, but logic_programs_gemini.sh mentions DL2.
 TODO: explain what the environment name should be
