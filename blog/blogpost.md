@@ -270,13 +270,7 @@ sudoku(1,1,3). sudoku(1,2,8). sudoku(1,3,1). sudoku(1,4,4). sudoku(1,5,2). sudok
 1 { sudoku(7,6,N) : n(N) } 1.
 ```
 
-<br/>
-<p align="center">
-  <img src="https://images.ctfassets.net/kftzwdyauwt9/4KaMwrPGUMKKj3sh25CxcZ/1a9f994a00a1aa53aab6ef6ad6d49f06/gpt-40-02_light.png?w=3840&q=80&fm=webp" width=600px>
-</p>
-<br/>
-
-Interestingly, while GPT-4 performs better or similarly in most benchmarks, it significantly underperforms in multi-modal reasoning tasks. Although it achieves competitive performance in direct prompting, it struggles to encode the ASP programs correctly, leading to a substantial drop in accuracy. Most issues stem from hallucinating nodes or edges that are not present in the graph or failing to correctly define the missing number or color.
+Interestingly, [while GPT-4 performs better or similarly in most benchmarks](https://openai.com/index/hello-gpt-4o/), it significantly underperforms in multi-modal reasoning tasks. Although it achieves competitive performance in direct prompting, it struggles to encode the ASP programs correctly, leading to a substantial drop in accuracy. Most issues stem from hallucinating nodes or edges that are not present in the graph or failing to correctly define the missing number or color.
 
 #### Note on Cost and Performance
 
