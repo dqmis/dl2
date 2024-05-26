@@ -18,15 +18,9 @@ Additionally, LLMs are prone to hallucinations—inaccurately generating informa
 </p>
 <br/>
 
-In response to these constraints, the [Logic-LM](https://arxiv.org/pdf/2305.12295) framework has been introduced. This innovative approach integrates the capabilities of LLMs with the precision of symbolic solvers using **Logic Programming (LP) prompting**. Logic-LM begins by converting natural language problem descriptions into symbolic representations, effectively bridging the gap between human-readable text and the rigorous language of logic. Once a symbolic formulation is established, a deterministic symbolic solver takes over. Unlike LLMs, which rely on statistical heuristics, these solvers strictly adhere to formal rules, manipulate logical expressions, conduct deductive reasoning, and validate hypotheses with high accuracy.
+In response to these constraints, the [Logic-LM](https://arxiv.org/pdf/2305.12295) framework has been introduced. This innovative approach integrates the capabilities of LLMs with the precision of symbolic solvers. Logic-LM begins by converting natural language problem descriptions into symbolic representations, effectively bridging the gap between human-readable text and the rigorous language of logic. Once a symbolic formulation is established, a deterministic symbolic solver takes over. Unlike LLMs, which rely on statistical heuristics, these solvers strictly adhere to formal rules, manipulate logical expressions, conduct deductive reasoning, and validate hypotheses with high accuracy.
 
-<br/>
-<p align="center">
-  <img src="./media/workflow.png" width=600px>
-</p>
-<br/>
-
-Inspired by the proposed solution of enhancing LLMs' logical problem-solving capabilities by integrating symbolic solvers into the workflow, this blog aims to replicate and expand upon the results presented in ["LOGIC-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning"](https://arxiv.org/pdf/2305.12295). The objectives of this blog are as follows:
+Inspired by the proposed solution of enhancing LLMs' logical problem-solving capabilities by integrating symbolic solvers into the workflow, this blog aims to replicate and expand upon the results presented in ["Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning"](https://arxiv.org/pdf/2305.12295). The objectives of this blog are as follows:
 
 1. Clarify Logic-LM's framework and methodology.
 2. Replicate the results from the paper, expanding on the ablation studies.
@@ -35,21 +29,19 @@ Inspired by the proposed solution of enhancing LLMs' logical problem-solving cap
 
 ---
 
-## 2. LOGIC-LLM Framework
+## 2. Logic-LM Framework
 
-The LOGIC-LM framework's reasoning process comprises three main stages: Problem Formulation, Symbolic Reasoning, and Result Interpretation.
+The Logic-LM framework's reasoning process comprises three main stages: Problem Formulation, Symbolic Reasoning, and Result Interpretation.
 
 In the Problem Formulation stage, the Large Language Model (LLM) converts the problem from natural language into a symbolic format by identifying essential entities, facts, and rules within the problem statement.
 
-During the Symbolic Reasoning stage, a deterministic symbolic solver is used to perform inference based on the symbolic formulation created in the previous stage.
+During the Symbolic Reasoning stage, a deterministic symbolic solver is used to perform inference based on the symbolic formulation created in the previous stage. Finally, in the Result Interpretation stage, an interpreter explains the output and aligns it with the correct answer.
 
-Finally, in the Result Interpretation stage, an interpreter explains the output and aligns it with the correct answer.
-
-This structured approach enables the LOGIC-LM framework to effectively address complex reasoning tasks.
+This structured approach enables the Logic-LM framework to effectively address complex reasoning tasks. Compared to the direct prompting approach, **Logic Programming (LP) prompting** enables model to generate more accurate and coherent logical reasoning outputs using thought framework. This approach is similar to the [chain-of-thought prompting](cite), but is based on symbolic reasoning.
 
 <br/>
 <p align="center">
-  <img src="./media/framework_horizontal.png" width=600px>
+  <img src="./media/workflow.png" width=600px>
 </p>
 <br/>
 
@@ -79,7 +71,7 @@ Furthermore, the Result Interpreter plays a significant role in the iterative re
 
 We will incorporate logical reasoning datasets including ProofWriter (arXiv:2012.13048), PrOntoQA (arXiv:2210.01240), FOLIO (Han, 2022), AR-LSAT (arXiv:2209.00840), and LogicalDeduction from BigBench (arXiv:2206.04615), supplemented by multi-modal data from the SET (Webb, 2023). Additionally, we aim to enhance our models' reasoning capabilities with a differentiable solver, such as Diff-SAT.
 
-## 3. Reproduction of the Experiments 
+## 3. Reproduction of the Experiments
 
 ## 4. Novel Contribution
 
