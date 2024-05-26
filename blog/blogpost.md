@@ -269,7 +269,7 @@ For the ASP prompting, the primary mistakes made by the model were related to ge
 
 ### 4.2 Prompting - Ablation Experiments - In Context Learning
 
-We evaluated the LLama family of models,ie- `meta-llama/Llama-2-7b-chat-hf` and `meta-llama/Meta-Llama-3-8B-Instruct`. In general, LLama3 performs way better than LLama2. The results table below are conducted wrt Llama3. We found that for logical tasks, where we have to predict one option out of 5 available options, the model is somewhat biased towards predicting the first choice. Additionally, if we allow to generate more tokens by increaisng the max_new_tokens hyper-parmater,ie- increasing the maximum number of tokens to generate, the quality of the logic programs gets better. Additionally, we also performed an experiment when we prompted the model to predict all the incorrect options. We get higher accuracy in this case since we have 4 incorrect choices and 1 correct choice per sample. So, predicing a wrong answer is easier compared to the correct one.
+We evaluated the LLama family of models,ie- `meta-llama/Llama-2-7b-chat-hf` and `meta-llama/Meta-Llama-3-8B-Instruct`. In general, LLama3 performs way better than LLama2. The results table below are conducted wrt Llama3. We found that for logical tasks, where we have to predict one option out of 5 available options, the model is somewhat biased towards predicting the first choice. Additionally, if we allow to generate more tokens by increasing the max_new_tokens hyper-parameter,ie- increasing the maximum number of tokens to generate, the quality of the logic programs gets better. Additionally, we also performed an experiment when we prompted the model to predict all the incorrect options. We get higher accuracy in this case since we have 4 incorrect choices and 1 correct choice per sample. So, predicting a wrong answer is easier compared to the correct one.
 
 |                        Dataset                         | Prompting | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct ) |
 | :----------------------------------------------------: | :-------: | :----------------------------------------------------: |
@@ -284,28 +284,28 @@ Additionally, below table demonstrates the Direct, CoT and Logic-LM results on a
 |     ProntoQA     |                   Direct ( 16 max_new_tokens )                   |                           43                           |
 |     ProntoQA     |                   CoT ( 1024 max_new_tokens )                    |                          76.6                          |
 |     ProntoQA     |                Logic-LM (random backup strategy )                |                           55                           |
-|     ProntoQA     | Logic-LM (Direct-Logic collabration mode (LLM) backup strategy ) |                         42.46                          |
-|     ProntoQA     |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )   |                           8                            |
+|     ProntoQA     | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                         42.46                          |
+|     ProntoQA     |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                           8                            |
 |   ProofWriter    |                   Direct ( 16 max_new_tokens )                   |                           33                           |
 |   ProofWriter    |                   CoT ( 1024 max_new_tokens )                    |                         28.54                          |
 |   ProofWriter    |                Logic-LM (random backup strategy )                |                          28.7                          |
-|   ProofWriter    | Logic-LM (Direct-Logic collabration mode (LLM) backup strategy ) |                         28.69                          |
-|   ProofWriter    |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )   |                         28.695                         |
+|   ProofWriter    | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                         28.69                          |
+|   ProofWriter    |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                         28.695                         |
 |      FOLIO       |                   Direct ( 16 max_new_tokens )                   |                          46.5                          |
 |      FOLIO       |                   CoT ( 1024 max_new_tokens )                    |                           36                           |
 |      FOLIO       |                Logic-LM (random backup strategy )                |                           43                           |
-|      FOLIO       | Logic-LM (Direct-Logic collabration mode (LLM) backup strategy ) |                           53                           |
-|      FOLIO       |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )   |                         44.285                         |
+|      FOLIO       | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                           53                           |
+|      FOLIO       |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                         44.285                         |
 | LogicalDeduction |                   Direct ( 16 max_new_tokens )                   |                         32.33                          |
 | LogicalDeduction |                   CoT ( 1024 max_new_tokens )                    |                           22                           |
 | LogicalDeduction |                Logic-LM (random backup strategy )                |                         24.27                          |
-| LogicalDeduction | Logic-LM (Direct-Logic collabration mode (LLM) backup strategy ) |                           31                           |
-| LogicalDeduction |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )   |                         20.38                          |
+| LogicalDeduction | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                           31                           |
+| LogicalDeduction |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                         20.38                          |
 |     AR-LSAT      |                   Direct ( 16 max_new_tokens )                   |                          7.36                          |
 |     AR-LSAT      |                   CoT ( 1024 max_new_tokens )                    |                         8.225                          |
 |     AR-LSAT      |                Logic-LM (random backup strategy )                |                           22                           |
-|     AR-LSAT      | Logic-LM (Direct-Logic collabration mode (LLM) backup strategy ) |                           12                           |
-|     AR-LSAT      |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )   |                           6                            |
+|     AR-LSAT      | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                           12                           |
+|     AR-LSAT      |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                           6                            |
 
 ### 4.3 Gemini results
 
@@ -341,7 +341,7 @@ Evaluation logic programs per task with backup option 'CoT'. Best results per ro
 | Executable_Rate     | 0.00                      | 0.00                        | 26.41                       | **33.77**                     |
 | Executable_Accuracy | 0.00                      | 0.00                        | **60.66**                   | 60.26                         |
 
-From these tables it is clear that there is not one dominant model since between the five tasks there are three different models performing best. Furthermore, models that perform best on a certain task, may completely fail to generate executable logic programs on another task. On inspection such total failure is due to the model being unable to follow the instructions concerning the formatting of the logic program. So it will for example add explanations for what it is doing in natural language in places where it will break the logic program. There does not seem to be a clear pattern in when a model fails in this way. Even models that are presumably similar like gemini-1.5-pro-preview-0409 and gemini-1.5-pro-preview-0514 give unpredicatbly different results in this regard. Recall here that we sample with 0 temperature. This points to an important fragility in the Logic-LM approach. Besides random total failures, there is the case of AR-LSAT where no model performs well. Analysis of the mistakes suggests that the model does not understand parts of the syntax of the z3 solver. It will try to use functionalities from the z3 solver in an incorrect way. This is probably due to there not being enought z3 code in the pre-training data and the few shot examples not covering certain aspects of the language. Exploratory experimention with ~750k prompts simply also containing all documentation for z3 did not solve the problems.
+From these tables it is clear that there is not one dominant model since between the five tasks there are three different models performing best. Furthermore, models that perform best on a certain task, may completely fail to generate executable logic programs on another task. On inspection such total failure is due to the model being unable to follow the instructions concerning the formatting of the logic program. So it will for example add explanations for what it is doing in natural language in places where it will break the logic program. There does not seem to be a clear pattern in when a model fails in this way. Even models that are presumably similar like gemini-1.5-pro-preview-0409 and gemini-1.5-pro-preview-0514 give unpredictably different results in this regard. Recall here that we sample with 0 temperature. This points to an important fragility in the Logic-LM approach. Besides random total failures, there is the case of AR-LSAT where no model performs well. Analysis of the mistakes suggests that the model does not understand parts of the syntax of the z3 solver. It will try to use functionalities from the z3 solver in an incorrect way. This is probably due to there not being enough z3 code in the pre-training data and the few shot examples not covering certain aspects of the language. Exploratory experimentation with ~750k prompts simply also containing all documentation for z3 did not solve the problems.
 
 Evaluation of the baselines with Gemini. All baselines results (Direct and CoT) are done with gemini-1.5-flash-preview-0514. Best accuracy score of the Logic-LM approach with the CoT backup strategy is presented for comparison.
 
