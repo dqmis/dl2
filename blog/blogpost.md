@@ -27,8 +27,6 @@ Inspired by the proposed solution of enhancing LLMs' logical problem-solving cap
 3. Explore the capabilities of different LLM families within the context of Logic-LM.
 4. Investigate the multi-modal reasoning capabilities of Logic-LM.
 
----
-
 ## 2. Logic-LM Framework
 
 The Logic-LM framework's reasoning process comprises three main stages: Problem Formulation, Symbolic Reasoning, and Result Interpretation.
