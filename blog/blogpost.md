@@ -45,6 +45,41 @@ This structured approach allows the Logic-LM framework to effectively address co
 </p>
 <br/>
 
+### 2.1 Logic programming
+
+Logic programming is a programming paradigm that is particularly well-suited for tasks involving symbolic reasoning and knowledge representation. It is fundamentally different from imperative programming in that it expresses computation through logical declarations and relationships rather than explicit control flow. In logic programming, problems are formulated as a set of logical statements, often in the form of predicates, which describe facts and rules about problems within a given domain. The most well-known logic programming language is Prolog. In Prolog, computation is driven by the engine's attempt to satisfy queries by systematically searching for and applying rules and facts. The declarative nature of logic programming often leads to more concise, flexible, and understandable code, as it allows programmers to focus on "what" needs to be achieved rather than "how" to achieve it.
+
+For example, below you can see a simple program that seeks to find which of the given birds can fly:
+
+```prolog
+% First, we define the facts about the birds, where object is a type of bird and each bird has a name.
+penguin(tweety).
+parrot(polly).
+sparrow(sid).
+broken_wing(sid).
+ostrich(olga).
+
+% Next, we define the rules that determine whether a previously defined object is a bird.
+bird(X) :- penguin(X).
+bird(X) :- parrot(X).
+bird(X) :- sparrow(X).
+bird(X) :- ostrich(X).
+
+% Finally, we define the rules that determine whether a bird can fly.
+cannot_fly(X) :- penguin(X).
+cannot_fly(X) :- ostrich(X).
+cannot_fly(X) :- broken_wing(X).
+
+% A bird can fly if it is a bird and it cannot fly.
+can_fly(X) :- bird(X), not cannot_fly(X).
+
+% Query to find birds that can fly.
+#hide.
+#show can_fly(X).
+```
+
+There is a great blog, that introduces basic of answer set programming, which is a subset of logic programming, and how to use it to solve problems. You can find it [here](https://ddmler.github.io/asp/2018/07/06/answer-set-programming-the-basics.html).
+
 ### 2.1 symbolic reasoning
 
 LLMs demonstrate strong performance on certain reasoning benchmarks, yet it remains uncertain whether they possess a general capacity for reasoning or simply excel by relying on memorized patterns and heuristics (Jie Huang, 2023). Previous research has concentrated on enhancing the reasoning abilities of LLMs, which can be achieved through fine-tuning or in-context learning. In the latter, step-by-step explanations are prompted to facilitate understanding of the reasoning process. One example of this approach is chain-of-thought prompting. Another strategy to enhance reasoning performance is the utilization of Tool-augmented Language Models, which have access to external resources for information extraction, such as calculators and information retrievers. Additionally, Auto-Formalization, as employed by Logic-LM, involves translating natural language (NL) into a symbolic language for reasoning, with the subsequent answer being provided in NL through LLM-generated sentences. However, the challenge remains the ambiguity of NL, which can lead to misunderstandings and incorrect reasoning in these methods.
