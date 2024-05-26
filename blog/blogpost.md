@@ -102,7 +102,7 @@ Furthermore, the Result Interpreter plays a significant role in the iterative re
 
 ### 2.4 Datasets
 
-We will incorporate logical reasoning datasets including ProofWriter (arXiv:2012.13048), PrOntoQA (arXiv:2210.01240), FOLIO (Han, 2022), AR-LSAT (arXiv:2209.00840), and LogicalDeduction from BigBench (arXiv:2206.04615), supplemented by multi-modal data from the SET (Webb, 2023) card game. Additionally, we aim to enhance our models' reasoning capabilities with a differentiable solver, such as Diff-SAT.
+We will incorporate logical reasoning datasets including ProofWriter (Tafjord et al., 2020), PrOntoQA (Saparov & He, 2022), FOLIO (Han, 2022), AR-LSAT (Han et al., 2022), and LogicalDeduction from BigBench (Srivastava et al., 2022), supplemented by multi-modal data from the SET (Webb, 2023) card game. Additionally, we aim to enhance our models' reasoning capabilities with a differentiable solver, such as Diff-SAT.
 
 ## 3. Reproduction of the Experiments
 
@@ -385,3 +385,13 @@ M., et al. Folio: Natural language reasoning with first-order logic. arXiv prepr
 
 Webb, T., Holyoak, K. J., and Lu, H. Emergent analogical reasoning in large language models. Nature Human
 Behaviour 7, 9 (2023), 1526–1541.
+
+Tafjord, O., Mishra, B. D., and Clark, P. Proofwriter: Generating implications, proofs, and abductive statements
+over natural language. arXiv preprint arXiv:2012.13048 (2020)
+
+Saparov, A., and He, H. Language models are greedy reasoners: A systematic formal analysis of chain-of-thought. arXiv
+preprint arXiv:2210.01240 (2022)
+
+Srivastava, A., Rastogi, A., Rao, A., Shoeb, A. A. M., Abid, A., Fisch, A., Brown, A. R., Santoro, A., Gupta,
+A., Garriga-Alonso, A., et al. Beyond the imitation game: Quantifying and extrapolating the capabilities of language
+models. arXiv preprint arXiv:2206.04615 (2022).
