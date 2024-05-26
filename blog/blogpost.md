@@ -380,7 +380,7 @@ Here we see that the results of the Logic-LM approach with the best model signif
 
 ## 4. Concluding Remarks
 
-In this blogpost, we introduced Logic-LM, a novel framework that seamlessly integrates Large Language Models (LLMs) with symbolic solvers to enhance logical reasoning capabilities. By converting natural language problems into structured symbolic representations and employing deterministic solvers, Logic-LM achieves precise and consistent logical reasoning. The multi-modal experiments demonstrate its ability to handle both textual and visual inputs, while ablation studies provide insights into prompting strategies. Despite challenges and fragility, Logic-LM represents a promising approach for robust and interpretable language models in complex reasoning tasks.
+In this blogpost, we discussed Logic-LM, a novel framework that seamlessly integrates Large Language Models (LLMs) with symbolic solvers to enhance logical reasoning capabilities. By converting natural language problems into structured symbolic representations and employing deterministic solvers, Logic-LM achieves precise and consistent logical reasoning. We extended the research by replicating the results with other models and investigated multi-modal reasoning. The multi-modal experiments demonstrate its ability to handle both textual and visual inputs, while ablation studies provide insights into prompting strategies. Despite challenges and fragility, Logic-LM represents a promising approach for robust and interpretable language models in complex reasoning tasks.
 
 ## 5. Student Contributions
 
