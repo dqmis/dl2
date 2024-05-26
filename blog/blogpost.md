@@ -377,10 +377,7 @@ Dominykas Šeputis and Chimène Blokesch focused primarily on multi-modal founda
 
 ## 7. Bibliography
 
-Hanmeng Liu, Ruoxi Ning, Zhiyang Teng, Jian Liu, Qiji
-Zhou, and Yue Zhang. 2023b. Evaluating the logi
-cal reasoning ability of chatgpt and GPT-4. CoRR,
-abs/2304.03439
+Liu, H., Ning, R., Teng, Z., Liu, J., Zhou, Q., & Zhang, Y. (2023). Evaluating the logical reasoning ability of chatgpt and gpt-4. arXiv preprint arXiv:2304.03439.
 
 Han, S., Schoelkopf, H., Zhao, Y., Qi, Z., Riddell, M., Benson, L., Sun, L., Zubova, E., Qiao, Y., Burtell,
 M., et al. Folio: Natural language reasoning with first-order logic. arXiv preprint arXiv:2209.00840 (2022).
