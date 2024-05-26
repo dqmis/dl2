@@ -4,7 +4,7 @@
 
 ---
 
-## Introduction
+## 1. Introduction
 
 Large Language Models (LLMs) have ushered in a new era in natural language understanding, demonstrating exceptional performance across a wide array of tasks. Despite their achievements rooted in identifying statistical patterns and contextual associations, LLMs face notable limitations in performing complex logical reasoning.
 
@@ -35,9 +35,25 @@ Inspired by the proposed solution of enhancing LLMs' logical problem-solving cap
 
 ---
 
-## symbolic reasoning
+## 2. LOGIC-LLM Framework
 
-While current LLMs can exhibit human-like reasoning, they may still lack fidelity and completeness. In response, Logic-LM (Pan, 2023) leverages symbolic languages to address logical problems, offering a more reliable and interpretable alternative to LLMs. However, the in-context learning proposed by Pan (2023) does not consistently yield executable or accurate programs. Our objective is to replicate, enhance, and expand upon these findings. This will involve conducting ablation studies with varying numbers of in-context examples, different LLMs, and different solvers, as well as incorporating negative examples. Furthermore, we will investigate whether the fundamental concept of Logic-LM applies to multi-modal input.
+The LOGIC-LM framework's reasoning process comprises three main stages: Problem Formulation, Symbolic Reasoning, and Result Interpretation.
+
+In the Problem Formulation stage, the Large Language Model (LLM) converts the problem from natural language into a symbolic format by identifying essential entities, facts, and rules within the problem statement.
+
+During the Symbolic Reasoning stage, a deterministic symbolic solver is used to perform inference based on the symbolic formulation created in the previous stage.
+
+Finally, in the Result Interpretation stage, an interpreter explains the output and aligns it with the correct answer.
+
+This structured approach enables the LOGIC-LM framework to effectively address complex reasoning tasks.
+
+<br/>
+<p align="center">
+  <img src="./media/framework_horizontal.png" width=600px>
+</p>
+<br/>
+
+### 2.1 symbolic reasoning
 
 LLMs demonstrate strong performance on certain reasoning benchmarks, yet it remains uncertain whether they possess a general capacity for reasoning or simply excel by relying on memorized patterns and heuristics (Jie Huang, 2023). Previous research has concentrated on enhancing the reasoning abilities of LLMs, which can be achieved through fine-tuning or in-context learning. In the latter, step-by-step explanations are prompted to facilitate understanding of the reasoning process. One example of this approach is chain-of-thought prompting. Another strategy to enhance reasoning performance is the utilization of Tool-augmented Language Models, which have access to external resources for information extraction, such as calculators and information retrievers. Additionally, Auto-Formalization, as employed by Logic-LM, involves translating natural language (NL) into a symbolic language for reasoning, with the subsequent answer being provided in NL through LLM-generated sentences. However, the challenge remains the ambiguity of NL, which can lead to misunderstandings and incorrect reasoning in these methods.
  The paper situates itself within the broader context of research on LLMs and logical reasoning. It builds upon previous works that have adapted LLMs for logical reasoning tasks, such as chain-of-thought prompting. However, LOGIC-LM distinguishes itself by using symbolic language as the reasoning unit, transferring the burden of executing complex reasoning from LLMs to symbolic solvers. This shift allows for more reliable and interpretable reasoning processes. The paper also contributes to the field of neuro-symbolic methods, proposing a generalizable framework that does not require specialized module designs or extensive training, thus broadening the applicability of LLMs in logical reasoning tasks.
@@ -50,7 +66,7 @@ Furthermore, LOGIC-LM incorporates an iterative refinement process. During infer
 
 The incorporation of symbolic solvers into the LOGIC-LM framework illustrates a hybrid approach that leverages the natural language understanding capabilities of LLMs while embracing the rigor and precision of symbolic reasoning. This integration not only overcomes the inherent limitations of LLMs in logical reasoning but also paves the way for more robust and interpretable language models that can effectively tackle complex reasoning tasks with greater accuracy. The integration of symbolic solvers into the LOGIC-LM framework exemplifies a hybrid approach that combines the strengths of LLMs in natural language understanding with the rigor and precision of symbolic reasoning. By doing so, LOGIC-LM not only addresses the inherent limitations of LLMs in logical reasoning but also sets the stage for more robust and interpretable language models capable of tackling complex reasoning tasks with higher fidelity.
 
-## Result interpreter
+### 2.2 Result interpreter
 
 Once the symbolic solver has completed the necessary inferences and generated a solution, the resulting solution is typically presented in a formal, symbolic format. While this format is precise and suitable for logical validation, it may not be easily accessible or interpretable for users who are more familiar with natural language. The Result Interpreter addresses this issue by converting the symbolic answers into natural language responses.
 
@@ -59,17 +75,13 @@ This translation process involves several steps. Firstly, the formal symbolic re
 The incorporation of the Result Interpreter into the LOGIC-LM framework elevates the interpretability of the system’s outputs. Users can gain access to clear and succinct explanations of intricate logical inferences, which can prove particularly beneficial in applications like automated theorem proving, complex question answering, and semantic parsing. Through the transformation of symbolic solutions into natural language, the Result Interpreter ensures that the logical precision of the symbolic solver remains intact in the interpretation process.
 Furthermore, the Result Interpreter plays a significant role in the iterative refinement process. By offering natural language feedback on the results produced by the symbolic solver, it can aid in identifying ambiguities or inconsistencies in the initial problem formulation. This feedback can then be utilized to iteratively refine and enhance the symbolic representation, ultimately leading to more precise and coherent final outputs.
 
-## Analysis of Weaknesses/Strengths/Potential
+### 2.3 Datasets
 
-It's important to note that LLMs struggle with solving complex logical problems, often leading to unfaithful reasoning and unreliable conclusions. Additionally, their probabilistic nature lacks a mechanism to ensure the faithfulness of reasoning, making it challenging to trust their outputs for critical applications.
+We will incorporate logical reasoning datasets including ProofWriter (arXiv:2012.13048), PrOntoQA (arXiv:2210.01240), FOLIO (Han, 2022), AR-LSAT (arXiv:2209.00840), and LogicalDeduction from BigBench (arXiv:2206.04615), supplemented by multi-modal data from the SET (Webb, 2023). Additionally, we aim to enhance our models' reasoning capabilities with a differentiable solver, such as Diff-SAT.
 
-LLMs have demonstrated a remarkable capacity to reason like humans when given step-by-step explanations or prompts. Additionally, they show exceptional proficiency in converting natural language problems into symbolic formulations, indicating their potential to complement symbolic solvers.
+## 3. Reproduction of the Experiments 
 
-The ability to reason is crucial for effectively utilizing knowledge, particularly in problem-solving, decision-making, and critical thinking. The capacity to reason abstractly enables a model to effectively tackle unfamiliar problems. As Language Models (LLMs) continue to be applied in various contexts, their success is heavily reliant on this factor. However, it is uncertain whether transformer-based LLMs possess this generalized ability, thus creating a clear incentive to explore alternative methods for enhancing it. Symbolic solvers, designed to be sound and efficiently solvable, offer a promising avenue for promoting generalized reasoning. Nonetheless, symbolic solvers require specific formal input. Logic-LM combines the flexibility of LLMs with the soundness and efficiency of symbolic solvers, representing a promising approach that warrants further development and refinement.
-
-The concept involves enhancing the reasoning capabilities of LLMs by integrating external modules, specifically symbolic solvers. LLMs are responsible for translating natural language problems into a set of rules, facts, variables, and constraints that conform to the symbolic solver's grammar. The logical reasoning process, leading to a conclusion, is managed by the solver. Subsequently, the solver's output is reconverted into natural language. This enhancement will render LLMs valuable in addressing critical problem-solving scenarios.
-
-## Novel Contribution
+## 4. Novel Contribution
 
 Our objective is to investigate the in-context learning capabilities of Logic-LM and pinpoint potential scenarios where the model may fall short. We will conduct ablation studies on diverse datasets featuring varying levels of complexity to comprehensively grasp the model's strengths and weaknesses. Additionally, we aim to determine the efficacy of employing symbolic solvers in a multi-modal setting. Lastly, we will explore the potential of integrating differentiable neuro-symbolic solvers to enable fine-tuning for training models to generate accurate logic programs.
 Our project bridges two research domains: it builds upon the research of (Pan, 2023) by delving into the potential of in-context learning for logical problem-solving, and it applies model adaptation techniques such as Low-Rank Adaptation (LoRA) (Hu, 2021) to tailor LLMs to this domain. Although our main emphasis is on the former, the latter presents an opportunity for extending our work.
@@ -94,13 +106,11 @@ Our upcoming focus is on refining LLMs to improve their capacity for solving log
 
 For our project, we intend to leverage advanced models such as OpenAI's ChatGPT for natural language processing (NLP) tasks, Google's Gemini for comparisons and analysis, and open-source language models (LLMs) like LLAMA, accessing them through their respective application programming interfaces (APIs). Both the ChatGPT and Gemini APIs are subscription-based, with estimated costs in the tens of euros, subject to change based on request volumes and additional services.
 
-We will incorporate logical reasoning datasets including ProofWriter (arXiv:2012.13048), PrOntoQA (arXiv:2210.01240), FOLIO (Han, 2022), AR-LSAT (arXiv:2209.00840), and LogicalDeduction from BigBench (arXiv:2206.04615), supplemented by multi-modal data from the SET (Webb, 2023). Additionally, we aim to enhance our models' reasoning capabilities with a differentiable solver, such as Diff-SAT.
-
-# Multi-modal Logic Reasoning
+### Multi-modal Logic Reasoning
 
 In a multi-modal setting, not only textual data is given to the LLM, but also other structures of data, such as images, can be utilized as input. The LLM needs to extract the important information from the input data to be able to reason about it.
 
-## Datasets Multi-modal
+### Datasets Multi-modal
 
 The multi-modal logic reasoning experiments were conducted by building synthetic datasets for Sudoku and Graph Coloring problems. Different datasets were created based on graphs, sudoku's and the SET card games. A textual prompt is also given to specify the task and the desired output format.
 
@@ -118,7 +128,7 @@ The datasets were created by combining textual and visual inputs. The textual in
 
 For direct prompting, models were given a sample question, an accompanying picture, and the correct answer. For ASP prompting, models were given a sample question, an accompanying picture, an ASP program that represents the problem, and the correct answer.
 
-## ASP as symbolic language
+### ASP as symbolic language
 
 We utilized an additional symbolic language to represent the multi-modal logic problems, namely Answer Set Programming (ASP). This language is more restricted than First-Order Logic (FOL), but is simpler to program. Its programs can be solved using Clingo. Below, an example program is given, which is used for the Graph Fill-in dataset.
 
@@ -159,7 +169,7 @@ answer(Color) :- coloring(5,Color).
 #show answer/1.
 ```
 
-## Results Multi-modal
+### Results Multi-modal
 
 We evaluated the multi-modal LLM from the Gemini family `gemini-1.5-pro-preview-0409` using both ASP and direct prompting strategies. To validate the ASP-generated code, we employed the Clingo solver. The results are summarized below:
 
@@ -219,7 +229,7 @@ While analyzing the mistakes made by the model using direct prompting, we observ
 
 For the ASP prompting, the primary mistakes made by the model were related to generating the problem representation as a valid ASP program. As the provided ASP programs required precise encoding of either Sudoku boards or graph coloring problems, the model often failed to generate correct ASP programs. This was especially evident in the Graph Fill-in problem, where the model struggled to correctly encode the graph coloring problem.
 
-## Prompting - Ablation Experiments - In Context Learning
+### Prompting - Ablation Experiments - In Context Learning
 
 We evaluated the LLama family of models,ie- `meta-llama/Llama-2-7b-chat-hf` and `meta-llama/Meta-Llama-3-8B-Instruct`. In general, LLama3 performs way better than LLama2. The results table below are conducted wrt Llama3. We found that for logical tasks, where we have to predict one option out of 5 available options, the model is somewhat biased towards predicting the first choice. Additionally, if we allow to generate more tokens by increaisng the max_new_tokens hyper-parmater,ie- increasing the maximum number of tokens to generate, the quality of the logic programs gets better. Additionally, we also performed an experiment when we prompted the model to predict all the incorrect options. We get higher accuracy in this case since we have 4 incorrect choices and 1 correct choice per sample. So, predicing a wrong answer is easier compared to the correct one.
 
@@ -259,7 +269,7 @@ Additionally, below table demonstrates the Direct, CoT and Logic-LM results on a
 |     AR-LSAT      | Logic-LM (Direct-Logic collabration mode (LLM) backup strategy ) |                           12                           |
 |     AR-LSAT      |  Logic-LM (CoT-Logic collabration mode (LLM) backup strategy )   |                           6                            |
 
-## Gemini results
+### Gemini results
 
 Evaluation logic programs per task with backup option 'CoT'. Best results per row in bold.
 
@@ -317,7 +327,7 @@ Evaluation of the baselines with Gemini. All baselines results (Direct and CoT) 
 
 Here we see that the results of the Logic-LM approach with the best model significantly outperforms both direct and CoT prompting. Note however that the fragility noted above means that it is not necessarily clear a priori which model would be the best for the Logic-LM approach.
 
-## Concluding Remarks
+## 5. Concluding Remarks
 
 TODO
 
@@ -331,3 +341,9 @@ HanmengLiu, Ruoxi Ning, Zhiyang Teng, Jian Liu, Qiji
 Zhou, and Yue Zhang. 2023b. Evaluating the logi
 cal reasoning ability of chatgpt and GPT-4. CoRR,
 abs/2304.03439
+
+Han, S., Schoelkopf, H., Zhao, Y., Qi, Z., Riddell, M., Benson, L., Sun, L., Zubova, E., Qiao, Y., Burtell,
+M., et al. Folio: Natural language reasoning with first-order logic. arXiv preprint arXiv:2209.00840 (2022).
+
+Webb, T., Holyoak, K. J., and Lu, H. Emergent analogical reasoning in large language models. Nature Human
+Behaviour 7, 9 (2023), 1526–1541.
