@@ -105,7 +105,7 @@ We incorporated logical reasoning datasets including ProofWriter (Tafjord et al.
 
 ### 2.5 LLMs
 
-For our project, we leveraged advanced models such as OpenAI's ChatGPT for natural language processing (NLP) tasks, Google's Gemini for comparisons and analysis, and open-source language models (LLMs) like LLAMA, accessing them through their respective application programming interfaces (APIs).
+For our project, we leveraged advanced models such as [OpenAI's ChatGPT](https://openai.com/index/gpt-4/) for natural language processing (NLP) tasks, [Google's Gemini](https://gemini.google.com/app) for comparisons and analysis, and open-source language models (LLMs) like [LLAMA](https://llama.meta.com/), accessing them through their respective application programming interfaces (APIs).
 
 ## 3. Results
 
