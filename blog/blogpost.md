@@ -82,7 +82,6 @@ There is a great blog, that introduces basic of answer set programming, which is
 
 ### 2.2 Symbolic reasoning
 
-
 The ability to reason is crucial for maximizing the utility of knowledge, particularly in problem-solving, decision-making, and critical thinking. Proficient abstract reasoning enables a model to effectively address unfamiliar problems. As LLMs continue to find diverse and widespread applications, the capacity for reasoning plays a pivotal role in their success. However, it remains uncertain whether transformer-based LLMs inherently possess this generalized ability, thereby creating a strong incentive to explore alternative methods for enhancing it. Symbolic solvers, designed to be sound and efficiently decidable, offer a dependable means of facilitating general reasoning. Nevertheless, symbolic solvers require specific formal input. By integrating the flexibility of LLMs with the soundness and efficiency of symbolic solvers, Logic-LM represents a promising approach to enhancing and further advancing reasoning capabilities.
 
 An important benefit of employing symbolic solvers is their deterministic nature. In contrast to LLMs, which produce outputs using probabilistic models and statistical patterns, symbolic solvers operate according to strict logical rules. This deterministic methodology guarantees that the reasoning process is both accurate and transparent. Accuracy pertains to the solver's capacity to strictly adhere to logical principles without introducing errors or inconsistencies. Transparency, on the other hand, is achieved because each stage of the reasoning process can be traced and validated against logical rules.
@@ -122,11 +121,11 @@ For the ablation Studies, our primary objective was to expand on Pan’s researc
 
 ### 4.1 Multi-modal Logic Reasoning
 
-In a multi-modal setting, not only textual data is given to the LLM, but also other structures of data, such as images, can be utilized as input. The LLM needs to extract the important information from the input data to be able to reason about it.
+In a multi-modal setting, the Large Language Model (LLM) is provided not only with textual data but also with other forms of data, such as images. The LLM must extract crucial information from these diverse data types to perform reasoning tasks effectively.
 
-#### 4.1.1 Datasets Multi-modal
+#### 4.1.1 Datasets for Multi-modal Logic Reasoning
 
-The multi-modal logic reasoning experiments were conducted by building synthetic datasets for Sudoku and Graph Coloring problems. Different datasets were created based on graphs, sudoku's and the SET card games. A textual prompt is also given to specify the task and the desired output format.
+The multi-modal logic reasoning experiments were conducted using synthetic datasets specifically created for tasks like Sudoku and Graph Coloring problems. These datasets included various types of data representations such as graphs, Sudoku puzzles, and the SET card games. In addition to these data structures, a textual prompt was also provided to specify the task at hand and the desired output format.
 
 |    Dataset name     |                                                             Model's task                                                             | Logic representation & solver |                 Example input image                 |
 | :-----------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :---------------------------: | :-------------------------------------------------: |
@@ -136,17 +135,19 @@ The multi-modal logic reasoning experiments were conducted by building synthetic
 | **Sudoku Validity** |                                         Determining whether a given Sudoku puzzle is valid.                                          |         ASP & Clingo          | <img src="./media/sudoku_validity.png" width="300"> |
 |       **SET**       | Following the card game rules, find the sets given the cards shown in the image. The same cards can appear and are counted as a set. |         ASP & Clingo          |       <img src="./media/SET.png" width="300">       |
 
-Validity datasets contained 400 samples, with 200 valid and 200 invalid examples each. For fill-in problems, 200 samples were created. Validity problems had two possible answers (Yes, No) and Fill-in problems had four different options (for Sudoku, possible missing numbers; for graph, missing colors). For multiple choice problems, we employed ASP programs to ensure that there is only one correct answer by validating models count.
+Validity datasets contained 400 samples (except for SET validity, which included 200 samples), with 200 valid and 200 invalid examples each. For fill-in problems, 200 samples were created. Validity problems had two possible answers (Yes or No), while fill-in problems had four different options (for Sudoku, these were the possible missing numbers; for graph coloring, they were the missing colors). For multiple choice problems, we employed Answer Set Programming (ASP) programs to ensure there was only one correct answer by validating model counts.
 
-The datasets were created by combining textual and visual inputs. The textual inputs were generated by converting the logical problems into natural language descriptions, while the visual inputs were created by visualizing the logical problems. Models were prompted with both the textual and visual inputs to solve the problems, employing a one-example in-context learning strategy in all cases.
+The datasets were created by combining both textual and visual inputs. The textual inputs were generated by converting logical problems into natural language descriptions, while the visual inputs were crafted to visualize these logical problems. Models were prompted with both the textual and visual inputs to solve the problems, employing a one-example in-context learning strategy in all cases.
 
-For direct prompting, models were given a sample question, an accompanying picture, and the correct answer. For ASP prompting, models were given a sample question, an accompanying picture, an ASP program that represents the problem, and the correct answer.
+For direct prompting, models were provided with a sample question, an accompanying picture, and the correct answer. For ASP prompting, models received a sample question, an accompanying picture, an ASP program representing the problem, and the correct answer.
 
-#### 4.1.2 ASP as symbolic language
+#### 4.1.2 ASP as a Symbolic Language
 
-We utilized an additional symbolic language to represent the multi-modal logic problems, namely Answer Set Programming (ASP). This language is more restricted than First-Order Logic (FOL), but is simpler to program. Its programs can be solved using Clingo. Below, an example program is given, which is used for the Graph Fill-in dataset.
+We utilized an additional symbolic language, Answer Set Programming (ASP), to represent the multi-modal logic problems. ASP is more restricted than First-Order Logic (FOL) but is simpler to program. ASP programs can be solved using tools like Clingo.
 
-```
+Below is an example program used for the Graph Fill-in dataset:
+
+```prolog
 % Example for Graph Coloring Fill-in problem
 
 % Allocate exactly one color to each node
@@ -183,9 +184,9 @@ answer(Color) :- coloring(5,Color).
 #show answer/1.
 ```
 
-#### 4.1.3 Results Multi-modal
+#### 4.1.3 Results for Multi-modal Logic Reasoning
 
-We evaluated the multi-modal LLM from the Gemini family `gemini-1.5-pro-preview-0409` using both ASP and direct prompting strategies. To validate the ASP-generated code, we employed the Clingo solver. The results are summarized below:
+We evaluated the multi-modal LLM from the Gemini family (`gemini-1.5-pro-preview-0409`) using both ASP and direct prompting strategies. To validate the ASP-generated code, we employed the Clingo solver. The results are summarized below:
 
 <table>
 <thead>
@@ -250,11 +251,42 @@ We evaluated the multi-modal LLM from the Gemini family `gemini-1.5-pro-preview-
   </tr>
 </tbody></table>
 
-As we can see from the results, the model achieves much higher accuracy when prompted with ASP programs compared to direct prompting. This indicates that the model is able to better understand the logical problems when provided with the ASP programs, which are more structured and explicit compared to direct prompts.
+As we can see from the results, the model achieves much higher accuracy when prompted with ASP programs compared to direct prompting. This indicates that the model is able to better understand the logical problems when provided with ASP programs, which are more structured and explicit compared to direct prompts.
 
-While analyzing the mistakes made by the model using direct prompting, we observed that the model often struggled to correctly understand the logical problems, leading to incorrect answers and increased hallucinations.
+While analyzing the mistakes made by the model using direct prompting, we observed that the model often struggled to correctly understand the logical problems, leading to incorrect answers and increased hallucinations. Performance for all models usually did not exceed random guessing.
 
-For the ASP prompting, the primary mistakes made by the model were related to generating the problem representation as a valid ASP program. As the provided ASP programs required precise encoding of either Sudoku boards or graph coloring problems, the model often failed to generate correct ASP programs. This was especially evident in the Graph Fill-in problem, where the model struggled to correctly encode the graph coloring problem.
+The SET validity task appeared to be the most challenging for the models, with the lowest accuracy across all datasets. This could be due to the complexity of the task, which involves identifying valid sets based on both visual and textual inputs.
+
+For ASP prompting, the primary mistakes made by the model were related to generating the problem representation as a valid ASP program. Since the provided ASP programs required precise encoding of either Sudoku boards or graph coloring problems, the model often failed to generate correct ASP programs. This was especially evident in the Graph Fill-in problem, where the model struggled to encode the graph coloring problem accurately. Interestingly, the problems for fill-in tasks were mostly not caused by incorrect world representation, but by failing to correctly define the missing number or color. This occurred even when, while encoding the state, models correctly omitted the missing number or color.
+
+```prolog
+% Defining the initial Sudoku grid
+sudoku(1,1,3). sudoku(1,2,8). sudoku(1,3,1). sudoku(1,4,4). sudoku(1,5,2). sudoku(1,6,9). sudoku(1,7,6). sudoku(1,8,5). sudoku(1,9,7). sudoku(2,1,4). sudoku(2,2,6). sudoku(2,3,7). sudoku(2,4,3). sudoku(2,5,5). sudoku(2,6,8). sudoku(2,7,2). sudoku(2,8,9). sudoku(2,9,1). sudoku(3,1,2). sudoku(3,2,5). sudoku(3,3,9). sudoku(3,4,7). sudoku(3,5,6). sudoku(3,6,1). sudoku(3,7,8). sudoku(3,8,3). sudoku(3,9,4). sudoku(4,1,1). sudoku(4,2,7). sudoku(4,3,8). sudoku(4,4,6). sudoku(4,5,3). sudoku(4,6,5). sudoku(4,7,9). sudoku(4,8,4). sudoku(4,9,2). sudoku(5,1,6). sudoku(5,2,9). sudoku(5,3,4). sudoku(5,4,2). sudoku(5,5,1). sudoku(5,6,7). sudoku(5,7,5). sudoku(5,8,8). sudoku(5,9,3). sudoku(6,1,5). sudoku(6,2,3). sudoku(6,3,2). sudoku(6,4,8). sudoku(6,5,9). sudoku(6,6,4). sudoku(6,8,1). sudoku(6,9,6). sudoku(7,1,8). sudoku(7,2,2). sudoku(7,3,5). sudoku(7,4,1). sudoku(7,5,4). sudoku(7,6,6). sudoku(7,7,3). sudoku(7,8,7). sudoku(7,9,9). sudoku(8,1,7). sudoku(8,2,1). sudoku(8,3,6). sudoku(8,4,9). sudoku(8,5,8). sudoku(8,6,3). sudoku(8,7,4). sudoku(8,8,2). sudoku(8,9,5). sudoku(9,1,9). sudoku(9,2,4). sudoku(9,3,3). sudoku(9,4,5). sudoku(9,5,7). sudoku(9,6,2). sudoku(9,7,1). sudoku(9,8,6). sudoku(9,9,8).
+
+% OUR COMMENT
+% While model correctly did not include the missing number in the state (sudoku(6,7,N)), it failed to correctly define the missing number in the answer.
+
+% Find the missing number in cell (7,6)
+1 { sudoku(7,6,N) : n(N) } 1.
+```
+
+<br/>
+<p align="center">
+  <img src="https://images.ctfassets.net/kftzwdyauwt9/4KaMwrPGUMKKj3sh25CxcZ/1a9f994a00a1aa53aab6ef6ad6d49f06/gpt-40-02_light.png?w=3840&q=80&fm=webp" width=600px>
+</p>
+<br/>
+
+Interestingly, while GPT-4 performs better or similarly in most benchmarks, it significantly underperforms in multi-modal reasoning tasks. Although it achieves competitive performance in direct prompting, it struggles to encode the ASP programs correctly, leading to a substantial drop in accuracy. Most issues stem from hallucinating nodes or edges that are not present in the graph or failing to correctly define the missing number or color.
+
+#### Note on Cost and Performance
+
+We used Microsoft Azure to run the GPT-4 model and Google Vertex AI to run the Gemini models. The cost to run all multi-modal experiments for GPT-4 was 82 euros, while for Gemini models, the cost for running two models was 40 euros. More interestingly, the average time per inference for GPT-4 was 66 seconds, whereas for Gemini Pro it was 21 seconds and for Gemini Flash 8 seconds. Considering both cost and performance, Gemini Flash emerges as the best choice for multi-modal reasoning.
+
+| Model        | Cost (Euros) | Average Inference Time | Cost and Performance Evaluation   |
+| ------------ | ------------ | ---------------------- | --------------------------------- |
+| GPT-4        | 82           | 66 seconds             | High cost, slower performance     |
+| Gemini Pro   | 40           | 21 seconds             | Moderate cost, faster performance |
+| Gemini Flash | 40           | 8 seconds              | Best value, fastest performance   |
 
 ### 4.2 Prompting - Ablation Experiments - In Context Learning
 
@@ -268,31 +300,31 @@ We evaluated the LLama family of models, i.e. `meta-llama/Llama-2-7b-chat-hf` an
 
 Additionally, below table demonstrates the Direct, CoT and Logic-LM results on all datasets with Llama3(meta-llama/Meta-Llama-3-8B-Instruct):
 
-|     Dataset      |                            Prompting                             | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct ) |
-| :--------------: | :--------------------------------------------------------------: | :----------------------------------------------------: |
-|     ProntoQA     |                   Direct ( 16 max_new_tokens )                   |                           43                           |
-|     ProntoQA     |                   CoT ( 1024 max_new_tokens )                    |                          76.6                          |
-|     ProntoQA     |                Logic-LM (random backup strategy )                |                           55                           |
+|     Dataset      |                             Prompting                             | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct ) |
+| :--------------: | :---------------------------------------------------------------: | :----------------------------------------------------: |
+|     ProntoQA     |                   Direct ( 16 max_new_tokens )                    |                           43                           |
+|     ProntoQA     |                    CoT ( 1024 max_new_tokens )                    |                          76.6                          |
+|     ProntoQA     |                Logic-LM (random backup strategy )                 |                           55                           |
 |     ProntoQA     | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                         42.46                          |
 |     ProntoQA     |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                           8                            |
-|   ProofWriter    |                   Direct ( 16 max_new_tokens )                   |                           33                           |
-|   ProofWriter    |                   CoT ( 1024 max_new_tokens )                    |                         28.54                          |
-|   ProofWriter    |                Logic-LM (random backup strategy )                |                          28.7                          |
+|   ProofWriter    |                   Direct ( 16 max_new_tokens )                    |                           33                           |
+|   ProofWriter    |                    CoT ( 1024 max_new_tokens )                    |                         28.54                          |
+|   ProofWriter    |                Logic-LM (random backup strategy )                 |                          28.7                          |
 |   ProofWriter    | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                         28.69                          |
 |   ProofWriter    |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                         28.695                         |
-|      FOLIO       |                   Direct ( 16 max_new_tokens )                   |                          46.5                          |
-|      FOLIO       |                   CoT ( 1024 max_new_tokens )                    |                           36                           |
-|      FOLIO       |                Logic-LM (random backup strategy )                |                           43                           |
+|      FOLIO       |                   Direct ( 16 max_new_tokens )                    |                          46.5                          |
+|      FOLIO       |                    CoT ( 1024 max_new_tokens )                    |                           36                           |
+|      FOLIO       |                Logic-LM (random backup strategy )                 |                           43                           |
 |      FOLIO       | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                           53                           |
 |      FOLIO       |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                         44.285                         |
-| LogicalDeduction |                   Direct ( 16 max_new_tokens )                   |                         32.33                          |
-| LogicalDeduction |                   CoT ( 1024 max_new_tokens )                    |                           22                           |
-| LogicalDeduction |                Logic-LM (random backup strategy )                |                         24.27                          |
+| LogicalDeduction |                   Direct ( 16 max_new_tokens )                    |                         32.33                          |
+| LogicalDeduction |                    CoT ( 1024 max_new_tokens )                    |                           22                           |
+| LogicalDeduction |                Logic-LM (random backup strategy )                 |                         24.27                          |
 | LogicalDeduction | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                           31                           |
 | LogicalDeduction |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                         20.38                          |
-|     AR-LSAT      |                   Direct ( 16 max_new_tokens )                   |                          7.36                          |
-|     AR-LSAT      |                   CoT ( 1024 max_new_tokens )                    |                         8.225                          |
-|     AR-LSAT      |                Logic-LM (random backup strategy )                |                           22                           |
+|     AR-LSAT      |                   Direct ( 16 max_new_tokens )                    |                          7.36                          |
+|     AR-LSAT      |                    CoT ( 1024 max_new_tokens )                    |                         8.225                          |
+|     AR-LSAT      |                Logic-LM (random backup strategy )                 |                           22                           |
 |     AR-LSAT      | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                           12                           |
 |     AR-LSAT      |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                           6                            |
 
