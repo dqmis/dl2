@@ -8,7 +8,7 @@
 
 Large Language Models (LLMs) have ushered in a new era in natural language understanding, demonstrating exceptional performance across a wide array of tasks. Despite their achievements rooted in identifying statistical patterns and contextual associations, LLMs face notable limitations in performing complex logical reasoning.
 
-One primary limitation is their inability to execute implicit reasoning. Although LLMs excel at capturing surface-level semantics and context, they lack the explicit reasoning mechanisms that humans employ to construct formal proofs or derive conclusions from premises [(Liu et al., 2023b)](link). Representing intricate logical structures like quantifiers, predicates, and entailments poses a significant challenge. Moreover, the faithfulness of LLMs—including their consistency, coherence, and adherence to logical rules—is often compromised. Consequently, they might produce responses that sound plausible but fall short of true logical validity. This shortcoming is particularly glaring in tasks demanding precise logical inference.
+One primary limitation is their inability to execute implicit reasoning. Although LLMs excel at capturing surface-level semantics and context, they lack the explicit reasoning mechanisms that humans employ to construct formal proofs or derive conclusions from premises [(Liu et al., 2023b)](https://arxiv.org/abs/2304.03439). Representing intricate logical structures like quantifiers, predicates, and entailments poses a significant challenge. Moreover, the faithfulness of LLMs—including their consistency, coherence, and adherence to logical rules—is often compromised. Consequently, they might produce responses that sound plausible but fall short of true logical validity. This shortcoming is particularly glaring in tasks demanding precise logical inference.
 
 Additionally, LLMs are prone to hallucinations—inaccurately generating information that seems correct but is actually false. The inherent ambiguity of natural language presents further obstacles. LLMs frequently rely on statistical probabilities to resolve ambiguities, which can result in occasional errors or misinterpretations. In logical reasoning, where precise disambiguation is essential, this reliance can be particularly detrimental.
 
@@ -106,7 +106,7 @@ We will incorporate logical reasoning datasets including ProofWriter (Tafjord et
 
 ### 2.5 LLMs
 
-For our project, we leveraged advanced models such as OpenAI's ChatGPT for natural language processing (NLP) tasks, Google's Gemini for comparisons and analysis, and open-source language models (LLMs) like LLAMA, accessing them through their respective application programming interfaces (APIs). 
+For our project, we leveraged advanced models such as OpenAI's ChatGPT for natural language processing (NLP) tasks, Google's Gemini for comparisons and analysis, and open-source language models (LLMs) like LLAMA, accessing them through their respective application programming interfaces (APIs).
 
 ## 3. Reproduction of the Experiments
 
@@ -377,7 +377,7 @@ Dominykas Šeputis and Chimène Blokesch focused primarily on multi-modal founda
 
 ## 7. Bibliography
 
-HanmengLiu, Ruoxi Ning, Zhiyang Teng, Jian Liu, Qiji
+Hanmeng Liu, Ruoxi Ning, Zhiyang Teng, Jian Liu, Qiji
 Zhou, and Yue Zhang. 2023b. Evaluating the logi
 cal reasoning ability of chatgpt and GPT-4. CoRR,
 abs/2304.03439
