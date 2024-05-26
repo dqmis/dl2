@@ -198,53 +198,66 @@ answer(Color) :- coloring(5,Color).
 
 We evaluated the multi-modal LLM from the Gemini family `gemini-1.5-pro-preview-0409` using both ASP and direct prompting strategies. To validate the ASP-generated code, we employed the Clingo solver. The results are summarized below:
 
-<table class="tg"><thead>
+<table>
+<thead>
   <tr>
-    <th class="tg-0pky"></th>
-    <th class="tg-c3ow" colspan="4">Accuracy % for prompting type</th>
+    <th class="tg-0lax"></th>
+    <th class="tg-0lax" colspan="6">Accuracy % for prompting type</th>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">Dataset<br></td>
-    <td class="tg-c3ow">Direct <br><span style="font-weight:bold">Gemini Pro</span></td>
-    <td class="tg-c3ow">Direct<br><span style="font-weight:bold">Gemini Flash</span></td>
-    <td class="tg-c3ow">ASP<br><span style="font-weight:bold">Gemini Pro</span></td>
-    <td class="tg-c3ow">ASP<br><span style="font-weight:bold">Gemini Flash</span></td>
+    <td class="tg-0lax">Dataset<br></td>
+    <td class="tg-baqh">Direct <br><span style="font-weight:bold">Gemini Pro</span></td>
+    <td class="tg-baqh">Direct<br><span style="font-weight:bold">Gemini Flash</span></td>
+    <td class="tg-baqh">Direct<br><span style="font-weight:bold">GPT-4</span></td>
+    <td class="tg-baqh">ASP<br><span style="font-weight:bold">Gemini Pro</span></td>
+    <td class="tg-baqh">ASP<br><span style="font-weight:bold">Gemini Flash</span></td>
+    <td class="tg-baqh">ASP<br><span style="font-weight:bold">GPT-4</span></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Sudoku Fill-in</td>
-    <td class="tg-0pky">28.50</td>
-    <td class="tg-0pky">25.51</td>
-    <td class="tg-0pky">67.50</td>
-    <td class="tg-0pky">22.00</td>
+    <td class="tg-0lax">Sudoku Fill-in</td>
+    <td class="tg-0lax">28.50</td>
+    <td class="tg-0lax">25.51</td>
+    <td class="tg-0lax">23.50</td>
+    <td class="tg-0lax"><b>67.50</b></td>
+    <td class="tg-0lax">22.00</td>
+    <td class="tg-0lax">29.64</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Sudoku Validity</td>
-    <td class="tg-0pky">47.25</td>
-    <td class="tg-0pky">48.03</td>
-    <td class="tg-0pky">92.08</td>
-    <td class="tg-0pky">93.00</td>
+    <td class="tg-0lax">Sudoku Validity</td>
+    <td class="tg-0lax">47.25</td>
+    <td class="tg-0lax">48.03</td>
+    <td class="tg-0lax">49.50</td>
+    <td class="tg-0lax">92.08</td>
+    <td class="tg-0lax"><b>93.00</b></td>
+    <td class="tg-0lax">87.75</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Graph Fill-in</td>
-    <td class="tg-0pky">36.65</td>
-    <td class="tg-0pky">29.50</td>
-    <td class="tg-0pky">65.01</td>
-    <td class="tg-0pky">38.21</td>
+    <td class="tg-0lax">Graph Fill-in</td>
+    <td class="tg-0lax">36.65</td>
+    <td class="tg-0lax">29.50</td>
+    <td class="tg-0lax">26.00</td>
+    <td class="tg-0lax"><b>65.01</b></td>
+    <td class="tg-0lax">38.21</td>
+    <td class="tg-0lax">28.01</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Graph Validity</td>
-    <td class="tg-0pky">54.75</td>
-    <td class="tg-0pky">54.00</td>
-    <td class="tg-0pky">94.50</td>
-    <td class="tg-0pky">90.50</td>
+    <td class="tg-0lax">Graph Validity</td>
+    <td class="tg-0lax">54.75</td>
+    <td class="tg-0lax">54.00</td>
+    <td class="tg-0lax">52.51</td>
+    <td class="tg-0lax"><b>94.50<b/></td>
+    <td class="tg-0lax">90.50</td>
+    <td class="tg-0lax">86.25</td>
   </tr>
   <tr>
-    <td class="tg-0pky">SET Validity</td>
-    <td class="tg-0pky">58.00</td>
-    <td class="tg-0pky">55.51</td>
-    <td class="tg-0pky">67.00</td>
-    <td class="tg-0pky">48.51</td>
+    <td class="tg-0lax">SET Validity</td>
+    <td class="tg-0lax">58.00</td>
+    <td class="tg-0lax">55.51</td>
+    <td class="tg-0lax">53.01</td>
+    <td class="tg-0lax"><b>67.00</b></td>
+    <td class="tg-0lax">48.51</td>
+    <td class="tg-0lax">54.51</td>
   </tr>
 </tbody></table>
 
