@@ -18,7 +18,7 @@ Additionally, LLMs are prone to hallucinations—inaccurately generating informa
 </p>
 <br/>
 
-In response to these constraints, the [Logic-LM](https://arxiv.org/pdf/2305.12295) framework has been introduced. This innovative approach integrates the capabilities of LLMs with the precision of symbolic solvers. Logic-LM begins by converting natural language problem descriptions into symbolic representations, effectively bridging the gap between human-readable text and the rigorous language of logic. Once a symbolic formulation is established, a deterministic symbolic solver takes over. Unlike LLMs, which rely on statistical heuristics, these solvers strictly adhere to formal rules, manipulate logical expressions, conduct deductive reasoning, and validate hypotheses with high accuracy.
+In response to these constraints, the [Logic-LM](https://github.com/teacherpeterpan/Logic-LLM) framework has been introduced. This innovative approach integrates the capabilities of LLMs with the precision of symbolic solvers. Logic-LM begins by converting natural language problem descriptions into symbolic representations, effectively bridging the gap between human-readable text and the rigorous language of logic. Once a symbolic formulation is established, a deterministic symbolic solver takes over. Unlike LLMs, which rely on statistical heuristics, these solvers strictly adhere to formal rules, manipulate logical expressions, conduct deductive reasoning, and validate hypotheses with high accuracy.
 
 Inspired by the proposed solution of enhancing LLMs' logical problem-solving capabilities by integrating symbolic solvers into the workflow, this blog aims to replicate and expand upon the results presented in ["Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning"](https://arxiv.org/pdf/2305.12295). The objectives of this blog are as follows:
 
@@ -386,10 +386,10 @@ Webb, T., Holyoak, K. J., and Lu, H. Emergent analogical reasoning in large lang
 Behaviour 7, 9 (2023), 1526–1541.
 
 Tafjord, O., Mishra, B. D., and Clark, P. Proofwriter: Generating implications, proofs, and abductive statements
-over natural language. arXiv preprint arXiv:2012.13048 (2020)
+over natural language. arXiv preprint arXiv:2012.13048 (2020).
 
 Saparov, A., and He, H. Language models are greedy reasoners: A systematic formal analysis of chain-of-thought. arXiv
-preprint arXiv:2210.01240 (2022)
+preprint arXiv:2210.01240 (2022).
 
 Srivastava, A., Rastogi, A., Rao, A., Shoeb, A. A. M., Abid, A., Fisch, A., Brown, A. R., Santoro, A., Gupta,
 A., Garriga-Alonso, A., et al. Beyond the imitation game: Quantifying and extrapolating the capabilities of language
