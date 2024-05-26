@@ -35,7 +35,7 @@ In the Problem Formulation stage, the Large Language Model (LLM) converts the pr
 
 During the Symbolic Reasoning stage, a deterministic symbolic solver is used to perform inference based on the symbolic formulation created in the previous stage. Finally, in the Result Interpretation stage, an interpreter explains the output and aligns it with the correct answer.
 
-This structured approach enables the Logic-LM framework to effectively address complex reasoning tasks. Compared to the direct prompting approach, **Logic Programming (LP) prompting** enables model to generate more accurate and coherent logical reasoning outputs using thought framework. This approach is similar to the [chain-of-thought prompting](cite), but is based on symbolic reasoning.
+This structured approach enables the Logic-LM framework to effectively address complex reasoning tasks. Compared to the direct prompting approach, **Logic Programming (LP) prompting** enables model to generate more accurate and coherent logical reasoning outputs using thought framework. This approach is similar to the [chain-of-thought prompting](https://arxiv.org/abs/2201.11903), but is based on symbolic reasoning.
 
 <br/>
 <p align="center">
