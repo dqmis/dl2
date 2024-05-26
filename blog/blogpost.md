@@ -102,7 +102,7 @@ Furthermore, the Result Interpreter plays a significant role in the iterative re
 
 ### 2.4 Datasets
 
-We will incorporate logical reasoning datasets including ProofWriter (Tafjord et al., 2020), PrOntoQA (Saparov & He, 2022), FOLIO (Han, 2022), AR-LSAT (Han et al., 2022), and LogicalDeduction from BigBench (Srivastava et al., 2022), supplemented by multi-modal data from the SET (Webb, 2023) card game. Additionally, we aim to enhance our models' reasoning capabilities with a differentiable solver, such as Diff-SAT.
+We incorporated logical reasoning datasets including ProofWriter (Tafjord et al., 2020), PrOntoQA (Saparov & He, 2022), FOLIO (Han, 2022), AR-LSAT (Han et al., 2022), and LogicalDeduction from BigBench (Srivastava et al., 2022), supplemented by multi-modal data from the SET (Webb, 2023) card game.
 
 ### 2.5 LLMs
 
@@ -110,7 +110,7 @@ For our project, we leveraged advanced models such as OpenAI's ChatGPT for natur
 
 ## 3. Reproduction of the Experiments
 
-## 4. Novel Contribution
+## 4. Novel Contributions
 
 Our objective is to investigate the in-context learning capabilities of Logic-LM and pinpoint potential scenarios where the model may fall short. We will conduct ablation studies on diverse datasets featuring varying levels of complexity to comprehensively grasp the model's strengths and weaknesses. Additionally, we aim to determine the efficacy of employing symbolic solvers in a multi-modal setting. Lastly, we will explore the potential of integrating differentiable neuro-symbolic solvers to enable fine-tuning of training models to generate accurate logic programs.
 Our project bridges two research domains: it builds upon the research of (Pan, 2023) by delving into the potential of in-context learning for logical problem-solving, and it applies model adaptation techniques such as Low-Rank Adaptation (LoRA) (Hu, 2021) to tailor LLMs to this domain. Although our main emphasis is on the former, the latter presents an opportunity for extending our work.
@@ -119,19 +119,6 @@ Building upon the research conducted by Pan in 2023, which primarily concentrate
 
 Ablation Studies: Our main objective is to build upon the research of (Pan, 2023) by conducting comprehensive ablation studies to validate and potentially broaden the authors' discoveries. Our studies will primarily center on in-context learning, with a specific focus on the following:
 
-1. Determining the optimal number (\(k\)) of examples required for the model to achieve optimal results. This will ascertain the efficiency and scalability of in-context learning in real-world scenarios.
-
-2. Assessing the performance of different families of LLMs in a multi-modal setting. We aim to employ models from the Gemini (arXiv:2312.11805) and Llama (arXiv:2302.13971) families to compare their effectiveness against the traditional GPT model family.
-
-3. Exploring the integration of various logical solvers into the learning process, such as Clingo — a solver of Answer Set Programming (ASP), to comprehend the impact of structured logical reasoning on the effectiveness of LLMs.
-
-In addition, we intend to explore alternative in-context learning strategies. While (Pan, 2023) utilizes prompt templates to direct models in delivering accurate answers and justifying their validity, we are considering a different approach. Our proposal involves training the model to recognize all incorrect answers to a logic problem and articulate the reasons for their invalidity. This method is designed to enrich the model's reasoning abilities by fostering a deeper comprehension of logical fallacies.
-
-Refining LLMs: Following the achievement of our initial objectives, our subsequent aim is to refine LLMs to confirm their effectiveness in solving logic problems. We intend to utilize an open-source LLM from the Llama family and implement efficient adaptation methods such as LoRA. The performance of the refined model will be compared with in-context learning models to evaluate their relative effectiveness. There are two approaches to this refinement process. The first involves training the model on additional text data comprising informal problems, followed by a logic program designed to guide the solver to the correct answer. The availability of high-quality data for more complex problems may be limited using this method. The second approach entails refining the model by directly training it on the supervised reasoning task. A challenge is that classical symbolic solvers are not differentiable, making it impossible to use backpropagation-based optimizers to adjust the parameters of LLMs in this manner. However, some neuro-symbolic models function as symbolic solvers while being differentiable, such as diff-SAT. By employing such a neuro-symbolic solver, the LLM can receive a learning signal while being trained directly on the objective task.
-
-Our upcoming focus is on refining LLMs to improve their capacity for solving logic problems using an open-sourced Llama-family LLM and adaptation methods such as LoRA. We will evaluate the effectiveness by comparing the performance of fine-tuned models with in-context learning models. Fine-tuning can be approached in two ways:
-
-1. Direct training on informal problem texts along with logical programs, which may present a challenge due to the limited availability of high-quality, complex problem data.
 
 ### 4.1 Multi-modal Logic Reasoning
 
