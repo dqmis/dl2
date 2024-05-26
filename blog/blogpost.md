@@ -45,7 +45,7 @@ This structured approach allows the Logic-LM framework to effectively address co
 </p>
 <br/>
 
-### 2.1 Logic programming
+### 2.1 Problem formulation
 
 Logic programming is a programming paradigm that is particularly well-suited for tasks involving symbolic reasoning and knowledge representation. It is fundamentally different from imperative programming in that it expresses computation through logical declarations and relationships rather than explicit control flow. In logic programming, problems are formulated as a set of logical statements, often in the form of predicates, which describe facts and rules about problems within a given domain. The most well-known logic programming language is Prolog. In Prolog, computation is driven by the engine's attempt to satisfy queries by systematically searching for and applying rules and facts. The declarative nature of logic programming often leads to more concise, flexible, and understandable code, as it allows programmers to focus on "what" needs to be achieved rather than "how" to achieve it.
 
@@ -80,7 +80,7 @@ can_fly(X) :- bird(X), not cannot_fly(X).
 
 There is a great blog, that introduces basic of answer set programming, which is a subset of logic programming, and how to use it to solve problems. You can find it [here](https://ddmler.github.io/asp/2018/07/06/answer-set-programming-the-basics.html).
 
-### 2.1 symbolic reasoning
+### 2.2 Symbolic reasoning
 
 
 The ability to reason is crucial for maximizing the utility of knowledge, particularly in problem-solving, decision-making, and critical thinking. Proficient abstract reasoning enables a model to effectively address unfamiliar problems. As LLMs continue to find diverse and widespread applications, the capacity for reasoning plays a pivotal role in their success. However, it remains uncertain whether transformer-based LLMs inherently possess this generalized ability, thereby creating a strong incentive to explore alternative methods for enhancing it. Symbolic solvers, designed to be sound and efficiently decidable, offer a dependable means of facilitating general reasoning. Nevertheless, symbolic solvers require specific formal input. By integrating the flexibility of LLMs with the soundness and efficiency of symbolic solvers, Logic-LM represents a promising approach to enhancing and further advancing reasoning capabilities.
@@ -91,7 +91,7 @@ Furthermore, LOGIC-LM incorporates an iterative refinement process. During infer
 
 The incorporation of symbolic solvers into the LOGIC-LM framework illustrates a hybrid approach that leverages the natural language understanding capabilities of LLMs while embracing the rigor and precision of symbolic reasoning. This integration not only overcomes the inherent limitations of LLMs in logical reasoning but also paves the way for more robust and interpretable language models that can effectively tackle complex reasoning tasks with greater accuracy. The integration of symbolic solvers into the LOGIC-LM framework exemplifies a hybrid approach that combines the strengths of LLMs in natural language understanding with the rigor and precision of symbolic reasoning. By doing so, LOGIC-LM not only addresses the inherent limitations of LLMs in logical reasoning but also sets the stage for more robust and interpretable language models capable of tackling complex reasoning tasks with higher fidelity.
 
-### 2.2 Result interpreter
+### 2.3 Result interpreter
 
 Once the symbolic solver has completed the necessary inferences and generated a solution, the resulting solution is typically presented in a formal, symbolic format. While this format is precise and suitable for logical validation, it may not be easily accessible or interpretable for users who are more familiar with natural language. The Result Interpreter addresses this issue by converting the symbolic answers into natural language responses.
 
@@ -100,9 +100,9 @@ This translation process involves several steps. Firstly, the formal symbolic re
 The incorporation of the Result Interpreter into the LOGIC-LM framework elevates the interpretability of the system’s outputs. Users can gain access to clear and succinct explanations of intricate logical inferences, which can prove particularly beneficial in applications like automated theorem proving, complex question answering, and semantic parsing. Through the transformation of symbolic solutions into natural language, the Result Interpreter ensures that the logical precision of the symbolic solver remains intact in the interpretation process.
 Furthermore, the Result Interpreter plays a significant role in the iterative refinement process. By offering natural language feedback on the results produced by the symbolic solver, it can aid in identifying ambiguities or inconsistencies in the initial problem formulation. This feedback can then be utilized to iteratively refine and enhance the symbolic representation, ultimately leading to more precise and coherent final outputs.
 
-### 2.3 Datasets
+### 2.4 Datasets
 
-We will incorporate logical reasoning datasets including ProofWriter (arXiv:2012.13048), PrOntoQA (arXiv:2210.01240), FOLIO (Han, 2022), AR-LSAT (arXiv:2209.00840), and LogicalDeduction from BigBench (arXiv:2206.04615), supplemented by multi-modal data from the SET (Webb, 2023). Additionally, we aim to enhance our models' reasoning capabilities with a differentiable solver, such as Diff-SAT.
+We will incorporate logical reasoning datasets including ProofWriter (arXiv:2012.13048), PrOntoQA (arXiv:2210.01240), FOLIO (Han, 2022), AR-LSAT (arXiv:2209.00840), and LogicalDeduction from BigBench (arXiv:2206.04615), supplemented by multi-modal data from the SET (Webb, 2023) card game. Additionally, we aim to enhance our models' reasoning capabilities with a differentiable solver, such as Diff-SAT.
 
 ## 3. Reproduction of the Experiments
 
