@@ -31,11 +31,13 @@ Inspired by the proposed solution of enhancing LLMs' logical problem-solving cap
 
 The Logic-LM framework's reasoning process comprises three main stages: Problem Formulation, Symbolic Reasoning, and Result Interpretation.
 
-In the Problem Formulation stage, the Large Language Model (LLM) converts the problem from natural language into a symbolic format by identifying essential entities, facts, and rules within the problem statement.
+**Problem Formulation:** In this stage, the Large Language Model (LLM) converts the problem from natural language into a symbolic format. This involves identifying essential entities, facts, and rules within the problem statement, effectively translating human-readable text into a structured logical representation.
 
-During the Symbolic Reasoning stage, a deterministic symbolic solver is used to perform inference based on the symbolic formulation created in the previous stage. Finally, in the Result Interpretation stage, an interpreter explains the output and aligns it with the correct answer.
+**Symbolic Reasoning:** During this stage, a deterministic symbolic solver is employed to perform inference based on the symbolic formulation created in the previous stage. Unlike LLMs, which rely on statistical heuristics, the symbolic solver strictly adheres to formal rules, thereby ensuring precise and consistent logical reasoning.
 
-This structured approach enables the Logic-LM framework to effectively address complex reasoning tasks. Compared to the direct prompting approach, **Logic Programming (LP) prompting** enables model to generate more accurate and coherent logical reasoning outputs using thought framework. This approach is similar to the [chain-of-thought prompting](https://arxiv.org/abs/2201.11903), but is based on symbolic reasoning.
+**Result Interpretation:** In the final stage, an interpreter is used to explain the output of the symbolic solver, aligning it with the correct answer and making it comprehensible to the user.
+
+This structured approach allows the Logic-LM framework to effectively address complex reasoning tasks. Compared to the direct prompting approach, **Logic Programming (LP) prompting** enables the model to generate more accurate and coherent logical reasoning outputs by following a systematic thought framework. This approach is similar to the [chain-of-thought prompting](https://arxiv.org/abs/2201.11903), but it is based on symbolic reasoning rather than purely statistical methods.
 
 <br/>
 <p align="center">
