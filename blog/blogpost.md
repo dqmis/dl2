@@ -39,9 +39,11 @@ The basic proposal of the Logic-LM framework is summarized schematically in the 
 </p>
 <br/>
 
-The Logic-LM framework uses a different approach called Logic Programming (LP) prompting, which divides the process into smaller steps:
+The Logic-LM framework uses a different approach called Logic Programming (LP) prompting, which divides the process into smaller steps. It proposes, instead, to burden the LLM with just grasping the problem and finding a logical representation of the problem.
 
-1. **Logic problem -> LLM -> Logic program**: It proposes instead to burden the LLM with just grasping the problem and finding a logical representation of the problem. This involves identifying the relevant entities, facts, and rules within the problem statement, effectively translating human-readable text into a structured logical representation. We will give an example of such a representation soon. We will call this **Logic Programming (LP) prompting**. They also involve in-context learning where a few examples of such transformations into the proper syntax are prepended to the prompt.
+NOTE: I don't know if it's just me, but I find the sentence 'it proposes ...' hard to understand, especially with the words 'burden' and 'grasping'
+
+1. **Logic problem -> LLM -> Logic program**: This step involves identifying the relevant entities, facts, and rules within the problem statement, effectively translating human-readable text into a structured logical representation. We will give an example of such a representation soon. We will call this **Logic Programming (LP) prompting**. This step also involves in-context learning, where a few examples of such transformations into the proper syntax are prepended to the prompt.
 
 TODO: maybe instead of 'soon', 'in section ...'
 NOTE: now it sounds like only step 1 is LP prompting
