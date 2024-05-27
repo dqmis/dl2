@@ -108,36 +108,29 @@ To verify whether our observations are truly valid, we set up experiments on the
 
 Additionally, we prompt the model to predict all the incorrect choices and compare this to the baseline to check if the model can reason better when asked to eliminate the wrong answers. This experiment should tell us whether the model is biased towards the first few
 
-### 2.1 Datasets
+## 2.3 Multi-modal Logic Reasoning
 
-First of all, we also used the logical reasoning datasets used in the original LOGIC-LM paper.
+As the current state-of-the-art models like Gemini-Pro and GPT-4 are multimodal, we explore the multimodal reasoning capabilities of Logic-LM. The multi-modal logic reasoning experiments were conducted using synthetic datasets specifically created for Sudoku, Graph Coloring and SET card problems. In addition to the visual data structures, a textual prompt was also provided to specify the task at hand and the desired output format.
 
-In our evaluation of LOGIC-LM, we comprehensively assess its performance across five prominent logical reasoning datasets. [PrOntoQA](https://github.com/asaparov/prontoqa) and [ProofWriter](https://allenai.org/data/proofwriter) provide examples for deductive reasoning tasks, while [FOLIO](https://github.com/Yale-LILY/FOLIO) serves as a benchmark for First-Order Logic reasoning. [LogicalDeduction](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/logical_deduction)  offers scenarios for Constraint Satisfaction Problems, and [AR-LSAT](https://github.com/zhongwanjun/AR-LSAT) presents analytical reasoning problems. Furthermore, for the multi-model logic reasoning experiments, we utilized [SET](https://github.com/Awni00/abstractor/tree/main/experiments/set) card game, and synthetic datasets tailored for tasks like Sudoku and graph colouring (see section 4.3).
+|    Dataset name     |                                                             Model's task                                                             | Logic representation & solver |                 Example input image                 |
+| :-----------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :---------------------------: | :-------------------------------------------------: |
+|  **Graph Fill-in**  |                      Filling in the missing color in a graph so that no two adjacent nodes have the same color.                      |         ASP & Clingo          |  <img src="./media/graph_fill_in.png" width="300">  |
+| **Graph Validity**  | Determining whether it is possible to color a graph with a given set of colors such that no two adjacent nodes have the same color.  |         ASP & Clingo          | <img src="./media/graph_validity.png" width="300">  |
+| **Sudoku Fill-in**  |                                          Filling in the missing numbers in a Sudoku puzzle.                                          |         ASP & Clingo          | <img src="./media/sudoku_fill_in.png" width="300">  |
+| **Sudoku Validity** |                                         Determining whether a given Sudoku puzzle is valid.                                          |         ASP & Clingo          | <img src="./media/sudoku_validity.png" width="300"> |
+|       **SET**       | Following the card game rules, find the sets given the cards shown in the image. The same cards can appear and are counted as a set. |         ASP & Clingo          |       <img src="./media/SET.png" width="300">       |
 
-An example from the AR-LSAT dataset, where given a problem statement as context, the task of the model is to answer a logical reasoning question:
+Validity datasets contained 400 samples (except for SET validity, which included 200 samples), with 200 valid and 200 invalid examples each. For fill-in problems, 200 samples were created. Validity problems had two possible answers (Yes or No), while fill-in problems had four different options (for Sudoku, these were the possible missing numbers; for graph coloring, they were the missing colors). For multiple choice problems, we employed Answer Set Programming (ASP) programs to ensure there was only one correct answer by validating model counts.
 
-```
-Context:
-During a single week, from Monday through Friday, tours will be conducted of a company's three divisions- Operations, Production, and Sales.
-Exactly five tours will be conducted that week, one each day. The schedule of tours for the week must conform to the following restrictions: Each division is toured at least once.
-The Operations division is not toured on Monday. The Production division is not toured on Wednesday.
-The Sales division is toured on two consecutive days, and on no other days. If the Operations division is toured on Thursday, then the Production division is toured on Friday.
+The datasets were created by combining both textual and visual inputs. The textual inputs were generated by converting logical problems into natural language descriptions, while the visual inputs were crafted to visualize these logical problems. Models were prompted with both the textual and visual inputs to solve the problems, employing a one-example in-context learning strategy in all cases.
 
-Question: Which one of the following CANNOT be true of the week's tour schedule?
+For direct prompting, models were provided with a sample question, an accompanying picture, and the correct answer. For ASP prompting, models received a sample question, an accompanying picture, an ASP program representing the problem, and the correct answer. You can see the differences between different prompting strategies in the figure below:
 
-Options:
-A) The division that is toured on Monday is also toured on Tuesday.
-B) The division that is toured on Monday is also toured on Friday.
-C) The division that is toured on Tuesday is also toured on Thursday.
-D) The division that is toured on Wednesday is also toured on Friday.
-E) The division that is toured on Thursday is also toured on Friday.
-
-The correct option is: C
-```
-
-### 2.2 LLMs
-
-For our project, we leveraged advanced models such as [OpenAI's ChatGPT](https://openai.com/index/gpt-4/) for natural language processing (NLP) tasks, four different versions of [Google's Gemini](https://gemini.google.com/app) for comparisons and analysis, and open-source language models (LLMs) like [LLAMA](https://llama.meta.com/).
+<br/>
+<p align="center">
+    <img src="./media/input_example.png" width=650px>
+</p>
+<br/>
 
 ## 3. Results
 
@@ -248,24 +241,6 @@ Here we see that the results of the Logic-LM approach with the best model signif
 ### 3.3 Multi-modal Logic Reasoning
 
 In a multi-modal setting, the Large Language Model (LLM) is provided not only with textual data but also with other forms of data, such as images. The LLM must extract crucial information from these diverse data types to perform reasoning tasks effectively.
-
-#### 3.3.1 Datasets for Multi-modal Logic Reasoning
-
-The multi-modal logic reasoning experiments were conducted using synthetic datasets specifically created for tasks like Sudoku and Graph Coloring problems. These datasets included various types of data representations such as graphs, Sudoku puzzles, and the SET card games. In addition to these data structures, a textual prompt was also provided to specify the task at hand and the desired output format.
-
-|    Dataset name     |                                                             Model's task                                                             | Logic representation & solver |                 Example input image                 |
-| :-----------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :---------------------------: | :-------------------------------------------------: |
-|  **Graph Fill-in**  |                      Filling in the missing color in a graph so that no two adjacent nodes have the same color.                      |         ASP & Clingo          |  <img src="./media/graph_fill_in.png" width="300">  |
-| **Graph Validity**  | Determining whether it is possible to color a graph with a given set of colors such that no two adjacent nodes have the same color.  |         ASP & Clingo          | <img src="./media/graph_validity.png" width="300">  |
-| **Sudoku Fill-in**  |                                          Filling in the missing numbers in a Sudoku puzzle.                                          |         ASP & Clingo          | <img src="./media/sudoku_fill_in.png" width="300">  |
-| **Sudoku Validity** |                                         Determining whether a given Sudoku puzzle is valid.                                          |         ASP & Clingo          | <img src="./media/sudoku_validity.png" width="300"> |
-|       **SET**       | Following the card game rules, find the sets given the cards shown in the image. The same cards can appear and are counted as a set. |         ASP & Clingo          |       <img src="./media/SET.png" width="300">       |
-
-Validity datasets contained 400 samples (except for SET validity, which included 200 samples), with 200 valid and 200 invalid examples each. For fill-in problems, 200 samples were created. Validity problems had two possible answers (Yes or No), while fill-in problems had four different options (for Sudoku, these were the possible missing numbers; for graph coloring, they were the missing colors). For multiple choice problems, we employed Answer Set Programming (ASP) programs to ensure there was only one correct answer by validating model counts.
-
-The datasets were created by combining both textual and visual inputs. The textual inputs were generated by converting logical problems into natural language descriptions, while the visual inputs were crafted to visualize these logical problems. Models were prompted with both the textual and visual inputs to solve the problems, employing a one-example in-context learning strategy in all cases.
-
-For direct prompting, models were provided with a sample question, an accompanying picture, and the correct answer. For ASP prompting, models received a sample question, an accompanying picture, an ASP program representing the problem, and the correct answer.
 
 #### 3.3.2 ASP as a Symbolic Language
 
