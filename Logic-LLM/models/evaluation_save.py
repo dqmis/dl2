@@ -12,8 +12,9 @@ def full_evaluation_save():
     for model_name in model_globals.GEMINI_MODEL_NAMES:
         results_json[model_name] = {}
         for dataset_name in model_globals.DATASET_NAMES:
-            result_path = f'outputs/logic_inference'
+            result_path = os.path.join("outputs", "logic_inference")
             result_file = os.path.join(result_path, f'{dataset_name}_{split}_{model_name}_backup-{backup}.json')
+            print(result_file)
             if os.path.isfile(result_file):
                 with open(result_file, 'r') as f:
                     all_samples = json.load(f)

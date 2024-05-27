@@ -36,7 +36,7 @@ def full_evaluation_save():
             answer_options = get_answer_options(dataset_name)
             results_json[model_name][dataset_name] = {}
             for mode in model_globals.MODES:
-                result_path = './baselines/results'
+                result_path = os.path.join('baselines', 'results')
                 result_file = os.path.join(result_path, f'{mode}_{dataset_name}_{split}_{model_name}.json')
                 if os.path.isfile(result_file):
                     with open(result_file, 'r') as f:
@@ -50,7 +50,7 @@ def full_evaluation_save():
                 else:
                     print(f"No results available for {model_name} on {dataset_name} with {mode}")
     
-    outputs_path = f"./baselines/evaluation"
+    outputs_path = os.path.join('baselines', 'evaluation')
     eval_path = os.path.join(outputs_path, 'evaluation_baselines.json')
 
     with open(eval_path, 'w') as file:
