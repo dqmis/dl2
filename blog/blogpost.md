@@ -91,9 +91,9 @@ An intuition for why the logic programming prompting approach can work well is t
 
 However, since symbolic solvers can only handle very specifically formatted input, it is easy for a LLM to make a mistake that will lead to catastrophic unparsable or unsound logic programs. Although the paper reports significant improvements on the baseline, it is not clear how robustly this approach generalizes and whether it will easily `break' outside the experiments of the authors. We have test this by checking whether the prompting strategy ports well to other LLMs/foundations models, problems with multiple modalities and a different symbolic solver.
 
-TODO motivate Soham's experiments on reasoning.
--the research on order bias shows a limitation of LLMs that logic programs don't have
--negative examples?
+
+Trying out with a few samples, we saw that LLMs usually are biased towards the first choice. Lets say we prompt the model to output the correct answer to  a question. We prompt the model to choose the correct anser among 5 available choices. If the correct choice is the first one, the model is more likely to predict it otherwise if the correct answer is the last choice, the model will stick to the first choice. This led us conduct experiemnts if the model is indeed biased towards first few choices and igonres the last choices. Moreover, we want to check if the model is prompted to predict the incorrect answers instead of the correct answer, will it be able to learn well since there are more incorrect choices rather correct ones. This motivated us to conduct experiments to check if the model performs well if we prompt it to predict all the incoorrect choices.
+
 
 We now first give a quick overview of our datasets and models and then go into our specific experiments, results and analysis.
 
@@ -129,8 +129,6 @@ The correct option is: C
 ### 3.2 LLMs
 
 For our project, we leveraged advanced models such as [OpenAI's ChatGPT](https://openai.com/index/gpt-4/) for natural language processing (NLP) tasks, four different versions of [Google's Gemini](https://gemini.google.com/app) for comparisons and analysis, and open-source language models (LLMs) like [LLAMA](https://llama.meta.com/).
-
-Trying out with a few samples, we saw that LLMs usually are biased towards the first choice. Lets say we prompt the model to output the correct answer to  a question. We prompt the model to choose the correct anser among 5 available choices. If the correct choice is the first one, the model is more likely to predict it otherwise if the correct answer is the last choice, the model will stick to the first choice. This led us conduct experiemnts if the model is indeed biased towards first few choices and igonres the last choices. Moreover, we want to check if the model is prompted to predict the incorrect answers instead of the correct answer, will it be able to learn well since there are more incorrect choices rather correct ones. This motivated us to conduct experiments to check if the model performs well if we prompt it to predict all the incoorrect choices.
 
 
 ## 4. Results
