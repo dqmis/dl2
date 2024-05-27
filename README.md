@@ -20,37 +20,7 @@ To run the prompts using Vertex AI, you need to set up an account and a service 
 TODO
 
 ## Snellius/own accelerator for Llama
-## Baseline: ##
-
-Run the commnad to generate Llama3 outputs for baseline (16 for Direct , 1024 for CoT):
-
-python baselines/lama_baseline.py.py   --model_name "lama3" --dataset_name "FOLIO" --split dev --mode "Direct" --max_new_tokens "16" 
-
-For evaluation, run:
-
-python evaluate_llama.py \
-    --dataset_name "Dataset Name [ProntoQA | ProofWriter | FOLIO | LogicalDeduction ｜ AR-LSAT]" \
-    --model_name "lama3" \
-    --split dev \
-    --mode "Baseline [Direct | CoT]" \
-
-## To generate results using Logic-LM: ##
-1. Generate Logic Program:
-
-python models/logic_program_lama.py  --dataset_name "AR-LSAT" --split dev  --model_name "lama3"  --max_new_tokens 1024 
-
-2. For inference:
-
-python models/logic_inference.py \
-    --model_name lama3 \
-    --dataset_name ${DATASET} \
-    --split dev \
-    --backup_strategy "random or LLM" \
-    --backup_LLM_result_path ./baselines/results/CoT_${DATASET}_${SPLIT}_${MODEL}.json
-
-3. For evaluation, run:
-
-python evaluate_llama.py --dataset_name "FOLIO"  --model_name "gpt-4" --split dev --backup "random or LLM"
+TODO
 
 
 # How to use
@@ -107,5 +77,38 @@ TODO or make a seperate second-level heading??
 
 ## Reproducing LLama results
 Python scripts are added in the root folder for testing various components, including the support of LLaMA models, by using one example as input.
-
-TODO
+### Baseline:
+#### Prompting
+Run the command to generate Llama3 outputs for baseline (16 for Direct , 1024 for CoT):
+```
+python baselines/lama_baseline.py.py   --model_name "lama3" --dataset_name "FOLIO" --split dev --mode "Direct" --max_new_tokens "16" 
+```
+#### Evaluation
+For evaluation, run:
+```
+python evaluate_llama.py \
+    --dataset_name "Dataset Name [ProntoQA | ProofWriter | FOLIO | LogicalDeduction ｜ AR-LSAT]" \
+    --model_name "lama3" \
+    --split dev \
+    --mode "Baseline [Direct | CoT]" \
+```
+### Logic-LM
+#### Prompting
+```
+python models/logic_program_lama.py  --dataset_name "AR-LSAT" --split dev  --model_name "lama3"  --max_new_tokens 1024 
+```
+#### Running symbolic solvers
+For inference:
+```
+python models/logic_inference.py \
+    --model_name lama3 \
+    --dataset_name ${DATASET} \
+    --split dev \
+    --backup_strategy "random or LLM" \
+    --backup_LLM_result_path ./baselines/results/CoT_${DATASET}_${SPLIT}_${MODEL}.json
+```
+#### Evaluation
+For evaluation, run:
+```
+python evaluate_llama.py --dataset_name "FOLIO"  --model_name "gpt-4" --split dev --backup "random or LLM"
+```
