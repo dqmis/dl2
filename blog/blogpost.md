@@ -29,7 +29,7 @@ Inspired by the proposed solution of enhancing LLMs' logical problem-solving cap
 3. Explore the capabilities of different LLM families within the context of Logic-LM.
 4. Investigate the multi-modal reasoning capabilities of Logic-LM.
 
-## 2. Logic-LM Framework
+### 1.1 Logic-LM Framework
 
 The basic proposal of the Logic-LM framework is summarized schematically in the figure below. In the standard (or 'direct prompting') approach a LLM has to directly map a logic problem to an answer, thereby being solely responsible for grasping the problem statement, performing (implicitly or explicitly) a chain of reasoning and arriving at an answer.
 
@@ -39,23 +39,17 @@ The basic proposal of the Logic-LM framework is summarized schematically in the 
 </p>
 <br/>
 
-The Logic-LM framework uses a different approach called Logic Programming (LP) prompting, which divides the process into smaller steps. It proposes, instead, to burden the LLM with just grasping the problem and finding a logical representation of the problem.
+The Logic-LM framework uses a different approach called Logic Programming (LP) prompting, which divides the process into smaller steps. It proposes to burden the LLM with just grasping the problem and finding a logical representation of the problem.
 
-NOTE: I don't know if it's just me, but I find the sentence 'it proposes ...' hard to understand, especially with the words 'burden' and 'grasping'
+1. **Logic problem -> LLM -> Logic program**: This step involves identifying the relevant entities, facts, and rules within the problem statement, effectively translating human-readable text into a structured logical representation. We will give an example of such a representation in section 2.1. This step also involves in-context learning, where a few examples of such transformations into the proper syntax are prepended to the prompt.
 
-1. **Logic problem -> LLM -> Logic program**: This step involves identifying the relevant entities, facts, and rules within the problem statement, effectively translating human-readable text into a structured logical representation. We will give an example of such a representation soon. We will call this **Logic Programming (LP) prompting**. This step also involves in-context learning, where a few examples of such transformations into the proper syntax are prepended to the prompt.
+2. **Logic program -> Logic program solver**: Doing inference with this representation is not done with the LLM but with a symbolic solver that encodes our best theories of correct and efficient formal reasoning. If something went wrong in the previous step and the logic program cannot be parsed by the solver, then as a 'backup' a random answer could be given or it could fall back on the baseline, direct prompting approach.
 
-TODO: maybe instead of 'soon', 'in section ...'
-NOTE: now it sounds like only step 1 is LP prompting
+3. **Logic program solver -> Answer**: In the final stage, a final answer is decided. In our experiments, this follows straightforwardly from the solver because we can let it generate logic programs that lead to a choice between the options. In the case of more open-ended problems, one could use a LLM to extract a legible answer from the output of the logic program solver instead.
 
-2. **Logic program -> Logic program solver**: Doing inference with this representation is not done with the LLM but with a symbolic solver that encodes our best theories of correct and efficient formal reasoning. If something went wrong at the previous step and the logic program can not be parsed by the solver, then as a 'backup' a random answer could be given or it could fall back on the baseline, direct prompting approach.
+### 1.2 Logic programs
 
-3. **Logic program solver -> Answer**: In the final stage, a final answer is decided. In our experiments this follows straightforward from the solver because we can let it generate logic programs that lead to a choice between the option. In the case of more open ended problems one could use a LLM to extract a legible answer from the output of logic program solver instead.
-
-### 2.1 Logic programs
-
-If you are deeply familiar with logic programming you may skip this section, because what follows is a quick introduction of refresher. Logic programming is a programming paradigm that is particularly well-suited for tasks involving symbolic reasoning and knowledge representation. It is fundamentally different from imperative programming in that it expresses computation through logical declarations and relationships rather than explicit control flow. In logic programming, problems are formulated as a set of logical statements, often in the form of predicates, which describe facts and rules about problems within a given domain. The most well-known logic programming language is Prolog. In Prolog, computation is driven by the engine's attempt to satisfy queries by systematically searching for and applying rules and facts. The declarative nature of logic programming often leads to more concise, flexible, and understandable code, as it allows programmers to focus on “what” needs to be achieved rather than “how” to achieve it.
-For example, below you can see a simple program that seeks to find which of the given birds can fly:
+If you are deeply familiar with logic programming you may skip this section, because what follows is a quick introduction or refresher. Logic programming is a programming paradigm that is particularly well-suited for tasks involving symbolic reasoning and knowledge representation. It is fundamentally different from imperative programming in that it expresses computation through logical declarations and relationships rather than explicit control flow. In logic programming, problems are formulated as a set of logical statements, often in the form of predicates, which describe facts and rules about problems within a given domain. The most well-known logic programming language is Prolog. In Prolog, computation is driven by the engine's attempt to satisfy queries by systematically searching for and applying rules and facts. The declarative nature of logic programming often leads to more concise, flexible, and understandable code, as it allows programmers to focus on “what” needs to be achieved rather than “how” to achieve it. For example, below you can see a simple program that seeks to find which of the given birds can fly:
 
 ```prolog
 % First, we define the facts about the birds, where object is a type of bird and each bird has a name.
@@ -86,7 +80,7 @@ can_fly(X) :- bird(X), not cannot_fly(X).
 
 There is a great blog, that introduces basic of answer set programming, which is a subset of logic programming, and how to use it to solve problems. You can find it [here](https://ddmler.github.io/asp/2018/07/06/answer-set-programming-the-basics.html).
 
-## 3 Our project
+## 2 Our project
 
 An intuition for why the logic programming prompting approach can work well is that (for a LLM) just finding a represention for a problem is a simpler task than grasping the problem plus doing inference plus deciding on an answer. It is also in a somewhat vague, loose sense more similar to the kind of task that LLMs perform well on (like extraction, summarization, etc) compared to complex logic problems that require many inference steps. So the Logic-LM framework combines the valid reasoning of symbolic solvers with the ability of LLMs to handle input of all kinds of styles and formatting and perform (relatively simple) tasks on it with in-context learning.
 
@@ -94,9 +88,7 @@ However, since symbolic solvers can only handle very specifically formatted inpu
 
 Trying out with a few samples, we saw that LLMs usually are biased towards the first choice. Lets say we prompt the model to output the correct answer to a question. We prompt the model to choose the correct anser among 5 available choices. If the correct choice is the first one, the model is more likely to predict it otherwise if the correct answer is the last choice, the model will stick to the first choice. This led us conduct experiemnts if the model is indeed biased towards first few choices and igonres the last choices. Moreover, we want to check if the model is prompted to predict the incorrect answers instead of the correct answer, will it be able to learn well since there are more incorrect choices rather correct ones. This motivated us to conduct experiments to check if the model performs well if we prompt it to predict all the incoorrect choices.
 
-We now first give a quick overview of our datasets and models and then go into our specific experiments, results and analysis.
-
-### 3.1 Datasets
+### 2.1 Datasets
 
 First of all, we also used the logical reasoning datasets used in the original LOGIC-LM paper.
 
@@ -125,21 +117,19 @@ E) The division that is toured on Thursday is also toured on Friday.
 The correct option is: C
 ```
 
-### 3.2 LLMs
+### 2.2 LLMs
 
 For our project, we leveraged advanced models such as [OpenAI's ChatGPT](https://openai.com/index/gpt-4/) for natural language processing (NLP) tasks, four different versions of [Google's Gemini](https://gemini.google.com/app) for comparisons and analysis, and open-source language models (LLMs) like [LLAMA](https://llama.meta.com/).
 
-## 4. Results
+## 3. Results
 
 Our project focused on investigating the learning capabilities of Logic-LM in various contexts and identifying potential limitations. We conducted extensive studies on different datasets with varying levels of complexity to understand the strengths and weaknesses of the model. In addition, we explored the effectiveness of using symbolic solvers in a multi-modal setting and investigated the potential of integrating differentiable neuro-symbolic solvers to fine-tune training models for generating accurate logic programs.
 
-Our research built upon the work of [Pan (2023)](https://arxiv.org/abs/2305.12295) by emphasizing in-context learning for logical problem-solving and adapting LLMs to this domain using techniques such as Low-Rank Adaptation (LoRA) [(Hu, 2021)](https://arxiv.org/abs/2106.09685).
-
-Expanding on Pan’s research, which primarily focused on textual inputs, our project extended the scope to include multi-modal foundation models. We evaluated their effectiveness in solving logical problems using both text and visual inputs. Our experiments involved challenges such as the SET game, where the model interpreted visual input from SET cards and a textual query to identify valid sets. Additionally, we explored similar scenarios using games like Sudoku, Suguru, and various card games, all of which had established solvers and frameworks suitable for generating examples for few-shot learning.
+Our research built upon the work of [Pan et al., 2023](https://arxiv.org/abs/2305.12295) by emphasizing in-context learning for logical problem-solving and adapting LLMs to this domain. Expanding on Pan’s research, which primarily focused on textual inputs, our project extended the scope to include multi-modal foundation models. We evaluated their effectiveness in solving logical problems using both text and visual inputs. Our experiments involved challenges such as the SET game, where the model interpreted visual input from SET cards and a textual query to identify valid sets. Additionally, we explored similar scenarios using games like Sudoku, Suguru, and various card games, all of which had established solvers and frameworks suitable for generating examples for few-shot learning.
 
 For the ablation Studies, our primary objective was to expand on Pan’s research by conducting comprehensive ablation studies to validate and potentially build upon the authors’ findings.
 
-### 4.1 Prompting - Ablation Experiments - In Context Learning
+### 3.1 Prompting - Ablation Experiments - In Context Learning
 
 We evaluated the LLama family of models, i.e. `meta-llama/Llama-2-7b-chat-hf` and `meta-llama/Meta-Llama-3-8B-Instruct`. In general, LLama3 performs way better than LLama2. The results table below are conducted wrt Llama3. We found that for logical tasks, where we have to predict one option out of 5 available options, the model is somewhat biased towards predicting the first choice. Additionally, if we allow generating more tokens by increasing the max_new_tokens hyperparameter, i.e. increasing the maximum number of tokens to generate, the quality of the logic programs gets better. Additionally, we also performed an experiment when we prompted the model to predict all the incorrect options. We get higher accuracy in this case, since we have 4 incorrect choices and 1 correct choice per sample. So, predicting a wrong answer is easier compared to the correct one.
 
@@ -179,7 +169,7 @@ Additionally, below table demonstrates the Direct, CoT and Logic-LM results on a
 |                  | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy) | 12                                        |
 |                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy)    | 6                                         |
 
-### 4.2 Gemini results
+### 3.2 Gemini results
 
 Evaluation logic programs per task with backup option 'CoT'. Best results per row in bold.
 
@@ -237,11 +227,11 @@ Evaluation of the baselines with Gemini. All baselines results (Direct and CoT) 
 
 Here we see that the results of the Logic-LM approach with the best model significantly outperforms both direct and CoT prompting. Note however that the fragility noted above means that it is not necessarily clear a priori which model would be the best for the Logic-LM approach.
 
-### 4.3 Multi-modal Logic Reasoning
+### 3.3 Multi-modal Logic Reasoning
 
 In a multi-modal setting, the Large Language Model (LLM) is provided not only with textual data but also with other forms of data, such as images. The LLM must extract crucial information from these diverse data types to perform reasoning tasks effectively.
 
-#### 4.3.1 Datasets for Multi-modal Logic Reasoning
+#### 3.3.1 Datasets for Multi-modal Logic Reasoning
 
 The multi-modal logic reasoning experiments were conducted using synthetic datasets specifically created for tasks like Sudoku and Graph Coloring problems. These datasets included various types of data representations such as graphs, Sudoku puzzles, and the SET card games. In addition to these data structures, a textual prompt was also provided to specify the task at hand and the desired output format.
 
@@ -259,7 +249,7 @@ The datasets were created by combining both textual and visual inputs. The textu
 
 For direct prompting, models were provided with a sample question, an accompanying picture, and the correct answer. For ASP prompting, models received a sample question, an accompanying picture, an ASP program representing the problem, and the correct answer.
 
-#### 4.3.2 ASP as a Symbolic Language
+#### 3.3.2 ASP as a Symbolic Language
 
 We utilized an additional symbolic language, Answer Set Programming (ASP), to represent the multi-modal logic problems. ASP is more restricted than First-Order Logic (FOL) but is simpler to program. ASP programs can be solved using tools like Clingo.
 
@@ -302,7 +292,7 @@ answer(Color) :- coloring(5,Color).
 #show answer/1.
 ```
 
-#### 4.3.3 Results for Multi-modal Logic Reasoning
+#### 3.3.3 Results for Multi-modal Logic Reasoning
 
 We evaluated the multi-modal LLM from the Gemini family (`gemini-1.5-pro-preview-0409`) using both ASP and direct prompting strategies. To validate the ASP-generated code, we employed the Clingo solver. The results are summarized below:
 
@@ -406,7 +396,7 @@ We used Microsoft Azure to run the GPT-4 model and Google Vertex AI to run the G
 | Gemini Pro   | 40           | 21 seconds             | Moderate cost, faster performance |
 | Gemini Flash | 40           | 8 seconds              | Best value, fastest performance   |
 
-## 5. Concluding Remarks
+## 4. Concluding Remarks
 
 In this blogpost, we discussed Logic-LM, a novel framework that integrates Large Language Models (LLMs) with symbolic solvers to enhance logical reasoning capabilities. By converting natural language problems into structured symbolic representations and employing deterministic solvers, Logic-LM achieves precise and consistent logical reasoning. We extended the research by replicating the results with other models and investigated multi-modal reasoning. The multi-modal experiments show increased accuracy when using visual inputs and ASP. However, the challenge of hallucination by the LLM remains due to incorrect interpretation of the visual input. Furthermore, ablation studies provide insights into prompting strategies. Despite challenges and fragility, Logic-LM represents a promising approach for robust and interpretable language models in complex reasoning tasks.
 
