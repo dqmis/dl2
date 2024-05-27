@@ -238,7 +238,7 @@ Here we see that the results of the Logic-LM approach with the best model signif
 
 In a multi-modal setting, the Large Language Model (LLM) is provided not only with textual data but also with other forms of data, such as images. The LLM must extract crucial information from these diverse data types to perform reasoning tasks effectively.
 
-#### 4.1.1 Datasets for Multi-modal Logic Reasoning
+#### 4.3.1 Datasets for Multi-modal Logic Reasoning
 
 The multi-modal logic reasoning experiments were conducted using synthetic datasets specifically created for tasks like Sudoku and Graph Coloring problems. These datasets included various types of data representations such as graphs, Sudoku puzzles, and the SET card games. In addition to these data structures, a textual prompt was also provided to specify the task at hand and the desired output format.
 
@@ -256,7 +256,7 @@ The datasets were created by combining both textual and visual inputs. The textu
 
 For direct prompting, models were provided with a sample question, an accompanying picture, and the correct answer. For ASP prompting, models received a sample question, an accompanying picture, an ASP program representing the problem, and the correct answer.
 
-#### 4.2.2 ASP as a Symbolic Language
+#### 4.3.2 ASP as a Symbolic Language
 
 We utilized an additional symbolic language, Answer Set Programming (ASP), to represent the multi-modal logic problems. ASP is more restricted than First-Order Logic (FOL) but is simpler to program. ASP programs can be solved using tools like Clingo.
 
@@ -299,7 +299,7 @@ answer(Color) :- coloring(5,Color).
 #show answer/1.
 ```
 
-#### 4.2.3 Results for Multi-modal Logic Reasoning
+#### 4.3.3 Results for Multi-modal Logic Reasoning
 
 We evaluated the multi-modal LLM from the Gemini family (`gemini-1.5-pro-preview-0409`) using both ASP and direct prompting strategies. To validate the ASP-generated code, we employed the Clingo solver. The results are summarized below:
 
