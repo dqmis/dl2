@@ -404,3 +404,24 @@ TODO: more precise about conclusion ablation studies
 
 Dominykas Šeputis and Chimène Blokesch focused primarily on multi-modal foundation models to assess their ability to address logical issues using both textual and visual inputs, generating new multimodal datasets and running the experiments. Dominykas Šeputis also did reproduction of the paper's results with GPT-4. Job Gräber integrated into the existing code base the ability to run baseline, order bias and logic programming prompting with Gemini and and got the results for the different Gemini models. Soham Chatterjee added code to run the baseline, order bias and logic programming prompting with Llama and got the respective results and generated the data for order bias experiments and looked into negative example prompting. Idries Nasim primarily oversaw the writing process. All team members made active contributions by presenting the results of their experiments.
 
+## 6. Bibliography
+
+Liu, H., Ning, R., Teng, Z., Liu, J., Zhou, Q., & Zhang, Y. (2023). Evaluating the logical reasoning ability of chatgpt and gpt-4. arXiv preprint arXiv:2304.03439.
+
+Han, S., Schoelkopf, H., Zhao, Y., Qi, Z., Riddell, M., Benson, L., Sun, L., Zubova, E., Qiao, Y., Burtell,
+M., et al. Folio: Natural language reasoning with first-order logic. arXiv preprint arXiv:2209.00840 (2022).
+
+Webb, T., Holyoak, K. J., and Lu, H. Emergent analogical reasoning in large language models. Nature Human
+Behaviour 7, 9 (2023), 1526–1541.
+
+Tafjord, O., Mishra, B. D., and Clark, P. Proofwriter: Generating implications, proofs, and abductive statements
+over natural language. arXiv preprint arXiv:2012.13048 (2020).
+
+Saparov, A., and He, H. Language models are greedy reasoners: A systematic formal analysis of chain-of-thought. arXiv
+preprint arXiv:2210.01240 (2022).
+
+Srivastava, A., Rastogi, A., Rao, A., Shoeb, A. A. M., Abid, A., Fisch, A., Brown, A. R., Santoro, A., Gupta,
+A., Garriga-Alonso, A., et al. Beyond the imitation game: Quantifying and extrapolating the capabilities of language
+models. arXiv preprint arXiv:2206.04615 (2022).
+
+Wei, J., Wang, X., Schuurmans, D., Bosma, M., Xia, F., Chi, E., ... & Zhou, D. (2022). Chain-of-thought prompting elicits reasoning in large language models. Advances in neural information processing systems, 35, 24824-24837.
