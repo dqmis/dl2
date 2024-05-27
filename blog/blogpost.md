@@ -130,6 +130,8 @@ The correct option is: C
 
 For our project, we leveraged advanced models such as [OpenAI's ChatGPT](https://openai.com/index/gpt-4/) for natural language processing (NLP) tasks, four different versions of [Google's Gemini](https://gemini.google.com/app) for comparisons and analysis, and open-source language models (LLMs) like [LLAMA](https://llama.meta.com/).
 
+Trying out with a few samples, we saw that LLMs usually are biased towards the first choice. Lets say we prompt the model to output the correct answer to  a question. We prompt the model to choose the correct anser among 5 available choices. If the correct choice is the first one, the model is more likely to predict it otherwise if the correct answer is the last choice, the model will stick to the first choice. This led us conduct experiemnts if the model is indeed biased towards first few choices and igonres the last choices. Moreover, we want to check if the model is prompted to predict the incorrect answers instead of the correct answer, will it be able to learn well since there are more incorrect choices rather correct ones. This motivated us to conduct experiments to check if the model performs well if we prompt it to predict all the incoorrect choices.
+
 
 ## 4. Results
 
