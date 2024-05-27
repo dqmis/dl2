@@ -126,11 +126,109 @@ Expanding on Pan’s research, which primarily focused on textual inputs, our pr
 
 For the ablation Studies, our primary objective was to expand on Pan’s research by conducting comprehensive ablation studies to validate and potentially build upon the authors’ findings.
 
-### 3.1 Multi-modal Logic Reasoning
+### 3.1 Prompting - Ablation Experiments - In Context Learning
+
+We evaluated the LLama family of models, i.e. `meta-llama/Llama-2-7b-chat-hf` and `meta-llama/Meta-Llama-3-8B-Instruct`. In general, LLama3 performs way better than LLama2. The results table below are conducted wrt Llama3. We found that for logical tasks, where we have to predict one option out of 5 available options, the model is somewhat biased towards predicting the first choice. Additionally, if we allow generating more tokens by increasing the max_new_tokens hyperparameter, i.e. increasing the maximum number of tokens to generate, the quality of the logic programs gets better. Additionally, we also performed an experiment when we prompted the model to predict all the incorrect options. We get higher accuracy in this case, since we have 4 incorrect choices and 1 correct choice per sample. So, predicting a wrong answer is easier compared to the correct one.
+
+|                        Dataset                         | Prompting | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct ) |
+| :----------------------------------------------------: | :-------: | :----------------------------------------------------: |
+|                    AR-LSAT Baseline                    |  Direct   |                         19.56                          |
+| AR-LSAT Swap the correct answer always to first choice |  Direct   |                           25                           |
+|          AR-LSAT Predict wrong answer choices          |  Direct   |                           26                           |
+
+Additionally, below table demonstrates the Direct, CoT and Logic-LM results on all datasets with Llama3(meta-llama/Meta-Llama-3-8B-Instruct):
+
+|     Dataset      |                             Prompting                             | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct ) |
+| :--------------: | :---------------------------------------------------------------: | :----------------------------------------------------: |
+|     ProntoQA     |                   Direct ( 16 max_new_tokens )                    |                           43                           |
+|     ProntoQA     |                    CoT ( 1024 max_new_tokens )                    |                          76.6                          |
+|     ProntoQA     |                Logic-LM (random backup strategy )                 |                           55                           |
+|     ProntoQA     | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                         42.46                          |
+|     ProntoQA     |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                           8                            |
+|   ProofWriter    |                   Direct ( 16 max_new_tokens )                    |                           33                           |
+|   ProofWriter    |                    CoT ( 1024 max_new_tokens )                    |                         28.54                          |
+|   ProofWriter    |                Logic-LM (random backup strategy )                 |                          28.7                          |
+|   ProofWriter    | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                         28.69                          |
+|   ProofWriter    |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                         28.695                         |
+|      FOLIO       |                   Direct ( 16 max_new_tokens )                    |                          46.5                          |
+|      FOLIO       |                    CoT ( 1024 max_new_tokens )                    |                           36                           |
+|      FOLIO       |                Logic-LM (random backup strategy )                 |                           43                           |
+|      FOLIO       | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                           53                           |
+|      FOLIO       |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                         44.285                         |
+| LogicalDeduction |                   Direct ( 16 max_new_tokens )                    |                         32.33                          |
+| LogicalDeduction |                    CoT ( 1024 max_new_tokens )                    |                           22                           |
+| LogicalDeduction |                Logic-LM (random backup strategy )                 |                         24.27                          |
+| LogicalDeduction | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                           31                           |
+| LogicalDeduction |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                         20.38                          |
+|     AR-LSAT      |                   Direct ( 16 max_new_tokens )                    |                          7.36                          |
+|     AR-LSAT      |                    CoT ( 1024 max_new_tokens )                    |                         8.225                          |
+|     AR-LSAT      |                Logic-LM (random backup strategy )                 |                           22                           |
+|     AR-LSAT      | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                           12                           |
+|     AR-LSAT      |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                           6                            |
+
+### 3.3 Gemini results
+
+Evaluation logic programs per task with backup option 'CoT'. Best results per row in bold.
+
+| ProntoQA            | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
+| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
+| Overall_Accuracy    | 92.60                     | **97.40**                   | 93.00                       | 92.60                         |
+| Executable_Rate     | 0.00                      | **96.40**                   | 0.00                        | 0.00                          |
+| Executable_Accuracy | 0.00                      | **97.30**                   | 0.00                        | 0.00                          |
+
+| ProofWriter         | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
+| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
+| Overall_Accuracy    | 74.12                     | **78.04**                   | 66.17                       | 66.17                         |
+| Executable_Rate     | 64.44                     | **89.36**                   | 0.00                        | 4.67                          |
+| Executable_Accuracy | 76.17                     | **80.53**                   | 0.00                        | 53.57                         |
+
+| FOLIO               | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
+| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
+| Overall_Accuracy    | 63.50                     | 75.25                       | **80.60**                   | 59.80                         |
+| Executable_Rate     | 48.50                     | 58.42                       | **78.11**                   | 4.41                          |
+| Executable_Accuracy | 68.04                     | 83.05                       | 85.35                       | **100.00**                    |
+
+| LogicalDeduction    | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
+| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
+| Overall_Accuracy    | 64.67                     | 64.67                       | **84.67**                   | 57.67                         |
+| Executable_Rate     | 60.00                     | 60.00                       | **100.00**                  | 71.67                         |
+| Executable_Accuracy | **89.44**                 | 87.22                       | 84.67                       | 69.77                         |
+
+| AR-LSAT             | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
+| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
+| Overall_Accuracy    | 24.35                     | 23.81                       | 34.20                       | **35.50**                     |
+| Executable_Rate     | 0.00                      | 0.00                        | 26.41                       | **33.77**                     |
+| Executable_Accuracy | 0.00                      | 0.00                        | **60.66**                   | 60.26                         |
+
+From these tables it is clear that there is not one dominant model, since between the five tasks there are three different models performing best. Furthermore, models that perform best on a certain task, may completely fail to generate executable logic programs on another task. On inspection, such total failure is due to the model being unable to follow the instructions concerning the formatting of the logic program. So it will for example add explanations for what it is doing in natural language in places where it will break the logic program. There does not seem to be a clear pattern in when a model fails in this way. Even models that are presumably similar like gemini-1.5-pro-preview-0409 and gemini-1.5-pro-preview-0514 give unpredictably different results in this regard. Recall here that we sample with 0 temperature. This points to an important fragility in the Logic-LM approach. Besides random total failures, there is the case of AR-LSAT where no model performs well. Analysis of the mistakes suggests that the model does not understand parts of the syntax of the z3 solver. It will try to use functionalities from the z3 solver incorrectly. This is probably due to there not being enough z3 code in the pre-training data and the few shot examples not covering certain aspects of the language. Exploratory experimentation with ~750k prompts simply also containing all documentation for z3 did not solve the problems.
+
+Evaluation of the baselines with Gemini. All baselines results (Direct and CoT) are done with gemini-1.5-flash-preview-0514. Best accuracy score of the Logic-LM approach with the CoT backup strategy is presented for comparison.
+
+| dataset          | mode     | accuracy  | best model                    |
+| ---------------- | -------- | --------- | ----------------------------- |
+| ProntoQA         | Direct   | 63.80     | -                             |
+| -                | CoT      | 92.34     | -                             |
+| -                | Logic-LM | **97.40** | gemini-1.5-pro-preview-0409   |
+| ProofWriter      | Direct   | 53.83     | -                             |
+| -                | CoT      | 65.15     | -                             |
+| -                | Logic-LM | **78.04** | gemini-1.5-pro-preview-0409   |
+| FOLIO            | Direct   | 66.67     | -                             |
+| -                | CoT      | 49.25     | -                             |
+| -                | Logic-LM | **80.60** | gemini-1.5-pro-preview-0514   |
+| LogicalDeduction | Direct   | 54.67     | -                             |
+| -                | CoT      | 30.00     | -                             |
+| -                | Logic-LM | **84.67** | gemini-1.5-pro-preview-0514   |
+| AR-LSAT          | Direct   | 27.95     | -                             |
+| -                | CoT      | 20.35     | -                             |
+| -                | Logic-LM | **35.50** | gemini-1.5-flash-preview-0514 |
+
+Here we see that the results of the Logic-LM approach with the best model significantly outperforms both direct and CoT prompting. Note however that the fragility noted above means that it is not necessarily clear a priori which model would be the best for the Logic-LM approach.
+
+### 3.2 Multi-modal Logic Reasoning
 
 In a multi-modal setting, the Large Language Model (LLM) is provided not only with textual data but also with other forms of data, such as images. The LLM must extract crucial information from these diverse data types to perform reasoning tasks effectively.
 
-#### 3.1.1 Datasets for Multi-modal Logic Reasoning
+#### 3.2.1 Datasets for Multi-modal Logic Reasoning
 
 The multi-modal logic reasoning experiments were conducted using synthetic datasets specifically created for tasks like Sudoku and Graph Coloring problems. These datasets included various types of data representations such as graphs, Sudoku puzzles, and the SET card games. In addition to these data structures, a textual prompt was also provided to specify the task at hand and the desired output format.
 
@@ -148,7 +246,7 @@ The datasets were created by combining both textual and visual inputs. The textu
 
 For direct prompting, models were provided with a sample question, an accompanying picture, and the correct answer. For ASP prompting, models received a sample question, an accompanying picture, an ASP program representing the problem, and the correct answer.
 
-#### 3.1.2 ASP as a Symbolic Language
+#### 3.2.2 ASP as a Symbolic Language
 
 We utilized an additional symbolic language, Answer Set Programming (ASP), to represent the multi-modal logic problems. ASP is more restricted than First-Order Logic (FOL) but is simpler to program. ASP programs can be solved using tools like Clingo.
 
@@ -191,7 +289,7 @@ answer(Color) :- coloring(5,Color).
 #show answer/1.
 ```
 
-#### 3.1.3 Results for Multi-modal Logic Reasoning
+#### 3.2.3 Results for Multi-modal Logic Reasoning
 
 We evaluated the multi-modal LLM from the Gemini family (`gemini-1.5-pro-preview-0409`) using both ASP and direct prompting strategies. To validate the ASP-generated code, we employed the Clingo solver. The results are summarized below:
 
@@ -296,103 +394,6 @@ We used Microsoft Azure to run the GPT-4 model and Google Vertex AI to run the G
 | Gemini Pro   | 40           | 21 seconds             | Moderate cost, faster performance |
 | Gemini Flash | 40           | 8 seconds              | Best value, fastest performance   |
 
-### 3.2 Prompting - Ablation Experiments - In Context Learning
-
-We evaluated the LLama family of models, i.e. `meta-llama/Llama-2-7b-chat-hf` and `meta-llama/Meta-Llama-3-8B-Instruct`. In general, LLama3 performs way better than LLama2. The results table below are conducted wrt Llama3. We found that for logical tasks, where we have to predict one option out of 5 available options, the model is somewhat biased towards predicting the first choice. Additionally, if we allow generating more tokens by increasing the max_new_tokens hyperparameter, i.e. increasing the maximum number of tokens to generate, the quality of the logic programs gets better. Additionally, we also performed an experiment when we prompted the model to predict all the incorrect options. We get higher accuracy in this case, since we have 4 incorrect choices and 1 correct choice per sample. So, predicting a wrong answer is easier compared to the correct one.
-
-|                        Dataset                         | Prompting | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct ) |
-| :----------------------------------------------------: | :-------: | :----------------------------------------------------: |
-|                    AR-LSAT Baseline                    |  Direct   |                         19.56                          |
-| AR-LSAT Swap the correct answer always to first choice |  Direct   |                           25                           |
-|          AR-LSAT Predict wrong answer choices          |  Direct   |                           26                           |
-
-Additionally, below table demonstrates the Direct, CoT and Logic-LM results on all datasets with Llama3(meta-llama/Meta-Llama-3-8B-Instruct):
-
-|     Dataset      |                             Prompting                             | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct ) |
-| :--------------: | :---------------------------------------------------------------: | :----------------------------------------------------: |
-|     ProntoQA     |                   Direct ( 16 max_new_tokens )                    |                           43                           |
-|     ProntoQA     |                    CoT ( 1024 max_new_tokens )                    |                          76.6                          |
-|     ProntoQA     |                Logic-LM (random backup strategy )                 |                           55                           |
-|     ProntoQA     | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                         42.46                          |
-|     ProntoQA     |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                           8                            |
-|   ProofWriter    |                   Direct ( 16 max_new_tokens )                    |                           33                           |
-|   ProofWriter    |                    CoT ( 1024 max_new_tokens )                    |                         28.54                          |
-|   ProofWriter    |                Logic-LM (random backup strategy )                 |                          28.7                          |
-|   ProofWriter    | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                         28.69                          |
-|   ProofWriter    |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                         28.695                         |
-|      FOLIO       |                   Direct ( 16 max_new_tokens )                    |                          46.5                          |
-|      FOLIO       |                    CoT ( 1024 max_new_tokens )                    |                           36                           |
-|      FOLIO       |                Logic-LM (random backup strategy )                 |                           43                           |
-|      FOLIO       | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                           53                           |
-|      FOLIO       |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                         44.285                         |
-| LogicalDeduction |                   Direct ( 16 max_new_tokens )                    |                         32.33                          |
-| LogicalDeduction |                    CoT ( 1024 max_new_tokens )                    |                           22                           |
-| LogicalDeduction |                Logic-LM (random backup strategy )                 |                         24.27                          |
-| LogicalDeduction | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                           31                           |
-| LogicalDeduction |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                         20.38                          |
-|     AR-LSAT      |                   Direct ( 16 max_new_tokens )                    |                          7.36                          |
-|     AR-LSAT      |                    CoT ( 1024 max_new_tokens )                    |                         8.225                          |
-|     AR-LSAT      |                Logic-LM (random backup strategy )                 |                           22                           |
-|     AR-LSAT      | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                           12                           |
-|     AR-LSAT      |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                           6                            |
-
-### 3.3 Gemini results
-
-Evaluation logic programs per task with backup option 'CoT'. Best results per row in bold.
-
-| ProntoQA            | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
-| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
-| Overall_Accuracy    | 92.60                     | **97.40**                   | 93.00                       | 92.60                         |
-| Executable_Rate     | 0.00                      | **96.40**                   | 0.00                        | 0.00                          |
-| Executable_Accuracy | 0.00                      | **97.30**                   | 0.00                        | 0.00                          |
-
-| ProofWriter         | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
-| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
-| Overall_Accuracy    | 74.12                     | **78.04**                   | 66.17                       | 66.17                         |
-| Executable_Rate     | 64.44                     | **89.36**                   | 0.00                        | 4.67                          |
-| Executable_Accuracy | 76.17                     | **80.53**                   | 0.00                        | 53.57                         |
-
-| FOLIO               | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
-| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
-| Overall_Accuracy    | 63.50                     | 75.25                       | **80.60**                   | 59.80                         |
-| Executable_Rate     | 48.50                     | 58.42                       | **78.11**                   | 4.41                          |
-| Executable_Accuracy | 68.04                     | 83.05                       | 85.35                       | **100.00**                    |
-
-| LogicalDeduction    | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
-| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
-| Overall_Accuracy    | 64.67                     | 64.67                       | **84.67**                   | 57.67                         |
-| Executable_Rate     | 60.00                     | 60.00                       | **100.00**                  | 71.67                         |
-| Executable_Accuracy | **89.44**                 | 87.22                       | 84.67                       | 69.77                         |
-
-| AR-LSAT             | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
-| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
-| Overall_Accuracy    | 24.35                     | 23.81                       | 34.20                       | **35.50**                     |
-| Executable_Rate     | 0.00                      | 0.00                        | 26.41                       | **33.77**                     |
-| Executable_Accuracy | 0.00                      | 0.00                        | **60.66**                   | 60.26                         |
-
-From these tables it is clear that there is not one dominant model, since between the five tasks there are three different models performing best. Furthermore, models that perform best on a certain task, may completely fail to generate executable logic programs on another task. On inspection, such total failure is due to the model being unable to follow the instructions concerning the formatting of the logic program. So it will for example add explanations for what it is doing in natural language in places where it will break the logic program. There does not seem to be a clear pattern in when a model fails in this way. Even models that are presumably similar like gemini-1.5-pro-preview-0409 and gemini-1.5-pro-preview-0514 give unpredictably different results in this regard. Recall here that we sample with 0 temperature. This points to an important fragility in the Logic-LM approach. Besides random total failures, there is the case of AR-LSAT where no model performs well. Analysis of the mistakes suggests that the model does not understand parts of the syntax of the z3 solver. It will try to use functionalities from the z3 solver incorrectly. This is probably due to there not being enough z3 code in the pre-training data and the few shot examples not covering certain aspects of the language. Exploratory experimentation with ~750k prompts simply also containing all documentation for z3 did not solve the problems.
-
-Evaluation of the baselines with Gemini. All baselines results (Direct and CoT) are done with gemini-1.5-flash-preview-0514. Best accuracy score of the Logic-LM approach with the CoT backup strategy is presented for comparison.
-
-| dataset          | mode     | accuracy  | best model                    |
-| ---------------- | -------- | --------- | ----------------------------- |
-| ProntoQA         | Direct   | 63.80     | -                             |
-| -                | CoT      | 92.34     | -                             |
-| -                | Logic-LM | **97.40** | gemini-1.5-pro-preview-0409   |
-| ProofWriter      | Direct   | 53.83     | -                             |
-| -                | CoT      | 65.15     | -                             |
-| -                | Logic-LM | **78.04** | gemini-1.5-pro-preview-0409   |
-| FOLIO            | Direct   | 66.67     | -                             |
-| -                | CoT      | 49.25     | -                             |
-| -                | Logic-LM | **80.60** | gemini-1.5-pro-preview-0514   |
-| LogicalDeduction | Direct   | 54.67     | -                             |
-| -                | CoT      | 30.00     | -                             |
-| -                | Logic-LM | **84.67** | gemini-1.5-pro-preview-0514   |
-| AR-LSAT          | Direct   | 27.95     | -                             |
-| -                | CoT      | 20.35     | -                             |
-| -                | Logic-LM | **35.50** | gemini-1.5-flash-preview-0514 |
-
-Here we see that the results of the Logic-LM approach with the best model significantly outperforms both direct and CoT prompting. Note however that the fragility noted above means that it is not necessarily clear a priori which model would be the best for the Logic-LM approach.
 
 ## 4. Concluding Remarks
 
