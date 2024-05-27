@@ -33,7 +33,7 @@ cd Logic-LLM/baselines
 ./baselines_gemini.sh
 ```
 #### Evaluation
-To evaluate all Gemini baseline results, go (back) to the [baseline folder](https://github.com/dqmis/dl2/tree/master/Logic-LLM/baselines/) and run:
+To evaluate all Gemini baseline results, go (back) to the [Logic-LM folder](https://github.com/dqmis/dl2/tree/master/Logic-LLM/) and run:
 ```
 conda deactivate
 conda activate solver2
