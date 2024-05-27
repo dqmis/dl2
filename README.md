@@ -20,7 +20,7 @@ To run the prompts using Vertex AI, you need to set up an account and a service 
 TODO
 
 ## Snellius/own accelerator for Llama
-TODO
+Fill in form on Huggingface to get access to Llama models and create a GitHub CLI token.
 
 
 # How to use
@@ -76,17 +76,17 @@ This will print the respective evaluations of the accuracy for the case in which
 TODO or make a seperate second-level heading??
 
 ## Reproducing LLama results
-Python scripts are added in the root folder for testing various components, including the support of LLaMA models, by using one example as input.
+Python scripts are added in the root folder for testing various components, including the support of LLaMA models, by using one example as input. The following just needs the solver2 env.
 ### Baseline:
 #### Prompting
 Run the command to generate Llama3 outputs for baseline (16 for Direct , 1024 for CoT):
 ```
-python baselines/lama_baseline.py.py   --model_name "lama3" --dataset_name "FOLIO" --split dev --mode "Direct" --max_new_tokens "16" 
+python3 baselines/lama_baseline.py.py   --model_name "lama3" --dataset_name "FOLIO" --split dev --mode "Direct" --max_new_tokens "16" 
 ```
 #### Evaluation
 For evaluation, run:
 ```
-python evaluate_llama.py \
+python3 evaluate_llama.py \
     --dataset_name "Dataset Name [ProntoQA | ProofWriter | FOLIO | LogicalDeduction ｜ AR-LSAT]" \
     --model_name "lama3" \
     --split dev \
@@ -95,12 +95,12 @@ python evaluate_llama.py \
 ### Logic-LM
 #### Prompting
 ```
-python models/logic_program_lama.py  --dataset_name "AR-LSAT" --split dev  --model_name "lama3"  --max_new_tokens 1024 
+python3 models/logic_program_lama.py  --dataset_name "AR-LSAT" --split dev  --model_name "lama3"  --max_new_tokens 1024 
 ```
 #### Running symbolic solvers
 For inference:
 ```
-python models/logic_inference.py \
+python3 models/logic_inference.py \
     --model_name lama3 \
     --dataset_name ${DATASET} \
     --split dev \
@@ -110,5 +110,5 @@ python models/logic_inference.py \
 #### Evaluation
 For evaluation, run:
 ```
-python evaluate_llama.py --dataset_name "FOLIO"  --model_name "gpt-4" --split dev --backup "random or LLM"
+python3 evaluate_llama.py --dataset_name "FOLIO"  --model_name "gpt-4" --split dev --backup "random or LLM"
 ```
