@@ -106,7 +106,7 @@ Furthermore, the Result Interpreter plays a significant role in the iterative re
 
 ### 2.4 Datasets
 
-We incorporated logical reasoning datasets including ProofWriter (Tafjord et al., 2020), PrOntoQA (Saparov & He, 2022), FOLIO (Han, 2022), AR-LSAT (Han et al., 2022), and LogicalDeduction from BigBench (Srivastava et al., 2022), supplemented by multi-modal data from the SET (Webb, 2023) card game.
+We integrated a diverse range of logical reasoning datasets into the training process of LOGIC-LM. Each dataset serves a specific purpose in enhancing our model's ability to reason effectively. [PrOntoQA](https://github.com/asaparov/prontoqa) and [ProofWriter](https://allenai.org/data/proofwriter) for deductive reasoning datasets. [FOLIO](https://github.com/Yale-LILY/FOLIO), a First-Order Logic reasoning dataset, is used for evaluation. [LogicalDeduction](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/logical_deduction) provides scenarios for solving Constraint Satisfaction Problems (CSPs). Furthermore, [AR-LSAT](https://github.com/zhongwanjun/AR-LSAT) provides analytical reasoning (AR) problems. Complementing these datasets, we included multi-modal data from the SET card game to further enrich our model's training. This holistic approach ensures that our model is well-equipped to handle diverse logical reasoning challenges across various domains.
 
 An example from the AR-LSAT dataset, where given a problem statement as context, the task of the model is to answer a logical reasoning question:
 ```
