@@ -102,9 +102,7 @@ First of all, we also used the logical reasoning datasets used in the original L
 TODO better brief explanation of the datasets! Short, but now is just too vague. "a First-Order Logic reasoning dataset, is used for evaluation"??
 
 
-[PrOntoQA](https://github.com/asaparov/prontoqa) and [ProofWriter](https://allenai.org/data/proofwriter) for deductive reasoning datasets. [FOLIO](https://github.com/Yale-LILY/FOLIO), a First-Order Logic reasoning dataset, is used for evaluation. [LogicalDeduction](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/logical_deduction) provides scenarios for solving Constraint Satisfaction Problems (CSPs). Furthermore, [AR-LSAT](https://github.com/zhongwanjun/AR-LSAT) provides analytical reasoning (AR) problems. Complementing these datasets, we included multi-modal data from the [SET](https://github.com/Awni00/abstractor/tree/main/experiments/set) card game.
-
-TODO: sudoku. Just name, later explained.
+[PrOntoQA](https://github.com/asaparov/prontoqa) and [ProofWriter](https://allenai.org/data/proofwriter) for deductive reasoning datasets. [FOLIO](https://github.com/Yale-LILY/FOLIO), a First-Order Logic reasoning dataset, is used for evaluation. [LogicalDeduction](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/logical_deduction) provides scenarios for solving Constraint Satisfaction Problems (CSPs). Furthermore, [AR-LSAT](https://github.com/zhongwanjun/AR-LSAT) provides analytical reasoning (AR) problems. Furthermore, for the multi-model logic reasoning experiments, we utilized [SET](https://github.com/Awni00/abstractor/tree/main/experiments/set) card game, and synthetic datasets tailored for tasks like Sudoku and graph colouring (see section 4.3).
 
 An example from the AR-LSAT dataset, where given a problem statement as context, the task of the model is to answer a logical reasoning question:
 ```
