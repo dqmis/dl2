@@ -86,7 +86,10 @@ The ability to reason is crucial for maximizing the utility of knowledge, partic
 
 An important benefit of employing symbolic solvers is their deterministic nature. In contrast to LLMs, which produce outputs using probabilistic models and statistical patterns, symbolic solvers operate according to strict logical rules. This deterministic methodology guarantees that the reasoning process is both accurate and transparent. Accuracy pertains to the solver's capacity to strictly adhere to logical principles without introducing errors or inconsistencies. Transparency, on the other hand, is achieved because each stage of the reasoning process can be traced and validated against logical rules.
 
+<!---
+WE DIDN'T REALLY DO THIS. MAYBE JUST SKIP IT IN THE BLOG?
 Furthermore, Logic-LM incorporates an iterative refinement process. During inference, if the symbolic solver encounters errors or inconsistencies, it generates error messages. These messages are then used by the self-refinement module to iteratively revise the symbolic representation. This iterative process continues until the symbolic formulation accurately captures the intended logical structure of the problem, thereby enhancing both accuracy and coherence.
+-->
 
 The incorporation of symbolic solvers into the Logic-LM framework illustrates a hybrid approach that leverages the natural language understanding capabilities of LLMs while embracing the rigor and precision of symbolic reasoning. This integration not only overcomes the inherent limitations of LLMs in logical reasoning but also paves the way for more robust and interpretable language models that can effectively tackle complex reasoning tasks with greater accuracy. The integration of symbolic solvers into the Logic-LM framework exemplifies a hybrid approach that combines the strengths of LLMs in natural language understanding with the rigor and precision of symbolic reasoning. By doing so, Logic-LM not only addresses the inherent limitations of LLMs in logical reasoning but also sets the stage for more robust and interpretable language models capable of tackling complex reasoning tasks with higher fidelity.
 
@@ -97,7 +100,10 @@ Once the symbolic solver has completed the necessary inferences and generated a 
 This translation process involves several steps. Firstly, the formal symbolic representations are parsed and analyzed to extract the fundamental logical components and their relationships. Subsequently, these components are matched with their corresponding natural language expressions. The Result Interpreter must ensure that this matching accurately preserves the logical structure and meaning of the original symbolic answer, thereby upholding the accuracy and integrity of the reasoning process.
 
 The incorporation of the Result Interpreter into the Logic-LM framework elevates the interpretability of the system’s outputs. Users can gain access to clear and succinct explanations of intricate logical inferences, which can prove particularly beneficial in applications like automated theorem proving, complex question answering, and semantic parsing. Through the transformation of symbolic solutions into natural language, the Result Interpreter ensures that the logical precision of the symbolic solver remains intact in the interpretation process.
+<!---
+WE DIDN'T REALLY DO THIS. MAYBE JUST SKIP IT IN THE BLOG?
 Furthermore, the Result Interpreter plays a significant role in the iterative refinement process. By offering natural language feedback on the results produced by the symbolic solver, it can aid in identifying ambiguities or inconsistencies in the initial problem formulation. This feedback can then be utilized to iteratively refine and enhance the symbolic representation, ultimately leading to more precise and coherent final outputs.
+-->
 
 ### 2.4 Datasets
 
