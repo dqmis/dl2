@@ -79,6 +79,15 @@ can_fly(X) :- bird(X), not cannot_fly(X).
 
 There is a great blog, that introduces basic of answer set programming, which is a subset of logic programming, and how to use it to solve problems. You can find it [here](https://ddmler.github.io/asp/2018/07/06/answer-set-programming-the-basics.html).
 
+## 2 Our research (re-arrange headers?)
+An intuition for why the logic programming prompting approach can work well is that (for a LLM) just finding a represention for a problem is a simpler task than grasping the problem plus doing inference plus deciding on an answer. It is also in a somewhat vague, loose sense more similar to the kind of task that LLMs perform well on (like extraction, summarization, etc) compared to complex logic problems that require many inference steps. So the Logic-LM framework combines the valid reasoning of symbolic solvers with the ability of LLMs to handle input of all kinds of styles and formatting and perform (relatively simple) tasks on it with in-context learning. 
+
+However, since symbolic solvers can only handle very specifically formatted input, it is easy for a LLM to make a mistake that will lead to catastrophic unparsable or unsound logic programs. Although the paper reports significant improvements on the baseline, it is not clear how robustly this approach generalizes and whether it will easily `break' outside the experiments of the authors. We have test this by checking whether the prompts port well to other LLMs/foundations models, problems with multiple modalities and a different symbolic solver. 
+
+TODO motivate Soham's experiments on reasoning.
+-the research on order bias shows a limitation of LLMs that logic programs don't have
+-negative examples?
+
 ### 2.4 Datasets
 
 We integrated a diverse range of logical reasoning datasets into the training process of LOGIC-LM. Each dataset serves a specific purpose in enhancing our model's ability to reason effectively. [PrOntoQA](https://github.com/asaparov/prontoqa) and [ProofWriter](https://allenai.org/data/proofwriter) for deductive reasoning datasets. [FOLIO](https://github.com/Yale-LILY/FOLIO), a First-Order Logic reasoning dataset, is used for evaluation. [LogicalDeduction](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/logical_deduction) provides scenarios for solving Constraint Satisfaction Problems (CSPs). Furthermore, [AR-LSAT](https://github.com/zhongwanjun/AR-LSAT) provides analytical reasoning (AR) problems. Complementing these datasets, we included multi-modal data from the [SET](https://github.com/Awni00/abstractor/tree/main/experiments/set) card game to further enrich our model's training. This holistic approach ensures that our model is well-equipped to handle diverse logical reasoning challenges across various domains.
