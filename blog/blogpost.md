@@ -31,19 +31,7 @@ Inspired by the proposed solution of enhancing LLMs' logical problem-solving cap
 
 ## 2. Logic-LM Framework
 
-The Logic-LM framework's reasoning process comprises three main stages: Problem Formulation, Symbolic Reasoning, and Result Interpretation.
-
-**Problem Formulation:** In this stage, the Large Language Model (LLM) converts the problem from natural language into a symbolic format. This involves identifying essential entities, facts, and rules within the problem statement, effectively translating human-readable text into a structured logical representation.
-
-**Symbolic Reasoning:** During this stage, a deterministic symbolic solver is employed to perform inference based on the symbolic formulation created in the previous stage. Unlike LLMs, which rely on statistical heuristics, the symbolic solver strictly adheres to formal rules, thereby ensuring precise and consistent logical reasoning.
-
-**Result Interpretation:** In the final stage, an interpreter is used to explain the output of the symbolic solver, aligning it with the correct answer and making it comprehensible to the user.
-
-This structured approach allows the Logic-LM framework to effectively address complex reasoning tasks. Compared to the direct prompting approach, **Logic Programming (LP) prompting** enables the model to generate more accurate and coherent logical reasoning outputs by following a systematic thought framework. This approach is similar to the [chain-of-thought prompting](https://arxiv.org/abs/2201.11903) (CoT), but it is based on symbolic reasoning rather than purely statistical methods. Additionally, Logic-LM employs two backup strategies to handle cases where the generated logic program cannot be executed by the symbolic solver:
-
--The basic mode (random): If the symbolic solver fails, the system uses a random guess as the prediction.
-
--Logic collabration mode (LLM): When the symbolic solver encounters difficulties, the system switches to a chain-of-thought (CoT) model, which loads baseline LLM results and uses them as the prediction. This backup strategy ensures that reasonable predictions are provided even in challenging scenarios.
+The basic proposal of the Logic-LM framework is summarized schematically in the figure below. In the standard (or 'direct prompting') approach a LLM has to directly map a logic problem to an answer, thereby being solely responsible for grasping the problem statement, performing (implicitly or explicitly) a chain of reasoning and arriving at an answer. The Logic-LM framework divides this process into smaller steps.
 
 <br/>
 <p align="center">
@@ -51,10 +39,15 @@ This structured approach allows the Logic-LM framework to effectively address co
 </p>
 <br/>
 
-### 2.1 Problem formulation
+**LP -> LLM -> Logic program**: It proposes instead to burden the LLM with just grasping the problem and finding a logical representation of the problem. This involves identifying the relevant entities, facts, and rules within the problem statement, effectively translating human-readable text into a structured logical representation. We will give an example of such a representation soon. We will call this **Logic Programming (LP) prompting**. They also involve in-context learning where a few examples of such transformations into the proper syntax are prepended to the prompt. 
 
-Logic programming is a programming paradigm that is particularly well-suited for tasks involving symbolic reasoning and knowledge representation. It is fundamentally different from imperative programming in that it expresses computation through logical declarations and relationships rather than explicit control flow. In logic programming, problems are formulated as a set of logical statements, often in the form of predicates, which describe facts and rules about problems within a given domain. The most well-known logic programming language is Prolog. In Prolog, computation is driven by the engine's attempt to satisfy queries by systematically searching for and applying rules and facts. The declarative nature of logic programming often leads to more concise, flexible, and understandable code, as it allows programmers to focus on “what” needs to be achieved rather than “how” to achieve it.
+**Logic program -> Logic program solver**: Doing inference with this representation is not done with the LLM but with a symbolic solver that encodes our best theories of correct and efficient formal reasoning. If something went wrong at the previous step and the logic program can not be parsed by the solver, then as a 'backup' a random answer could be given or it could fall back on the baseline, direct prompting approach. 
 
+**Logic program solver -> Answer** In the final stage, a final answer is decided. In our experiments this follows straightforward from the solver because we can let it generate logic programs that lead to a choice between the option. In the case of more open ended problems one could use a LLM to extract a legible answer from the output of logic program solver instead. 
+
+### 2.1 Logic programs
+
+If you are deeply familiar with logic programming you may skip this section, because what follows is a quick introduction of refresher. Logic programming is a programming paradigm that is particularly well-suited for tasks involving symbolic reasoning and knowledge representation. It is fundamentally different from imperative programming in that it expresses computation through logical declarations and relationships rather than explicit control flow. In logic programming, problems are formulated as a set of logical statements, often in the form of predicates, which describe facts and rules about problems within a given domain. The most well-known logic programming language is Prolog. In Prolog, computation is driven by the engine's attempt to satisfy queries by systematically searching for and applying rules and facts. The declarative nature of logic programming often leads to more concise, flexible, and understandable code, as it allows programmers to focus on “what” needs to be achieved rather than “how” to achieve it.
 For example, below you can see a simple program that seeks to find which of the given birds can fly:
 
 ```prolog
