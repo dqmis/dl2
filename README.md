@@ -15,7 +15,7 @@ TODO what envs for Llama and GPT-4? What about for generating the multimodal dat
 # Setting up the LLMs
 For this project various Large Language Models (LLMs) are used, namely GPT-4, Gemini and LLaMA. For GPT-4, an API key is required to run the code. To work with Gemini models, we utilized Vertex AI. Finally, LLaMA is accessed with Hugging Face, of which a login is needed.
 ## Vertex AI for Gemini
-To run the prompts using Vertex AI, you need to set up an account and a service account. See also the [quickstart](https://cloud.google.com/vertex-ai/generative-ai/docs/start/quickstarts/quickstart-multimodal). Make sure to change the credentials to your own in the config files ([baseline](https://github.com/dqmis/dl2/tree/master/Logic-LLM/baselines/model_globals.py) and [Logic-LM](https://github.com/dqmis/dl2/tree/master/Logic-LLM/models/model_globals.py)). Using your environment run `gcloud auth login` in the command line and follow the instructions in the pop up to login.
+To run the prompts using Vertex AI, you need to set up an account and a service account. See also the [quickstart](https://cloud.google.com/vertex-ai/generative-ai/docs/start/quickstarts/quickstart-multimodal). Make sure to change the credentials to your own in the config files ([baseline](https://github.com/dqmis/dl2/tree/master/Logic-LLM/baselines/model_globals.py) and [Logic-LLM](https://github.com/dqmis/dl2/tree/master/Logic-LLM/models/model_globals.py)). Using your environment run `gcloud auth login` in the command line and follow the instructions in the pop up to login.
 ## Azure (?) for GPT-4 
 TODO
 
@@ -33,7 +33,7 @@ cd Logic-LLM/baselines
 ./baselines_gemini.sh
 ```
 #### Evaluation
-To evaluate all Gemini baseline results, go (back) to the [Logic-LM folder](https://github.com/dqmis/dl2/tree/master/Logic-LLM/) and run:
+To evaluate all Gemini baseline results, go (back) to the [Logic-LLM folder](https://github.com/dqmis/dl2/tree/master/Logic-LLM/) and run:
 ```
 conda deactivate
 conda activate solver2
@@ -61,7 +61,7 @@ python3 ./models/evaluation_save.py
 This will save the evaluation of the results in [evaluation_baselines.json](https://github.com/dqmis/dl2/tree/master/Logic-LLM/baselines/evaluation/evaluation_baselines.json).
 ### Order bias
 #### Prompting
-Note that our [results](https://github.com/dqmis/dl2/tree/master/Logic-LLM/baselines/results/) from the order bias prompting are already in the github repo. To rerun these prompts, go to the [Logic-LLM folder](https://github.com/dqmis/dl2/tree/master/Logic-LLM/baselines) and run the right bash file. This will run the prompts for all datasets from the paper.
+Note that our [results](https://github.com/dqmis/dl2/tree/master/Logic-LLM/baselines/results/) from the order bias prompting are already in the github repo. To rerun these prompts, go to the [baselines folder](https://github.com/dqmis/dl2/tree/master/Logic-LLM/baselines) and run the right bash file. This will run the prompts for all datasets from the paper.
 ```
 ./order_bias_gemini.sh
 ```
