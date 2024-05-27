@@ -195,8 +195,8 @@ Best results per row in bold.
 <tbody>
   <tr>
     <td rowspan="2">Dataset<br></td>
-    <td colspan="3">Direct</td>
-    <td colspan="3">ASP</td>
+    <td colspan="3" style=text-align:center>Direct</td>
+    <td colspan="3" style=text-align:center>ASP</td>
   </tr>
   <tr>
     <td>Gemini Pro</td>
@@ -211,7 +211,7 @@ Best results per row in bold.
     <td>28.50</td>
     <td>25.51</td>
     <td>23.50</td>
-    <td>67.50</td>
+    <td style=font-weight:bold>67.50</td>
     <td>22.00</td>
     <td>29.64</td>
   </tr>
@@ -221,7 +221,7 @@ Best results per row in bold.
     <td>48.03</td>
     <td>49.50</td>
     <td>92.08</td>
-    <td>93.00</td>
+    <td style=font-weight:bold>93.00</td>
     <td>87.75</td>
   </tr>
   <tr>
@@ -229,7 +229,7 @@ Best results per row in bold.
     <td>36.65</td>
     <td>29.50</td>
     <td>26.00</td>
-    <td>65.01</td>
+    <td style=font-weight:bold>65.01</td>
     <td>38.21</td>
     <td>28.01</td>
   </tr>
@@ -238,7 +238,7 @@ Best results per row in bold.
     <td>54.75</td>
     <td>54.00</td>
     <td>52.51</td>
-    <td>94.50</td>
+    <td style=font-weight:bold>94.50</td>
     <td>90.50</td>
     <td>86.25</td>
   </tr>
@@ -247,7 +247,7 @@ Best results per row in bold.
     <td>58.00</td>
     <td>55.51</td>
     <td>53.01</td>
-    <td>67.00</td>
+    <td style=font-weight:bold>67.00</td>
     <td>48.51</td>
     <td>54.51</td>
   </tr>
