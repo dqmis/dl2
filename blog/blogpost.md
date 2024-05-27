@@ -43,9 +43,12 @@ The Logic-LM framework uses a different approach called Logic Programming (LP) p
 
 1. **Logic problem -> LLM -> Logic program**: It proposes instead to burden the LLM with just grasping the problem and finding a logical representation of the problem. This involves identifying the relevant entities, facts, and rules within the problem statement, effectively translating human-readable text into a structured logical representation. We will give an example of such a representation soon. We will call this **Logic Programming (LP) prompting**. They also involve in-context learning where a few examples of such transformations into the proper syntax are prepended to the prompt.
 
+TODO: maybe instead of 'soon', 'in section ...'
+NOTE: now it sounds like only step 1 is LP prompting
+
 2. **Logic program -> Logic program solver**: Doing inference with this representation is not done with the LLM but with a symbolic solver that encodes our best theories of correct and efficient formal reasoning. If something went wrong at the previous step and the logic program can not be parsed by the solver, then as a 'backup' a random answer could be given or it could fall back on the baseline, direct prompting approach.
 
-3. **Logic program solver -> Answer** In the final stage, a final answer is decided. In our experiments this follows straightforward from the solver because we can let it generate logic programs that lead to a choice between the option. In the case of more open ended problems one could use a LLM to extract a legible answer from the output of logic program solver instead.
+3. **Logic program solver -> Answer**: In the final stage, a final answer is decided. In our experiments this follows straightforward from the solver because we can let it generate logic programs that lead to a choice between the option. In the case of more open ended problems one could use a LLM to extract a legible answer from the output of logic program solver instead.
 
 ### 2.1 Logic programs
 
