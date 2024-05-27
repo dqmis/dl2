@@ -114,7 +114,10 @@ We incorporated logical reasoning datasets including ProofWriter (Tafjord et al.
 An example from the AR-LSAT dataset, where given a problem statement as context, the task of the model is to answer a logical reasoning question:
 ```
 Context:
-During a single week, from Monday through Friday, tours will be conducted of a company's three divisions\u2014Operations, Production, and Sales. Exactly five tours will be conducted that week, one each day. The schedule of tours for the week must conform to the following restrictions: Each division is toured at least once. The Operations division is not toured on Monday. The Production division is not toured on Wednesday. The Sales division is toured on two consecutive days, and on no other days. If the Operations division is toured on Thursday, then the Production division is toured on Friday.
+During a single week, from Monday through Friday, tours will be conducted of a company's three divisions- Operations, Production, and Sales.
+Exactly five tours will be conducted that week, one each day. The schedule of tours for the week must conform to the following restrictions: Each division is toured at least once. 
+The Operations division is not toured on Monday. The Production division is not toured on Wednesday. 
+The Sales division is toured on two consecutive days, and on no other days. If the Operations division is toured on Thursday, then the Production division is toured on Friday.
 
 Question: Which one of the following CANNOT be true of the week's tour schedule?
 
