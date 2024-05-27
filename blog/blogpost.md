@@ -279,7 +279,7 @@ Interestingly, [while GPT-4 performs better or similarly in most benchmarks](htt
 
 #### Note on Cost and Performance
 
-We used Microsoft Azure to run the GPT-4 model and Google Vertex AI to run the Gemini models. The cost to run all multi-modal experiments for GPT-4 was 82 euros, while for Gemini models, the cost for running two models was 40 euros. More interestingly, the average time per inference for GPT-4 was 66 seconds, whereas for Gemini Pro it was 21 seconds and for Gemini Flash 8 seconds. Considering both cost and performance, Gemini Flash emerges as the best choice for multi-modal reasoning.
+We used Microsoft Azure to run the GPT-4 model and Google Vertex AI to run the Gemini models. The cost to run all multi-modal experiments for GPT-4 was 82 euros, while for Gemini models, the cost for running two models was 40 euros. More interestingly, the average time per inference for GPT-4 was 66 seconds, whereas for Gemini Pro it was 21 seconds and for Gemini Flash 8 seconds. Considering both cost and performance, Gemini Flash emerges as the best choice for multi-modal reasoning. This is especially the case for the sudoku and graph validity tasks, where the accuracy is between Gemini Flash and Gemini Pro is similar. For the other mentioned tasks, there is a trade-off between runtime and accuracy, to decide to choose Gemini Flash or Gemini Pro.
 
 | Model        | Cost (Euros) | Average Inference Time | Cost and Performance Evaluation   |
 | ------------ | ------------ | ---------------------- | --------------------------------- |
