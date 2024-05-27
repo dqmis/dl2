@@ -20,7 +20,7 @@ To run the prompts using Vertex AI, you need to set up an account and a service 
 TODO
 
 ## Snellius/own accelerator for Llama
-#Baseline:#
+## Baseline: ##
 
 Run the commnad to generate Llama3 outputs for baseline (16 for Direct , 1024 for CoT):
 
@@ -34,7 +34,7 @@ python evaluate_llama.py \
     --split dev \
     --mode "Baseline [Direct | CoT]" \
 
-#To generate results using Logic-LM:#
+## To generate results using Logic-LM: ##
 1. Generate Logic Program:
 
 python models/logic_program_lama.py  --dataset_name "AR-LSAT" --split dev  --model_name "lama3"  --max_new_tokens 1024 
