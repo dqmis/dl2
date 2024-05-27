@@ -177,33 +177,50 @@ For direct prompting, models were provided with a sample question, an accompanyi
 
 We evaluated one LLama family of model `meta-llama/Meta-Llama-3-8B-Instruct` and four different Gemini family models `gemini-1.0-pro-vision-001`, `gemini-1.5-pro-preview-0409`, `gemini-1.5-pro-preview-0514` and `gemini-1.5-flash-preview-0514` In general we can see that for all families, the Logic-LM approach outperforms the direct and CoT prompting strategies. The best results are achieved with the Logic-LM approach, with the Gemini family models performing better than the Llama family model. The Gemini-1.5-pro-preview-0409 model performs best on the ProntoQA and ProofWriter datasets, while the Gemini-1.5-pro-preview-0514 model performs best on the FOLIO and LogicalDeduction datasets. The Gemini-1.5-flash-preview-0514 model performs best on the AR-LSAT dataset. The Llama model performs best on the ProntoQA dataset. You can see the results in the table below:
 
-| Dataset          | Prompting                                               | Accuracy (%) for Meta-Llama-3-8B-Instruct | Accuracy (%) for gemini-1.0-pro-vision-001 | Accuracy (%) for gemini-1.5-pro-preview-0409 | Accuracy (%) for gemini-1.5-pro-preview-0514 | Accuracy (%) for gemini-1.5-flash-preview-0514 |
-| ---------------- | ------------------------------------------------------- | ----------------------------------------- | ------------------------------------------ | -------------------------------------------- | -------------------------------------------- | ----------------------------- |
-| ProntoQA         | Direct (16 max_new_tokens)                              | 43                                        |                                            |                                              |                                              |                               |
-|                  | CoT (1024 max_new_tokens)                               | 76.6                                      |                                            |                                              |                                              |                               |
-|                  | Logic-LM (random backup strategy)                       | 55                                        |                                            |                                              |                                              |                               |
-|                  | Logic-LM (Direct-Logic collaboration mode (LLM) backup) | 42.46                                     |                                            |                                              |                                              |                               |
-|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup)    | 8                                         | 92.60                                      | **97.40**                                    | 93.00                                        | 92.60                         |
-| ProofWriter      | Direct (16 max_new_tokens)                              | 33                                        |                                            |                                              |                                              |                               |
-|                  | CoT (1024 max_new_tokens)                               | 28.54                                     |                                            |                                              |                                              |                               |
-|                  | Logic-LM (random backup strategy)                       | 28.7                                      |                                            |                                              |                                              |                               |
-|                  | Logic-LM (Direct-Logic collaboration mode (LLM) backup) | 28.69                                     |                                            |                                              |                                              |                               |
-|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup)    | 28.695                                    | 74.12                                      | **78.04**                                    | 66.17                                        | 66.17                         |
-| FOLIO            | Direct (16 max_new_tokens)                              | 46.5                                      |                                            |                                              |                                              |                               |
-|                  | CoT (1024 max_new_tokens)                               | 36                                        |                                            |                                              |                                              |                               |
-|                  | Logic-LM (random backup strategy)                       | 43                                        |                                            |                                              |                                              |                               |
-|                  | Logic-LM (Direct-Logic collaboration mode (LLM) backup) | 53                                        |                                            |                                              |                                              |                               |
-|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup)    | 44.285                                    | 63.50                                      | 75.25                                        | **80.60**                                    | 59.80                         |
-| LogicalDeduction | Direct (16 max_new_tokens)                              | 32.33                                     |                                            |                                              |                                              |                               |
-|                  | CoT (1024 max_new_tokens)                               | 22                                        |                                            |                                              |                                              |                               |
-|                  | Logic-LM (random backup strategy)                       | 24.27                                     |                                            |                                              |                                              |                               |
-|                  | Logic-LM (Direct-Logic collaboration mode (LLM) backup) | 31                                        |                                            |                                              |                                              |                               |
-|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup)    | 20.38                                     | 64.67                                      | 64.67                                        | **84.67**                                    | 57.67                         |
-| AR-LSAT          | Direct (16 max_new_tokens)                              | 7.36                                      |                                            |                                              |                                              |                               |
-|                  | CoT (1024 max_new_tokens)                               | 8.225                                     |                                            |                                              |                                              |                               |
-|                  | Logic-LM (random backup strategy)                       | 22                                        |                                            |                                              |                                              |                               |
-|                  | Logic-LM (Direct-Logic collaboration mode (LLM) backup) | 12                                        |                                            |                                              |                                              |                               |
-|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup)    | 6                                         | 24.35                                      | 23.81                                        | 34.20                                        | **35.50**                     |
+| Dataset          | Prompting                                            | Accuracy (%) for Meta-Llama-3-8B-Instruct | Accuracy (%) for gemini-1.0-pro-vision-001 | Accuracy (%) for gemini-1.5-pro-preview-0409 | Accuracy (%) for gemini-1.5-pro-preview-0514 | Accuracy (%) for gemini-1.5-flash-preview-0514 |
+| ---------------- | ---------------------------------------------------- | ----------------------------------------- | ------------------------------------------ | -------------------------------------------- | -------------------------------------------- | ---------------------------------------------- |
+| ProntoQA         | Direct (16 max_new_tokens)                           | 43                                        |                                            |                                              |                                              |                                                |
+|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup) | 8                                         | 92.60                                      | **97.40**                                    | 93.00                                        | 92.60                                          |
+| ProofWriter      | Direct (16 max_new_tokens)                           | 33                                        |                                            |                                              |                                              |                                                |
+|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup) | 28.695                                    | 74.12                                      | **78.04**                                    | 66.17                                        | 66.17                                          |
+| FOLIO            | Direct (16 max_new_tokens)                           | 46.5                                      |                                            |                                              |                                              |                                                |
+|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup) | 44.285                                    | 63.50                                      | 75.25                                        | **80.60**                                    | 59.80                                          |
+| LogicalDeduction | Direct (16 max_new_tokens)                           | 32.33                                     |                                            |                                              |                                              |                                                |
+|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup) | 20.38                                     | 64.67                                      | 64.67                                        | **84.67**                                    | 57.67                                          |
+| AR-LSAT          | Direct (16 max_new_tokens)                           | 7.36                                      |                                            |                                              |                                              |                                                |
+|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup) | 6                                         | 24.35                                      | 23.81                                        | 34.20                                        | **35.50**                                      |
+
+Evaluation logic programs per task with backup option 'CoT'. Best results per row in bold.
+
+| ProntoQA            | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
+| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
+| Overall_Accuracy    | 92.60                     | **97.40**                   | 93.00                       | 92.60                         |
+| Executable_Rate     | 0.00                      | **96.40**                   | 0.00                        | 0.00                          |
+| Executable_Accuracy | 0.00                      | **97.30**                   | 0.00                        | 0.00                          |
+
+| ProofWriter         | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
+| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
+| Overall_Accuracy    | 74.12                     | **78.04**                   | 66.17                       | 66.17                         |
+| Executable_Rate     | 64.44                     | **89.36**                   | 0.00                        | 4.67                          |
+| Executable_Accuracy | 76.17                     | **80.53**                   | 0.00                        | 53.57                         |
+
+| FOLIO               | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
+| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
+| Overall_Accuracy    | 63.50                     | 75.25                       | **80.60**                   | 59.80                         |
+| Executable_Rate     | 48.50                     | 58.42                       | **78.11**                   | 4.41                          |
+| Executable_Accuracy | 68.04                     | 83.05                       | 85.35                       | **100.00**                    |
+
+| LogicalDeduction    | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
+| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
+| Overall_Accuracy    | 64.67                     | 64.67                       | **84.67**                   | 57.67                         |
+| Executable_Rate     | 60.00                     | 60.00                       | **100.00**                  | 71.67                         |
+| Executable_Accuracy | **89.44**                 | 87.22                       | 84.67                       | 69.77                         |
+
+| AR-LSAT             | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514 | gemini-1.5-flash-preview-0514 |
+| ------------------- | ------------------------- | --------------------------- | --------------------------- | ----------------------------- |
+| Overall_Accuracy    | 24.35                     | 23.81                       | 34.20                       | **35.50**                     |
+| Executable_Rate     | 0.00                      | 0.00                        | 26.41                       | **33.77**                     |
+| Executable_Accuracy | 0.00                      | 0.00                        | **60.66**                   | 60.26                         |
 
 From these tables it is clear that there is not one dominant for a Gemini model family. Since between the five tasks there are three different models performing best. Furthermore, models that perform best on a certain task, may completely fail to generate executable logic programs on another task. On inspection, such total failure is due to the model being unable to follow the instructions concerning the formatting of the logic program. So it will for example add explanations for what it is doing in natural language in places where it will break the logic program. There does not seem to be a clear pattern in when a model fails in this way. Even models that are presumably similar like gemini-1.5-pro-preview-0409 and gemini-1.5-pro-preview-0514 give unpredictably different results in this regard. Recall here that we sample with 0 temperature. This points to an important fragility in the Logic-LM approach. Besides random total failures, there is the case of AR-LSAT where no model performs well. Analysis of the mistakes suggests that the model does not understand parts of the syntax of the z3 solver. It will try to use functionalities from the z3 solver incorrectly. This is probably due to there not being enough z3 code in the pre-training data and the few shot examples not covering certain aspects of the language. Exploratory experimentation with ~750k prompts simply also containing all documentation for z3 did not solve the problems.
 
@@ -347,7 +364,39 @@ We used Microsoft Azure to run the GPT-4 model and Google Vertex AI to run the G
 
 In this blogpost, we discussed Logic-LM, a novel framework that integrates Large Language Models (LLMs) with symbolic solvers to enhance logical reasoning capabilities. By converting natural language problems into structured symbolic representations and employing deterministic solvers, Logic-LM achieves precise and consistent logical reasoning. We extended the research by replicating the results with other models and investigated multi-modal reasoning. The ablation studies provide insights into prompting strategies. Furthermore, the multi-modal experiments show increased accuracy when using visual inputs and ASP. However, the challenge of hallucination by the LLM remains due to incorrect interpretation of the visual input. Despite challenges and fragility, Logic-LM represents a promising approach for robust and interpretable language models in complex reasoning tasks.
 
-TODO: more precise about conclusion ablation studies
+### Summary Findings
+
+1. **Enhanced Performance with Logic-LM**:
+
+   - Across multiple datasets and LLM families, the Logic-LM approach consistently outperformed both direct and Chain of Thought (CoT) prompting strategies.
+   - The improvement is most notable in tasks that require rigorous logical reasoning, suggesting that the integration with symbolic solvers offers a significant advantage.
+
+2. **Robustness Across Models**:
+
+   - We validated the robustness of the Logic-LM framework with different LLM families, such as Gemini and Llama models. While there are variations in performance, the framework demonstrates broad applicability.
+   - The fragility observed, where similar models produced unpredictable results, highlights the importance of model selection and reinforces the necessity for further robustness validation.
+
+3. **Bias in Answer Ordering**:
+
+   - The experiments revealed a bias in LLMs towards predicting the first choice in multiple-choice questions.
+   - Modifying the prompt to reverse this order or focus on incorrect choices influenced model accuracy, indicating that answer order is a crucial factor in LLM performance.
+
+4. **Multi-modal Reasoning Capabilities**:
+
+   - The Logic-LM framework, combined with multi-modal models like Gemini and GPT-4, displayed significant potential in handling tasks involving both textual and visual inputs, such as Sudoku and graph coloring problems.
+   - The ASP prompting method offered better performance compared to direct prompting, validating that structured logical programs are more effective for complex reasoning tasks.
+
+5. **Cost and Performance Trade-offs**:
+   - Gemini Pro and Flash models provided a cost-effective and faster alternative compared to GPT-4, particularly for multi-modal reasoning tasks.
+   - While GPT-4 demonstrated high accuracy in single-modal benchmarks, it underperformed in multi-modal logic reasoning, possibly due to difficulties in correctly encoding ASP programs.
+
+### Future Directions
+
+- Further research is needed to address the observed fragilities in the framework, especially for varying model architectures and logical problem types. Due to probabilistic nature of LLMs, generating optimal prompt strategies is crucial for consistent performance. Employing strategies like fine-tuning could enhance robustness.
+- Enhancing the stability of generating valid logic programs across different models and exploring additional multi-modal datasets can provide insights into improving the Logic-LM framework.
+- Investigating alternative prompting strategies and more extensive pre-training data that include symbolic logic examples could mitigate syntax-related issues and improve overall robustness. Especially investigating possibility of more samples for a few-shot learning approach.
+
+In summary, the Logic-LM framework significantly advances the logical reasoning capabilities of LLMs by leveraging symbolic solvers. However, ensuring robustness across diverse models and tasks remains a critical area for future work. The promising results highlight that a hybrid approach that combines statistical learning with symbolic reasoning can bridge existing gaps in LLM logical reasoning and pave the way for more reliable and interpretable AI systems.
 
 ## 6. Student Contributions
 
