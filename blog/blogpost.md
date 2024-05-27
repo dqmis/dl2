@@ -197,8 +197,8 @@ Best results per row in bold.
 <tbody>
   <tr>
     <td class="tg-0lax" rowspan="2">Dataset<br></td>
-    <td colspan="3" class="tg-baqh" style=text-align:center>Direct</td>
-    <td colspan="3" class="tg-baqh" style=text-align:center>ASP</td>
+    <td colspan="3" class="tg-baqh" style="text-align:center">Direct</td>
+    <td colspan="3" class="tg-baqh" style="text-align:center">ASP</td>
   </tr>
   <tr>
     <td class="tg-baqh"><span style="font-weight:bold"><b>Gemini Pro</b></span></td>
