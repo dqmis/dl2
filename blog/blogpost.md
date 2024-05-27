@@ -187,71 +187,74 @@ answer(Color) :- coloring(5,Color).
 We evaluated the multi-modal LLM from the Gemini family (`gemini-1.5-pro-preview-0409`) using both ASP and direct prompting strategies. To validate the ASP-generated code, we employed the Clingo solver. The results are summarized below:
 
 Best results per row in bold.
-<table><thead>
+
+<table>
+<thead>
   <tr>
-    <th></th>
-    <th colspan="6">Accuracy % for prompting type</th>
+    <th class="tg-0lax"></th>
+    <th class="tg-0lax" colspan="6">Accuracy % for prompting type</th>
   </tr></thead>
 <tbody>
   <tr>
-    <td rowspan="2">Dataset<br></td>
-    <td colspan="3" style=text-align:center>Direct</td>
-    <td colspan="3" style=text-align:center>ASP</td>
+    <td class="tg-0lax" rowspan="2">Dataset<br></td>
+    <td colspan="3" class="tg-baqh" style=text-align:center>Direct</td>
+    <td colspan="3" class="tg-baqh" style=text-align:center>ASP</td>
   </tr>
   <tr>
-    <td>Gemini Pro</td>
-    <td>Gemini Flash</td>
-    <td>GPT-4</td>
-    <td>Gemini Pro</td>
-    <td>Gemini Flash</td>
-    <td>GPT-4</td>
+    <td class="tg-baqh"><span style="font-weight:bold"><b>Gemini Pro</b></span></td>
+    <td class="tg-baqh"><span style="font-weight:bold"><b>Gemini Flash</b></span></td>
+    <td class="tg-baqh"><span style="font-weight:bold"><b>GPT-4</b></span></td>
+    <td class="tg-baqh"><span style="font-weight:bold"><b>Gemini Pro</b></span></td>
+    <td class="tg-baqh"><span style="font-weight:bold"><b>Gemini Flash</b></span></td>
+    <td class="tg-baqh"><span style="font-weight:bold"><b>GPT-4</b></span></td>
   </tr>
   <tr>
-    <td>Sudoku Fill-in</td>
-    <td>28.50</td>
-    <td>25.51</td>
-    <td>23.50</td>
-    <td style=font-weight:bold>67.50</td>
-    <td>22.00</td>
-    <td>29.64</td>
+    <td class="tg-0lax">Sudoku Fill-in</td>
+    <td class="tg-0lax">28.50</td>
+    <td class="tg-0lax">25.51</td>
+    <td class="tg-0lax">23.50</td>
+    <td class="tg-0lax"><b>67.50</b></td>
+    <td class="tg-0lax">22.00</td>
+    <td class="tg-0lax">29.64</td>
   </tr>
   <tr>
-    <td>Sudoku Validity</td>
-    <td>47.25</td>
-    <td>48.03</td>
-    <td>49.50</td>
-    <td>92.08</td>
-    <td style=font-weight:bold>93.00</td>
-    <td>87.75</td>
+    <td class="tg-0lax">Sudoku Validity</td>
+    <td class="tg-0lax">47.25</td>
+    <td class="tg-0lax">48.03</td>
+    <td class="tg-0lax">49.50</td>
+    <td class="tg-0lax">92.08</td>
+    <td class="tg-0lax"><b>93.00</b></td>
+    <td class="tg-0lax">87.75</td>
   </tr>
   <tr>
-    <td>Graph Fill-in</td>
-    <td>36.65</td>
-    <td>29.50</td>
-    <td>26.00</td>
-    <td style=font-weight:bold>65.01</td>
-    <td>38.21</td>
-    <td>28.01</td>
+    <td class="tg-0lax">Graph Fill-in</td>
+    <td class="tg-0lax">36.65</td>
+    <td class="tg-0lax">29.50</td>
+    <td class="tg-0lax">26.00</td>
+    <td class="tg-0lax"><b>65.01</b></td>
+    <td class="tg-0lax">38.21</td>
+    <td class="tg-0lax">28.01</td>
   </tr>
   <tr>
-    <td>Graph Validity</td>
-    <td>54.75</td>
-    <td>54.00</td>
-    <td>52.51</td>
-    <td style=font-weight:bold>94.50</td>
-    <td>90.50</td>
-    <td>86.25</td>
+    <td class="tg-0lax">Graph Validity</td>
+    <td class="tg-0lax">54.75</td>
+    <td class="tg-0lax">54.00</td>
+    <td class="tg-0lax">52.51</td>
+    <td class="tg-0lax"><b>94.50</b></td>
+    <td class="tg-0lax">90.50</td>
+    <td class="tg-0lax">86.25</td>
   </tr>
   <tr>
-    <td>SET Validity</td>
-    <td>58.00</td>
-    <td>55.51</td>
-    <td>53.01</td>
-    <td style=font-weight:bold>67.00</td>
-    <td>48.51</td>
-    <td>54.51</td>
+    <td class="tg-0lax">SET Validity</td>
+    <td class="tg-0lax">58.00</td>
+    <td class="tg-0lax">55.51</td>
+    <td class="tg-0lax">53.01</td>
+    <td class="tg-0lax"><b>67.00</b></td>
+    <td class="tg-0lax">48.51</td>
+    <td class="tg-0lax">54.51</td>
   </tr>
 </tbody></table>
+
 
 As we can see from the results, the model achieves much higher accuracy when prompted with ASP programs compared to direct prompting. This indicates that the model is able to better understand the logical problems when provided with ASP programs, which are more structured and explicit compared to direct prompts.
 
