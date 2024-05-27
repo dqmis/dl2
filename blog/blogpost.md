@@ -191,67 +191,67 @@ Best results per row in bold.
 <table>
 <thead>
   <tr>
-    <th class="tg-0lax"></th>
-    <th class="tg-0lax" colspan="6">Accuracy % for prompting type</th>
+    <th></th>
+    <th colspan="6">Accuracy % for prompting type</th>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-0lax" rowspan="2">Dataset<br></td>
-    <td class="tg-0lax" colspan="3"><span style="text-align:center">Direct</span></td>
-    <td class="tg-0lax" colspan="3"><span style="text-align:center">ASP</span></td>
+    <td rowspan="2">Dataset<br></td>
+    <td colspan="3"><div align="center">Direct</div></td>
+    <td colspan="3"><div align="center">ASP</div></td>
   </tr>
   <tr>
-    <td class="tg-baqh"><span style="font-weight:bold"><b>Gemini Pro</b></span></td>
-    <td class="tg-baqh"><span style="font-weight:bold"><b>Gemini Flash</b></span></td>
-    <td class="tg-baqh"><span style="font-weight:bold"><b>GPT-4</b></span></td>
-    <td class="tg-baqh"><span style="font-weight:bold"><b>Gemini Pro</b></span></td>
-    <td class="tg-baqh"><span style="font-weight:bold"><b>Gemini Flash</b></span></td>
-    <td class="tg-baqh"><span style="font-weight:bold"><b>GPT-4</b></span></td>
+    <td><b>Gemini Pro</b></td>
+    <td><b>Gemini Flash</b></td>
+    <td><b>GPT-4</b></td>
+    <td><b>Gemini Pro</b></td>
+    <td><b>Gemini Flash</b></td>
+    <td><b>GPT-4</b></td>
   </tr>
   <tr>
-    <td class="tg-0lax">Sudoku Fill-in</td>
-    <td class="tg-0lax">28.50</td>
-    <td class="tg-0lax">25.51</td>
-    <td class="tg-0lax">23.50</td>
-    <td class="tg-0lax"><b>67.50</b></td>
-    <td class="tg-0lax">22.00</td>
-    <td class="tg-0lax">29.64</td>
+    <td>Sudoku Fill-in</td>
+    <td>28.50</td>
+    <td>25.51</td>
+    <td>23.50</td>
+    <td><b>67.50</b></td>
+    <td>22.00</td>
+    <td>29.64</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Sudoku Validity</td>
-    <td class="tg-0lax">47.25</td>
-    <td class="tg-0lax">48.03</td>
-    <td class="tg-0lax">49.50</td>
-    <td class="tg-0lax">92.08</td>
-    <td class="tg-0lax"><b>93.00</b></td>
-    <td class="tg-0lax">87.75</td>
+    <td>Sudoku Validity</td>
+    <td>47.25</td>
+    <td>48.03</td>
+    <td>49.50</td>
+    <td>92.08</td>
+    <td><b>93.00</b></td>
+    <td>87.75</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Graph Fill-in</td>
-    <td class="tg-0lax">36.65</td>
-    <td class="tg-0lax">29.50</td>
-    <td class="tg-0lax">26.00</td>
-    <td class="tg-0lax"><b>65.01</b></td>
-    <td class="tg-0lax">38.21</td>
-    <td class="tg-0lax">28.01</td>
+    <td>Graph Fill-in</td>
+    <td>36.65</td>
+    <td>29.50</td>
+    <td>26.00</td>
+    <td><b>65.01</b></td>
+    <td>38.21</td>
+    <td>28.01</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Graph Validity</td>
-    <td class="tg-0lax">54.75</td>
-    <td class="tg-0lax">54.00</td>
-    <td class="tg-0lax">52.51</td>
-    <td class="tg-0lax"><b>94.50</b></td>
-    <td class="tg-0lax">90.50</td>
-    <td class="tg-0lax">86.25</td>
+    <td>Graph Validity</td>
+    <td>54.75</td>
+    <td>54.00</td>
+    <td>52.51</td>
+    <td><b>94.50</b></td>
+    <td>90.50</td>
+    <td>86.25</td>
   </tr>
   <tr>
-    <td class="tg-0lax">SET Validity</td>
-    <td class="tg-0lax">58.00</td>
-    <td class="tg-0lax">55.51</td>
-    <td class="tg-0lax">53.01</td>
-    <td class="tg-0lax"><b>67.00</b></td>
-    <td class="tg-0lax">48.51</td>
-    <td class="tg-0lax">54.51</td>
+    <td>SET Validity</td>
+    <td>58.00</td>
+    <td>55.51</td>
+    <td>53.01</td>
+    <td><b>67.00</b></td>
+    <td>48.51</td>
+    <td>54.51</td>
   </tr>
 </tbody></table>
 
