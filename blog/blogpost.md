@@ -126,7 +126,7 @@ The correct option is: C
 For our project, we leveraged advanced models such as [OpenAI's ChatGPT](https://openai.com/index/gpt-4/) for natural language processing (NLP) tasks, four different versions of [Google's Gemini](https://gemini.google.com/app) for comparisons and analysis, and open-source language models (LLMs) like [LLAMA](https://llama.meta.com/).
 
 
-## 3. Results
+## 4. Results
 
 Our project focused on investigating the learning capabilities of Logic-LM in various contexts and identifying potential limitations. We conducted extensive studies on different datasets with varying levels of complexity to understand the strengths and weaknesses of the model. In addition, we explored the effectiveness of using symbolic solvers in a multi-modal setting and investigated the potential of integrating differentiable neuro-symbolic solvers to fine-tune training models for generating accurate logic programs.
 
@@ -136,7 +136,7 @@ Expanding on Pan’s research, which primarily focused on textual inputs, our pr
 
 For the ablation Studies, our primary objective was to expand on Pan’s research by conducting comprehensive ablation studies to validate and potentially build upon the authors’ findings.
 
-### 3.1 Prompting - Ablation Experiments - In Context Learning
+### 4.1 Prompting - Ablation Experiments - In Context Learning
 
 We evaluated the LLama family of models, i.e. `meta-llama/Llama-2-7b-chat-hf` and `meta-llama/Meta-Llama-3-8B-Instruct`. In general, LLama3 performs way better than LLama2. The results table below are conducted wrt Llama3. We found that for logical tasks, where we have to predict one option out of 5 available options, the model is somewhat biased towards predicting the first choice. Additionally, if we allow generating more tokens by increasing the max_new_tokens hyperparameter, i.e. increasing the maximum number of tokens to generate, the quality of the logic programs gets better. Additionally, we also performed an experiment when we prompted the model to predict all the incorrect options. We get higher accuracy in this case, since we have 4 incorrect choices and 1 correct choice per sample. So, predicting a wrong answer is easier compared to the correct one.
 
@@ -176,7 +176,7 @@ Additionally, below table demonstrates the Direct, CoT and Logic-LM results on a
 |     AR-LSAT      | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                           12                           |
 |     AR-LSAT      |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                           6                            |
 
-### 3.3 Gemini results
+### 4.2 Gemini results
 
 Evaluation logic programs per task with backup option 'CoT'. Best results per row in bold.
 
@@ -234,11 +234,11 @@ Evaluation of the baselines with Gemini. All baselines results (Direct and CoT) 
 
 Here we see that the results of the Logic-LM approach with the best model significantly outperforms both direct and CoT prompting. Note however that the fragility noted above means that it is not necessarily clear a priori which model would be the best for the Logic-LM approach.
 
-### 3.2 Multi-modal Logic Reasoning
+### 4.3 Multi-modal Logic Reasoning
 
 In a multi-modal setting, the Large Language Model (LLM) is provided not only with textual data but also with other forms of data, such as images. The LLM must extract crucial information from these diverse data types to perform reasoning tasks effectively.
 
-#### 3.2.1 Datasets for Multi-modal Logic Reasoning
+#### 4.1.1 Datasets for Multi-modal Logic Reasoning
 
 The multi-modal logic reasoning experiments were conducted using synthetic datasets specifically created for tasks like Sudoku and Graph Coloring problems. These datasets included various types of data representations such as graphs, Sudoku puzzles, and the SET card games. In addition to these data structures, a textual prompt was also provided to specify the task at hand and the desired output format.
 
@@ -256,7 +256,7 @@ The datasets were created by combining both textual and visual inputs. The textu
 
 For direct prompting, models were provided with a sample question, an accompanying picture, and the correct answer. For ASP prompting, models received a sample question, an accompanying picture, an ASP program representing the problem, and the correct answer.
 
-#### 3.2.2 ASP as a Symbolic Language
+#### 4.2.2 ASP as a Symbolic Language
 
 We utilized an additional symbolic language, Answer Set Programming (ASP), to represent the multi-modal logic problems. ASP is more restricted than First-Order Logic (FOL) but is simpler to program. ASP programs can be solved using tools like Clingo.
 
@@ -299,7 +299,7 @@ answer(Color) :- coloring(5,Color).
 #show answer/1.
 ```
 
-#### 3.2.3 Results for Multi-modal Logic Reasoning
+#### 4.2.3 Results for Multi-modal Logic Reasoning
 
 We evaluated the multi-modal LLM from the Gemini family (`gemini-1.5-pro-preview-0409`) using both ASP and direct prompting strategies. To validate the ASP-generated code, we employed the Clingo solver. The results are summarized below:
 
@@ -405,17 +405,17 @@ We used Microsoft Azure to run the GPT-4 model and Google Vertex AI to run the G
 | Gemini Flash | 40           | 8 seconds              | Best value, fastest performance   |
 
 
-## 4. Concluding Remarks
+## 5. Concluding Remarks
 
 In this blogpost, we discussed Logic-LM, a novel framework that integrates Large Language Models (LLMs) with symbolic solvers to enhance logical reasoning capabilities. By converting natural language problems into structured symbolic representations and employing deterministic solvers, Logic-LM achieves precise and consistent logical reasoning. We extended the research by replicating the results with other models and investigated multi-modal reasoning. The multi-modal experiments show increased accuracy when using visual inputs and ASP. However, the challenge of hallucination by the LLM remains due to incorrect interpretation of the visual input. Furthermore, ablation studies provide insights into prompting strategies. Despite challenges and fragility, Logic-LM represents a promising approach for robust and interpretable language models in complex reasoning tasks.
 
 TODO: more precise about conclusion ablation studies
 
-## 5. Student Contributions
+## 6. Student Contributions
 
 Dominykas Šeputis and Chimène Blokesch focused primarily on multi-modal foundation models to assess their ability to address logical issues using both textual and visual inputs, generating new multimodal datasets and running the experiments. Dominykas Šeputis also did reproduction of the paper's results with GPT-4. Job Gräber integrated into the existing code base the ability to run baseline, order bias and logic programming prompting with Gemini and and got the results for the different Gemini models. Soham Chatterjee added code to run the baseline, order bias and logic programming prompting with Llama and got the respective results and generated the data for order bias experiments and looked into negative example prompting. Idries Nasim primarily oversaw the writing process. All team members made active contributions by presenting the results of their experiments.
 
-## 6. Bibliography
+## 7. Bibliography
 
 Liu, H., Ning, R., Teng, Z., Liu, J., Zhou, Q., & Zhang, Y. (2023). Evaluating the logical reasoning ability of chatgpt and gpt-4. arXiv preprint arXiv:2304.03439.
 
