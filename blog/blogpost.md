@@ -49,7 +49,11 @@ The Logic-LM framework uses a different approach called Logic Programming (LP) p
 
 ### 1.2 Logic programs
 
-If you are deeply familiar with logic programming you may skip this section, because what follows is a quick introduction or refresher. Logic programming is a programming paradigm that is particularly well-suited for tasks involving symbolic reasoning and knowledge representation. It is fundamentally different from imperative programming in that it expresses computation through logical declarations and relationships rather than explicit control flow. In logic programming, problems are formulated as a set of logical statements, often in the form of predicates, which describe facts and rules about problems within a given domain. The most well-known logic programming language is Prolog. In Prolog, computation is driven by the engine's attempt to satisfy queries by systematically searching for and applying rules and facts. The declarative nature of logic programming often leads to more concise, flexible, and understandable code, as it allows programmers to focus on “what” needs to be achieved rather than “how” to achieve it. For example, below you can see a simple program that seeks to find which of the given birds can fly:
+> If you are deeply familiar with logic programming you may skip this section, because what follows is a quick introduction or refresher.
+
+Logic programming is a programming paradigm that is particularly well-suited for tasks involving symbolic reasoning and knowledge representation. It is fundamentally different from imperative programming in that it expresses computation through logical declarations and relationships rather than explicit control flow. In logic programming, problems are formulated as a set of logical statements, often in the form of predicates, which describe facts and rules about problems within a given domain. The most well-known logic programming language is Prolog.
+
+In Prolog, computation is driven by the engine's attempt to satisfy queries by systematically searching for and applying rules and facts. The declarative nature of logic programming often leads to more concise, flexible, and understandable code, as it allows programmers to focus on “what” needs to be achieved rather than “how” to achieve it. For example, below you can see a simple program that seeks to find which of the given birds can fly:
 
 ```prolog
 % First, we define the facts about the birds, where object is a type of bird and each bird has a name.
