@@ -92,7 +92,14 @@ We now first give a quick overview of our datasets and models and then go into o
 
 ### 3.1 Datasets
 
-First of all,  a diverse range of logical reasoning datasets into the training process of LOGIC-LM. Each dataset serves a specific purpose in enhancing our model's ability to reason effectively. [PrOntoQA](https://github.com/asaparov/prontoqa) and [ProofWriter](https://allenai.org/data/proofwriter) for deductive reasoning datasets. [FOLIO](https://github.com/Yale-LILY/FOLIO), a First-Order Logic reasoning dataset, is used for evaluation. [LogicalDeduction](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/logical_deduction) provides scenarios for solving Constraint Satisfaction Problems (CSPs). Furthermore, [AR-LSAT](https://github.com/zhongwanjun/AR-LSAT) provides analytical reasoning (AR) problems. Complementing these datasets, we included multi-modal data from the [SET](https://github.com/Awni00/abstractor/tree/main/experiments/set) card game to further enrich our model's training. This holistic approach ensures that our model is well-equipped to handle diverse logical reasoning challenges across various domains.
+First of all, we also used the logical reasoning datasets used in the original LOGIC-LM paper. 
+
+TODO better brief explanation of the datasets! Short, but now is just too vague. "a First-Order Logic reasoning dataset, is used for evaluation"??
+
+
+[PrOntoQA](https://github.com/asaparov/prontoqa) and [ProofWriter](https://allenai.org/data/proofwriter) for deductive reasoning datasets. [FOLIO](https://github.com/Yale-LILY/FOLIO), a First-Order Logic reasoning dataset, is used for evaluation. [LogicalDeduction](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/logical_deduction) provides scenarios for solving Constraint Satisfaction Problems (CSPs). Furthermore, [AR-LSAT](https://github.com/zhongwanjun/AR-LSAT) provides analytical reasoning (AR) problems. Complementing these datasets, we included multi-modal data from the [SET](https://github.com/Awni00/abstractor/tree/main/experiments/set) card game.
+
+TODO: sudoku. Just name, later explained. 
 
 An example from the AR-LSAT dataset, where given a problem statement as context, the task of the model is to answer a logical reasoning question:
 ```
@@ -116,7 +123,8 @@ The correct option is: C
 
 ### 3.2 LLMs
 
-For our project, we leveraged advanced models such as [OpenAI's ChatGPT](https://openai.com/index/gpt-4/) for natural language processing (NLP) tasks, [Google's Gemini](https://gemini.google.com/app) for comparisons and analysis, and open-source language models (LLMs) like [LLAMA](https://llama.meta.com/), accessing them through their respective application programming interfaces (APIs).
+For our project, we leveraged advanced models such as [OpenAI's ChatGPT](https://openai.com/index/gpt-4/) for natural language processing (NLP) tasks, four different versions of [Google's Gemini](https://gemini.google.com/app) for comparisons and analysis, and open-source language models (LLMs) like [LLAMA](https://llama.meta.com/).
+
 
 ## 3. Results
 
