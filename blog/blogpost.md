@@ -39,7 +39,11 @@ The Logic-LM framework's reasoning process comprises three main stages: Problem 
 
 **Result Interpretation:** In the final stage, an interpreter is used to explain the output of the symbolic solver, aligning it with the correct answer and making it comprehensible to the user.
 
-This structured approach allows the Logic-LM framework to effectively address complex reasoning tasks. Compared to the direct prompting approach, **Logic Programming (LP) prompting** enables the model to generate more accurate and coherent logical reasoning outputs by following a systematic thought framework. This approach is similar to the [chain-of-thought prompting](https://arxiv.org/abs/2201.11903), but it is based on symbolic reasoning rather than purely statistical methods.
+This structured approach allows the Logic-LM framework to effectively address complex reasoning tasks. Compared to the direct prompting approach, **Logic Programming (LP) prompting** enables the model to generate more accurate and coherent logical reasoning outputs by following a systematic thought framework. This approach is similar to the [chain-of-thought prompting](https://arxiv.org/abs/2201.11903) (CoT), but it is based on symbolic reasoning rather than purely statistical methods. Additionally, Logic-LM employs two backup strategies to handle cases where the generated logic program cannot be executed by the symbolic solver:
+
+-The basic mode (random): If the symbolic solver fails, the system uses a random guess as the prediction.
+
+-Logic collabration mode (LLM): When the symbolic solver encounters difficulties, the system switches to a chain-of-thought (CoT) model, which loads baseline LLM results and uses them as the prediction. This backup strategy ensures that reasonable predictions are provided even in challenging scenarios.
 
 <br/>
 <p align="center">
