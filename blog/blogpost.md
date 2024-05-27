@@ -111,7 +111,7 @@ Furthermore, the Result Interpreter plays a significant role in the iterative re
 
 We incorporated logical reasoning datasets including ProofWriter (Tafjord et al., 2020), PrOntoQA (Saparov & He, 2022), FOLIO (Han, 2022), AR-LSAT (Han et al., 2022), and LogicalDeduction from BigBench (Srivastava et al., 2022), supplemented by multi-modal data from the SET (Webb, 2023) card game.
 
-An examplt from the AR-LSAT dataset, where given a problem statement as contexts, the task of the model is to answer a logical reasoning question:
+An example from the AR-LSAT dataset, where given a problem statement as context, the task of the model is to answer a logical reasoning question:
 ```
 Context:
 During a single week, from Monday through Friday, tours will be conducted of a company's three divisions\u2014Operations, Production, and Sales. Exactly five tours will be conducted that week, one each day. The schedule of tours for the week must conform to the following restrictions: Each division is toured at least once. The Operations division is not toured on Monday. The Production division is not toured on Wednesday. The Sales division is toured on two consecutive days, and on no other days. If the Operations division is toured on Thursday, then the Production division is toured on Friday.
