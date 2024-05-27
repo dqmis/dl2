@@ -120,7 +120,7 @@ For our project, we leveraged advanced models such as [OpenAI's ChatGPT](https:/
 
 Our project focused on investigating the learning capabilities of Logic-LM in various contexts and identifying potential limitations. We conducted extensive studies on different datasets with varying levels of complexity to understand the strengths and weaknesses of the model. In addition, we explored the effectiveness of using symbolic solvers in a multi-modal setting and investigated the potential of integrating differentiable neuro-symbolic solvers to fine-tune training models for generating accurate logic programs.
 
-Our research built upon the work of Pan (2023) by emphasizing in-context learning for logical problem-solving and adapting LLMs to this domain using techniques such as Low-Rank Adaptation (LoRA) (Hu, 2021).
+Our research built upon the work of [Pan (2023)](https://arxiv.org/abs/2305.12295) by emphasizing in-context learning for logical problem-solving and adapting LLMs to this domain using techniques such as Low-Rank Adaptation (LoRA) [(Hu, 2021)](https://arxiv.org/abs/2106.09685).
 
 Expanding on Pan’s research, which primarily focused on textual inputs, our project extended the scope to include multi-modal foundation models. We evaluated their effectiveness in solving logical problems using both text and visual inputs. Our experiments involved challenges such as the SET game, where the model interpreted visual input from SET cards and a textual query to identify valid sets. Additionally, we explored similar scenarios using games like Sudoku, Suguru, and various card games, all of which had established solvers and frameworks suitable for generating examples for few-shot learning.
 
