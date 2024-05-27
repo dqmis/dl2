@@ -119,7 +119,11 @@ This will print the respective evaluations of the accuracy for the case in which
 
 ### Multimodal
 
-TODO or make a seperate second-level heading??
+#### Data generation
+
+We present generated data for multimodal experiments within the root project folder (`Logic-LLM/data/`). To generate new data, you can use our created data generation tool within `multimodal_data_generator` directory. Within it you will find instructions on how to generate new data.
+
+```
 
 ## Reproducing LLama results
 
@@ -132,7 +136,9 @@ Python scripts are added in the root folder for testing various components, incl
 Run the command to generate Llama3 outputs for baseline (16 for Direct , 1024 for CoT):
 
 ```
-python3 baselines/lama_baseline.py.py   --model_name "lama3" --dataset_name "FOLIO" --split dev --mode "Direct" --max_new_tokens "16"
+
+python3 baselines/lama_baseline.py.py --model_name "lama3" --dataset_name "FOLIO" --split dev --mode "Direct" --max_new_tokens "16"
+
 ```
 
 #### Evaluation
@@ -140,11 +146,13 @@ python3 baselines/lama_baseline.py.py   --model_name "lama3" --dataset_name "FOL
 For evaluation, run:
 
 ```
+
 python3 evaluate_llama.py \
-    --dataset_name "Dataset Name [ProntoQA | ProofWriter | FOLIO | LogicalDeduction ｜ AR-LSAT]" \
-    --model_name "lama3" \
-    --split dev \
-    --mode "Baseline [Direct | CoT]" \
+ --dataset_name "Dataset Name [ProntoQA | ProofWriter | FOLIO | LogicalDeduction ｜ AR-LSAT]" \
+ --model_name "lama3" \
+ --split dev \
+ --mode "Baseline [Direct | CoT]" \
+
 ```
 
 ### Logic-LM
@@ -152,7 +160,9 @@ python3 evaluate_llama.py \
 #### Prompting
 
 ```
-python3 models/logic_program_lama.py  --dataset_name "AR-LSAT" --split dev  --model_name "lama3"  --max_new_tokens 1024
+
+python3 models/logic_program_lama.py --dataset_name "AR-LSAT" --split dev --model_name "lama3" --max_new_tokens 1024
+
 ```
 
 #### Running symbolic solvers
@@ -160,12 +170,14 @@ python3 models/logic_program_lama.py  --dataset_name "AR-LSAT" --split dev  --mo
 For inference:
 
 ```
-python3 models/logic_inference.py \
-    --model_name lama3 \
-    --dataset_name ${DATASET} \
-    --split dev \
-    --backup_strategy "random or LLM" \
-    --backup_LLM_result_path ./baselines/results/CoT_${DATASET}_${SPLIT}_${MODEL}.json
+
+python3 models/logic*inference.py \
+ --model_name lama3 \
+ --dataset_name ${DATASET} \
+ --split dev \
+ --backup_strategy "random or LLM" \
+ --backup_LLM_result_path ./baselines/results/CoT*${DATASET}_${SPLIT}\_${MODEL}.json
+
 ```
 
 #### Evaluation
@@ -173,5 +185,9 @@ python3 models/logic_inference.py \
 For evaluation, run:
 
 ```
-python3 evaluate_llama.py --dataset_name "FOLIO"  --model_name "gpt-4" --split dev --backup "random or LLM"
+
+python3 evaluate_llama.py --dataset_name "FOLIO" --model_name "gpt-4" --split dev --backup "random or LLM"
+
+```
+
 ```
