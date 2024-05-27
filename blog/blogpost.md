@@ -18,7 +18,7 @@ Additionally, LLMs are prone to hallucinations—inaccurately generating informa
 </p>
 <br/>
 
-In response to these weaknesses, the [Logic-LM](https://github.com/teacherpeterpan/Logic-LLM) framework has been introduced. 
+In response to these weaknesses, the [Logic-LM](https://github.com/teacherpeterpan/Logic-LLM) framework has been introduced.
 
 This innovative approach integrates the capabilities of LLMs to grasp and deal with diverse text input with the precision of symbolic solvers. Logic-LM begins by converting natural language problem descriptions into symbolic representations, effectively bridging the gap between human-readable text and the rigorous language of logic. Once a symbolic formulation is established, a deterministic symbolic solver takes over. Unlike LLMs, which seem to be limited to statistically derived heuristics, these solvers strictly adhere to the rules of formal systems for there are provable guarantees about preserving truth during the inference steps.
 
@@ -31,7 +31,7 @@ Inspired by the proposed solution of enhancing LLMs' logical problem-solving cap
 
 ## 2. Logic-LM Framework
 
-The basic proposal of the Logic-LM framework is summarized schematically in the figure below. In the standard (or 'direct prompting') approach a LLM has to directly map a logic problem to an answer, thereby being solely responsible for grasping the problem statement, performing (implicitly or explicitly) a chain of reasoning and arriving at an answer. The Logic-LM framework divides this process into smaller steps.
+The basic proposal of the Logic-LM framework is summarized schematically in the figure below. In the standard (or 'direct prompting') approach a LLM has to directly map a logic problem to an answer, thereby being solely responsible for grasping the problem statement, performing (implicitly or explicitly) a chain of reasoning and arriving at an answer.
 
 <br/>
 <p align="center">
@@ -39,11 +39,13 @@ The basic proposal of the Logic-LM framework is summarized schematically in the 
 </p>
 <br/>
 
-**LP -> LLM -> Logic program**: It proposes instead to burden the LLM with just grasping the problem and finding a logical representation of the problem. This involves identifying the relevant entities, facts, and rules within the problem statement, effectively translating human-readable text into a structured logical representation. We will give an example of such a representation soon. We will call this **Logic Programming (LP) prompting**. They also involve in-context learning where a few examples of such transformations into the proper syntax are prepended to the prompt. 
+The Logic-LM framework uses a different approach called Logic Programming (LP) prompting, which divides the process into smaller steps:
 
-**Logic program -> Logic program solver**: Doing inference with this representation is not done with the LLM but with a symbolic solver that encodes our best theories of correct and efficient formal reasoning. If something went wrong at the previous step and the logic program can not be parsed by the solver, then as a 'backup' a random answer could be given or it could fall back on the baseline, direct prompting approach. 
+1. **Logic problem -> LLM -> Logic program**: It proposes instead to burden the LLM with just grasping the problem and finding a logical representation of the problem. This involves identifying the relevant entities, facts, and rules within the problem statement, effectively translating human-readable text into a structured logical representation. We will give an example of such a representation soon. We will call this **Logic Programming (LP) prompting**. They also involve in-context learning where a few examples of such transformations into the proper syntax are prepended to the prompt.
 
-**Logic program solver -> Answer** In the final stage, a final answer is decided. In our experiments this follows straightforward from the solver because we can let it generate logic programs that lead to a choice between the option. In the case of more open ended problems one could use a LLM to extract a legible answer from the output of logic program solver instead. 
+2. **Logic program -> Logic program solver**: Doing inference with this representation is not done with the LLM but with a symbolic solver that encodes our best theories of correct and efficient formal reasoning. If something went wrong at the previous step and the logic program can not be parsed by the solver, then as a 'backup' a random answer could be given or it could fall back on the baseline, direct prompting approach.
+
+3. **Logic program solver -> Answer** In the final stage, a final answer is decided. In our experiments this follows straightforward from the solver because we can let it generate logic programs that lead to a choice between the option. In the case of more open ended problems one could use a LLM to extract a legible answer from the output of logic program solver instead.
 
 ### 2.1 Logic programs
 
@@ -80,9 +82,9 @@ can_fly(X) :- bird(X), not cannot_fly(X).
 There is a great blog, that introduces basic of answer set programming, which is a subset of logic programming, and how to use it to solve problems. You can find it [here](https://ddmler.github.io/asp/2018/07/06/answer-set-programming-the-basics.html).
 
 ## 3 Our project
-An intuition for why the logic programming prompting approach can work well is that (for a LLM) just finding a represention for a problem is a simpler task than grasping the problem plus doing inference plus deciding on an answer. It is also in a somewhat vague, loose sense more similar to the kind of task that LLMs perform well on (like extraction, summarization, etc) compared to complex logic problems that require many inference steps. So the Logic-LM framework combines the valid reasoning of symbolic solvers with the ability of LLMs to handle input of all kinds of styles and formatting and perform (relatively simple) tasks on it with in-context learning. 
+An intuition for why the logic programming prompting approach can work well is that (for a LLM) just finding a represention for a problem is a simpler task than grasping the problem plus doing inference plus deciding on an answer. It is also in a somewhat vague, loose sense more similar to the kind of task that LLMs perform well on (like extraction, summarization, etc) compared to complex logic problems that require many inference steps. So the Logic-LM framework combines the valid reasoning of symbolic solvers with the ability of LLMs to handle input of all kinds of styles and formatting and perform (relatively simple) tasks on it with in-context learning.
 
-However, since symbolic solvers can only handle very specifically formatted input, it is easy for a LLM to make a mistake that will lead to catastrophic unparsable or unsound logic programs. Although the paper reports significant improvements on the baseline, it is not clear how robustly this approach generalizes and whether it will easily `break' outside the experiments of the authors. We have test this by checking whether the prompting strategy ports well to other LLMs/foundations models, problems with multiple modalities and a different symbolic solver. 
+However, since symbolic solvers can only handle very specifically formatted input, it is easy for a LLM to make a mistake that will lead to catastrophic unparsable or unsound logic programs. Although the paper reports significant improvements on the baseline, it is not clear how robustly this approach generalizes and whether it will easily `break' outside the experiments of the authors. We have test this by checking whether the prompting strategy ports well to other LLMs/foundations models, problems with multiple modalities and a different symbolic solver.
 
 TODO motivate Soham's experiments on reasoning.
 -the research on order bias shows a limitation of LLMs that logic programs don't have
@@ -92,26 +94,26 @@ We now first give a quick overview of our datasets and models and then go into o
 
 ### 3.1 Datasets
 
-First of all, we also used the logical reasoning datasets used in the original LOGIC-LM paper. 
+First of all, we also used the logical reasoning datasets used in the original LOGIC-LM paper.
 
 TODO better brief explanation of the datasets! Short, but now is just too vague. "a First-Order Logic reasoning dataset, is used for evaluation"??
 
 
 [PrOntoQA](https://github.com/asaparov/prontoqa) and [ProofWriter](https://allenai.org/data/proofwriter) for deductive reasoning datasets. [FOLIO](https://github.com/Yale-LILY/FOLIO), a First-Order Logic reasoning dataset, is used for evaluation. [LogicalDeduction](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/logical_deduction) provides scenarios for solving Constraint Satisfaction Problems (CSPs). Furthermore, [AR-LSAT](https://github.com/zhongwanjun/AR-LSAT) provides analytical reasoning (AR) problems. Complementing these datasets, we included multi-modal data from the [SET](https://github.com/Awni00/abstractor/tree/main/experiments/set) card game.
 
-TODO: sudoku. Just name, later explained. 
+TODO: sudoku. Just name, later explained.
 
 An example from the AR-LSAT dataset, where given a problem statement as context, the task of the model is to answer a logical reasoning question:
 ```
 Context:
 During a single week, from Monday through Friday, tours will be conducted of a company's three divisions- Operations, Production, and Sales.
-Exactly five tours will be conducted that week, one each day. The schedule of tours for the week must conform to the following restrictions: Each division is toured at least once. 
-The Operations division is not toured on Monday. The Production division is not toured on Wednesday. 
+Exactly five tours will be conducted that week, one each day. The schedule of tours for the week must conform to the following restrictions: Each division is toured at least once.
+The Operations division is not toured on Monday. The Production division is not toured on Wednesday.
 The Sales division is toured on two consecutive days, and on no other days. If the Operations division is toured on Thursday, then the Production division is toured on Friday.
 
 Question: Which one of the following CANNOT be true of the week's tour schedule?
 
-Options: 
+Options:
 A) The division that is toured on Monday is also toured on Tuesday.
 B) The division that is toured on Monday is also toured on Friday.
 C) The division that is toured on Tuesday is also toured on Thursday.
