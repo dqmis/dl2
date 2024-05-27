@@ -87,13 +87,12 @@ can_fly(X) :- bird(X), not cannot_fly(X).
 There is a great blog, that introduces basic of answer set programming, which is a subset of logic programming, and how to use it to solve problems. You can find it [here](https://ddmler.github.io/asp/2018/07/06/answer-set-programming-the-basics.html).
 
 ## 3 Our project
+
 An intuition for why the logic programming prompting approach can work well is that (for a LLM) just finding a represention for a problem is a simpler task than grasping the problem plus doing inference plus deciding on an answer. It is also in a somewhat vague, loose sense more similar to the kind of task that LLMs perform well on (like extraction, summarization, etc) compared to complex logic problems that require many inference steps. So the Logic-LM framework combines the valid reasoning of symbolic solvers with the ability of LLMs to handle input of all kinds of styles and formatting and perform (relatively simple) tasks on it with in-context learning.
 
 However, since symbolic solvers can only handle very specifically formatted input, it is easy for a LLM to make a mistake that will lead to catastrophic unparsable or unsound logic programs. Although the paper reports significant improvements on the baseline, it is not clear how robustly this approach generalizes and whether it will easily `break' outside the experiments of the authors. We have test this by checking whether the prompting strategy ports well to other LLMs/foundations models, problems with multiple modalities and a different symbolic solver.
 
-
-Trying out with a few samples, we saw that LLMs usually are biased towards the first choice. Lets say we prompt the model to output the correct answer to  a question. We prompt the model to choose the correct anser among 5 available choices. If the correct choice is the first one, the model is more likely to predict it otherwise if the correct answer is the last choice, the model will stick to the first choice. This led us conduct experiemnts if the model is indeed biased towards first few choices and igonres the last choices. Moreover, we want to check if the model is prompted to predict the incorrect answers instead of the correct answer, will it be able to learn well since there are more incorrect choices rather correct ones. This motivated us to conduct experiments to check if the model performs well if we prompt it to predict all the incoorrect choices.
-
+Trying out with a few samples, we saw that LLMs usually are biased towards the first choice. Lets say we prompt the model to output the correct answer to a question. We prompt the model to choose the correct anser among 5 available choices. If the correct choice is the first one, the model is more likely to predict it otherwise if the correct answer is the last choice, the model will stick to the first choice. This led us conduct experiemnts if the model is indeed biased towards first few choices and igonres the last choices. Moreover, we want to check if the model is prompted to predict the incorrect answers instead of the correct answer, will it be able to learn well since there are more incorrect choices rather correct ones. This motivated us to conduct experiments to check if the model performs well if we prompt it to predict all the incoorrect choices.
 
 We now first give a quick overview of our datasets and models and then go into our specific experiments, results and analysis.
 
@@ -103,10 +102,10 @@ First of all, we also used the logical reasoning datasets used in the original L
 
 TODO better brief explanation of the datasets! Short, but now is just too vague. "a First-Order Logic reasoning dataset, is used for evaluation"??
 
-
 [PrOntoQA](https://github.com/asaparov/prontoqa) and [ProofWriter](https://allenai.org/data/proofwriter) for deductive reasoning datasets. [FOLIO](https://github.com/Yale-LILY/FOLIO), a First-Order Logic reasoning dataset, is used for evaluation. [LogicalDeduction](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/logical_deduction) provides scenarios for solving Constraint Satisfaction Problems (CSPs). Furthermore, [AR-LSAT](https://github.com/zhongwanjun/AR-LSAT) provides analytical reasoning (AR) problems. Furthermore, for the multi-model logic reasoning experiments, we utilized [SET](https://github.com/Awni00/abstractor/tree/main/experiments/set) card game, and synthetic datasets tailored for tasks like Sudoku and graph colouring (see section 4.3).
 
 An example from the AR-LSAT dataset, where given a problem statement as context, the task of the model is to answer a logical reasoning question:
+
 ```
 Context:
 During a single week, from Monday through Friday, tours will be conducted of a company's three divisions- Operations, Production, and Sales.
@@ -130,7 +129,6 @@ The correct option is: C
 
 For our project, we leveraged advanced models such as [OpenAI's ChatGPT](https://openai.com/index/gpt-4/) for natural language processing (NLP) tasks, four different versions of [Google's Gemini](https://gemini.google.com/app) for comparisons and analysis, and open-source language models (LLMs) like [LLAMA](https://llama.meta.com/).
 
-
 ## 4. Results
 
 Our project focused on investigating the learning capabilities of Logic-LM in various contexts and identifying potential limitations. We conducted extensive studies on different datasets with varying levels of complexity to understand the strengths and weaknesses of the model. In addition, we explored the effectiveness of using symbolic solvers in a multi-modal setting and investigated the potential of integrating differentiable neuro-symbolic solvers to fine-tune training models for generating accurate logic programs.
@@ -153,33 +151,33 @@ We evaluated the LLama family of models, i.e. `meta-llama/Llama-2-7b-chat-hf` an
 
 Additionally, below table demonstrates the Direct, CoT and Logic-LM results on all datasets with Llama3(meta-llama/Meta-Llama-3-8B-Instruct):
 
-|     Dataset      |                             Prompting                             | Accuracy ( % for meta-llama/Meta-Llama-3-8B-Instruct ) |
-| :--------------: | :---------------------------------------------------------------: | :----------------------------------------------------: |
-|     ProntoQA     |                   Direct ( 16 max_new_tokens )                    |                           43                           |
-|     ProntoQA     |                    CoT ( 1024 max_new_tokens )                    |                          76.6                          |
-|     ProntoQA     |                Logic-LM (random backup strategy )                 |                           55                           |
-|     ProntoQA     | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                         42.46                          |
-|     ProntoQA     |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                           8                            |
-|   ProofWriter    |                   Direct ( 16 max_new_tokens )                    |                           33                           |
-|   ProofWriter    |                    CoT ( 1024 max_new_tokens )                    |                         28.54                          |
-|   ProofWriter    |                Logic-LM (random backup strategy )                 |                          28.7                          |
-|   ProofWriter    | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                         28.69                          |
-|   ProofWriter    |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                         28.695                         |
-|      FOLIO       |                   Direct ( 16 max_new_tokens )                    |                          46.5                          |
-|      FOLIO       |                    CoT ( 1024 max_new_tokens )                    |                           36                           |
-|      FOLIO       |                Logic-LM (random backup strategy )                 |                           43                           |
-|      FOLIO       | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                           53                           |
-|      FOLIO       |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                         44.285                         |
-| LogicalDeduction |                   Direct ( 16 max_new_tokens )                    |                         32.33                          |
-| LogicalDeduction |                    CoT ( 1024 max_new_tokens )                    |                           22                           |
-| LogicalDeduction |                Logic-LM (random backup strategy )                 |                         24.27                          |
-| LogicalDeduction | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                           31                           |
-| LogicalDeduction |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                         20.38                          |
-|     AR-LSAT      |                   Direct ( 16 max_new_tokens )                    |                          7.36                          |
-|     AR-LSAT      |                    CoT ( 1024 max_new_tokens )                    |                         8.225                          |
-|     AR-LSAT      |                Logic-LM (random backup strategy )                 |                           22                           |
-|     AR-LSAT      | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy ) |                           12                           |
-|     AR-LSAT      |  Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy )   |                           6                            |
+| Dataset          | Prompting                                                        | Accuracy (%) for Meta-Llama-3-8B-Instruct |
+| ---------------- | ---------------------------------------------------------------- | ----------------------------------------- |
+| ProntoQA         | Direct (16 max_new_tokens)                                       | 43                                        |
+|                  | CoT (1024 max_new_tokens)                                        | 76.6                                      |
+|                  | Logic-LM (random backup strategy)                                | 55                                        |
+|                  | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy) | 42.46                                     |
+|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy)    | 8                                         |
+| ProofWriter      | Direct (16 max_new_tokens)                                       | 33                                        |
+|                  | CoT (1024 max_new_tokens)                                        | 28.54                                     |
+|                  | Logic-LM (random backup strategy)                                | 28.7                                      |
+|                  | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy) | 28.69                                     |
+|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy)    | 28.695                                    |
+| FOLIO            | Direct (16 max_new_tokens)                                       | 46.5                                      |
+|                  | CoT (1024 max_new_tokens)                                        | 36                                        |
+|                  | Logic-LM (random backup strategy)                                | 43                                        |
+|                  | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy) | 53                                        |
+|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy)    | 44.285                                    |
+| LogicalDeduction | Direct (16 max_new_tokens)                                       | 32.33                                     |
+|                  | CoT (1024 max_new_tokens)                                        | 22                                        |
+|                  | Logic-LM (random backup strategy)                                | 24.27                                     |
+|                  | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy) | 31                                        |
+|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy)    | 20.38                                     |
+| AR-LSAT          | Direct (16 max_new_tokens)                                       | 7.36                                      |
+|                  | CoT (1024 max_new_tokens)                                        | 8.225                                     |
+|                  | Logic-LM (random backup strategy)                                | 22                                        |
+|                  | Logic-LM (Direct-Logic collaboration mode (LLM) backup strategy) | 12                                        |
+|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup strategy)    | 6                                         |
 
 ### 4.2 Gemini results
 
@@ -377,7 +375,6 @@ Best results per row in bold.
   </tr>
 </tbody></table>
 
-
 As we can see from the results, the model achieves much higher accuracy when prompted with ASP programs compared to direct prompting. This indicates that the model is able to better understand the logical problems when provided with ASP programs, which are more structured and explicit compared to direct prompts.
 
 While analyzing the mistakes made by the model using direct prompting, we observed that the model often struggled to correctly understand the logical problems, leading to incorrect answers and increased hallucinations. Performance for all models usually did not exceed random guessing.
@@ -408,7 +405,6 @@ We used Microsoft Azure to run the GPT-4 model and Google Vertex AI to run the G
 | GPT-4        | 82           | 66 seconds             | High cost, slower performance     |
 | Gemini Pro   | 40           | 21 seconds             | Moderate cost, faster performance |
 | Gemini Flash | 40           | 8 seconds              | Best value, fastest performance   |
-
 
 ## 5. Concluding Remarks
 
