@@ -2,7 +2,7 @@ import json
 import os
 from tqdm import tqdm
 import argparse
-from utils import GenimiModel
+from utils_gemini import GenimiModel
 
 INCORRECT = "test_choices_INCORRECT"
 

@@ -8,8 +8,8 @@ tasks=("ProntoQA" "ProofWriter" "FOLIO" "LogicalDeduction" "AR-LSAT")
 
 # gemini_model="gemini-1.0-pro-vision-001"
 # gemini_model="gemini-1.5-pro-preview-0409"
-# gemini_model="gemini-1.5-pro-preview-0514"
-gemini_model="gemini-1.5-flash-preview-0514"
+gemini_model="gemini-1.5-pro-preview-0514"
+# gemini_model="gemini-1.5-flash-preview-0514"
 
 
 for task in "${tasks[@]}"
