@@ -47,7 +47,7 @@ class Prover9_FOL_Formula:
             self.t_PRED = r'PRED'
 
         if len(fol_formula.constants) > 0:
-            print(fol_formula.constants)
+            # print(fol_formula.constants)
             self.t_CONST = r'|'.join(list(fol_formula.constants))
         else:
             self.t_CONST = r'0'

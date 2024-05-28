@@ -70,10 +70,11 @@ class LogicProgramGenerator:
         self.load_prompt_templates()
 
     def load_prompt_templates(self):
-        prompt_file = f"./models/prompts/{self.dataset_name}.txt"
-        if self.dataset_name == "AR-LSAT" and self.model_name == "gpt-4":
-            prompt_file = f"./models/prompts/{self.dataset_name}-long.txt"
-        with open(prompt_file, "r") as f:
+        prompt_file = f'./models/prompts/{self.dataset_name}.txt'
+        # if self.dataset_name == 'AR-LSAT' and self.model_name == 'gpt-4':
+        if self.dataset_name == 'AR-LSAT' and self.model_name in model_globals.MODEL_LARGE_CONTEXT:
+            prompt_file = f'./models/prompts/{self.dataset_name}-long.txt'
+        with open(prompt_file, 'r') as f:
             self.prompt_template = f.read()
 
     def prompt_folio(self, test_data):
@@ -217,8 +218,8 @@ class LogicProgramGenerator:
             ]
             try:
                 if self.LLM.model_name in model_globals.GEMINI_MODEL_NAMES:
-                    # our code for batching with gemini doesn't work yet
-                    raise Exception("")
+                    # our code for batching with gemini doesn't work yet 
+                    raise Exception("our code for batching with gemini doesn't work yet ")
                 batch_outputs = self.LLM.batch_generate(full_prompts)
                 # create output
                 for sample, output in zip(chunk, batch_outputs):

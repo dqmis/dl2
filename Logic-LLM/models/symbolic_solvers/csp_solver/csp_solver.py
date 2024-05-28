@@ -85,7 +85,11 @@ class CSP_Program:
         python_program_list = ['from constraint import *', 'problem = Problem()']
         # add variables
         for variable in self.Variables:
-            variable_name, variable_domain = variable.split('[IN]')
+            try:
+                variable_name, variable_domain = variable.split('[IN]')
+            except:
+                variable_name = ''
+                variable_domain = ''
             variable_name, variable_domain = variable_name.strip(), variable_domain.strip()
             # variable_domain = ast.literal_eval(variable_domain)
             python_program_list.append(f'problem.addVariable("{variable_name}", {variable_domain})')

@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "logical_deduction_0",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "Based on the given statements, we can conclude that the yellow book is to the",
+    "predicted_answer": "Based on the given statements, we can conclude that the yellow book is to the"
+  },
+  {
+    "id": "logical_deduction_1",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "A) The convertible is the second-newest.\n\nExplanation:\n\nFrom the statement \"",
+    "predicted_answer": "A) The convertible is the second-newest.\n\nExplanation:\n\nFrom the statement \""
+  },
+  {
+    "id": "logical_deduction_2",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "E) The limousine is the oldest.\n\nHere's the explanation:\n\n*",
+    "predicted_answer": "E) The limousine is the oldest.\n\nHere's the explanation:\n\n*"
+  },
+  {
+    "id": "logical_deduction_3",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, the correct option is:\n\nD) The peaches",
+    "predicted_answer": "Based on the given context, the correct option is:\n\nD) The peaches"
+  },
+  {
+    "id": "logical_deduction_4",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "E) The blue jay is the second from the left.\n\nHere's the",
+    "predicted_answer": "E) The blue jay is the second from the left.\n\nHere's the"
+  },
+  {
+    "id": "logical_deduction_5",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "D) The bus is the second-oldest.\n\nHere's the reasoning:",
+    "predicted_answer": "D) The bus is the second-oldest.\n\nHere's the reasoning:"
+  },
+  {
+    "id": "logical_deduction_6",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "E) The falcon is the third from the left.\n\nHere's the explanation",
+    "predicted_answer": "E) The falcon is the third from the left.\n\nHere's the explanation"
+  },
+  {
+    "id": "logical_deduction_7",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "Based on the given information, we can deduce that:\n\n* The cardinal is",
+    "predicted_answer": "Based on the given information, we can deduce that:\n\n* The cardinal is"
+  },
+  {
+    "id": "logical_deduction_8",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "I'd be happy to help!\n\nBased on the given information, the correct answer",
+    "predicted_answer": "I'd be happy to help!\n\nBased on the given information, the correct answer"
+  },
+  {
+    "id": "logical_deduction_9",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given information, the correct option is:\n\nD) The purple book",
+    "predicted_answer": "Based on the given information, the correct option is:\n\nD) The purple book"
+  },
+  {
+    "id": "logical_deduction_10",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "B) The robin is the second from the left.\n\nHere's the explanation:",
+    "predicted_answer": "B) The robin is the second from the left.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_11",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the statements, we can deduce that:\n\n* The truck is newer",
+    "predicted_answer": "Based on the statements, we can deduce that:\n\n* The truck is newer"
+  },
+  {
+    "id": "logical_deduction_12",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the information provided, we can conclude that:\n\n* Eve finished first.",
+    "predicted_answer": "Based on the information provided, we can conclude that:\n\n* Eve finished first."
+  },
+  {
+    "id": "logical_deduction_13",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "I see what's going on here!\n\nBased on the context, I'll apply",
+    "predicted_answer": "I see what's going on here!\n\nBased on the context, I'll apply"
+  },
+  {
+    "id": "logical_deduction_14",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nD) The pears",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nD) The pears"
+  },
+  {
+    "id": "logical_deduction_15",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "I'd be happy to help!\n\nFrom the given statements, we know that:",
+    "predicted_answer": "I'd be happy to help!\n\nFrom the given statements, we know that:"
+  },
+  {
+    "id": "logical_deduction_16",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "Based on the information, the correct option is: D) The plums are",
+    "predicted_answer": "Based on the information, the correct option is: D) The plums are"
+  },
+  {
+    "id": "logical_deduction_17",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "I can help you with that!\n\nBased on the given statements, we know that",
+    "predicted_answer": "I can help you with that!\n\nBased on the given statements, we know that"
+  },
+  {
+    "id": "logical_deduction_18",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nA) The hawk is",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nA) The hawk is"
+  },
+  {
+    "id": "logical_deduction_19",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) The bus is the newest.\n\nHere's the explanation:\n\n* The bus",
+    "predicted_answer": "C) The bus is the newest.\n\nHere's the explanation:\n\n* The bus"
+  },
+  {
+    "id": "logical_deduction_20",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, I can answer the question:\n\nSince the falcon",
+    "predicted_answer": "Based on the given context, I can answer the question:\n\nSince the falcon"
+  },
+  {
+    "id": "logical_deduction_21",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given statements, we can deduce that:\n\n* The station wagon",
+    "predicted_answer": "Based on the given statements, we can deduce that:\n\n* The station wagon"
+  },
+  {
+    "id": "logical_deduction_22",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "I'd be happy to help!\n\nBased on the statements, we know that:",
+    "predicted_answer": "I'd be happy to help!\n\nBased on the statements, we know that:"
+  },
+  {
+    "id": "logical_deduction_23",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "I'd be happy to help!\n\nFrom the given information, we know that the",
+    "predicted_answer": "I'd be happy to help!\n\nFrom the given information, we know that the"
+  },
+  {
+    "id": "logical_deduction_24",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given information, the correct answer is:\n\nD) The limous",
+    "predicted_answer": "Based on the given information, the correct answer is:\n\nD) The limous"
+  },
+  {
+    "id": "logical_deduction_25",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "A logical reasoning question!\n\nLet's analyze the context:\n\n* The blue book is",
+    "predicted_answer": "A logical reasoning question!\n\nLet's analyze the context:\n\n* The blue book is"
+  },
+  {
+    "id": "logical_deduction_26",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) Mya finished first.\n\nHere's the reasoning:\n\n* Mya finished",
+    "predicted_answer": "C) Mya finished first.\n\nHere's the reasoning:\n\n* Mya finished"
+  },
+  {
+    "id": "logical_deduction_27",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "B\n\nHere's the explanation:\n\n* The owl is the second from the right",
+    "predicted_answer": "B\n\nHere's the explanation:\n\n* The owl is the second from the right"
+  },
+  {
+    "id": "logical_deduction_28",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nC) The minivan",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nC) The minivan"
+  },
+  {
+    "id": "logical_deduction_29",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can conclude that:\n\nThe station wagon is the",
+    "predicted_answer": "Based on the given context, we can conclude that:\n\nThe station wagon is the"
+  },
+  {
+    "id": "logical_deduction_30",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given information, we can conclude that the kiwis are the cheapest",
+    "predicted_answer": "Based on the given information, we can conclude that the kiwis are the cheapest"
+  },
+  {
+    "id": "logical_deduction_31",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "A) The owl is the leftmost.\n\nHere's the reasoning:\n\n* The",
+    "predicted_answer": "A) The owl is the leftmost.\n\nHere's the reasoning:\n\n* The"
+  },
+  {
+    "id": "logical_deduction_32",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "E) Dan finished third.\n\nHere's the reasoning:\n\n1. Dan finished second",
+    "predicted_answer": "E) Dan finished third.\n\nHere's the reasoning:\n\n1. Dan finished second"
+  },
+  {
+    "id": "logical_deduction_33",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "I'd be happy to help!\n\nBased on the given context, we can analyze",
+    "predicted_answer": "I'd be happy to help!\n\nBased on the given context, we can analyze"
+  },
+  {
+    "id": "logical_deduction_34",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context and statements, I can deduce that:\n\n* The",
+    "predicted_answer": "Based on the given context and statements, I can deduce that:\n\n* The"
+  },
+  {
+    "id": "logical_deduction_35",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "Based on the given context, I can answer the question.\n\nThe correct option is",
+    "predicted_answer": "Based on the given context, I can answer the question.\n\nThe correct option is"
+  },
+  {
+    "id": "logical_deduction_36",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "I'd be happy to help!\n\nBased on the given context, we can analyze",
+    "predicted_answer": "I'd be happy to help!\n\nBased on the given context, we can analyze"
+  },
+  {
+    "id": "logical_deduction_37",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "I can help you with that!\n\nBased on the information provided, we know that",
+    "predicted_answer": "I can help you with that!\n\nBased on the information provided, we know that"
+  },
+  {
+    "id": "logical_deduction_38",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nA) The sedan is",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nA) The sedan is"
+  },
+  {
+    "id": "logical_deduction_39",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the statements, we can conclude that:\n\n* The red book is the",
+    "predicted_answer": "Based on the statements, we can conclude that:\n\n* The red book is the"
+  },
+  {
+    "id": "logical_deduction_40",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "I'm happy to help!\n\nBased on the information provided, the correct answer is",
+    "predicted_answer": "I'm happy to help!\n\nBased on the information provided, the correct answer is"
+  },
+  {
+    "id": "logical_deduction_41",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "E) The blue jay is the leftmost.\n\nHere's the reasoning:",
+    "predicted_answer": "E) The blue jay is the leftmost.\n\nHere's the reasoning:"
+  },
+  {
+    "id": "logical_deduction_42",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the given information, we can deduce that:\n\n* The tractor is",
+    "predicted_answer": "Based on the given information, we can deduce that:\n\n* The tractor is"
+  },
+  {
+    "id": "logical_deduction_43",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) The raven is the second from the left.\n\nHere's the explanation",
+    "predicted_answer": "C) The raven is the second from the left.\n\nHere's the explanation"
+  },
+  {
+    "id": "logical_deduction_44",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "I'd be happy to help!\n\nBased on the information provided, the correct answer",
+    "predicted_answer": "I'd be happy to help!\n\nBased on the information provided, the correct answer"
+  },
+  {
+    "id": "logical_deduction_45",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the given information, we can deduce that:\n\n* The cardinal is",
+    "predicted_answer": "Based on the given information, we can deduce that:\n\n* The cardinal is"
+  },
+  {
+    "id": "logical_deduction_46",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "I'd be happy to help you with the logical reasoning question!\n\nBased on the",
+    "predicted_answer": "I'd be happy to help you with the logical reasoning question!\n\nBased on the"
+  },
+  {
+    "id": "logical_deduction_47",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "E) The falcon is the rightmost.\n\nHere's the explanation:\n\n1",
+    "predicted_answer": "E) The falcon is the rightmost.\n\nHere's the explanation:\n\n1"
+  },
+  {
+    "id": "logical_deduction_48",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "I'd be happy to help!\n\nBased on the information provided, the correct answer",
+    "predicted_answer": "I'd be happy to help!\n\nBased on the information provided, the correct answer"
+  },
+  {
+    "id": "logical_deduction_49",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "A) The peaches are the most expensive.\n\nExplanation: The paragraph states that",
+    "predicted_answer": "A) The peaches are the most expensive.\n\nExplanation: The paragraph states that"
+  },
+  {
+    "id": "logical_deduction_50",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the given information, the correct option is:\n\nC) The hawk is",
+    "predicted_answer": "Based on the given information, the correct option is:\n\nC) The hawk is"
+  },
+  {
+    "id": "logical_deduction_51",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "A) The minivan is the newest.\n\nHere's the explanation:\n\n1.",
+    "predicted_answer": "A) The minivan is the newest.\n\nHere's the explanation:\n\n1."
+  },
+  {
+    "id": "logical_deduction_52",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the statements, we know that:\n\n* The cardinal is to the left",
+    "predicted_answer": "Based on the statements, we know that:\n\n* The cardinal is to the left"
+  },
+  {
+    "id": "logical_deduction_53",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "I can help you with that!\n\nAccording to the paragraph, the red book is",
+    "predicted_answer": "I can help you with that!\n\nAccording to the paragraph, the red book is"
+  },
+  {
+    "id": "logical_deduction_54",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "I'm happy to help!\n\nBased on the given context, the correct answer is",
+    "predicted_answer": "I'm happy to help!\n\nBased on the given context, the correct answer is"
+  },
+  {
+    "id": "logical_deduction_55",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given statements, we can deduce that:\n\n* The robin is",
+    "predicted_answer": "Based on the given statements, we can deduce that:\n\n* The robin is"
+  },
+  {
+    "id": "logical_deduction_56",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "I'd be happy to help!\n\nAccording to the given statements, the watermel",
+    "predicted_answer": "I'd be happy to help!\n\nAccording to the given statements, the watermel"
+  },
+  {
+    "id": "logical_deduction_57",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, I can answer the question.\n\nThe correct option is",
+    "predicted_answer": "Based on the given context, I can answer the question.\n\nThe correct option is"
+  },
+  {
+    "id": "logical_deduction_58",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nB) The orange book",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nB) The orange book"
+  },
+  {
+    "id": "logical_deduction_59",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nE) The peaches",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nE) The peaches"
+  },
+  {
+    "id": "logical_deduction_60",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "D) The sedan is the second-oldest.\n\nHere's the explanation:",
+    "predicted_answer": "D) The sedan is the second-oldest.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_61",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "I'd be happy to help!\n\nBased on the statements, we can deduce",
+    "predicted_answer": "I'd be happy to help!\n\nBased on the statements, we can deduce"
+  },
+  {
+    "id": "logical_deduction_62",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "E) The watermelons are the most expensive.\n\nHere's the explanation:",
+    "predicted_answer": "E) The watermelons are the most expensive.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_63",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nB) The kiwis",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nB) The kiwis"
+  },
+  {
+    "id": "logical_deduction_64",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the information, we can deduce that the correct option is:\n\nB",
+    "predicted_answer": "Based on the information, we can deduce that the correct option is:\n\nB"
+  },
+  {
+    "id": "logical_deduction_65",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can conclude that:\n\nThe station wagon is the",
+    "predicted_answer": "Based on the given context, we can conclude that:\n\nThe station wagon is the"
+  },
+  {
+    "id": "logical_deduction_66",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context and the statements, we can deduce the correct answer:",
+    "predicted_answer": "Based on the context and the statements, we can deduce the correct answer:"
+  },
+  {
+    "id": "logical_deduction_67",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nD) The raven",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nD) The raven"
+  },
+  {
+    "id": "logical_deduction_68",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "E) Eve finished last.\n\nHere's the explanation:\n\n* Mel finished first.",
+    "predicted_answer": "E) Eve finished last.\n\nHere's the explanation:\n\n* Mel finished first."
+  },
+  {
+    "id": "logical_deduction_69",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "I'd be happy to help you with the logical reasoning question!\n\nBased on the",
+    "predicted_answer": "I'd be happy to help you with the logical reasoning question!\n\nBased on the"
+  },
+  {
+    "id": "logical_deduction_70",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "D) The bus is the second-oldest.\n\nHere's the explanation:",
+    "predicted_answer": "D) The bus is the second-oldest.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_71",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nA) The convertible is",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nA) The convertible is"
+  },
+  {
+    "id": "logical_deduction_72",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "E) The limousine is the second-newest.\n\nHere's the explanation",
+    "predicted_answer": "E) The limousine is the second-newest.\n\nHere's the explanation"
+  },
+  {
+    "id": "logical_deduction_73",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the information, the correct option is:\n\nB) The raven is",
+    "predicted_answer": "Based on the information, the correct option is:\n\nB) The raven is"
+  },
+  {
+    "id": "logical_deduction_74",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the given information, we can deduce the following:\n\n* Joe finished",
+    "predicted_answer": "Based on the given information, we can deduce the following:\n\n* Joe finished"
+  },
+  {
+    "id": "logical_deduction_75",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "Based on the given information, the correct answer is:\n\nC) The brown book",
+    "predicted_answer": "Based on the given information, the correct answer is:\n\nC) The brown book"
+  },
+  {
+    "id": "logical_deduction_76",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "I'd be happy to help!\n\nBased on the statements, we can deduce",
+    "predicted_answer": "I'd be happy to help!\n\nBased on the statements, we can deduce"
+  },
+  {
+    "id": "logical_deduction_77",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the given context and the statements, we can deduce the correct answer",
+    "predicted_answer": "Based on the given context and the statements, we can deduce the correct answer"
+  },
+  {
+    "id": "logical_deduction_78",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce the correct answer:\n\nThe crow is",
+    "predicted_answer": "Based on the context, we can deduce the correct answer:\n\nThe crow is"
+  },
+  {
+    "id": "logical_deduction_79",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given information, the correct answer is:\n\nD) The raven",
+    "predicted_answer": "Based on the given information, the correct answer is:\n\nD) The raven"
+  },
+  {
+    "id": "logical_deduction_80",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given information, the correct answer is:\n\nC) The gray book",
+    "predicted_answer": "Based on the given information, the correct answer is:\n\nC) The gray book"
+  },
+  {
+    "id": "logical_deduction_81",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "B) The purple book is the leftmost.\n\nHere's the explanation:\n\n1",
+    "predicted_answer": "B) The purple book is the leftmost.\n\nHere's the explanation:\n\n1"
+  },
+  {
+    "id": "logical_deduction_82",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "Based on the given information, I can deduce that:\n\n* The purple book",
+    "predicted_answer": "Based on the given information, I can deduce that:\n\n* The purple book"
+  },
+  {
+    "id": "logical_deduction_83",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given information, we can deduce that:\n\n* Ada finished above",
+    "predicted_answer": "Based on the given information, we can deduce that:\n\n* Ada finished above"
+  },
+  {
+    "id": "logical_deduction_84",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) The minivan is the third-newest.\n\nHere's the explanation:",
+    "predicted_answer": "C) The minivan is the third-newest.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_85",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "I'd be happy to help!\n\nBased on the given information, the correct answer",
+    "predicted_answer": "I'd be happy to help!\n\nBased on the given information, the correct answer"
+  },
+  {
+    "id": "logical_deduction_86",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nE) Mya finished",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nE) Mya finished"
+  },
+  {
+    "id": "logical_deduction_87",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given information, we can deduce that:\n\n* The loqu",
+    "predicted_answer": "Based on the given information, we can deduce that:\n\n* The loqu"
+  },
+  {
+    "id": "logical_deduction_88",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the information, the correct option is: C) The plums are",
+    "predicted_answer": "Based on the information, the correct option is: C) The plums are"
+  },
+  {
+    "id": "logical_deduction_89",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nE) The limous",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nE) The limous"
+  },
+  {
+    "id": "logical_deduction_90",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Let's analyze the information:\n\n* The purple book is to the left of the",
+    "predicted_answer": "Let's analyze the information:\n\n* The purple book is to the left of the"
+  },
+  {
+    "id": "logical_deduction_91",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given statements, we can deduce the following:\n\n* The convertible",
+    "predicted_answer": "Based on the given statements, we can deduce the following:\n\n* The convertible"
+  },
+  {
+    "id": "logical_deduction_92",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the given information, I can answer the question:\n\nThe correct option is",
+    "predicted_answer": "Based on the given information, I can answer the question:\n\nThe correct option is"
+  },
+  {
+    "id": "logical_deduction_93",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the given statements, we know that the raven is the second from",
+    "predicted_answer": "Based on the given statements, we know that the raven is the second from"
+  },
+  {
+    "id": "logical_deduction_94",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "A nice set of logical reasoning questions!\n\nFor the first question, the correct answer",
+    "predicted_answer": "A nice set of logical reasoning questions!\n\nFor the first question, the correct answer"
+  },
+  {
+    "id": "logical_deduction_95",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the statements, we know that:\n\n* The quail is to the",
+    "predicted_answer": "Based on the statements, we know that:\n\n* The quail is to the"
+  },
+  {
+    "id": "logical_deduction_96",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "A logical reasoning question!\n\nBased on the information provided, I'll analyze the statements",
+    "predicted_answer": "A logical reasoning question!\n\nBased on the information provided, I'll analyze the statements"
+  },
+  {
+    "id": "logical_deduction_97",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nC) The brown book",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nC) The brown book"
+  },
+  {
+    "id": "logical_deduction_98",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "Based on the given information, the correct option is:\n\nD) The black book",
+    "predicted_answer": "Based on the given information, the correct option is:\n\nD) The black book"
+  },
+  {
+    "id": "logical_deduction_99",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the information provided, I would answer:\n\nD) The sedan is the",
+    "predicted_answer": "Based on the information provided, I would answer:\n\nD) The sedan is the"
+  },
+  {
+    "id": "logical_deduction_100",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "E) The tractor is the second-oldest.\n\nHere's the explanation:",
+    "predicted_answer": "E) The tractor is the second-oldest.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_101",
+    "question": "Which of the following is true?",
+    "answer": "G",
+    "predicted_reasoning": "A nice set of logical reasoning questions!\n\nFor the third question, let's analyze",
+    "predicted_answer": "A nice set of logical reasoning questions!\n\nFor the third question, let's analyze"
+  },
+  {
+    "id": "logical_deduction_102",
+    "question": "Which of the following is true?",
+    "answer": "G",
+    "predicted_reasoning": "Based on the given information, the correct answer is:\n\nF) The orange book",
+    "predicted_answer": "Based on the given information, the correct answer is:\n\nF) The orange book"
+  },
+  {
+    "id": "logical_deduction_103",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "G) The loquats are the third-most expensive.\n\nHere's the explanation",
+    "predicted_answer": "G) The loquats are the third-most expensive.\n\nHere's the explanation"
+  },
+  {
+    "id": "logical_deduction_104",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "G) The blue jay is the leftmost.\n\nHere's the explanation:",
+    "predicted_answer": "G) The blue jay is the leftmost.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_105",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "F) The bus is the third-oldest.\n\nHere's the explanation:",
+    "predicted_answer": "F) The bus is the third-oldest.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_106",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "F) The kiwis are the fourth-most expensive.\n\nHere's the explanation:",
+    "predicted_answer": "F) The kiwis are the fourth-most expensive.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_107",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "Based on the given information, the correct answer is:\n\nE) The pears",
+    "predicted_answer": "Based on the given information, the correct answer is:\n\nE) The pears"
+  },
+  {
+    "id": "logical_deduction_108",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "F) The mangoes are the third-cheapest.\n\nHere's the explanation:",
+    "predicted_answer": "F) The mangoes are the third-cheapest.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_109",
+    "question": "Which of the following is true?",
+    "answer": "G",
+    "predicted_reasoning": "Based on the given information, we can conclude that:\n\n* The apples are the",
+    "predicted_answer": "Based on the given information, we can conclude that:\n\n* The apples are the"
+  },
+  {
+    "id": "logical_deduction_110",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "Based on the information provided, we can deduce the following:\n\n* The mango",
+    "predicted_answer": "Based on the information provided, we can deduce the following:\n\n* The mango"
+  },
+  {
+    "id": "logical_deduction_111",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "I'd be happy to help you with that!\n\nBased on the given information,",
+    "predicted_answer": "I'd be happy to help you with that!\n\nBased on the given information,"
+  },
+  {
+    "id": "logical_deduction_112",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "E) The black book is the third from the right.\n\nHere's the reasoning",
+    "predicted_answer": "E) The black book is the third from the right.\n\nHere's the reasoning"
+  },
+  {
+    "id": "logical_deduction_113",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "B) The watermelons are the cheapest.\n\nHere's the explanation:\n\nFrom",
+    "predicted_answer": "B) The watermelons are the cheapest.\n\nHere's the explanation:\n\nFrom"
+  },
+  {
+    "id": "logical_deduction_114",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "Based on the given information, we can deduce that:\n\n* The falcon",
+    "predicted_answer": "Based on the given information, we can deduce that:\n\n* The falcon"
+  },
+  {
+    "id": "logical_deduction_115",
+    "question": "Which of the following is true?",
+    "answer": "G",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nC) The hatchback",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nC) The hatchback"
+  },
+  {
+    "id": "logical_deduction_116",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "A logical reasoning question!\n\nLet's analyze the statements:\n\n1. The hatchback",
+    "predicted_answer": "A logical reasoning question!\n\nLet's analyze the statements:\n\n1. The hatchback"
+  },
+  {
+    "id": "logical_deduction_117",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the context, we can analyze the statements to determine the correct answer.",
+    "predicted_answer": "Based on the context, we can analyze the statements to determine the correct answer."
+  },
+  {
+    "id": "logical_deduction_118",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the given context, we can analyze the statements and deduce the correct",
+    "predicted_answer": "Based on the given context, we can analyze the statements and deduce the correct"
+  },
+  {
+    "id": "logical_deduction_119",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given information, the correct option is:\n\nA) The brown book",
+    "predicted_answer": "Based on the given information, the correct option is:\n\nA) The brown book"
+  },
+  {
+    "id": "logical_deduction_120",
+    "question": "Which of the following is true?",
+    "answer": "G",
+    "predicted_reasoning": "Based on the information provided, the correct option is F) The mangoes are",
+    "predicted_answer": "Based on the information provided, the correct option is F) The mangoes are"
+  },
+  {
+    "id": "logical_deduction_121",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "F) The mangoes are the third-cheapest.\n\nHere's the explanation:",
+    "predicted_answer": "F) The mangoes are the third-cheapest.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_122",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given information, we can conclude that:\n\n* The hummingbird is",
+    "predicted_answer": "Based on the given information, we can conclude that:\n\n* The hummingbird is"
+  },
+  {
+    "id": "logical_deduction_123",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "I'll answer the question.\n\nFrom the given information, we know that the black",
+    "predicted_answer": "I'll answer the question.\n\nFrom the given information, we know that the black"
+  },
+  {
+    "id": "logical_deduction_124",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the given information, we can deduce the following:\n\n* The orange",
+    "predicted_answer": "Based on the given information, we can deduce the following:\n\n* The orange"
+  },
+  {
+    "id": "logical_deduction_125",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, the correct answer is:\n\nE) The gray book",
+    "predicted_answer": "Based on the given context, the correct answer is:\n\nE) The gray book"
+  },
+  {
+    "id": "logical_deduction_126",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the given context and statements, we can deduce the correct answer.",
+    "predicted_answer": "Based on the given context and statements, we can deduce the correct answer."
+  },
+  {
+    "id": "logical_deduction_127",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the given context and statements, the correct answer is:\n\nF) The",
+    "predicted_answer": "Based on the given context and statements, the correct answer is:\n\nF) The"
+  },
+  {
+    "id": "logical_deduction_128",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "A) The robin is the second from the left.\n\nHere's the explanation:",
+    "predicted_answer": "A) The robin is the second from the left.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_129",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "F\n\nHere's the explanation:\n\nFrom the statements, we know that the pl",
+    "predicted_answer": "F\n\nHere's the explanation:\n\nFrom the statements, we know that the pl"
+  },
+  {
+    "id": "logical_deduction_130",
+    "question": "Which of the following is true?",
+    "answer": "G",
+    "predicted_reasoning": "Based on the given information, the correct option is:\n\nG) The oranges are",
+    "predicted_answer": "Based on the given information, the correct option is:\n\nG) The oranges are"
+  },
+  {
+    "id": "logical_deduction_131",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the given information, we can deduce that:\n\n* Rob finished first",
+    "predicted_answer": "Based on the given information, we can deduce that:\n\n* Rob finished first"
+  },
+  {
+    "id": "logical_deduction_132",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "D) The truck is the third-oldest.\n\nHere's the explanation:",
+    "predicted_answer": "D) The truck is the third-oldest.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_133",
+    "question": "Which of the following is true?",
+    "answer": "G",
+    "predicted_reasoning": "Based on the given information, the correct answer is:\n\nG) The raven",
+    "predicted_answer": "Based on the given information, the correct answer is:\n\nG) The raven"
+  },
+  {
+    "id": "logical_deduction_134",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "G) The hatchback is the second-oldest.\n\nHere's the explanation",
+    "predicted_answer": "G) The hatchback is the second-oldest.\n\nHere's the explanation"
+  },
+  {
+    "id": "logical_deduction_135",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "G) The loquats are the most expensive.\n\nHere's the explanation:",
+    "predicted_answer": "G) The loquats are the most expensive.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_136",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nE) The raven",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nE) The raven"
+  },
+  {
+    "id": "logical_deduction_137",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, I can analyze the information and answer the logical reasoning",
+    "predicted_answer": "Based on the given context, I can analyze the information and answer the logical reasoning"
+  },
+  {
+    "id": "logical_deduction_138",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "I can help you with that!\n\nFrom the given information, we can deduce",
+    "predicted_answer": "I can help you with that!\n\nFrom the given information, we can deduce"
+  },
+  {
+    "id": "logical_deduction_139",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "Let's analyze the information:\n\n* The robin is the second from the left.",
+    "predicted_answer": "Let's analyze the information:\n\n* The robin is the second from the left."
+  },
+  {
+    "id": "logical_deduction_140",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "Based on the given information, the correct option is E) The minivan is",
+    "predicted_answer": "Based on the given information, the correct option is E) The minivan is"
+  },
+  {
+    "id": "logical_deduction_141",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "G) Ana finished last.\n\nHere's the explanation:\n\n* Ana finished second-to",
+    "predicted_answer": "G) Ana finished last.\n\nHere's the explanation:\n\n* Ana finished second-to"
+  },
+  {
+    "id": "logical_deduction_142",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given information, the correct answer is:\n\nC) The minivan",
+    "predicted_answer": "Based on the given information, the correct answer is:\n\nC) The minivan"
+  },
+  {
+    "id": "logical_deduction_143",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nC) The hummingbird",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nC) The hummingbird"
+  },
+  {
+    "id": "logical_deduction_144",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "Based on the given context and statements, we can deduce the following:\n\n*",
+    "predicted_answer": "Based on the given context and statements, we can deduce the following:\n\n*"
+  },
+  {
+    "id": "logical_deduction_145",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "E) The loquats are the cheapest.\n\nHere's the explanation:\n\n1",
+    "predicted_answer": "E) The loquats are the cheapest.\n\nHere's the explanation:\n\n1"
+  },
+  {
+    "id": "logical_deduction_146",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "I can help you with that!\n\nFrom the given information, we know that:",
+    "predicted_answer": "I can help you with that!\n\nFrom the given information, we know that:"
+  },
+  {
+    "id": "logical_deduction_147",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nF) The orange book",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nF) The orange book"
+  },
+  {
+    "id": "logical_deduction_148",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "B) The owl is the second from the left.\n\nHere's the reasoning:",
+    "predicted_answer": "B) The owl is the second from the left.\n\nHere's the reasoning:"
+  },
+  {
+    "id": "logical_deduction_149",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "Based on the given context, we can analyze the information and answer the question.",
+    "predicted_answer": "Based on the given context, we can analyze the information and answer the question."
+  },
+  {
+    "id": "logical_deduction_150",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the given context, I can analyze the information and answer the question.",
+    "predicted_answer": "Based on the given context, I can analyze the information and answer the question."
+  },
+  {
+    "id": "logical_deduction_151",
+    "question": "Which of the following is true?",
+    "answer": "G",
+    "predicted_reasoning": "G) The peaches are the second-most expensive.\n\nHere's the reasoning:",
+    "predicted_answer": "G) The peaches are the second-most expensive.\n\nHere's the reasoning:"
+  },
+  {
+    "id": "logical_deduction_152",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the given context, we can analyze the information and make logical conclusions.",
+    "predicted_answer": "Based on the given context, we can analyze the information and make logical conclusions."
+  },
+  {
+    "id": "logical_deduction_153",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the information provided, I can conclude that the correct option is:\n\nG",
+    "predicted_answer": "Based on the information provided, I can conclude that the correct option is:\n\nG"
+  },
+  {
+    "id": "logical_deduction_154",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, we can analyze the information provided:\n\n* Joe finished",
+    "predicted_answer": "Based on the given context, we can analyze the information provided:\n\n* Joe finished"
+  },
+  {
+    "id": "logical_deduction_155",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given statements, we can deduce that:\n\n* The quail",
+    "predicted_answer": "Based on the given statements, we can deduce that:\n\n* The quail"
+  },
+  {
+    "id": "logical_deduction_156",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "B) The oranges are the fourth-most expensive.\n\nHere's the explanation:\n\nFrom",
+    "predicted_answer": "B) The oranges are the fourth-most expensive.\n\nHere's the explanation:\n\nFrom"
+  },
+  {
+    "id": "logical_deduction_157",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the context, the correct option is:\n\nB) The owl is the",
+    "predicted_answer": "Based on the context, the correct option is:\n\nB) The owl is the"
+  },
+  {
+    "id": "logical_deduction_158",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given information, we can deduce that:\n\n* Amy finished third",
+    "predicted_answer": "Based on the given information, we can deduce that:\n\n* Amy finished third"
+  },
+  {
+    "id": "logical_deduction_159",
+    "question": "Which of the following is true?",
+    "answer": "G",
+    "predicted_reasoning": "Based on the given information, we can deduce that:\n\n* The tractor is",
+    "predicted_answer": "Based on the given information, we can deduce that:\n\n* The tractor is"
+  },
+  {
+    "id": "logical_deduction_160",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "Based on the given information, the correct answer is:\n\nG) The robin is",
+    "predicted_answer": "Based on the given information, the correct answer is:\n\nG) The robin is"
+  },
+  {
+    "id": "logical_deduction_161",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "E) The pears are the third-cheapest.\n\nHere's the explanation:",
+    "predicted_answer": "E) The pears are the third-cheapest.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_162",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nF) The motorc",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nF) The motorc"
+  },
+  {
+    "id": "logical_deduction_163",
+    "question": "Which of the following is true?",
+    "answer": "G",
+    "predicted_reasoning": "Based on the context, we can deduce the correct answer as:\n\nA)",
+    "predicted_answer": "Based on the context, we can deduce the correct answer as:\n\nA)"
+  },
+  {
+    "id": "logical_deduction_164",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context and statements, we can deduce the following:\n\n*",
+    "predicted_answer": "Based on the given context and statements, we can deduce the following:\n\n*"
+  },
+  {
+    "id": "logical_deduction_165",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "F) The gray book is the fourth from the left.\n\nHere's the explanation",
+    "predicted_answer": "F) The gray book is the fourth from the left.\n\nHere's the explanation"
+  },
+  {
+    "id": "logical_deduction_166",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Let's analyze the context:\n\nThe statements describe the order of the birds on the",
+    "predicted_answer": "Let's analyze the context:\n\nThe statements describe the order of the birds on the"
+  },
+  {
+    "id": "logical_deduction_167",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "F\n\nHere's the explanation:\n\n* The robin is the second from the right",
+    "predicted_answer": "F\n\nHere's the explanation:\n\n* The robin is the second from the right"
+  },
+  {
+    "id": "logical_deduction_168",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the given information, we can conclude that:\n\n* Amy finished below Rob",
+    "predicted_answer": "Based on the given information, we can conclude that:\n\n* Amy finished below Rob"
+  },
+  {
+    "id": "logical_deduction_169",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "B) Dan finished second.\n\nHere's the explanation:\n\n* Dan finished second.",
+    "predicted_answer": "B) Dan finished second.\n\nHere's the explanation:\n\n* Dan finished second."
+  },
+  {
+    "id": "logical_deduction_170",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "Based on the information provided, we can deduce that the blue jay is",
+    "predicted_answer": "Based on the information provided, we can deduce that the blue jay is"
+  },
+  {
+    "id": "logical_deduction_171",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can analyze the statements and deduce the correct answer",
+    "predicted_answer": "Based on the context, we can analyze the statements and deduce the correct answer"
+  },
+  {
+    "id": "logical_deduction_172",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context and statements, the correct answer is:\n\nG) The",
+    "predicted_answer": "Based on the given context and statements, the correct answer is:\n\nG) The"
+  },
+  {
+    "id": "logical_deduction_173",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "Based on the information provided, the correct option is:\n\nF) The mangoes",
+    "predicted_answer": "Based on the information provided, the correct option is:\n\nF) The mangoes"
+  },
+  {
+    "id": "logical_deduction_174",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "G) The mangoes are the third-most expensive.\n\nHere's the explanation:",
+    "predicted_answer": "G) The mangoes are the third-most expensive.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_175",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the given information, we can deduce that:\n\n* The gray book",
+    "predicted_answer": "Based on the given information, we can deduce that:\n\n* The gray book"
+  },
+  {
+    "id": "logical_deduction_176",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nG) The loqu",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nG) The loqu"
+  },
+  {
+    "id": "logical_deduction_177",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "I'd be happy to help!\n\nBased on the information provided, the correct answer",
+    "predicted_answer": "I'd be happy to help!\n\nBased on the information provided, the correct answer"
+  },
+  {
+    "id": "logical_deduction_178",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the given information, we can analyze the statements and determine the correct answer",
+    "predicted_answer": "Based on the given information, we can analyze the statements and determine the correct answer"
+  },
+  {
+    "id": "logical_deduction_179",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "Based on the given context, I can analyze the statement and options to find the",
+    "predicted_answer": "Based on the given context, I can analyze the statement and options to find the"
+  },
+  {
+    "id": "logical_deduction_180",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "A) The black book is the third from the right.\n\nHere's the explanation",
+    "predicted_answer": "A) The black book is the third from the right.\n\nHere's the explanation"
+  },
+  {
+    "id": "logical_deduction_181",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "F) The gray book is the fourth from the left.\n\nHere's the reasoning",
+    "predicted_answer": "F) The gray book is the fourth from the left.\n\nHere's the reasoning"
+  },
+  {
+    "id": "logical_deduction_182",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the context, I can analyze the information and provide an answer.\n\nFrom",
+    "predicted_answer": "Based on the context, I can analyze the information and provide an answer.\n\nFrom"
+  },
+  {
+    "id": "logical_deduction_183",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) The mangoes are the fourth-most expensive.\n\nHere's the reasoning:",
+    "predicted_answer": "C) The mangoes are the fourth-most expensive.\n\nHere's the reasoning:"
+  },
+  {
+    "id": "logical_deduction_184",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can analyze the information provided:\n\n* Joe finished",
+    "predicted_answer": "Based on the given context, we can analyze the information provided:\n\n* Joe finished"
+  },
+  {
+    "id": "logical_deduction_185",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "Based on the information provided, the correct option is:\n\nG) The loqu",
+    "predicted_answer": "Based on the information provided, the correct option is:\n\nG) The loqu"
+  },
+  {
+    "id": "logical_deduction_186",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nE) The pears",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nE) The pears"
+  },
+  {
+    "id": "logical_deduction_187",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the information provided, we can conclude that Ana finished second-to-last,",
+    "predicted_answer": "Based on the information provided, we can conclude that Ana finished second-to-last,"
+  },
+  {
+    "id": "logical_deduction_188",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, the correct option is:\n\nF) The cantaloup",
+    "predicted_answer": "Based on the context, the correct option is:\n\nF) The cantaloup"
+  },
+  {
+    "id": "logical_deduction_189",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the information provided, we can deduce that:\n\n* The red book",
+    "predicted_answer": "Based on the information provided, we can deduce that:\n\n* The red book"
+  },
+  {
+    "id": "logical_deduction_190",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nD) Amy finished third",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nD) Amy finished third"
+  },
+  {
+    "id": "logical_deduction_191",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "Based on the given information, the correct option is:\n\nC) The green book",
+    "predicted_answer": "Based on the given information, the correct option is:\n\nC) The green book"
+  },
+  {
+    "id": "logical_deduction_192",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "Based on the given information, the correct answer is:\n\nG) The hatchback",
+    "predicted_answer": "Based on the given information, the correct answer is:\n\nG) The hatchback"
+  },
+  {
+    "id": "logical_deduction_193",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) The tractor is the second-newest.\n\nHere's the explanation:\n\n*",
+    "predicted_answer": "C) The tractor is the second-newest.\n\nHere's the explanation:\n\n*"
+  },
+  {
+    "id": "logical_deduction_194",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nB) The orange book",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nB) The orange book"
+  },
+  {
+    "id": "logical_deduction_195",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "I'm happy to help!\n\nAccording to the context, the statements are logically consistent",
+    "predicted_answer": "I'm happy to help!\n\nAccording to the context, the statements are logically consistent"
+  },
+  {
+    "id": "logical_deduction_196",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the information provided, the correct option is:\n\nG) The peaches",
+    "predicted_answer": "Based on the information provided, the correct option is:\n\nG) The peaches"
+  },
+  {
+    "id": "logical_deduction_197",
+    "question": "Which of the following is true?",
+    "answer": "G",
+    "predicted_reasoning": "Based on the given information, we can deduce the following:\n\n* Ana finished",
+    "predicted_answer": "Based on the given information, we can deduce the following:\n\n* Ana finished"
+  },
+  {
+    "id": "logical_deduction_198",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "E) Eve finished fourth.",
+    "predicted_answer": "E) Eve finished fourth."
+  },
+  {
+    "id": "logical_deduction_199",
+    "question": "Which of the following is true?",
+    "answer": "G",
+    "predicted_reasoning": "G) The gray book is the second from the left.\n\nHere's the explanation",
+    "predicted_answer": "G) The gray book is the second from the left.\n\nHere's the explanation"
+  },
+  {
+    "id": "logical_deduction_200",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "F) Ada finished third-to-last.\n\nHere's the reasoning:\n\n* Amy finished",
+    "predicted_answer": "F) Ada finished third-to-last.\n\nHere's the reasoning:\n\n* Amy finished"
+  },
+  {
+    "id": "logical_deduction_201",
+    "question": "Which of the following is true?",
+    "answer": "G",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nF) The black book",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nF) The black book"
+  },
+  {
+    "id": "logical_deduction_202",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "B) The mangoes are the cheapest.\n\nHere's the explanation:\n\n1.",
+    "predicted_answer": "B) The mangoes are the cheapest.\n\nHere's the explanation:\n\n1."
+  },
+  {
+    "id": "logical_deduction_203",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the information provided, we can conclude that:\n\n* Ada finished second-to",
+    "predicted_answer": "Based on the information provided, we can conclude that:\n\n* Ada finished second-to"
+  },
+  {
+    "id": "logical_deduction_204",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "I'll answer the question!\n\nAccording to the statements, the blue jay is",
+    "predicted_answer": "I'll answer the question!\n\nAccording to the statements, the blue jay is"
+  },
+  {
+    "id": "logical_deduction_205",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "G) The hummingbird is the second from the left.\n\nHere's the explanation",
+    "predicted_answer": "G) The hummingbird is the second from the left.\n\nHere's the explanation"
+  },
+  {
+    "id": "logical_deduction_206",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "F\n\nHere's the explanation:\n\nFrom the statement \"The mangoes are the",
+    "predicted_answer": "F\n\nHere's the explanation:\n\nFrom the statement \"The mangoes are the"
+  },
+  {
+    "id": "logical_deduction_207",
+    "question": "Which of the following is true?",
+    "answer": "G",
+    "predicted_reasoning": "Based on the given context, we can analyze the information and answer the question.",
+    "predicted_answer": "Based on the given context, we can analyze the information and answer the question."
+  },
+  {
+    "id": "logical_deduction_208",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given information, the correct option is: E) The cantal",
+    "predicted_answer": "Based on the given information, the correct option is: E) The cantal"
+  },
+  {
+    "id": "logical_deduction_209",
+    "question": "Which of the following is true?",
+    "answer": "G",
+    "predicted_reasoning": "G) The blue jay is the third from the left.\n\nThe paragraph states",
+    "predicted_answer": "G) The blue jay is the third from the left.\n\nThe paragraph states"
+  },
+  {
+    "id": "logical_deduction_210",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the given information, we can deduce the following:\n\n* The gray",
+    "predicted_answer": "Based on the given information, we can deduce the following:\n\n* The gray"
+  },
+  {
+    "id": "logical_deduction_211",
+    "question": "Which of the following is true?",
+    "answer": "G",
+    "predicted_reasoning": "Based on the information provided, we can conclude that:\n\nAmy finished second-to-last",
+    "predicted_answer": "Based on the information provided, we can conclude that:\n\nAmy finished second-to-last"
+  },
+  {
+    "id": "logical_deduction_212",
+    "question": "Which of the following is true?",
+    "answer": "G",
+    "predicted_reasoning": "I'd be happy to help!\n\nBased on the information provided, the correct answer",
+    "predicted_answer": "I'd be happy to help!\n\nBased on the information provided, the correct answer"
+  },
+  {
+    "id": "logical_deduction_213",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nD) The station wagon",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nD) The station wagon"
+  },
+  {
+    "id": "logical_deduction_214",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "A) The cardinal is the second from the left.\n\nHere's the reasoning:",
+    "predicted_answer": "A) The cardinal is the second from the left.\n\nHere's the reasoning:"
+  },
+  {
+    "id": "logical_deduction_215",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, the correct answer is:\n\nF) The hatchback",
+    "predicted_answer": "Based on the given context, the correct answer is:\n\nF) The hatchback"
+  },
+  {
+    "id": "logical_deduction_216",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "G) The peaches are the second-cheapest.\n\nHere's the explanation:",
+    "predicted_answer": "G) The peaches are the second-cheapest.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_217",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "I'd be happy to help you with that!\n\nAccording to the statements, we",
+    "predicted_answer": "I'd be happy to help you with that!\n\nAccording to the statements, we"
+  },
+  {
+    "id": "logical_deduction_218",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nB) The owl is",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nB) The owl is"
+  },
+  {
+    "id": "logical_deduction_219",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, I'll answer the question:\n\nThe correct option is",
+    "predicted_answer": "Based on the given context, I'll answer the question:\n\nThe correct option is"
+  },
+  {
+    "id": "logical_deduction_220",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the given information, the correct option is:\n\nF) The orange book",
+    "predicted_answer": "Based on the given information, the correct option is:\n\nF) The orange book"
+  },
+  {
+    "id": "logical_deduction_221",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "G) The peaches are the cheapest.\n\nHere's the explanation:\n\n* The",
+    "predicted_answer": "G) The peaches are the cheapest.\n\nHere's the explanation:\n\n* The"
+  },
+  {
+    "id": "logical_deduction_222",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "E) The tractor is the oldest.\n\nHere's the explanation:\n\n* The station",
+    "predicted_answer": "E) The tractor is the oldest.\n\nHere's the explanation:\n\n* The station"
+  },
+  {
+    "id": "logical_deduction_223",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) The blue jay is the leftmost.\n\nExplanation:\n\nFrom the statements",
+    "predicted_answer": "C) The blue jay is the leftmost.\n\nExplanation:\n\nFrom the statements"
+  },
+  {
+    "id": "logical_deduction_224",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the given information, the correct option is: E) The falcon",
+    "predicted_answer": "Based on the given information, the correct option is: E) The falcon"
+  },
+  {
+    "id": "logical_deduction_225",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context and the statements provided, I would answer:\n\nG)",
+    "predicted_answer": "Based on the given context and the statements provided, I would answer:\n\nG)"
+  },
+  {
+    "id": "logical_deduction_226",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, I'll analyze the statements and answer the question.\n\nFrom",
+    "predicted_answer": "Based on the context, I'll analyze the statements and answer the question.\n\nFrom"
+  },
+  {
+    "id": "logical_deduction_227",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "I'd be happy to help you with the logical reasoning question!\n\nBased on the",
+    "predicted_answer": "I'd be happy to help you with the logical reasoning question!\n\nBased on the"
+  },
+  {
+    "id": "logical_deduction_228",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "G) The sedan is the second-oldest.\n\nHere's the explanation:",
+    "predicted_answer": "G) The sedan is the second-oldest.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_229",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the given information, I would answer:\n\nG) The peaches are",
+    "predicted_answer": "Based on the given information, I would answer:\n\nG) The peaches are"
+  },
+  {
+    "id": "logical_deduction_230",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) The white book is the second from the right.\n\nHere's the explanation",
+    "predicted_answer": "C) The white book is the second from the right.\n\nHere's the explanation"
+  },
+  {
+    "id": "logical_deduction_231",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "Based on the given context, the correct answer is:\n\nC) The bus is",
+    "predicted_answer": "Based on the given context, the correct answer is:\n\nC) The bus is"
+  },
+  {
+    "id": "logical_deduction_232",
+    "question": "Which of the following is true?",
+    "answer": "D",
+    "predicted_reasoning": "Based on the information provided, we can deduce the correct answer as follows:",
+    "predicted_answer": "Based on the information provided, we can deduce the correct answer as follows:"
+  },
+  {
+    "id": "logical_deduction_233",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given information, the correct answer is:\n\nD) The blue j",
+    "predicted_answer": "Based on the given information, the correct answer is:\n\nD) The blue j"
+  },
+  {
+    "id": "logical_deduction_234",
+    "question": "Which of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "E) The owl is the third from the right.\n\nHere's the explanation:",
+    "predicted_answer": "E) The owl is the third from the right.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_235",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "A nice set of logical reasoning questions!\n\nLet's break down each question:\n\n1",
+    "predicted_answer": "A nice set of logical reasoning questions!\n\nLet's break down each question:\n\n1"
+  },
+  {
+    "id": "logical_deduction_236",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "Based on the given information, we can determine the correct answer as follows:\n\nFrom",
+    "predicted_answer": "Based on the given information, we can determine the correct answer as follows:\n\nFrom"
+  },
+  {
+    "id": "logical_deduction_237",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given information, we can deduce that:\n\n* The red book",
+    "predicted_answer": "Based on the given information, we can deduce that:\n\n* The red book"
+  },
+  {
+    "id": "logical_deduction_238",
+    "question": "Which of the following is true?",
+    "answer": "F",
+    "predicted_reasoning": "I'd be happy to help!\n\nFrom the given information, we can deduce",
+    "predicted_answer": "I'd be happy to help!\n\nFrom the given information, we can deduce"
+  },
+  {
+    "id": "logical_deduction_239",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) The mangoes are the fourth-most expensive.\n\nHere's the explanation:",
+    "predicted_answer": "C) The mangoes are the fourth-most expensive.\n\nHere's the explanation:"
+  },
+  {
+    "id": "logical_deduction_240",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given information, the correct answer is:\n\nB) The owl is",
+    "predicted_answer": "Based on the given information, the correct answer is:\n\nB) The owl is"
+  },
+  {
+    "id": "logical_deduction_241",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "A) The gray book is the second from the left.\n\nHere's the explanation",
+    "predicted_answer": "A) The gray book is the second from the left.\n\nHere's the explanation"
+  },
+  {
+    "id": "logical_deduction_242",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "I'd be happy to help!\n\nBased on the statements, we know that:",
+    "predicted_answer": "I'd be happy to help!\n\nBased on the statements, we know that:"
+  },
+  {
+    "id": "logical_deduction_243",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the information, we know that the white book is to the left of",
+    "predicted_answer": "Based on the information, we know that the white book is to the left of"
+  },
+  {
+    "id": "logical_deduction_244",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given information, we can deduce that:\n\n* The tractor is",
+    "predicted_answer": "Based on the given information, we can deduce that:\n\n* The tractor is"
+  },
+  {
+    "id": "logical_deduction_245",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the information, we know that:\n\n* The blue book is to the",
+    "predicted_answer": "Based on the information, we know that:\n\n* The blue book is to the"
+  },
+  {
+    "id": "logical_deduction_246",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the statements, we know that the crow is to the left of the",
+    "predicted_answer": "Based on the statements, we know that the crow is to the left of the"
+  },
+  {
+    "id": "logical_deduction_247",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) The tractor is the oldest.\n\nHere's the explanation:\n\n* The truck",
+    "predicted_answer": "C) The tractor is the oldest.\n\nHere's the explanation:\n\n* The truck"
+  },
+  {
+    "id": "logical_deduction_248",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "I can help you with that!\n\nAccording to the paragraph, we know that:",
+    "predicted_answer": "I can help you with that!\n\nAccording to the paragraph, we know that:"
+  },
+  {
+    "id": "logical_deduction_249",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the given information, we can conclude that:\n\nRob finished above Joe,",
+    "predicted_answer": "Based on the given information, we can conclude that:\n\nRob finished above Joe,"
+  },
+  {
+    "id": "logical_deduction_250",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given context, the correct answer is:\n\nC) The purple book",
+    "predicted_answer": "Based on the given context, the correct answer is:\n\nC) The purple book"
+  },
+  {
+    "id": "logical_deduction_251",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "A) The purple book is the rightmost.\n\nHere's the explanation:\n\nFrom",
+    "predicted_answer": "A) The purple book is the rightmost.\n\nHere's the explanation:\n\nFrom"
+  },
+  {
+    "id": "logical_deduction_252",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given statements, we can conclude that:\n\n* The truck is older",
+    "predicted_answer": "Based on the given statements, we can conclude that:\n\n* The truck is older"
+  },
+  {
+    "id": "logical_deduction_253",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nA) The cantal",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nA) The cantal"
+  },
+  {
+    "id": "logical_deduction_254",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) Mel finished first.\n\nThe paragraph states that \"Dan finished second\" and",
+    "predicted_answer": "C) Mel finished first.\n\nThe paragraph states that \"Dan finished second\" and"
+  },
+  {
+    "id": "logical_deduction_255",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) The station wagon is the oldest.\n\nThe statements are:\n\n1. The",
+    "predicted_answer": "C) The station wagon is the oldest.\n\nThe statements are:\n\n1. The"
+  },
+  {
+    "id": "logical_deduction_256",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) Joe finished first.\n\nHere's the reasoning:\n\n1. Amy finished below",
+    "predicted_answer": "C) Joe finished first.\n\nHere's the reasoning:\n\n1. Amy finished below"
+  },
+  {
+    "id": "logical_deduction_257",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "A) The yellow book is the second from the left.\n\nHere's the reasoning",
+    "predicted_answer": "A) The yellow book is the second from the left.\n\nHere's the reasoning"
+  },
+  {
+    "id": "logical_deduction_258",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given information, we can conclude that:\n\n* The tractor is older",
+    "predicted_answer": "Based on the given information, we can conclude that:\n\n* The tractor is older"
+  },
+  {
+    "id": "logical_deduction_259",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "A) The cardinal is the leftmost.\n\nHere's the reasoning:\n\n1.",
+    "predicted_answer": "A) The cardinal is the leftmost.\n\nHere's the reasoning:\n\n1."
+  },
+  {
+    "id": "logical_deduction_260",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "I can help you with that!\n\nBased on the information provided, we know that",
+    "predicted_answer": "I can help you with that!\n\nBased on the information provided, we know that"
+  },
+  {
+    "id": "logical_deduction_261",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the context, I'll answer the question:\n\nThe statements are: \"",
+    "predicted_answer": "Based on the context, I'll answer the question:\n\nThe statements are: \""
+  },
+  {
+    "id": "logical_deduction_262",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given information, we can conclude that:\n\n* Dan finished above Amy",
+    "predicted_answer": "Based on the given information, we can conclude that:\n\n* Dan finished above Amy"
+  },
+  {
+    "id": "logical_deduction_263",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "A nice set of logical reasoning questions!\n\nFor the first question:\n\nThe context states",
+    "predicted_answer": "A nice set of logical reasoning questions!\n\nFor the first question:\n\nThe context states"
+  },
+  {
+    "id": "logical_deduction_264",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given context, we can conclude that:\n\n* The station wagon is",
+    "predicted_answer": "Based on the given context, we can conclude that:\n\n* The station wagon is"
+  },
+  {
+    "id": "logical_deduction_265",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "I'd be happy to help!\n\nBased on the given information, we can ded",
+    "predicted_answer": "I'd be happy to help!\n\nBased on the given information, we can ded"
+  },
+  {
+    "id": "logical_deduction_266",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "A) The tractor is the oldest.\n\nHere's the reasoning:\n\n1. The",
+    "predicted_answer": "A) The tractor is the oldest.\n\nHere's the reasoning:\n\n1. The"
+  },
+  {
+    "id": "logical_deduction_267",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "A logical reasoning question!\n\nBased on the statements, we know:\n\n* The oranges",
+    "predicted_answer": "A logical reasoning question!\n\nBased on the statements, we know:\n\n* The oranges"
+  },
+  {
+    "id": "logical_deduction_268",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "B\n\nHere's the explanation:\n\nThe statements tell us that the watermelons",
+    "predicted_answer": "B\n\nHere's the explanation:\n\nThe statements tell us that the watermelons"
+  },
+  {
+    "id": "logical_deduction_269",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) Ana finished second.\n\nThe statement \"Ana finished second\" is directly given",
+    "predicted_answer": "C) Ana finished second.\n\nThe statement \"Ana finished second\" is directly given"
+  },
+  {
+    "id": "logical_deduction_270",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "I can help you with that!\n\nBased on the information provided, the correct answer",
+    "predicted_answer": "I can help you with that!\n\nBased on the information provided, the correct answer"
+  },
+  {
+    "id": "logical_deduction_271",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) The raven is the second from the left.\n\nExplanation:\n\n* The",
+    "predicted_answer": "C) The raven is the second from the left.\n\nExplanation:\n\n* The"
+  },
+  {
+    "id": "logical_deduction_272",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given information, the correct answer is:\n\nB) The peaches",
+    "predicted_answer": "Based on the given information, the correct answer is:\n\nB) The peaches"
+  },
+  {
+    "id": "logical_deduction_273",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the given context, we know that Joe finished above Ana, and Rob",
+    "predicted_answer": "Based on the given context, we know that Joe finished above Ana, and Rob"
+  },
+  {
+    "id": "logical_deduction_274",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "A nice set of logical reasoning questions!\n\nFor the first question:\n\nThe context states",
+    "predicted_answer": "A nice set of logical reasoning questions!\n\nFor the first question:\n\nThe context states"
+  },
+  {
+    "id": "logical_deduction_275",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "I'd be happy to help you with that!\n\nAccording to the paragraph, the",
+    "predicted_answer": "I'd be happy to help you with that!\n\nAccording to the paragraph, the"
+  },
+  {
+    "id": "logical_deduction_276",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the statements, the correct order of the books is: yellow book,",
+    "predicted_answer": "Based on the statements, the correct order of the books is: yellow book,"
+  },
+  {
+    "id": "logical_deduction_277",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given statements, we can deduce that:\n\n* Amy finished above",
+    "predicted_answer": "Based on the given statements, we can deduce that:\n\n* Amy finished above"
+  },
+  {
+    "id": "logical_deduction_278",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "I see what you're getting at!\n\nBased on the information provided, I would",
+    "predicted_answer": "I see what you're getting at!\n\nBased on the information provided, I would"
+  },
+  {
+    "id": "logical_deduction_279",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) The quail is the second from the left.\n\nExplanation: According to",
+    "predicted_answer": "C) The quail is the second from the left.\n\nExplanation: According to"
+  },
+  {
+    "id": "logical_deduction_280",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) The motorcyle is the second-newest.\n\nThe paragraph states that",
+    "predicted_answer": "C) The motorcyle is the second-newest.\n\nThe paragraph states that"
+  },
+  {
+    "id": "logical_deduction_281",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) The kiwis are the second-most expensive.\n\nThe paragraph states that \"",
+    "predicted_answer": "C) The kiwis are the second-most expensive.\n\nThe paragraph states that \""
+  },
+  {
+    "id": "logical_deduction_282",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) The hummingbird is the rightmost.\n\nHere's the reasoning:\n\n*",
+    "predicted_answer": "C) The hummingbird is the rightmost.\n\nHere's the reasoning:\n\n*"
+  },
+  {
+    "id": "logical_deduction_283",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given information, the correct answer is:\n\nB) The green book",
+    "predicted_answer": "Based on the given information, the correct answer is:\n\nB) The green book"
+  },
+  {
+    "id": "logical_deduction_284",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) The loquats are the most expensive.\n\nThe statements indicate that the",
+    "predicted_answer": "C) The loquats are the most expensive.\n\nThe statements indicate that the"
+  },
+  {
+    "id": "logical_deduction_285",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "I'd be happy to help!\n\nSince the raven is to the left of",
+    "predicted_answer": "I'd be happy to help!\n\nSince the raven is to the left of"
+  },
+  {
+    "id": "logical_deduction_286",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "C) The quail is the leftmost.\n\nHere's the explanation:\n\nFrom",
+    "predicted_answer": "C) The quail is the leftmost.\n\nHere's the explanation:\n\nFrom"
+  },
+  {
+    "id": "logical_deduction_287",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "I'd be happy to help!\n\nBased on the information provided, we know that",
+    "predicted_answer": "I'd be happy to help!\n\nBased on the information provided, we know that"
+  },
+  {
+    "id": "logical_deduction_288",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "Based on the given statements, we can conclude that:\n\n* The purple book is",
+    "predicted_answer": "Based on the given statements, we can conclude that:\n\n* The purple book is"
+  },
+  {
+    "id": "logical_deduction_289",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the context, we can deduce that:\n\n* The purple book is",
+    "predicted_answer": "Based on the context, we can deduce that:\n\n* The purple book is"
+  },
+  {
+    "id": "logical_deduction_290",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "C) The minivan is the newest.\n\nHere's the explanation:\n\n* The",
+    "predicted_answer": "C) The minivan is the newest.\n\nHere's the explanation:\n\n* The"
+  },
+  {
+    "id": "logical_deduction_291",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the given statements, we know that the green book is the leftmost",
+    "predicted_answer": "Based on the given statements, we know that the green book is the leftmost"
+  },
+  {
+    "id": "logical_deduction_292",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "Based on the information provided, the correct answer is:\n\nA) The apples are",
+    "predicted_answer": "Based on the information provided, the correct answer is:\n\nA) The apples are"
+  },
+  {
+    "id": "logical_deduction_293",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "A) The orange book is the second from the left.\n\nHere's the reasoning",
+    "predicted_answer": "A) The orange book is the second from the left.\n\nHere's the reasoning"
+  },
+  {
+    "id": "logical_deduction_294",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "A) The raven is the rightmost.\n\nHere's the reasoning:\n\n*",
+    "predicted_answer": "A) The raven is the rightmost.\n\nHere's the reasoning:\n\n*"
+  },
+  {
+    "id": "logical_deduction_295",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "A) The hawk is the leftmost.\n\nHere's the reasoning:\n\n* The",
+    "predicted_answer": "A) The hawk is the leftmost.\n\nHere's the reasoning:\n\n* The"
+  },
+  {
+    "id": "logical_deduction_296",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "A) Amy finished last.\n\nExplanation:\n\nFrom the statements, we know:\n\n*",
+    "predicted_answer": "A) Amy finished last.\n\nExplanation:\n\nFrom the statements, we know:\n\n*"
+  },
+  {
+    "id": "logical_deduction_297",
+    "question": "Which of the following is true?",
+    "answer": "B",
+    "predicted_reasoning": "A) Amy finished last.\n\nHere's the reasoning:\n\n* Eli finished below Amy",
+    "predicted_answer": "A) Amy finished last.\n\nHere's the reasoning:\n\n* Eli finished below Amy"
+  },
+  {
+    "id": "logical_deduction_298",
+    "question": "Which of the following is true?",
+    "answer": "A",
+    "predicted_reasoning": "A) The white book is the leftmost.\n\nExplanation: Since the green book",
+    "predicted_answer": "A) The white book is the leftmost.\n\nExplanation: Since the green book"
+  },
+  {
+    "id": "logical_deduction_299",
+    "question": "Which of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Based on the statement \"The white book is to the left of the gray book",
+    "predicted_answer": "Based on the statement \"The white book is to the left of the gray book"
+  }
+]

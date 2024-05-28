@@ -1,0 +1,110 @@
+{
+    "gemini-1.0-pro-vision-001": {
+        "ProntoQA": {
+            "Overall_Accuracy": 0.774,
+            "Executable_Rate": 1.0,
+            "Executable_Accuracy": 0.774
+        },
+        "ProofWriter": {
+            "Overall_Accuracy": 0.6126878130217028,
+            "Executable_Rate": 0.6444073455759599,
+            "Executable_Accuracy": 0.7616580310880829
+        },
+        "FOLIO": {
+            "Overall_Accuracy": 0.53,
+            "Executable_Rate": 0.485,
+            "Executable_Accuracy": 0.6804123711340206
+        },
+        "LogicalDeduction": {
+            "Overall_Accuracy": 0.6133333333333333,
+            "Executable_Rate": 0.6,
+            "Executable_Accuracy": 0.8944444444444445
+        },
+        "AR-LSAT": {
+            "Overall_Accuracy": 0.2217391304347826,
+            "Executable_Rate": 0.0,
+            "Executable_Accuracy": 0
+        }
+    },
+    "gemini-1.5-pro-preview-0409": {
+        "ProntoQA": {
+            "Overall_Accuracy": 0.956,
+            "Executable_Rate": 0.964,
+            "Executable_Accuracy": 0.9730290456431535
+        },
+        "ProofWriter": {
+            "Overall_Accuracy": 0.7466216216216216,
+            "Executable_Rate": 0.893581081081081,
+            "Executable_Accuracy": 0.8052930056710775
+        },
+        "FOLIO": {
+            "Overall_Accuracy": 0.6237623762376238,
+            "Executable_Rate": 0.594059405940594,
+            "Executable_Accuracy": 0.825
+        },
+        "LogicalDeduction": {
+            "Overall_Accuracy": 0.6033333333333334,
+            "Executable_Rate": 0.6,
+            "Executable_Accuracy": 0.8722222222222222
+        },
+        "AR-LSAT": {
+            "Overall_Accuracy": 0.19047619047619047,
+            "Executable_Rate": 0.0,
+            "Executable_Accuracy": 0
+        }
+    },
+    "gemini-1.5-pro-preview-0514": {
+        "ProntoQA": {
+            "Overall_Accuracy": 0.464,
+            "Executable_Rate": 0.0,
+            "Executable_Accuracy": 0
+        },
+        "ProofWriter": {
+            "Overall_Accuracy": 0.345,
+            "Executable_Rate": 0.0,
+            "Executable_Accuracy": 0
+        },
+        "FOLIO": {
+            "Overall_Accuracy": 0.7114427860696517,
+            "Executable_Rate": 0.7711442786069652,
+            "Executable_Accuracy": 0.8516129032258064
+        },
+        "LogicalDeduction": {
+            "Overall_Accuracy": 0.8466666666666667,
+            "Executable_Rate": 1.0,
+            "Executable_Accuracy": 0.8466666666666667
+        },
+        "AR-LSAT": {
+            "Overall_Accuracy": 0.31601731601731603,
+            "Executable_Rate": 0.26406926406926406,
+            "Executable_Accuracy": 0.6065573770491803
+        }
+    },
+    "gemini-1.5-flash-preview-0514": {
+        "ProntoQA": {
+            "Overall_Accuracy": 0.46938775510204084,
+            "Executable_Rate": 0.0,
+            "Executable_Accuracy": 0
+        },
+        "ProofWriter": {
+            "Overall_Accuracy": 0.32166666666666666,
+            "Executable_Rate": 0.04666666666666667,
+            "Executable_Accuracy": 0.5357142857142857
+        },
+        "FOLIO": {
+            "Overall_Accuracy": 0.3627450980392157,
+            "Executable_Rate": 0.04411764705882353,
+            "Executable_Accuracy": 1.0
+        },
+        "LogicalDeduction": {
+            "Overall_Accuracy": 0.5633333333333334,
+            "Executable_Rate": 0.7166666666666667,
+            "Executable_Accuracy": 0.6976744186046512
+        },
+        "AR-LSAT": {
+            "Overall_Accuracy": 0.3246753246753247,
+            "Executable_Rate": 0.33766233766233766,
+            "Executable_Accuracy": 0.6025641025641025
+        }
+    }
+}

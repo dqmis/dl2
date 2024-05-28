@@ -87,6 +87,7 @@ def evaluate_QA(result_file):
     total_em = 0.0
     total_f1 = 0.0
     count = 0
+    
     for sample in QA_results:
         gold_answer = sample['answer'].replace('(', '').replace(')', '').strip()
         answer_str = sample['predicted_answer'].strip()
@@ -114,6 +115,45 @@ def evaluate_QA(result_file):
     avg_em = total_em / count
     print(f"EM: {avg_em}")
 
+
+
+
+def get_answer_options(dataset_name):
+    if dataset_name == 'ProntoQA':
+        return 'AB'
+    elif dataset_name == 'ProofWriter' or dataset_name == 'FOLIO':
+        return 'ABC'
+    elif dataset_name == 'AR-LSAT'  or dataset_name == 'LogicalDeduction':
+        return 'ABCDE'
+    else:
+        raise ValueError(f'Invalid dataset name: {dataset_name}')
+    
+
+def evaluate_QA_gemini(result_file, answer_options):
+    with open(result_file, 'r') as f:
+        QA_results = json.load(f)
+
+    total_em = 0.0
+    total_f1 = 0.0
+    count = 0
+    
+    for sample in QA_results:
+        gold_answer = sample['answer'].replace('(', '').replace(')', '').strip()
+        answer_str = sample['predicted_answer'].strip()
+
+        prediction = re.search(rf'(?<=\s|[^a-zA-Z0-9])[{answer_options}](?=\s|[^a-zA-Z0-9])', answer_str)
+        if prediction:
+            prediction =prediction.group(0)
+        # print(f"prediction: {prediction} \t gold_answers: {gold_answer} \t match: {prediction == gold_answer}")
+        
+        em_score = 1.0 if prediction == gold_answer else 0.0
+        total_em += em_score
+        count += 1
+    
+    avg_em = total_em / count
+    print(f"EM: {avg_em}")
+
+
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--dataset_name', type=str)
@@ -127,4 +167,7 @@ def parse_args():
 if __name__ == "__main__":
     args = parse_args()
     result_file = os.path.join(args.result_path, f'{args.mode}_{args.dataset_name}_{args.split}_{args.model_name}.json')
-    evaluate_QA(result_file)
+    # evaluate_QA(result_file)
+
+    answer_options = get_answer_options(args.dataset_name)
+    evaluate_QA_gemini(result_file, answer_options)
