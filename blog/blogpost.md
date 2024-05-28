@@ -96,15 +96,11 @@ We employ two additional LLM families—[Google's Gemini](https://gemini.google.
 
 As in the original paper, we evaluate the models on various logical reasoning datasets, including [PrOntoQA](https://github.com/asaparov/prontoqa), [ProofWriter](https://allenai.org/data/proofwriter), [FOLIO](https://github.com/Yale-LILY/FOLIO), [LogicalDeduction](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/logical_deduction), and [AR-LSAT](https://github.com/zhongwanjun/AR-LSAT). These datasets cover a wide range of logical reasoning tasks, from deductive reasoning to constraint satisfaction problems.
 
-## 2.2 Validating Bias in the Answer Order
+## 2.2 Bias from option order
 
-Trying out a few samples with multiple LLMs, we observed that models are usually biased towards the first choice. For instance, if we prompt the model to output the correct answer to a question with five available choices, the model is more likely to predict the first choice. Conversely, if the correct answer is the last choice, the model will still tend to stick to the first choice. This observation led us to conduct experiments to determine if the model is indeed biased towards the first few choices, thereby ignoring the last choices.
+Trying out a few samples with multiple LLMs, we observed that models are usually biased towards the first choice when using the baseline prompting framework. For instance, if we prompt the model to output the correct answer to a question with five available choices, the model is more likely to predict the first choice. Conversely, if the correct answer is the last choice, the model will still tend to stick to the first choice. Symbolic solvers are by design invariant under such permutation, so their lack of this bias would be a (minor) part of the explanation the better performance of the Logic-LM approach. To verify the bias, we compare performance on datasets with the same problems put where we set the right answers at a certain place in the answer options. So if there is this bias, we expect the performance to be significantly better on datasets where the right answer is for example always the first option.
 
-Moreover, we wanted to check if the model, when prompted to predict incorrect answers instead of the correct ones, would be able to learn more effectively given that there are more incorrect choices than correct ones. This motivated us to conduct experiments to see if the model performs well when prompted to predict all the incorrect choices.
-
-To verify whether our observations are truly valid, we set up experiments on the AR-LSAT dataset, where we prompt the model to always predict the correct answer as the first choice and compare it to the baseline.
-
-Additionally, we prompt the model to predict all the incorrect choices and compare this to the baseline to check if the model can reason better when asked to eliminate the wrong answers. This experiment should tell us whether the model is biased towards the first few
+Furthermore, we wanted to check if the model, when prompted to predict incorrect answers instead of the correct ones, would be able to learn more effectively given that there are more incorrect choices than correct ones. This motivated us to conduct experiments to see if the model performs well when prompted to predict all the incorrect choices.
 
 ## 2.3 Multi-modal Logic Reasoning
 
