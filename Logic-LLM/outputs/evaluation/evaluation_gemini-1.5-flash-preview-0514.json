@@ -1,0 +1,30 @@
+{
+    "model": "gemini-1.5-flash-preview-0514",
+    "results": [
+        {
+            "problem": "graph_validity",
+            "accuracy": 0.905,
+            "failed_programs": 0
+        },
+        {
+            "problem": "graph_fill_in",
+            "accuracy": 0.38190954773869346,
+            "failed_programs": 0
+        },
+        {
+            "problem": "sudoku_validity",
+            "accuracy": 0.93,
+            "failed_programs": 0
+        },
+        {
+            "problem": "sudoku_fill_in",
+            "accuracy": 0.22,
+            "failed_programs": 9
+        },
+        {
+            "problem": "set_validity",
+            "accuracy": 0.485,
+            "failed_programs": 0
+        }
+    ]
+}
