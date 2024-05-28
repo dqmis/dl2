@@ -1,0 +1,171 @@
+[
+  {
+    "id": "FOLIO_dev_55",
+    "context": "Robert Lewandowski is a striker. [BG] Strikers are soccer players. Robert Lewandowski left Bayern Munchen. [BG] If a player left a team they no longer play for that team.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Robert Lewandowski is a soccer player.",
+    "answer": "A",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nStriker(x) ::: x is a striker.\nSoccerPlayer(x) ::: x is a soccer player.\nLeft(x, y) ::: x left y.\nPlay(x, y) ::: x plays for y.\nPremises:\nStriker(robertLewandowski) ::: Robert Lewandowski is a striker.\n∀x (Striker(x) → SoccerPlayer(x)) ::: Strikers are soccer players.\nLeft(robertLewandowski, bayernMunchen) ::: Robert Lewandowski left Bayern Munchen.\n∀x (Left(x, y) → ¬Play(x, y)) ::: If a player left a team they no longer play for that team.\nConclusion:\nSoccerPlayer(robertLewandowski) ::: Robert Lewandowski is a soccer player."
+    ]
+  },
+  {
+    "id": "FOLIO_dev_56",
+    "context": "Robert Lewandowski is a striker. [BG] Strikers are soccer players. Robert Lewandowski left Bayern Munchen. [BG] If a player left a team they no longer play for that team.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Robert Lewandowski plays for Bayern Munchen.",
+    "answer": "B",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nStriker(x) ::: x is a striker.\nSoccerPlayer(x) ::: x is a soccer player.\nLeft(x, y) ::: x left y.\nPlay(x, y) ::: x plays for y.\nPremises:\nStriker(robertLewandowski) ::: Robert Lewandowski is a striker.\n∀x (Striker(x) → SoccerPlayer(x)) ::: Strikers are soccer players.\nLeft(robertLewandowski, bayernMunchen) ::: Robert Lewandowski left Bayern Munchen.\n∀x (Left(x, y) → ¬Play(x, y)) ::: If a player left a team they no longer play for that team.\nConclusion:\n¬Play(robertLewandowski, bayernMunchen) ::: Robert Lewandowski does not play for Bayern Munchen."
+    ]
+  },
+  {
+    "id": "FOLIO_dev_57",
+    "context": "Robert Lewandowski is a striker. [BG] Strikers are soccer players. Robert Lewandowski left Bayern Munchen. [BG] If a player left a team they no longer play for that team.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Robert Lewandowski is a star.",
+    "answer": "C",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nStriker(x) ::: x is a striker.\nSoccerPlayer(x) ::: x is a soccer player.\nLeft(x, y) ::: x left y.\nPlay(x, y) ::: x plays for y.\nStar(x) ::: x is a star.\nPremises:\nStriker(robertLewandowski) ::: Robert Lewandowski is a striker.\n∀x (Striker(x) → SoccerPlayer(x)) ::: Strikers are soccer players.\nLeft(robertLewandowski, bayernMunchen) ::: Robert Lewandowski left Bayern Munchen.\n∀x (Left(x, y) → ¬Play(x, y)) ::: If a player left a team they no longer play for that team.\nConclusion:\nStar(robertLewandowski) ::: Robert Lewandowski is a star."
+    ]
+  },
+  {
+    "id": "FOLIO_dev_58",
+    "context": "Billings is a city in Montana. Montana includes the cities of Butte, Helena, and Missoula. White Sulphur Springs and Butte are cities in the same state. The city of Pierre is not in Montana. Any city in Butte is not in Pierre.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Butte and Pierre are in the same state.",
+    "answer": "B",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nCity(x) ::: x is a city.\nState(x) ::: x is a state.\nIn(x, y) ::: x is in y.\nPremises:\nCity(billings) ∧ In(billings, montana) ::: Billings is a city in Montana.\nCity(butte) ∧ In(butte, montana) ∧ In(butte, pierre) ::: Butte is a city in Montana and Pierre.\nCity(helena) ∧ In(helena, montana) ::: Helena is a city in Montana.\nCity(missoula) ∧ In(missoula, montana) ::: Missoula is a city in Montana.\nCity(whiteSulphurSprings) ∧ In(whiteSulphurSprings, montana) ∧ In(whiteSulphurSprings, butte) ::: White Sulphur Springs is a city in Montana and Butte.\n¬In(pierre, montana) ::: The city of Pierre is not in Montana.\n∀x (City(x) ∧ In(x, butte) → ¬In(x, pierre)) ::: Any city in Butte is not in Pierre.\nConclusion:\nIn(butte, pierre) ::: Butte and Pierre are in the same state."
+    ]
+  },
+  {
+    "id": "FOLIO_dev_59",
+    "context": "Billings is a city in Montana. Montana includes the cities of Butte, Helena, and Missoula. White Sulphur Springs and Butte are cities in the same state. The city of Pierre is not in Montana. Any city in Butte is not in Pierre.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Pierre and Bismarck are in the same state.",
+    "answer": "C",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nCity(x) ::: x is a city.\nState(x) ::: x is a state.\nIn(x, y) ::: x is in y.\nPremises:\nCity(billings) ∧ In(billings, montana) ::: Billings is a city in Montana.\nCity(butte) ∧ In(butte, montana) ::: Butte is a city in Montana.\nCity(helena) ∧ In(helena, montana) ::: Helena is a city in Montana.\nCity(missoula) ∧ In(missoula, montana) ::: Missoula is a city in Montana.\nCity(whiteSulphurSprings) ∧ In(whiteSulphurSprings, sameStateAsButte) ∧ In(whiteSulphurSprings, montana) ∧ In(butte, sameStateAsButte) ::: White Sulphur Springs and Butte are cities in the same state.\n¬In(pierre, montana) ::: The city of Pierre is not in Montana.\n∀x (City(x) ∧ In(x, butte) → ¬In(x, pierre)) ::: Any city in Butte is not in Pierre.\nConclusion:\n¬In(pierre, sameStateAsBismarck) ::: Pierre and Bismarck are not in the same state."
+    ]
+  },
+  {
+    "id": "FOLIO_dev_60",
+    "context": "Billings is a city in Montana. Montana includes the cities of Butte, Helena, and Missoula. White Sulphur Springs and Butte are cities in the same state. The city of Pierre is not in Montana. Any city in Butte is not in Pierre.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Montana is home to the city of Missoula.",
+    "answer": "A",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nCity(x) ::: x is a city.\nState(x) ::: x is a state.\nIn(x, y) ::: x is in y.\nHomeTo(x, y) ::: x is home to y.\nPremises:\nCity(billings) ∧ In(billings, montana) ::: Billings is a city in Montana.\nCity(butte) ∧ In(butte, montana) ∧ City(helena) ∧ In(helena, montana) ∧ City(missoula) ∧ In(missoula, montana) ::: Montana includes the cities of Butte, Helena, and Missoula.\nCity(whiteSulphurSprings) ∧ In(whiteSulphurSprings, state) ∧ City(butte) ∧ In(butte, state) ::: White Sulphur Springs and Butte are cities in the same state.\n¬In(pierre, montana) ::: The city of Pierre is not in Montana.\n∀x (City(x) ∧ In(x, butte) → ¬In(x, pierre)) ::: Any city in Butte is not in Pierre.\nConclusion:\nHomeTo(montana, missoula) ::: Montana is home to the city of Missoula."
+    ]
+  },
+  {
+    "id": "FOLIO_dev_61",
+    "context": "International students in US have either an F1 visa or a J1 visa. An international student in US with an F1 visa needs to apply for CPT or OPT if the student wants to work in the US. Mike is an international student. Mike needs to apply for CPT if he wants to work in the US.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Mike has an F1 visa.",
+    "answer": "C",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nInternationalStudent(x) ::: x is an international student.\nUS(x) ::: x is in the US.\nF1Visa(x) ::: x has an F1 visa.\nJ1Visa(x) ::: x has a J1 visa.\nApply(x, y) ::: x needs to apply for y.\nWork(x, y) ::: x wants to work in y.\nMike(mike) ::: Mike is Mike.\nPremises:\n∀x (InternationalStudent(x) ∧ US(x) → (F1Visa(x) ∨ J1Visa(x))) ::: International students in US have either an F1 visa or a J1 visa.\n∀x (InternationalStudent(x) ∧ F1Visa(x) → (Apply(x, CPT) ∨ Apply(x, OPT))) ::: An international student in US with an F1 visa needs to apply for CPT or OPT if the student wants to work in the US.\nInternationalStudent(mike) ::: Mike is an international student.\n∀x (InternationalStudent(x) ∧ Work(x, US) → Apply(x, CPT)) ::: Mike needs to apply for CPT if he wants to work in the US.\nConclusion:\nF1Visa(mike) ::: Mike has an F1 visa."
+    ]
+  },
+  {
+    "id": "FOLIO_dev_62",
+    "context": "International students in US have either an F1 visa or a J1 visa. An international student in US with an F1 visa needs to apply for CPT or OPT if the student wants to work in the US. Mike is an international student. Mike needs to apply for CPT if he wants to work in the US.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Mike has a J1 visa.",
+    "answer": "C",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nInternational(x) ::: x is an international student.\nUS(x) ::: x is in the US.\nF1(x) ::: x has an F1 visa.\nJ1(x) ::: x has a J1 visa.\nApply(x, y) ::: x needs to apply for y.\nWork(x) ::: x wants to work in the US.\nStudent(mike) ::: Mike is a student.\nPremises:\n∀x (International(x) ∧ US(x) → (F1(x) ∨ J1(x))) ::: International students in US have either an F1 visa or a J1 visa.\n∀x (International(x) ∧ US(x) ∧ F1(x) → Apply(x, CPT) ∨ Apply(x, OPT)) ::: An international student in US with an F1 visa needs to apply for CPT or OPT if the student wants to work in the US.\nInternational(mike) ∧ US(mike) ::: Mike is an international student.\nApply(mike, CPT) → Work(mike) ::: Mike needs to apply for CPT if he wants to work in the US.\nConclusion:\nJ1(mike) ::: Mike has a J1 visa."
+    ]
+  },
+  {
+    "id": "FOLIO_dev_63",
+    "context": "All cows are bovines. Some pets are cows. If something is a bovine, then it is domesticated. No domesticated animals are alligators. Ted is an aligator.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Ted is a pet.",
+    "answer": "C",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nCow(x) ::: x is a cow.\nBovine(x) ::: x is a bovine.\nPet(x) ::: x is a pet.\nDomesticated(x) ::: x is domesticated.\nAlligator(x) ::: x is an alligator.\nTed(ted) ::: Ted is an alligator.\nPremises:\n∀x (Cow(x) → Bovine(x)) ::: All cows are bovines.\n∃x (Pet(x) ∧ Cow(x)) ::: Some pets are cows.\n∀x (Bovine(x) → Domesticated(x)) ::: If something is a bovine, then it is domesticated.\n¬∃x (Domesticated(x) ∧ Alligator(x)) ::: No domesticated animals are alligators.\nConclusion:\nPet(ted) ::: Ted is a pet."
+    ]
+  },
+  {
+    "id": "FOLIO_dev_66",
+    "context": "Yale University is a private Ivy League research university. Yale University moved to New Haven in 1716. Yale university's endowment was valued at $42.3 billion. Yale University has been organized into 27 constituent colleges and schools: the residential colleges, the Yale Graduate School of Arts and Sciences, and twelve professional schools. A list of residential colleges at Yale: Benjamin Franklin College, Berkeley College, Branford College, Davenport College, Ezra Stiles College, Grace Hopper College, Jonathan Edwards College, Morse College, Pauli Murray College, Pierson College, Saybrook College, Silliman College, Timothy Dwight College, and Trumbull College.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? A private Ivy League research university moved to New Haven.",
+    "answer": "A",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nUniversity(x) ::: x is a university.\nPrivate(x) ::: x is a private university.\nIvyLeague(x) ::: x is an Ivy League university.\nResearch(x) ::: x is a research university.\nMove(x, y) ::: x moved to y.\nNewHaven(x) ::: x is located in New Haven.\nEndowment(x, y) ::: x's endowment is valued at y.\nOrganize(x, y) ::: x is organized into y.\nCollege(x) ::: x is a college.\nSchool(x) ::: x is a school.\nResidential(x) ::: x is a residential college.\nGraduateSchool(x) ::: x is the Yale Graduate School of Arts and Sciences.\nProfessionalSchool(x) ::: x is a professional school.\nPremises:\nUniversity(yale) ∧ Private(yale) ∧ IvyLeague(yale) ∧ Research(yale) ::: Yale University is a private Ivy League research university.\nMove(yale, newHaven) ∧ Move(yale, year1716) ::: Yale University moved to New Haven in 1716.\nEndowment(yale, 42.3billion) ::: Yale university's endowment was valued at $42.3 billion.\nOrganize(yale, {residentialColleges, graduateSchool, professionalSchools}) ∧   Residential(jonathanEdwards) ∧ Residential(morse) ∧ GraduateSchool(graduateSchool) ∧ School(graduateSchool) ∧ ProfessionalSchool(professionalSchools) ∧ School(professionalSchools) ::: Yale University has been organized into 27 constituent colleges and schools: the residential colleges, the Yale Graduate School of Arts and Sciences, and twelve professional schools. A list of residential colleges at Yale: Benjamin Franklin College, Berkeley College, Branford College, Davenport College, Ezra Stiles College, Grace Hopper College, Jonathan Edwards College, Morse College, Pauli Murray College, Pierson College, Saybrook College, Silliman College, Timothy Dwight College, and Trumbull College.\nConclusion:\nUniversity(yale) ∧ Private(yale) ∧ IvyLeague(yale) ∧ Research(yale) ∧ Move(yale, newHaven) ::: A private Ivy League research university moved to New Haven."
+    ]
+  },
+
+  {
+    "id": "FOLIO_dev_67",
+    "context": "Yale University is a private Ivy League research university. Yale University moved to New Haven in 1716. Yale university's endowment was valued at $42.3 billion. Yale University has been organized into 27 constituent colleges and schools: the residential colleges, the Yale Graduate School of Arts and Sciences, and twelve professional schools. A list of residential colleges at Yale: Benjamin Franklin College, Berkeley College, Branford College, Davenport College, Ezra Stiles College, Grace Hopper College, Jonathan Edwards College, Morse College, Pauli Murray College, Pierson College, Saybrook College, Silliman College, Timothy Dwight College, and Trumbull College.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Yale University has the largest university endowment of any educational institution.",
+    "answer": "C",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nUniversity(x) ::: x is a university.\nPrivate(x) ::: x is a private university.\nIvyLeague(x) ::: x is an Ivy League university.\nResearch(x) ::: x is a research university.\nMove(x, y) ::: x moved to y.\nNewHaven(x) ::: x is located in New Haven.\nEndowment(x, y) ::: x's endowment is valued at y.\nOrganize(x, y) ::: x is organized into y.\nCollege(x) ::: x is a college.\nSchool(x) ::: x is a school.\nResidential(x) ::: x is a residential college.\nGraduateSchool(x) ::: x is the Yale Graduate School of Arts and Sciences.\nProfessionalSchool(x) ::: x is a professional school.\nPremises:\nUniversity(yale) ∧ Private(yale) ∧ IvyLeague(yale) ∧ Research(yale) ::: Yale University is a private Ivy League research university.\nMove(yale, newHaven) ∧ Move(yale, year1716) ::: Yale University moved to New Haven in 1716.\nEndowment(yale, 42.3billion) ::: Yale university's endowment was valued at $42.3 billion.\nOrganize(yale, {residentialColleges, graduateSchool, professionalSchools}) ∧   Residential(jonathanEdwards) ∧ Residential(morse) ∧ GraduateSchool(graduateSchool) ∧ School(graduateSchool) ∧ ProfessionalSchool(professionalSchools) ∧ School(professionalSchools) ::: Yale University has been organized into 27 constituent colleges and schools: the residential colleges, the Yale Graduate School of Arts and Sciences, and twelve professional schools. A list of residential colleges at Yale: Benjamin Franklin College, Berkeley College, Branford College, Davenport College, Ezra Stiles College, Grace Hopper College, Jonathan Edwards College, Morse College, Pauli Murray College, Pierson College, Saybrook College, Silliman College, Timothy Dwight College, and Trumbull College.\nConclusion:\nValue(yaleEndowment, largest) ∧ ∀x (University(x) ∧ Value(x, y) → y ≤ 42.3billion) ::: Yale University has the largest university endowment of any educational institution."
+    ]
+  },
+  {
+    "id": "FOLIO_dev_68",
+    "context": "Yale University is a private Ivy League research university. Yale University moved to New Haven in 1716. Yale university's endowment was valued at $42.3 billion. Yale University has been organized into 27 constituent colleges and schools: the residential colleges, the Yale Graduate School of Arts and Sciences, and twelve professional schools. A list of residential colleges at Yale: Benjamin Franklin College, Berkeley College, Branford College, Davenport College, Ezra Stiles College, Grace Hopper College, Jonathan Edwards College, Morse College, Pauli Murray College, Pierson College, Saybrook College, Silliman College, Timothy Dwight College, and Trumbull College.",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Pierson College is a residential college at Yale.",
+    "answer": "A",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "raw_logic_programs": [
+      "Predicates:\nUniversity(x) ::: x is a university.\nPrivate(x) ::: x is a private university.\nIvyLeague(x) ::: x is an Ivy League university.\nResearch(x) ::: x is a research university.\nMove(x, y) ::: x moved to y.\nNewHaven(x) ::: x is located in New Haven.\nEndowment(x, y) ::: x's endowment is valued at y.\nOrganize(x, y) ::: x is organized into y.\nCollege(x) ::: x is a college.\nSchool(x) ::: x is a school.\nResidential(x) ::: x is a residential college.\nGraduateSchool(x) ::: x is the Yale Graduate School of Arts and Sciences.\nProfessionalSchool(x) ::: x is a professional school.\nPremises:\nUniversity(yale) ∧ Private(yale) ∧ IvyLeague(yale) ∧ Research(yale) ::: Yale University is a private Ivy League research university.\nMove(yale, newHaven) ∧ Move(yale, year1716) ::: Yale University moved to New Haven in 1716.\nEndowment(yale, 42.3billion) ::: Yale university's endowment was valued at $42.3 billion.\nOrganize(yale, {residentialColleges, graduateSchool, professionalSchools}) ∧   Residential(jonathanEdwards) ∧ Residential(morse) ∧ GraduateSchool(graduateSchool) ∧ School(graduateSchool) ∧ ProfessionalSchool(professionalSchools) ∧ School(professionalSchools) ::: Yale University has been organized into 27 constituent colleges and schools: the residential colleges, the Yale Graduate School of Arts and Sciences, and twelve professional schools. A list of residential colleges at Yale: Benjamin Franklin College, Berkeley College, Branford College, Davenport College, Ezra Stiles College, Grace Hopper College, Jonathan Edwards College, Morse College, Pauli Murray College, Pierson College, Saybrook College, Silliman College, Timothy Dwight College, and Trumbull College.\nConclusion:\nResidential(pierson) ∧ College(pierson) ::: Pierson College is a residential college at Yale."
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+Task Description: You are given a problem description and image and a question. The task is to:
+1) Understand the given question by reading it carefully and looking at the accompanying image
+2) Give a letter of a correct answer.
+3) For solving the problem only use the second image given.
+
+Here is an example below that is based on the first image:
+------
+Problem:
+You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a "set". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?
+
+Options:
+A) Yes
+B) No
+Correct answer:
+A
+------
+Problem:
+[[PROBLEM]]
+Options:
+[[QUESTION]]

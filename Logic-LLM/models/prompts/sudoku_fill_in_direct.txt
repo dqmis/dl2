@@ -1,0 +1,21 @@
+Task Description: You are given a problem description and image and a question. The task is to:
+1) Understand the given question by reading it carefully and looking at the accompanying image
+2) Give a letter of a correct answer.
+
+Here is an example below that is based on the first image:
+------
+Problem:
+Here you have a picture of a sudoku board with one number missing, marked red color. Can you say what number is missing by giving me a letter of a valid answer?
+Options:
+A) 7
+B) 6
+C) 5
+D) 2
+Correct answer:
+D
+------
+Problem:
+[[PROBLEM]]
+Options:
+[[QUESTION]]
+Correct answer:
