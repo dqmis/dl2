@@ -1,0 +1,2402 @@
+[
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_0",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n\n**Explanation:**\n\nLooking at the second image, we see:\n\n* **Shape:** All three cards have the same shape (diamond).\n* **Color:** All three cards are green.\n* **Number:** Two cards have one diamond, and one card has three diamonds. This does not meet the \"all the same or all different\" rule.\n* **Shading:** Two cards have solid shading, and one card has an outline shading. This does not meet the \"all the same or all different\" rule.\n\nTherefore, these three cards do not form a set. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_1",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** One red squiggle, solid fill\n* **Top Right:** Three red squiggles, solid fill\n* **Bottom Right:** One green capsule, striped fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (1, 3, 1)\n* **Shape:** All squiggles \n* **Shading:**  Three different shadings (solid, solid, striped)\n* **Color:** Two red, one green \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_2",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_3",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left Card:** Three squiggles, purple, solid fill\n* **Bottom Left Card:** Two ovals, purple, solid fill\n* **Top Right Card:** One squiggle, green, solid fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (3, 2, 1)\n* **Shape:** All squiggles\n* **Shading:** All solid fill\n* **Color:** Two purple, one green \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_4",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Top Left Card:** Three green squiggles, solid fill\n* **Bottom Left Card:** Three red squiggles, solid fill\n* **Top Right Card:** One green squiggle, outlined \n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (3, 3, 1)\n* **Shape:** All the same shape (squiggle)\n* **Shading:** Three different shadings (solid, solid, outlined)\n* **Color:** Three different colors (green, red, green) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_5",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Card 1:** Three red diamonds (solid)\n* **Card 2:** Three green diamonds (outlined)\n* **Card 3:** Three red squiggles (solid)\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have three shapes.\n* **Shape:**  The cards have three different shapes (diamond, diamond, squiggle).\n* **Shading:** The cards have three different shadings (solid, outlined, solid).\n* **Color:** The cards have two different colors (red, green, red). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_6",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Card 1:** Three diamonds, purple, solid\n* **Card 2:** One squiggle, red, striped\n* **Card 3:** Three diamonds, purple, outlined\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (1, 3, 3)\n* **Shape:** Three different shapes (squiggle, diamond, diamond)\n* **Shading:** Three different shadings (striped, solid, outlined)\n* **Color:** Three different colors (red, purple, purple) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_7",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_8",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_9",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Top Left Card:** Two Red Diamonds, Solid Fill\n* **Top Right Card:** Two Red Ovals, Solid Fill\n* **Bottom Right Card:** Two Purple Diamonds, Solid Fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have two shapes.\n* **Shape:**  Diamonds, Ovals, Diamonds (three different shapes)\n* **Shading:** All cards have solid shading.\n* **Color:** Red, Red, Purple (three different colors) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_10",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Three purple ovals, solid fill\n* **Bottom Left:** Three green squiggles, solid fill\n* **Top Right:** Three purple squiggles, outlined \n\nThis combination satisfies the rules of a set:\n* **Number:** All cards have three shapes.\n* **Shape:**  All cards have different shapes (oval, squiggle, squiggle).\n* **Shading:** All cards have different shadings (solid, solid, outlined).\n* **Color:** All cards have different colors (purple, green, purple). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_11",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_12",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set using the following three cards:\n\n* **Top Left:** Two red striped squiggles\n* **Bottom Left:** Two solid purple squiggles\n* **Top Right:** Two solid purple squiggles\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have two shapes.\n* **Shape:** All cards have squiggles.\n* **Shading:** There are three different shadings: striped, solid purple, and solid red.\n* **Color:** There are two different colors: red and purple. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_13",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_14",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_15",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Three purple squiggles, solid fill\n* **Bottom Left:** Three purple squiggles, striped fill\n* **Bottom Right:** Three red squiggles, solid fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have three shapes.\n* **Shape:** All cards have squiggles.\n* **Shading:** There are three different shadings (solid, striped, solid).\n* **Color:** There are two different colors (purple, red). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_16",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Card 1:** Two red ovals, solid fill\n* **Card 2:** One green oval, solid fill\n* **Card 3:** Three purple ovals, solid fill\n\nThis set fulfills the criteria:\n\n* **Number:** Three different numbers (one, two, three)\n* **Shape:** All ovals\n* **Shading:** All solid fill\n* **Color:** Three different colors (red, green, purple) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_17",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Three solid green ovals.\n* **Bottom Left:** Three solid red ovals.\n* **Bottom Right:** Three striped purple ovals.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have three shapes.\n* **Shape:** All cards have ovals.\n* **Shading:**  The cards have three different shadings (solid, empty, striped).\n* **Color:** The cards have three different colors (green, red, purple). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_18",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_19",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_20",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **All cards have the same shape:**  The squiggle (~)\n* **All cards have the same color:** Green\n* **They have three different numbers:** Two squiggles, three squiggles, and one squiggle.\n* **They have three different shadings:** Solid, striped, and outlined. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_21",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_22",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Card 1:** Three green diamonds (3, diamond, solid, green)\n* **Card 2:** Three purple ovals (3, oval, solid, purple)\n* **Card 3:** Three green ovals (3, oval, solid, green)\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have three shapes.\n* **Shape:**  All cards have different shapes (diamond, oval, oval).\n* **Shading:** All cards have solid shading.\n* **Color:** All cards have different colors (green, purple, green). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_23",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Card 1:** One green squiggle, solid shading\n* **Card 2:** Three red squiggles, outlined shading\n* **Card 3:** Three purple ovals, solid shading\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (one, three, three)\n* **Shape:** Three different shapes (squiggle, squiggle, oval)\n* **Shading:** Three different shadings (solid, outlined, solid)\n* **Color:** Three different colors (green, red, purple) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_24",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_25",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Card 1 (Top Left):** Green, Diamond, Solid, 1\n* **Card 2 (Bottom Left):** Red, Squiggle, Striped, 2\n* **Card 4 (Bottom Right):** Green, Oval, Solid, 2\n\nThis combination satisfies the rules of a set:\n\n* **Number:**  Three different numbers (1, 2, 2)\n* **Shape:** Three different shapes (Diamond, Squiggle, Oval)\n* **Shading:** Three different shadings (Solid, Striped, Solid)\n* **Color:** Three different colors (Green, Red, Green) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_26",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Top Left, Bottom Left, Bottom Right:** These cards all have the same shape (diamond), different numbers (1, 1, 2), and different shadings (outlined, solid, striped). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_27",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_28",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Three purple diamonds, striped shading\n* **Bottom Left:** One green diamond, solid shading\n* **Top Right:** Three green diamonds, solid shading\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (1, 3, 3)\n* **Shape:** All diamonds\n* **Shading:** Three different shadings (striped, solid, solid)\n* **Color:** Two different colors (purple, green) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_29",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** One purple, solid, oval shape.\n* **Top Right:** One purple, solid, oval shape.\n* **Bottom Right:** Two red, striped, squiggle shapes.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (1, 1, 2)\n* **Shape:** All oval or all squiggle.\n* **Shading:** All solid or all striped.\n* **Color:** All purple or all red. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_30",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n\nExplanation:\nThe top left, bottom left, and bottom right cards form a set. \n\n- They have different numbers of shapes (2, 1, 3).\n- They have different shapes (oval, diamond, squiggle).\n- They have different colors (green, purple, red).\n- They have different shadings (solid, solid, outlined). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_31",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Two red diamonds, solid fill\n* **Bottom Left:** Two green squiggles, solid fill\n* **Bottom Right:** Two purple squiggles, striped fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have two shapes.\n* **Shape:** All cards have different shapes (diamond, squiggle, squiggle).\n* **Shading:** All cards have different shadings (solid, solid, striped).\n* **Color:** All cards have different colors (red, green, purple). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_32",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Two purple ovals\n* **Bottom Left:** Two green diamonds\n* **Top Right:** Two red squiggles\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have two shapes.\n* **Shape:**  The shapes are all different (oval, diamond, squiggle).\n* **Shading:** All cards have solid shading.\n* **Color:** The colors are all different (purple, green, red). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_33",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_34",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left Card:** Three solid green ovals.\n* **Bottom Left Card:** One solid green diamond.\n* **Bottom Right Card:** One solid green oval.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (3, 1, 1)\n* **Shape:** Three different shapes (oval, diamond, oval)\n* **Shading:** All solid\n* **Color:** All green \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_35",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Top Left Card:** Two purple diamonds, solid shading\n* **Top Right Card:** Three purple diamonds, solid shading\n* **Bottom Right Card:** One purple diamond, solid shading\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (one, two, three)\n* **Shape:** All diamonds\n* **Shading:** All solid\n* **Color:** All purple \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_36",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_37",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Card 1:** One red, solid, squiggle.\n* **Card 2:** One red, solid, oval.\n* **Card 3:** One red, solid, diamond (inferred based on SET rules, as the diamond is not pictured). \n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have one shape.\n* **Color:** All cards are red.\n* **Shading:** All cards are solid.\n* **Shape:** Each card has a different shape (squiggle, oval, diamond). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_38",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Two red, striped squiggles.\n* **Bottom Right:** Two green, solid squiggles.\n* **Top Right:** Three purple, striped capsules.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (two, two, three).\n* **Shape:** All squiggles.\n* **Shading:** Three different shadings (striped, solid, striped).\n* **Color:** Three different colors (red, green, purple). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_39",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Card 1:** One green solid diamond.\n* **Card 2:** Three red solid ovals.\n* **Card 3:** Two purple solid ovals.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All different (one, three, two)\n* **Shape:** All different (diamond, oval, oval)\n* **Shading:** All solid.\n* **Color:** All different (green, red, purple). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_40",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_41",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_42",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nThe top left, bottom left, and top right cards form a set:\n\n* **Number:** All have one symbol.\n* **Shape:** All are squiggles.\n* **Shading:** They have different shadings (solid, outlined, striped).\n* **Color:** They have different colors (purple, green, red). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_43",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left Card:** Three purple diamonds, solid fill\n* **Bottom Left Card:** Three purple ovals, solid fill\n* **Bottom Right Card:** Three purple diamonds, outlined \n\nThis combination satisfies the rules of a set:\n* **Number:** All cards have three shapes.\n* **Shape:**  All cards have diamonds.\n* **Shading:** There are three different shadings: solid, outlined, and solid.\n* **Color:** All cards are purple. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_44",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_45",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Card 1:** Two green striped squiggles\n* **Card 2:** Two green solid squiggles\n* **Card 3:** Two red outlined squiggles\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have two shapes.\n* **Shape:** All cards have squiggles.\n* **Shading:**  The cards have three different shadings: striped, solid, and outlined.\n* **Color:** The cards have two different colors: green and red. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_46",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Two green diamonds, solid fill\n* **Bottom Left:** Two red diamonds, solid fill\n* **Top Right:** Two green squiggles, striped fill\n\nThis set fulfills the criteria:\n* **Number:** All cards have two shapes.\n* **Shape:** All cards are diamonds or squiggles.\n* **Shading:**  All cards have solid or striped shading.\n* **Color:** All cards are green or red. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_47",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_48",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set using the following three cards:\n\n* **Top Left:** Three purple squiggles with solid shading.\n* **Bottom Left:** Three red diamonds with solid shading.\n* **Top Right:** Three purple squiggles with solid shading.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three of each shape.\n* **Shape:**  All different shapes (squiggle, diamond, squiggle).\n* **Shading:** All solid shading.\n* **Color:** Two purple, one red. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_49",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Top Left & Top Right & Bottom Right:** These cards all have two shapes, the same striped shading, and are all purple. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_50",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left Card:** One red, striped squiggle.\n* **Bottom Left Card:** One purple, striped diamond.\n* **Bottom Right Card:** One purple, solid squiggle.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have one shape.\n* **Color:**  Three different colors (red, purple, purple). Although two cards are purple, the rule only requires them to be *either* all the same *or* all different.\n* **Shading:** Three different shadings (striped, striped, solid).\n* **Shape:** Three different shapes (squiggle, diamond, squiggle). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_51",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set using the top left, bottom left, and bottom right cards. \n\n* **Number:** All three cards have two shapes.\n* **Shape:** All three cards have the squiggle shape.\n* **Shading:** The cards have different shadings: solid, striped, and outlined.\n* **Color:** The cards have different colors: red, green, and red. \n\nThis combination fulfills the requirements for a set in the SET card game. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_52",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Top Left Card:** One purple, solid, capsule-shaped \n* **Bottom Right Card:** Two purple, solid, diamond-shaped\n* **Top Right Card:** One red, solid, capsule-shaped\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (1, 1, 2)\n* **Shape:** Three different shapes (capsule, diamond, capsule)\n* **Shading:** All solid\n* **Color:** Three different colors (purple, purple, red) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_53",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left Card:** Two solid purple ovals\n* **Bottom Left Card:** One red diamond\n* **Top Right Card:** Three solid purple ovals\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (one, two, three)\n* **Shape:** Three different shapes (oval, diamond, squiggle)\n* **Shading:** All solid\n* **Color:** All purple \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_54",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Shape:** All cards have the diamond shape.\n* **Number:**  There are three different numbers: one, two, and three diamonds.\n* **Shading:** There are three different shadings: solid, striped, and outlined.\n* **Color:** There are three different colors: purple, red, and purple. \n\nThis combination fulfills all the requirements for a set in the SET card game. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_55",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_56",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_57",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_58",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Card 1:** One purple, solid, diamond.\n* **Card 2:** Three red, solid, diamonds.\n* **Card 3:** Two green, striped, squiggles.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All different (one, three, two)\n* **Shape:** All different (diamond, diamond, squiggle)\n* **Shading:** All different (solid, solid, striped)\n* **Color:** All different (purple, red, green) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_59",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_60",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_61",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Card 1:** Three red diamonds (solid fill)\n* **Card 2:** One purple oval (solid fill)\n* **Card 3:** One green diamond (solid fill)\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (3, 1, 1)\n* **Shape:** Three different shapes (diamond, oval, diamond)\n* **Shading:** All solid fill\n* **Color:** Three different colors (red, purple, green) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_62",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set using the following three cards:\n\n* **Top Left:** One red, solid, squiggle.\n* **Bottom Left:** Two green, solid, squiggles.\n* **Bottom Right:** Three purple, solid, squiggles.\n\nThis combination satisfies the rules of a set:\n\n* **Number:**  All cards have a different number of squiggles (1, 2, and 3).\n* **Shape:** All cards have the same shape (squiggle).\n* **Shading:** All cards have the same shading (solid).\n* **Color:** All cards have a different color (red, green, purple). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_63",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set using the top left, bottom left, and bottom right cards:\n\n* **Number:** All three cards have three shapes.\n* **Shape:** All three cards have the squiggle shape.\n* **Shading:** The cards have different shadings: solid, striped, and outlined.\n* **Color:** The cards have different colors: green, purple, and green.\n\nThis combination fulfills the requirements for a set in the SET card game. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_64",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left Card:** Three green ovals, solid fill\n* **Bottom Left Card:** One red diamond, solid fill\n* **Top Right Card:** Two purple ovals, solid fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (one, two, three)\n* **Shape:** Three different shapes (oval, diamond, squiggle)\n* **Shading:** All solid fill\n* **Color:** Three different colors (green, red, purple) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_65",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_66",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n \nExplanation:\nThere is no set in the second image. There are no three cards that satisfy the conditions to be a set. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_67",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_68",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_69",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n \nThe three cards in the top row form a set:\n* **Number:** All three cards have three shapes.\n* **Shape:**  Diamond, oval, squiggle (all different).\n* **Shading:**  Solid, solid, solid (all the same).\n* **Color:** Red, red, red (all the same). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_70",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set using the three cards on the right side of the image:\n\n* **Number:** All three cards have two shapes.\n* **Shape:** All three cards have the \"capsule\" shape.\n* **Shading:**  The cards have three different shadings: solid, striped, and outlined.\n* **Color:** All three cards are purple.\n\nThis combination fulfills the requirements for a set in the SET card game. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_71",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** One green, solid oval.\n* **Top Right:** Two purple, striped diamonds.\n* **Bottom Left:** Three red, solid diamonds.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (one, two, three).\n* **Shape:** All diamonds.\n* **Shading:** Three different shadings (solid, striped, solid).\n* **Color:** Three different colors (green, purple, red). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_72",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Card 1:** One red, squiggle, solid \n* **Card 2:** Two red, diamonds, solid\n* **Card 3:** Three green, diamonds, solid\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (one, two, three)\n* **Shape:** Two same shapes (diamond), one different (squiggle)\n* **Shading:** All solid\n* **Color:** Two same colors (red), one different (green) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_73",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n \nExplanation:\nThere is no set in the second image. There are no three cards that satisfy the conditions to be a set. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_74",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_75",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Card 1:** Three green, solid, capsule-shaped figures.\n* **Card 2:** Three purple, solid, capsule-shaped figures.\n* **Card 3:** Three green, striped, capsule-shaped figures.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have three figures.\n* **Shape:** All cards have capsule-shaped figures.\n* **Shading:**  We have three different shadings: solid, solid, and striped.\n* **Color:** We have two different colors: green and purple. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_76",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_77",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nThe top left, bottom left, and bottom right cards form a set:\n\n* **Number:** All three cards have three shapes.\n* **Shape:** All three cards have the squiggle shape.\n* **Shading:** They have different shadings: solid, striped, and outlined.\n* **Color:** All three cards are green. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_78",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we see:\n\n* **Number:** All cards have two shapes.\n* **Shape:** All cards have the squiggle shape.\n* **Shading:** Two cards have solid shading, and one has striped shading.\n* **Color:** Two cards are red, and one is purple.\n\nSince the shading and color don't meet the \"all the same or all different\" rule, this is not a set. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_79",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Two solid green ovals.\n* **Bottom Left:** Three solid green squiggles.\n* **Top Right:** Two solid purple ovals.\n\nThis set fulfills the criteria:\n\n* **Number:** Three different numbers (two, three, two)\n* **Shape:** All the same shape (oval)\n* **Shading:** All solid\n* **Color:** Two different colors (green, purple) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_80",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_81",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_82",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Two red ovals, solid fill\n* **Bottom Left:** Three green squiggles, solid fill\n* **Top Right:** Three purple squiggles, striped fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (2, 3, 3)\n* **Shape:** All squiggles \n* **Shading:** Three different shadings (solid, solid, striped)\n* **Color:** Three different colors (red, green, purple) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_83",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can form a set using the following three cards:\n\n* **Top Left:** Two purple diamonds with solid shading.\n* **Bottom Left:** Two green diamonds with solid shading.\n* **Top Right:** One purple diamond with striped shading.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (one, two, two)\n* **Shape:** All diamonds.\n* **Shading:** Three different shadings (solid, solid, striped)\n* **Color:** Two different colors (purple, purple, green) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_84",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n \nExplanation:\nThere is no set in the second image. There are no three cards that satisfy the conditions to be a set. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_85",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Top Left:** Three purple ovals, solid fill\n* **Bottom Left:** One purple diamond, solid fill\n* **Bottom Right:** Three purple ovals, outlined \n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (1, 3, 3)\n* **Shape:** Three different shapes (diamond, oval, oval)\n* **Shading:** Three different shadings (solid, solid, outlined)\n* **Color:** All the same color (purple) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_86",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify a set using the top row and bottom left card:\n\n* **Shape:** All three cards have the squiggle shape.\n* **Color:** All three cards are green.\n* **Number:**  There are three different numbers: two, three, and one.\n* **Shading:** There are three different shadings: solid, striped, and outlined. \n\nThis combination fulfills all the requirements for a set in the SET card game. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_87",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_88",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_89",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Two purple ovals, solid fill\n* **Bottom Left:** Two green squiggles, solid fill\n* **Top Right:** Three purple squiggles, solid fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:**  Three different numbers (two, two, three)\n* **Shape:** All squiggles\n* **Shading:** All solid fill\n* **Color:**  Two purple, one green \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_90",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Two solid diamonds, purple\n* **Bottom Left:** Two solid ovals, green\n* **Top Right:** Two outlined ovals, purple\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have two shapes.\n* **Shape:** All cards have different shapes (diamond, oval, oval).\n* **Shading:** All cards have different shadings (solid, solid, outlined).\n* **Color:** All cards have different colors (purple, green, purple). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_91",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_92",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Top Left Card:** Two green, striped diamonds.\n* **Top Right Card:** One red, striped diamond.\n* **Bottom Left Card:** Three purple, striped diamonds.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (one, two, three).\n* **Shape:** All diamonds.\n* **Shading:** All striped.\n* **Color:** Three different colors (green, red, purple). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_93",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n\n**Explanation:**\n\nLooking at the second image, we can see that there are only two distinct shapes (oval and capsule), two colors (purple and green), and two shadings (solid and striped).  To form a set, we need either all three cards to be the same in a feature, or all three to be different. Since we only have two options for each feature, we cannot create a set of three cards that meets the criteria. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_94",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** One purple diamond, solid fill\n* **Bottom Left:** Three red ovals, solid fill\n* **Top Right:** Two red ovals, solid fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (1, 2, 3)\n* **Shape:** All ovals \n* **Shading:** All solid fill\n* **Color:** All red \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_95",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_96",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left Card:**  Purple, Striped, Oval \n* **Bottom Left Card:** Red, Striped, Squiggle\n* **Bottom Right Card:** Green, Striped, Diamond\n\nThis combination satisfies the rules of a set:\n\n* **Color:** Three different colors (Purple, Red, Green)\n* **Shading:** All Striped\n* **Shape:** Three different shapes (Oval, Squiggle, Diamond)\n* **Number:** All have one symbol \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_97",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Top Left Card:** One, solid, green oval\n* **Bottom Left Card:** Three, solid, green ovals\n* **Top Right Card:** Three, striped, purple diamonds\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (one, three, three)\n* **Shape:** Three different shapes (oval, oval, diamond)\n* **Shading:** Three different shadings (solid, solid, striped)\n* **Color:** Two different colors (green, green, purple) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_98",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_99",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_100",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_101",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Three green diamonds, solid fill\n* **Bottom Left:** Two purple ovals, solid fill\n* **Top Right:** Two green diamonds, outlined \n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (3, 2, 2)\n* **Shape:** All diamonds\n* **Shading:** Three different shadings (solid, solid, outlined)\n* **Color:**  Two green, one purple \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_102",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Card 1 (Top Left):** One red, solid, squiggle.\n* **Card 2 (Bottom Left):** One red, solid, squiggle.\n* **Card 3 (Top Right):** Two green, solid, diamonds.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Two cards have one shape, one card has two shapes (three different numbers).\n* **Shape:** Squiggle and diamond (two different shapes).\n* **Shading:** All solid (same shading).\n* **Color:** Red and green (two different colors). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_103",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Top Left Card:** Two, Diamond, Solid, Green\n* **Bottom Left Card:** Two, Squiggle, Solid, Red\n* **Top Right Card:** Two, Squiggle, Solid, Purple\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have two shapes.\n* **Shape:**  All cards have different shapes (diamond, squiggle, squiggle).\n* **Shading:** All cards have solid shading.\n* **Color:** All cards have different colors (green, red, purple). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_104",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left Card:** Two red outlined ovals.\n* **Bottom Left Card:** Two green outlined ovals.\n* **Bottom Right Card:** Two red squiggles.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have two shapes.\n* **Shape:**  All cards have different shapes (oval, oval, squiggle).\n* **Shading:** All cards have an outlined shading.\n* **Color:** All cards have different colors (red, green, red). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_105",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** One purple solid oval\n* **Bottom Left:** Three red solid squiggles \n* **Top Right:** Two purple striped squiggles\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (one, two, three)\n* **Shape:** All squiggles\n* **Shading:** Three different shadings (solid, striped, solid)\n* **Color:** Three different colors (purple, red, purple) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_106",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** One green, solid oval.\n* **Bottom Left:** Three purple, solid diamonds.\n* **Top Right:** Two purple, solid squiggles.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have a different number of shapes (1, 2, 3).\n* **Shape:** All cards have a different shape (oval, diamond, squiggle).\n* **Shading:** All cards have the same shading (solid).\n* **Color:** All cards have a different color (green, purple, purple). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_107",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Top Left, Bottom Left, Top Right:** These cards all have the diamond shape. They have different numbers (1, 3, 2), different colors (green, red, green), and different shadings (solid, outlined, solid). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_108",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left Card:** Three Diamonds, Green, Solid\n* **Bottom Left Card:** Two Squiggles, Green, Solid\n* **Bottom Right Card:** Two Ovals, Purple, Solid\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (3, 2, 2)\n* **Shape:** Three different shapes (Diamond, Squiggle, Oval)\n* **Shading:** All Solid\n* **Color:** Two Green, One Purple \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_109",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n \nExplanation:\nThere is no set in the second image. To have a set, all features must be either all the same or all different across the three cards.  Let's analyze the image:\n\n* **Number:** We have two cards with two shapes and one with one shape. This does not meet the set criteria.\n* **Shape:**  We have three cards with diamonds - all the same. This meets the set criteria.\n* **Shading:** We have two cards with striped shading and one with solid shading. This does not meet the set criteria.\n* **Color:** We have three cards with red and purple colors. This does not meet the set criteria. \n \nSince not all features meet the criteria for a set, there is no set in this image. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_110",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Top Left:** One green solid oval\n* **Bottom Left:** Two red striped ovals\n* **Top Right:** Three purple striped ovals\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (1, 2, 3)\n* **Shape:** All ovals\n* **Shading:** Three different shadings (solid, striped, striped)\n* **Color:** Three different colors (green, red, purple) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_111",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_112",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nThe top two cards in the second image (red diamonds with striped shading) and the bottom left card (green diamond with striped shading) form a set. They have:\n\n* **Different numbers:** 1, 1, and 2\n* **The same shape:** Diamond\n* **The same shading:** Striped\n* **Different colors:** Red, red, and green \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_113",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can form a set using the top left, bottom left, and top right cards. \n\n* **Number:** All cards have two shapes.\n* **Shape:** All cards use the oval/capsule shape.\n* **Shading:**  We have one of each shading: solid, outlined, and striped.\n* **Color:** All cards are purple. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_114",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** One, solid, green, oval\n* **Bottom Left:** Two, solid, green, squiggles\n* **Top Right:** Three, solid, green, squiggles\n\nThis set satisfies the rules:\n* **Number:** Three different numbers (one, two, three)\n* **Shape:** All the same shape (squiggle)\n* **Shading:** All the same shading (solid)\n* **Color:** All the same color (green) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_115",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Three green diamonds (3 different numbers, same shape, same shading, same color)\n* **Bottom Left:** Three red squiggles (3 different numbers, same shape, same shading, same color)\n* **Top Right:** One red oval (3 different numbers, same shape, same shading, same color) \n\nThis combination satisfies the rules of a set in the SET card game. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_116",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Three Diamonds, Purple, Solid\n* **Top Right:** One Diamond, Red, Solid\n* **Bottom Right:** Two Squiggles, Red, Striped\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (1, 2, 3)\n* **Shape:** All diamonds\n* **Shading:** All solid\n* **Color:**  Three different colors (Purple, Red, Red) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_117",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n\n**Explanation:**\n\nLooking at the second image, we can form a set using the following three cards:\n\n* **Top Left:** One purple squiggle\n* **Bottom Left:** One purple solid squiggle\n* **Bottom Right:** One purple striped squiggle\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have one squiggle.\n* **Shape:** All cards have the squiggle shape.\n* **Shading:**  The cards have three different shadings: outlined, solid, and striped.\n* **Color:** All cards are purple. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_118",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Two purple diamonds, solid fill\n* **Top Right:** Two green diamonds, solid fill\n* **Bottom Left:** Three red squiggles, solid fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (two, two, three)\n* **Shape:** All diamonds\n* **Shading:** All solid fill\n* **Color:** Three different colors (purple, green, red) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_119",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Card 1 (Top Left):** One purple, solid diamond.\n* **Card 2 (Bottom Left):** Two red, solid diamonds.\n* **Card 3 (Bottom Right):** Three green, striped diamonds.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (1, 2, 3)\n* **Shape:** All diamonds.\n* **Shading:** Three different shadings (solid, solid, striped)\n* **Color:** Three different colors (purple, red, green) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_120",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_121",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_122",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n\n**Explanation:**\n\nLooking at the second image, we see all cards have the same shape (diamond) and color (green).  \n\n* **Number:**  We have two cards with two diamonds, two cards with three diamonds, and two cards with one diamond. This does not fulfill the \"all the same number or three different numbers\" rule. \n\nSince not all the criteria for a set are met, there is no set in this image. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_123",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Two purple ovals, solid fill\n* **Bottom Left:** Two red ovals, solid fill\n* **Top Right:** Two green ovals, solid fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have two shapes.\n* **Shape:** All cards have ovals.\n* **Shading:** All cards have a solid fill.\n* **Color:**  The cards have three different colors (purple, red, green). \n \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_124",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_125",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Card 1:** One, Striped, Purple, Squiggle\n* **Card 2:** Three, Striped, Green, Capsule\n* **Card 3:** Two, Solid, Green, Squiggle\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All different (one, two, three)\n* **Shading:** All different (striped, solid, striped)\n* **Color:** All different (purple, green, green)\n* **Shape:** All different (squiggle, capsule, squiggle) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_126",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_127",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_128",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Three red diamonds, solid fill\n* **Bottom Left:** One green diamond, solid fill\n* **Bottom Right:** Two purple diamonds, solid fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (1, 2, 3)\n* **Shape:** All diamonds\n* **Shading:** All solid fill\n* **Color:** Three different colors (red, green, purple) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_129",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nAll four cards have the same shape (squiggle) and the same number (three). They have three different colors (red, red, green, green) and three different shadings (solid, outlined, solid, outlined). This fulfills the requirements for a set. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_130",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_131",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Two, Diamond, Striped, Red\n* **Bottom Left:** One, Oval, Striped, Red\n* **Bottom Right:** Three, Diamond, Striped, Green\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (one, two, three)\n* **Shape:** All diamonds\n* **Shading:** All striped\n* **Color:** Two red, one green (three different colors) \n \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_132",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left Card:** Three green ovals, solid fill\n* **Bottom Left Card:** Three red diamonds, solid fill\n* **Bottom Right Card:** Three purple squiggles, solid fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (one, two, three)\n* **Shape:** Three different shapes (oval, diamond, squiggle)\n* **Shading:** All have the same shading (solid)\n* **Color:** Three different colors (green, red, purple) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_133",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nAll four cards have the same shape (squiggle) and number (two). They have three different shadings (solid, striped, outlined, and open) and thus form a set. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_134",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Card 1:** One red, solid, squiggle.\n* **Card 2:** Two red, solid, squiggles.\n* **Card 3:** Two green, striped, squiggles.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (1, 2, 2)\n* **Shape:** All the same shape (squiggle)\n* **Shading:** Two solid, one striped (three different shadings)\n* **Color:** Two red, one green (three different colors) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_135",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_136",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_137",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_138",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Top Left Card:** Two red diamonds, solid fill\n* **Bottom Left Card:** Three red squiggles, solid fill\n* **Top Right Card:** One green diamond, solid fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (one, two, three)\n* **Shape:** All diamonds\n* **Shading:** All solid fill\n* **Color:** Two red, one green (three different colors) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_139",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Three green, solid, capsule shapes.\n* **Bottom Left:** Three red, striped, squiggle shapes.\n* **Top Right:** Two red, solid, squiggle shapes.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (3, 3, 2)\n* **Shape:** Three different shapes (capsule, squiggle, squiggle)\n* **Shading:** Three different shadings (solid, striped, solid)\n* **Color:** Three different colors (green, red, red) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_140",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_141",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_142",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_143",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_144",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Card 1 (Top Left):** One red, striped oval.\n* **Card 2 (Bottom Left):** One red, striped oval.\n* **Card 3 (Top Right):** Two red diamonds.\n\nThis combination satisfies the rules of a set:\n\n* **Number:**  Two cards have one shape, one card has two shapes (three different numbers).\n* **Shape:** Oval and diamond (two different shapes).\n* **Shading:** All are striped.\n* **Color:** All are red. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_145",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n \nExplanation:\nThere is no set in the second image. To have a set, all features must be either all the same or all different across the three cards.  Let's analyze the image:\n\n* **Number:** We have two cards with two shapes and one card with one shape. This does not fulfill the set criteria. \n* **Shape:** All cards have the same shape (capsule).\n* **Shading:** We have two cards with solid shading and one with outlined shading. This does not fulfill the set criteria.\n* **Color:** We have red, green, and purple - all different colors. \n\nSince not all features are either all the same or all different, there is no set in this image. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_146",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Three squiggles, red, solid\n* **Bottom Left:** Three diamonds, purple, solid\n* **Bottom Right:** One diamond, red, striped\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (3, 3, 1)\n* **Shape:** All diamonds\n* **Shading:** Three different shadings (solid, solid, striped)\n* **Color:** Two colors (red, purple) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_147",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Two red ovals, solid fill\n* **Bottom Left:** Three red ovals, solid fill\n* **Bottom Right:** Three green ovals, solid fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (two, three, three)\n* **Shape:** All ovals\n* **Shading:** All solid fill\n* **Color:** Two different colors (red, green) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_148",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_149",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_150",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_151",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_152",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n\n**Explanation:**\n\nThe second image shows four cards:\n\n* Three cards with red diamonds: two diamonds, three diamonds, and three diamonds.\n* One card with a purple, striped diamond.\n\nThese four cards can form a set:\n\n* **Number:** Three different numbers (one, two, and three diamonds).\n* **Shape:** All diamonds.\n* **Shading:** Three different shadings (solid red, solid red, and striped purple).\n* **Color:** Three different colors (red, red, and purple). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_153",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_154",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_155",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Three Diamonds, Purple, Solid\n* **Top Right:** Three Diamonds, Green, Solid\n* **Bottom Left:** Two Ovals, Red, Solid \n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (3, 3, 2)\n* **Shape:** All diamonds \n* **Shading:** All solid\n* **Color:** Three different colors (Purple, Green, Red) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_156",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left Card:** Three Diamonds, Green, Solid\n* **Bottom Left Card:** Two Squiggles, Green, Striped\n* **Bottom Right Card:** Three Diamonds, Purple, Solid\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (two, three, three)\n* **Shape:**  All different shapes (squiggle, diamond, diamond)\n* **Shading:** All different shadings (striped, solid, solid)\n* **Color:** Two different colors (green, green, purple) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_157",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Two purple ovals\n* **Bottom Left:** Two purple squiggles\n* **Top Right:** Two purple capsules \n\nThis set satisfies the rules because:\n\n* **Number:** All cards have two shapes.\n* **Shape:**  All cards have different shapes (oval, squiggle, capsule).\n* **Shading:** All cards have the same solid shading.\n* **Color:** All cards are purple. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_158",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLet's analyze the cards in the second image:\n\n* **Top Left:** 2 Green Diamonds, Solid Fill\n* **Top Right:** 2 Green Squiggles, Striped Fill\n* **Bottom Left:** 3 Red Squiggles, Solid Fill\n* **Bottom Right:** 2 Green Ovals, Solid Fill\n\nWe can form a set using the following three cards:\n\n1. **Top Left:** 2 Green Diamonds, Solid Fill\n2. **Top Right:** 2 Green Squiggles, Striped Fill\n3. **Bottom Right:** 2 Green Ovals, Solid Fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have two shapes.\n* **Color:** All cards are green.\n* **Shape:** Each card has a different shape (diamond, squiggle, oval).\n* **Shading:**  Each card has a different shading (solid, striped, solid). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_159",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set using the top two cards and the bottom left card:\n\n* **Shape:** All three cards have the diamond shape.\n* **Color:**  We have one green and two purple cards (three different colors).\n* **Number:** We have one card with one diamond, and two cards with three diamonds (three different numbers).\n* **Shading:** We have one solid, one striped, and one outlined card (three different shadings). \n\nThis combination fulfills all the requirements for a set in the SET card game. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_160",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nThe three cards on the left (all diamonds) form a set:\n\n* **Number:** All three have one shape.\n* **Shape:** All three are diamonds.\n* **Shading:** They have three different shadings (empty, solid, striped).\n* **Color:** They have three different colors (purple, green, red). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_161",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_162",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** One green solid oval.\n* **Top Right:** One green solid oval.\n* **Bottom Right:** Two red solid ovals.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (1, 1, and 2).\n* **Shape:** All ovals.\n* **Shading:** All solid.\n* **Color:** Two green, one red. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_163",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\nExplanation:\nThe top left, bottom left, and top right cards form a set. They all have different numbers of shapes (three, one, two), they all have different shadings (striped, solid, outlined), and they all have different colors (green, red, purple). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_164",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Three purple ovals with solid shading.\n* **Bottom Left:** Three green ovals with solid shading.\n* **Top Right:** Three green squiggles with solid shading.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (one, two, three).\n* **Shape:** Three different shapes (oval, squiggle, diamond).\n* **Shading:** All have the same shading (solid).\n* **Color:**  Two green, one purple. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_165",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n\n**Explanation:**\n\nLooking at the second image, we see all cards have:\n\n* **The same shape:** (~)\n* **The same number:**  Two (~)\n* **Different colors:** Red, purple, and red again\n* **Different shadings:** Solid, striped, and solid again\n\nTo be a set, all features must be either all the same or all different across the three cards. Since the color and shading features repeat, this is not a set. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_166",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_167",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_168",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_169",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_170",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_171",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left Card:** Three squiggles, solid fill, green\n* **Bottom Left Card:** Two diamonds, solid fill, green\n* **Top Right Card:** One squiggle, striped fill, green\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (3, 2, 1)\n* **Shape:** Three different shapes (squiggle, diamond, oval)\n* **Shading:** All have the same shading (solid)\n* **Color:** All have the same color (green) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_172",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Card 1:** One green oval\n* **Card 2:** Two green ovals\n* **Card 3:** Three green ovals\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (1, 2, 3)\n* **Shape:** All the same shape (oval)\n* **Shading:** All the same shading (solid)\n* **Color:** All the same color (green) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_173",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_174",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set using the cards in the left column:\n\n* **Number:** All three cards have two shapes.\n* **Shape:** All three cards have diamonds.\n* **Shading:**  The cards have different shadings: solid, striped, and outlined.\n* **Color:** The cards have different colors: red, green, and purple.\n\nThis combination fulfills all the requirements for a set in the SET card game. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_175",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_176",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_177",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left Card:** Three purple squiggles\n* **Bottom Left Card:** One red solid oval\n* **Bottom Right Card:** Three purple squiggles\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (1, 3, 3)\n* **Shape:** All the same shape (squiggle)\n* **Shading:** Two solid, one outlined\n* **Color:** Two purple, one red \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_178",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_179",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set using the following three cards:\n\n* **Top Left:** Two purple squiggles\n* **Bottom Left:** Two red squiggles\n* **Top Right:** Two purple diamonds\n\nThis combination satisfies the rules of a set:\n\n* **Number:**  All cards have two shapes.\n* **Shape:**  There are three different shapes: squiggle, squiggle, diamond.\n* **Shading:** There are three different shadings: solid, outlined, solid.\n* **Color:** There are three different colors: purple, red, purple. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_180",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n \n**Explanation:**\n\nLooking at the second image, we can see that all four cards have the same shape (diamond) and the same number (2).  To form a set, we need either all the same or all different in each feature (number, shape, shading, color). Since the shape and number are the same, the shading and color would need to be all different. However, we have two red cards and two green cards, so we cannot form a set. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_181",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Three red outlined ovals, solid shading\n* **Bottom Left:** One purple solid diamond\n* **Top Right:** Two red outlined diamonds, solid shading\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (3, 1, 2)\n* **Shape:** All diamonds\n* **Shading:** All solid\n* **Color:** All red (or red outline with purple fill for the single diamond) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_182",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_183",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left Card:** Two green diamonds with solid shading.\n* **Bottom Left Card:** One red diamond with solid shading.\n* **Top Right Card:** One purple diamond with striped shading.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (one, two, one).\n* **Shape:** All diamonds.\n* **Shading:** Three different shadings (solid, solid, striped).\n* **Color:** Three different colors (green, red, purple). \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_184",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** One red solid oval\n* **Bottom Left:** Two green striped ovals\n* **Top Right:** Two green striped ovals\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (1, 2, 2)\n* **Shape:** All ovals\n* **Shading:**  Three different shadings (solid, striped, striped)\n* **Color:** Three different colors (red, green, green) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_185",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** Three red ovals, solid fill\n* **Bottom Left:** Three purple diamonds, solid fill\n* **Top Right:** One green oval, outlined \n\nThis set satisfies the rules:\n* **Number:** Three different numbers (1, 3, 3)\n* **Shape:** All ovals \n* **Shading:** Three different shadings (solid, solid, outlined)\n* **Color:** Three different colors (red, purple, green) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_186",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_187",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set using the three purple cards:\n\n* **Number:** All three cards have a different number of shapes (three, one, two).\n* **Shape:** All three cards have the same shape (diamond).\n* **Shading:** All three cards have a different shading (solid, striped, outlined).\n* **Color:** All three cards have the same color (purple). \n\nThis combination satisfies the rules for a set in the SET card game. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_188",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_189",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Top Left:** Two squiggles, striped, green\n* **Top Right:** Three squiggles, solid, green\n* **Bottom Right:** One squiggle, striped, red\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (one, two, three)\n* **Shape:** All squiggles\n* **Shading:** All variations of shading (striped, solid, striped)\n* **Color:** Three different colors (green, green, red) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_190",
+    "raw_logic_programs": [
+      "Correct answer:\nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_191",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set using the top left, bottom left, and bottom right cards. Here's why:\n\n* **Number:** All three cards have three shapes.\n* **Shape:** All three cards use the squiggle shape.\n* **Shading:**  We have one of each shading: solid, striped, and outlined.\n* **Color:** All three cards are purple. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_192",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Top Left & Bottom Right:** Two purple diamonds.\n* **Top Right:** Two red striped squiggles.\n* **Bottom Left:** Three green outlined squiggles.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (2, 2, and 3)\n* **Shape:** All squiggles or all diamonds.\n* **Shading:** Three different shadings (solid, striped, outlined)\n* **Color:** Three different colors (purple, red, green) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "B",
+    "id": "problem_193",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Card 1:** Three red diamonds, solid fill\n* **Card 2:** Three red squiggles, striped fill\n* **Card 3:** Three red ovals, outlined fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have three shapes.\n* **Shape:**  Each card has a different shape (diamond, squiggle, oval).\n* **Shading:** Each card has a different shading (solid, striped, outlined).\n* **Color:** All cards are red. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_194",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left:** One green solid diamond\n* **Top Right:** Two purple striped diamonds\n* **Bottom Right:** Three red empty diamonds\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (1, 2, 3)\n* **Shape:** All diamonds\n* **Shading:** Three different shadings (solid, striped, empty)\n* **Color:** Three different colors (green, purple, red) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_195",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_196",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can form a set using the following three cards:\n\n* **Top Left:** Three solid green ovals.\n* **Bottom Left:** One striped purple squiggle.\n* **Top Right:** One striped purple squiggle.\n\nThis combination satisfies the rules of a set:\n\n* **Number:**  We have three different numbers of shapes (three, one, and one).\n* **Shape:** We have two squiggles and one oval.\n* **Shading:** We have solid and striped.\n* **Color:** All cards are either green or purple. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "B",
+    "id": "problem_197",
+    "raw_logic_programs": [
+      "Correct answer: \nA \n\n**Explanation:**\n\nLooking at the second image, we can identify a set:\n\n* **Top Left Card:** Three red, solid, squiggles.\n* **Bottom Left Card:** Three red, striped, squiggles.\n* **Top Right Card:** Three red, outlined, squiggles.\n\nThis combination satisfies the rules of a set:\n\n* **Number:** All cards have three shapes.\n* **Shape:** All cards have squiggles.\n* **Shading:**  The cards have all three different shadings (solid, striped, outlined).\n* **Color:** All cards are red. \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "answer": "A",
+    "id": "problem_198",
+    "raw_logic_programs": [
+      "Correct answer:\nA \n\n**Explanation:**\n\nLooking at the second image, we can identify the following set:\n\n* **Top Left Card:** Three red ovals, solid fill\n* **Bottom Left Card:** Two green diamonds, solid fill\n* **Bottom Right Card:** Three green ovals, solid fill\n\nThis combination satisfies the rules of a set:\n\n* **Number:** Three different numbers (two, three, three)\n* **Shape:** Three different shapes (oval, diamond, oval)\n* **Shading:** All solid fill\n* **Color:** Three different colors (red, green, green) \n"
+    ]
+  },
+  {
+    "question": "You have a picture of SET card game deck. In the game, certain combinations of three cards are said to make up a \"set\". A set consists of three cards satisfying all of these conditions: they all have the same number or have three different numbers, shapes, shadings or colors. Can you tell if such set exists?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "answer": "A",
+    "id": "problem_199",
+    "raw_logic_programs": [
+      "Correct answer: \nB \n"
+    ]
+  }
+]

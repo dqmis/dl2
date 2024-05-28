@@ -1,0 +1,25 @@
+{
+    "model": "gpt-4",
+    "results": [
+        {
+            "problem": "graph_validity_direct",
+            "accuracy": 0.525
+        },
+        {
+            "problem": "graph_fill_in_direct",
+            "accuracy": 0.26
+        },
+        {
+            "problem": "sudoku_validity_direct",
+            "accuracy": 0.495
+        },
+        {
+            "problem": "sudoku_fill_in_direct",
+            "accuracy": 0.235
+        },
+        {
+            "problem": "set_validity_direct",
+            "accuracy": 0.53
+        }
+    ]
+}

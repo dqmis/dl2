@@ -1,15 +1,21 @@
 import asyncio
+import base64
+import io
 import os
 import time
+from time import sleep
 from typing import Any, Optional
 
-import backoff
 import model_globals
 import openai
 import vertexai
 from google.api_core.exceptions import ResourceExhausted
 from google.oauth2 import service_account
+from openai import AzureOpenAI
+from PIL import Image as PILImage
 from vertexai.generative_models import GenerationConfig, GenerativeModel
+from vertexai.generative_models import Image as VertexAIImage
+from vertexai.generative_models import Part
 
 
 # @backoff.on_exception(backoff.expo, openai.error.RateLimitError)
@@ -20,6 +26,82 @@ def completions_with_backoff(**kwargs):
 # @backoff.on_exception(backoff.expo, openai.error.RateLimitError)
 def chat_completions_with_backoff(**kwargs):
     return openai.ChatCompletion.create(**kwargs)
+
+
+def load_image(image_path):
+    image = VertexAIImage.load_from_file(image_path)
+    return Part.from_image(image)
+
+
+def load_gpt_image(image_path):
+    image = PILImage.open(image_path)
+    return image
+
+
+class GPTRunner:
+    def __init__(self):
+        api_base = os.environ.get("API_BASE", "https://api.openai.com")
+        api_key = os.environ.get("API_KEY")
+        deployment_name = "gpt4"
+        api_version = "2023-12-01-preview"
+
+        self.client = AzureOpenAI(
+            api_key=api_key,
+            api_version=api_version,
+            base_url=f"{api_base}/openai/deployments/{deployment_name}",
+        )
+        self.deployment_name = deployment_name
+
+    def _image_to_base64(self, image: PILImage.Image):
+        image_bytes = io.BytesIO()
+        image.save(image_bytes, format=image.format)
+        return base64.b64encode(image_bytes.getvalue()).decode("utf-8")
+
+    def generate(self, inputs: Any) -> str:
+        if isinstance(inputs, tuple):
+            # fist element is prompt, all the rest are images
+            prompt, images = inputs[0], inputs[1:]
+            images = list(images)
+        else:
+            prompt, images = inputs, None
+
+        return self._generate(prompt, images)
+
+    def _generate(self, prompt: str, images: list[PILImage.Image] = None):
+        images = (
+            [
+                {
+                    "type": "image_url",
+                    "image_url": {
+                        "url": f"data:image/jpeg;base64,{self._image_to_base64(image)}",
+                        "detail": "high",
+                    },
+                }
+                for image in images
+            ]
+            if images
+            else []
+        )
+
+        messages = [
+            {"role": "user", "content": [{"type": "text", "text": prompt}] + images}
+        ]
+        backoff = 20
+        while True:
+            try:
+                response = self.client.chat.completions.create(
+                    model=self.deployment_name,
+                    messages=messages,
+                    max_tokens=2024,
+                    temperature=0.0,
+                    n=1,
+                )
+                return response.choices[0].message.content
+            except Exception as e:
+                print("Got an error:", e)
+                print("Retrying in", backoff, "seconds")
+                sleep(backoff)
+                backoff *= 2
 
 
 async def dispatch_openai_chat_requests(

@@ -5,15 +5,8 @@ import json
 import os
 
 import model_globals
-from PIL import Image
 from tqdm import tqdm
-from utils import GenimiModel, OpenAIModel
-from vertexai.generative_models import Image, Part
-
-
-def load_image(image_path):
-    image = Image.load_from_file(image_path)
-    return Part.from_image(image)
+from utils import GenimiModel, GPTRunner, OpenAIModel, load_gpt_image, load_image
 
 
 class LogicProgramGenerator:
@@ -29,6 +22,8 @@ class LogicProgramGenerator:
             self.LLM = GenimiModel(
                 args.model_name, args.stop_words, args.max_new_tokens
             )
+        elif self.model_name in ["gpt-4"]:
+            self.LLM = GPTRunner()
         else:
             self.LLM = OpenAIModel(
                 args.api_key, args.model_name, args.stop_words, args.max_new_tokens
@@ -44,6 +39,8 @@ class LogicProgramGenerator:
             "sudoku_fill_in": self.prompt_multimodal,
             "graph_validity": self.prompt_multimodal,
             "graph_fill_in": self.prompt_multimodal,
+            "set_validity": self.prompt_multimodal,
+            "set_validity_direct": self.prompt_multimodal_direct,
             "sudoku_validity_direct": self.prompt_multimodal_direct,
             "sudoku_fill_in_direct": self.prompt_multimodal_direct,
             "graph_validity_direct": self.prompt_multimodal_direct,
@@ -55,14 +52,21 @@ class LogicProgramGenerator:
             "sudoku_fill_in",
             "graph_validity",
             "graph_fill_in",
+            "set_validity",
+            "set_validity_direct",
             "sudoku_validity_direct",
             "sudoku_fill_in_direct",
             "graph_validity_direct",
             "graph_fill_in_direct",
         ]:
-            self.prompt_image = load_image(
-                f"./models/prompts/{self.dataset_name.replace('_direct', '')}.png"
-            )
+            if self.model_name in model_globals.GEMINI_MODEL_NAMES:
+                self.prompt_image = load_image(
+                    f"./models/prompts/{self.dataset_name.replace('_direct', '')}.png"
+                )
+            else:
+                self.prompt_image = load_gpt_image(
+                    f"./models/prompts/{self.dataset_name.replace('_direct', '')}.png"
+                )
         self.load_prompt_templates()
 
     def load_prompt_templates(self):
@@ -86,7 +90,14 @@ class LogicProgramGenerator:
         full_prompt = self.prompt_template.replace("[[PROBLEM]]", problem)
         full_prompt = full_prompt.replace("[[QUESTION]]", "\n".join(options))
 
-        image = load_image(f"./data/{self.dataset_name}/images/{test_data['id']}.png")
+        if self.model_name in model_globals.GEMINI_MODEL_NAMES:
+            image = load_image(
+                f"./data/{self.dataset_name.replace('_direct', '')}/images/{test_data['id']}.png"
+            )
+        else:
+            image = load_gpt_image(
+                f"./data/{self.dataset_name.replace('_direct', '')}/images/{test_data['id']}.png"
+            )
 
         return full_prompt, self.prompt_image, image
 
@@ -96,9 +107,14 @@ class LogicProgramGenerator:
         full_prompt = self.prompt_template.replace("[[PROBLEM]]", problem)
         full_prompt = full_prompt.replace("[[QUESTION]]", "\n".join(options))
 
-        image = load_image(
-            f"./data/{self.dataset_name.replace('_direct', '')}/images/{test_data['id']}.png"
-        )
+        if self.model_name in model_globals.GEMINI_MODEL_NAMES:
+            image = load_image(
+                f"./data/{self.dataset_name.replace('_direct', '')}/images/{test_data['id']}.png"
+            )
+        else:
+            image = load_gpt_image(
+                f"./data/{self.dataset_name.replace('_direct', '')}/images/{test_data['id']}.png"
+            )
 
         return full_prompt, self.prompt_image, image
 
