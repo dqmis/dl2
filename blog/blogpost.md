@@ -379,7 +379,7 @@ In this blogpost, we discussed Logic-LM, a novel framework that integrates Large
 
 - Further research is needed to address the observed fragilities in the framework, especially for varying model architectures and logical problem types. Due to probabilistic nature of LLMs, generating optimal prompt strategies is crucial for consistent performance. Employing strategies like fine-tuning could enhance robustness.
 - Enhancing the stability of generating valid logic programs across different models and exploring additional multi-modal datasets can provide insights into improving the Logic-LM framework.
-- Investigating alternative prompting strategies and more extensive pre-training data that include symbolic logic examples could mitigate syntax-related issues and improve overall robustness. Especially investigating possibility of more samples for a few-shot learning approach.
+- Investigating alternative prompting strategies and more extensive pre-training data that include symbolic logic examples could mitigate syntax-related issues and improve overall robustness. 
 
 In summary, the Logic-LM framework significantly advances the logical reasoning capabilities of LLMs by leveraging symbolic solvers. However, ensuring robustness across diverse models and tasks remains a critical area for future work. The promising results highlight that a hybrid approach that combines statistical learning with symbolic reasoning can bridge existing gaps in LLM logical reasoning and pave the way for more reliable and interpretable AI systems.
 
