@@ -193,7 +193,6 @@ We evaluated one model from the Llama family `meta-llama/Meta-Llama-3-8B-Instruc
 
 |LogicalDeduction|meta-llama/Meta-Llama-3-8B-Instruct|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
  |---|---|---|---|---|---| 
- |---|---|---|---|---| 
 |Overall_Accuracy|33.98|72.00|75.00|**84.67**|61.00|
 |Executable_Rate|0.00|60.00|60.00|**100.00**|71.67|
 |Executable_Accuracy|0.00|**89.44**|87.22|84.67|69.77|
