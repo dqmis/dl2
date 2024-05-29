@@ -230,7 +230,8 @@ We found that for logical tasks, where we have to predict one option out of 5 av
 |                        Dataset                         | Prompting | Accuracy (% for meta-llama/Meta-Llama-3-8B-Instruct) |
 | :----------------------------------------------------: | :-------: | :--------------------------------------------------: |
 |                    AR-LSAT Baseline                    |  Direct   |                        19.56                         |
-| AR-LSAT Swap the correct answer always to first choice |  Direct   |                          25                          |
+| AR-LSAT Swap the correct answer always to first choice |  Direct   |                          25    21.3                      |
+| AR-LSAT Swap the correct answer always to first choice |  Direct   |                          21.3                      |                 
 |          AR-LSAT Predict wrong answer choices          |  Direct   |                          26                          |
 
 ### 3.3 Multi-modal Logic Reasoning
