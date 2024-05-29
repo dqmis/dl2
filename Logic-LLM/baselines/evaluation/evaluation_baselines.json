@@ -1,24 +1,98 @@
 {
     "gemini-1.0-pro-vision-001": {
-        "ProntoQA": {},
+        "ProntoQA": {
+            "Direct": {
+                "Average_EM_score": 0.0
+            }
+        },
         "ProofWriter": {},
         "FOLIO": {},
         "LogicalDeduction": {},
         "AR-LSAT": {}
     },
     "gemini-1.5-pro-preview-0409": {
-        "ProntoQA": {},
-        "ProofWriter": {},
-        "FOLIO": {},
-        "LogicalDeduction": {},
-        "AR-LSAT": {}
+        "ProntoQA": {
+            "Direct": {
+                "Average_EM_score": 0.362
+            },
+            "CoT": {
+                "Average_EM_score": 0.04670912951167728
+            }
+        },
+        "ProofWriter": {
+            "Direct": {
+                "Average_EM_score": 0.14166666666666666
+            },
+            "CoT": {
+                "Average_EM_score": 0.6649746192893401
+            }
+        },
+        "FOLIO": {
+            "Direct": {
+                "Average_EM_score": 0.24509803921568626
+            },
+            "CoT": {
+                "Average_EM_score": 0.19402985074626866
+            }
+        },
+        "LogicalDeduction": {
+            "Direct": {
+                "Average_EM_score": 0.18666666666666668
+            },
+            "CoT": {
+                "Average_EM_score": 0.0
+            }
+        },
+        "AR-LSAT": {
+            "Direct": {
+                "Average_EM_score": 0.21645021645021645
+            },
+            "CoT": {
+                "Average_EM_score": 0.12987012987012986
+            }
+        }
     },
     "gemini-1.5-pro-preview-0514": {
-        "ProntoQA": {},
-        "ProofWriter": {},
-        "FOLIO": {},
-        "LogicalDeduction": {},
-        "AR-LSAT": {}
+        "ProntoQA": {
+            "Direct": {
+                "Average_EM_score": 0.7995991983967936
+            },
+            "CoT": {
+                "Average_EM_score": 0.4756637168141593
+            }
+        },
+        "ProofWriter": {
+            "Direct": {
+                "Average_EM_score": 0.5666666666666667
+            },
+            "CoT": {
+                "Average_EM_score": 0.5495798319327732
+            }
+        },
+        "FOLIO": {
+            "Direct": {
+                "Average_EM_score": 0.4019607843137255
+            },
+            "CoT": {
+                "Average_EM_score": 0.3712871287128713
+            }
+        },
+        "LogicalDeduction": {
+            "Direct": {
+                "Average_EM_score": 0.59
+            },
+            "CoT": {
+                "Average_EM_score": 0.1705685618729097
+            }
+        },
+        "AR-LSAT": {
+            "Direct": {
+                "Average_EM_score": 0.2813852813852814
+            },
+            "CoT": {
+                "Average_EM_score": 0.19047619047619047
+            }
+        }
     },
     "gemini-1.5-flash-preview-0514": {
         "ProntoQA": {
