@@ -18,6 +18,19 @@ class LogicInferenceEngine:
         self.save_path = args.save_path
         self.backup_strategy = args.backup_strategy
 
+        if self.backup_strategy == 'LLM':
+            if "CoT" in args.backup_LLM_result_path:
+                self.backup_in_filename = "CoT"
+            elif "Direct" in args.backup_LLM_result_path:
+                self.backup_in_filename = "Direct"
+            else:
+                raise Exception("Can't extract CoT or Direct from backup path")
+        else:
+            self.backup_in_filename = 'random'
+
+
+        self.backup_LLM_result_path = args.backup_LLM_result_path
+
         self.dataset = self.load_logic_programs()
         program_executor_map = {'FOLIO': FOL_Prover9_Program, 
                                 'ProntoQA': Pyke_Program, 
@@ -37,7 +50,7 @@ class LogicInferenceEngine:
         if not os.path.exists(self.save_path):
             os.makedirs(self.save_path)
         
-        with open(os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.model_name}_backup-{self.backup_strategy}.json'), 'w') as f:
+        with open(os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.model_name}_backup-{self.backup_in_filename}.json'), 'w') as f:
             json.dump(outputs, f, indent=2, ensure_ascii=False)
 
     def safe_execute_program(self, id, logic_program):

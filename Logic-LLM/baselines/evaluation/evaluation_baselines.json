@@ -27,11 +27,17 @@
         "LogicalDeduction": {
             "Direct": {
                 "Average_EM_score": 0.45666666666666667
+            },
+            "CoT": {
+                "Average_EM_score": 0.5766666666666667
             }
         },
         "AR-LSAT": {
             "Direct": {
                 "Average_EM_score": 0.20346320346320346
+            },
+            "CoT": {
+                "Average_EM_score": 0.2554112554112554
             }
         }
     },
