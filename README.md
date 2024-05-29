@@ -48,7 +48,7 @@ The [commands](https://github.com/teacherpeterpan/Logic-LLM/blob/main/README.md)
 
 #### Prompting
 
-Note that our [results](https://github.com/dqmis/dl2/tree/master/Logic-LLM/baselines/results/) from the prompting are already in the github repo. Note that these are only the results using `gemini-1.5-flash-preview-0514`. To rerun these prompts (and for other model versions), go to the [baseline folder](https://github.com/dqmis/dl2/tree/master/Logic-LLM/baselines/) and run the right bash file. This will run the prompts for all datasets from the paper with both the Direct and CoT mode.
+Note that our [results](https://github.com/dqmis/dl2/tree/master/Logic-LLM/baselines/results/) from the prompting are already in the github repo. To rerun these prompts (and for other model versions), go to the [baseline folder](https://github.com/dqmis/dl2/tree/master/Logic-LLM/baselines/) and run the right bash file. This will run the prompts for all datasets from the paper with both the Direct and CoT mode.
 
 ```
 cd Logic-LLM/baselines
@@ -65,7 +65,7 @@ conda activate solver2
 python3 ./baselines/evaluation_save.py
 ```
 
-This will save the evaluation of the results in [evaluation_baselines.json](https://github.com/dqmis/dl2/tree/master/Logic-LLM/baselines/evaluation/evaluation_baselines.json). If you reuse our results from prompting the baseline and have not run it for the other models version, expect some `No results available for ...` to be printed when running this.
+This will save the evaluation of the results in [evaluation_baselines.json](https://github.com/dqmis/dl2/tree/master/Logic-LLM/baselines/evaluation/evaluation_baselines.json).
 
 ### Logic-LM
 
@@ -79,7 +79,7 @@ Note that our [results](https://github.com/dqmis/dl2/tree/master/Logic-LLM/outpu
 
 #### Running symbolic solvers
 
-Note that our [results](https://github.com/dqmis/dl2/tree/master/Logic-LLM/outputs/logic_inference) from running the solvers on our own results of the prompting are already in the github repo. To rerun the solvers, go to (or stay in) the [Logic-LLM folder](https://github.com/dqmis/dl2/tree/master/Logic-LLM/) and run the right bash file. Note that by default the backup stategy of using the CoT baseline anwer from `gemini-1.5-flash-preview-0514` will be used. To change this, set `--backup_LLM_result_path` differently in [logic_inference_gemini.sh](https://github.com/dqmis/dl2/tree/master/Logic-LLM/models/logic_inference_gemini.sh). This will run the symbolic solvers for all datasets from the paper:
+Note that our [results](https://github.com/dqmis/dl2/tree/master/Logic-LLM/outputs/logic_inference) from running the solvers on our own results of the prompting are already in the github repo. To rerun the solvers, go to (or stay in) the [Logic-LLM folder](https://github.com/dqmis/dl2/tree/master/Logic-LLM/) and run the right bash file. Note that by default the backup stategy of using the CoT baseline anwer from `gemini-1.5-flash-preview-0514` will be used. This will run the symbolic solvers for all datasets from the paper:
 
 ```bash
 ./logic_inference_gemini.sh
