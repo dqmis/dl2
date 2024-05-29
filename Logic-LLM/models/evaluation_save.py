@@ -13,7 +13,7 @@ def full_evaluation_save():
     for model_name in model_globals.GEMINI_MODEL_NAMES:
         results_json[model_name] = {}
         for dataset_name in model_globals.DATASET_NAMES:
-            results_json[dataset_name] = {}
+            results_json[model_name][dataset_name] = {}
             for backup in backup_strategies:
                 result_path = os.path.join("outputs", "logic_inference")
                 result_file = os.path.join(result_path, f'{dataset_name}_{split}_{model_name}_backup-{backup}.json')
@@ -32,7 +32,7 @@ def full_evaluation_save():
                         "Executable_Accuracy": executable_accuracy,
                     }
                 else:
-                    print(f"No results available for {model_name} on {dataset_name}")
+                    print(f"No results available for {model_name} on {dataset_name} with {backup}")
     
     outputs_path = f'outputs'
     eval_path = os.path.join(outputs_path, "evaluation", f'evaluation_logic_programs_gemini.json')

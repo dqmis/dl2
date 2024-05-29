@@ -3,12 +3,31 @@
         "ProntoQA": {
             "Direct": {
                 "Average_EM_score": 0.0
+            },
+            "CoT": {
+                "Average_EM_score": 0.0
             }
         },
-        "ProofWriter": {},
-        "FOLIO": {},
-        "LogicalDeduction": {},
-        "AR-LSAT": {}
+        "ProofWriter": {
+            "Direct": {
+                "Average_EM_score": 0.0
+            }
+        },
+        "FOLIO": {
+            "Direct": {
+                "Average_EM_score": 0.0
+            }
+        },
+        "LogicalDeduction": {
+            "Direct": {
+                "Average_EM_score": 0.0
+            }
+        },
+        "AR-LSAT": {
+            "Direct": {
+                "Average_EM_score": 0.0
+            }
+        }
     },
     "gemini-1.5-pro-preview-0409": {
         "ProntoQA": {
