@@ -381,18 +381,33 @@ In summary, the Logic-LM framework significantly advances the logical reasoning 
 Dominykas Šeputis and Chimène Blokesch focused primarily on multi-modal foundation models to assess their ability to address logical issues using both textual and visual inputs, generating new multimodal datasets and running the experiments. Dominykas Šeputis also did reproduction of the paper's results with GPT-4. Job Gräber integrated into the existing code base the ability to run baseline, order bias and Logic-LM with Gemini and got the results for the different Gemini models. Soham Chatterjee added code to run the baseline, order bias and logic Logic-LM with Llama and got the respective results and generated the data for order bias experiments and looked into negative example prompting. Idries Nasim primarily oversaw the writing process. All team members made active contributions by presenting the results of their experiments.
 
 ## 7. Appendix
-| Dataset          | Prompting                                            | Accuracy (%) for Meta-Llama-3-8B-Instruct | Accuracy (%) for gemini-1.0-pro-vision-001 | Accuracy (%) for gemini-1.5-pro-preview-0409 | Accuracy (%) for gemini-1.5-pro-preview-0514 | Accuracy (%) for gemini-1.5-flash-preview-0514 |
-| ---------------- | ---------------------------------------------------- | ----------------------------------------- | ------------------------------------------ | -------------------------------------------- | -------------------------------------------- | ---------------------------------------------- |
-| ProntoQA         | Direct (16 max_new_tokens)                           | 43                                        |                                            |                                              |                                              |                                                |
-|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup) | 8                                         | 92.60                                      | **97.40**                                    | 93.00                                        | 92.60                                          |
-| ProofWriter      | Direct (16 max_new_tokens)                           | 33                                        |                                            |                                              |                                              |                                                |
-|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup) | 28.695                                    | 74.12                                      | **78.04**                                    | 66.17                                        | 66.17                                          |
-| FOLIO            | Direct (16 max_new_tokens)                           | 46.5                                      |                                            |                                              |                                              |                                                |
-|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup) | 44.285                                    | 63.50                                      | 75.25                                        | **80.60**                                    | 59.80                                          |
-| LogicalDeduction | Direct (16 max_new_tokens)                           | 32.33                                     |                                            |                                              |                                              |                                                |
-|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup) | 20.38                                     | 64.67                                      | 64.67                                        | **84.67**                                    | 57.67                                          |
-| AR-LSAT          | Direct (16 max_new_tokens)                           | 7.36                                      |                                            |                                              |                                              |                                                |
-|                  | Logic-LM (CoT-Logic collaboration mode (LLM) backup) | 6                                         | 24.35                                      | 23.81                                        | 34.20                                        | **35.50**                                      |
+ Dataset         | Prompting                                              | Accuracy (%) for Meta-Llama-3-8B-Instruct | Accuracy (%) for gemini-1.0-pro-vision-001 | Accuracy (%) for gemini-1.5-pro-preview-0409 | Accuracy (%) for gemini-1.5-pro-preview-0514 | Accuracy (%) for gemini-1.5-flash-preview-0514 |
+| ---------------- | ------------------------------------------------------- | ----------------------------------------- | ------------------------------------------ | -------------------------------------------- | -------------------------------------------- | ----------------------------- |
+| ProntoQA        | Direct                              | 43                                       |          59.60 | 47.40 | **79.96** | 63.80 |
+|                 | CoT                              | 76.6                                     |                                   84.47 | 98.51 | **99.34** | 92.55 |
+|                 | Logic-LM (random) | 55                                    |              77.40 | **95.60** | 46.40 | 46.94 |
+|                 | Logic-LM (Direct) | 42.46                                    |                                         77.40 | **96.20** | 80.00 | 62.50 |
+|                 | Logic-LM (CoT)   | 8                                        | 77.40 | **97.40** | 95.00 | 94.39 |
+| ProofWriter     | Direct                              | 33                                       |             34.83 | 15.17 | **56.67** | 53.83 |
+|                 | CoT                              | 28.54                                    |                             56.67 | **74.11** | 59.83 | 66.84 |
+|                 | Logic-LM (random)                      | 28.7                                     |                61.27 | **74.66** | 34.50 | 32.17 |
+|                 | Logic-LM (Direct) | 28.69                                    |                                  55.43 | **76.01** | 56.67 | 53.67 |
+|                 | Logic-LM (CoT)   | 28.695                                   | 69.28 | **79.73** | 64.17 | 67.17 |
+| FOLIO           | Direct                            | 46.5                                     |                         59.80 | 39.71 | 40.20 | **66.67** |
+|                 | CoT                              | 36                                       |                    63.78 | **77.61** | 48.51 | 67.34 |
+|                 | Logic-LM (random)                      | 43                                       |   53.00 | 62.38 | **71.14** | 36.27 |
+|                 | Logic-LM (Direct) | 53                                       |                                         65.50 | 72.77 | **81.59** | 68.14 |
+|                 | Logic-LM (CoT)   | 44.285      |                   67.50 | **82.67** | 81.59 | 68.63 |
+| LogicalDeduction | Direct                              | 32.33                                    |                          45.67 | 53.33 | **59.00** | 54.67 |
+|                 | CoT                               | 22                                       |                      57.67 | **69.00** | 60.20 | 55.33 |
+|                 | Logic-LM (random)                      | 24.27                                    |                 61.33 | 60.33 | **84.67** | 56.33 |
+|                 | Logic-LM (Direct) | 31   |     70.00 | 71.33 | **84.67** | 59.67 |            
+|                 | Logic-LM (CoT)   | 20.38                                    | 72.00 | 75.00 | **84.67** | 61.00 |
+| AR-LSAT         | Direct                             | 7.36                                     |          20.35 | 23.81 | **28.14** | 27.95 |
+|                 | CoT                              | 8.225                                    |              **25.54** | 22.94 | 19.91 | 20.35 |
+|                 | Logic-LM (random)                      | 22                                       |      22.17 | 19.05 | 31.60 | **32.47** |
+|                 | Logic-LM (Direct) | 12                                       |                         20.87 | 30.30 | **38.53** | 38.10 |
+|                 | Logic-LM (CoT)   | 6                                        | 26.09 | 24.68 | 31.60 | **34.63** |
 
 
 
