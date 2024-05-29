@@ -173,33 +173,34 @@ For direct prompting, models were provided with a sample question, an accompanyi
 
 We evaluated one model from the Llama family `meta-llama/Meta-Llama-3-8B-Instruct` and four different models from the Gemini family `gemini-1.0-pro-vision-001`, `gemini-1.5-pro-preview-0409`, `gemini-1.5-pro-preview-0514` and `gemini-1.5-flash-preview-0514` on the Direct (few-shot), CoT (Chain-of-Thought) and Logic-LM approaches. This results in a lot of numbers that can be inspected in the [appendix](#7-appendix), but in this section we use two sets of tables to illustrate the notable findings. Consider first the following tables that only contain results from Logic-LM. They are organized by task. Pay attention to the percentage of generated logic programs that the symbolic solver can parse (Executable_Rate) and the percentage of parsable pograms that lead to the correct answer (Executable_Accuracy). Overall_Accuracy is also added to remind that backing up (in this case to the CoT results) can still lead to reasonable overall scores even if the Executable_Rate is low. Overall_Accuracy can therefore be somewhat misleading on its own. 
 
-|ProntoQA|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---| 
-|Overall_Accuracy|77.40|**97.40**|95.00|94.39|
-|Executable_Rate|**100.00**|96.40|0.00|0.00|
-|Executable_Accuracy|77.40|**97.30**|0.00|0.00|
+|ProntoQA|meta-llama/Meta-Llama-3-8B-Instruct|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
+ |---|---|---|---|---|---| 
+|Overall_Accuracy|60.27|77.40|**97.40**|95.00|94.39|
+|Executable_Rate|0.00|**100.00**|96.40|0.00|0.00|
+|Executable_Accuracy|0.00|77.40|**97.30**|0.00|0.00|
 
-|ProofWriter|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---| 
-|Overall_Accuracy|69.28|**79.73**|64.17|67.17|
-|Executable_Rate|64.44|**89.36**|0.00|4.67|
-|Executable_Accuracy|76.17|**80.53**|0.00|53.57|
+|ProofWriter|meta-llama/Meta-Llama-3-8B-Instruct|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
+ |---|---|---|---|---|---| 
+|Overall_Accuracy|40.0|69.28|**79.73**|64.17|67.17|
+|Executable_Rate|0.00|64.44|**89.36**|0.00|4.67|
+|Executable_Accuracy|0.00|76.17|**80.53**|0.00|53.57|
 
-|FOLIO|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---| 
-|Overall_Accuracy|67.50|**82.67**|81.59|68.63|
-|Executable_Rate|48.50|57.92|**78.11**|4.41|
-|Executable_Accuracy|68.04|82.91|85.35|**100.00**|
+|FOLIO|meta-llama/Meta-Llama-3-8B-Instruct|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
+ |---|---|---|---|---|---| 
+|Overall_Accuracy|41.43|67.50|**82.67**|81.59|68.63|
+|Executable_Rate|0.00|48.50|57.92|**78.11**|4.41|
+|Executable_Accuracy|0.00|68.04|82.91|85.35|**100.00**|
 
-|LogicalDeduction|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
+|LogicalDeduction|meta-llama/Meta-Llama-3-8B-Instruct|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
+ |---|---|---|---|---|---| 
  |---|---|---|---|---| 
-|Overall_Accuracy|72.00|75.00|**84.67**|61.00|
-|Executable_Rate|60.00|60.00|**100.00**|71.67|
-|Executable_Accuracy|**89.44**|87.22|84.67|69.77|
+|Overall_Accuracy|33.98|72.00|75.00|**84.67**|61.00|
+|Executable_Rate|0.00|60.00|60.00|**100.00**|71.67|
+|Executable_Accuracy|0.00|**89.44**|87.22|84.67|69.77|
 
-|AR-LSAT|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
- |---|---|---|---|---| 
-|Overall_Accuracy|26.09|24.68|31.60|**34.63**|
+|AR-LSAT|meta-llama/Meta-Llama-3-8B-Instruct|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
+ |---|---|---|---|---|---| 
+|Overall_Accuracy|22|26.09|24.68|31.60|**34.63**|
 |Executable_Rate|0.00|0.00|26.41|**33.77**|
 |Executable_Accuracy|0.00|0.00|**60.66**|60.26| 
 
