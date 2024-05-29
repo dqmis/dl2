@@ -27,6 +27,11 @@
                 "Overall_Accuracy": 0.49081803005008345,
                 "Executable_Rate": 0.6444073455759599,
                 "Executable_Accuracy": 0.7616580310880829
+            },
+            "CoT": {
+                "Overall_Accuracy": 0.49081803005008345,
+                "Executable_Rate": 0.6444073455759599,
+                "Executable_Accuracy": 0.7616580310880829
             }
         },
         "FOLIO": {
@@ -39,6 +44,11 @@
                 "Overall_Accuracy": 0.33,
                 "Executable_Rate": 0.48,
                 "Executable_Accuracy": 0.6875
+            },
+            "CoT": {
+                "Overall_Accuracy": 0.33,
+                "Executable_Rate": 0.485,
+                "Executable_Accuracy": 0.6804123711340206
             }
         },
         "LogicalDeduction": {
@@ -48,6 +58,11 @@
                 "Executable_Accuracy": 0.8944444444444445
             },
             "Direct": {
+                "Overall_Accuracy": 0.5366666666666666,
+                "Executable_Rate": 0.6,
+                "Executable_Accuracy": 0.8944444444444445
+            },
+            "CoT": {
                 "Overall_Accuracy": 0.5366666666666666,
                 "Executable_Rate": 0.6,
                 "Executable_Accuracy": 0.8944444444444445
@@ -63,6 +78,11 @@
                 "Overall_Accuracy": 0,
                 "Executable_Rate": 0.0,
                 "Executable_Accuracy": 0
+            },
+            "CoT": {
+                "Overall_Accuracy": 0,
+                "Executable_Rate": 0.0,
+                "Executable_Accuracy": 0
             }
         }
     },
@@ -74,9 +94,9 @@
                 "Executable_Accuracy": 0.9730290456431535
             },
             "Direct": {
-                "Overall_Accuracy": 0.938,
-                "Executable_Rate": 0.964,
-                "Executable_Accuracy": 0.9730290456431535
+                "Overall_Accuracy": 0,
+                "Executable_Rate": 0.0,
+                "Executable_Accuracy": 0
             },
             "CoT": {
                 "Overall_Accuracy": 0.938,
@@ -113,9 +133,9 @@
                 "Executable_Accuracy": 0.8290598290598291
             },
             "CoT": {
-                "Overall_Accuracy": 0.48514851485148514,
-                "Executable_Rate": 0.5891089108910891,
-                "Executable_Accuracy": 0.8235294117647058
+                "Overall_Accuracy": 0.5,
+                "Executable_Rate": 0.599009900990099,
+                "Executable_Accuracy": 0.8347107438016529
             }
         },
         "LogicalDeduction": {
@@ -200,9 +220,9 @@
                 "Executable_Accuracy": 0.8535031847133758
             },
             "CoT": {
-                "Overall_Accuracy": 0.6666666666666666,
-                "Executable_Rate": 0.7810945273631841,
-                "Executable_Accuracy": 0.8535031847133758
+                "Overall_Accuracy": 0.6567164179104478,
+                "Executable_Rate": 0.7711442786069652,
+                "Executable_Accuracy": 0.8516129032258064
             }
         },
         "LogicalDeduction": {
@@ -230,8 +250,8 @@
             },
             "Direct": {
                 "Overall_Accuracy": 0.16017316017316016,
-                "Executable_Rate": 0.26406926406926406,
-                "Executable_Accuracy": 0.6065573770491803
+                "Executable_Rate": 0.2597402597402597,
+                "Executable_Accuracy": 0.6166666666666667
             },
             "CoT": {
                 "Overall_Accuracy": 0.16017316017316016,

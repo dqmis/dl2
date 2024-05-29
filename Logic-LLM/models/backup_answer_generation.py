@@ -45,9 +45,12 @@ class Backup_Answer_Generator:
 
     def LLM_backup(self, id):
         LLM_answer = self.backup_results[id]
-        prediction = re.search(rf'(?<=\s|[^a-zA-Z0-9])[{self.answer_options}](?=\s|[^a-zA-Z0-9])', LLM_answer)
-        if prediction:
-            prediction = prediction.group(0)
+        if LLM_answer in self.answer_options:
+            prediction = LLM_answer
         else:
-            prediction = self.random_backup()
+            prediction = re.search(rf'(?<=\s|[^a-zA-Z0-9])[{self.answer_options}](?=\s|[^a-zA-Z0-9])', LLM_answer)
+            if prediction:
+                prediction =prediction.group(0)
+            else:
+                prediction = self.random_backup()
         return prediction

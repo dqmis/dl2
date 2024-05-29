@@ -5,23 +5,8 @@ conda deactivate
 conda activate solver2
 
 tasks=("ProntoQA" "ProofWriter" "FOLIO" "LogicalDeduction" "AR-LSAT")
-# model_names=("gemini-1.0-pro-vision-001" "gemini-1.5-pro-preview-0409" "gemini-1.5-pro-preview-0514" "gemini-1.5-flash-preview-0514")
-# gemini_model="gemini-1.0-pro-vision-001"
-# gemini_model="gemini-1.5-pro-preview-0409"
-# gemini_model="gemini-1.5-pro-preview-0514"
-# gemini_model="gemini-1.5-flash-preview-0514"
-
-# random already done
 backup_strategies=("random" "Direct" "CoT")
-
-
-backup_strategies=("CoT")
-tasks=("ProofWriter" "FOLIO" "LogicalDeduction" "AR-LSAT")
-
-
-model_names=("gemini-1.0-pro-vision-001")
-
-
+model_names=("gemini-1.0-pro-vision-001" "gemini-1.5-pro-preview-0409" "gemini-1.5-pro-preview-0514" "gemini-1.5-flash-preview-0514")
 
 for backup in "${backup_strategies[@]}"
     do

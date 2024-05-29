@@ -141,11 +141,13 @@ def evaluate_QA_gemini(result_file, answer_options):
         gold_answer = sample['answer'].replace('(', '').replace(')', '').strip()
         answer_str = sample['predicted_answer'].strip()
 
-        prediction = re.search(rf'(?<=\s|[^a-zA-Z0-9])[{answer_options}](?=\s|[^a-zA-Z0-9])', answer_str)
-        if prediction:
-            prediction =prediction.group(0)
-        # print(f"prediction: {prediction} \t gold_answers: {gold_answer} \t match: {prediction == gold_answer}")
-        
+        if answer_str == gold_answer:
+            prediction = answer_str
+        else:
+            prediction = re.search(rf'(?<=\s|[^a-zA-Z0-9])[{answer_options}](?=\s|[^a-zA-Z0-9])', answer_str)
+            if prediction:
+                prediction =prediction.group(0)
+
         em_score = 1.0 if prediction == gold_answer else 0.0
         total_em += em_score
         count += 1

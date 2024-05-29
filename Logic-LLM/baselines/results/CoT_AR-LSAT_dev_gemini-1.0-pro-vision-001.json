@@ -1,0 +1,1619 @@
+[
+  {
+    "id": "ar_lsat_200006_1-G_1_1",
+    "question": "Which one of the following is a complete and accurate list of the children who must be among those assigned to shared lockers?",
+    "answer": "E",
+    "predicted_reasoning": "Juan must share a locker, so we can eliminate option B. Rachel cannot share a locker, so we can eliminate option C. Nita's locker cannot be adjacent to Trisha's locker, so we can eliminate option E. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_1_2",
+    "question": "If Trisha is assigned to locker 3 and Marc alone is assigned to locker 1, then which one of the following must be true?",
+    "answer": "B",
+    "predicted_reasoning": "Trisha is assigned to locker 3 and Marc is assigned to locker 1. Since each locker must be assigned to either one or two children, and each child must be assigned to exactly one locker, the remaining three lockers must be assigned to the remaining five children. Since Juan must share a locker, he cannot be assigned to locker 2 or 4. Therefore, Juan must be assigned to locker 5. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_1_3",
+    "question": "If the four boys are assigned to consecutively numbered lockers and Juan is assigned to locker 5, then which one of the following is a complete and accurate list of lockers each of which CANNOT be a shared locker?",
+    "answer": "D",
+    "predicted_reasoning": "Since Juan is assigned to locker 5, and the boys are assigned to consecutive lockers, Fred must be assigned to locker 3, Marc to locker 4, and Paul to locker 2. Since Juan must share a locker, and Rachel cannot share a locker, Nita must share a locker with Juan. Since Nita's locker cannot be adjacent to Trisha's locker, Trisha must be assigned to locker 1. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_1_4",
+    "question": "Once Rachel has been assigned to a locker, what is the maximum number of different lockers each of which could be the locker to which Juan is assigned?",
+    "answer": "C",
+    "predicted_reasoning": "Rachel cannot share a locker, so she must be assigned to either locker 1 or locker 5. If Rachel is assigned to locker 1, then Juan could be assigned to any of the other four lockers. If Rachel is assigned to locker 5, then Juan could be assigned to any of the other three lockers. Therefore, the maximum number of different lockers each of which could be the locker to which Juan is assigned is four.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_1_5",
+    "question": "If the first three lockers are assigned to girls, which one of the following must be true?",
+    "answer": "A",
+    "predicted_reasoning": "Since the first three lockers are assigned to girls, the boys must be assigned to lockers 4 and 5. Since Juan must share a locker, he must be assigned to locker 4. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_1_6",
+    "question": "If lockers 1 and 2 are each assigned to one boy and are not shared lockers, then locker 4 must be assigned to",
+    "answer": "C",
+    "predicted_reasoning": "Since lockers 1 and 2 are each assigned to one boy and are not shared lockers, lockers 1 and 2 must be assigned to Fred and Juan. Since Juan must share a locker, he must be assigned to locker 4. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_2_7",
+    "question": "Which one of the following could be a complete and accurate list of the types of CDs that are on sale?",
+    "answer": "E",
+    "predicted_reasoning": "Since used pop is on sale, we can rule out option C. Since new opera is not on sale, we can rule out option D. Since both types of pop are on sale, all soul must be on sale, so we can rule out option B. Since neither type of jazz is on sale, new pop must be on sale, so we can rule out option A. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_2_8",
+    "question": "If new soul is not on sale, then which one of the following must be true?",
+    "answer": "E",
+    "predicted_reasoning": "If new soul is not on sale, then either no soul is on sale or used soul is on sale. If no soul is on sale, then either both types of jazz are on sale or neither type of jazz is on sale. If both types of jazz are on sale, then no rap is on sale. If neither type of jazz is on sale, then new pop is on sale. If used soul is on sale, then either both types of pop are on sale or neither type of pop is on sale. If both types of pop are on sale, then all soul is on sale. If neither type of pop is on sale, then either both types of jazz are on sale or neither type of jazz is on sale. If both types of jazz are on sale, then no rap is on sale. If neither type of jazz is on sale, then new pop is on sale. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_2_9",
+    "question": "If both types of jazz are on sale, then which one of the following is the minimum number of types of new CDs that could be included in the sale?",
+    "answer": "A",
+    "predicted_reasoning": "If both types of jazz are on sale, then no rap is. So, both types of rap are not on sale. If both types of pop are on sale, then all soul is. So, both types of soul are on sale. If neither type of jazz is on sale, then new pop is. So, new pop is on sale. Therefore, the minimum number of types of new CDs that could be included in the sale is three.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_2_10",
+    "question": "Which one of the following CANNOT be true?",
+    "answer": "D",
+    "predicted_reasoning": "If neither type of jazz is on sale, then new pop is. If neither type of jazz and neither type of opera is on sale, then new pop is not on sale. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_2_11",
+    "question": "If neither type of jazz is on sale, then each of the following must be true EXCEPT:",
+    "answer": "A",
+    "predicted_reasoning": "If neither type of jazz is on sale, then new pop is on sale. Since new pop is on sale, all soul is on sale. Therefore, used soul is on sale. So, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_2_12",
+    "question": "If new soul is the only type of new CD on sale, then which one of the following CANNOT be true?",
+    "answer": "A",
+    "predicted_reasoning": "If new soul is the only type of new CD on sale, then new pop is not on sale. Since both types of pop are on sale, then all soul is on sale. Therefore, used soul is on sale. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_2_13",
+    "question": "If exactly four of the five types of used CDs are the only CDs on sale, then which one of the following could be true?",
+    "answer": "C",
+    "predicted_reasoning": "Since exactly four of the five types of used CDs are on sale, we know that one type of used CD is not on sale. We also know that used pop is on sale. Therefore, the used CD that is not on sale must be either jazz, opera, rap, or soul.\n\nOption A is possible because used jazz could be the one type of used CD that is not on sale.\nOption B is possible because used opera could be the one type of used CD that is not on sale.\nOption C is possible because used rap could be the one type of used CD that is not on sale.\nOption D is possible because neither type of jazz could be on sale, and used jazz could be the one type of used CD that is not on sale.\nOption E is not possible because if neither type of rap nor neither type of soul is on sale, then only two types of used CDs would be on sale, which contradicts the given condition that exactly four of the five types of used CDs are on sale.\n\nTherefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_3_14",
+    "question": "Which one of the following CANNOT be true of the week's tour schedule?",
+    "answer": "C",
+    "predicted_reasoning": "Since Thursday and Friday already have tours planned, only Monday, Tuesday and Wednesday tours need to be determined. On Tuesday, the Sales division is toured since that division is toured on only two consecutive days, i.e either Monday and Tuesday or Tuesday and Wednesday. A different division is toured on Thursday. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_3_15",
+    "question": "If in addition to the Sales division one other division is toured on two consecutive days, then it could be true of the week's tour schedule both that the",
+    "answer": "B",
+    "predicted_reasoning": "Since the Sales division is toured on two consecutive days, the other division that is toured on two consecutive days must be either the Operations division or the Production division. If the Operations division is toured on two consecutive days, then it cannot be toured on Thursday. Therefore, the Production division must be toured on two consecutive days. The Production division cannot be toured on Wednesday, so it must be toured on Tuesday and Wednesday. Therefore, the Sales division must be toured on Monday and Tuesday. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_3_16",
+    "question": "If in the week's tour schedule the division that is toured on Tuesday is also toured on Friday, then for which one of the following days must a tour of the Production division be scheduled?",
+    "answer": "A",
+    "predicted_reasoning": "Since the division that is toured on Tuesday is also toured on Friday, the Sales division must be toured on Tuesday and Wednesday. Therefore, the Production division cannot be toured on Wednesday. Since the Production division is not toured on Wednesday, it must be toured on either Monday, Thursday or Friday. However, the Operations division is not toured on Monday, so the Production division must be toured on either Thursday or Friday. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_3_17",
+    "question": "If in the week's tour schedule the division that is toured on Monday is not the division that is toured on Tuesday, then which one of the following could be true of the week's schedule?",
+    "answer": "E",
+    "predicted_reasoning": "If the division that is toured on Monday is not the division that is toured on Tuesday, then the Sales division must be toured on Monday and Tuesday. Therefore, the Production division cannot be toured on Monday or Tuesday. The Operations division cannot be toured on Monday. Therefore, the Operations division must be toured on Wednesday, Thursday, or Friday. The Production division must be toured on Thursday or Friday. Therefore, the only option that could be true is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_3_18",
+    "question": "If in the week's tour schedule the division that is toured on Tuesday is also toured on Wednesday, then which one of the following must be true of the week's tour schedule?",
+    "answer": "A",
+    "predicted_reasoning": "If the division that is toured on Tuesday is also toured on Wednesday, then it cannot be the Sales division, since the Sales division is toured on only two consecutive days. Therefore, the division that is toured on Tuesday and Wednesday must be either the Operations division or the Production division. However, the Operations division is not toured on Monday, and the Production division is not toured on Wednesday. Therefore, the only possibility is that the Operations division is toured on Tuesday and Wednesday. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_4_19",
+    "question": "Which one of the following could be a complete and accurate list of the members of the crew?",
+    "answer": "B",
+    "predicted_reasoning": "Taping and priming are done on different days, so we can rule out option A. George and Kelly can both do framing, so we can rule out option B. Inga and Olaf can both do wallboarding, so we can rule out option C. Maricita can only do sanding, so we can rule out option D. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_4_20",
+    "question": "If the installation takes three days, and if the same two crew members work on the first and third days, then which one of the following could be the pair of crew members who work on those two days?",
+    "answer": "D",
+    "predicted_reasoning": "Since the installation takes three days, the crew must complete two tasks on the first and third days, and one task on the second day. Since taping and priming are done on different days, the crew must do either framing and wallboarding or wallboarding and sanding on the first and third days. Since the same two crew members work on the first and third days, they must be able to do both framing and wallboarding or both wallboarding and sanding. The only pair of crew members who can do both framing and wallboarding is Inga and Kelly, so the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_4_21",
+    "question": "Each of the following could be a complete and accurate list of the members of the crew EXCEPT:",
+    "answer": "A",
+    "predicted_reasoning": "Taping and priming are done on different days, so we can rule out option A. Each crew member does at least one task during the installation, so we can rule out option B. George must do taping, so we can rule out option C. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_4_22",
+    "question": "If the installation takes three days, and if the sanding is done on the third day, then which one of the following could be a list of all the crew members who work on the second day?",
+    "answer": "E",
+    "predicted_reasoning": "Since sanding is done on the third day, the wallboarding must be done on the second day. Therefore, either Olaf or Leanda must be on the crew for the second day. Since each crew member does at most one task a day, the other crew member on the second day must be someone who can do framing. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200006_1-G_4_23",
+    "question": "Which one of the following could be a pair of members of the crew both of whom work on the same days as each other and each of whom perform two tasks?",
+    "answer": "D",
+    "predicted_reasoning": "Since taping and priming are done on different days, George and Maricita cannot be a pair of members of the crew both of whom work on the same days as each other and each of whom perform two tasks. Helena and Kelly can be a pair of members of the crew both of whom work on the same days as each other and each of whom perform two tasks. Inga and Leanda cannot be a pair of members of the crew both of whom work on the same days as each other and each of whom perform two tasks. Kelly and Leanda can be a pair of members of the crew both of whom work on the same days as each other and each of whom perform two tasks. Leanda and Olaf cannot be a pair of members of the crew both of whom work on the same days as each other and each of whom perform two tasks. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_1_1",
+    "question": "Which one of the following could be an accurate matching of the hangers to the fabrics of the dresses that hang on them?",
+    "answer": "A",
+    "predicted_reasoning": "The gauze dress is on a lower-numbered hanger than the polyester dress. The rayon dress is on hanger 1 or hanger 6. Either the wool dress or the silk dress is on hanger 3. The linen dress hangs immediately to the right of the silk dress. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_1_2",
+    "question": "If both the silk dress and the gauze dress are on odd-numbered hangers, then which one of the following could be true?",
+    "answer": "B",
+    "predicted_reasoning": "If both the silk dress and the gauze dress are on odd-numbered hangers, then the linen dress must be on an even-numbered hanger. The only even-numbered hanger that is immediately to the right of an odd-numbered hanger is hanger 4. Therefore, the linen dress must be on hanger 4. This eliminates option D. The polyester dress cannot be on hanger 1 because the gauze dress is on a lower-numbered hanger than the polyester dress. This eliminates option A. The wool dress cannot be on hanger 2 because the silk dress or the wool dress is on hanger 3. This eliminates option B. The wool dress cannot be on hanger 6 because the linen dress is immediately to the right of the silk dress. This eliminates option E. Therefore, the only option that remains is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_1_3",
+    "question": "If the silk dress is on an even-numbered hanger, which one of the following could be on the hanger immediately to its left?",
+    "answer": "E",
+    "predicted_reasoning": "If the silk dress is on an even-numbered hanger, then the linen dress must be on the hanger immediately to its right, which is an odd-numbered hanger. The gauze dress is on a lower-numbered hanger than the polyester dress, so the gauze dress cannot be on the hanger immediately to the left of the silk dress. The rayon dress is on hanger 1 or hanger 6, so it cannot be on the hanger immediately to the left of the silk dress. The wool dress or the silk dress is on hanger 3, so the wool dress cannot be on the hanger immediately to the left of the silk dress. Therefore, the only option left is the polyester dress.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_1_4",
+    "question": "If the polyester dress is on hanger 2, then which one of the following must be true?",
+    "answer": "E",
+    "predicted_reasoning": "If the polyester dress is on hanger 2, then the gauze dress must be on hanger 1, since it is on a lower-numbered hanger than the polyester dress. The rayon dress cannot be on hanger 1, since it is either on hanger 1 or hanger 6. Therefore, the rayon dress must be on hanger 6. The silk dress cannot be on hanger 6, since the linen dress hangs immediately to the right of the silk dress. Therefore, the silk dress must be on hanger 3. The wool dress cannot be on hanger 3, since either the wool dress or the silk dress is on hanger 3. Therefore, the wool dress must be on hanger 5. The linen dress must be on hanger 4, since it hangs immediately to the right of the silk dress. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_1_5",
+    "question": "Which one of the following CANNOT be true?",
+    "answer": "B",
+    "predicted_reasoning": "The linen dress hangs immediately to the right of the silk dress, so A is false. The rayon dress is on hanger 1 or hanger 6, and the polyester dress is on a higher-numbered hanger than the gauze dress, so B is false. The rayon dress is on hanger 1 or hanger 6, and the wool dress is on hanger 3, so C is false. The gauze dress is on a lower-numbered hanger than the polyester dress, and the silk dress is on a higher-numbered hanger than the gauze dress, so D is false. The rayon dress is on hanger 1 or hanger 6, and the wool dress is on hanger 3, so E is true. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_1_6",
+    "question": "Which one of the following CANNOT hang immediately next to the rayon dress?",
+    "answer": "D",
+    "predicted_reasoning": "The rayon dress is on hanger 1 or hanger 6. If it is on hanger 1, then the linen dress is on hanger 2, the silk dress is on hanger 3, and the wool dress is on hanger 4. If it is on hanger 6, then the linen dress is on hanger 5, the silk dress is on hanger 4, and the wool dress is on hanger 3. In either case, the gauze dress and the polyester dress are not immediately next to the rayon dress. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_1_7",
+    "question": "Assume that the original condition that the linen dress hangs immediately to the right of the silk dress is replaced by the condition that the wool dress hangs immediately to the right of the silk dress. If all the other initial conditions remain in effect, which one of the following must be false?",
+    "answer": "D",
+    "predicted_reasoning": "The original condition states that the linen dress hangs immediately to the right of the silk dress. If this condition is replaced by the condition that the wool dress hangs immediately to the right of the silk dress, then the linen dress cannot be on hanger 2, because the wool dress must be on hanger 3. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_2_8",
+    "question": "Which one of the following could be an accurate matching of the four songs performed at the festival with the instruments on which they are performed, listed in order from the first song performed to the last?",
+    "answer": "B",
+    "predicted_reasoning": "The first song performed is not performed on the flute, so we can rule out option C. If \"Sammy\" is performed on the keyboard, then \"Rhino Rock\" is performed on the harmonica, so we can rule out option A. If \"Question Man\" is performed on the keyboard, then \"Night's All Right\" is performed on the flute, so we can rule out option D. The song performed on the keyboard immediately follows \"Rhino Rock\" and immediately precedes \"Night's All Right\", so we can rule out option B. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_2_9",
+    "question": "Which one of the following could be true?",
+    "answer": "E",
+    "predicted_reasoning": "The song performed on the keyboard immediately follows \"Rhino Rock\" and immediately precedes \"Night's All Right.\" Therefore, \"Rhino Rock\" immediately precedes the song performed on the keyboard. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_2_10",
+    "question": "Which one of the following CANNOT be true of the song performed on the flute?",
+    "answer": "C",
+    "predicted_reasoning": "The song performed on the keyboard immediately follows \"Rhino Rock\" and immediately precedes \"Night's All Right.\" Therefore, the song performed on the flute cannot immediately follow \"Sammy\" (option E).",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_2_11",
+    "question": "If \"Rhino Rock\" is the second song performed at the festival, then which one of the following could be true?",
+    "answer": "E",
+    "predicted_reasoning": "If \"Rhino Rock\" is the second song performed, then \"Sammy\" must be the first song performed, since \"Rhino Rock\" immediately follows \"Sammy.\" Since \"Sammy\" is not performed on the keyboard, the first song performed must be performed on the flute, guitar, or harmonica. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_2_12",
+    "question": "If \"Question Man\" is the third song performed at the festival, then each of the following could be true EXCEPT:",
+    "answer": "A",
+    "predicted_reasoning": "If \"Question Man\" is the third song performed, then \"Rhino Rock\" must be the second song performed, and \"Sammy\" must be the fourth song performed. Since \"Rhino Rock\" is the second song performed, it cannot be performed on the guitar, because the first song is not performed on the flute. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_3_13",
+    "question": "Which one of the following could be a complete and accurate list of the members of the finance committee?",
+    "answer": "E",
+    "predicted_reasoning": "If Guzman serves on the finance committee, then Hawking serves on the incentives committee. So, we can rule out option A. If Lepp serves on the finance committee, then Miyauchi and Upchurch both serve on the incentives committee. So, we can rule out option B. If Zhu serves on the finance committee, so does Hawking. So, we can rule out option C. Upchurch serves on a different committee from the one on which Guzman serves. So, we can rule out option D. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_3_14",
+    "question": "Which one of the following pairs of board members CANNOT both serve on the incentives committee?",
+    "answer": "C",
+    "predicted_reasoning": "If Guzman serves on the finance committee, then Hawking serves on the incentives committee. If Zhu serves on the finance committee, so does Hawking. Therefore, Guzman and Zhu cannot both serve on the finance committee. If Guzman serves on the incentives committee, then Hawking serves on the finance committee. If Wharton serves on the finance committee, then Zhu serves on the incentives committee. Therefore, Guzman and Wharton cannot both serve on the incentives committee. If Hawking serves on the incentives committee, then Guzman serves on the finance committee. If Miyauchi serves on the incentives committee, then Upchurch serves on the finance committee. Therefore, Hawking and Miyauchi cannot both serve on the incentives committee. If Miyauchi serves on the incentives committee, then Upchurch serves on the finance committee. If Wharton serves on the finance committee, then Zhu serves on the incentives committee. Therefore, Miyauchi and Wharton cannot both serve on the incentives committee. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_3_15",
+    "question": "What is the maximum number of members on the finance committee?",
+    "answer": "C",
+    "predicted_reasoning": "If Zhu serves on the finance committee, so does Hawking. If Guzman serves on the finance committee, then Hawking serves on the incentives committee. So, Guzman cannot serve on the finance committee. If Lepp serves on the finance committee, then Miyauchi and Upchurch both serve on the incentives committee. So, Lepp cannot serve on the finance committee. Therefore, the maximum number of members on the finance committee is two.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_3_16",
+    "question": "If Miyauchi and Wharton both serve on the finance committee, then which one of the following could be true?",
+    "answer": "D",
+    "predicted_reasoning": "If Miyauchi and Wharton both serve on the finance committee, then Lepp cannot serve on the finance committee because Miyauchi and Upchurch must both serve on the incentives committee if Lepp serves on the finance committee. Therefore, Lepp must serve on the incentives committee. Since Wharton serves on a different committee from Zhu, Zhu must also serve on the incentives committee. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_3_17",
+    "question": "If Guzman serves on the incentives committee, then which one of the following must be true?",
+    "answer": "B",
+    "predicted_reasoning": "If Guzman serves on the incentives committee, then Hawking must serve on the finance committee, according to the given condition. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_4_18",
+    "question": "Which one of the following could be the order in which four of the people are seated, with no one else seated between them, counting clockwise around the table?",
+    "answer": "C",
+    "predicted_reasoning": "Since Fiona sits directly across from George, they must be seated opposite each other. Since Harriet sits immediately next to, and immediately clockwise from, Olivia, they must be seated next to each other. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_4_19",
+    "question": "If Harriet and Olivia each sits immediately next to George, then which one of the following could be the two people each of whom sits immediately next to Peter?",
+    "answer": "D",
+    "predicted_reasoning": "Since Harriet and Olivia each sits immediately next to George, they cannot sit next to each other. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_4_20",
+    "question": "If George does not sit immediately next to Harriet, then which one of the following could be the two people each of whom sits immediately next to Manuel?",
+    "answer": "A",
+    "predicted_reasoning": "Since George does not sit immediately next to Harriet, and Ingrid sits immediately next to Olivia, the only possible arrangement is that George sits immediately next to Fiona, and Harriet sits immediately next to Karl. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_4_21",
+    "question": "If Manuel sits immediately next to Olivia, then which one of the following people must sit immediately next to Fiona?",
+    "answer": "C",
+    "predicted_reasoning": "Since Manuel sits immediately next to Olivia, and Ingrid sits immediately next to, and immediately clockwise from, Olivia, Ingrid must sit next to Manuel. Since Harriet sits immediately next to neither Fiona nor Karl, and Ingrid sits next to Manuel, Harriet must sit next to Fiona. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_4_22",
+    "question": "What is the minimum possible number of people sitting between Ingrid and Manuel, counting clockwise from Ingrid around the table?",
+    "answer": "A",
+    "predicted_reasoning": "Ingrid sits immediately next to, and immediately clockwise from, Olivia. So, Olivia is sitting between Ingrid and Manuel. Therefore, the minimum possible number of people sitting between Ingrid and Manuel is one.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_4_23",
+    "question": "If Karl sits directly across from Ingrid, then each of the following people could sit immediately next to Olivia EXCEPT:",
+    "answer": "B",
+    "predicted_reasoning": "If Karl sits directly across from Ingrid, then Olivia must sit immediately next to Karl. Since Ingrid sits immediately next to, and immediately clockwise from, Olivia, Ingrid must sit immediately next to Karl, and immediately counterclockwise from, Olivia. Therefore, Fiona, George, Harriet, and Peter cannot sit immediately next to Olivia. The final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_200310_2-G_4_24",
+    "question": "If Karl sits directly across from Harriet, then what is the minimum possible number of people sitting between George and Karl, counting clockwise from George to Karl?",
+    "answer": "C",
+    "predicted_reasoning": "Since Karl sits directly across from Harriet, and Harriet sits immediately next to Olivia, Karl must sit immediately next to Olivia, and therefore immediately clockwise from Olivia. Since Ingrid sits immediately next to, and immediately clockwise from, Olivia, Karl must sit immediately counterclockwise from Ingrid. Since Fiona sits directly across from George, and Karl sits immediately counterclockwise from Ingrid, George must sit immediately clockwise from Ingrid. Therefore, the minimum possible number of people sitting between George and Karl, counting clockwise from George to Karl, is one.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_1_1",
+    "question": "Which one of the following is an acceptable set of appointments of candidates to courts?",
+    "answer": "E",
+    "predicted_reasoning": "Li must be appointed to appellate court, so we rule out option A. Kurtz must be appointed to trial court, so we rule out option C. Hamadi and Perkins cannot be appointed to the same court, so we rule out option B and D. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_1_2",
+    "question": "Which one of the following CANNOT be true?",
+    "answer": "B",
+    "predicted_reasoning": "Li must be appointed to the appellate court, so A, B, and C are not possible. Hamadi and Perkins cannot be appointed to the same court, so D is not possible. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_1_3",
+    "question": "Which one of the following CANNOT be true?",
+    "answer": "A",
+    "predicted_reasoning": "Li must be appointed to the appellate court, so Jefferson and McDonnell cannot both be appointed to the appellate court. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_1_4",
+    "question": "If Ortiz is appointed to the appellate court, which one of the following must be true?",
+    "answer": "C",
+    "predicted_reasoning": "Since Li is appointed to the appellate court, there are only two open positions left in the appellate court. If Ortiz is appointed to the appellate court, then Hamadi and Perkins cannot be appointed to the appellate court because they cannot be appointed to the same court. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_1_5",
+    "question": "Which one of the following, if substituted for the condition that Hamadi cannot be appointed to the same court as Perkins, would have the same effect on the appointments of the seven candidates?",
+    "answer": "E",
+    "predicted_reasoning": "The condition that Hamadi cannot be appointed to the same court as Perkins ensures that Hamadi and Perkins are appointed to different courts. Option A also ensures that Hamadi and Perkins are appointed to different courts, as it prevents them from both being appointed to the appellate court. Therefore, option A is the correct answer.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_2_6",
+    "question": "Which one of the following could be an accurate list of the members in the order in which they dive from the plane, from first to last?",
+    "answer": "B",
+    "predicted_reasoning": "Trevino dives before Weiss, so we can rule out option C. Larue dives first or last, so we can rule out option D. Pei dives after either Ohba or Larue, so we can rule out option B. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_2_7",
+    "question": "Which one of the following must be true?",
+    "answer": "D",
+    "predicted_reasoning": "Since Larue dives first or last, at least one member dives after Larue. Since Pei dives after either Ohba or Larue, at least one member dives after Ohba. Since Weiss and Zacny do not dive last, at least one member dives after Weiss. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_2_8",
+    "question": "If Larue dives from the plane last, then each of the following could be true EXCEPT:",
+    "answer": "C",
+    "predicted_reasoning": "If Larue dives last, then Trevino must dive before Weiss, and neither Weiss nor Zacny can dive last. Pei must dive after either Ohba or Larue, but not both. Therefore, the only option that cannot be true is A, since Trevino cannot dive fourth if Larue dives last.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_2_9",
+    "question": "If Zacny dives from the plane immediately after Weiss, then which one of the following must be false?",
+    "answer": "D",
+    "predicted_reasoning": "If Zacny dives from the plane immediately after Weiss, then Zacny cannot dive from the plane last. Therefore, Larue must dive from the plane last. This means that Larue cannot dive from the plane first. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_2_10",
+    "question": "If Trevino dives from the plane immediately after Larue, then each of the following could be true EXCEPT:",
+    "answer": "A",
+    "predicted_reasoning": "If Trevino dives from the plane immediately after Larue, then Larue must dive first. Pei dives from the plane at some time after either Ohba or Larue but not both. So, Pei cannot dive from the plane third. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_3_11",
+    "question": "Which one of the following could be the order in which the vehicles are serviced, from Monday through Saturday?",
+    "answer": "B",
+    "predicted_reasoning": "The roadster is serviced later in the week than the van and earlier in the week than the hatchback. So, the roadster cannot be serviced on Monday or Saturday. The sedan is serviced earlier in the week than the pickup or earlier in the week than the limousine, but not both. So, the sedan cannot be serviced on Friday or Saturday. The pickup and the van are serviced on consecutive days, or the pickup and the sedan are serviced on consecutive days, but not both. So, the pickup and the van cannot be serviced on consecutive days. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_3_12",
+    "question": "Which one of the following CANNOT be the vehicle serviced on Thursday?",
+    "answer": "E",
+    "predicted_reasoning": "The roadster is serviced later in the week than the van and earlier in the week than the hatchback. So, the roadster cannot be serviced on Thursday.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_3_13",
+    "question": "If neither the pickup nor the limousine is serviced on Monday, then which one of the following must be true?",
+    "answer": "C",
+    "predicted_reasoning": "Since neither the pickup nor the limousine is serviced on Monday, the hatchback must be serviced on Monday. The roadster is serviced later in the week than the van, so the van must be serviced on Tuesday. The sedan is serviced earlier in the week than the pickup, so the sedan must be serviced on Wednesday. The pickup must be serviced on Thursday or Friday. The limousine must be serviced on Friday or Saturday. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_3_14",
+    "question": "If the limousine is not serviced on Saturday, then each of the following could be true EXCEPT:",
+    "answer": "E",
+    "predicted_reasoning": "If the limousine is not serviced on Saturday, then it must be serviced on one of the first five days of the week. Since the roadster is serviced later in the week than the van, and the van is serviced before the hatchback, the roadster must be serviced on one of the last four days of the week. Therefore, the roadster cannot be serviced on Tuesday, which eliminates option B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_3_15",
+    "question": "If the sedan is serviced earlier in the week than the pickup, then which one of the following could be true?",
+    "answer": "A",
+    "predicted_reasoning": "If the sedan is serviced earlier in the week than the pickup, then the sedan cannot be serviced on Friday or Saturday. The limousine must be serviced later in the week than the sedan, so the limousine cannot be serviced on Monday or Tuesday. The van must be serviced earlier in the week than the roadster, so the van cannot be serviced on Saturday. The hatchback must be serviced later in the week than at least one other vehicle, so the hatchback cannot be serviced on Monday. Therefore, the only possible day for the hatchback to be serviced is Friday.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_3_16",
+    "question": "If the limousine is serviced on Saturday, then which one of the following must be true?",
+    "answer": "B",
+    "predicted_reasoning": "If the limousine is serviced on Saturday, then the roadster must be serviced on Friday, since it is serviced later in the week than the van and earlier in the week than the hatchback. The pickup and the van cannot be serviced on consecutive days, since the limousine is serviced on Saturday. Therefore, the pickup and the sedan must be serviced on consecutive days. Since the sedan is serviced earlier in the week than the pickup or earlier in the week than the limousine, but not both, the sedan must be serviced earlier in the week than the pickup. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_3_17",
+    "question": "Which one of the following could be the list of the vehicles serviced on Tuesday, Wednesday, and Friday, listed in that order?",
+    "answer": "B",
+    "predicted_reasoning": "The roadster is serviced later in the week than the van and earlier in the week than the hatchback. So, the roadster cannot be serviced on Tuesday. The sedan is serviced earlier in the week than the pickup or earlier in the week than the limousine, but not both. So, the sedan cannot be serviced on Wednesday. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_4_18",
+    "question": "If there are exactly two white balls, then which one of the following boxes could contain a green ball?",
+    "answer": "B",
+    "predicted_reasoning": "Since there are exactly two white balls, there are four balls that are either red or green. There is a box containing a green ball that is lower in the stack than any box that contains a red ball. Therefore, the green ball must be in either box 1 or box 2. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_4_19",
+    "question": "If there are green balls in boxes 5 and 6, then which one of the following could be true?",
+    "answer": "C",
+    "predicted_reasoning": "If there are green balls in boxes 5 and 6, then there must be a white ball in a box that is immediately below a box that contains a green ball. Therefore, there must be a white ball in box 4. Since there are more red balls than white balls, there must be at least one red ball in boxes 1, 2, or 3. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_4_20",
+    "question": "The ball in which one of the following boxes must be the same color as at least one of the other balls?",
+    "answer": "E",
+    "predicted_reasoning": "Since there is a white ball in a box that is immediately below a box that contains a green ball, the ball in box 3 must be the same color as at least one of the other balls.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_4_21",
+    "question": "Which one of the following must be true?",
+    "answer": "A",
+    "predicted_reasoning": "Since there is a white ball in a box that is immediately below a box that contains a green ball, and there is a box containing a green ball that is lower in the stack than any box that contains a red ball, the green ball must be in box 1 or 2. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_4_22",
+    "question": "If there are red balls in boxes 2 and 3, then which one of the following could be true?",
+    "answer": "C",
+    "predicted_reasoning": "If there are red balls in boxes 2 and 3, then there must be a green ball in box 1 (since there is a green ball lower than any red ball). Therefore, there cannot be a red ball in box 1. Also, there cannot be a white ball in box 1 (since there is a white ball immediately below a green ball). Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201106_2-G_4_23",
+    "question": "If boxes 2, 3, and 4 all contain balls that are the same color as each other, then which one of the following must be true?",
+    "answer": "D",
+    "predicted_reasoning": "Since boxes 2, 3, and 4 all contain balls that are the same color as each other, they cannot contain balls of different colors. Therefore, the remaining three boxes must contain balls of different colors. Since there are more red balls than white balls, at least two of the remaining three boxes must contain red balls. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_1_1",
+    "question": "Which one of the following could be the order, from first to last, in which the students perform?",
+    "answer": "D",
+    "predicted_reasoning": "Since Ginny must perform earlier than Fernando, and Kevin must perform earlier than Hakim and Juanita, the order cannot be B, D or E. Since Hakim must perform either immediately before or immediately after Fernando, the order cannot be A. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_1_2",
+    "question": "If Juanita performs earlier than Ginny, then which one of the following could be true?",
+    "answer": "A",
+    "predicted_reasoning": "If Juanita performs earlier than Ginny, then the order of performances must be: Juanita, Ginny, Fernando, Hakim, Kevin. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_1_3",
+    "question": "Which one of the following CANNOT be true?",
+    "answer": "C",
+    "predicted_reasoning": "Hakim must perform either immediately before or immediately after Fernando. So, options C and D are not possible. Kevin must perform earlier than Hakim and Juanita. So, option E is not possible. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_1_4",
+    "question": "The order in which the students perform is fully determined if which one of the following is true?",
+    "answer": "E",
+    "predicted_reasoning": "If Fernando performs immediately before Hakim, then the order is fully determined. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_1_5",
+    "question": "How many of the students are there any one of whom could perform fourth?",
+    "answer": "B",
+    "predicted_reasoning": "Since Ginny must perform earlier than Fernando, and Kevin must perform earlier than Hakim and Juanita, the only possible order is Ginny, Kevin, Fernando, Hakim, Juanita. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_2_6",
+    "question": "Which one of the following could be the order of the presentations, from first to sixth?",
+    "answer": "C",
+    "predicted_reasoning": "Kudrow cannot give two presentations in a row, so we can rule out option A and B. The presentation on stenciling must be given earlier than the one on origami, so we can rule out option D. The presentation on textile making must be given earlier than the one on woodworking, so we can rule out option E. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_2_7",
+    "question": "If textile making is presented fifth, which one of the following could be true?",
+    "answer": "D",
+    "predicted_reasoning": "Textile making is presented fifth, so it must be given by Kudrow. Since Kudrow cannot give two presentations in a row, she must have given a presentation before textile making. Since stenciling must be given earlier than origami, and textile making must be given earlier than woodworking, Kudrow must have given the presentation on stenciling before textile making. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_2_8",
+    "question": "If needlework is presented first, which one of the following could be true?",
+    "answer": "E",
+    "predicted_reasoning": "Since needlework is presented first, and stenciling must be presented earlier than origami, stenciling must be presented second. Since Kudrow cannot give two presentations in a row, pottery must be presented third. Since textile making must be presented earlier than woodworking, textile making must be presented fourth. Therefore, origami must be presented fifth and woodworking must be presented sixth. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_2_9",
+    "question": "Jiang CANNOT give both",
+    "answer": "B",
+    "predicted_reasoning": "Jiang will present on needlework and origami. Since the presentation on stenciling must be given earlier than the one on origami, Jiang cannot give the first presentation. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_2_10",
+    "question": "If needlework is presented sixth, which one of the following must be true?",
+    "answer": "B",
+    "predicted_reasoning": "Since needlework is presented sixth, and Kudrow cannot give two presentations in a row, Kudrow must give the presentation before the fifth one. Since the presentation on stenciling must be given earlier than the one on origami, and Kudrow gives the presentation on stenciling, Kudrow must give the presentation before the fourth one. Since the presentation on textile making must be given earlier than the one on woodworking, and Kudrow gives the presentation on textile making, Kudrow must give the presentation before the third one. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_2_11",
+    "question": "Which one of the following CANNOT be the subject of the second presentation?",
+    "answer": "C",
+    "predicted_reasoning": "Kudrow cannot give two presentations in a row, so the second presentation cannot be pottery. The presentation on stenciling must be given earlier than the one on origami, so the second presentation cannot be origami. The presentation on textile making must be given earlier than the one on woodworking, so the second presentation cannot be textile making or woodworking. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_3_12",
+    "question": "Which one of the following is a list of foods that could be the foods selected?",
+    "answer": "B",
+    "predicted_reasoning": "If P is selected, then W must also be selected. If G is selected, then O must also be selected. If N is selected, then V cannot be selected. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_3_13",
+    "question": "Which one of the following is a pair of foods of which the organizer of the luncheon must select at least one?",
+    "answer": "D",
+    "predicted_reasoning": "At least one hot food must be selected, so we can rule out option E. If P or W is selected, both must be selected, so we can rule out option D. If G is selected, O must be selected, so we can rule out option A. If N is selected, V cannot be selected, so we can rule out option C. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_3_14",
+    "question": "If O is the only main course selected, then which one of the following CANNOT be selected?",
+    "answer": "E",
+    "predicted_reasoning": "If O is the only main course selected, then N and P cannot be selected. If G is selected, then O must be selected, which contradicts the given condition. Therefore, G cannot be selected.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_3_15",
+    "question": "If F is not selected, which one of the following could be true?",
+    "answer": "D",
+    "predicted_reasoning": "Since F is not selected, G must be selected (since at least one dessert must be selected). If G is selected, O must be selected. If P or W is selected, both must be selected. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_3_16",
+    "question": "If T and V are the only side dishes selected, then which one of the following is a pair of foods each of which must be selected?",
+    "answer": "A",
+    "predicted_reasoning": "Since T and V are the only side dishes selected, at least one main course must be selected. If P is selected, then W must also be selected. If G is selected, then O must also be selected. If N is selected, then V cannot be selected. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_4_17",
+    "question": "Which one of the following could be the order in which the programs are shown, from earliest to latest?",
+    "answer": "B",
+    "predicted_reasoning": "Generations starts on the hour, so it must be the first program. Terry starts on the half hour, so it cannot be the first program. Roamin' is shown earlier than Sundown, so Roamin' must be shown before Sundown. If Waterloo is shown earlier than Terry, it is shown immediately before Terry, so Waterloo must be shown before Terry. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_4_18",
+    "question": "If Waterloo is the first program, then how many orders are there in which the remaining programs could be shown?",
+    "answer": "B",
+    "predicted_reasoning": "If Waterloo is the first program, then Terry must be the second program, since it must start on the half hour. This leaves three programs to be scheduled in the remaining hour. Since Roamin' must be shown earlier than Sundown, there are two possible orders for these three programs: Roamin', Sundown, Generations and Roamin', Generations, Sundown. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_4_19",
+    "question": "If Roamin' is the second program, then each of the following could be true EXCEPT:",
+    "answer": "D",
+    "predicted_reasoning": "If Roamin' is the second program, then the first program must be Generations, which starts on the hour. The third program must be either Sundown or Terry, since Waterloo must be shown immediately before Terry if it is shown earlier than Terry. The fourth program must be the one that was not shown as the third program, and the fifth program must be Waterloo. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_4_20",
+    "question": "If Sundown is the third program, then which one of the following must be true?",
+    "answer": "E",
+    "predicted_reasoning": "If Sundown is the third program, then either Roamin' or Waterloo must be the first program. Since Roamin' is shown earlier than Sundown, Roamin' must be the first program. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_4_21",
+    "question": "If Generations is the third program, then which one of the following could be true?",
+    "answer": "C",
+    "predicted_reasoning": "Generations is the third program, so it starts at 2 P.M. Since Terry starts on the half hour, it must be the fourth program, starting at 2:30 P.M. If Waterloo is shown earlier than Terry, it is shown immediately before Terry, so Waterloo must be the third program, starting at 2 P.M. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_4_22",
+    "question": "Which one of the following CANNOT be true?",
+    "answer": "B",
+    "predicted_reasoning": "Waterloo is shown immediately before Terry, so we rule out option E. If Waterloo is shown earlier than Terry, it is shown immediately before Terry, so we rule out option B. Generations starts on the hour rather than the half hour, so we rule out option A. Roamin' is shown earlier than Sundown, so we rule out option C. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201112_2-G_4_23",
+    "question": "Which one of the following, if substituted for the constraint that Generations starts on the hour rather than the half hour, would have the same effect in determining the order in which the programs are shown?",
+    "answer": "C",
+    "predicted_reasoning": "The constraint that Generations starts on the hour rather than the half hour ensures that Generations is not shown immediately before Terry, which is the same effect as option A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_1_1",
+    "question": "Which one of the following could be a list of the majors of Manolo, Nadia, Owen, Peng, and Rana, respectively?",
+    "answer": "C",
+    "predicted_reasoning": "Manolo speaks on friendship, so he cannot be a history major. Rana speaks on liberty, so she cannot be a geology major. Nadia is a geology major. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_1_2",
+    "question": "If Peng speaks on friendship, then which one of the following could be true?",
+    "answer": "D",
+    "predicted_reasoning": "If Peng speaks on friendship, then there is only one other student who can speak on friendship, and that student must be a history major. Therefore, Manolo cannot be a history major, and option A is eliminated. Nadia is a geology major, so she cannot speak on friendship, and option B is eliminated. Owen must speak on liberty, so option C is eliminated. Peng cannot be a journalism major, because there must be one journalism major who speaks on liberty, and that major must be Owen, so option E is eliminated. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_1_3",
+    "question": "If Owen is a geology major who speaks on friendship, then which one of the following must be true?",
+    "answer": "A",
+    "predicted_reasoning": "If Owen is a geology major who speaks on friendship, then there must be another geology major who speaks on friendship. Since Nadia is a geology major, she must be the one who speaks on friendship. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_1_4",
+    "question": "If Nadia speaks on friendship, then which one of the following must be false?",
+    "answer": "A",
+    "predicted_reasoning": "If Nadia speaks on friendship, then there is already one geology major and one history major speaking on friendship. Since Manolo is also speaking on friendship, he cannot be a geology major or a history major. Therefore, the final answer is A and B.",
+    "predicted_answer": "A and B"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_1_5",
+    "question": "Rana must be a journalism major if which one of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Since Rana speaks on liberty, and there are only two topics, friendship and liberty, Rana cannot speak on friendship. Since Manolo speaks on friendship, and there are only two students who speak on friendship, Rana cannot be a geology major (since Nadia is a geology major and speaks on friendship). Since Rana is not a geology major and not a history major (since Peng is a history major), Rana must be a journalism major. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_2_6",
+    "question": "Which one of the following could be the order in which the professors lecture, from first to last?",
+    "answer": "B",
+    "predicted_reasoning": "Powell lectures first if, but only if, Young lectures before Vaughan. So, in option A, Powell lectures first and Young lectures before Vaughan, which satisfies the condition. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_2_7",
+    "question": "Which one of the following could lecture first?",
+    "answer": "B",
+    "predicted_reasoning": "Powell lectures first only if Young lectures before Vaughan. Since Young is not seventh, Young must lecture before Vaughan. Therefore, Powell lectures first.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_2_8",
+    "question": "Which one of the following CANNOT given the second guest lecture?",
+    "answer": "E",
+    "predicted_reasoning": "Powell cannot lecture second because he must lecture first if Young lectures before Vaughan. Shihab cannot lecture second because he must lecture before Taylor. Taylor cannot lecture second because he must lecture before Shihab. Vaughan cannot lecture second because he must lecture before Zabel. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_2_9",
+    "question": "If Shihab lectures second and Zabel lectures fourth, then which one of the following could be true?",
+    "answer": "A",
+    "predicted_reasoning": "Since Shihab lectures second and Zabel lectures fourth, Vaughan must lecture third (since Vaughan lectures before Zabel). Therefore, Powell cannot lecture first (since Powell lectures before Wood, and Wood cannot lecture before Vaughan). Therefore, Young must lecture first (since Powell lectures first if, but only if, Young lectures before Vaughan). Therefore, Taylor must lecture second (since Taylor lectures before Shihab). Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_2_10",
+    "question": "Which one of the following CANNOT be the guest lecture that Vaughan gives?",
+    "answer": "E",
+    "predicted_reasoning": "Vaughan lectures before Zabel, so Vaughan cannot lecture seventh. Powell lectures first if, but only if, Young lectures before Vaughan. Since Young is not seventh, Powell cannot lecture first. Therefore, Vaughan cannot lecture second.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_2_11",
+    "question": "If Young lectures fourth and Taylor lectures first, then which one of the following must be true?",
+    "answer": "E",
+    "predicted_reasoning": "If Young lectures fourth and Taylor lectures first, then Powell cannot lecture first because Powell lectures before Wood. Therefore, Powell lectures no earlier than sixth.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_2_12",
+    "question": "If Zabel lectures fourth, then which one of the following could be true?",
+    "answer": "E",
+    "predicted_reasoning": "If Zabel lectures fourth, then Vaughan must lecture third, and Taylor must lecture either first or second. If Taylor lectures first, then Powell must lecture second and Young must lecture third. If Taylor lectures second, then Powell must lecture first and Young must lecture fourth. Therefore, the final answer is A and E.",
+    "predicted_answer": "A, E"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_3_13",
+    "question": "If aisle 1 contains Hobbies only, which one of the following could be true?",
+    "answer": "D",
+    "predicted_reasoning": "If aisle 1 contains Hobbies only, then aisle 2 must contain at least two sections, since Reading must be located in the same aisle as either Fantasy or Music. Therefore, option B and C are ruled out. Since Fantasy must be located in a lower-numbered aisle than both Music and Puzzles, option A is ruled out. Since Science must be located in a lower-numbered aisle than Puzzles, option E is ruled out. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_3_14",
+    "question": "If aisle 3 contains Puzzles only, which one of the following must be true?",
+    "answer": "A",
+    "predicted_reasoning": "Since aisle 3 contains Puzzles only, the other five sections must be placed in aisles 1 and 2. Fantasy must be in a lower-numbered aisle than both Music and Puzzles, so Fantasy cannot be in aisle 3. Science must be in a lower-numbered aisle than Puzzles, so Science cannot be in aisle 3. Therefore, Science must be in aisle 2. Since Science cannot be in a lower-numbered aisle than Hobbies, Hobbies must be in aisle 1. Reading must be in the same aisle as either Fantasy or Music, and since Fantasy cannot be in aisle 3, Reading must be in aisle 1. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_3_15",
+    "question": "If each aisle contains exactly two of the six sections, then Science must be located in the same aisle as",
+    "answer": "B",
+    "predicted_reasoning": "Since each aisle contains exactly two of the six sections, and Science must be located in a lower-numbered aisle than Puzzles, Science cannot be in aisle 3. Since Science must be located in a lower-numbered aisle than Hobbies, Science cannot be in aisle 2. Therefore, Science must be in aisle 1. Since Reading must be located in the same aisle as either Fantasy or Music, and Fantasy must be located in a lower-numbered aisle than both Music and Puzzles, Reading must be in aisle 1 with Science. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_3_16",
+    "question": "Which one of the following CANNOT be the list of the sections located in aisle 2?",
+    "answer": "A",
+    "predicted_reasoning": "Fantasy must be located in a lower-numbered aisle than both Music and Puzzles. So, Fantasy cannot be in aisle 2. Reading must be located in the same aisle as either Fantasy or Music. So, Reading cannot be in aisle 2. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_3_17",
+    "question": "If aisle 2 contains Science only, then each of the following must be true EXCEPT:",
+    "answer": "E",
+    "predicted_reasoning": "If aisle 2 contains Science only, then Science cannot be located in a lower-numbered aisle than Hobbies. Therefore, Hobbies must be in aisle 1. Reading must be located in the same aisle as either Fantasy or Music. Since Hobbies is in aisle 1, Reading cannot be in aisle 1. Therefore, Reading must be in aisle 3. Fantasy must be located in a lower-numbered aisle than both Music and Puzzles. Since Hobbies is in aisle 1, Fantasy must be in aisle 1. Therefore, Music and Puzzles must be in aisle 3. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_4_18",
+    "question": "Which one of the following is an allowable way of designating subzones within the three zones?",
+    "answer": "E",
+    "predicted_reasoning": "Retail subzones are not allowed in Z1, so we rule out option A. No more than two subzones for housing are allowed in any particular zone, so we rule out option D. No more than one retail subzone is allowed in any zone in which a subzone is designated for housing, so we rule out option B. Industrial subzones are not allowed in any zone in which a subzone is designated for housing or three subzones are designated for retail use, so we rule out option E. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_4_19",
+    "question": "Which one of the following CANNOT be true within a single zone?",
+    "answer": "D",
+    "predicted_reasoning": "By city regulation, a total of no more than three subzones can be designated for each of the three uses. So, option D is not possible. Retail subzones are not allowed in Z1. So, option C is not possible. Industrial subzones are not allowed in any zone in which a subzone is designated for housing or three subzones are designated for retail use. So, option B and E are not possible. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_4_20",
+    "question": "What is the maximum number of designated subzones allowed in Z3?",
+    "answer": "D",
+    "predicted_reasoning": "Since retail subzones are not allowed in Z1, and no more than one retail subzone is allowed in any zone in which a subzone is designated for housing, Z3 can have at most one retail subzone. Since no more than two subzones for housing are allowed in any particular zone, Z3 can have at most two housing subzones. Since industrial subzones are not allowed in any zone in which a subzone is designated for housing or three subzones are designated for retail use, Z3 can have at most one industrial subzone. Therefore, the maximum number of designated subzones allowed in Z3 is 1 + 2 + 1 = 4.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_4_21",
+    "question": "If three subzones are designated for each use, then which one of the following is allowed?",
+    "answer": "B",
+    "predicted_reasoning": "Since there are three subzones designated for each use, we know that there are three subzones for housing, three subzones for industrial use, and three subzones for retail use. Since retail subzones are not allowed in Z1, we know that there are no retail subzones in Z1. Since no more than two subzones for housing are allowed in any particular zone, we know that there are two subzones for housing in Z1 and one subzone for housing in either Z2 or Z3. Since industrial subzones are not allowed in any zone in which a subzone is designated for housing or three subzones are designated for retail use, we know that there are no industrial subzones in Z1. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_4_22",
+    "question": "If one subzone in each of the zones is designated for industrial use, then which one of the following is allowed?",
+    "answer": "A",
+    "predicted_reasoning": "Since one subzone in each of the zones is designated for industrial use, we know that there are two subzones left to be designated in each zone. Since no more than two subzones for housing are allowed in any particular zone, we know that at least one subzone in each zone must be designated for retail use. Therefore, option B is not allowed. Since no more than three subzones can be designated for each of the three uses, we know that exactly two subzones are designated in each zone. Therefore, option C is allowed. Since exactly two subzones are designated in each zone, we know that exactly three subzones each are designated in Z2 and Z3. Therefore, option D is allowed. Since exactly three subzones each are designated in Z2 and Z3, we know that exactly four subzones are designated in Z3. Therefore, option E is allowed. Since exactly three subzones each are designated in Z2 and Z3, we know that more subzones are designated for retail use in Z2 than in Z3. Therefore, option A is allowed.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201210_3-G_4_23",
+    "question": "If three subzones in all are designated for retail use and a subzone in Z2 is designated for housing, then which one of the following is allowed?",
+    "answer": "A",
+    "predicted_reasoning": "Since three subzones are designated for retail use, and no more than one retail subzone is allowed in any zone in which a subzone is designated for housing, no subzone in Z2 can be designated for housing. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_1_1",
+    "question": "Which one of the following could be the order in which the manuscripts were written, from first to last?",
+    "answer": "E",
+    "predicted_reasoning": "H was written earlier than S but later than F, so we know that the order is F, H, S. P was the next manuscript written after G, so we know that the order is F, H, S, G, P. At least four of the manuscripts were written earlier than L, so we know that the order is F, H, S, G, P, L. At least four of the manuscripts were written later than M, so we know that the order is F, H, S, G, P, L, M. H was not written fifth, so we know that the order is F, H, S, G, P, L, M. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_1_2",
+    "question": "Which one of the following manuscripts CANNOT have been written third?",
+    "answer": "A",
+    "predicted_reasoning": "H was written earlier than S but later than F. P was the next manuscript written after G. At least four of the manuscripts were written earlier than L. At least four of the manuscripts were written later than M. H was not written fifth.\n\nFrom the given information, we can deduce the following sequence: F, H, G, P, ?, ?, ?. Since H was not written fifth, it must have been written either second or third. If H was written third, then P would have to be written fourth, which contradicts the given information that P was written after G. Therefore, H cannot have been written third.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_1_3",
+    "question": "If H was the next manuscript written after M, which one of the following could be true?",
+    "answer": "E",
+    "predicted_reasoning": "If H was the next manuscript written after M, then H must be written third. Since H was written earlier than S but later than F, F must be written first and S must be written fifth. P was the next manuscript written after G, so G must be written second and P must be written fourth. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_1_4",
+    "question": "Which one of the following manuscripts CANNOT have been written fourth?",
+    "answer": "D",
+    "predicted_reasoning": "H was not written fifth, so it cannot have been written fourth. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_1_5",
+    "question": "If P was written earlier than H, then any of the following could be true EXCEPT:",
+    "answer": "D",
+    "predicted_reasoning": "If P was written earlier than H, then H cannot be written fifth. Therefore, the only option that is not possible is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_2_6",
+    "question": "Which one of the following is an acceptable placement of dishes on the bottom, middle, and top shelves?",
+    "answer": "B",
+    "predicted_reasoning": "Dish 2 is stored at least one shelf above dish 6, so dish 2 cannot be on the bottom shelf. Dish 6 is stored either one shelf above or one shelf below dish 5, so dish 6 cannot be on the top shelf. Dish 1 is not stored on the same shelf as dish 4, so dish 1 and dish 4 cannot be on the same shelf. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_2_7",
+    "question": "If dish 6 is the only dish stored on the bottom shelf, which one of the following could be the list of dishes that are stored together on the middle shelf?",
+    "answer": "E",
+    "predicted_reasoning": "Since dish 6 is on the bottom shelf, dish 2 must be on the middle shelf or top shelf. Dish 2 cannot be on the top shelf because it must be at least one shelf above dish 6. Therefore, dish 2 must be on the middle shelf. Dish 1 cannot be on the same shelf as dish 4, so dish 1 cannot be on the middle shelf. Dish 3 and dish 5 can be on the middle shelf together. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_2_8",
+    "question": "If dish 1, dish 2, and dish 3 are stored on the same shelf as each other, which one of the following could be true?",
+    "answer": "C",
+    "predicted_reasoning": "Since dish 1, dish 2, and dish 3 are stored on the same shelf, they cannot be stored on the top shelf because dish 2 is stored at least one shelf above dish 6. Therefore, dish 1, dish 2, and dish 3 must be stored on either the middle shelf or the bottom shelf. If they are stored on the middle shelf, then dish 4 must be stored on the top shelf, and dish 5 and dish 6 must be stored on the bottom shelf. If they are stored on the bottom shelf, then dish 4, dish 5, and dish 6 must be stored on the middle shelf. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_2_9",
+    "question": "If exactly one of the shelves has no dish stored on it, which one of the following must be true?",
+    "answer": "B",
+    "predicted_reasoning": "Since exactly one of the shelves has no dish stored on it, there must be three dishes on one shelf and two dishes on each of the other two shelves. Dish 2 is stored at least one shelf above dish 6, so dish 2 cannot be on the bottom shelf. Dish 6 is stored either one shelf above or one shelf below dish 5, so dish 6 cannot be on the top shelf. Therefore, dish 2 and dish 6 must be on the middle shelf. Dish 1 is not stored on the same shelf as dish 4, so dish 1 cannot be on the middle shelf. Therefore, dish 1 must be on the top shelf. Dish 3 and dish 5 must be on the bottom shelf. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_2_10",
+    "question": "If dish 5 is the only dish stored on the bottom shelf and if exactly two of the dishes are stored on the middle shelf, then which one of the following is a pair of dishes that must be among the dishes stored on the top shelf?",
+    "answer": "C",
+    "predicted_reasoning": "Since dish 5 is the only dish on the bottom shelf and two dishes are on the middle shelf, the remaining three dishes must be on the top shelf. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_2_11",
+    "question": "If exactly one of the dishes is stored on the middle shelf, which one of the following could be the list of dishes stored on the top shelf?",
+    "answer": "A",
+    "predicted_reasoning": "Since exactly one dish is stored on the middle shelf, there are two dishes on the top shelf and three dishes on the bottom shelf. Dish 2 is stored at least one shelf above dish 6, so dish 2 is not on the bottom shelf. Dish 6 is stored either one shelf above or one shelf below dish 5, so dish 6 is on the middle shelf. Dish 1 is not stored on the same shelf as dish 4, so dish 1 is on the top shelf. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_3_12",
+    "question": "Which one of the following could be the schedule of deliveries to the schools, from the first to the fourth?",
+    "answer": "A",
+    "predicted_reasoning": "Gladstone must be the third school to which snacks are delivered, so we can eliminate options A and B. The first school to which juices are delivered must be the fourth one to which snacks are delivered, so we can eliminate option C. Therefore, the final answer is either D or E.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_3_13",
+    "question": "If Hafford is the fourth school to which juices are delivered, which one of the following must be true?",
+    "answer": "D",
+    "predicted_reasoning": "If Hafford is the fourth school to which juices are delivered, then the first school to which juices are delivered must be the fourth one to which snacks are delivered. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_3_14",
+    "question": "If Isley is the third school to which juices are delivered, which one of the following could be true?",
+    "answer": "C",
+    "predicted_reasoning": "If Isley is the third school to which juices are delivered, then the first school to which juices are delivered must be the fourth one to which snacks are delivered. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_3_15",
+    "question": "If Isley is the first school to which snacks are delivered, which one of the following could be true?",
+    "answer": "A",
+    "predicted_reasoning": "Since Isley is the first school to which snacks are delivered, it must be the fourth school to which juices are delivered. Therefore, the first school to which juices are delivered must be Ferndale, Gladstone or Hafford. Since Gladstone cannot be the fourth school to which juices are delivered, it must be the first or second school to which juices are delivered. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_3_16",
+    "question": "Which one of the following could be true?",
+    "answer": "D",
+    "predicted_reasoning": "Gladstone must be the third school to which snacks are delivered. So, snacks are delivered to Gladstone before they are delivered to Isley. Juices are delivered to Gladstone before they are delivered to Hafford. So, juices are delivered to Gladstone before they are delivered to Isley. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_3_17",
+    "question": "Which one of the following, if substituted for the condition that Gladstone cannot be the fourth school to which juices are delivered, would have the same effect in determining the delivery schedule?",
+    "answer": "B",
+    "predicted_reasoning": "The condition that Gladstone cannot be the fourth school to which juices are delivered ensures that Gladstone is not the last school to receive juices. Therefore, we need to find a condition that also ensures that Gladstone is not the last school to receive juices. Option A does not ensure that Gladstone is not the last school to receive juices, so we can eliminate it. Option B ensures that Gladstone is not the last school to receive juices, so it is a valid replacement for the original condition. Option C does not ensure that Gladstone is not the last school to receive juices, so we can eliminate it. Option D does not ensure that Gladstone is not the last school to receive juices, so we can eliminate it. Option E ensures that Gladstone is not the last school to receive juices, so it is a valid replacement for the original condition.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_4_18",
+    "question": "Which one of the following could be the assignment of paralegals to cases?",
+    "answer": "D",
+    "predicted_reasoning": "Hiro is assigned to Sicoli, so we rule out option A and B. Frank and Kevin cannot be assigned to the same case, so we rule out option C and D. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_4_19",
+    "question": "Which one of the following CANNOT be the complete assignment of paralegals to the Sicoli case?",
+    "answer": "E",
+    "predicted_reasoning": "Hiro is assigned to Sicoli, so we can eliminate options A and B. Frank and Kevin cannot be assigned to the same case, so we can eliminate option C. Gina and Frank cannot be the sole paralegals assigned to their cases, so we can eliminate option D. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_4_20",
+    "question": "If exactly two of the paralegals are assigned to the Thompson case, then which one of the following could be the complete assignment of paralegals to the Raimes case?",
+    "answer": "A",
+    "predicted_reasoning": "If exactly two of the paralegals are assigned to the Thompson case, then the remaining three paralegals must be assigned to the Raimes and Sicoli cases. Since Hiro is assigned to Sicoli, either Frank or Gina must be assigned to Raimes. However, Frank and Gina cannot both be the sole paralegals assigned to their cases, so one of them must be assigned to Thompson. Therefore, the only possible assignment of paralegals to the Raimes case is Gina.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_4_21",
+    "question": "If one of the cases has Gina and Laurie as the only paralegals assigned to it, then each of the following must be false EXCEPT:",
+    "answer": "C",
+    "predicted_reasoning": "If Gina and Laurie are the only paralegals assigned to one of the cases, then Frank, Hiro, and Kevin must be assigned to the other two cases. Since Hiro is assigned to Sicoli, Frank and Kevin must be assigned to Raimes and Thompson, respectively. Therefore, options A, B, and D are false. Option C is true because Gina is assigned to one of the cases with Laurie. Option E is false because Laurie is assigned to the case with Gina. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_4_22",
+    "question": "Which one of the following CANNOT be the complete assignment of paralegals to the Thompson case?",
+    "answer": "D",
+    "predicted_reasoning": "Frank and Kevin cannot be assigned to Thompson case, so we rule out option C. Gina cannot be assigned to Thompson case, so we rule out option A. Laurie cannot be assigned to Thompson case, so we rule out option B. Kevin and Laurie can be assigned to Thompson case, so we rule out option E. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201306_2-G_4_23",
+    "question": "If Kevin is the sole paralegal assigned to one of the cases then which one of the following lists all of the paralegals any one of",
+    "answer": "B",
+    "predicted_reasoning": "If Kevin is the sole paralegal assigned to one of the cases, then either Frank is assigned to Raimes and Kevin is assigned to Thompson, or Frank is not assigned to Raimes and Kevin is not assigned to Thompson. In either case, Frank is not the sole paralegal assigned to his case. Therefore, Gina must be the sole paralegal assigned to her case. This means that Frank, Kevin, and Laurie are all assigned to the same case. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_1_1",
+    "question": "The five pieces could appear in which one of the following sequences on the CD, in order from first to last?",
+    "answer": "B",
+    "predicted_reasoning": "Salammbo must be earlier than Vancouver, so we can eliminate options C and D. Trapezoid must either be earlier than both Reciprocity and Salammbo or later than both Reciprocity and Salammbo, so we can eliminate option B. Wisteria must either be earlier than both Reciprocity and Trapezoid or later than both Reciprocity and Trapezoid, so we can eliminate option A. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_1_2",
+    "question": "If Salammbo is the fourth piece on the CD, then which one of the following must be true?",
+    "answer": "C",
+    "predicted_reasoning": "Since Salammbo is the fourth piece on the CD, the only possible sequence is: Reciprocity, Trapezoid, Salammbo, Vancouver, Wisteria. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_1_3",
+    "question": "If Reciprocity is the first piece on the CD, then which one of the following could be true?",
+    "answer": "B",
+    "predicted_reasoning": "If Reciprocity is the first piece on the CD, then Salammbo must be the second piece on the CD, since it must be earlier than Vancouver. Trapezoid must either be earlier than both Reciprocity and Salammbo or later than both Reciprocity and Salammbo. Since Trapezoid cannot be earlier than both Reciprocity and Salammbo, it must be later than both Reciprocity and Salammbo. Therefore, Trapezoid cannot be the second piece on the CD. Wisteria must either be earlier than both Reciprocity and Trapezoid or later than both Reciprocity and Trapezoid. Since Trapezoid is later than both Reciprocity and Salammbo, Wisteria must be earlier than both Reciprocity and Trapezoid. Therefore, Wisteria can be the third piece on the CD. Vancouver must be the fourth piece on the CD, since it must be later than Salammbo. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_1_4",
+    "question": "If Trapezoid is the second piece on the CD, then which one of the following could be true?",
+    "answer": "E",
+    "predicted_reasoning": "If Trapezoid is the second piece on the CD, then either Reciprocity and Salammbo are both before Trapezoid or both after Trapezoid. If they are both before Trapezoid, then Salammbo must be first since it must be before Vancouver. If they are both after Trapezoid, then Wisteria must be first since it must be before both Reciprocity and Trapezoid. Therefore, the final answer is A and D.",
+    "predicted_answer": "A, D"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_1_5",
+    "question": "The first and second pieces on the CD, listed in order, could be",
+    "answer": "E",
+    "predicted_reasoning": "Since Salammbo must be earlier than Vancouver, we can rule out option A. Since Trapezoid must either be earlier than both Reciprocity and Salammbo or later than both Reciprocity and Salammbo, we can rule out option B and D. Since Wisteria must either be earlier than both Reciprocity and Trapezoid or later than both Reciprocity and Trapezoid, we can rule out option C. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_1_6",
+    "question": "If Vancouver is the second piece on the CD, then which one of the following could be true?",
+    "answer": "D",
+    "predicted_reasoning": "Since Vancouver is the second piece on the CD, Salammbo must be the first piece on the CD. Trapezoid and Wisteria can either be before or after Reciprocity. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_1_7",
+    "question": "If Wisteria is the first piece on the CD, then which one of the following CANNOT be true?",
+    "answer": "A",
+    "predicted_reasoning": "Since Wisteria is the first piece, Trapezoid and Reciprocity must be later than Wisteria. Therefore, Trapezoid cannot be the third piece on the CD.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_2_8",
+    "question": "Which one of the following could be the speeches given in each room, listed in the order in which they occur?",
+    "answer": "A",
+    "predicted_reasoning": "Molina's speech must be earlier than Long's, and in the same room. So, Molina's speech must be at 1 P.M. in the Gold Room, and Long's speech must be at 2 P.M. in the Gold Room. Since neither Xiao's speech nor Yoshida's speech can be earlier than Zimmerman's, Zimmerman's speech must be at 1 P.M. in the Rose Room. If Long's speech is in the Gold Room, then Xiao's and Zimmerman's speeches must both be in the Rose Room. So, Xiao's speech must be at 2 P.M. in the Rose Room, and Yoshida's speech must be at 3 P.M. in the Rose Room. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_2_9",
+    "question": "Which one of the following pairs of speeches CANNOT be given at the same time?",
+    "answer": "B",
+    "predicted_reasoning": "Molina's speech must be earlier than Long's, and in the same room. So, Molina's speech cannot be at 2 P.M. in the Gold Room. If Long's speech is in the Gold Room, then Xiao's and Zimmerman's speeches must both be in the Rose Room. So, Xiao's and Zimmerman's speeches cannot be at 1 P.M. in the Gold Room. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_2_10",
+    "question": "If Xiao's speech is at 3 P.M., which one of the following CANNOT be true?",
+    "answer": "A",
+    "predicted_reasoning": "If Xiao's speech is at 3 P.M., then it must be in the room that has three speeches. Since Molina's speech must be earlier than Long's, and in the same room, Molina's speech must be at 1 P.M. in the same room as Xiao's. Therefore, Long's speech must be at 2 P.M. in the other room. Since neither Xiao's speech nor Yoshida's speech can be earlier than Zimmerman's, Zimmerman's speech must be at 1 P.M. in the same room as Xiao's and Molina's. Therefore, Yoshida's speech must be at 2 P.M. in the same room as Long's. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_2_11",
+    "question": "Which one of the following could be a complete and accurate list of the speeches given in the Gold Room, in the order in which they occur?",
+    "answer": "C",
+    "predicted_reasoning": "Molina's speech must be earlier than Long's, and in the same room. So, Molina's speech must be at 1 P.M. in the Gold Room. If Long's speech is in the Gold Room, then Xiao's and Zimmerman's speeches must both be in the Rose Room. So, Long's speech must be at 2 P.M. in the Gold Room. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_2_12",
+    "question": "If Yoshida's speech is at 1 P.M., which one of the following could be true?",
+    "answer": "C",
+    "predicted_reasoning": "If Yoshida's speech is at 1 P.M., then neither Xiao's nor Zimmerman's speech can be earlier than that. Therefore, Xiao's and Zimmerman's speeches must be at 2 P.M. and 3 P.M., respectively. Since Molina's speech must be earlier than Long's, and in the same room, Molina's speech must be at 1 P.M. in the Gold Room. Therefore, Long's speech must be at 2 P.M. in the Rose Room. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_2_13",
+    "question": "Which one of the following, if substituted for the constraint that neither Xiao's speech nor Yoshida's speech can be earlier than Zimmerman's, would have the same effect in determining the schedule of speeches with regard to rooms and times?",
+    "answer": "E",
+    "predicted_reasoning": "The constraint that neither Xiao's speech nor Yoshida's speech can be earlier than Zimmerman's ensures that Zimmerman's speech is at 1 P.M. in one of the rooms. If we substitute this constraint with the constraint that Zimmerman's speech must be at 1 P.M., it would have the same effect in determining the schedule of speeches with regard to rooms and times. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_3_14",
+    "question": "Which one of the following could be an accurate matching of each family to the building or buildings it owned?",
+    "answer": "A",
+    "predicted_reasoning": "The Williamses owned more of the buildings than the Yandells owned, so the Yandells could not have owned both the inn and the stable. The Williamses could not have owned the forge, since neither the inn nor the mill belonged to the owner of the forge. Therefore, the Yandells must have owned the forge. The Trents could not have owned the stable, since either the Trents owned the stable or the Yandells owned the inn, or both. Therefore, the Williamses must have owned the stable. The Trents must have owned the granary and the mill. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_3_15",
+    "question": "Which one of the following is a pair of buildings that CANNOT both have been owned by the Trents?",
+    "answer": "D",
+    "predicted_reasoning": "The Williamses owned more of the buildings than the Yandells owned, so the Williamses owned at least three of the buildings. The Trents and the Yandells owned the remaining two buildings. The Williamses did not own the inn or the mill, so the Trents or the Yandells owned those two buildings. The Trents could not have owned both the stable and the inn, so the Yandells must have owned the inn. Therefore, the Trents owned the stable and the granary. The final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_3_16",
+    "question": "If the Yandells owned the mill, which one of the following must be true?",
+    "answer": "D",
+    "predicted_reasoning": "If the Yandells owned the mill, then the Williamses must own more buildings than the Yandells. Since the Williamses own more buildings than the Yandells, they must own at least three buildings. The Williamses cannot own the forge or the mill, so they must own the granary, the inn, and the stable. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_3_17",
+    "question": "If one of the families owned both the granary and the inn, which one of the following could be true?",
+    "answer": "B",
+    "predicted_reasoning": "If one of the families owned both the granary and the inn, then that family must be the Williamses, since the Williamses owned more of the buildings than the Yandells owned and neither the inn nor the mill belonged to the owner of the forge. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_3_18",
+    "question": "If the Trents owned exactly one of the buildings, which one of the following is a complete and accurate list of the buildings any one of which could be the building that the Trents owned?",
+    "answer": "E",
+    "predicted_reasoning": "The Trents owned exactly one of the buildings. The Williamses owned more of the buildings than the Yandells owned. Neither the inn nor the mill belonged to the owner of the forge. Either the Trents owned the stable or the Yandells owned the inn, or both. So, the Trents could have owned the forge, the granary, the mill, or the stable. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_4_19",
+    "question": "Which one of the following could be a complete and accurate list of the kinds of flowers in each of the bouquets?",
+    "answer": "A",
+    "predicted_reasoning": "Bouquet 3 must have snapdragons, so we can eliminate options A, C, and E. Bouquet 1 and 3 cannot have any kind of flower in common, so we can eliminate option B. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_4_20",
+    "question": "If lilies are in bouquet 1, which one of the following must",
+    "answer": "B",
+    "predicted_reasoning": "If lilies are in bouquet 1, then bouquet 1 must also have roses. Since bouquets 1 and 3 cannot have any kind of flower in common, bouquet 3 cannot have lilies or roses. Since bouquet 3 must have snapdragons, it must also have peonies. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_4_21",
+    "question": "If tulips are in bouquet 1, which one of the following could be a complete and accurate list of the kinds of flowers in bouquet 2?",
+    "answer": "E",
+    "predicted_reasoning": "If tulips are in bouquet 1, then bouquet 1 must also have peonies. Since bouquets 2 and 3 must have exactly two kinds of flowers in common, bouquet 2 must also have peonies. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_4_22",
+    "question": "Which one of the following CANNOT be a complete and accurate list of the kinds of flowers in bouquet 2?",
+    "answer": "A",
+    "predicted_reasoning": "Bouquets 2 and 3 must have exactly two kinds of flowers in common. Since bouquet 3 must have snapdragons, bouquet 2 must also have snapdragons. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201409_3-G_4_23",
+    "question": "Which one of the following CANNOT be true?",
+    "answer": "C",
+    "predicted_reasoning": "Bouquet 3 must have snapdragons, so we rule out option E. If a bouquet has lilies, that bouquet must also have roses but cannot have snapdragons, so we rule out option A. If a bouquet has tulips, that bouquet must also have peonies, so we rule out option B. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_1_1",
+    "question": "Which one of the following is an allowable distribution of bonuses to the seven employees?",
+    "answer": "C",
+    "predicted_reasoning": "Since no one in the Graphics department receives a $1,000 bonus, we can rule out option A and E. Since Lopez, Meng, and Xavier were rated Highly Effective, they must receive a larger bonus than Kimura and Peterson, who were not rated Highly Effective. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_1_2",
+    "question": "If Lopez does not receive the same bonus as Meng, which one of the following could be true?",
+    "answer": "B",
+    "predicted_reasoning": "Since Lopez, Meng, and Xavier were rated Highly Effective, they must receive either a $3,000 or $5,000 bonus. Since Lopez does not receive the same bonus as Meng, either Lopez or Meng receives a $5,000 bonus and the other receives a $3,000 bonus. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_1_3",
+    "question": "If only one of the employees receives a $1,000 bonus, which one of the following must be true?",
+    "answer": "E",
+    "predicted_reasoning": "If only one of the employees receives a $1,000 bonus, then that employee must be in the Graphics department. Since Xavier was rated Highly Effective, he must receive a larger bonus than the other Graphics department employees, so he cannot receive a $1,000 bonus. Therefore, either Vaughan or Zane must receive the $1,000 bonus. Since Lopez, Meng, and Xavier were the only employees rated Highly Effective, they must all receive a $5,000 bonus. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_1_4",
+    "question": "Which one of the following must be true?",
+    "answer": "E",
+    "predicted_reasoning": "Since no one in the Graphics department receives a $1,000 bonus, and there are three employees in that department, at least one of the employees in the Finance department must receive a $1,000 bonus. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_1_5",
+    "question": "If exactly two of the employees receive $5,000 bonuses, which one of the following must be true?",
+    "answer": "D",
+    "predicted_reasoning": "Since only two employees receive $5,000 bonuses, the remaining five employees must receive either $1,000 or $3,000 bonuses. Since no one in the Graphics department receives a $1,000 bonus, Vaughan, Xavier, and Zane must each receive a $3,000 bonus. Therefore, the two employees who receive $5,000 bonuses must be Kimura, Lopez, Meng, or Peterson. Since Lopez, Meng, and Xavier were rated Highly Effective, they must each receive a bonus of at least $3,000. Therefore, Kimura and Peterson must be the two employees who receive $5,000 bonuses. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_1_6",
+    "question": "Any of the following could be true of the seven employees EXCEPT:",
+    "answer": "B",
+    "predicted_reasoning": "Since Lopez, Meng, and Xavier were rated Highly Effective, they must receive either a $3,000 or $5,000 bonus. Kimura, Peterson, Vaughan, and Zane were not rated Highly Effective, so they must receive a $1,000 bonus. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_2_7",
+    "question": "Which one of the following could be the list of the trees that the landscaper plants on each of the lots today?",
+    "answer": "D",
+    "predicted_reasoning": "The maple is not planted on the same lot as the walnut. So, we can rule out option B and E. More trees are planted on lot 3 than on lot 1. So, we can rule out option C. Either the larch or the walnut, but not both, is planted on lot 1. So, we can rule out option D. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_2_8",
+    "question": "If the hickory is planted on lot 2, then which one of the following trees must be planted on lot 3?",
+    "answer": "B",
+    "predicted_reasoning": "If the hickory is planted on lot 2, then the oak must be planted on lot 3, since the hickory, the oak, and exactly one other tree must be planted on the same lot. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_2_9",
+    "question": "Which one of the following is a complete and accurate list of the trees any of which could be planted on lot 1?",
+    "answer": "C",
+    "predicted_reasoning": "Since the hickory and the oak must be planted on the same lot, and the maple and the walnut cannot be planted on the same lot, the hickory, the oak, and the walnut cannot be planted on lot 1. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_2_10",
+    "question": "If the walnut is planted on lot 3, then which one of the following could be true?",
+    "answer": "A",
+    "predicted_reasoning": "If the walnut is planted on lot 3, then the larch must be planted on lot 1, since either the larch or the walnut, but not both, is planted on lot 1. The hickory, the oak, and one other tree are planted on one lot, so the hickory and the oak cannot be planted on lot 1 or lot 3. Therefore, the hickory and the oak must be planted on lot 2. The maple is not planted on the same lot as the walnut, so the maple must be planted on lot 1. The sycamore and the plum are the only two trees left, and they must be planted on lot 3. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_2_11",
+    "question": "Where each of the trees is planted is completely determined if which one of the following trees is planted on lot 2?",
+    "answer": "A",
+    "predicted_reasoning": "If the walnut is planted on lot 2, then the maple must be planted on lot 3, since the maple cannot be planted on the same lot as the walnut. The oak must be planted on lot 1, since the maple and oak cannot both be planted on lot 2. The hickory must be planted on lot 3, since the hickory, oak, and one other tree must be planted on the same lot. The larch must be planted on lot 1, since either the larch or the walnut, but not both, is planted on lot 1. The sycamore and plum must be planted on lot 3, since more trees are planted on lot 3 than on lot 1. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_3_12",
+    "question": "Which one of the following is an acceptable schedule for the librarians, listed in order from Monday through Saturday?",
+    "answer": "A",
+    "predicted_reasoning": "Hill must be on desk duty earlier in the week than Leung, so we can rule out option E. Both Hill and Moore must be on desk duty earlier in the week than Gomez, so we can rule out option A. Flynn must be on desk duty earlier in the week than both Kitson and Moore, so we can rule out option B. Kitson must be on desk duty earlier in the week than Zahn, so we can rule out option C. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_3_13",
+    "question": "Which one of the following CANNOT be on desk duty on Tuesday?",
+    "answer": "E",
+    "predicted_reasoning": "Hill must be on desk duty earlier in the week than Leung. Leung cannot be on desk duty on Tuesday, so Hill cannot be on desk duty on Tuesday either. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_3_14",
+    "question": "If Kitson is on desk duty earlier in the week than Moore, which one of the following CANNOT be true?",
+    "answer": "B",
+    "predicted_reasoning": "If Kitson is on desk duty earlier in the week than Moore, then Flynn must be on desk duty earlier in the week than Moore (since Flynn must be on desk duty earlier in the week than both Kitson and Moore). This means that option E cannot be true.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_3_15",
+    "question": "If Zahn is on desk duty on Thursday, which one of the following must be true?",
+    "answer": "A",
+    "predicted_reasoning": "If Zahn is on desk duty on Thursday, then Kitson must be on desk duty on Friday or Saturday. Since Kitson must be on desk duty earlier in the week than Zahn, Kitson must be on desk duty on Friday. Therefore, Flynn must be on desk duty earlier in the week than Kitson, and the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_3_16",
+    "question": "If Moore is on desk duty on Tuesday, which one of the following must be true?",
+    "answer": "C",
+    "predicted_reasoning": "Since Moore is on desk duty on Tuesday, Hill and Gomez must be on desk duty on Monday and Wednesday, respectively. Flynn must be on desk duty on Thursday, and Kitson must be on desk duty on Friday. That leaves Saturday and Leung. Since Leung must be on desk duty earlier in the week than Flynn unless Leung is on desk duty on Saturday, Leung must be on desk duty on Saturday. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_3_17",
+    "question": "If Flynn is on desk duty earlier in the week than Hill, which one of the following must be true?",
+    "answer": "D",
+    "predicted_reasoning": "If Flynn is on desk duty earlier in the week than Hill, then Hill cannot be on desk duty on Saturday. Therefore, Leung must be on desk duty on Saturday. Since Leung must be on desk duty earlier in the week than Flynn unless Leung is on desk duty on Saturday, Leung must be on desk duty earlier in the week than Flynn. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_3_18",
+    "question": "Which one of the following, if substituted for the constraint that Flynn must be on desk duty earlier in the week than both Kitson and Moore, would have the same effect in determining the schedule for the librarians?",
+    "answer": "C",
+    "predicted_reasoning": "The constraint that Flynn must be on desk duty earlier in the week than both Kitson and Moore is equivalent to the constraint that Flynn must be on desk duty earlier in the week than Kitson. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_4_19",
+    "question": "Which one of the following is an allowable structure for an issue of the newsletter?",
+    "answer": "D",
+    "predicted_reasoning": "If an issue has any finance or technology feature, then a finance or technology feature must occupy slot 1. Therefore, we can rule out option A and B. An issue can have at most one industry feature. Therefore, we can rule out option C. Therefore, the final answer is either D or E.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_4_20",
+    "question": "If an issue of the newsletter has no technology feature and if there is a finance feature that occupies both slots 4 and 5, then which one of the following is required for that issue?",
+    "answer": "A",
+    "predicted_reasoning": "Since there is no technology feature, a finance feature must occupy slot 1. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_4_21",
+    "question": "Which one of the following is NOT allowed for an issue of the newsletter?",
+    "answer": "E",
+    "predicted_reasoning": "If there is a finance or technology feature, then it must occupy slot 1. Therefore, option A is not allowed.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_4_22",
+    "question": "If, in a particular issue of the newsletter, slot 1 is occupied by the only industry feature in that issue, then which one of the following is required for that issue?",
+    "answer": "D",
+    "predicted_reasoning": "Since slot 1 is occupied by the only industry feature, and industry features can occupy at most three consecutive slots, the industry feature must occupy either slot 1 only, or slots 1 and 2, or slots 1, 2, and 3. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201506_4-G_4_23",
+    "question": "Any of the following is allowed for an issue of the newsletter EXCEPT:",
+    "answer": "D",
+    "predicted_reasoning": "If there is a finance or technology feature, then a finance or technology feature must occupy slot 1. Therefore, options A, B, D, and E are all allowed. The only option that is not allowed is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_1_1",
+    "question": "Which one of the following could be the order, from first to last, in which the entertainers are scheduled to perform?",
+    "answer": "A",
+    "predicted_reasoning": "Zane must perform in the morning, so we can eliminate options B and E. Robinson must perform before Zane, so we can eliminate option D. Tigay must perform in the afternoon, so we can eliminate option C. Yeaton must perform after Wu, so the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_1_2",
+    "question": "If Wu is scheduled to perform in the morning, then which one of the following could be true?",
+    "answer": "B",
+    "predicted_reasoning": "If Wu is scheduled to perform in the morning, then Yeaton must perform in the afternoon, and Robinson must perform before Zane. Therefore, Robinson cannot perform at 10:00 A.M. or 11:00 A.M., and Zane cannot perform at 9:00 A.M. or 10:00 A.M. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_1_3",
+    "question": "Shahpari CANNOT be scheduled to perform at which one of the following times?",
+    "answer": "D",
+    "predicted_reasoning": "Since Zane must perform in the morning and Robinson must perform before Zane, Robinson must perform in the morning. Since Yeaton's performance must be the next performance after Wu's, and Tigay must perform in the afternoon, Wu must perform in the morning and Yeaton must perform in the afternoon. Therefore, Shahpari cannot perform in the morning.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_1_4",
+    "question": "What is the earliest time that Wu could be scheduled to perform?",
+    "answer": "C",
+    "predicted_reasoning": "Since Zane must perform in the morning and Robinson must perform before Zane, Robinson must perform in the morning. Since Yeaton's performance must be the next performance after Wu's, Wu must perform in the morning. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_1_5",
+    "question": "Which one of the following is a complete and accurate list of the entertainers who must be scheduled to perform in the afternoon?",
+    "answer": "C",
+    "predicted_reasoning": "Tigay must perform in the afternoon, so we can eliminate options A and B. Yeaton's performance must be the next performance after Wu's, so we can eliminate option C. Zane must perform in the morning, so we can eliminate option E. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_2_6",
+    "question": "Which one of the following could be the display of bowls, listed by potters name, in order from position 1 through position 6?",
+    "answer": "E",
+    "predicted_reasoning": "Neiman's bowl is in position 5, so we can rule out option A, C, and D. Serra's bowl cannot be in position 2 or 4, so we can rule out option B. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_2_7",
+    "question": "If Neiman's bowl and Park's bowl are both displayed, which one of the following is a potter whose bowl could be displayed in position 1?",
+    "answer": "D",
+    "predicted_reasoning": "Neiman's bowl is displayed in position 5. Park's bowl can be displayed only if it is next to Olivera's bowl and next to Serra's bowl. So, Park's bowl must be displayed in either position 4 or position 6. If Park's bowl is displayed in position 4, then Serra's bowl cannot be displayed in position 4. But Serra's bowl cannot be displayed in position 2 either. So, Park's bowl must be displayed in position 6. If Park's bowl is displayed in position 6, then Serra's bowl must be displayed in position 5. But Neiman's bowl is already displayed in position 5. So, Park's bowl cannot be displayed. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_2_8",
+    "question": "If Larsen's bowl is displayed in position 6 and Olivera's bowl is displayed in position 2, which one of the following must be true?",
+    "answer": "C",
+    "predicted_reasoning": "Since Larsen's bowl is displayed in position 6, Mills's bowl cannot be displayed. Since Olivera's bowl is displayed in position 2, Park's bowl must be displayed in either position 1 or position 3. Since Serra's bowl cannot be displayed in either position 2 or position 4, it must be displayed in either position 1 or position 3. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_2_9",
+    "question": "If Park's bowl is displayed in position 4, then the bowl displayed in position 2 must be",
+    "answer": "A",
+    "predicted_reasoning": "Park's bowl can be displayed only if it is next to Olivera's bowl and next to Serra's bowl. So, if Park's bowl is displayed in position 4, then Olivera's bowl must be displayed in position 3 and Serra's bowl must be displayed in position 5. Neiman's bowl can be displayed only in position 5, so it cannot be displayed in position 2. Larsen's bowl and Mills's bowl cannot be displayed together. Reigel's bowl can be displayed only in either position 1 or position 6. Therefore, the bowl displayed in position 2 must be Vance's bowl.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_2_10",
+    "question": "If Larsen's bowl is displayed in position 1 and Olivera's bowl is displayed in position 4, which one of the following is a potter whose bowl CANNOT be displayed?",
+    "answer": "B",
+    "predicted_reasoning": "Since Larsen's bowl is displayed in position 1, Mills's bowl cannot be displayed. Since Olivera's bowl is displayed in position 4, Park's bowl cannot be displayed. Since Neiman's bowl can be displayed only in position 5, Reigel's bowl cannot be displayed. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_2_11",
+    "question": "Which one of the following is a potter whose bowl must be displayed?",
+    "answer": "B",
+    "predicted_reasoning": "Neiman's bowl is the only one that has a specific position, so we rule out options B, C, D, and E. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_2_12",
+    "question": "If Neiman's bowl, Park's bowl, and Reigel's bowl are all displayed, which one of the following must be true?",
+    "answer": "A",
+    "predicted_reasoning": "Neiman's bowl is displayed in position 5. Reigel's bowl is displayed in either position 1 or position 6. Park's bowl can be displayed only if it is next to Olivera's bowl and next to Serra's bowl. Therefore, Olivera's bowl and Serra's bowl must be displayed in positions 4 and 3, respectively. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_3_13",
+    "question": "Which one of the following is a possible matching of employees with the offices they select?",
+    "answer": "B",
+    "predicted_reasoning": "Jackson must select either Y or X, since those are his top two choices. If Jackson selects Y, then Larabee must select X, since that is his highest unselected choice. If Jackson selects X, then Larabee must select Z, since that is his highest unselected choice. In either case, Paulson must select Y, since that is his highest unselected choice. Therefore, Torillo must select Z, since that is his highest unselected choice. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_3_14",
+    "question": "Which one of the following must be true?",
+    "answer": "C",
+    "predicted_reasoning": "Since each employee selects the office that he or she ranks highest among the unselected offices, the first employee must select the office that he or she ranks first. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_3_15",
+    "question": "Which one of the following could be true?",
+    "answer": "A",
+    "predicted_reasoning": "Since each employee selects the office that he or she ranks highest among the unselected offices, it is not possible for any employee to select the office that he or she ranks third or fourth. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_3_16",
+    "question": "If Paulson selects office W, then which one of the following could be true?",
+    "answer": "E",
+    "predicted_reasoning": "If Paulson selects office W, then the remaining offices are X, Y, and Z. Since each employee selects only one office, and each employee selects the office that he or she ranks highest among the unselected offices, Jackson must select office Y, Larabee must select office X, and Torillo must select office Z. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_3_17",
+    "question": "Which one of the following must be true?",
+    "answer": "E",
+    "predicted_reasoning": "Since Jackson ranks Y as his first choice, he must select office Y. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_4_18",
+    "question": "Which one of the following could be the assignment of volunteers to Z?",
+    "answer": "E",
+    "predicted_reasoning": "Kwon cannot be assigned to Z, so we rule out option C. Joslin cannot be assigned to Z, so we rule out option A. Nash must be the leader if assigned to a committee, so we rule out option D and E. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_4_19",
+    "question": "If Kwon is assigned to be treasurer for exactly two of the committees, then any of the following could be true EXCEPT:",
+    "answer": "C",
+    "predicted_reasoning": "Since Kwon is assigned to be treasurer for exactly two of the committees, he must be assigned to be treasurer for either X and Y or Y and Z. If Kwon is assigned to be treasurer for X and Y, then Haddad cannot be assigned to be treasurer for X since Kwon cannot be assigned to Z. Therefore, Haddad must be assigned to be either leader or secretary for X. If Kwon is assigned to be treasurer for Y and Z, then Haddad cannot be assigned to be treasurer for Y since Kwon cannot be assigned to X. Therefore, Haddad must be assigned to be either leader or secretary for Y. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_4_20",
+    "question": "Each of the following must be true EXCEPT:",
+    "answer": "B",
+    "predicted_reasoning": "Nash must be the leader for any committee he is assigned to. Since Joslin is the secretary for Y, Nash cannot be assigned to Y. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_4_21",
+    "question": "If Kwon is assigned to be leader for exactly one of the committees, then for which of the committees is the assignment of volunteers to positions fully determined?",
+    "answer": "B",
+    "predicted_reasoning": "If Kwon is assigned to be leader for exactly one of the committees, then Kwon must be assigned to Y and be the leader for Y. Since Joslin must be the secretary for Y, Joslin must also be assigned to Y. Since Molina must be assigned to exactly one committee, Molina must be assigned to Y. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_4_22",
+    "question": "The assignment of volunteers to committees and positions is fully determined if which one of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "Nash must be the leader for any committee he is assigned to. Molina must be assigned to exactly one committee. Kwon must be assigned to Y but cannot be assigned to Z. Joslin must be the secretary for Y but cannot be assigned to X or Z. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201512_3-G_4_23",
+    "question": "Which one of the following, if substituted for the condition that Molina must be assigned to exactly one committee, would have the same effect in determining the assignment of volunteers to committees?",
+    "answer": "C",
+    "predicted_reasoning": "Since Molina must be assigned to exactly one committee, the only other option that would have the same effect is that Molina must be assigned to fewer committees than the other volunteers. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_1_1",
+    "question": "The five neighborhoods visited by the bookmobile, listed in order from Monday through Friday, could be",
+    "answer": "B",
+    "predicted_reasoning": "Lakeville is visited on Wednesday, so we can rule out option A and D. Nottingham and Sunnyside are not visited on consecutive days, so we can rule out option B. Oldtown is visited immediately before Hidden Hills, so we can rule out option E. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_1_2",
+    "question": "Which one of the following neighborhoods CANNOT be visited on Thursday?",
+    "answer": "C",
+    "predicted_reasoning": "Since Lakeville is visited on Wednesday, and Nottingham and Sunnyside are not visited on consecutive days, Nottingham and Sunnyside cannot be visited on Thursday. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_1_3",
+    "question": "If Hidden Hills is visited on Monday, which one of the following must be true?",
+    "answer": "A",
+    "predicted_reasoning": "If Hidden Hills is visited on Monday, then Oldtown must be visited on Tuesday. Since Lakeville is visited on Wednesday, it cannot be visited on Tuesday. Therefore, Nottingham must be visited on Tuesday. Since Nottingham and Sunnyside are not visited on consecutive days, Sunnyside must be visited on Thursday. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_1_4",
+    "question": "If Hidden Hills is visited on Wednesday, which one of the following must be true?",
+    "answer": "B",
+    "predicted_reasoning": "If Hidden Hills is visited on Wednesday, then Lakeville must be visited on Wednesday, since Lakeville is visited on Wednesday. This means that Nottingham and Sunnyside cannot be visited on Wednesday, since they cannot be visited on consecutive days. Therefore, Nottingham and Sunnyside must be visited on Monday and Tuesday, in either order. Oldtown must be visited on Thursday, since it is visited on the day immediately before Hidden Hills is visited. This means that Park Plaza must be visited on Friday, since it is the only day left. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_1_5",
+    "question": "If Nottingham is visited on Thursday, which one of the following must be true?",
+    "answer": "D",
+    "predicted_reasoning": "Since Nottingham is visited on Thursday, Sunnyside cannot be visited on Wednesday or Friday. Therefore, Sunnyside must be visited on Tuesday. Also, since Nottingham and Sunnyside are not visited on consecutive days, Hidden Hills cannot be visited on Wednesday. Therefore, Hidden Hills must be visited on Friday. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_2_6",
+    "question": "Which one of the following is a permissible assignment of rangers to park areas?",
+    "answer": "E",
+    "predicted_reasoning": "Mendez is assigned to area 3, so we rule out option A and B. Olsen and Pruitt are not assigned to area 1, so we rule out option D. Larson is assigned to the same area as either Koguchi or Mendez, so we rule out option C. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_2_7",
+    "question": "If Olsen is the sole ranger assigned to area 2, then which one of the following could be the complete assignment of rangers to area 3?",
+    "answer": "C",
+    "predicted_reasoning": "If Olsen is the sole ranger assigned to area 2, then Jefferson is assigned to the same area as Koguchi. Since Mendez is assigned to area 3, and Larson is assigned to the same area as either Koguchi or Mendez, Larson must be assigned to area 3. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_2_8",
+    "question": "If exactly one ranger is assigned to area 1, then which one of the following must be true?",
+    "answer": "D",
+    "predicted_reasoning": "Since exactly one ranger is assigned to area 1, and neither Olsen nor Pruitt is assigned to area 1, the ranger assigned to area 1 must be either Jefferson, Koguchi or Larson. Since Larson is assigned to the same area as either Koguchi or Mendez, and Mendez is assigned to area 3, Larson cannot be assigned to area 1. Therefore, the ranger assigned to area 1 must be either Jefferson or Koguchi. If Olsen is assigned to area 2, then Jefferson is assigned to the same area as Koguchi; otherwise, Jefferson is assigned to a different area than Koguchi. Since exactly one ranger is assigned to area 1, Jefferson cannot be assigned to area 2. Therefore, Koguchi must be assigned to area 2, and Jefferson must be assigned to area 1.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_2_9",
+    "question": "Which one of the following rangers CANNOT be assigned to area 3?",
+    "answer": "D",
+    "predicted_reasoning": "Mendez is assigned to area 3, so we can eliminate options A and B. Larson is assigned to the same area as either Koguchi or Mendez, so we can eliminate option C. If Olsen is assigned to area 2, then Jefferson is assigned to the same area as Koguchi; otherwise, Jefferson is assigned to a different area than Koguchi. Since Olsen is not assigned to area 1, we know that Olsen is assigned to area 2. Therefore, Jefferson is assigned to the same area as Koguchi, which means that Jefferson cannot be assigned to area 3. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_2_10",
+    "question": "If Koguchi is assigned to area 2, then which one of the following could be true?",
+    "answer": "E",
+    "predicted_reasoning": "If Koguchi is assigned to area 2, then Jefferson is assigned to the same area as Koguchi, i.e. area 2. Therefore, the final answer is A.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_2_11",
+    "question": "If Larson and Olsen are assigned to the same area, then which one of the following could be true?",
+    "answer": "B",
+    "predicted_reasoning": "If Larson and Olsen are assigned to the same area, then it must be area 2, since Olsen cannot be assigned to area 1. If Olsen is assigned to area 2, then Jefferson is assigned to the same area as Koguchi. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_2_12",
+    "question": "If Jefferson is assigned to area 2, then which one of the following must be true?",
+    "answer": "A",
+    "predicted_reasoning": "If Jefferson is assigned to area 2, then Olsen must also be assigned to area 2, according to the given condition. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_3_13",
+    "question": "Which one of the following could be the complete assignment of assistants to Pricing?",
+    "answer": "A",
+    "predicted_reasoning": "Since Markets must have exactly two assistants assigned to it, and Smith and Taj must be assigned to the same course, we know that Smith and Taj must be assigned to Markets. Since Vogel and Yi cannot be assigned to the same course, and Yi and Zane must both be assigned to Pricing if either one of them is, we know that Yi and Zane must be assigned to Pricing. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_3_14",
+    "question": "Which one of the following CANNOT be the complete assignment of assistants to Labor?",
+    "answer": "B",
+    "predicted_reasoning": "Markets must have exactly two assistants assigned to it, so we can rule out option A and D. Smith and Taj must be assigned to the same course as each other, so we can rule out option B. Yi and Zane must both be assigned to Pricing if either one of them is, so we can rule out option C. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_3_15",
+    "question": "Which one of the following could be true?",
+    "answer": "A",
+    "predicted_reasoning": "Markets must have exactly two assistants assigned to it, so we can rule out option A and C. Smith and Taj must be assigned to the same course as each other, so we can rule out option B. Yi and Zane must both be assigned to Pricing if either one of them is, so we can rule out option E. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_3_16",
+    "question": "If Vogel is assigned to the same course as Zane, which one of the following CANNOT be true?",
+    "answer": "C",
+    "predicted_reasoning": "If Vogel is assigned to the same course as Zane, then Yi must also be assigned to that course, since Yi and Zane must both be assigned to Pricing if either one of them is. But Vogel and Yi cannot be assigned to the same course, so this is not possible. Therefore, the final answer is C.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_3_17",
+    "question": "If no other assistant is assigned to the same course as Ramos, which one of the following must be true?",
+    "answer": "D",
+    "predicted_reasoning": "If no other assistant is assigned to the same course as Ramos, then Ramos must be assigned to a course that has only one assistant assigned to it. Since Markets must have exactly two assistants assigned to it, Ramos cannot be assigned to Markets. Since Smith and Taj must be assigned to the same course as each other, Ramos cannot be assigned to Labor. Since Yi and Zane must both be assigned to Pricing if either one of them is, Ramos cannot be assigned to Pricing. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_4_18",
+    "question": "One possible route of the virus from the first computer in the network infected to Q is",
+    "answer": "D",
+    "predicted_reasoning": "The virus was transmitted from one computer to at most two other computers. S transmitted the virus to exactly one other computer. So, S cannot be the first computer infected. The computer that transmitted the virus to R also transmitted it to S. So, R cannot be the first computer infected. Either R or T transmitted the virus to Q. So, Q cannot be the first computer infected. Either T or U transmitted the virus to P. So, P cannot be the first computer infected. Therefore, the first computer infected must be U. The virus was transmitted from U to T, then from T to P, then from P to R, and finally from R to Q. Therefore, the final answer is E.",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_4_19",
+    "question": "Which one of the following could be the computer that was infected from outside the network?",
+    "answer": "E",
+    "predicted_reasoning": "Since S transmitted the virus to exactly one other computer, and the computer that transmitted the virus to R also transmitted it to S, S cannot be the computer that was infected from outside the network. Since either R or T transmitted the virus to Q, and either T or U transmitted the virus to P, R, T, Q, and P cannot be the computer that was infected from outside the network. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_4_20",
+    "question": "If T did not transmit the virus to any other computer on the network, which one of the following must be true?",
+    "answer": "A",
+    "predicted_reasoning": "If T did not transmit the virus to any other computer on the network, then either R or U must have transmitted the virus to Q. Since S transmitted the virus to exactly one other computer on the network, and the computer that transmitted the virus to R also transmitted it to S, then R must have transmitted the virus to Q. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_4_21",
+    "question": "Any of the following computers could have transmitted the virus to two other computers on the network EXCEPT:",
+    "answer": "C",
+    "predicted_reasoning": "S transmitted the virus to exactly one other computer on the network. The computer that transmitted the virus to R also transmitted it to S. Therefore, R cannot have transmitted the virus to two other computers on the network.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_4_22",
+    "question": "The spread of the virus among the computers is completely determined if which one of the following is true?",
+    "answer": "C",
+    "predicted_reasoning": "We know that S transmitted the virus to exactly one other computer on the network, and that the computer that transmitted the virus to R also transmitted it to S. So, the computer that transmitted the virus to R must be S. Since either R or T transmitted the virus to Q, and S transmitted the virus to R, T must have transmitted the virus to Q. Since either T or U transmitted the virus to P, and T transmitted the virus to Q, U must have transmitted the virus to P. Therefore, the final answer is D.",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201609_3-G_4_23",
+    "question": "If P is the only computer that transmitted the virus to two other computers on the network, which one of the following must be true?",
+    "answer": "C",
+    "predicted_reasoning": "Since P is the only computer that transmitted the virus to two other computers on the network, it must have transmitted the virus to both Q and R. Therefore, the computer that transmitted the virus to R also transmitted it to Q, which means that T transmitted the virus to both R and Q. Therefore, the final answer is B.",
+    "predicted_answer": "B"
+  }
+]
