@@ -199,9 +199,9 @@ We evaluated one model from the Llama family `meta-llama/Meta-Llama-3-8B-Instruc
 
 |AR-LSAT|meta-llama/Meta-Llama-3-8B-Instruct|gemini-1.0-pro-vision-001|gemini-1.5-pro-preview-0409|gemini-1.5-pro-preview-0514|gemini-1.5-flash-preview-0514|
  |---|---|---|---|---|---| 
-|Overall_Accuracy|22|26.09|24.68|31.60|**34.63**|
-|Executable_Rate|0.00|0.00|26.41|**33.77**|
-|Executable_Accuracy|0.00|0.00|**60.66**|60.26| 
+|Overall_Accuracy|22.0|26.09|24.68|31.60|**34.63**|
+|Executable_Rate|0.00|0.00|0.00|26.41|**33.77**|
+|Executable_Accuracy|0.00|0.00|0.00|**60.66**|60.26| 
 
 From these tables it is clear that there is not one dominant model from the Gemini and Llama family, since between the five tasks there are three different models performing best. Furthermore, models that perform best on a certain task, may completely fail to generate executable logic programs on another task. On inspection, such total failure is often due to the model being unable to follow the instructions concerning the formatting of the logic program. So it will for example add explanations for what it is doing in natural language in places where it will break the logic program. There does not seem to be a clear pattern in when a model fails in this way. Even models that are presumably similar like gemini-1.5-pro-preview-0409 and gemini-1.5-pro-preview-0514 give unpredictably different results in this regard. Recall here that we sample with 0 temperature. This points to an important fragility in the Logic-LM approach. Besides random total failures, there is the case of AR-LSAT where no model performs well. Analysis of the mistakes suggests that the model does not understand parts of the syntax of the z3 solver. It will try to use functionalities from the z3 solver incorrectly. This is probably due to there not being enough z3 code in the pre-training data and the few shot examples not covering certain aspects of the language. Exploratory experimentation with huge prompts (~750k tokens) simply also containing all documentation for z3 did not solve the problems.
 
