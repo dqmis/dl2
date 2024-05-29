@@ -235,7 +235,7 @@ We found that for logical tasks, where we have to predict one option out of 5 av
 |          AR-LSAT Predict wrong answer choices          |  Direct   |                          26                          |
 
 |                        Dataset                         | Swap the correct answer always to first choice | Swap the correct answer always to second choice | Swap the correct answer always to third choice | Swap the correct answer always to forth choice | Swap the correct answer always to fifth choice |
-| :----------------------------------------------------: | :-------: | :--------------------------------------------------: |
+| :----------------------------------------------------: | :-------: | :--------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------: |
 |  Llama3 |                         25                         | 19.81 | 16.59 | 17.67  |  21.3  |
 | Gemini |                      14.78                         |  24.78  | 22.17 | 24.34  | 14.78  |               
 
