@@ -222,23 +222,18 @@ From these tables it is clear that there is not one dominant model from the Gemi
 
 Evaluation of the baselines with Gemini. All baselines results (Direct and CoT) are done with gemini-1.5-flash-preview-0514. The best accuracy score of the Logic-LM approach with the CoT backup strategy is presented for comparison.
 
-| dataset          | mode     | accuracy  | best model                    |
-| ---------------- | -------- | --------- | ----------------------------- |
-| ProntoQA         | Direct   | 63.80     | n/a                           |
-| ProntoQA         | CoT      | 92.34     | n/a                           |
-| ProntoQA         | Logic-LM | **97.40** | gemini-1.5-pro-preview-0409   |
-| ProofWriter      | Direct   | 53.83     | n/a                           |
-| ProofWriter      | CoT      | 65.15     | n/a                           |
-| ProofWriter      | Logic-LM | **78.04** | gemini-1.5-pro-preview-0409   |
-| FOLIO            | Direct   | 66.67     | n/a                           |
-| FOLIO            | CoT      | 49.25     | n/a                           |
-| FOLIO            | Logic-LM | **80.60** | gemini-1.5-pro-preview-0514   |
-| LogicalDeduction | Direct   | 54.67     | n/a                           |
-| LogicalDeduction | CoT      | 30.00     | n/a                           |
-| LogicalDeduction | Logic-LM | **84.67** | gemini-1.5-pro-preview-0514   |
-| AR-LSAT          | Direct   | 27.95     | n/a                           |
-| AR-LSAT          | CoT      | 20.35     | n/a                           |
-| AR-LSAT          | Logic-LM | **35.50** | gemini-1.5-flash-preview-0514 |
+|dataset | info | Direct | CoT| Logic-LM (backup) |
+| --- | --- | --- | ---  | --- | 
+|  ProntoQA | best acc |  79.96 | 99.34 | 97.40
+|  ProntoQA | best model | gemini-1.5-pro-preview-0514 | gemini-1.5-pro-preview-0514 | gemini-1.5-pro-preview-0409   (CoT)|
+|  ProofWriter | best acc |  56.67 | 74.11 | 79.73|
+|  ProofWriter | best model |gemini-1.5-pro-preview-0514 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0409   (CoT)|
+|  FOLIO | best acc |  66.67 | 77.61 | 82.67|
+|  FOLIO | best model |gemini-1.5-flash-preview-0514 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0409   (CoT)|
+|  LogicalDeduction | best acc |  59.00 | 69.00 | 84.67|
+|  LogicalDeduction | best model |gemini-1.5-pro-preview-0514 | gemini-1.5-pro-preview-0409 | gemini-1.5-pro-preview-0514   (random)|
+|  AR-LSAT | best acc |  28.14 | 25.54 | 38.53|
+|  AR-LSAT | best model |gemini-1.5-pro-preview-0514 | gemini-1.0-pro-vision-001 | gemini-1.5-pro-preview-0514   (Direct)|
 
 Here we see that the results of the Logic-LM approach with the best model significantly outperforms both direct and CoT prompting. Note however that the fragility noted above means that it is not necessarily clear a priori which model would be the best for the Logic-LM approach.
 
