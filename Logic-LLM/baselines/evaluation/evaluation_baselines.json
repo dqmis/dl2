@@ -2,72 +2,75 @@
     "gemini-1.0-pro-vision-001": {
         "ProntoQA": {
             "Direct": {
-                "Average_EM_score": 0.0
+                "Average_EM_score": 0.596
             },
             "CoT": {
-                "Average_EM_score": 0.0
+                "Average_EM_score": 0.8446866485013624
             }
         },
         "ProofWriter": {
             "Direct": {
-                "Average_EM_score": 0.0
+                "Average_EM_score": 0.34833333333333333
+            },
+            "CoT": {
+                "Average_EM_score": 0.5667244367417678
             }
         },
         "FOLIO": {
             "Direct": {
-                "Average_EM_score": 0.0
+                "Average_EM_score": 0.5980392156862745
             }
         },
         "LogicalDeduction": {
             "Direct": {
-                "Average_EM_score": 0.0
+                "Average_EM_score": 0.45666666666666667
             }
         },
         "AR-LSAT": {
             "Direct": {
-                "Average_EM_score": 0.0
+                "Average_EM_score": 0.20346320346320346
             }
         }
     },
     "gemini-1.5-pro-preview-0409": {
         "ProntoQA": {
             "Direct": {
-                "Average_EM_score": 0.362
+                "Average_EM_score": 0.474
             },
             "CoT": {
-                "Average_EM_score": 0.04670912951167728
+                "Average_EM_score": 0.9851380042462845
             }
         },
         "ProofWriter": {
             "Direct": {
-                "Average_EM_score": 0.14166666666666666
+                "Average_EM_score": 0.15166666666666667
             },
             "CoT": {
-                "Average_EM_score": 0.6649746192893401
+                "Average_EM_score": 0.7411167512690355
             }
         },
         "FOLIO": {
             "Direct": {
-                "Average_EM_score": 0.24509803921568626
+                "Average_EM_score": 0.39705882352941174
             },
             "CoT": {
-                "Average_EM_score": 0.19402985074626866
+                "Average_EM_score": 0.7761194029850746
             }
         },
         "LogicalDeduction": {
             "Direct": {
-                "Average_EM_score": 0.18666666666666668
+                "Average_EM_score": 0.5333333333333333
             },
             "CoT": {
-                "Average_EM_score": 0.0
+                "Average_EM_score": 0.69
             }
         },
         "AR-LSAT": {
             "Direct": {
-                "Average_EM_score": 0.21645021645021645
+                "Average_EM_score": 0.23809523809523808
             },
             "CoT": {
-                "Average_EM_score": 0.12987012987012986
+                "Average_EM_score": 0.22943722943722944
             }
         }
     },
@@ -77,7 +80,7 @@
                 "Average_EM_score": 0.7995991983967936
             },
             "CoT": {
-                "Average_EM_score": 0.4756637168141593
+                "Average_EM_score": 0.9933628318584071
             }
         },
         "ProofWriter": {
@@ -85,7 +88,7 @@
                 "Average_EM_score": 0.5666666666666667
             },
             "CoT": {
-                "Average_EM_score": 0.5495798319327732
+                "Average_EM_score": 0.5983193277310924
             }
         },
         "FOLIO": {
@@ -93,7 +96,7 @@
                 "Average_EM_score": 0.4019607843137255
             },
             "CoT": {
-                "Average_EM_score": 0.3712871287128713
+                "Average_EM_score": 0.48514851485148514
             }
         },
         "LogicalDeduction": {
@@ -101,7 +104,7 @@
                 "Average_EM_score": 0.59
             },
             "CoT": {
-                "Average_EM_score": 0.1705685618729097
+                "Average_EM_score": 0.6020066889632107
             }
         },
         "AR-LSAT": {
@@ -109,7 +112,7 @@
                 "Average_EM_score": 0.2813852813852814
             },
             "CoT": {
-                "Average_EM_score": 0.19047619047619047
+                "Average_EM_score": 0.19913419913419914
             }
         }
     },
@@ -119,7 +122,7 @@
                 "Average_EM_score": 0.638
             },
             "CoT": {
-                "Average_EM_score": 0.9234042553191489
+                "Average_EM_score": 0.925531914893617
             }
         },
         "ProofWriter": {
@@ -127,7 +130,7 @@
                 "Average_EM_score": 0.5383333333333333
             },
             "CoT": {
-                "Average_EM_score": 0.6515151515151515
+                "Average_EM_score": 0.6683501683501684
             }
         },
         "FOLIO": {
@@ -135,7 +138,7 @@
                 "Average_EM_score": 0.6666666666666666
             },
             "CoT": {
-                "Average_EM_score": 0.49246231155778897
+                "Average_EM_score": 0.6733668341708543
             }
         },
         "LogicalDeduction": {
@@ -143,7 +146,7 @@
                 "Average_EM_score": 0.5466666666666666
             },
             "CoT": {
-                "Average_EM_score": 0.3
+                "Average_EM_score": 0.5533333333333333
             }
         },
         "AR-LSAT": {

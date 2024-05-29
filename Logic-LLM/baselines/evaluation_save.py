@@ -13,14 +13,17 @@ def evaluate_QA_gemini_save(QA_results, answer_options):
         gold_answer = sample['answer'].replace('(', '').replace(')', '').strip()
         answer_str = sample['predicted_answer'].strip()
 
-        prediction = re.search(rf'(?<=\s|[^a-zA-Z0-9])[{answer_options}](?=\s|[^a-zA-Z0-9])', answer_str)
-        if prediction:
-            prediction =prediction.group(0)
+        if answer_str == gold_answer:
+            prediction = answer_str
+        else:
+            prediction = re.search(rf'(?<=\s|[^a-zA-Z0-9])[{answer_options}](?=\s|[^a-zA-Z0-9])', answer_str)
+            if prediction:
+                prediction =prediction.group(0)
         
         em_score = 1.0 if prediction == gold_answer else 0.0
+
         total_em += em_score
         count += 1
-    
     avg_em = total_em / count
     return avg_em
 
@@ -41,9 +44,7 @@ def full_evaluation_save():
                 if os.path.isfile(result_file):
                     with open(result_file, 'r') as f:
                         all_samples = json.load(f)
-                    
                     avg_em = evaluate_QA_gemini_save(all_samples, answer_options)
-                    
                     results_json[model_name][dataset_name][mode] = {
                         "Average_EM_score": avg_em,
                     }
