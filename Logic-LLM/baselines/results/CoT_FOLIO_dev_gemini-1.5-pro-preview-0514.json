@@ -1,0 +1,1416 @@
+[
+  {
+    "id": "FOLIO_dev_0",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Bonnie performs in school talent shows often.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\nLet's break down the information provided to determine if Bonnie performs in school talent shows:\n\n* **Fact:** All people who are inactive and disinterested members of their community chaperone high school dances.\n* **Fact:** All people who are inactive and disinterested members of their community DO NOT perform in school talent shows often (because they are inactive).\n* **Fact:**  If people chaperone high school dances, then they are NOT students who attend the school.\n* **Fact:** Bonnie must either be BOTH a student who attends the school AND attends and is engaged in school events, OR she is NEITHER of those things.\n\nNow let's consider the possibilities:\n\n* **Possibility 1: Bonnie chaperones dances.**  If so, she's not a student and doesn't perform in talent shows. This fits the second part of Bonnie's condition.\n* **Possibility 2: Bonnie doesn't chaperone dances.** This means she's NOT an inactive and disinterested community member.  To fulfill Bonnie's condition, she MUST be a student who attends and is engaged in school events. Since engaged students who attend school could perform in talent shows, it's possible Bonnie does.\n\n**Conclusion:**\n\nWe cannot definitively say whether Bonnie performs in school talent shows or not. It's possible, but not guaranteed.\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_1",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If Bonnie is either both a young child or teenager who wishes to further her academic career and educational opportunities and chaperones high school dances or neither is a young child nor teenager who wishes to further her academic career and educational opportunities, then Bonnie is either a student who attends the school or is an inactive and disinterested member of the community.",
+    "answer": "A",
+    "predicted_reasoning": "Let's break down the reasoning for the third example:\n\n**Reasoning:**\n\n* **Focus on the core of the question:** The question is structured to be intentionally complex.  It's trying to determine if a specific combination of traits about Bonnie will lead to one of two conclusions. \n* **Analyze Bonnie's potential situations:**\n    * **Scenario 1: Bonnie is young, wants to further her education, AND chaperones dances.** \n        * We know those who chaperone dances are NOT students. \n        * We know those who are inactive and disinterested in their community chaperone dances.\n        * **Therefore, in this scenario, Bonnie MUST be an inactive and disinterested member of her community.**\n    * **Scenario 2: Bonnie is NOT young or interested in furthering her education.**\n        * This scenario doesn't give us direct information about her being a student or inactive community member. It's possible, but we can't be certain.\n* **Consider the \"either/or\" about Bonnie:** We're told Bonnie is EITHER very engaged with school and a student OR she's neither of those things. Since Scenario 1 establishes she's NOT a student, she can't be engaged with school either.\n\n**Conclusion:**\n\nThe statement is **True**. Here's why:\n\n* Scenario 1 definitively places Bonnie as an inactive and disinterested community member.\n* Scenario 2, while less certain, doesn't contradict the possibility of Bonnie being an inactive community member. \n\nThe question is structured so that even one scenario confirming the statement makes it true.",
+    "predicted_answer": "Let's break down the reasoning for the third example:\n\n**Reasoning:**\n\n* **Focus on the core of the question:** The question is structured to be intentionally complex.  It's trying to determine if a specific combination of traits about Bonnie will lead to one of two conclusions. \n* **Analyze Bonnie's potential situations:**\n    * **Scenario 1: Bonnie is young, wants to further her education, AND chaperones dances.** \n        * We know those who chaperone dances are NOT students. \n        * We know those who are inactive and disinterested in their community chaperone dances.\n        * **Therefore, in this scenario, Bonnie MUST be an inactive and disinterested member of her community.**\n    * **Scenario 2: Bonnie is NOT young or interested in furthering her education.**\n        * This scenario doesn't give us direct information about her being a student or inactive community member. It's possible, but we can't be certain.\n* **Consider the \"either/or\" about Bonnie:** We're told Bonnie is EITHER very engaged with school and a student OR she's neither of those things. Since Scenario 1 establishes she's NOT a student, she can't be engaged with school either.\n\n**Conclusion:**\n\nThe statement is **True**. Here's why:\n\n* Scenario 1 definitively places Bonnie as an inactive and disinterested community member.\n* Scenario 2, while less certain, doesn't contradict the possibility of Bonnie being an inactive community member. \n\nThe question is structured so that even one scenario confirming the statement makes it true."
+  },
+  {
+    "id": "FOLIO_dev_2",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If Bonnie either chaperones high school dances or, if she does not, she performs in school talent shows often, then Bonnie is both a young child or teenager who wishes to further her academic career and educational opportunities and an inactive and disinterested member of the community.",
+    "answer": "B",
+    "predicted_reasoning": "Let's break down the reasoning step-by-step:\n\n**1. Analyze the possibilities within the statement:**\n\n* **Possibility 1: Bonnie chaperones high school dances.** \n    * If she chaperones dances, she's not a student who attends the school (given information).\n    * If she's not a student, she can't be a young child or teenager who wishes to further their academic career (given information).\n    * All inactive and disinterested community members chaperone dances. So in this possibility, she IS an inactive community member.\n\n* **Possibility 2: Bonnie does not chaperone dances, but performs in school talent shows often.**\n    * If she performs in talent shows often, she attends and is engaged with school events (given information).\n    * This contradicts the condition that she either BOTH attends/is engaged AND is a student, OR neither. Since she attends/is engaged, she MUST be a student for this possibility to hold.\n    * Students cannot be inactive and disinterested community members (implied by the information about students wanting to further their education).\n\n**2.  Combine the possibilities:**\n\n* We're looking for the statement to be true if EITHER possibility is true.\n* Possibility 1 tells us she CAN be an inactive community member.\n* Possibility 2 tells us she CANNOT be an inactive community member but MUST be a student.\n\n**Conclusion:**\n\nSince the two possibilities lead to contradictory conclusions about Bonnie's community involvement, we cannot definitively say the statement is true.  \n\n**Therefore, the correct option is: C) Uncertain**",
+    "predicted_answer": "Let's break down the reasoning step-by-step:\n\n**1. Analyze the possibilities within the statement:**\n\n* **Possibility 1: Bonnie chaperones high school dances.** \n    * If she chaperones dances, she's not a student who attends the school (given information).\n    * If she's not a student, she can't be a young child or teenager who wishes to further their academic career (given information).\n    * All inactive and disinterested community members chaperone dances. So in this possibility, she IS an inactive community member.\n\n* **Possibility 2: Bonnie does not chaperone dances, but performs in school talent shows often.**\n    * If she performs in talent shows often, she attends and is engaged with school events (given information).\n    * This contradicts the condition that she either BOTH attends/is engaged AND is a student, OR neither. Since she attends/is engaged, she MUST be a student for this possibility to hold.\n    * Students cannot be inactive and disinterested community members (implied by the information about students wanting to further their education).\n\n**2.  Combine the possibilities:**\n\n* We're looking for the statement to be true if EITHER possibility is true.\n* Possibility 1 tells us she CAN be an inactive community member.\n* Possibility 2 tells us she CANNOT be an inactive community member but MUST be a student.\n\n**Conclusion:**\n\nSince the two possibilities lead to contradictory conclusions about Bonnie's community involvement, we cannot definitively say the statement is true.  \n\n**Therefore, the correct option is: C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_3",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? James has lunch in the company.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nWe can consider the two possibilities for James:\n\n* **Possibility 1: James is a manager and appears in the company today.**  Since no managers work remotely, James must be in the company. Employees in the company either have lunch there or at home. Since James is a manager and cannot work remotely, he cannot have lunch at home. Therefore, James must have lunch in the company.\n\n* **Possibility 2: James is neither a manager nor appears in the company today.** Since all employees who schedule a meeting with their customers will appear in the company today, James did not schedule a meeting with his customers. Since everyone who has lunch in the company schedules meetings with their customers, James cannot have lunch in the company.\n\n**Therefore, the statement is uncertain.** James has lunch in the company if and only if he is a manager.",
+    "predicted_answer": "**C**"
+  },
+  {
+    "id": "FOLIO_dev_4",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? James does not have lunch in the company.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nLet's consider the two possibilities for James:\n\n* **Possibility 1: James is a manager and appears in the company today.** \n    * Since he appears in the company, we know he scheduled a meeting with his customers (because all employees who schedule meetings appear in the company).\n    * Because he schedules meetings with customers, he must have lunch in the company (everyone who has lunch in the company schedules meetings). \n    * **Therefore, in this possibility, James has lunch in the company.**\n\n* **Possibility 2: James is neither a manager nor appears in the company today.**\n    * Since he doesn't appear in the company, he must be working remotely from home (because employees either have lunch at the company or work remotely).\n    * Employees working remotely have lunch at home. \n    * **Therefore, in this possibility, James does not have lunch in the company.**\n\n**Conclusion:**\n\nSince James either has lunch in the company or doesn't, the statement \"James does not have lunch in the company\" is **Uncertain (C)**.",
+    "predicted_answer": "Reasoning:\nLet's consider the two possibilities for James:\n\n* **Possibility 1: James is a manager and appears in the company today.** \n    * Since he appears in the company, we know he scheduled a meeting with his customers (because all employees who schedule meetings appear in the company).\n    * Because he schedules meetings with customers, he must have lunch in the company (everyone who has lunch in the company schedules meetings). \n    * **Therefore, in this possibility, James has lunch in the company.**\n\n* **Possibility 2: James is neither a manager nor appears in the company today.**\n    * Since he doesn't appear in the company, he must be working remotely from home (because employees either have lunch at the company or work remotely).\n    * Employees working remotely have lunch at home. \n    * **Therefore, in this possibility, James does not have lunch in the company.**\n\n**Conclusion:**\n\nSince James either has lunch in the company or doesn't, the statement \"James does not have lunch in the company\" is **Uncertain (C)**."
+  },
+  {
+    "id": "FOLIO_dev_5",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If James is either a manager or in other countries,  then James either has lunch at home and works remotely from home, or neither has lunch at home nor works remotely from home.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nLet's consider the two possibilities for James:\n\n* **Case 1: James is a manager.** \n    * We know that no managers work remotely from home. \n    * Since James is a manager, he doesn't work remotely from home.\n    * We also know that if an employee has lunch at home, then they are working remotely from home. Since James doesn't work remotely, he doesn't have lunch at home.\n    * **Therefore, if James is a manager, he neither has lunch at home nor works remotely from home.**\n\n* **Case 2: James is in another country.**\n    * We know that all employees in other countries work remotely from home.\n    * Since James is in another country, he works remotely from home.\n    * We also know that if an employee works remotely from home, then they have lunch at home.\n    * **Therefore, if James is in another country, he has lunch at home and works remotely from home.**\n\n**Analyzing both cases, we see that the statement \"James either has lunch at home and works remotely from home, or neither has lunch at home nor works remotely from home\" holds true.**",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_6",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? There is an animal.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nIt is stated that mammals are animals. Since there is at least one mammal (humans), there must be at least one animal.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_7",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? No one gets flu.",
+    "answer": "C",
+    "predicted_reasoning": "The provided context only states that people feel tired when they get the flu. It does not say that feeling tired is the only condition under which people feel tired. Therefore, we cannot conclude that no one gets the flu.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_8",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Symptons of Monkeypox include coughing.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nThe context lists the symptoms of Monkeypox as fever, headache, muscle pains, and feeling tired. Coughing is not mentioned as a symptom of Monkeypox.",
+    "predicted_answer": "**C) Uncertain** \n\n**Explanation:** While the provided information doesn't list coughing as a symptom, it doesn't definitively say it ISN'T a symptom.  We don't have enough information to determine if coughing is or isn't related to Monkeypox."
+  },
+  {
+    "id": "FOLIO_dev_9",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Tom is an Ocellated wild turkey.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nWe know that there are only six types of wild turkeys and Tom is a wild turkey. We are also told that Tom is not five of those types: Eastern, Osceola, Gould's, Merriam's, and Rio Grande. This leaves only one option: Ocellated.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_10",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Tom is an Eastern wild turkey.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nWe are told that there are six types of wild turkeys and that Tom is a wild turkey. We are then told that Tom is not five of those types: Eastern, Osceola, Gould's, Merriam's, and Rio Grande. This leaves only one option for what type of wild turkey Tom can be: an Ocellated wild turkey. Since Tom is an Ocellated wild turkey, he cannot be an Eastern wild turkey.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_11",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Joey is a wild turkey.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nThe provided information is about Tom and what type of wild turkey he is. There is no information about Joey. Therefore, we cannot know whether Joey is a wild turkey.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_12",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? The Legend of Zelda is in the Top 10 list.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\nThe Legend of Zelda sold more than one million copies. If a game sells more than one million copies, then it will be selected into the Top 10 list. Therefore, the Legend of Zelda is in the Top 10 list.\n\n**",
+    "predicted_answer": "A**"
+  },
+  {
+    "id": "FOLIO_dev_13",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? FIFA 22 is made by a Japanese video game company.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\nWe know that games selling over a million copies make it to the Top 10 list, and all games in the Top 10 list are made by Japanese companies.  The Legend of Zelda is confirmed to be made by a Japanese company and sold over a million copies. \n\nHowever, this doesn't tell us anything definitive about FIFA 22.  \n\n* **FIFA 22 could have sold over a million copies**, making it eligible for the Top 10 and therefore made by a Japanese company. \n* **FIFA 22 could have sold poorly** and have no relation to the Top 10 list. It could still be made by a Japanese company, or not.\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_14",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? The Legend of Zelda is not in the Top 10 list.",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\nThe Legend of Zelda sold more than one million copies. If a game sells more than one million copies, then it will be selected into the Top 10 list. Therefore, the Legend of Zelda is in the Top 10 list. \n\n**",
+    "predicted_answer": "B**"
+  },
+  {
+    "id": "FOLIO_dev_15",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? All squares are shapes.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nThe given information states:\n* All squares have four sides.\n* All four-sided things are shapes.\n\nSince squares have four sides, and anything with four sides is a shape, then squares must be shapes.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_16",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Rock is a turtle.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\n* We know \"Rock is still\".\n* We also know \"If something is skittish, then it is not still\".  Therefore, Rock cannot be skittish.\n* We are told \"All squirrels are skittish\". Since Rock is not skittish, Rock cannot be a squirrel.\n* The information states \"An animal is either a rabbit or a squirrel\". Since Rock isn't a squirrel, it must be a rabbit. \n* However, we have no information linking rabbits or squirrels to turtles. While we know \"Some turtles exist\", we don't know anything about their other characteristics or if they relate to rabbits in any way.\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_17",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Rock is not a turtle.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\nWe are given that Rock is still. We also know that if something is skittish, it is not still. Since all squirrels are skittish, we can conclude that Rock is not a squirrel. \n\nHowever, there is no direct or indirect relationship given between being a rock and being a turtle.  While we know some turtles exist, we don't have enough information to determine if Rock is or isn't a turtle.\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_18",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Rock is a turtle or cute.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\n1. **Rock is not a rabbit:** We know Rock is still.  Squirrels are skittish, and skittish things are not still, so Rock is not a squirrel. Since an animal is either a rabbit or a squirrel, and Rock isn't a squirrel, if Rock is an animal, it must be a rabbit. However, all rabbits are cute, and we have no information about Rock being cute. Therefore, Rock cannot be a rabbit.\n\n2. **Rock is not cute:** We are not given any information about rocks being cute. \n\n3. **Rock might be a turtle:** The information about turtles existing doesn't relate to Rock. Rock could be a turtle, or it could be something else entirely.\n\n**Therefore, the statement \"Rock is a turtle or cute\" is Uncertain (Option C).** We can't confirm or deny either part of the statement.",
+    "predicted_answer": "**Reasoning:**\n\n1. **Rock is not a rabbit:** We know Rock is still.  Squirrels are skittish, and skittish things are not still, so Rock is not a squirrel. Since an animal is either a rabbit or a squirrel, and Rock isn't a squirrel, if Rock is an animal, it must be a rabbit. However, all rabbits are cute, and we have no information about Rock being cute. Therefore, Rock cannot be a rabbit.\n\n2. **Rock is not cute:** We are not given any information about rocks being cute. \n\n3. **Rock might be a turtle:** The information about turtles existing doesn't relate to Rock. Rock could be a turtle, or it could be something else entirely.\n\n**Therefore, the statement \"Rock is a turtle or cute\" is Uncertain (Option C).** We can't confirm or deny either part of the statement."
+  },
+  {
+    "id": "FOLIO_dev_19",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If Rock is not both a turtle and a squirrel, then Rock is either cute or skittish.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\n1. **Rock cannot be a squirrel:** We know Rock is still, and all squirrels are skittish. Since something skittish cannot be still, Rock cannot be a squirrel.\n\n2. **Rock is not a rabbit:** The statement tells us Rock is not both a turtle and a squirrel. We already established Rock isn't a squirrel.  Even if Rock were a turtle, it wouldn't change the fact that it's not a squirrel.  Since an animal is either a rabbit or a squirrel, and Rock isn't a squirrel, Rock must be a rabbit.\n\n3. **Rock is cute:** All rabbits are cute, and we've established Rock is a rabbit. Therefore, Rock is cute.\n\n4. **The statement is true:** The statement \"If Rock is not both a turtle and a squirrel, then Rock is either cute or skittish\" is true because we've proven Rock is cute. \n\n**",
+    "predicted_answer": "A**"
+  },
+  {
+    "id": "FOLIO_dev_20",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If Rock is cute and still, then Rock is a turtle and skittish.",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\n1. **We know Rock is still.** The context states \"Rock is still.\"\n2. **Being still means not skittish.** The context says, \"If something is skittish, then it is not still.\"\n3. **Squirrels are always skittish.**  The context states, \"All squirrels are skittish.\"\n4. **Rock cannot be a squirrel.** Since Rock is still (and therefore not skittish), and all squirrels are skittish, Rock cannot be a squirrel.\n5. **Rock cannot be a rabbit.** We are given that \"An animal is either a rabbit or a squirrel.\" Since Rock isn't a squirrel, it must be a rabbit.\n6. **The statement is about Rock being a turtle.** This is impossible because the context already led us to conclude Rock is a rabbit.\n\n**Therefore, the correct option is: B) False** \n\nThe statement is false because it claims Rock is both a turtle and skittish, which contradicts the given information.",
+    "predicted_answer": "**Reasoning:**\n\n1. **We know Rock is still.** The context states \"Rock is still.\"\n2. **Being still means not skittish.** The context says, \"If something is skittish, then it is not still.\"\n3. **Squirrels are always skittish.**  The context states, \"All squirrels are skittish.\"\n4. **Rock cannot be a squirrel.** Since Rock is still (and therefore not skittish), and all squirrels are skittish, Rock cannot be a squirrel.\n5. **Rock cannot be a rabbit.** We are given that \"An animal is either a rabbit or a squirrel.\" Since Rock isn't a squirrel, it must be a rabbit.\n6. **The statement is about Rock being a turtle.** This is impossible because the context already led us to conclude Rock is a rabbit.\n\n**Therefore, the correct option is: B) False** \n\nThe statement is false because it claims Rock is both a turtle and skittish, which contradicts the given information."
+  },
+  {
+    "id": "FOLIO_dev_21",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Karen will share \"Stranger Things\" to Lisa.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\n1. We know \"Stranger Things\" is a popular Netflix show, and if a Netflix show is popular, Karen will binge-watch it. Therefore, Karen will binge-watch \"Stranger Things.\"\n\n2. We also know that if Karen binge-watches a Netflix show, she will share it with Lisa. \n\n3. Since Karen binge-watches \"Stranger Things,\" she will share it with Lisa.\n\n**",
+    "predicted_answer": "A**"
+  },
+  {
+    "id": "FOLIO_dev_22",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? \"Black Mirror\" is popular.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\n\nKaren does not download \"Black Mirror\". If and only if Karen binge-watches a Netflix show, she will download it. Therefore, Karen does not binge-watch \"Black Mirror\". If a Netflix show is popular, Karen will binge-watch it. We know that \"Black Mirror\" is a Netflix show and Karen does not binge-watch it. Therefore, \"Black Mirror\" is not popular.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_23",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Karen will share \"Black Mirror\" to Lisa.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\n1. We know that Karen does not download \"Black Mirror\". \n2. We also know that Karen downloads a Netflix show if and only if she binge-watches it. This means if she doesn't download it, she didn't binge-watch it. Therefore, Karen did not binge-watch \"Black Mirror\".\n3. Karen only shares Netflix shows to Lisa if she binge-watches them. Since she didn't binge-watch \"Black Mirror\", she won't share it.\n\n**",
+    "predicted_answer": "B) False**"
+  },
+  {
+    "id": "FOLIO_dev_24",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Beijing has hosted both the 2008 Summer Olympics and a winter olympics.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\n\nThe text states that Beijing has hosted both the Summer and Winter Olympics. It does not explicitly state that Beijing has hosted a Winter Olympics *in addition to* the 2008 Summer Olympics.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_25",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Beijing is located in southern China.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nThe text states that Beijing is located in Northern China.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_26",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Beijing is the second largest Chinese city by urban population.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nThe provided text states that Beijing is the world's most populous national capital city. However, it does not provide information about the population of other Chinese cities. Therefore, we cannot determine if Beijing is the second-largest Chinese city by urban population.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_27",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Marvin is an alien.",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\n* We know that Marvin cannot be from both Earth and Mars. \n* If Marvin is not from Earth, he must be an extraterrestrial (given information).\n* Since all extraterrestrials are aliens, if Marvin is not from Earth, he must be an alien.\n\n**Therefore, the correct option is: A) True**",
+    "predicted_answer": "**Reasoning:**\n\n* We know that Marvin cannot be from both Earth and Mars. \n* If Marvin is not from Earth, he must be an extraterrestrial (given information).\n* Since all extraterrestrials are aliens, if Marvin is not from Earth, he must be an alien.\n\n**Therefore, the correct option is: A) True**"
+  },
+  {
+    "id": "FOLIO_dev_28",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Marvin is neither a human nor from Mars.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\n* We know that Marvin cannot be from both Earth and Mars. \n* If Marvin is not from Earth, he is an extraterrestrial. \n* Since all extraterrestrials are not human, Marvin cannot be human.\n* We are also given that if someone is from Mars, they are an alien. Since all aliens are extraterrestrial and no extraterrestrial is human, someone from Mars cannot be human.\n* Since Marvin cannot be both from Earth and Mars, and if he's from Mars he's not human, the only option left is that he's not from Mars.\n\n**Therefore, Marvin is neither a human nor from Mars.**\n\n**",
+    "predicted_answer": "A**"
+  },
+  {
+    "id": "FOLIO_dev_29",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If Marvin is not from Mars, then Marvin is a human.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nWe know that Marvin cannot be from Earth and from Mars. Let's consider the possibility that Marvin is not from Mars. Since anyone from Mars is an alien, if Marvin is not from Mars, he's not an alien. We also know that if Marvin is not from Earth, then he is an extraterrestrial. Since all aliens are extraterrestrial, and we've established Marvin is not an alien, he cannot be an extraterrestrial. This contradicts the statement that if he's not from Earth, he's extraterrestrial. Therefore, Marvin must be from Earth. Everyone from Earth is human. Therefore, Marvin is human.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_30",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Djokovic is a Grand Slam champion.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nWe know that if Djokovic is famous and is an athlete, then Djokovic is well paid. Since all athletes are famous, we can conclude that if Djokovic is an athlete, then he is well paid. All well-paid people live in tax havens, so if Djokovic is an athlete, then he lives in a tax haven. However, there is no information provided that links living in a tax haven, being well paid, or being an athlete to being a Grand Slam champion.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_31",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Djokovic lives in a tax haven.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\nWe need to determine if we can definitively say Djokovic lives in a tax haven based on the given information. Here's a breakdown:\n\n* **We are given:** \"If Djokovic is famous and is an athlete, then Djokovic lives in well paid.\"  Note this is an error in the statement, it should say \"well paid\" should be \"a tax haven\".  We will assume it says \"a tax haven\".\n* **We also know:** \n    * \"If a person is an athlete then they are famous.\"  So, Djokovic being an athlete automatically makes him famous.\n    * \"All well-paid people live in tax havens.\"\n\n**Putting it together:**\n\n1. **Djokovic is an athlete (given).**\n2. **Athletes are famous (rule), so Djokovic is famous.**\n3. **Djokovic is famous and an athlete, and we're told this means he lives in a tax haven (given).**\n\n**Therefore, the statement \"Djokovic lives in a tax haven\" is TRUE.**\n\n**",
+    "predicted_answer": "A**"
+  },
+  {
+    "id": "FOLIO_dev_32",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Djokovic does not live in a tax haven.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nDjokovic is famous and is an athlete. If a person is famous and is an athlete, then the person is well paid. All well-paid people live in tax havens. Therefore, Djokovic lives in a tax haven.",
+    "predicted_answer": "**B**"
+  },
+  {
+    "id": "FOLIO_dev_33",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Roderick strong leads a professional wrestling stable.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nThe context states that Roderick Strong leads Diamond Mine. It is also stated that Diamond Mine is a professional wrestling stable. Therefore, Roderick Strong leads a professional wrestling stable.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_34",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Roderick strong leads the Creed Brothers.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\nThe passage states Roderick Strong leads Diamond Mine. It also states Diamond Mine includes the Creed Brothers. Therefore, Roderick Strong leads a group that includes the Creed Brothers. \n\n**",
+    "predicted_answer": "A**"
+  },
+  {
+    "id": "FOLIO_dev_35",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Imperium doesn't have a feud with a professional wrestling stable that includes Ivy Nile.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nImperium has a feud with Diamond Mine. Diamond Mine includes Ivy Nile. Therefore, Imperium has a feud with a professional wrestling stable that includes Ivy Nile.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_36",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Beethoven is a composer.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nBeethoven wrote Symphony No. 9. Composers write music pieces, and Symphony No. 9 is a music piece. Therefore, Beethoven is a composer.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_37",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Some orchestras premiered music pieces.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nThe Vienna Music Society is an orchestra. The Vienna Music Society premiered Symphony No. 9. Symphony No. 9 is a music piece. Therefore, the Vienna Music Society is an orchestra that premiered a music piece.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_38",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Beethoven is not a conductor.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nBeethoven leads the Vienna Music Society. Orchestras are led by conductors. Therefore, Beethoven is a conductor.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_39",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? A design by Max is a mass product design.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nWe know that all of Zaha Hadid's design styles are timeless and no mass product design is timeless. Therefore, Zaha Hadid's design style is not a mass product design. We also know that either Zaha Hadid's design style or Kelly Wearstler's design style is a mass product design. Therefore, Kelly Wearstler's design style is a mass product design. If a design by Max is timeless, then a design by Max is a mass product design and evocative. However, this does not tell us whether a design by Max is timeless or not. Therefore, we do not know whether a design by Max is a mass product design.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "FOLIO_dev_40",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? A design by Max is evocative and dreamy.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\n1. **Zaha Hadid's designs cannot be mass-produced:** We know \"All of Zaha Hadid's design styles are timeless\" and \"No mass product design is timeless.\" Therefore, Zaha Hadid's designs cannot be mass-produced.\n\n2. **Max's design is mass-produced:** We are given \"If a design by Max is timeless, then a design by Max is a mass product design and evocative.\" Since we need to prove Max's design is evocative, let's assume it's timeless. This makes Max's design a mass product design.\n\n3. **Max's design cannot be Zaha Hadid's:** As Max's design is mass-produced and Zaha Hadid's designs cannot be, they cannot be the same.\n\n4. **Max's design must be Kelly Wearstler's:** We are given \"Either Zaha Hadid's design style or Kelly Wearstler's design style\" applies to the timeless design by Max. Since it cannot be Zaha Hadid's, it must be Kelly Wearstler's.\n\n5. **Kelly Wearstler's designs are evocative and dreamy:** We know \"All of Kelly Wearstler's design styles are evocative\" and \"All of Kelly Wearstler's design styles are dreamy.\"\n\n6. **Therefore, Max's design is evocative and dreamy:** As Max's design is Kelly Wearstler's, and Kelly Wearstler's designs are evocative and dreamy, Max's design must also be evocative and dreamy.\n\n**",
+    "predicted_answer": "A) True**"
+  },
+  {
+    "id": "FOLIO_dev_41",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? A design by Max is either evocative or dreamy.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nWe know that all of Zaha Hadid's design styles are timeless and no mass product design is timeless. Therefore, Zaha Hadid's design style is not a mass product design. We also know that either Zaha Hadid's design style or Kelly Wearstler's design style is a mass product design. Therefore, Kelly Wearstler's design style is a mass product design. If a design by Max is timeless, then a design by Max is a mass product design and evocative. Since Kelly Wearstler's design style is a mass product design, a design by Max can be a mass product design. Therefore, a design by Max can be evocative. All of Kelly Wearstler's design styles are evocative and dreamy. However, we cannot be certain whether a design by Max is dreamy.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_42",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Coco Gauff is among the most active players in major tennis.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nCoco Gauff is not a male tennis player at Roland Garros 2022. All male tennis players at Roland Garros 2022 lost to Rafael Nadal. Therefore, Coco Gauff is not a player who lost to Rafael Nadal. If Coco Gauff is a player who is ranked highly by the Women's Tennis Association or a player who lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022. This implies that Coco Gauff is a player who is ranked highly by the Women's Tennis Association. If a player is ranked highly by the Women's Tennis Association, then they are among the most active players in major tennis. Therefore, Coco Gauff is among the most active players in major tennis.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_43",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Coco Gauff has lost to Rafael Nadal.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nCoco Gauff is not a male tennis player at Roland Garros 2022. All male tennis players at Roland Garros 2022 lost to Rafael Nadal. Therefore, Coco Gauff did not lose to Rafael Nadal.",
+    "predicted_answer": "**B**"
+  },
+  {
+    "id": "FOLIO_dev_44",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Coco Gauff is not a player who lost to Iga Świątek or one of the most active players in major tennis.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nCoco Gauff is not a male tennis player at Roland Garros 2022. All male tennis players at Roland Garros 2022 lost to Rafael Nadal. Therefore, Coco Gauff is not a player who lost to Rafael Nadal. If Coco Gauff is a player who is ranked highly by the Women's Tennis Association or a player who lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022. Therefore, Coco Gauff is a player who is ranked highly by the Women's Tennis Association. If a player is ranked highly by the Women's Tennis Association, then they are among the most active players in major tennis. Therefore, Coco Gauff is one of the most active players in major tennis.",
+    "predicted_answer": "**B**"
+  },
+  {
+    "id": "FOLIO_dev_45",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? No pets are cats.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\n* **Premise 1:** All cats are mammals.\n* **Premise 2:** Some pets are not mammals.\n\nFrom these premises, we can conclude:\n\n* Since some pets are NOT mammals, and ALL cats ARE mammals, then some pets must NOT be cats. \n\nHowever, this doesn't mean NO pets are cats. It's entirely possible that some OTHER pets ARE cats.\n\n**",
+    "predicted_answer": "C) Uncertain** \n\n**Diagram Explanation (optional):**\n\nYou can visualize this with a Venn Diagram:\n\n* Draw a large circle representing \"mammals.\"\n* Draw a smaller circle entirely within the \"mammals\" circle, representing \"cats.\"\n* Draw a third circle that partially overlaps the \"mammals\" circle, but does NOT overlap the \"cats\" circle. This represents \"pets.\" The part of the \"pets\" circle outside of \"mammals\" shows that some pets aren't mammals.\n\nThis diagram illustrates that while there's a section for pets that aren't cats, there's still room for some pets to be within the \"cats\" circle."
+  },
+  {
+    "id": "FOLIO_dev_46",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? James's favorite season is summer.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nWe know that James wants to have a long vacation. We also know that all students who want to have a long vacation love summer the most. Therefore, James's favorite season is summer.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_47",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? James's favorite season is fall.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nWe know James wants to have a long vacation. We also know that students who want to have a long vacation love summer the most. Therefore, James's favorite season is summer. Since summer is not fall, James's favorite season cannot be fall.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_48",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Mia's favorite season is spring.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\nWe only know that Mia's favorite season is not summer. There is no information about whether she likes spring, fall, or winter. \n\n**",
+    "predicted_answer": "C**"
+  },
+  {
+    "id": "FOLIO_dev_49",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? 1984 is printed text.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\n\nWe know that if 1984 is a streaming service, then it is a hardcover book. However, we also know that all streaming services are digital and no digital media are analog, making all streaming services NOT analog. Since every printed text is analog, and hardcover books are printed texts, 1984 cannot be a hardcover book because it would be both analog and digital. Therefore, the statement \"1984 is a streaming service\" is false. \n\nBecause the statement \"1984 is a streaming service\" is false, we cannot definitively say whether 1984 is a hardcover book.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_50",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? 1984 is a streaming service.",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\nWe know the following:\n\n* **If 1984 is a streaming service, then 1984 is a hardcover book.**  This statement is structured as an if-then statement (implication), not a statement of fact. \n* **All streaming services are digital.**\n* **No digital media are analog.**\n* **Every printed text is analog.**\n* **If an object is a hardcover book then it is printed text.**\n\nLet's analyze:\n\nIf 1984 were a streaming service, it would have to be digital. If it's digital, it cannot be analog.  Since printed text is always analog, and hardcover books are printed text, 1984 cannot be a hardcover book. This contradicts our initial given \"if-then\" statement. \n\nTherefore, the statement \"1984 is a streaming service\" must be false.\n\n**",
+    "predicted_answer": "B**"
+  },
+  {
+    "id": "FOLIO_dev_51",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? 1984 is not a streaming service.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nWe know that all streaming services are digital and no digital media are analog. Therefore, no streaming services are analog. We also know that every printed text is analog. Therefore, no streaming services are printed text. We are given that if an object is a hardcover book then it is printed text. Since no streaming services are printed text, then 1984 cannot be both a streaming service and a hardcover book. We are given that if 1984 is a streaming service, then 1984 is a hardcover book. Since this is impossible, then 1984 cannot be a streaming service.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_52",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Basque is a Romance language.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nBasque is not related to any other language. All languages within a language family are related to each other. The Romance languages are a language family. Therefore, Basque is not a Romance language.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_53",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? German is a Romance language.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nWe know that French and Spanish are Romance languages, and all Romance languages are related. We also know that German is related to Spanish. However, this does not necessarily make German a Romance language. It could be related through a different branch of the Indo-European language family.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_54",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? French is an Indo-European language.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nAll Romance languages are Indo-European languages. French is a Romance language. Therefore, French is an Indo-European language.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_55",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Robert Lewandowski is a soccer player.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nWe know that Robert Lewandowski is a striker and that strikers are soccer players. Therefore, we can conclude that Robert Lewandowski is a soccer player.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_56",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Robert Lewandowski plays for Bayern Munchen.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nWe know that Robert Lewandowski left Bayern Munchen. We also know that if a player left a team they no longer play for that team. Therefore, Robert Lewandowski no longer plays for Bayern Munchen.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_57",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Robert Lewandowski is a star.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\nThe provided text states that Robert Lewandowski is a striker and that strikers are soccer players. However, there is no information about Robert Lewandowski being a star. Being a striker or a soccer player doesn't automatically make someone a star. \n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_58",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Butte and Pierre are in the same state.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nWe know White Sulphur Springs and Butte are cities in the same state. We also know that Pierre is not in the same state as Butte. Therefore, Pierre cannot be in the same state as White Sulphur Springs. Since Butte and White Sulphur Springs are in the same state, and Pierre is not in the same state as White Sulphur Springs, Butte and Pierre cannot be in the same state.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_59",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Pierre and Bismarck are in the same state.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\nWe know that Pierre is not in Montana. However, we have no information about the location of Bismarck. Therefore, we cannot determine if Pierre and Bismarck are in the same state.\n\n**",
+    "predicted_answer": "C**"
+  },
+  {
+    "id": "FOLIO_dev_60",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Montana is home to the city of Missoula.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nWe are told that Montana includes the cities of Butte, Helena, and Missoula.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_61",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Mike has an F1 visa.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nWe know that Mike is an international student who needs to apply for CPT to work in the US. We also know that only international students with F1 visas need to apply for CPT or OPT to work. Therefore, Mike must have an F1 visa.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_62",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Mike has a J1 visa.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\nWe know that international students with F1 visas need to apply for CPT or OPT to work in the US. We also know that Mike needs to apply for CPT to work in the US. This strongly implies Mike has an F1 visa. Since international students have either an F1 or J1 visa, if Mike has an F1 visa, he cannot have a J1 visa.\n\n**",
+    "predicted_answer": "B) False**"
+  },
+  {
+    "id": "FOLIO_dev_63",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Ted is a pet.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\n* We know that no domesticated animals are alligators, and Ted is an alligator. \n* Therefore, Ted cannot be domesticated.\n* Since some pets are cows, and all cows are domesticated, some pets are domesticated.\n* Because Ted is not domesticated, he cannot be a pet. \n\n**",
+    "predicted_answer": "B**"
+  },
+  {
+    "id": "FOLIO_dev_64",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Ted is a pet and a cow.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nTed is an alligator. No domesticated animals are alligators, so Ted is not domesticated. If something is a bovine, then it is domesticated. Therefore, Ted is not a bovine. All cows are bovines. Therefore, Ted is not a cow. Some pets are cows. Since Ted is not a cow, Ted cannot be a pet and a cow.",
+    "predicted_answer": "**B**"
+  },
+  {
+    "id": "FOLIO_dev_65",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If Ted is a cow, then Ted is not a pet.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\n* We know Ted is an alligator. \n* We also know that no domesticated animals are alligators. This means Ted is not domesticated.\n* Since all bovines are domesticated, and Ted is not domesticated, we know Ted cannot be a bovine.\n* Finally, since all cows are bovines, and Ted is not a bovine, Ted cannot be a cow.\n\n**Therefore, the statement \"If Ted is a cow, then Ted is not a pet\" is irrelevant.  The initial condition (Ted being a cow) is impossible.**\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_66",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? A private Ivy League research university moved to New Haven.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\nWe know that Yale University is a private Ivy League research university and that Yale University moved to New Haven. Therefore, a private Ivy League research university moved to New Haven.\n\n**",
+    "predicted_answer": "A**"
+  },
+  {
+    "id": "FOLIO_dev_67",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Yale University has the largest university endowment of any educational institution.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nWhile the passage states that Yale University's endowment was valued at $42.3 billion, it does not provide information about the endowments of other educational institutions. Therefore, we cannot determine if Yale has the largest endowment.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_68",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Pierson College is a residential college at Yale.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nThe context lists Pierson College as one of the residential colleges at Yale.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_69",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Andrew Collins was the script editor for a series with the working title \"The Secret Dude Society\".",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nAndrew Collins was the script editor for Badults. Badults had the working title \"The Secret Dude Society\". Therefore, Andrew Collins was the script editor for a series with the working title \"The Secret Dude Society\".",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_70",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? No members of Pappy's have starred for a show piloting on BBC Two or BBC Three.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nWe know that members of Pappy's starred in Badults, and that Badults piloted on BBC Three. This directly contradicts the statement.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_71",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? KO is a company stock.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nKO is a mature company's stock. Since a company can have stock, KO is a company stock.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_72",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? KO is a company stock and a growth company’s stock.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nKO is a mature company's stock. All mature companies' stocks are suitable for a retirement fund. If the stock price is volatile, then it is not suitable for a retirement fund. Therefore, KO is not volatile. All growth companies’ stocks are volatile. Therefore, KO is not a growth company's stock.",
+    "predicted_answer": "**B**"
+  },
+  {
+    "id": "FOLIO_dev_73",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If KO is a growth company’s stock or if its price is volatile, then KO is neither a company’s stock nor is its price volatile.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nThe question is structured as an \"if A or B, then C and D\" statement. Let's break it down:\n\n* **A: KO is a growth company's stock.** We know KO is a mature company's stock, and the context tells us some stocks can be growth stocks.  So, this could be true or false.\n* **B: KO's price is volatile.**  Mature companies' stocks are suitable for retirement, and volatile stocks are not. Therefore, KO's price is not volatile. This statement is false.\n* **C: KO is not a company's stock.** This contradicts the given information that KO is a mature company's stock. This statement is false.\n* **D: KO's price is not volatile.** As established earlier, this is true.\n\nNow let's look at the whole structure:\n\n* **If (True or False), then (False and True)** \n\nThe \"if\" part could be true or false. The \"then\" part is always false (because both parts of \"False and True\" must be true for the whole statement to be true).  \n\nSince the \"then\" part is always false, the entire statement is considered **false**.\n\n**Therefore, the correct option is: B**",
+    "predicted_answer": "Reasoning:\nThe question is structured as an \"if A or B, then C and D\" statement. Let's break it down:\n\n* **A: KO is a growth company's stock.** We know KO is a mature company's stock, and the context tells us some stocks can be growth stocks.  So, this could be true or false.\n* **B: KO's price is volatile.**  Mature companies' stocks are suitable for retirement, and volatile stocks are not. Therefore, KO's price is not volatile. This statement is false.\n* **C: KO is not a company's stock.** This contradicts the given information that KO is a mature company's stock. This statement is false.\n* **D: KO's price is not volatile.** As established earlier, this is true.\n\nNow let's look at the whole structure:\n\n* **If (True or False), then (False and True)** \n\nThe \"if\" part could be true or false. The \"then\" part is always false (because both parts of \"False and True\" must be true for the whole statement to be true).  \n\nSince the \"then\" part is always false, the entire statement is considered **false**.\n\n**Therefore, the correct option is: B**"
+  },
+  {
+    "id": "FOLIO_dev_74",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Joe's license plate begins with the number 34.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nJoe's vehicle registration plate is from Istanbul. All vehicle registration plates in Istanbul begin with the number 34. Therefore, Joe's license plate begins with the number 34.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_75",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Tom's license plate is from Istanbul.",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\n* We know that all vehicle registration plates in Istanbul begin with the number 34.\n* We also know that Tom's license plate begins with the number 35. \n* Since Tom's plate begins with 35, it cannot begin with 34.\n* Plates that do not begin with 34 are not from Istanbul.\n\n**Therefore, Tom's license plate is not from Istanbul.**\n\n**",
+    "predicted_answer": "B) False**"
+  },
+  {
+    "id": "FOLIO_dev_76",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Mary needs to earn money to help pay for her college tuition.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\n\nWe know that if Mary works in student jobs on campus and needs to earn money to help pay for her college tuition, then Mary is neither picky nor needs to earn money to help pay for her college tuition. This statement creates a contradiction regarding Mary needing to earn money for tuition. Since the given information leads to a contradiction, we cannot definitively say whether Mary needs to earn money for tuition or not.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_77",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Mary is not a picky eater and spends a lot of her time eating and catching up with friends in the campus dining halls.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nWe know that if Mary works in student jobs on campus and needs to earn money to help pay for her college tuition, then Mary is neither picky nor needs to earn money to help pay for her college tuition. This statement implies that Mary cannot both work in student jobs on campus and need to earn money to help pay for her college tuition. Since the premise of this statement cannot be true, the conclusion can be anything and the statement is not useful to us. If people work in student jobs on campus, then they need to earn money to help pay for their college tuition. We know this statement is true, and since the conclusion of this statement contradicts the premise of the previous statement, we know that people cannot work in student jobs on campus. If people order takeout frequently in college, then they work in student jobs on campus. Since we know people cannot work in student jobs on campus, we know that people cannot order takeout frequently in college. People either order takeout frequently in college or enjoy the dining hall meals and recipes. Since people cannot order takeout frequently in college, they must enjoy the dining hall meals and recipes. If people enjoy the dining hall meals and recipes, then they are not picky eaters. We know that people enjoy the dining hall meals and recipes, so they are not picky eaters. If people enjoy the dining hall meals and recipes, then they spend a lot of their time eating and catching up with friends in the campus dining halls. We know that people enjoy the dining hall meals and recipes, so they spend a lot of their time eating and catching up with friends in the campus dining halls. Therefore, Mary is not a picky eater and spends a lot of her time eating and catching up with friends in the campus dining halls.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_78",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Mary either is not a picky eater or, if she is, then she spends a lot of her time eating and catching up with friends in the campus dining halls.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\n\nLet's break down the information provided to determine Mary's eating habits and social tendencies:\n\n* **We are given:** \"If Mary works in student jobs on campus and needs to earn money to help pay for her college tuition, then Mary is neither picky nor needs to earn money to help pay for her college tuition.\" This statement is a bit unusual because the second part of the conclusion negates a premise. However, it tells us that IF Mary works and needs tuition help, THEN she doesn't need tuition help (which is illogical). This suggests there's a flaw in our assumptions leading up to this statement.\n\n* **Tracing back:**  Since the statement about Mary hinges on her working and needing tuition help, let's see if those hold true:\n    * We know: \"If people work in student jobs on campus, then they need to earn money to help pay for their college tuition.\" \n    * We also know: \"If people order takeout frequently in college, then they work in student jobs on campus.\"\n\n* **The problem:** We don't have information about whether Mary orders takeout frequently. This is the missing link.  If she DOES order takeout a lot, then she works, and the illogical statement about her tuition applies, making our entire chain of reasoning suspect.\n\n* **Considering the question:** We want to know if Mary is either NOT picky OR (if she IS picky) spends a lot of time in the dining hall.  \n\n* **Connecting to dining:** The \"picky eater\" and \"dining hall time\" information is linked to enjoying dining hall meals.  But, we've already established that our reasoning about Mary's work and tuition is shaky.\n\n**Conclusion:** Because we cannot definitively determine whether Mary orders takeout frequently, we cannot reliably trace the logic back to determine her pickiness or dining hall habits. \n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_79",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Dried Thai chilies are a product of Baked by Melissa.",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\n1. **We know dried Thai chilies are spicy.**  This is because the context states \"If dried Thai chilies are spicy or a bakery, then...\" The \"or\" means this statement is true even if only one of the conditions is true.\n\n2. **Since dried Thai chilies are spicy, they cannot be a bakery.** The context states \"No bakery is spicy.\"\n\n3. **Since dried Thai chilies are not a bakery, they cannot be a cupcake.** The context states \"All cupcakes are bakeries.\"\n\n4. **Since dried Thai chilies are not cupcakes, they cannot be a product of Baked by Melissa.** The context states \"All products of Baked by Melissa are cupcakes.\"\n\n**Therefore, the statement \"Dried Thai chilies are a product of Baked by Melissa\" is FALSE.**\n\n**",
+    "predicted_answer": "B**"
+  },
+  {
+    "id": "FOLIO_dev_80",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Dried Thai chilies are not a product of Baked by Melissa.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\n1. **Establish that dried Thai chilies are spicy:** We know \"All hotpots are spicy\" and \"If dried Thai chilies are spicy or a bakery, then dried Thai chilies are a hotpot or are spicy.\"  Since the second statement tells us dried Thai chilies being spicy is enough to make them a hotpot OR spicy, we can conclude dried Thai chilies are indeed spicy.\n\n2. **Show dried Thai chilies can't be cupcakes:** We are told \"No bakery is spicy\" and \"All cupcakes are bakeries.\" Since dried Thai chilies are spicy, they cannot be a bakery.  And since all cupcakes are bakeries, dried Thai chilies cannot be cupcakes.\n\n3. **Connect to Baked by Melissa:** The information states \"All products of Baked by Melissa are cupcakes.\"  We've established dried Thai chilies are NOT cupcakes. Therefore, dried Thai chilies cannot be a product of Baked by Melissa.\n\n**",
+    "predicted_answer": "A) True**"
+  },
+  {
+    "id": "FOLIO_dev_81",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Dried Thai chilies are a hotpot.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\n1. **Dried Thai chilies are spicy:** This is a common knowledge assumption and aligns with the given information that \"All hotpots are spicy.\"\n\n2. **Since dried Thai chilies are spicy, the statement \"If dried Thai chilies are spicy or a bakery, then dried Thai chilies are a hotpot or are spicy\" is true.**  This is because the first part of the \"if\" statement is true (dried Thai chilies ARE spicy).\n\n3. **However, this doesn't automatically make dried Thai chilies a hotpot.** The statement offers two possibilities if the \"if\" condition is met: dried Thai chilies are a hotpot OR are spicy. We already know they are spicy.\n\n**Therefore, the correct option is: C) Uncertain**\n\nWe cannot definitively conclude that dried Thai chilies are a hotpot based solely on the given information.",
+    "predicted_answer": "**Reasoning:**\n\n1. **Dried Thai chilies are spicy:** This is a common knowledge assumption and aligns with the given information that \"All hotpots are spicy.\"\n\n2. **Since dried Thai chilies are spicy, the statement \"If dried Thai chilies are spicy or a bakery, then dried Thai chilies are a hotpot or are spicy\" is true.**  This is because the first part of the \"if\" statement is true (dried Thai chilies ARE spicy).\n\n3. **However, this doesn't automatically make dried Thai chilies a hotpot.** The statement offers two possibilities if the \"if\" condition is met: dried Thai chilies are a hotpot OR are spicy. We already know they are spicy.\n\n**Therefore, the correct option is: C) Uncertain**\n\nWe cannot definitively conclude that dried Thai chilies are a hotpot based solely on the given information."
+  },
+  {
+    "id": "FOLIO_dev_82",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Dried Thai chilies are neither a product of Baked by Melissa nor a bakery.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nDried Thai chilies are spicy. All hotpots are spicy. However, this does not guarantee that dried Thai chilies are a hotpot. No bakery is spicy and all cupcakes are bakeries. Therefore, no cupcake is spicy. All products of Baked by Melissa are cupcakes. Therefore, no product of Baked by Melissa is spicy. Since dried Thai chilies are spicy, then it is neither a bakery nor a product of Baked by Melissa.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_83",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Dried Thai chilies are cupcakes and a product of Baked by Melissa.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nDried Thai chilies are spicy. Since no bakery is spicy and all cupcakes are bakeries, then dried Thai chilies are not cupcakes. Therefore, dried Thai chilies are not cupcakes and a product of Baked by Melissa.",
+    "predicted_answer": "**B**"
+  },
+  {
+    "id": "FOLIO_dev_84",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If Subway provides take-out service and receives many negative reviews, then its rating is greater than 9 and it does not provide take-out service.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nIf Subway provides take-out service and receives many negative reviews, then it is not listed in Yelp's recommendations. This is because some restaurants that do not provide take-out service receive many negative reviews, and if the restaurant is listed in Yelp’s recommendations, then the restaurant does not receive many negative reviews. All restaurants with a rating greater than 9 are listed in Yelp’s recommendations. Therefore, Subway does not have a rating greater than 9. This makes the second consequent of the statement false. Therefore, the statement is false.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "FOLIO_dev_85",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Subway provides take-out service and does not receive many negative reviews.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\nWe need to determine if we can definitively prove that Subway provides take-out service and does not receive many negative reviews. Here's a breakdown:\n\n* **Fact:** Subway has a rating greater than 9 OR is popular among local residents. \n* **Possibility 1:** If Subway has a rating greater than 9:\n    * All restaurants with ratings greater than 9 are listed in Yelp's recommendations.\n    * Restaurants listed in Yelp's recommendations do not receive many negative reviews.\n    * **Conclusion:** If Subway has a rating greater than 9, it does not receive many negative reviews. However, this doesn't tell us if they provide take-out.\n* **Possibility 2:** If Subway is popular among local residents:\n    * All restaurants popular among local residents have ratings greater than 9.\n    * This leads us back to the same logic as Possibility 1.\n\n**We cannot definitively say whether Subway provides take-out service.** The information only relates to ratings and reviews.\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_86",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Subway does not provide take-out service.",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\nWe need to determine if Subway not providing take-out service can be logically concluded from the given information. Let's break it down:\n\n* **Fact:** Subway has a rating greater than 9 OR is popular among local residents. \n* **Possibility 1:** If Subway has a rating greater than 9:\n    * All restaurants with ratings greater than 9 are listed in Yelp's recommendations.\n    * Restaurants listed in Yelp's recommendations do not receive many negative reviews. \n    * **This path doesn't tell us if Subway provides take-out or not.**\n* **Possibility 2:** If Subway is popular among local residents:\n    * All restaurants popular among local residents have ratings greater than 9.\n    * This leads us back to the same logic path as Possibility 1. \n\n**Conclusion:**  We have no information linking Subway to providing or not providing take-out service. The fact that they might have good ratings or be popular doesn't determine this.\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_87",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Sir Digby’s nemesis loses.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nThe Surprising Adventures of Sir Digby Chicken Caesar is a superhero movie named after Sir Digby. We know that if a superhero movie is named after a character, that character is a good guy. Therefore, Sir Digby is a good guy. Good guys fight bad guys, and Sir Digby fights his nemesis, so his nemesis is a bad guy. We are also told that in superhero movies, the good guys always win. Since Sir Digby is a good guy in a superhero movie, he wins the fight. If somebody wins a fight, the person they are fighting loses, which means Sir Digby's nemesis loses.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_88",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Walden contains knowledge.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nThe context states that \"[BG] Books contain tons of knowledge.\" We are also told that Harry read the book \"Walden.\" Since \"Walden\" is a book, it must contain knowledge.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_89",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Harry is smarter than before.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nWe know that books contain knowledge and reading a book means gaining knowledge. It is also stated that gaining knowledge makes a person smarter. Since Harry read \"Walden,\" he gained knowledge and therefore became smarter.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_90",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? A person who is smarter has gained knowledge.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nThe text states that if a person gains knowledge, they become smarter. It does not, however, state that if a person is smarter, they have gained knowledge. There could be other ways to become smarter.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_91",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Machine translation is a language generation task.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nMachine translation is a natural language processing task. The output of machine translation is a text sequence. If the output of a natural language processing task is a text sequence, then it is a language generation task. Therefore, machine translation is a language generation task.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_92",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Machine translation is a language understanding task.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nWe know that machine translation is a natural language processing task and its output is a text sequence. We also know that if the output of a natural language processing task is a text sequence, then it is a language generation task. Therefore, machine translation is a language generation task. Since natural language processing tasks are categorized as either language generation or language understanding, machine translation cannot be a language understanding task.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_93",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Tom will rent an apartment in The Olive Garden.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\n\nTom will rent an apartment in a managed building if and only if he is allowed to move in with Fluffy, and the security deposit is no more than $1500. The security deposit at the Olive Garden is $2000, which is more than $1500. Therefore, Tom will not rent an apartment in the Olive Garden.",
+    "predicted_answer": "**B**"
+  },
+  {
+    "id": "FOLIO_dev_94",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Tom is allowed to move in an apartment in The Olive Garden with Fluffy.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nTom will rent an apartment in a managed building if and only if he is allowed to move in with Fluffy, and the security deposit is no more than $1500. The security deposit at the Olive Garden is $2000, which is more than $1500. Therefore, Tom will not rent an apartment in the Olive Garden.",
+    "predicted_answer": "**B**"
+  },
+  {
+    "id": "FOLIO_dev_95",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? The security deposit at the Olive Garden is either $2000 or more.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nThe monthly rent at the Olive Garden is $2000. The security deposit can be either equal to one month's rent or more. Therefore, the security deposit at the Olive Garden is either $2000 or more.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_96",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Koalas love to sleep.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nAll quokka are animals from Australia. All animals from Australia are loved by tourists. If animals are loved by tourists, then they are Max's favorite animals. Therefore, all quokka are Max's favorite animals. All of Max's favorite animals are very fluffy. Therefore, all quokka are very fluffy. If a koala is very fluffy, then the koala is not a quokka. Therefore, koalas are not quokka. This means koalas may or may not be Max's favorite animals. All of Max's favorite animals love to sleep. Therefore, we cannot be certain if koalas love to sleep.",
+    "predicted_answer": "**C**"
+  },
+  {
+    "id": "FOLIO_dev_97",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Koalas love to sleep and are quokka.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nAll quokka are animals from Australia. All animals from Australia are loved by tourists. If animals are loved by tourists, then they are Max's favorite animals. Therefore, all quokka are Max's favorite animals. All of Max's favorite animals love to sleep. Therefore, all quokka love to sleep. If a koala is very fluffy, then the koala is not a quokka. This means that if a koala is not a quokka, then the koala is very fluffy. All of Max's favorite animals are very fluffy. Therefore, koalas are Max's favorite animals. This contradicts the statement that if a koala is very fluffy, then the koala is not a quokka. Therefore, koalas cannot be very fluffy. Because all of Max's favorite animals are very fluffy, and koalas are not very fluffy, then koalas are not Max's favorite animals. This means that koalas are not quokka. Therefore, koalas love to sleep and are quokka is false.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "FOLIO_dev_98",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If a koala is a quokka, then the koala either loves to sleep or is very fluffy.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nIf a koala is a quokka, then it is an animal from Australia. If an animal is from Australia, then it is loved by tourists. If an animal is loved by tourists, then it is Max's favorite animal. If an animal is Max's favorite animal, then it loves to sleep and is very fluffy. Therefore, if a koala is a quokka, then the koala loves to sleep and is very fluffy.",
+    "predicted_answer": "**A**"
+  },
+  {
+    "id": "FOLIO_dev_99",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Harry is a CEO.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\n* We know that all CEOs are gentlemen, and Harry is a gentleman. \n* However, this does not automatically mean Harry is a CEO. There could be gentlemen who are not CEOs.\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_100",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Harry is kind or a CEO.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\n* We know that all CEOs are gentlemen and Harry is a gentleman. However, this doesn't automatically make him a CEO. \n* We also know that all gentlemen are handsome, and no ugly person is handsome. This implies all gentlemen are not ugly.\n* Since all evil people are ugly, and gentlemen are not ugly, gentlemen cannot be evil.\n* We are told men are either kind or evil. Since gentlemen cannot be evil, they must be kind.\n* Harry is a gentleman, therefore Harry is kind.\n\n**",
+    "predicted_answer": "A** \n\n**Explanation:** While we can't definitively say Harry is a CEO, we can definitively say he is kind. Since the statement \"Harry is kind or a CEO\" is true if at least one of those conditions is true, the overall statement is true."
+  },
+  {
+    "id": "FOLIO_dev_101",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If Harry is either both evil and ugly, or neither evil nor ugly, then Harry is neither kind nor a CEO.",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\n* We know Harry is a gentleman. \n* All gentlemen are handsome, so Harry is handsome.\n* No ugly person is handsome, so Harry cannot be ugly.\n* Since Harry cannot be ugly, the condition \"both evil and ugly\" is false. This leaves us with \"neither evil nor ugly\".\n* All evil people are ugly, and since Harry is not ugly, he cannot be evil.\n* We know a man is either kind or evil. Since Harry is not evil, he must be kind.\n* We are also told all CEOs are gentlemen, and Harry is a gentleman. However, this doesn't automatically make him a CEO.\n\n**Therefore, the statement \"If Harry is either both evil and ugly, or neither evil nor ugly, then Harry is neither kind nor a CEO\" is FALSE.**\n\n**Here's why:**\n\nWhile the statement's condition (\"neither evil nor ugly\") holds true for Harry, the conclusion is wrong. Harry is kind, even though he might not be a CEO.",
+    "predicted_answer": "**Reasoning:**\n\n* We know Harry is a gentleman. \n* All gentlemen are handsome, so Harry is handsome.\n* No ugly person is handsome, so Harry cannot be ugly.\n* Since Harry cannot be ugly, the condition \"both evil and ugly\" is false. This leaves us with \"neither evil nor ugly\".\n* All evil people are ugly, and since Harry is not ugly, he cannot be evil.\n* We know a man is either kind or evil. Since Harry is not evil, he must be kind.\n* We are also told all CEOs are gentlemen, and Harry is a gentleman. However, this doesn't automatically make him a CEO.\n\n**Therefore, the statement \"If Harry is either both evil and ugly, or neither evil nor ugly, then Harry is neither kind nor a CEO\" is FALSE.**\n\n**Here's why:**\n\nWhile the statement's condition (\"neither evil nor ugly\") holds true for Harry, the conclusion is wrong. Harry is kind, even though he might not be a CEO."
+  },
+  {
+    "id": "FOLIO_dev_102",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Luke spends a lot of time hanging out and playing with his siblings.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\n\nWe need to consider both possibilities for Luke:\n\n* **Possibility 1: Luke is both a twin or triplet AND develops strong bonds with his family members.** \n    * If he's a twin or triplet, he spends a lot of time with his siblings.\n    * But, spending a lot of time with siblings means he often didn't live at home regularly.\n    * Not living at home regularly means he doesn't develop strong bonds with family. \n    * This contradicts our initial assumption for this possibility. Therefore, this possibility is not possible.\n\n* **Possibility 2: Luke is NEITHER a twin or triplet NOR develops strong bonds with his family members.**\n    * Since he's not a twin or triplet, he doesn't spend a lot of time with siblings (based on the given rules).\n\n**Conclusion:** Since the only possible scenario is that Luke is not a twin or triplet, we can conclude he does not spend a lot of time hanging out and playing with his siblings.\n\n**",
+    "predicted_answer": "B**"
+  },
+  {
+    "id": "FOLIO_dev_103",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Luke complains often about annoying siblings.",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\nWe need to consider both scenarios presented for Luke:\n\n* **Scenario 1: Luke IS a twin/triplet AND develops strong bonds with his family.**\n    * Being a twin/triplet means he has siblings the same age.\n    * Siblings the same age lead to complaining about annoying siblings. \n    * This scenario is possible.\n\n* **Scenario 2: Luke is NOT a twin/triplet AND does NOT develop strong bonds.**\n    * Not developing strong bonds means he likely didn't live at home regularly.\n    * Not living at home regularly means he might not have spent a lot of time with siblings, making complaining less likely.\n    * However, we DON'T know if he has siblings of a different age, so complaining is still possible.\n\n**Conclusion:**\n\nSince Luke COULD complain about siblings in either scenario, the statement is **C) Uncertain**.",
+    "predicted_answer": "**Reasoning:**\n\nWe need to consider both scenarios presented for Luke:\n\n* **Scenario 1: Luke IS a twin/triplet AND develops strong bonds with his family.**\n    * Being a twin/triplet means he has siblings the same age.\n    * Siblings the same age lead to complaining about annoying siblings. \n    * This scenario is possible.\n\n* **Scenario 2: Luke is NOT a twin/triplet AND does NOT develop strong bonds.**\n    * Not developing strong bonds means he likely didn't live at home regularly.\n    * Not living at home regularly means he might not have spent a lot of time with siblings, making complaining less likely.\n    * However, we DON'T know if he has siblings of a different age, so complaining is still possible.\n\n**Conclusion:**\n\nSince Luke COULD complain about siblings in either scenario, the statement is **C) Uncertain**."
+  },
+  {
+    "id": "FOLIO_dev_104",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Luke is neither a twin nor triplet nor complains often about annoying siblings.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\nWe know Luke is either both a twin/triplet AND develops strong bonds with his family, OR neither a twin/triplet NOR develops strong bonds. Let's analyze each possibility:\n\n* **Possibility 1: Luke IS a twin/triplet AND develops strong bonds**\n    * Being a twin/triplet means he spends a lot of time with his siblings.\n    * Spending a lot of time with siblings means he often did NOT live at home regularly.\n    * Not living at home regularly contradicts developing strong family bonds. \n    * **This possibility is a contradiction, so it cannot be true.**\n\n* **Possibility 2: Luke is NOT a twin/triplet AND does NOT develop strong bonds**\n    * This is consistent with the given information. \n\nSince Possibility 1 is impossible, we know Possibility 2 MUST be true.  Now let's look at the question:\n\n* **Question:** Luke is neither a twin nor triplet nor complains often about annoying siblings.\n\nWe already know the first part is true (not a twin/triplet).  However, there is NO information linking lack of strong family bonds to complaining about siblings.  These could be unrelated.\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_105",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Tom can apply for financial aid from ETS to take the GRE test.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nAlthough Tom's family situation suggests they may be experiencing economic hardship, we cannot definitively say he qualifies for ETS financial aid. The provided information doesn't specify the criteria ETS uses to assess economic hardship beyond a general definition.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_106",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? It cost below US $300 to take the GRE test.",
+    "answer": "A",
+    "predicted_reasoning": "The GRE test costs US $205 to take. US $205 is less than US $300. Therefore, it costs below US $300 to take the GRE test.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_107",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? There is no financial aid available for the GRE test.",
+    "answer": "B",
+    "predicted_reasoning": "The passage states that ETS provides financial aid to those GRE applicants who prove economic hardship. Therefore, there is financial aid available for the GRE test.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_108",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Peter tidies his space consistently and enjoys the process of cleaning.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nPeter is either both a person who spills a lot of food on his clothing and grew up as an only child with no siblings, or he is neither a person who spills a lot of food on his clothing nor grew up as an only child with no siblings. Let's consider both scenarios:\n\n* **Scenario 1:** Peter spills a lot of food and is an only child. \n    * If he spills a lot, he doesn't tidy consistently (first statement). \n    * If he's an only child, he does tidy consistently (third statement).\n    * This scenario creates a contradiction, so it cannot be true.\n\n* **Scenario 2:** Peter does NOT spill a lot of food and is NOT an only child. Since the statement about Peter is an \"either/or\", this scenario must be true.  We don't have information about tidying habits of people who aren't only children.\n\n**",
+    "predicted_answer": "C) Uncertain** \n\nWe only know Peter doesn't fit both original conditions, but we can't definitively say if he tidies consistently or not."
+  },
+  {
+    "id": "FOLIO_dev_109",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Peter is either a foodie who goes out frequently to find new food restaurants to try or belongs to a household with a high net income.",
+    "answer": "B",
+    "predicted_reasoning": "Let's break down the reasoning step-by-step:\n\n**1. Analyze Peter's possibilities:**\n\n* **Possibility 1: Peter spills a lot of food and grew up as an only child.** \n    * If he spills a lot, he doesn't tidy consistently (given).\n    * If he grew up an only child, he DOES tidy consistently (given).\n    * This is a **contradiction**, so this possibility is FALSE.\n\n* **Possibility 2: Peter DOESN'T spill a lot and DID NOT grow up an only child.** This is the only remaining option, so it MUST be true.\n\n**2. Connect to the question:**\n\n* We need to see if either part of Possibility 2 leads to being a foodie or in a high-income household.\n\n* **Not spilling food** doesn't directly tell us anything about being a foodie or household income.\n\n* **Not growing up an only child** means his parents were NOT very busy (given). This doesn't directly tell us about being a foodie, BUT it tells us his household is NOT high income (given).\n\n**Conclusion:**\n\nWe can definitively say Peter is NOT in a high-income household. We don't have enough information to determine if he's a foodie.\n\n**Therefore, the answer is C) Uncertain.**",
+    "predicted_answer": "Let's break down the reasoning step-by-step:\n\n**1. Analyze Peter's possibilities:**\n\n* **Possibility 1: Peter spills a lot of food and grew up as an only child.** \n    * If he spills a lot, he doesn't tidy consistently (given).\n    * If he grew up an only child, he DOES tidy consistently (given).\n    * This is a **contradiction**, so this possibility is FALSE.\n\n* **Possibility 2: Peter DOESN'T spill a lot and DID NOT grow up an only child.** This is the only remaining option, so it MUST be true.\n\n**2. Connect to the question:**\n\n* We need to see if either part of Possibility 2 leads to being a foodie or in a high-income household.\n\n* **Not spilling food** doesn't directly tell us anything about being a foodie or household income.\n\n* **Not growing up an only child** means his parents were NOT very busy (given). This doesn't directly tell us about being a foodie, BUT it tells us his household is NOT high income (given).\n\n**Conclusion:**\n\nWe can definitively say Peter is NOT in a high-income household. We don't have enough information to determine if he's a foodie.\n\n**Therefore, the answer is C) Uncertain.**"
+  },
+  {
+    "id": "FOLIO_dev_110",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Peter is either a foodie who goes out frequently to find new food restaurants to try and belong to a household with a high net income or he is a foodie who goes out frequently to find new food restaurants to try nor belongs to a household with a high net income.",
+    "answer": "A",
+    "predicted_reasoning": "Let's break down the reasoning step-by-step:\n\n**1. Analyze Peter's possibilities:**\n\n* **Possibility 1: Peter spills food AND is an only child.** \n    * Spilling food means he doesn't tidy consistently (contradiction since only children do). This possibility is FALSE.\n* **Possibility 2: Peter DOESN'T spill food AND ISN'T an only child.** This is the only remaining option, so it MUST be true.\n\n**2. Connect to the question:**\n\n* The question asks about being a \"foodie\" and belonging to a \"high net income\" household. \n* **We DON'T have a direct link** between not spilling food/not being an only child and these two concepts. \n\n**Therefore, the answer is (C) Uncertain.** We cannot definitively say whether Peter is or isn't a foodie, or whether his household has a high income, based on the given information.",
+    "predicted_answer": "Let's break down the reasoning step-by-step:\n\n**1. Analyze Peter's possibilities:**\n\n* **Possibility 1: Peter spills food AND is an only child.** \n    * Spilling food means he doesn't tidy consistently (contradiction since only children do). This possibility is FALSE.\n* **Possibility 2: Peter DOESN'T spill food AND ISN'T an only child.** This is the only remaining option, so it MUST be true.\n\n**2. Connect to the question:**\n\n* The question asks about being a \"foodie\" and belonging to a \"high net income\" household. \n* **We DON'T have a direct link** between not spilling food/not being an only child and these two concepts. \n\n**Therefore, the answer is (C) Uncertain.** We cannot definitively say whether Peter is or isn't a foodie, or whether his household has a high income, based on the given information."
+  },
+  {
+    "id": "FOLIO_dev_111",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Some evergreens are not objects of worship.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\nWe know:\n\n* **All fir trees are evergreens:**  This means if something is a fir tree, it MUST be an evergreen.\n* **Some objects of worship are fir trees:** This means there's at least one object of worship that is also a fir tree.\n\nHowever, this doesn't tell us anything definitive about evergreens that are NOT fir trees.  It's entirely possible there are many evergreens that are not objects of worship.\n\n**",
+    "predicted_answer": "C) Uncertain** \n\n**Diagram Explanation (optional):**\n\nYou can visualize this with a Venn Diagram:\n\n* Draw a large circle representing \"Evergreens.\"\n* Draw a smaller circle completely inside \"Evergreens\" representing \"Fir Trees.\"\n* Now, draw a third circle that partially overlaps with \"Fir Trees\" – this represents \"Objects of Worship.\" \n\nNotice that there's space within the \"Evergreens\" circle that is NOT within either \"Fir Trees\" or \"Objects of Worship.\" This represents the possibility of evergreens that are not objects of worship."
+  },
+  {
+    "id": "FOLIO_dev_112",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Juan de Onate visited a mountain range in New Mexico.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\n* We know the Picuris Mountains are in either New Mexico or Texas. \n* We also know that no mountain ranges in Texas have donated mines.\n* Since the Harding Pegmatite Mine in the Picuris Mountains was donated, the Picuris Mountains cannot be in Texas.\n* Therefore, the Picuris Mountains must be in New Mexico.\n* Juan de Onate visited the Picuris Mountains.\n\n**",
+    "predicted_answer": "A) True**"
+  },
+  {
+    "id": "FOLIO_dev_113",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Juan de Onate visited a mountain range in Texas.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\n* We know the Picuris Mountains are in either New Mexico or Texas.\n* We know there are NO mountain ranges in Texas with donated mines.\n* We know the Harding Pegmatite Mine, located in the Picuris Mountains, WAS donated. \n* Therefore, the Picuris Mountains cannot be in Texas.\n* Since Juan de Onate visited the Picuris Mountains, and the Picuris Mountains are not in Texas, Juan de Onate could not have visited a mountain range in Texas.\n\n**",
+    "predicted_answer": "B) False**"
+  },
+  {
+    "id": "FOLIO_dev_114",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? The Harding Pegmatite Mine is not located in a mountain range in New Mexico.",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\nThe Picuris Mountains are located in either New Mexico or Texas. There are no mountain ranges in Texas that have mines that have been donated. The Harding Pegmatite Mine, located in the Picuris Mountains, was donated. Therefore, the Picuris Mountains must be located in New Mexico. Since the Harding Pegmatite Mine is located in the Picuris Mountains, it must be located in New Mexico.\n\n**",
+    "predicted_answer": "B**"
+  },
+  {
+    "id": "FOLIO_dev_115",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Peter is shorter than a man in Michael's class.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nWe know Michael is taller than everyone else in his class. We also know Peter is taller than Michael. Since Peter is taller than Michael, and Michael is taller than everyone in his class, Peter must also be taller than everyone in Michael's class.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_116",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Windy is a great shooter.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\n\nWe know Michael can block any shooting from a person as long as they don't jump when shooting. We also know Michael cannot block Windy's shooting. This implies Windy must be able to jump while shooting. Since every shooter who can jump while shooting is a great shooter, Windy must be a great shooter.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_117",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Peter can block Windy's shooting.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nWe know Michael is taller than everyone else in his class, but Peter is taller than Michael. Since Michael can block any shooting from a person as long as the person does not jump when shooting, and Michael cannot block Windy's shooting, it follows that Windy can jump when shooting. Peter is taller than Michael, and Michael is taller than everyone else in his class, so Peter is taller than everyone in Michael's class. Since Windy can jump when shooting, and Peter is taller than everyone in Michael's class, Peter can block Windy's shooting.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_118",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Barutin is named after all islands in Antarctica.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nBarutin Cove is named after the Bulgarian settlement of Barutin. The cove is on Snow Island, which is part of the South Shetland Islands, located in Antarctica. However, this doesn't mean Barutin is named after all islands in Antarctica. It's only stated that a cove within Antarctica is named after Barutin.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_119",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? There is at least one cove in Antarctica named after a place in Bulgaria.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nBarutin Cove is located on Snow Island. Snow Island is located in the South Shetland Islands. The South Shetland Islands are located in Antarctica. Therefore, Barutin Cove is located in Antarctica. Barutin Cove is named after the Bulgarian settlement of Barutin. Therefore, there is at least one cove in Antarctica named after a place in Bulgaria.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_120",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Barutin is not located in Antarctica.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nBarutin Cove is located on Snow Island. Snow Island is part of the South Shetland Islands. The South Shetland Islands are considered part of Antarctica. Therefore, Barutin Cove is located in Antarctica. Barutin Cove is named after the Bulgarian settlement of Barutin. It is likely that Barutin Cove is named after a nearby settlement. Therefore, Barutin is likely located in Antarctica.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_121",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Some affection is positive.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\nWe can't definitively conclude that some affection is positive based on the given statements. Here's why:\n\n* **Overlap is not guaranteed:**  While some affection overlaps with love, and some love overlaps with positivity, there's no guarantee that the portion of affection that overlaps with love is the same portion that overlaps with positivity. \n\n**Example:** Imagine a Venn Diagram:\n\n* **Affection:** A large circle\n* **Love:** A smaller circle, partially overlapping with affection.\n* **Positive:** A circle that overlaps *only* with the love circle, but doesn't touch the part of the affection circle that doesn't overlap with love.\n\nIn this scenario, there's affection that's love, and love that's positive, but no affection that's directly positive.\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_122",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Greyhound is an airline.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\nWe need to determine if Greyhound being an airline can be proven or disproven with the given information. Let's analyze:\n\n* **We know:** All planes are empty. All Boeing 707s are planes.  Therefore, all Boeing 707s are empty.\n* **We also know:** If something can transport multiple passengers, then it's not empty. All airlines can transport multiple passengers. Therefore, no airlines are empty.\n* **The problem statement tells us:** If Greyhound is not an airline, then there are no Greyhound planes. \n\n**Here's the catch:**  We cannot determine if there are Greyhound planes or not.  Even if there were Greyhound planes, they would be empty (because all planes are empty), and this wouldn't contradict the rule about airlines not being empty.\n\n**Therefore, we cannot definitively say whether Greyhound is or isn't an airline.**\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_123",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? A Greyhound is a Boeing 707.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nAll Boeing 707s are planes. All planes are empty. If something can transport multiple passengers, then they are not empty. All airlines can transport multiple passengers. Therefore, airlines are not empty. This means Boeing 707s are not airlines. If Greyhound is not an airline, then there are no Greyhound planes. We know that Boeing 707s are not airlines. Therefore, a Greyhound cannot be a Boeing 707.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "FOLIO_dev_124",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? A Greyhound is not a Boeing 707.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\n1. **All planes are empty:** This statement is given.\n2. **All Boeing 707s are planes:** This statement is given.\n3. **Therefore, all Boeing 707s are empty:** This follows from statements 1 and 2.\n4. **If something can transport multiple passengers, then they are not empty:** This statement is given.\n5. **All airlines can transport multiple passengers:** This statement is given.\n6. **Therefore, all airlines are not empty:** This follows from statements 4 and 5.\n7. **If Greyhound is not an airline, then there are no Greyhound planes:** This statement is given. \n8. **We don't know if Greyhound is an airline or not:** There's no information about this.\n\nSince Boeing 707s are empty (and thus cannot transport passengers) and we don't know if Greyhound is an airline (which would be required to operate a passenger plane), we cannot definitively say whether a Greyhound is a Boeing 707 or not.\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_125",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Rock is a monkey.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\n* We know \"If Rock is neither a fly nor a bird, then Rock neither flies nor breathes.\" \n* We also know \"All animals breathe.\" \n* Since Rock cannot breathe (from the first statement), Rock cannot be an animal.\n* Since all monkeys are animals, Rock cannot be a monkey.\n\n**",
+    "predicted_answer": "B**"
+  },
+  {
+    "id": "FOLIO_dev_126",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Rock has wings.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nIf Rock is neither a fly nor a bird, then Rock neither flies nor breathes. We know all animals breathe. Therefore, Rock is not an animal. If something can fly, then it has wings. Since Rock cannot fly, Rock does not have wings.",
+    "predicted_answer": "**B**"
+  },
+  {
+    "id": "FOLIO_dev_127",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Rock does not have wings.",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\nWe need to determine if Rock having wings can be proven or disproven. Let's analyze the given information:\n\n* **Rock is neither a fly nor a bird:** This tells us Rock doesn't belong to the category of birds, and \"fly\" likely refers to insects.\n* **All birds fly:**  While true, this information is irrelevant since Rock is not a bird.\n* **If something can fly, then it has wings:** This is a crucial statement. \n* **If Rock is neither a fly nor a bird, then Rock neither flies nor breathes:** This statement is overly restrictive. While being a bird or insect might be the *most common* way to fly, it doesn't exclude other possibilities within this context.\n\n**Conclusion:**\n\nWe cannot definitively say whether Rock has wings or not. Here's why:\n\n* **Lack of information:** The context doesn't limit flying creatures solely to birds and insects. There might be other animals or objects in this universe that can fly without being birds or insects.\n* **Wings don't guarantee flight:**  Even if Rock had wings, it doesn't automatically mean it can fly.  \n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_128",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? John has a wedding that is well-attended.",
+    "answer": "B",
+    "predicted_reasoning": "Let's break down the logic to determine if John can have a well-attended wedding:\n\n**Assumptions:**\n\n* **Assume John has a well-attended wedding.**  This is what we want to test.\n\n**Following the Logic Chain:**\n\n1. **John has a wedding in July OR travels to Paris for his honeymoon.** (Given: If John has a well-attended wedding, then John has a wedding in July or, if not, then John travels to Paris for their honeymoon.)\n\n2. **Let's consider both possibilities from step 1:**\n\n    * **Possibility A: John has a wedding in July.** \n        * This means John travels to Paris for his honeymoon. (Given: All weddings that occur in July belong to people who travel to Paris for their honeymoon.)\n        * This leads to a contradiction because we'll see later that John can't travel to Paris.\n\n    * **Possibility B: John travels to Paris for his honeymoon.**\n        * This means John had a wedding. (Given: All people who travel to Paris for their honeymoon are people who have a wedding.)\n        * This means John has at least one child. (Given: All people who have a wedding are people who have at least one child.)\n        * **CONTRADICTION:** We are given that if John has at least one child, then John does not travel to Paris for his honeymoon.\n\n**Conclusion:**\n\nSince both possibilities stemming from the assumption that John has a well-attended wedding lead to contradictions, the initial assumption must be false.\n\n**",
+    "predicted_answer": "B (False)**"
+  },
+  {
+    "id": "FOLIO_dev_129",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? John does not have a wedding that is well-attended.",
+    "answer": "A",
+    "predicted_reasoning": "Let's break down the reasoning step-by-step:\n\n**1. Explore Possibilities:**\n\n* **Assume John has a well-attended wedding:** \n    * This means his wedding is in July (given information).\n    * Weddings in July mean a honeymoon in Paris (given information).\n    * But, if John has a child, he DOESN'T go to Paris (given information). \n    * This creates a contradiction, meaning our initial assumption (John has a well-attended wedding) is likely false.\n\n* **Assume John DOESN'T have a well-attended wedding:**\n    * This doesn't contradict any of our given information. It's possible he has a wedding that's not well-attended, or no wedding at all.\n\n**2.  Lack of Definitive Proof:**\n\nWhile the first assumption leads to a contradiction, we don't have direct information stating John *cannot* have a well-attended wedding.  The given statements create a strong likelihood, but not absolute certainty.\n\n**Therefore, the correct option is: C) Uncertain** \n\n**Important Note:**  Logical reasoning questions rely on what's directly stated or logically implied. We cannot make assumptions beyond the provided information.",
+    "predicted_answer": "Let's break down the reasoning step-by-step:\n\n**1. Explore Possibilities:**\n\n* **Assume John has a well-attended wedding:** \n    * This means his wedding is in July (given information).\n    * Weddings in July mean a honeymoon in Paris (given information).\n    * But, if John has a child, he DOESN'T go to Paris (given information). \n    * This creates a contradiction, meaning our initial assumption (John has a well-attended wedding) is likely false.\n\n* **Assume John DOESN'T have a well-attended wedding:**\n    * This doesn't contradict any of our given information. It's possible he has a wedding that's not well-attended, or no wedding at all.\n\n**2.  Lack of Definitive Proof:**\n\nWhile the first assumption leads to a contradiction, we don't have direct information stating John *cannot* have a well-attended wedding.  The given statements create a strong likelihood, but not absolute certainty.\n\n**Therefore, the correct option is: C) Uncertain** \n\n**Important Note:**  Logical reasoning questions rely on what's directly stated or logically implied. We cannot make assumptions beyond the provided information."
+  },
+  {
+    "id": "FOLIO_dev_130",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? John has at least one child.",
+    "answer": "C",
+    "predicted_reasoning": "Let's break down the reasoning to determine if John has at least one child:\n\n**Assumptions:**\n\n* **Assume John has at least one child.** We're testing this statement.\n* **This means John does not travel to Paris for his honeymoon and does not have a wedding** (from the given information).\n\n**Contradictions:**\n\n* **If John has a wedding that is well-attended, then he either has a wedding in July or travels to Paris for his honeymoon.**  Since we assumed he has no wedding, this part of the statement is false. \n* **However, the initial statement \"If John has at least one child...\" doesn't depend on whether the wedding is well-attended.**  This means there's no direct contradiction from this statement.\n\n**Uncertain Conclusion:**\n\nWe cannot definitively say whether John has a well-attended wedding or not.  This lack of information prevents us from proving or disproving the initial assumption that John has at least one child.\n\n**Therefore, the correct option is: C) Uncertain**",
+    "predicted_answer": "Let's break down the reasoning to determine if John has at least one child:\n\n**Assumptions:**\n\n* **Assume John has at least one child.** We're testing this statement.\n* **This means John does not travel to Paris for his honeymoon and does not have a wedding** (from the given information).\n\n**Contradictions:**\n\n* **If John has a wedding that is well-attended, then he either has a wedding in July or travels to Paris for his honeymoon.**  Since we assumed he has no wedding, this part of the statement is false. \n* **However, the initial statement \"If John has at least one child...\" doesn't depend on whether the wedding is well-attended.**  This means there's no direct contradiction from this statement.\n\n**Uncertain Conclusion:**\n\nWe cannot definitively say whether John has a well-attended wedding or not.  This lack of information prevents us from proving or disproving the initial assumption that John has at least one child.\n\n**Therefore, the correct option is: C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_131",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? John has neither a wedding that is well-attended nor does he travel to Paris for his honeymoon.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nLet's consider the possibilities:\n\n* **If John has at least one child:** We know he doesn't travel to Paris for his honeymoon and doesn't have a wedding. This would make the statement **TRUE**.\n\n* **If John doesn't have at least one child:**  We can't definitively determine if he has a well-attended wedding or travels to Paris. It's possible, but not guaranteed.\n\nSince we can't be certain about John's situation in all cases, the correct option is: **C) Uncertain**",
+    "predicted_answer": "Reasoning:\nLet's consider the possibilities:\n\n* **If John has at least one child:** We know he doesn't travel to Paris for his honeymoon and doesn't have a wedding. This would make the statement **TRUE**.\n\n* **If John doesn't have at least one child:**  We can't definitively determine if he has a well-attended wedding or travels to Paris. It's possible, but not guaranteed.\n\nSince we can't be certain about John's situation in all cases, the correct option is: **C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_132",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Platypus are mammals with no teeth.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nThe context states that Platypus are mammals and that Platypus have no teeth. Therefore, Platypus are mammals with no teeth.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_133",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Platypus are reptiles.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nWe know from the given information that Platypus are mammals. Since reptiles and mammals are distinct animal classes, Platypus cannot be reptiles.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_134",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Humans are mammals.",
+    "answer": "C",
+    "predicted_reasoning": "The provided text doesn't give us enough information to know whether humans are mammals. \n\nHere's why:\n\n* **We know some mammals have teeth, but not all.**  The fact that humans have teeth doesn't automatically make them mammals based on the information given.\n* **Platypus are an exception.** We're told platypus are mammals but have no teeth. This highlights that there are exceptions within the category of mammals.\n\n**Therefore, the correct option is: C) Uncertain**",
+    "predicted_answer": "The provided text doesn't give us enough information to know whether humans are mammals. \n\nHere's why:\n\n* **We know some mammals have teeth, but not all.**  The fact that humans have teeth doesn't automatically make them mammals based on the information given.\n* **Platypus are an exception.** We're told platypus are mammals but have no teeth. This highlights that there are exceptions within the category of mammals.\n\n**Therefore, the correct option is: C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_135",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Space sucks.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\nThe context uses the word \"suck\" in multiple senses: literally (plungers, vacuums), figuratively (vampires), and scientifically (space as a vacuum). While it's true space is a vacuum, and the context states \"Vacuums suck,\" this refers to the vacuum's air-removing function. \n\nThe question is likely aiming for the humorous ambiguity of \"suck.\"  \n\n**",
+    "predicted_answer": "C) Uncertain**\n\nIt's uncertain whether \"Space sucks\" is meant literally (does it inhale like a vacuum?) or figuratively (is space unpleasant?). The context provides no basis for that interpretation."
+  },
+  {
+    "id": "FOLIO_dev_136",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Space is a vampire.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\nThe context uses the word \"suck\" in multiple senses – literally (plungers, vacuums) and figuratively (vampires). While both vacuums and space \"suck\" in the sense of creating suction, this doesn't mean space is a vampire. The context doesn't provide any link between vampires and the vacuum of space.\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_137",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If something is a household appliance, it sucks.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nWe are given that a duster is a household appliance that doesn't suck. This serves as a counterexample to the statement that all household appliances suck.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_138",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Supervised learning is used to train the state-of-the-art text summarization model.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nThe state-of-the-art text summarization model is trained with machine learning algorithms. Reinforcement learning is not used to train the state-of-the-art text summarization model. The Machine Learning algorithm for training text summarization model requires labelled data. Unsupervised learning doesn't require labelled data. Therefore, the Machine Learning algorithm for training text summarization model is not unsupervised learning. Machine Learning algorithms can be categorized as supervised learning, unsupervised learning, and reinforcement learning. Therefore, the Machine Learning algorithm for training text summarization model is supervised learning.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_139",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Unsupervised learning is used to train the state-of-the-art text summarization model.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nThe state-of-the-art text summarization model is trained with machine learning algorithms. The Machine Learning algorithm for training the text summarization model requires labelled data. Unsupervised learning doesn't require labelled data. Therefore, unsupervised learning is not used to train the state-of-the-art text summarization model.",
+    "predicted_answer": "**B**"
+  },
+  {
+    "id": "FOLIO_dev_140",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Ben is loved by children.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\n\nWe need to consider both possibilities for Ben:\n\n* **Possibility 1: Ben is from The Simpsons.** \n    * If a cartoon character is from The Simpsons, then it is loved by children. So in this case, Ben is loved by children.\n\n* **Possibility 2: Ben is funny.**\n    * If a cartoon character is funny, then it is loved by children. So in this case, Ben is also loved by children.\n\nSince Ben being loved by children holds true in both possible scenarios, we can conclude:\n\n**",
+    "predicted_answer": "A) True**"
+  },
+  {
+    "id": "FOLIO_dev_141",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Ben is ugly or yellow.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nBen is either from The Simpsons or funny. Let's consider both cases:\n\n* **Case 1: Ben is from The Simpsons.** \n    * If a cartoon character is from The Simpsons, then it is loved by children. So, Ben is loved by children.\n    * If a cartoon character is loved by children, then it is funny. So, Ben is funny.\n    * If a cartoon character is funny, then it is popular. So, Ben is popular.\n    * If a cartoon character is ugly, then it is not popular. Since Ben is popular, he cannot be ugly.\n    * If a cartoon character is yellow, then it is from The Simpsons. So, Ben is yellow.\n\n* **Case 2: Ben is funny.**\n    * If a cartoon character is funny, then it is popular. So, Ben is popular.\n    * If a cartoon character is ugly, then it is not popular. Since Ben is popular, he cannot be ugly.\n\nIn both cases, Ben is not ugly. In one of the cases, Ben is yellow. Therefore, Ben is either yellow or not ugly.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_142",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Ben is either yellow and ugly or neither yellow nor ugly.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\nWe need to analyze both possibilities for Ben:\n\n* **Possibility 1: Ben is from The Simpsons.** \n    * If Ben is from The Simpsons, then Ben is yellow.\n    * If Ben is from The Simpsons, then Ben is loved by children.\n    * If Ben is loved by children, then Ben is funny.\n    * If Ben is funny, then Ben is popular. \n    * Since a character cannot be both popular and ugly, if Ben is popular, then Ben is not ugly.\n\n* **Possibility 2: Ben is funny.**\n    * If Ben is funny, then Ben is popular.\n    * Since a character cannot be both popular and ugly, if Ben is popular, then Ben is not ugly.\n\nIn both scenarios, if Ben is yellow, then Ben is not ugly.  If Ben is not from the Simpsons, then Ben is not yellow, and could be either ugly or not ugly. Therefore, Ben is either yellow and not ugly or not yellow.\n\n**",
+    "predicted_answer": "B**"
+  },
+  {
+    "id": "FOLIO_dev_143",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Some Heck cattle are artificially selected.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nHeck cattle were bred-back to resemble aurochs. Breeding back is a form of artificial selection. Thus, Heck cattle are artificially selected.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_144",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Aurochs are extinct.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nHeck cattle were bred-back to resemble aurochs. Some animals that are bred-back resemble animals that are extinct. This implies that aurochs are extinct.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_145",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Jerry is young.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\n* We know that \"A person either studies or teaches\" and \"Jerry neither teaches nor is a manager.\"  This means Jerry must be someone who studies.\n* Since \"If someone studies, then they are a student,\" we know Jerry is a student.\n* \"No young person teaches\" and we've established Jerry doesn't teach, but this doesn't automatically make him young. He could be an older student.\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_146",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Jerry is not young.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\n* We know that \"A person either studies or teaches\" and \"Jerry neither teaches nor is a manager.\"  This tells us Jerry must be someone who studies.\n* Since \"If someone studies, then they are a student,\" and we know Jerry studies, then Jerry must be a student.\n* We are also told \"No young person teaches.\" While this doesn't directly relate to Jerry, it's important information.\n* The statement \"Rose is young or a student\" doesn't directly provide information about Jerry.\n* Since Jerry is a student, and \"All students are humans,\" we know Jerry is human. However, none of this tells us whether Jerry is young or not. \n\n**",
+    "predicted_answer": "C) Uncertain** \n\nWe don't have enough information to determine Jerry's age."
+  },
+  {
+    "id": "FOLIO_dev_147",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Rose is a human or a manager.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\n* **Fact:** A person either studies or teaches.\n* **Fact:** Jerry neither teaches nor is a manager. \n* **Conclusion:** Therefore, Jerry must study.\n* **Fact:** If someone studies, then they are a student.\n* **Conclusion:** Since Jerry studies, he is a student.\n* **Fact:** All students are humans.\n* **Conclusion:** Since Jerry is a student, he is a human.\n* **Fact:** Rose is young or a student. \n\nNow we have two possibilities:\n\n* **Possibility 1: Rose is young.**  This doesn't tell us if she's a manager or not.\n* **Possibility 2: Rose is a student.** If she's a student, she's human (because all students are humans).\n\n**Conclusion:** Since Rose is either young (where we don't know about her job) or a student (and therefore human), we know she's *at least* human. \n\n**",
+    "predicted_answer": "A**"
+  },
+  {
+    "id": "FOLIO_dev_148",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Rose is a human or Jerry is a manager.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\n* We know that \"A person either studies or teaches\" and \"Jerry neither teaches nor is a manager.\"  Therefore, Jerry must be a student.\n* Since \"All students are humans,\" Jerry is a human.\n* The statement \"Rose is a human or Jerry is a manager\" is true because we've established that Jerry is a human. It doesn't matter whether Rose is a human or not.\n\n**",
+    "predicted_answer": "A**"
+  },
+  {
+    "id": "FOLIO_dev_149",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? It is not true that Rose is a student and Jerry is a human.",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\n1. **Jerry is a human:** We know Jerry doesn't teach and only people who study or teach exist. Therefore, Jerry must study. Since those who study are students and all students are humans, Jerry is a human.\n\n2. **Rose is a student:** We are given that Rose is young or a student. Since no young person teaches and only people who study or teach exist, if Rose is young, she must be a student. This means regardless of whether Rose is young or not, she is a student.\n\n3. **Conclusion:**  We've established Rose is a student and Jerry is human. Therefore, the statement \"It is not true that Rose is a student and Jerry is a human\" is **false**.\n\n**",
+    "predicted_answer": "B**"
+  },
+  {
+    "id": "FOLIO_dev_150",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Neapolitan Chronicles is an English book.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nNew Vessel Press publishes books in English. Neapolitan Chronicles is a book published by New Vessel Press. Therefore, Neapolitan Chronicles is an English book.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_151",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Harry Potter was published by New Vessel Press.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nWe know nothing about the book Harry Potter in the context.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_152",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Palace of Flies was translated from Italian.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nWe know that New Vessel Press specializes in translating foreign literature into English and that all of their published books are in English. We also know that Palace of Flies is a book published by New Vessel Press. However, we are not given any information about the original language of Palace of Flies.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_153",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Remy visits the office supply store regularly.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nRemy either both goes to bed late and wakes up every day after noon and spends their free time tidying and organizing the spaces in their home, or they do not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home. If people spend their free time tidying and organizing the spaces in their home, then they do not go to bed late and wake up every day after noon. This means that Remy does not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home. All people who work regularly and often at home spend their free time tidying and organizing the spaces in their homes. Therefore, Remy does not work regularly and often at home. All people who work regularly and often at home visit the office supply store regularly. Therefore, Remy does not visit the office supply store regularly.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "FOLIO_dev_154",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Remy has a fully stocked and impressive home office and also visits the office supply store regularly.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nRemy either both goes to bed late and wakes up every day after noon and spends their free time tidying and organizing the spaces in their home, or they do not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home. This means that Remy does not both go to bed late and wake up every day after noon and spend their free time tidying and organizing the spaces in their home. If people spend their free time tidying and organizing the spaces in their home, then they do not go to bed late and wake up every day after noon. This means that Remy does not spend their free time tidying and organizing the spaces in their home. All people who work regularly and often at home spend their free time tidying and organizing the spaces in their homes. Therefore, Remy does not work regularly and often at home. If people own a large desktop monitor at their home, then they work regularly and often at home. Therefore, Remy does not own a large desktop monitor at their home. All people who have a fully stocked and impressive home office are people who own a large desktop monitor at their home. Therefore, Remy does not have a fully stocked and impressive home office. All people who work regularly and often at home visit the office supply store regularly. Therefore, Remy does not visit the office supply store regularly.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "FOLIO_dev_155",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If Remy either goes to bed late and wakes up every day after noon or visits the office supply store regularly, then Remy neither spends their free time tidying and organizing the spaces in their home nor has a fully stocked and impressive home office.",
+    "answer": "A",
+    "predicted_reasoning": "Let's break down the reasoning for the third problem:\n\n**Understanding the Information:**\n\n* **Large Monitor = Home Work:** People with large desktop monitors at home work regularly and often from home.\n* **Home Office = Large Monitor:** People with impressive home offices have large desktop monitors.\n* **Home Work = Tidy Home:** People who work from home regularly spend free time tidying.\n* **Home Work = Office Supplies:** People who work from home regularly visit office supply stores.\n* **Tidy Home = Early Bird:** People who tidy their homes don't sleep in.\n* **Remy's Dilemma:** Remy either sleeps in AND tidies, OR doesn't sleep in AND doesn't tidy.\n\n**Analyzing the Statement:**\n\n\"If Remy either goes to bed late and wakes up every day after noon or visits the office supply store regularly, then Remy neither spends their free time tidying and organizing the spaces in their home nor has a fully stocked and impressive home office.\"\n\nLet's consider the two possibilities for Remy:\n\n* **Possibility 1: Remy sleeps in OR visits the office supply store.** \n    * If Remy sleeps in, they CANNOT be someone who tidies (from the \"Tidy Home = Early Bird\" rule). This part of the statement holds true.\n    * If Remy visits the office supply store, they likely work from home (\"Home Work = Office Supplies\").  People who work from home have large monitors, and those with large monitors often have impressive home offices. This part of the statement seems FALSE.\n\n* **Possibility 2: Remy doesn't sleep in AND doesn't visit the office supply store.**\n    * This scenario doesn't give us enough information to definitively say whether Remy tidies or has a home office.\n\n**Conclusion:**\n\nSince there's a possibility where the statement is false (Remy visiting the office supply store suggests they MIGHT have a home office), the statement is **Uncertain (C)**. \n\n**Important Note:** Logical reasoning questions like these can be tricky! It's crucial to carefully consider all the rules and how they connect, and to look for potential contradictions or gaps in the information.",
+    "predicted_answer": "Let's break down the reasoning for the third problem:\n\n**Understanding the Information:**\n\n* **Large Monitor = Home Work:** People with large desktop monitors at home work regularly and often from home.\n* **Home Office = Large Monitor:** People with impressive home offices have large desktop monitors.\n* **Home Work = Tidy Home:** People who work from home regularly spend free time tidying.\n* **Home Work = Office Supplies:** People who work from home regularly visit office supply stores.\n* **Tidy Home = Early Bird:** People who tidy their homes don't sleep in.\n* **Remy's Dilemma:** Remy either sleeps in AND tidies, OR doesn't sleep in AND doesn't tidy.\n\n**Analyzing the Statement:**\n\n\"If Remy either goes to bed late and wakes up every day after noon or visits the office supply store regularly, then Remy neither spends their free time tidying and organizing the spaces in their home nor has a fully stocked and impressive home office.\"\n\nLet's consider the two possibilities for Remy:\n\n* **Possibility 1: Remy sleeps in OR visits the office supply store.** \n    * If Remy sleeps in, they CANNOT be someone who tidies (from the \"Tidy Home = Early Bird\" rule). This part of the statement holds true.\n    * If Remy visits the office supply store, they likely work from home (\"Home Work = Office Supplies\").  People who work from home have large monitors, and those with large monitors often have impressive home offices. This part of the statement seems FALSE.\n\n* **Possibility 2: Remy doesn't sleep in AND doesn't visit the office supply store.**\n    * This scenario doesn't give us enough information to definitively say whether Remy tidies or has a home office.\n\n**Conclusion:**\n\nSince there's a possibility where the statement is false (Remy visiting the office supply store suggests they MIGHT have a home office), the statement is **Uncertain (C)**. \n\n**Important Note:** Logical reasoning questions like these can be tricky! It's crucial to carefully consider all the rules and how they connect, and to look for potential contradictions or gaps in the information."
+  },
+  {
+    "id": "FOLIO_dev_157",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? James has a part-time job offered by the university.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nJames is a student working in the lab. All students working in the lab are instructed by professor David. All students instructed by professor David are taking the database course. All students who take the database course are from the computer science department. No students who work in the library are from the computer science department. All students who have part-time jobs offered by the university are students who work in the library. Therefore, James does not have a part-time job offered by the university.",
+    "predicted_answer": "**B**"
+  },
+  {
+    "id": "FOLIO_dev_158",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? James does not have a part-time job offered by the university.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nJames is a student working in the lab. All students working in the lab are instructed by professor David. All students instructed by professor David are taking the database course. All students who take the database course are from the computer science department. No students who work in the library are from the computer science department. Therefore, James does not work in the library. All students who have part-time jobs offered by the university are students who work in the library. Therefore, James does not have a part-time job offered by the university.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_159",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? James either takes the database course or has a part-time job offered by the university.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nJames is a student working in the lab. All students working in the lab are instructed by professor David. Therefore, James is instructed by Professor David. All students instructed by professor David are taking the database course. Therefore, James is taking the database course.",
+    "predicted_answer": "**A**"
+  },
+  {
+    "id": "FOLIO_dev_160",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Jack takes the database course.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nAll students working in the lab are instructed by Professor David. All students instructed by Professor David are taking the database course. Therefore, all students working in the lab are taking the database course. Jack neither has a part-time job offered by the university nor works in the lab. This means Jack does not work in the lab. However, it is not certain whether Jack takes the database course.",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "FOLIO_dev_161",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If George likes music and has access to a program, he will compose.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\n* We know that if George likes music, he wants to compose. \n* We also know that if George has access to a program, he can compose.\n* Finally, if George can compose AND wants to compose, he will compose.\n\nSince George liking music makes him want to compose, and having access to a program means he can compose, both conditions for him to compose are met.\n\n**",
+    "predicted_answer": "A) True**"
+  },
+  {
+    "id": "FOLIO_dev_162",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If George will not compose, George can not compose.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nWe are given that if George can compose and wants to compose, he will compose. The contrapositive of this statement is also true: If George will not compose, then he cannot compose or he does not want to compose. Therefore, it is not necessarily true that if George will not compose, he cannot compose.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_163",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? All birds land",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\nWe know that \"some birds are hawks\". Since \"a hawk never lands\", we can conclude that there are at least some birds that never land. This directly contradicts the statement \"All birds land\".\n\n**",
+    "predicted_answer": "B) False**"
+  },
+  {
+    "id": "FOLIO_dev_164",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Breaking Bad is on Monday at 8 pm.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\nThe provided information focuses on the characteristics of reality TV shows and doesn't offer any details about the scheduling of Breaking Bad.  We only know that Breaking Bad is not a reality TV show. This tells us nothing about when it might air.\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_165",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Breaking Bad is a TV show in which roses are given out on Monday at 8 pm.",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\n* We know that roses given out on TV are on the Bachelor, and the Bachelor is a reality TV show. \n* We also know Breaking Bad is NOT a reality TV show. \n* Therefore, Breaking Bad cannot be a show where roses are given out.\n\n**",
+    "predicted_answer": "B) False**"
+  },
+  {
+    "id": "FOLIO_dev_166",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If roses are given out during Breaking Bad, then it is on Monday at 8 pm.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\nThe question's premise is flawed. We know that Breaking Bad is not a reality TV show. We also know that anything shown on \"The Bachelor\" (where roses are given out) is a reality TV show. Therefore, roses cannot be given out during Breaking Bad.  Since the initial condition is impossible, we can't determine if it happens on a Monday at 8 pm.\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_167",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Heinrich Schmidt was either German or Russian.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nWe know Heinrich Scmidt was a Nazi German politician. This implies he was German. There is no information about him being Russian. However, it is possible to be both German and Russian.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_168",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Some Nazi German politician was part of both the Prussian State Parliament and the Nazi Reichstag.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nThe context states that Heinrich Scmidt was a Nazi German politician who was a member of both the Prussian State Parliament and the Nazi Reichstag. This confirms that at least one Nazi German politician was part of both institutions.",
+    "predicted_answer": "**A) True**"
+  },
+  {
+    "id": "FOLIO_dev_169",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? No politicans are part of the Nazi Reichstag.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nWe are told Heinrich Scmidt was a politician and a member of the Nazi Reichstag. This directly contradicts the statement that \"No politicians are part of the Nazi Reichstag\".",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_170",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Colorectal cancer is a severe cancer",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nWe know that all Cholangiocarcinoma is bile duct cancer and all bile duct cancer is a severe cancer. Therefore, Cholangiocarcinoma is a severe cancer. However, we are given no information about whether colorectal cancer is a type of Cholangiocarcinoma or even a bile duct cancer. Therefore, we cannot determine whether colorectal cancer is a severe cancer.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_171",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If colorectal cancer is a bile duct cancer or a Cholangiocarcinoma, then colorectal cancer is a bile duct cancer and a mild flu.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nIf colorectal cancer is a Cholangiocarcinoma, then it is a bile duct cancer because all Cholangiocarcinoma is bile duct cancer. Therefore, if colorectal cancer is a bile duct cancer or a Cholangiocarcinoma, then colorectal cancer is a bile duct cancer. All bile duct cancer is a severe cancer, all severe cancers are deadly diseases, and all deadly diseases have a low survival rate. Therefore, if colorectal cancer is a bile duct cancer, then it has a low survival rate. If colorectal cancer is a bile duct cancer and the survival rate is low, then colorectal cancer is not a bile duct cancer. Therefore, colorectal cancer is not a bile duct cancer. This means that colorectal cancer cannot be both a bile duct cancer and a mild flu.",
+    "predicted_answer": "**B**"
+  },
+  {
+    "id": "FOLIO_dev_172",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If colorectal cancer is not a mild flu and a Cholangiocarcinoma, then colorectal cancer is a bile duct cancer or a Cholangiocarcinoma.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nAll Cholangiocarcinoma is bile duct cancer. Therefore, if colorectal cancer is a Cholangiocarcinoma, then it is a bile duct cancer. This makes the statement true as colorectal cancer would be either a bile duct cancer or a Cholangiocarcinoma. The fact that colorectal cancer is not a mild flu is irrelevant.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_173",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Taylor eats salads regularly.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nIt is either both true that Taylor grew up in a health-conscious childhood home and she has a good relationship with her parents, or it is true that Taylor neither grew up in a health-conscious childhood home nor has a good relationship with her parents. Let's consider both scenarios:\n\n* **Scenario 1:** Taylor grew up in a health-conscious childhood home and has a good relationship with her parents. If people have good relationships with their parents, then they do not eat salads regularly. Therefore, Taylor does not eat salads regularly. \n* **Scenario 2:** Taylor neither grew up in a health-conscious childhood home nor has a good relationship with her parents. All people who grew up in health-conscious childhood homes eat salads regularly. Therefore, Taylor does not eat salads regularly.\n\nIn both scenarios, we arrive at the conclusion that Taylor does not eat salads regularly.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_174",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Taylor visits the gym at least once a day.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nIt is either both true that Taylor grew up in a health-conscious childhood home and she has a good relationship with her parents, or it is true that Taylor neither grew up in a health-conscious childhood home nor has a good relationship with her parents. Let's consider both scenarios:\n\n* **Scenario 1:** Taylor grew up in a health-conscious childhood home and has a good relationship with her parents. If Taylor grew up in a health-conscious childhood home, then she eats salads regularly. If Taylor has a good relationship with her parents, then she does not eat salads regularly. This creates a contradiction, meaning this scenario is not possible.\n\n* **Scenario 2:** Taylor neither grew up in a health-conscious childhood home nor has a good relationship with her parents.  Since the first scenario is impossible, this scenario must be true. However, this scenario doesn't tell us anything about whether Taylor visits the gym at least once a day.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_175",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Taylor neither grew up in a health-conscious childhood home nor does she visit the gym at least once a day.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\n* **Fact:** It is either both true that Taylor grew up in a health-conscious childhood home and she has a good relationship with her parents, or it is true that Taylor neither grew up in a health-conscious childhood home nor has a good relationship with her parents. \n\nLet's analyze both scenarios:\n\n* **Scenario 1:** Taylor grew up in a health-conscious childhood home AND has a good relationship with her parents.\n    * If she grew up in a health-conscious home, she eats salads regularly.\n    * If she has a good relationship with her parents, she does NOT eat salads regularly. \n    * **This is a contradiction, so Scenario 1 is impossible.**\n\n* **Scenario 2:** Taylor did NOT grow up in a health-conscious childhood home AND does NOT have a good relationship with her parents.\n    * This scenario aligns with the given information and doesn't lead to any contradictions.\n\nSince Scenario 1 is impossible, we know Scenario 2 must be true. However, there is no information linking not growing up in a health-conscious home to gym attendance. \n\n**Therefore, the statement \"Taylor neither grew up in a health-conscious childhood home nor does she visit the gym at least once a day\" is uncertain (Option C).** We only know for sure that she didn't grow up in a health-conscious home.",
+    "predicted_answer": "**Reasoning:**\n\n* **Fact:** It is either both true that Taylor grew up in a health-conscious childhood home and she has a good relationship with her parents, or it is true that Taylor neither grew up in a health-conscious childhood home nor has a good relationship with her parents. \n\nLet's analyze both scenarios:\n\n* **Scenario 1:** Taylor grew up in a health-conscious childhood home AND has a good relationship with her parents.\n    * If she grew up in a health-conscious home, she eats salads regularly.\n    * If she has a good relationship with her parents, she does NOT eat salads regularly. \n    * **This is a contradiction, so Scenario 1 is impossible.**\n\n* **Scenario 2:** Taylor did NOT grow up in a health-conscious childhood home AND does NOT have a good relationship with her parents.\n    * This scenario aligns with the given information and doesn't lead to any contradictions.\n\nSince Scenario 1 is impossible, we know Scenario 2 must be true. However, there is no information linking not growing up in a health-conscious home to gym attendance. \n\n**Therefore, the statement \"Taylor neither grew up in a health-conscious childhood home nor does she visit the gym at least once a day\" is uncertain (Option C).** We only know for sure that she didn't grow up in a health-conscious home."
+  },
+  {
+    "id": "FOLIO_dev_176",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? The world championships is a sporting event.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\nThe provided context only discusses the Olympic games. There is no information about the world championships. \n\n**",
+    "predicted_answer": "C**"
+  },
+  {
+    "id": "FOLIO_dev_177",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? The last Olympic games were not in Tokyo.",
+    "answer": "B",
+    "predicted_reasoning": "The passage states that the last Olympic games were in Tokyo. Therefore, the statement \"The last Olympic games were not in Tokyo\" is false. \n\n**",
+    "predicted_answer": "B**"
+  },
+  {
+    "id": "FOLIO_dev_178",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? The United States won the most medals in the last Olympic games.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\nThe text states that the last Olympic games were in Tokyo and that the United States won the most medals in Tokyo. Therefore, the United States won the most medals in the last Olympic games. \n\n**",
+    "predicted_answer": "A**"
+  },
+  {
+    "id": "FOLIO_dev_179",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Some humans are horses.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning: All horses have hooves, and no humans have hooves. Since horses and humans do not share this defining characteristic, no humans can be horses.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_180",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Susan flies from LGA airport.",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\nWe know Susan flies to LGA, and that the departure and arrival airports cannot be the same. This means Susan must be flying from a different airport than LGA.\n\n**",
+    "predicted_answer": "B) False**"
+  },
+  {
+    "id": "FOLIO_dev_181",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? John flies to LGA airport.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nWe know John flies *from* LGA, but we have no information about his destination.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_182",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Tom is a grumpy person.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nTom is a pet owner. If someone owns a pet, then they love animals. Therefore, Tom loves animals. All animal lovers are nice to animals. Therefore, Tom is nice to animals. No one nice to animals is mean to animals. Therefore, Tom is not mean to animals. Some grumpy people are mean to animals. This statement does not provide any information about whether Tom is a grumpy person or not.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_183",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Tom is not a grumpy person and mean to animals.",
+    "answer": "A",
+    "predicted_reasoning": "**Reasoning:**\n\n1. **Tom owns a pet:** Given information.\n2. **Tom loves animals:**  \"If someone owns a pet, then they love animals.\" Since Tom owns a pet, he loves animals.\n3. **Tom is nice to animals:** \"All animal lovers are nice to animals.\" Since Tom loves animals, he is nice to animals.\n4. **No one nice to animals is mean to animals:** Given information. Since Tom is nice to animals, he cannot be mean to animals.\n5. **Some grumpy people are mean to animals:** This doesn't directly tell us if Tom is grumpy or not. \n\n**Conclusion:**\n\nWe can definitively say Tom is not mean to animals. However, we don't have enough information to determine if he's grumpy or not. \n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_184",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If Tom is not a grumpy person and mean to animals, then Tom is neither a grumpy person nor an Animal Lover.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nTom is a pet owner. If someone owns a pet, then they love animals. Therefore, Tom is an animal lover. This makes the second part of the statement \"Tom is neither a grumpy person nor an Animal Lover\" false. For a conjunction statement to be true, both parts of the statement must be true. Therefore, the entire statement is false.",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "FOLIO_dev_185",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Dani Shapiro is a novel writer.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\n\nFamily History is a novel and it is written by Dani Shapiro. If a book is a novel and it is written by a person, then the person is a novel writer. Therefore, Dani Shapiro is a novel writer.",
+    "predicted_answer": "**A**"
+  },
+  {
+    "id": "FOLIO_dev_186",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Family Secrets is a novel.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nWe know that a podcast is not a novel. We also know that Dani Shapiro created a podcast called Family Secrets. Therefore, Family Secrets is not a novel.",
+    "predicted_answer": "**B**"
+  },
+  {
+    "id": "FOLIO_dev_187",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Dani Shapiro was born in Boston.",
+    "answer": "C",
+    "predicted_reasoning": "We only know that Dani Shapiro is an American writer. Being an American writer doesn't necessarily mean she was born in Boston. She could have been born in a different American city or even become an American citizen later in life. \n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_188",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Yuri is an American.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\n* Yuri does not wear large-sized clothes. \n* We know that if someone wears large shoes, they wear large-sized clothes. Therefore, Yuri cannot wear large shoes.\n* We also know that if someone is tall, they wear large shoes. Since Yuri doesn't wear large shoes, he cannot be tall.\n* All basketball players are tall. Since Yuri is not tall, he cannot be a basketball player.\n\n*This is where the information chain stops.* \n\nWhile we know some basketball players are not American, we have no information linking Yuri's characteristics to being American or not. \n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_189",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Yuri is not an American basketball player.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nIf someone wears large shoes, they wear large-sized clothes. Yuri does not wear large-size clothes. Therefore, Yuri does not wear large shoes. If someone is tall, they wear large shoes. Therefore, Yuri is not tall. All basketball players are tall. Therefore, Yuri is not a basketball player.",
+    "predicted_answer": "**A**"
+  },
+  {
+    "id": "FOLIO_dev_190",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Yuri is an American basketball player.",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\n* Yuri does not wear large-sized clothes. \n* We know that if someone wears large shoes, they wear large-sized clothes. Therefore, Yuri does not wear large shoes.\n* We also know that if someone is tall, they wear large shoes. Since Yuri doesn't wear large shoes, Yuri is not tall.\n* All basketball players are tall. Since Yuri is not tall, Yuri is not a basketball player.\n\n**",
+    "predicted_answer": "B) False** \n\nIt is definitively false that Yuri is an American basketball player because we've deduced that Yuri is not a basketball player at all."
+  },
+  {
+    "id": "FOLIO_dev_192",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If Yuri is not an American basketball player, then Yuri is a basketball player.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nYuri does not wear large-size clothes. If someone wears large shoes, they wear large-sized clothes. Therefore, Yuri does not wear large shoes. If someone is tall, they wear large shoes. Therefore, Yuri is not tall. All basketball players are tall. Therefore, Yuri is not a basketball player.",
+    "predicted_answer": "**B**"
+  },
+  {
+    "id": "FOLIO_dev_193",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? All events are sad.",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\nWe know that at least one event is happy. Since events can be either happy or sad, this statement directly contradicts the possibility of all events being sad. \n\n**",
+    "predicted_answer": "B**"
+  },
+  {
+    "id": "FOLIO_dev_194",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Steinhauer was not the winner of the 1992 du Maurier Classic.",
+    "answer": "B",
+    "predicted_reasoning": "The passage states that the winner of the 1992 du Maurier Classic was Steinhauer.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_195",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Descampe is in the six-way tie in the leaderboard of the 1992 du Maurier Classic.",
+    "answer": "C",
+    "predicted_reasoning": "**Reasoning:**\n\nWe know there is a six-way tie on the leaderboard. We also know Descampe is from Belgium and on the leaderboard. One person in the six-way tie is from Belgium. However, we don't know if there are *other* Belgian players on the leaderboard.  It's possible there are multiple Belgian players, and Descampe is not part of the six-way tie.\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_196",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? KiKi is terricolous.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nIf KiKi neither jumps nor has legs, then KiKi is terricolous or has legs. This statement is contradictory as it suggests KiKi can be terricolous even if it doesn't have legs, directly contradicting the earlier statement \"If an animal is terricolous, then it has legs.\" Therefore, we cannot determine if KiKi is terricolous.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_197",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? KiKi barks and is a dog.",
+    "answer": "B",
+    "predicted_reasoning": "**Reasoning:**\n\nLet's break down the information step-by-step:\n\n* **Fact:** If an animal barks, then Jane does not like it.\n* **Fact:** All dogs are animals that bark. \n* **Fact:** If an animal jumps, then Jane likes it.\n* **Fact:** If an animal has legs, then it jumps.\n* **Fact:** If an animal is terricolous, then it has legs.\n* **Fact:** If KiKi neither jumps nor has legs, then KiKi is terricolous or has legs.\n\nNow let's analyze what we can infer about KiKi:\n\n1. **KiKi cannot jump and doesn't have legs:** This triggers the last statement, meaning KiKi must be either terricolous or have legs. Since these are contradictory, this scenario is impossible. Therefore, KiKi MUST either jump or have legs.\n\n2. **Consider if KiKi has legs:** If KiKi has legs, then it jumps (from the given facts). If KiKi jumps, Jane likes it. This doesn't tell us if KiKi barks or is a dog.\n\n3. **Consider if KiKi jumps (but doesn't have legs):** This scenario is less clear. We don't have information about animals that jump but don't have legs. It's possible KiKi barks, and it's possible KiKi is a dog, but we don't know for sure.\n\n**Conclusion:**\n\nWe cannot definitively say whether KiKi barks and is a dog. There are scenarios where this is possible, but we don't have enough information to confirm it.\n\n**",
+    "predicted_answer": "C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_198",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? KiKi neither barks nor is a dog.",
+    "answer": "A",
+    "predicted_reasoning": "Reasoning:\nWe know that if an animal is terricolous, then it has legs. We also know that if KiKi neither jumps nor has legs, then KiKi is terricolous or has legs. These statements contradict each other unless KiKi is not terricolous. Because KiKi is not terricolous, then KiKi must have legs. Because KiKi has legs, then KiKi jumps. Because all dogs are animals that bark and if an animal barks, then Jane does not like it, then Jane does not like dogs. We also know that if an animal jumps, then Jane likes it. Therefore, KiKi is not a dog because Jane likes KiKi.",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "FOLIO_dev_199",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? No one playing for Nautico is Brazilian.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nWe know that Ailton Silva is a Brazilian footballer who plays for Nautico. Therefore, at least one person playing for Nautico is Brazilian.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_200",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Ailton Silva foes not play for a football club.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\n\nWe know that Ailton Silva plays for Nautico, and that Nautico is a football club. Therefore, Ailton Silva plays for a football club.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_201",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Ailton was not loaned out to a football club.",
+    "answer": "B",
+    "predicted_reasoning": "Reasoning:\nWe know that Ailton was loaned out to Braga. We also know that Braga is a football club. Therefore, Ailton was loaned out to a football club.",
+    "predicted_answer": "**B) False**"
+  },
+  {
+    "id": "FOLIO_dev_202",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Ailton Silva played for Fluminense.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\nWe know that Ailton Silva plays for Nautico. There is no information provided about Ailton Silva ever playing for Fluminense. Just because Fluminense is a football club, it doesn't mean every footballer has played for them.",
+    "predicted_answer": "**C) Uncertain**"
+  },
+  {
+    "id": "FOLIO_dev_203",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Ailton Silva was loaned out to a football club.",
+    "answer": "C",
+    "predicted_reasoning": "Reasoning:\n\nAilton was loaned out to Braga. Braga is a football club. Therefore, Ailton Silva was loaned out to a football club.",
+    "predicted_answer": "**A) True**"
+  }
+]
